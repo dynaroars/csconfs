@@ -1,0 +1,81 @@
+- name: ASE
+  description: The IEEE/ACM International Conference on Automated Software Engineering
+  year: 2025
+  link: https://conf.researchr.org/home/ase-2025
+  deadline: "2025-05-30"
+  note: 
+  date: "2025-11-16"
+  place: Seoul, Korea
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: The IEEE/ACM International Conference on Software Engineering
+  year: 2026
+  link: https://conf.researchr.org/home/icse-2026
+  deadline: "2025-07-18"
+  note: Second Cycle
+  date: "2026-04-12"
+  place: Rio De Janeiro, Brazil
+  acceptance_rate:
+  num_submission:
+
+- name: FSE
+  description: 
+  year: 2026
+  link: https://conf.researchr.org/home/fse-2026
+  deadline: "2025-09-11"
+  note: 
+  date: "2026-07-06"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+  
+# - name: ICSE
+#   description: The IEEE/ACM International Conference on Software Engineering
+#   year: 2025
+#   link: https://conf.researchr.org/home/icse-2025
+#   deadline: "2024-08-02"
+#   note: Second Cycle
+#   date: "2025-04-27"
+#   place: Ontario, Canada
+#   acceptance_rate:
+#   num_submission:
+
+
+- name: POPL
+  description: 
+  year: 2026
+  link: https://conf.researchr.org/home/POPL-2026
+  deadline: "2025-07-10"
+  note: 
+  date: "2026-01-11"
+  place: Rennes, France
+  acceptance_rate:
+  num_submission:
+  
+  
+- name: NIPS
+  description: 
+  year: 2025
+  link: https://neurips.cc/Conferences/2025
+  deadline: "2025-05-15"
+  note: 
+  date: "2025-12-02"
+  place: San Diego, CA
+  acceptance_rate:
+  num_submission:
+
+
+
+# - name: 
+#   description: 
+#   year: 
+#   link: 
+#   deadline: 
+#   note: 
+#   date: 
+#   place: 
+#   acceptance_rate:
+#   num_submission:
+  

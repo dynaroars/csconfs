@@ -44,7 +44,7 @@
 
 
 - name: POPL
-  description: 
+  description: ACM SIGPLAN Symposium on Principles of Programming Languages
   year: 2026
   link: https://conf.researchr.org/home/POPL-2026
   deadline: "2025-07-10"
@@ -55,6 +55,18 @@
   num_submission:
   
   
+- name: CAV
+  description: International Conference on Computer Aided Verification
+  year: 2025
+  link: https://conferences.i-cav.org/2025/
+  deadline: "2025-01-31"
+  note: 
+  date: "2025-07-21"
+  place: Zagreb, Croatia
+  acceptance_rate:
+  num_submission:
+
+
 - name: NIPS
   description: 
   year: 2025

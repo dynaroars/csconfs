@@ -65,7 +65,7 @@
   num_submission:
 
 
-  - name: FSE
+- name: FSE
   description: Foundations of Software Engineering
   year: 2023
   link: https://conf.researchr.org/home/fse-2023

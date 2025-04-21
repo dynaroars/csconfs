@@ -64,6 +64,30 @@
   acceptance_rate:
   num_submission:
 
+
+  - name: FSE
+  description: Foundations of Software Engineering
+  year: 2023
+  link: https://conf.researchr.org/home/fse-2023
+  deadline: "2023-02-2"
+  note: 
+  date: "2023-12-3"
+  place: San Francisco, CA
+  acceptance_rate:
+  num_submission:
+
+- name: FSE
+  description: Foundations of Software Engineering
+  year: 2022
+  link: https://conf.researchr.org/home/fse-2022
+  deadline: "2022-03-17"
+  note: 
+  date: "2022-11-18"
+  place: Singapore
+  acceptance_rate:
+  num_submission:  
+
+
 - name: POPL
   description: Principles of Programming Languages
   year: 2026

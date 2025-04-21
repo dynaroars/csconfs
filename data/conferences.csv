@@ -1,10 +1,49 @@
 Conference,ConferenceTitle,Area,AreaTitle,ParentArea,NextTier
 aaai,AAAI,ai,Artificial intelligence,AI,false
 ijcai,IJCAI,ai,Artificial intelligence,AI,false
+cvpr,CVPR,vision,Computer vision,AI,false
+eccv,ECCV,vision,Computer vision,AI,false
+iccv,ICCV,vision,Computer vision,AI,false
 icml,ICML,mlmining,Machine learning,AI,false
 iclr,ICLR,mlmining,Machine learning,AI,false
 kdd,KDD,mlmining,Machine learning,AI,true
 nips,NIPS,mlmining,Machine learning,AI,false
+acl,ACL,nlp,Natural language processing,AI,false
+emnlp,EMNLP,nlp,Natural language processing,AI,false
+naacl,NAACL,nlp,Natural language processing,AI,false
+sigir,SIGIR,inforet,The Web & information retrieval,AI,false
+www,WWW,inforet,The Web & information retrieval,AI,false
+asplos,ASPLOS,arch,Computer architecture,Systems,false
+isca,ISCA,arch,Computer architecture,Systems,false
+micro,MICRO,arch,Computer architecture,Systems,false
+hpca,HPCA,arch,Computer architecture,Systems,true
+ccs,CCS,sec,Computer security,Systems,false
+oakland,Oakland,sec,Computer security,Systems,false
+usenixsec,USENIXSEC,sec,Computer security,Systems,false
+ndss,NDSS,sec,Computer security,Systems,true
+pets,PETS,sec,Computer security,Systems,true
+vldb,VLDB,mod,Databases,Systems,false
+sigmod,SIGMOD,mod,Databases,Systems,false
+icde,ICDE,mod,Databases,Systems,true
+pods,PODS,mod,Databases,Systems,true
+dac,DAC,da,Design automation,Systems,false
+iccad,ICCAD,da,Design automation,Systems,false
+emsoft,EMSsoft,bed,Embedded & real-time systems,Systems,false
+rtas,RTAS,bed,Embedded & real-time systems,Systems,false
+rtss,RTSS,bed,Embedded & real-time systems,Systems,false
+sc,SC,hpc,High-performance computing,Systems,false
+hpdc,HPDC,hpc,High-performance computing,Systems,false
+ics,ICS,hpc,High-performance computing,Systems,false
+mobicom,Mobicom,mobile,Mobile computing,Systems,false
+mobisys,Mobisys,mobile,Mobile computing,Systems,false
+sensys,Sensys,mobile,Mobile computing,Systems,false
+imc,IMC,metrics,Measurement & perf. analysis,Systems,false
+sigmetrics,SIGMETRICS,metrics,Measurement & perf. analysis,Systems,false
+osdi,OSDI,ops,Operating systems,Systems,false
+sosp,SOSP,ops,Operating systems,Systems,false
+eurosys,Eurosys,ops,Operating systems,Systems,true
+fast,FAST,ops,Operating systems,Systems,true
+usenixatc,USENIXATC,ops,Operating systems,Systems,true
 popl,POPL,plan,Programming languages,Systems,false
 pldi,PLDI,plan,Programming languages,Systems,false
 oopsla,OOPSLA,plan,Programming languages,Systems,true
@@ -13,11 +52,28 @@ fse,FSE,soft,Software engineering,Systems,false
 icse,ICSE,soft,Software engineering,Systems,false
 ase,ASE,soft,Software engineering,Systems,true
 issta,ISSTA,soft,Software engineering,Systems,true
+nsdi,NSDI,comm,Computer networks,Systems,false
+sigcomm,SIGCOMM,comm,Computer networks,Systems,false
+siggraph,SIGGRAPH,graph,Computer graphics,Interdisciplinary Areas,false
+siggraph-asia,SIGGRAPH ASIA,graph,Computer graphics,Interdisciplinary Areas,false
+eurographics,EUROGRAPHICS,graph,Computer graphics,Interdisciplinary Areas,true
 focs,FOCS,act,Algorithms & complexity,Theory,false
 soda,SODA,act,Algorithms & complexity,Theory,false
 stoc,STOC,act,Algorithms & complexity,Theory,false
+crypto,CRYPTO,crypt,Cryptography,Theory,false
+eurocrypt,EUROCRYPT,crypt,Cryptography,Theory,false
 cav,CAV,log,Logic & verification,Theory,false
 lics,LICS,log,Logic & verification,Theory,false
-acl,ACL,nlp,Natural language processing,AI,false
-emnlp,EMNLP,nlp,Natural language processing,AI,false
-naacl,NAACL,nlp,Natural language processing,AI,false
+ismb,ISMB,bio,Comp. bio & bioinformatics,Interdisciplinary Areas,false
+recomb,RECOMB,bio,Comp. bio & bioinformatics,Interdisciplinary Areas,false
+ec,EC,ecom,Economics & computation,Interdisciplinary Areas,false
+wine,WINE,ecom,Economics & computation,Interdisciplinary Areas,false
+chiconf,CHIConf,chi,Human-computer interaction,Interdisciplinary Areas,false
+ubicomp,Ubicomp,chi,Human-computer interaction,Interdisciplinary Areas,false
+uist,UIST,chi,Human-computer interaction,Interdisciplinary Areas,false
+icra,ICRA,robotics,Robotics,Interdisciplinary Areas,false
+iros,IROS,robotics,Robotics,Interdisciplinary Areas,false
+rss,RSS,robotics,Robotics,Interdisciplinary Areas,false
+vis,VIS,visualization,Visualization,Interdisciplinary Areas,false
+vr,VR,visualization,Visualization,Interdisciplinary Areas,false
+sigcse,SIGCSE,csed,Computer science education,Interdisciplinary Areas,false

@@ -31,16 +31,16 @@
   acceptance_rate:
   num_submission:
   
-# - name: ICSE
-#   description: The IEEE/ACM International Conference on Software Engineering
-#   year: 2025
-#   link: https://conf.researchr.org/home/icse-2025
-#   deadline: "2024-08-02"
-#   note: Second Cycle
-#   date: "2025-04-27"
-#   place: Ontario, Canada
-#   acceptance_rate:
-#   num_submission:
+- name: ICSE
+  description: The IEEE/ACM International Conference on Software Engineering
+  year: 2025
+  link: https://conf.researchr.org/home/icse-2025
+  deadline: "2024-08-02"
+  note: Second Cycle
+  date: "2025-04-27"
+  place: Ontario, Canada
+  acceptance_rate:
+  num_submission:
 
 
 - name: POPL

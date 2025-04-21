@@ -1,5 +1,5 @@
 - name: ASE
-  description: The IEEE/ACM International Conference on Automated Software Engineering
+  description: Automated Software Engineering
   year: 2025
   link: https://conf.researchr.org/home/ase-2025
   deadline: "2025-05-30"
@@ -10,7 +10,7 @@
   num_submission:
 
 - name: ICSE
-  description: The IEEE/ACM International Conference on Software Engineering
+  description: International Conference on Software Engineering
   year: 2026
   link: https://conf.researchr.org/home/icse-2026
   deadline: "2025-07-18"
@@ -21,7 +21,7 @@
   num_submission:
 
 - name: FSE
-  description: 
+  description: Foundations of Software Engineering
   year: 2026
   link: https://conf.researchr.org/home/fse-2026
   deadline: "2025-09-11"
@@ -32,7 +32,7 @@
   num_submission:
   
 - name: ICSE
-  description: The IEEE/ACM International Conference on Software Engineering
+  description: International Conference on Software Engineering
   year: 2025
   link: https://conf.researchr.org/home/icse-2025
   deadline: "2024-08-02"
@@ -42,9 +42,8 @@
   acceptance_rate:
   num_submission:
 
-
 - name: POPL
-  description: ACM SIGPLAN Symposium on Principles of Programming Languages
+  description: Principles of Programming Languages
   year: 2026
   link: https://conf.researchr.org/home/POPL-2026
   deadline: "2025-07-10"
@@ -56,7 +55,7 @@
   
   
 - name: CAV
-  description: International Conference on Computer Aided Verification
+  description: Computer Aided Verification
   year: 2025
   link: https://conferences.i-cav.org/2025/
   deadline: "2025-01-31"
@@ -68,7 +67,7 @@
 
 
 - name: NIPS
-  description: 
+  description: Neural Information Processing Systems
   year: 2025
   link: https://neurips.cc/Conferences/2025
   deadline: "2025-05-15"

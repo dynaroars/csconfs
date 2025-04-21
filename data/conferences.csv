@@ -7,7 +7,7 @@ iccv,ICCV,vision,Computer vision,AI,false
 icml,ICML,mlmining,Machine learning,AI,false
 iclr,ICLR,mlmining,Machine learning,AI,false
 kdd,KDD,mlmining,Machine learning,AI,true
-nips,NIPS,mlmining,Machine learning,AI,false
+neurips,NeurIPS,mlmining,Machine learning,AI,false
 acl,ACL,nlp,Natural language processing,AI,false
 emnlp,EMNLP,nlp,Natural language processing,AI,false
 naacl,NAACL,nlp,Natural language processing,AI,false

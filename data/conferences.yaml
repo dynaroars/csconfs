@@ -20,7 +20,7 @@
   acceptance_rate:
   num_submission:
 
-  - name: ICSE
+- name: ICSE
   description: International Conference on Software Engineering
   year: 2025
   link: https://conf.researchr.org/home/icse-2025
@@ -42,19 +42,18 @@
   acceptance_rate:
   num_submission:
 
-  - name: FSE
+- name: FSE
   description: Foundations of Software Engineering
   year: 2025
   link: https://conf.researchr.org/home/fse-2025
   deadline: "2024-09-12"
   note: 
-  date: "2026-06-27"
+  date: "2025-06-23"
   place: Trondheim, Norway
   acceptance_rate:
   num_submission:
 
-
-  - name: FSE
+- name: FSE
   description: Foundations of Software Engineering
   year: 2024
   link: https://conf.researchr.org/home/fse-2024
@@ -100,7 +99,6 @@
   acceptance_rate:
   num_submission:
   
-  
 - name: CAV
   description: Computer Aided Verification
   year: 2025
@@ -112,8 +110,7 @@
   acceptance_rate:
   num_submission:
 
-
-- name: NIPS
+- name: NeurIPS
   description: Neural Information Processing Systems
   year: 2025
   link: https://neurips.cc/Conferences/2025

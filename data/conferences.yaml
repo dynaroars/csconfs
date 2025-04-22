@@ -1,3 +1,542 @@
+# AI
+
+## Artificial Intelligence
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2025
+  link: https://aaai.org/conference/aaai/aaai-25/
+  deadline: "2024-08-15"
+  note: Abstracts due August 7, 2024
+  date: "2025-02-10"
+  place: Philadelphia, PA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2024
+  link: https://aaai.org/conference/aaai/aaai-24/
+  deadline: "2023-08-15"
+  note: Abstracts due August 7, 2023
+  date: "2024-02-20"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2023
+  link: https://aaai-23.aaai.org/
+  deadline: "2022-08-15"
+  note: Abstracts due August 8, 2022
+  date: "2023-02-07"
+  place: Washington, DC, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2022
+  link: https://aaai.org/conference/aaai/aaai-22/
+  deadline: "2021-08-30"
+  note:
+  date: "2022-02-22"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2021
+  link: https://aaai.org/conference/aaai/aaai-21/
+  deadline: "2020-08-30"
+  note:
+  date: "2021-02-02"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2020
+  link: https://aaai.org/conference/aaai/aaai-20/
+  deadline: "2019-09-05"
+  note:
+  date: "2020-02-07"
+  place: New York, NY, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2019
+  link: https://www.openresearch.org/wiki/AAAI_2019
+  deadline: "2018-09-05"
+  note:
+  date: "2019-01-27"
+  place: Honolulu, HI, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2018
+  link: https://www.openresearch.org/wiki/AAAI_2018
+  deadline: "2017-09-08"
+  note:
+  date: "2018-02-02"
+  place: New Orleans, LA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2017
+  link: https://aaai.org/conference/aaai/aaai17/
+  deadline: "2016-09-14"
+  note:
+  date: "2017-02-04"
+  place: San Francisco, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2016
+  link: https://aaai.org/conference/aaai/aaai16/
+  deadline: "2015-09-10"
+  note:
+  date: "2016-02-12"
+  place: Phoenix, AZ, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2015
+  link: https://aaai.org/conference/aaai/aaai15/
+  deadline: "2014-09-10"
+  note:
+  date: "2015-01-25"
+  place: Austin, TX, USA
+  acceptance_rate:
+  num_submission:
+
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2025
+  link: https://2025.ijcai.org/
+  deadline: "2025-01-23"
+  note: "Abstract deadline: 2025-01-16"
+  date: "2025-08-16"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2024
+  link: https://ijcai24.org/
+  deadline: "2024-01-17"
+  note: "Abstract deadline: 2024-01-10"
+  date: "2024-08-03"
+  place: Jeju, South Korea
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2023
+  link: https://ijcai-23.org/
+  deadline: "2023-01-18"
+  note: "Abstract deadline: 2023-01-11"
+  date: "2023-08-19"
+  place: Cape Town, South Africa
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2022
+  link: https://ijcai-22.org/
+  deadline: "2022-01-07"
+  note:
+  date: "2022-07-23"
+  place: Vienna, Austria
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2021
+  link: https://ijcai-21.org/
+  deadline: "2021-01-20"
+  note: "Abstract deadline: 2021-01-13"
+  date: "2021-08-21"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2020
+  link: https://ijcai20.org/
+  deadline: "2020-01-21"
+  note: "Abstract deadline: 2020-01-15"
+  date: "2021-01-07"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2019
+  link: https://ijcai19.org/
+  deadline: "2019-02-25"
+  note:
+  date: "2019-08-10"
+  place: Macao, China
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2018
+  link: https://www.ijcai-18.org/
+  deadline: "2018-01-31"
+  note:
+  date: "2018-07-13"
+  place: Stockholm, Sweden
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2017
+  link: https://ijcai-17.org/
+  deadline: "2017-02-20"
+  note:
+  date: "2017-08-19"
+  place: Melbourne, Australia
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2016
+  link: https://ijcai-16.org/
+  deadline: "2016-02-02"
+  note: "Abstract deadline: 2016-01-27"
+  date: "2016-07-09"
+  place: New York, NY, USA
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2015
+  link: https://ijcai-15.org/
+  deadline: "2015-02-12"
+  note: "Abstract deadline: 2015-02-08"
+  date: "2015-07-25"
+  place: Buenos Aires, Argentina
+  acceptance_rate:
+  num_submission:
+
+
+## Computer Vision
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
+  year: 2025
+  link: https://cvpr.thecvf.com/Conferences/2025
+  deadline: "2024-11-14"
+  note: "Abstract deadline: 2024-11-07"
+  date: "2025-06-11"
+  place: Nashville, TN, USA
+  acceptance_rate:
+  num_submission:
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
+  year: 2024
+  link: https://cvpr.thecvf.com/Conferences/2024
+  deadline: "2023-11-17"
+  note: "Abstract deadline: 2023-11-10"
+  date: "2024-06-17"
+  place: Seattle, WA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
+  year: 2023
+  link: https://cvpr.thecvf.com/Conferences/2023
+  deadline: "2022-11-11"
+  note: "Abstract deadline: 2022-11-04"
+  date: "2023-06-18"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
+  year: 2022
+  link: https://cvpr.thecvf.com/Conferences/2022
+  deadline: "2021-11-16"
+  note: "Abstract deadline: 2021-11-09"
+  date: "2022-06-19"
+  place: New Orleans, LA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
+  year: 2021
+  link: https://cvpr.thecvf.com/Conferences/2021
+  deadline: "2020-11-16"
+  note: "Abstract deadline: 2020-11-09"
+  date: "2021-06-19"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
+  year: 2020
+  link: https://cvpr.thecvf.com/Conferences/2020
+  deadline: "2019-11-15"
+  note: "Abstract deadline: 2019-11-08"
+  date: "2020-06-14"
+  place: Seattle, WA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
+  year: 2019
+  link: https://cvpr2019.thecvf.com/
+  deadline: "2018-11-16"
+  note: "Abstract deadline: 2018-11-09"
+  date: "2019-06-16"
+  place: Long Beach, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
+  year: 2018
+  link: https://cvpr2018.thecvf.com/
+  deadline: "2017-11-15"
+  note: "Abstract deadline: 2017-11-08"
+  date: "2018-06-18"
+  place: Salt Lake City, UT, USA
+  acceptance_rate:
+  num_submission:
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
+  year: 2017
+  link: https://cvpr2017.thecvf.com/
+  deadline: "2016-11-16"
+  note: "Abstract deadline: 2016-11-09"
+  date: "2017-07-21"
+  place: Honolulu, HI, USA
+  acceptance_rate:
+  num_submission:
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
+  year: 2016
+  link: https://cvpr2016.thecvf.com/
+  deadline: "2015-11-16"
+  note: "Abstract deadline: 2015-11-09"
+  date: "2016-06-27"
+  place: Las Vegas, NV, USA
+  acceptance_rate:
+  num_submission:
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
+  year: 2015
+  link: https://cvpr2015.thecvf.com/
+  deadline: "2014-11-14"
+  note: "Abstract deadline: 2014-11-07"
+  date: "2015-06-07"
+  place: Boston, MA, USA
+  acceptance_rate:
+  num_submission:
+
+
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2024
+  link: https://eccv2024.ecva.net
+  deadline: "2024-03-07"
+  note: "Abstract deadline: 2024-02-29"
+  date: "2024-09-29"
+  place: Milan, Italy
+  acceptance_rate:
+  num_submission:
+
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2022
+  link: https://eccv2022.ecva.net
+  deadline: "2022-03-07"
+  note: "No separate abstract deadline"
+  date: "2022-10-24"
+  place: Tel Aviv, Israel
+  acceptance_rate:
+  num_submission:
+
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2020
+  link: https://eccv2020.eu
+  deadline: "2020-03-05"
+  note: "Abstract deadline: 2020-02-27"
+  date: "2020-08-23"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2018
+  link: https://eccv2018.org
+  deadline: "2018-03-14"
+  note: "Abstract deadline: 2018-03-07"
+  date: "2018-09-08"
+  place: Munich, Germany
+  acceptance_rate:
+  num_submission:
+
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2016
+  link: https://eccv2016.org
+  deadline: "2016-03-07"
+  note: "Abstract deadline: 2016-02-29"
+  date: "2016-10-08"
+  place: Amsterdam, Netherlands
+  acceptance_rate:
+  num_submission:
+
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2014
+  link: https://eccv2014.org
+  deadline: "2014-03-14"
+  note: "Abstract deadline: 2014-03-07"
+  date: "2014-09-06"
+  place: Zurich, Switzerland
+  acceptance_rate:
+  num_submission:
+
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2012
+  link: https://eccv2012.org
+  deadline: "2012-03-14"
+  note: "Abstract deadline: 2012-03-07"
+  date: "2012-10-07"
+  place: Florence, Italy
+  acceptance_rate:
+  num_submission:
+
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2010
+  link: https://eccv2010.org
+  deadline: "2010-03-14"
+  note: "Abstract deadline: 2010-03-07"
+  date: "2010-09-05"
+  place: Heraklion, Greece
+  acceptance_rate:
+  num_submission:
+
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2008
+  link: https://eccv2008.org
+  deadline: "2008-03-14"
+  note: "Abstract deadline: 2008-03-07"
+  date: "2008-10-12"
+  place: Marseille, France
+  acceptance_rate:
+  num_submission:
+
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2006
+  link: https://eccv2006.org
+  deadline: "2006-03-14"
+  note: "Abstract deadline: 2006-03-07"
+  date: "2006-05-07"
+  place: Graz, Austria
+  acceptance_rate:
+  num_submission:
+
+- name: ICCV
+  description: International Conference on Computer Vision
+  year: 2023
+  link: https://iccv2023.thecvf.com/
+  deadline: "2023-03-08"
+  note: "Abstract deadline: 2023-03-01"
+  date: "2023-10-02"
+  place: Paris, France
+  acceptance_rate:
+  num_submission:
+
+- name: ICCV
+  description: International Conference on Computer Vision
+  year: 2021
+  link: https://iccv2021.thecvf.com/
+  deadline: "2021-03-17"
+  note: "Abstract deadline: 2021-03-10"
+  date: "2021-10-11"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: ICCV
+  description: International Conference on Computer Vision
+  year: 2019
+  link: https://iccv2019.thecvf.com/
+  deadline: "2019-03-22"
+  note: "Abstract deadline: 2019-03-15"
+  date: "2019-10-27"
+  place: Seoul, South Korea
+  acceptance_rate:
+  num_submission:
+
+- name: ICCV
+  description: International Conference on Computer Vision
+  year: 2017
+  link: https://iccv2017.thecvf.com/
+  deadline: "2017-03-17"
+  note: "Abstract deadline: 2017-03-10"
+  date: "2017-10-22"
+  place: Venice, Italy
+  acceptance_rate:
+  num_submission:
+
+- name: ICCV
+  description: International Conference on Computer Vision
+  year: 2015
+  link: https://iccv2015.thecvf.com/
+  deadline: "2015-04-22"
+  note: "Abstract deadline: 2015-04-15"
+  date: "2015-12-07"
+  place: Santiago, Chile
+  acceptance_rate:
+  num_submission:
+
+
+# Systems
+## Software Engineering
 - name: ASE
   description: Automated Software Engineering
   year: 2025
@@ -157,9 +696,9 @@
   description: Foundations of Software Engineering
   year: 2023
   link: https://conf.researchr.org/home/fse-2023
-  deadline: "2023-02-2"
+  deadline: "2023-02-02"
   note: 
-  date: "2023-12-3"
+  date: "2023-12-03"
   place: San Francisco, CA
   acceptance_rate:
   num_submission:
@@ -1116,249 +1655,6 @@
   acceptance_rate:
   num_submission:
 
-
-- name: AAAI
-  description: AAAI Conference on Artificial Intelligence
-  year: 2025
-  link: https://aaai.org/conference/aaai/aaai-25/
-  deadline: "2024-08-15"
-  note: Abstracts due August 7, 2024
-  date: "2025-02-10"
-  place: Philadelphia, PA, USA
-  acceptance_rate:
-  num_submission:
-
-- name: AAAI
-  description: AAAI Conference on Artificial Intelligence
-  year: 2024
-  link: https://aaai.org/conference/aaai/aaai-24/
-  deadline: "2023-08-15"
-  note: Abstracts due August 7, 2023
-  date: "2024-02-20"
-  place: Vancouver, Canada
-  acceptance_rate:
-  num_submission:
-
-- name: AAAI
-  description: AAAI Conference on Artificial Intelligence
-  year: 2023
-  link: https://aaai-23.aaai.org/
-  deadline: "2022-08-15"
-  note: Abstracts due August 8, 2022
-  date: "2023-02-07"
-  place: Washington, DC, USA
-  acceptance_rate:
-  num_submission:
-
-- name: AAAI
-  description: AAAI Conference on Artificial Intelligence
-  year: 2022
-  link: https://aaai.org/conference/aaai/aaai-22/
-  deadline: "2021-08-30"
-  note:
-  date: "2022-02-22"
-  place: Virtual Conference
-  acceptance_rate:
-  num_submission:
-
-- name: AAAI
-  description: AAAI Conference on Artificial Intelligence
-  year: 2021
-  link: https://aaai.org/conference/aaai/aaai-21/
-  deadline: "2020-08-30"
-  note:
-  date: "2021-02-02"
-  place: Virtual Conference
-  acceptance_rate:
-  num_submission:
-
-- name: AAAI
-  description: AAAI Conference on Artificial Intelligence
-  year: 2020
-  link: https://aaai.org/conference/aaai/aaai-20/
-  deadline: "2019-09-05"
-  note:
-  date: "2020-02-07"
-  place: New York, NY, USA
-  acceptance_rate:
-  num_submission:
-
-- name: AAAI
-  description: AAAI Conference on Artificial Intelligence
-  year: 2019
-  link: https://www.openresearch.org/wiki/AAAI_2019
-  deadline: "2018-09-05"
-  note:
-  date: "2019-01-27"
-  place: Honolulu, HI, USA
-  acceptance_rate:
-  num_submission:
-
-- name: AAAI
-  description: AAAI Conference on Artificial Intelligence
-  year: 2018
-  link: https://www.openresearch.org/wiki/AAAI_2018
-  deadline: "2017-09-08"
-  note:
-  date: "2018-02-02"
-  place: New Orleans, LA, USA
-  acceptance_rate:
-  num_submission:
-
-- name: AAAI
-  description: AAAI Conference on Artificial Intelligence
-  year: 2017
-  link: https://aaai.org/conference/aaai/aaai17/
-  deadline: "2016-09-14"
-  note:
-  date: "2017-02-04"
-  place: San Francisco, CA, USA
-  acceptance_rate:
-  num_submission:
-
-- name: AAAI
-  description: AAAI Conference on Artificial Intelligence
-  year: 2016
-  link: https://aaai.org/conference/aaai/aaai16/
-  deadline: "2015-09-10"
-  note:
-  date: "2016-02-12"
-  place: Phoenix, AZ, USA
-  acceptance_rate:
-  num_submission:
-
-- name: AAAI
-  description: AAAI Conference on Artificial Intelligence
-  year: 2015
-  link: https://aaai.org/conference/aaai/aaai15/
-  deadline: "2014-09-10"
-  note:
-  date: "2015-01-25"
-  place: Austin, TX, USA
-  acceptance_rate:
-  num_submission:
-
-
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2025
-  link: https://2025.ijcai.org/
-  deadline: "2025-01-23"
-  note: "Abstract deadline: 2025-01-16"
-  date: "2025-08-16"
-  place: Montreal, Canada
-  acceptance_rate:
-  num_submission:
-
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2024
-  link: https://ijcai24.org/
-  deadline: "2024-01-17"
-  note: "Abstract deadline: 2024-01-10"
-  date: "2024-08-03"
-  place: Jeju, South Korea
-  acceptance_rate:
-  num_submission:
-
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2023
-  link: https://ijcai-23.org/
-  deadline: "2023-01-18"
-  note: "Abstract deadline: 2023-01-11"
-  date: "2023-08-19"
-  place: Cape Town, South Africa
-  acceptance_rate:
-  num_submission:
-
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2022
-  link: https://ijcai-22.org/
-  deadline: "2022-01-07"
-  note:
-  date: "2022-07-23"
-  place: Vienna, Austria
-  acceptance_rate:
-  num_submission:
-
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2021
-  link: https://ijcai-21.org/
-  deadline: "2021-01-20"
-  note: "Abstract deadline: 2021-01-13"
-  date: "2021-08-21"
-  place: Montreal, Canada
-  acceptance_rate:
-  num_submission:
-
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2020
-  link: https://ijcai20.org/
-  deadline: "2020-01-21"
-  note: "Abstract deadline: 2020-01-15"
-  date: "2021-01-07"
-  place: Virtual Conference
-  acceptance_rate:
-  num_submission:
-
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2019
-  link: https://ijcai19.org/
-  deadline: "2019-02-25"
-  note:
-  date: "2019-08-10"
-  place: Macao, China
-  acceptance_rate:
-  num_submission:
-
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2018
-  link: https://www.ijcai-18.org/
-  deadline: "2018-01-31"
-  note:
-  date: "2018-07-13"
-  place: Stockholm, Sweden
-  acceptance_rate:
-  num_submission:
-
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2017
-  link: https://ijcai-17.org/
-  deadline: "2017-02-20"
-  note:
-  date: "2017-08-19"
-  place: Melbourne, Australia
-  acceptance_rate:
-  num_submission:
-
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2016
-  link: https://ijcai-16.org/
-  deadline: "2016-02-02"
-  note: "Abstract deadline: 2016-01-27"
-  date: "2016-07-09"
-  place: New York, NY, USA
-  acceptance_rate:
-  num_submission:
-
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2015
-  link: https://ijcai-15.org/
-  deadline: "2015-02-12"
-  note: "Abstract deadline: 2015-02-08"
-  date: "2015-07-25"
-  place: Buenos Aires, Argentina
-  acceptance_rate:
-  num_submission:
 
 - name: ICML
   description: International Conference on Machine Learning

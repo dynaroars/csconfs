@@ -2538,11 +2538,27 @@
   description: ACM Conference on Computer and Communications Security
   year: 2025
   link: https://www.sigsac.org/ccs/CCS2025/
-  deadline: "2025-05-15"
-  note: 
-  abstract_deadline: "2025-05-08"
-  date: "2025-11-10"
-  place: TBD
+  abstract_deadline: "2025-04-07"
+  deadline: "2025-04-14"
+  notification_date: "2025-07-01"
+  note: Cycle 2/2
+  date: "2025-10-13"
+  place: Taipei, Taiwan
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2025
+  link: https://www.sigsac.org/ccs/CCS2025/
+  deadline: "2025-01-09"
+  notification_date: "2025-03-28"
+  note: Cycle 1/2
+  abstract_deadline: "2025-01-02"
+  date: "2025-10-13"
+  place: Taipei, Taiwan
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2813,7 +2829,146 @@
   num_submission: 
   general_chair: 
   program_chair: 
-  
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2025
+  link: https://www.usenix.org/conference/usenixsecurity25
+  deadline: "2025-02-15"
+  note: 
+  abstract_deadline: "2025-02-08"
+  date: "2025-08-12"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2024
+  link: https://www.usenix.org/conference/usenixsecurity24
+  deadline: "2024-02-15"
+  note: 
+  abstract_deadline: "2024-02-08"
+  date: "2024-08-14"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2023
+  link: https://www.usenix.org/conference/usenixsecurity23
+  deadline: "2023-02-15"
+  note: 
+  abstract_deadline: "2023-02-08"
+  date: "2023-08-09"
+  place: Anaheim, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2022
+  link: https://www.usenix.org/conference/usenixsecurity22
+  deadline: "2022-02-15"
+  note: 
+  abstract_deadline: "2022-02-08"
+  date: "2022-08-10"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2021
+  link: https://www.usenix.org/conference/usenixsecurity21
+  deadline: "2021-02-15"
+  note: 
+  abstract_deadline: "2021-02-08"
+  date: "2021-08-11"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2020
+  link: https://www.usenix.org/conference/usenixsecurity20
+  deadline: "2020-02-15"
+  note: 
+  abstract_deadline: "2020-02-08"
+  date: "2020-08-12"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2019
+  link: https://www.usenix.org/conference/usenixsecurity19
+  deadline: "2019-02-15"
+  note: 
+  abstract_deadline: "2019-02-08"
+  date: "2019-08-14"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2018
+  link: https://www.usenix.org/conference/usenixsecurity18
+  deadline: "2018-02-15"
+  note: 
+  abstract_deadline: "2018-02-08"
+  date: "2018-08-15"
+  place: Baltimore, MD, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2017
+  link: https://www.usenix.org/conference/usenixsecurity17
+  deadline: "2017-02-15"
+  note: 
+  abstract_deadline: "2017-02-08"
+  date: "2017-08-16"
+  place: Vancouver, BC, Canada
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2016
+  link: https://www.usenix.org/conference/usenixsecurity16
+  deadline: "2016-02-15"
+  note: 
+  abstract_deadline: "2016-02-08"
+  date: "2016-08-10"
+  place: Austin, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair:   
 ## Databases
 
 ## Design and Automation

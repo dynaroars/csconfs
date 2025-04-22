@@ -739,8 +739,9 @@
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2025
   link: https://kdd2025.kdd.org/
+  abstract_deadline: "2025-02-03"
   deadline: "2025-02-10"
-  note: "Second cycle; Abstract deadline: 2025-02-03"
+  note: Cycle 2/2
   date: "2025-08-03"
   place: Toronto, Canada
   acceptance_rate:
@@ -2969,6 +2970,146 @@
   num_submission: 
   general_chair: 
   program_chair:   
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2025
+  link: https://www.ndss-symposium.org/ndss2025/
+  deadline: "2024-09-15"
+  note: 
+  abstract_deadline: "2024-09-08"
+  date: "2025-02-24"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: David Balenson, Heng Yin
+  program_chair: Christina Pöpper, Hamed Okhravi
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2024
+  link: https://www.ndss-symposium.org/ndss2024/
+  deadline: "2023-09-15"
+  note: 
+  abstract_deadline: "2023-09-08"
+  date: "2024-02-26"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Cristina Nita-Rotaru, Yongdae Kim
+  program_chair: Mathias Payer, Christina Pöpper
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2023
+  link: https://www.ndss-symposium.org/ndss2023/
+  deadline: "2022-09-15"
+  note: 
+  abstract_deadline: "2022-09-08"
+  date: "2023-02-27"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Carrie Gates, Cristina Nita-Rotaru
+  program_chair: Wenyuan Xu, Mathias Payer
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2022
+  link: https://www.ndss-symposium.org/ndss2022/
+  deadline: "2021-09-15"
+  note: 
+  abstract_deadline: "2021-09-08"
+  date: "2022-02-21"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Carrie Gates
+  program_chair: Farinaz Koushanfar, Wenyuan Xu
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2021
+  link: https://www.ndss-symposium.org/ndss2021/
+  deadline: "2020-09-15"
+  note: 
+  abstract_deadline: "2020-09-08"
+  date: "2021-02-21"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Trent Jaeger
+  program_chair: Ahmad-Reza Sadeghi, Farinaz Koushanfar
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2020
+  link: https://www.ndss-symposium.org/ndss2020/
+  deadline: "2019-09-15"
+  note: 
+  abstract_deadline: "2019-09-08"
+  date: "2020-02-23"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Trent Jaeger
+  program_chair: Ahmad-Reza Sadeghi, Dongyan Xu
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2019
+  link: https://www.ndss-symposium.org/ndss2019/
+  deadline: "2018-09-15"
+  note: 
+  abstract_deadline: "2018-09-08"
+  date: "2019-02-24"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Trent Jaeger
+  program_chair: Alina Oprea, Dongyan Xu
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2018
+  link: https://www.ndss-symposium.org/ndss2018/
+  deadline: "2017-09-15"
+  note: 
+  abstract_deadline: "2017-09-08"
+  date: "2018-02-18"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Lujo Bauer
+  program_chair: Patrick Traynor, Alina Oprea
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2017
+  link: https://www.ndss-symposium.org/ndss2017/
+  deadline: "2016-09-15"
+  note: 
+  abstract_deadline: "2016-09-08"
+  date: "2017-02-26"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Lujo Bauer
+  program_chair: Ari Juels
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2016
+  link: https://www.ndss-symposium.org/ndss2016/
+  deadline: "2015-09-15"
+  note: 
+  abstract_deadline: "2015-09-08"
+  date: "2016-02-21"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Lujo Bauer
+  program_chair: Srdjan Capkun, Deb Frincke
 ## Databases
 
 ## Design and Automation
@@ -4129,8 +4270,10 @@
   description: ACM Internet Measurement Conference
   year: 2025
   link: https://conferences.sigcomm.org/imc/2025/
+  abstract_deadline: "2025-05-08"
   deadline: "2025-05-15"
-  note: "Second Cycle"
+  notification_date: "2025-08-18"
+  note: Cycle 2/2
   date: "2025-10-28"
   place: Madison, Wisconsin, USA
   acceptance_rate:
@@ -4140,8 +4283,10 @@
   description: ACM Internet Measurement Conference
   year: 2025
   link: https://conferences.sigcomm.org/imc/2025/
+  abstract_deadline: "2024-11-14"
   deadline: "2024-11-21"
-  note: "First Cycle"
+  notification_date: "2025-03-26"
+  note: Cycle 1/2
   date: "2025-10-28"
   place: Madison, Wisconsin, USA
   acceptance_rate:

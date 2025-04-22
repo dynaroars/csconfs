@@ -1237,7 +1237,384 @@
   place: Austin, TX, USA
   acceptance_rate:
   num_submission:
-  
+
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2025
+  link: https://2025.ijcai.org/
+  deadline: "2025-01-23"
+  note: Abstract deadline: 2025-01-16
+  date: "2025-08-16"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2024
+  link: https://ijcai24.org/
+  deadline: "2024-01-17"
+  note: Abstract deadline: 2024-01-10
+  date: "2024-08-03"
+  place: Jeju, South Korea
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2023
+  link: https://ijcai-23.org/
+  deadline: "2023-01-18"
+  note: Abstract deadline: 2023-01-11
+  date: "2023-08-19"
+  place: Cape Town, South Africa
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2022
+  link: https://ijcai-22.org/
+  deadline: "2022-01-07"
+  note:
+  date: "2022-07-23"
+  place: Vienna, Austria
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2021
+  link: https://ijcai-21.org/
+  deadline: "2021-01-20"
+  note: Abstract deadline: 2021-01-13
+  date: "2021-08-21"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2020
+  link: https://ijcai20.org/
+  deadline: "2020-01-21"
+  note: Abstract deadline: 2020-01-15
+  date: "2021-01-07"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2019
+  link: https://ijcai19.org/
+  deadline: "2019-02-25"
+  note:
+  date: "2019-08-10"
+  place: Macao, China
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2018
+  link: https://www.ijcai-18.org/
+  deadline: "2018-01-31"
+  note:
+  date: "2018-07-13"
+  place: Stockholm, Sweden
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2017
+  link: https://ijcai-17.org/
+  deadline: "2017-02-20"
+  note:
+  date: "2017-08-19"
+  place: Melbourne, Australia
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2016
+  link: https://ijcai-16.org/
+  deadline: "2016-02-02"
+  note: Abstract deadline: 2016-01-27
+  date: "2016-07-09"
+  place: New York, NY, USA
+  acceptance_rate:
+  num_submission:
+
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2015
+  link: https://ijcai-15.org/
+  deadline: "2015-02-12"
+  note: Abstract deadline: 2015-02-08
+  date: "2015-07-25"
+  place: Buenos Aires, Argentina
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2025
+  link: https://icml.cc/Conferences/2025
+  deadline: "2025-02-01"
+  note:
+  date: "2025-07-13"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2024
+  link: https://icml.cc/Conferences/2024
+  deadline: "2024-02-01"
+  note:
+  date: "2024-07-21"
+  place: Vienna, Austria
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2023
+  link: https://icml.cc/Conferences/2023
+  deadline: "2023-01-26"
+  note:
+  date: "2023-07-23"
+  place: Honolulu, HI, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2022
+  link: https://icml.cc/Conferences/2022
+  deadline: "2022-01-27"
+  note:
+  date: "2022-07-17"
+  place: Baltimore, MD, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2021
+  link: https://icml.cc/Conferences/2021
+  deadline: "2021-01-28"
+  note: Virtual Conference
+  date: "2021-07-18"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2020
+  link: https://icml.cc/Conferences/2020
+  deadline: "2020-01-31"
+  note: Virtual Conference
+  date: "2020-07-12"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2019
+  link: https://icml.cc/Conferences/2019
+  deadline: "2019-01-31"
+  note:
+  date: "2019-06-10"
+  place: Long Beach, CA, USA
+  acceptance_rate:
+  num_submission:
+
+ 
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2025
+  link: https://iclr.cc/Conferences/2025
+  deadline: "2024-10-01"
+  note: Abstract deadline: 2024-09-27
+  date: "2025-04-24"
+  place: Singapore
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2024
+  link: https://iclr.cc/Conferences/2024
+  deadline: "2023-10-04"
+  note: Abstract deadline: 2023-09-28
+  date: "2024-05-07"
+  place: Vienna, Austria
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2023
+  link: https://iclr.cc/Conferences/2023
+  deadline: "2022-10-04"
+  note: Abstract deadline: 2022-09-28
+  date: "2023-05-01"
+  place: Kigali, Rwanda
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2022
+  link: https://iclr.cc/Conferences/2022
+  deadline: "2021-10-05"
+  note: Abstract deadline: 2021-09-28
+  date: "2022-04-25"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2021
+  link: https://iclr.cc/Conferences/2021
+  deadline: "2020-10-06"
+  note: Abstract deadline: 2020-09-29
+  date: "2021-05-03"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2020
+  link: https://iclr.cc/Conferences/2020
+  deadline: "2019-10-04"
+  note: Abstract deadline: 2019-09-27
+  date: "2020-04-26"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2019
+  link: https://iclr.cc/Conferences/2019
+  deadline: "2018-10-05"
+  note: Abstract deadline: 2018-09-28
+  date: "2019-05-06"
+  place: New Orleans, LA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2018
+  link: https://iclr.cc/Conferences/2018
+  deadline: "2017-10-06"
+  note: Abstract deadline: 2017-09-29
+  date: "2018-04-30"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2017
+  link: https://iclr.cc/Conferences/2017
+  deadline: "2016-10-07"
+  note: Abstract deadline: 2016-09-30
+  date: "2017-04-24"
+  place: Toulon, France
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2016
+  link: https://iclr.cc/Conferences/2016
+  deadline: "2015-10-09"
+  note: Abstract deadline: 2015-10-02
+  date: "2016-05-02"
+  place: San Juan, Puerto Rico
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2015
+  link: https://iclr.cc/Conferences/2015
+  deadline: "2014-10-10"
+  note: Abstract deadline: 2014-10-03
+  date: "2015-05-07"
+  place: San Diego, CA, USA
+  acceptance_rate:
+  num_submission:
+
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2025
+  link: https://kdd2025.kdd.org/
+  deadline: "2025-02-10"
+  note: Second cycle; Abstract deadline: 2025-02-03
+  date: "2025-08-03"
+  place: Toronto, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2024
+  link: https://kdd2024.kdd.org/
+  deadline: "2024-02-09"
+  note: Second cycle; Abstract deadline: 2024-02-02
+  date: "2024-08-25"
+  place: Barcelona, Spain
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2023
+  link: https://kdd2023.kdd.org/
+  deadline: "2023-02-10"
+  note: Second cycle; Abstract deadline: 2023-02-03
+  date: "2023-08-06"
+  place: Long Beach, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2022
+  link: https://kdd2022.kdd.org/
+  deadline: "2022-02-11"
+  note: Second cycle; Abstract deadline: 2022-02-04
+  date: "2022-08-14"
+  place: Washington, D.C., USA
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2021
+  link: https://kdd2021.kdd.org/
+  deadline: "2021-02-12"
+  note: Second cycle; Abstract deadline: 2021-02-05
+  date: "2021-08-14"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
 
 - name: NeurIPS
   description: Neural Information Processing Systems

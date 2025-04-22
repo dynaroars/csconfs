@@ -1514,9 +1514,1058 @@
   num_submission: 
   general_chair: Raffaele Perego, Fabrizio Sebastiani
   program_chair: Diane Kelly, Evangelos Kanoulas, Emine Yilmaz
-  
-    
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2025
+  link: https://www2025.thewebconf.org/
+  deadline: "2024-10-15"
+  note: 
+  abstract_deadline: "2024-10-08"
+  date: "2025-05-12"
+  place: Singapore
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2024
+  link: https://www2024.thewebconf.org/
+  deadline: "2023-10-15"
+  note: 
+  abstract_deadline: "2023-10-08"
+  date: "2024-05-13"
+  place: Singapore
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2023
+  link: https://www2023.thewebconf.org/
+  deadline: "2022-10-15"
+  note: 
+  abstract_deadline: "2022-10-08"
+  date: "2023-04-30"
+  place: Austin, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2022
+  link: https://www2022.thewebconf.org/
+  deadline: "2021-10-15"
+  note: 
+  abstract_deadline: "2021-10-08"
+  date: "2022-04-25"
+  place: Lyon, France
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2021
+  link: https://www2021.thewebconf.org/
+  deadline: "2020-10-15"
+  note: 
+  abstract_deadline: "2020-10-08"
+  date: "2021-04-19"
+  place: Ljubljana, Slovenia
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2020
+  link: https://www2020.thewebconf.org/
+  deadline: "2019-10-15"
+  note: 
+  abstract_deadline: "2019-10-08"
+  date: "2020-04-20"
+  place: Taipei, Taiwan
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2019
+  link: https://www2019.thewebconf.org/
+  deadline: "2018-10-15"
+  note: 
+  abstract_deadline: "2018-10-08"
+  date: "2019-05-13"
+  place: San Francisco, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2018
+  link: https://www2018.thewebconf.org/
+  deadline: "2017-10-15"
+  note: 
+  abstract_deadline: "2017-10-08"
+  date: "2018-04-23"
+  place: Lyon, France
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2017
+  link: https://www2017.thewebconf.org/
+  deadline: "2016-10-15"
+  note: 
+  abstract_deadline: "2016-10-08"
+  date: "2017-04-03"
+  place: Perth, Australia
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2016
+  link: https://www2016.thewebconf.org/
+  deadline: "2015-10-15"
+  note: 
+  abstract_deadline: "2015-10-08"
+  date: "2016-04-11"
+  place: Montréal, Canada
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+
 # Systems
+
+## Computer Architecture 
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2026
+  link: https://www.asplos-conference.org/asplos2026/
+  deadline: "2025-08-20"
+  notification_date: "2025-11-24"
+  note: "Cycle 2/2"
+  date: ""
+  place: TBD
+  acceptance_rate:
+  num_submission:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2026
+  link: https://www.asplos-conference.org/asplos2026/
+  deadline: "2025-03-12"
+  notification_date: "2025-06-24"
+  note: "Cycle 1/2"
+  date: ""
+  place: TBD
+  acceptance_rate:
+  num_submission:
+
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2025
+  link: https://www.asplos-conference.org/asplos2025/
+  deadline: "2025-03-01"
+  note: "Cycle 3/3"
+  date: "2025-03-30"
+  place: Rotterdam, Netherlands
+  acceptance_rate:
+  num_submission:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2025
+  link: https://www.asplos-conference.org/asplos2025/
+  deadline: "2024-06-24"
+  note: "Cycle 2/3"
+  date: "2025-03-30"
+  place: Rotterdam, Netherlands
+  acceptance_rate:
+  num_submission:
+
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2025
+  link: https://www.asplos-conference.org/asplos2025/
+  deadline: "2024-10-18"
+  note: "Cycle 1/3"
+  date: "2025-03-30"
+  place: Rotterdam, Netherlands
+  acceptance_rate:
+  num_submission:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2024
+  link: https://www.asplos-conference.org/asplos2024/
+  deadline: "2023-03-01"
+  note: "Abstract deadline: 2023-02-23"
+  date: "2024-04-27"
+  place: San Diego, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2023
+  link: https://www.asplos-conference.org/asplos2023/
+  deadline: "2022-03-31"
+  note: "Abstract deadline: 2022-03-24"
+  date: "2023-03-25"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2022
+  link: https://www.asplos-conference.org/asplos2022/
+  deadline: "2021-08-13"
+  note: "Abstract deadline: 2021-08-06"
+  date: "2022-02-28"
+  place: Lausanne, Switzerland
+  acceptance_rate:
+  num_submission:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2021
+  link: https://www.asplos-conference.org/asplos2021/
+  deadline: "2020-08-21"
+  note: "Abstract deadline: 2020-08-14"
+  date: "2021-04-19"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2020
+  link: https://www.asplos-conference.org/asplos2020/
+  deadline: "2019-08-16"
+  note: "Abstract deadline: 2019-08-09"
+  date: "2020-03-16"
+  place: Lausanne, Switzerland
+  acceptance_rate:
+  num_submission:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2019
+  link: https://www.asplos-conference.org/asplos2019/
+  deadline: "2018-08-07"
+  note: 
+  Abstract_deadline: "2018-07-31"
+  date: "2019-04-13"
+  place: Providence, RI, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2018
+  link: https://www.asplos-conference.org/asplos2018/
+  deadline: "2017-08-11"
+  note: 
+  abstract deadline: "2017-08-04"
+  date: "2018-03-24"
+  place: Williamsburg, VA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2017
+  link: https://www.asplos-conference.org/asplos2017/
+  deadline: "2016-08-12"
+  note: 
+  abstract_deadline: "2016-08-05"
+  date: "2017-04-08"
+  place: "Xi'an, China"
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2016
+  link: https://www.asplos-conference.org/asplos2016/
+  deadline: "2015-08-12"
+  note: 
+  abstract_deadline: "2015-08-05"
+  date: "2016-04-02"
+  place: Atlanta, GA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+
+- name: ISCA
+  description: International Symposium on Computer Architecture
+  year: 2025
+  link: https://www.iscaconf.org/isca2025/
+  deadline: "2024-11-15"
+  note: 
+  abstract_deadline: "2024-11-08"
+  date: "2025-06-21"
+  place: Portland, OR, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Jean-Luc Gaudiot, Hironori Kasahara
+  program_chair: Daniel Sorin
+
+- name: ISCA
+  description: International Symposium on Computer Architecture
+  year: 2024
+  link: https://www.iscaconf.org/isca2024/
+  deadline: "2023-11-15"
+  note: 
+  abstract_deadline: "2023-11-08"
+  date: "2024-06-29"
+  place: Buenos Aires, Argentina
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Augusto Vega, Esteban Mocskos
+  program_chair: Sandhya Dwarkadas, Rajeev Balasubramonian
+
+- name: ISCA
+  description: International Symposium on Computer Architecture
+  year: 2023
+  link: https://www.iscaconf.org/isca2023/
+  deadline: "2022-11-15"
+  note: 
+  abstract_deadline: "2022-11-08"
+  date: "2023-06-17"
+  place: Orlando, FL, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Yan Solihin, Mark Heinrich
+  program_chair: Hyesoon Kim
+
+- name: ISCA
+  description: International Symposium on Computer Architecture
+  year: 2022
+  link: https://www.iscaconf.org/isca2022/
+  deadline: "2021-11-15"
+  note: 
+  abstract_deadline: "2021-11-08"
+  date: "2022-06-18"
+  place: New York, NY, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Valentina Salapura, Mohamed Zahran
+  program_chair: Fred Chong
+
+- name: ISCA
+  description: International Symposium on Computer Architecture
+  year: 2021
+  link: https://www.iscaconf.org/isca2021/
+  deadline: "2020-11-24"
+  note: 
+  abstract_deadline: "2020-11-19"
+  date: "2021-05-22"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: José Martínez, José Duato
+  program_chair: Lizy K. John
+
+- name: ISCA
+  description: International Symposium on Computer Architecture
+  year: 2020
+  link: https://www.iscaconf.org/isca2020/
+  deadline: "2019-11-26"
+  note: 
+  abstract_deadline: "2019-11-19"
+  date: "2020-05-30"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: José Martínez, José Duato
+  program_chair: Lieven Eeckhout
+
+- name: ISCA
+  description: International Symposium on Computer Architecture
+  year: 2019
+  link: https://www.iscaconf.org/isca2019/
+  deadline: "2018-11-15"
+  note: 
+  abstract_deadline: "2018-11-08"
+  date: "2019-06-22"
+  place: Phoenix, AZ, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Srilatha (Bobbie) Manne
+  program_chair: Hillery Hunter
+
+- name: ISCA
+  description: International Symposium on Computer Architecture
+  year: 2018
+  link: https://www.iscaconf.org/isca2018/
+  deadline: "2017-11-15"
+  note: 
+  abstract_deadline: "2017-11-08"
+  date: "2018-06-02"
+  place: Los Angeles, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Murali Annavaram, Timothy M. Pinkston
+  program_chair: Babak Falsafi
+
+- name: ISCA
+  description: International Symposium on Computer Architecture
+  year: 2017
+  link: https://www.iscaconf.org/isca2017/
+  deadline: "2016-11-15"
+  note: 
+  abstract_deadline: "2016-11-08"
+  date: "2017-06-24"
+  place: Toronto, Canada
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Andreas Moshovos
+  program_chair: David Brooks
+
+- name: ISCA
+  description: International Symposium on Computer Architecture
+  year: 2016
+  link: https://www.iscaconf.org/isca2016/
+  deadline: "2015-11-15"
+  note: 
+  abstract_deadline: "2015-11-08"
+  date: "2016-06-18"
+  place: Seoul, South Korea
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Sang Lyul Min, Gabriel Loh
+  program_chair: Andre Seznec  
+
+- name: MICRO
+  description: IEEE/ACM International Symposium on Microarchitecture
+  year: 2025
+  link: https://microarch.org/micro58/
+  deadline: "2025-04-11"
+  note: 
+  abstract_deadline: "2025-04-04"
+  date: "2025-10-12"
+  place: Seoul, South Korea
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Hanjun Kim, Won Woo Ro
+  program_chair: Minsoo Rhu, Radu Teodorescu
+
+- name: MICRO
+  description: IEEE/ACM International Symposium on Microarchitecture
+  year: 2024
+  link: https://microarch.org/micro57/
+  deadline: "2024-04-12"
+  note: 
+  abstract_deadline: "2024-04-05"
+  date: "2024-11-02"
+  place: Austin, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Paul V. Gratz, Jason Clemons, Jose Joao
+  program_chair: Daniel A. Jiménez, Alaa R. Alameldeen
+
+- name: MICRO
+  description: IEEE/ACM International Symposium on Microarchitecture
+  year: 2023
+  link: https://microarch.org/micro56/
+  deadline: "2023-04-14"
+  note: 
+  abstract_deadline: "2023-04-07"
+  date: "2023-10-28"
+  place: Toronto, Canada
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Gennady Pekhimenko
+  program_chair: Samira Khan, Yanos Sazeides
+
+- name: MICRO
+  description: IEEE/ACM International Symposium on Microarchitecture
+  year: 2022
+  link: https://microarch.org/micro55/
+  deadline: "2022-04-21"
+  note: 
+  abstract_deadline: "2022-04-14"
+  date: "2022-10-01"
+  place: Chicago, IL, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Nikos Hardavellas, Simone Campanoni
+  program_chair: Boris Grot, Ulya Karpuzcu
+
+- name: MICRO
+  description: IEEE/ACM International Symposium on Microarchitecture
+  year: 2021
+  link: https://microarch.org/micro54/
+  deadline: "2021-04-23"
+  note: 
+  abstract_deadline: "2021-04-16"
+  date: "2021-10-18"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Dimitris Gizopoulos
+  program_chair: Jishen Zhao, Aamer Jaleel
+
+- name: MICRO
+  description: IEEE/ACM International Symposium on Microarchitecture
+  year: 2020
+  link: https://microarch.org/micro53/
+  deadline: "2020-04-24"
+  note: 
+  abstract_deadline: "2020-04-17"
+  date: "2020-10-17"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Dimitris Gizopoulos
+  program_chair: Jun Yang, Mattan Erez
+
+- name: MICRO
+  description: IEEE/ACM International Symposium on Microarchitecture
+  year: 2019
+  link: https://microarch.org/micro52/
+  deadline: "2019-04-05"
+  note: 
+  abstract_deadline: "2019-03-29"
+  date: "2019-10-12"
+  place: Columbus, OH, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Radu Teodorescu, Dhabaleswar K. Panda
+  program_chair: Tor Aamodt, Reetuparna Das
+
+- name: MICRO
+  description: IEEE/ACM International Symposium on Microarchitecture
+  year: 2018
+  link: https://microarch.org/micro51/
+  deadline: "2018-04-06"
+  note: 
+  abstract_deadline: "2018-03-30"
+  date: "2018-10-20"
+  place: Fukuoka, Japan
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Mark Oskin, Koji Inoue
+  program_chair: Hyesoon Kim, Sudhakar Yalamanchili
+
+- name: MICRO
+  description: IEEE/ACM International Symposium on Microarchitecture
+  year: 2017
+  link: https://microarch.org/micro50/
+  deadline: "2017-05-12"
+  note: 
+  abstract_deadline: "2017-05-05"
+  date: "2017-10-14"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: David H. Albonesi, Gabriel Loh
+  program_chair: Onur Mutlu, Josep Torrellas
+
+- name: MICRO
+  description: IEEE/ACM International Symposium on Microarchitecture
+  year: 2016
+  link: https://microarch.org/micro49/
+  deadline: "2016-05-13"
+  note: 
+  abstract_deadline: "2016-05-06"
+  date: "2016-10-15"
+  place: Taipei, Taiwan
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Wei-Chung Hsu, Chia-Lin Yang
+  program_chair: Mikko H. Lipasti, Gabriel Loh  
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2025
+  link: https://hpca-conf.org/2025/
+  deadline: "2024-09-15"
+  note: 
+  abstract_deadline: "2024-09-08"
+  date: "2025-03-01"
+  place: Las Vegas, NV, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Hung-Wei Tseng
+  program_chair: Anand Sivasubramaniam
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2024
+  link: https://hpca-conf.org/2024/
+  deadline: "2023-09-15"
+  note: 
+  abstract_deadline: "2023-09-08"
+  date: "2024-03-02"
+  place: Edinburgh, UK
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Boris Grot
+  program_chair: John Kim
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2023
+  link: https://hpca-conf.org/2023/
+  deadline: "2022-09-15"
+  note: 
+  abstract_deadline: "2022-09-08"
+  date: "2023-02-25"
+  place: Montreal, Canada
+  acceptance_rate: 
+  num_submission: 
+  general_chair: J. Nelson Amaral
+  program_chair: David Kaeli
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2022
+  link: https://hpca-conf.org/2022/
+  deadline: "2021-09-15"
+  note: 
+  abstract_deadline: "2021-09-08"
+  date: "2022-02-12"
+  place: Seoul, South Korea
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Jung Ho Ahn, John Kim
+  program_chair: Stefanos Kaxiras
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2021
+  link: https://hpca-conf.org/2021/
+  deadline: "2020-09-15"
+  note: 
+  abstract_deadline: "2020-09-08"
+  date: "2021-02-27"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Jung Ho Ahn, John Kim
+  program_chair: Murali Annavaram
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2020
+  link: https://hpca-conf.org/2020/
+  deadline: "2019-07-30"
+  note: 
+  abstract_deadline: "2019-07-23"
+  date: "2020-02-22"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Dean Tullsen, Hadi Esmaeilzadeh
+  program_chair: Yan Solihin
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2019
+  link: http://hpca2019.seas.gwu.edu/
+  deadline: "2018-07-30"
+  note: 
+  abstract_deadline: "2018-07-23"
+  date: "2019-02-16"
+  place: Washington, D.C., USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Ahmed Louri, Guru Prasadh Venkataramani
+  program_chair: Rajeev Balasubramonian, Vijayalakshmi Srinivasan
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2018
+  link: https://hpca2018.ece.ucsb.edu/
+  deadline: "2017-07-30"
+  note: 
+  abstract_deadline: "2017-07-23"
+  date: "2018-02-24"
+  place: Vienna, Austria
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Michael Gschwind
+  program_chair: Yuan Xie
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2017
+  link: https://hpca2017.org/
+  deadline: "2016-07-30"
+  note: 
+  abstract_deadline: "2016-07-23"
+  date: "2017-02-04"
+  place: Austin, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Derek Chiou
+  program_chair: Daniel A. Jiménez
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2016
+  link: https://hpca22.site.ac.upc.edu/
+  deadline: "2015-07-30"
+  note: 
+  abstract_deadline: "2015-07-23"
+  date: "2016-03-12"
+  place: Barcelona, Spain
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Ramon Canal, Antonio Gonzalez
+  program_chair: José F. Martínez
+
+## Computer Networks
+- name: SIGCOMM
+  description: ACM Special Interest Group on Data Communication Conference
+  year: 2025
+  link: https://conferences.sigcomm.org/sigcomm/2025/
+  deadline: "2025-03-15"
+  note: 
+  abstract_deadline: "2025-03-08"
+  date: "2025-08-18"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGCOMM
+  description: ACM Special Interest Group on Data Communication Conference
+  year: 2024
+  link: https://conferences.sigcomm.org/sigcomm/2024/
+  deadline: "2024-03-15"
+  note: 
+  abstract_deadline: "2024-03-08"
+  date: "2024-08-19"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGCOMM
+  description: ACM Special Interest Group on Data Communication Conference
+  year: 2023
+  link: https://conferences.sigcomm.org/sigcomm/2023/
+  deadline: "2023-03-15"
+  note: 
+  abstract_deadline: "2023-03-08"
+  date: "2023-08-21"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGCOMM
+  description: ACM Special Interest Group on Data Communication Conference
+  year: 2022
+  link: https://conferences.sigcomm.org/sigcomm/2022/
+  deadline: "2022-03-15"
+  note: 
+  abstract_deadline: "2022-03-08"
+  date: "2022-08-22"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGCOMM
+  description: ACM Special Interest Group on Data Communication Conference
+  year: 2021
+  link: https://conferences.sigcomm.org/sigcomm/2021/
+  deadline: "2021-03-15"
+  note: 
+  abstract_deadline: "2021-03-08"
+  date: "2021-08-23"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGCOMM
+  description: ACM Special Interest Group on Data Communication Conference
+  year: 2020
+  link: https://conferences.sigcomm.org/sigcomm/2020/
+  deadline: "2020-03-15"
+  note: 
+  abstract_deadline: "2020-03-08"
+  date: "2020-08-24"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGCOMM
+  description: ACM Special Interest Group on Data Communication Conference
+  year: 2019
+  link: https://conferences.sigcomm.org/sigcomm/2019/
+  deadline: "2019-03-15"
+  note: 
+  abstract_deadline: "2019-03-08"
+  date: "2019-08-26"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGCOMM
+  description: ACM Special Interest Group on Data Communication Conference
+  year: 2018
+  link: https://conferences.sigcomm.org/sigcomm/2018/
+  deadline: "2018-03-15"
+  note: 
+  abstract_deadline: "2018-03-08"
+  date: "2018-08-27"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGCOMM
+  description: ACM Special Interest Group on Data Communication Conference
+  year: 2017
+  link: https://conferences.sigcomm.org/sigcomm/2017/
+  deadline: "2017-03-15"
+  note: 
+  abstract_deadline: "2017-03-08"
+  date: "2017-08-28"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGCOMM
+  description: ACM Special Interest Group on Data Communication Conference
+  year: 2016
+  link: https://conferences.sigcomm.org/sigcomm/2016/
+  deadline: "2016-03-15"
+  note: 
+  abstract_deadline: "2016-03-08"
+  date: "2016-08-22"
+  place: TBD
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2025
+  link: https://www.usenix.org/conference/nsdi25
+  deadline: "2024-09-13"
+  note: 
+  abstract_deadline: "2024-09-06"
+  date: "2025-04-14"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2024
+  link: https://www.usenix.org/conference/nsdi24
+  deadline: "2023-09-15"
+  note: 
+  abstract_deadline: "2023-09-08"
+  date: "2024-04-16"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2023
+  link: https://www.usenix.org/conference/nsdi23
+  deadline: "2022-09-16"
+  note: 
+  abstract_deadline: "2022-09-09"
+  date: "2023-04-17"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2022
+  link: https://www.usenix.org/conference/nsdi22
+  deadline: "2021-09-17"
+  note: 
+  abstract_deadline: "2021-09-10"
+  date: "2022-04-04"
+  place: Renton, WA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2021
+  link: https://www.usenix.org/conference/nsdi21
+  deadline: "2020-09-18"
+  note: 
+  abstract_deadline: "2020-09-11"
+  date: "2021-04-12"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2020
+  link: https://www.usenix.org/conference/nsdi20
+  deadline: "2019-09-13"
+  note: 
+  abstract_deadline: "2019-09-06"
+  date: "2020-02-25"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2019
+  link: https://www.usenix.org/conference/nsdi19
+  deadline: "2018-09-14"
+  note: 
+  abstract_deadline: "2018-09-07"
+  date: "2019-02-26"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2018
+  link: https://www.usenix.org/conference/nsdi18
+  deadline: "2017-09-15"
+  note: 
+  abstract_deadline: "2017-09-08"
+  date: "2018-04-09"
+  place: Renton, WA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2017
+  link: https://www.usenix.org/conference/nsdi17
+  deadline: "2016-09-16"
+  note: 
+  abstract_deadline: "2016-09-09"
+  date: "2017-03-27"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2016
+  link: https://www.usenix.org/conference/nsdi16
+  deadline: "2015-09-18"
+  note: 
+  abstract_deadline: "2015-09-11"
+  date: "2016-03-16"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+## Computer Security
+
+## Databases
+
+## Design and Automation
+
+## Embedded and Real-Time Systems
+
+# High-performance computing	
+# Mobile computing	
+# Measurement & perf. analysis 	
+# Operating systems	
+# Programming languages	
+
+ 
+
+
+# Algorithms & complexity	
+# Cryptography	
+# Logic & verification	
+ 
+
+
+# Comp. bio & bioinformatics	
+# Computer graphics	
+# Computer science education	
+# Economics & computation	
+# Human-computer interaction	
+# Robotics	
+# Visualization	
+
+
+
+
 ## Software Engineering
 - name: ASE
   description: Automated Software Engineering
@@ -2763,176 +3812,3 @@
   num_submission:
 
 
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2026
-  link: https://www.asplos-conference.org/asplos2026/
-  deadline: "2025-08-20"
-  notification_date: "2025-11-24"
-  note: "Cycle 2/2"
-  date: ""
-  place: TBD
-  acceptance_rate:
-  num_submission:
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2026
-  link: https://www.asplos-conference.org/asplos2026/
-  deadline: "2025-03-12"
-  notification_date: "2025-06-24"
-  note: "Cycle 1/2"
-  date: ""
-  place: TBD
-  acceptance_rate:
-  num_submission:
-
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2025
-  link: https://www.asplos-conference.org/asplos2025/
-  deadline: "2025-03-01"
-  note: "Cycle 3/3"
-  date: "2025-03-30"
-  place: Rotterdam, Netherlands
-  acceptance_rate:
-  num_submission:
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2025
-  link: https://www.asplos-conference.org/asplos2025/
-  deadline: "2024-06-24"
-  note: "Cycle 2/3"
-  date: "2025-03-30"
-  place: Rotterdam, Netherlands
-  acceptance_rate:
-  num_submission:
-
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2025
-  link: https://www.asplos-conference.org/asplos2025/
-  deadline: "2024-10-18"
-  note: "Cycle 1/3"
-  date: "2025-03-30"
-  place: Rotterdam, Netherlands
-  acceptance_rate:
-  num_submission:
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2024
-  link: https://www.asplos-conference.org/asplos2024/
-  deadline: "2023-03-01"
-  note: "Abstract deadline: 2023-02-23"
-  date: "2024-04-27"
-  place: San Diego, CA, USA
-  acceptance_rate:
-  num_submission:
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2023
-  link: https://www.asplos-conference.org/asplos2023/
-  deadline: "2022-03-31"
-  note: "Abstract deadline: 2022-03-24"
-  date: "2023-03-25"
-  place: Vancouver, Canada
-  acceptance_rate:
-  num_submission:
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2022
-  link: https://www.asplos-conference.org/asplos2022/
-  deadline: "2021-08-13"
-  note: "Abstract deadline: 2021-08-06"
-  date: "2022-02-28"
-  place: Lausanne, Switzerland
-  acceptance_rate:
-  num_submission:
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2021
-  link: https://www.asplos-conference.org/asplos2021/
-  deadline: "2020-08-21"
-  note: "Abstract deadline: 2020-08-14"
-  date: "2021-04-19"
-  place: Virtual Conference
-  acceptance_rate:
-  num_submission:
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2020
-  link: https://www.asplos-conference.org/asplos2020/
-  deadline: "2019-08-16"
-  note: "Abstract deadline: 2019-08-09"
-  date: "2020-03-16"
-  place: Lausanne, Switzerland
-  acceptance_rate:
-  num_submission:
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2019
-  link: https://www.asplos-conference.org/asplos2019/
-  deadline: "2018-08-07"
-  note: 
-  Abstract_deadline: "2018-07-31"
-  date: "2019-04-13"
-  place: Providence, RI, USA
-  acceptance_rate:
-  num_submission:
-  general_chair:
-  program_chair:
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2018
-  link: https://www.asplos-conference.org/asplos2018/
-  deadline: "2017-08-11"
-  note: 
-  abstract deadline: "2017-08-04"
-  date: "2018-03-24"
-  place: Williamsburg, VA, USA
-  acceptance_rate:
-  num_submission:
-  general_chair:
-  program_chair:
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2017
-  link: https://www.asplos-conference.org/asplos2017/
-  deadline: "2016-08-12"
-  note: 
-  abstract_deadline: "2016-08-05"
-  date: "2017-04-08"
-  place: "Xi'an, China"
-  acceptance_rate:
-  num_submission:
-  general_chair:
-  program_chair:
-
-
-- name: ASPLOS
-  description: Architectural Support for Programming Languages and Operating Systems
-  year: 2016
-  link: https://www.asplos-conference.org/asplos2016/
-  deadline: "2015-08-12"
-  note: 
-  abstract_deadline: 2015-08-05"
-  date: "2016-04-02"
-  place: Atlanta, GA, USA
-  acceptance_rate:
-  num_submission:
-  general_chair:
-  program_chair:
-
-
-  

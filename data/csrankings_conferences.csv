@@ -17,6 +17,8 @@ asplos,ASPLOS,arch,Computer architecture,Systems,false
 isca,ISCA,arch,Computer architecture,Systems,false
 micro,MICRO,arch,Computer architecture,Systems,false
 hpca,HPCA,arch,Computer architecture,Systems,true
+sigcomm,SIGCOMM,comm,Computer networks,Systems,false
+nsdi,NSDI,comm,Computer networks,Systems,false
 ccs,CCS,sec,Computer security,Systems,false
 oakland,Oakland,sec,Computer security,Systems,false
 usenixsec,USENIXSEC,sec,Computer security,Systems,false
@@ -52,8 +54,6 @@ fse,FSE,soft,Software engineering,Systems,false
 icse,ICSE,soft,Software engineering,Systems,false
 ase,ASE,soft,Software engineering,Systems,true
 issta,ISSTA,soft,Software engineering,Systems,true
-nsdi,NSDI,comm,Computer networks,Systems,false
-sigcomm,SIGCOMM,comm,Computer networks,Systems,false
 focs,FOCS,act,Algorithms & complexity,Theory,false
 soda,SODA,act,Algorithms & complexity,Theory,false
 stoc,STOC,act,Algorithms & complexity,Theory,false

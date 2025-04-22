@@ -387,7 +387,7 @@
   acceptance_rate:
   num_submission:
 
-  
+
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
   year: 2025
@@ -778,7 +778,115 @@
   acceptance_rate:
   num_submission:
 
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2024
+  link: https://neurips.cc/Conferences/2024
+  deadline: "2024-05-15"
+  note:
+  date: "2024-12-10"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
 
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2023
+  link: https://neurips.cc/Conferences/2023
+  deadline: "2023-05-17"
+  note:
+  date: "2023-12-10"
+  place: New Orleans, Louisiana, USA
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2022
+  link: https://neurips.cc/Conferences/2022
+  deadline: "2022-05-19"
+  note:
+  date: "2022-11-28"
+  place: New Orleans, Louisiana, USA
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2021
+  link: https://neurips.cc/Conferences/2021
+  deadline: "2021-05-21"
+  note: Virtual conference
+  date: "2021-12-06"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2020
+  link: https://neurips.cc/Conferences/2020
+  deadline: "2020-06-05"
+  note: Virtual conference
+  date: "2020-12-06"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2019
+  link: https://neurips.cc/Conferences/2019
+  deadline: "2019-05-23"
+  note:
+  date: "2019-12-08"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2018
+  link: https://neurips.cc/Conferences/2018
+  deadline: "2018-05-18"
+  note:
+  date: "2018-12-02"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2017
+  link: https://neurips.cc/Conferences/2017
+  deadline: "2017-05-19"
+  note:
+  date: "2017-12-04"
+  place: Long Beach, California, USA
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2016
+  link: https://neurips.cc/Conferences/2016
+  deadline: "2016-05-20"
+  note:
+  date: "2016-12-05"
+  place: Barcelona, Spain
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2015
+  link: https://neurips.cc/Conferences/2015
+  deadline: "2015-06-05"
+  note:
+  date: "2015-12-07"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
 
 # - name: 
 #   description: 

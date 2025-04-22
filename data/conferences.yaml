@@ -1575,8 +1575,8 @@
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2024
   link: https://kdd2024.kdd.org/
-  deadline: "2024-02-09"
-  note: Second cycle; Abstract deadline: 2024-02-02
+  deadline: "2024-02-08"
+  note: First cycle; Abstract deadline: 2024-02-01
   date: "2024-08-25"
   place: Barcelona, Spain
   acceptance_rate:
@@ -1585,7 +1585,7 @@
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2023
-  link: https://kdd2023.kdd.org/
+  link: https://kdd.org/kdd2023/
   deadline: "2023-02-10"
   note: Second cycle; Abstract deadline: 2023-02-03
   date: "2023-08-06"
@@ -1596,9 +1596,9 @@
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2022
-  link: https://kdd2022.kdd.org/
-  deadline: "2022-02-11"
-  note: Second cycle; Abstract deadline: 2022-02-04
+  link: https://kdd.org/kdd2022/
+  deadline: "2022-02-10"
+  note: Abstract deadline: 2022-02-03
   date: "2022-08-14"
   place: Washington, D.C., USA
   acceptance_rate:
@@ -1607,11 +1607,77 @@
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2021
-  link: https://kdd2021.kdd.org/
-  deadline: "2021-02-12"
-  note: Second cycle; Abstract deadline: 2021-02-05
+  link: https://www.kdd.org/kdd2021/
+  deadline: "2021-02-08"
+  note: Virtual Conference
   date: "2021-08-14"
-  place: Virtual Conference
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2020
+  link: https://www.kdd.org/kdd2020/
+  deadline: "2020-02-13"
+  note: Virtual Conference
+  date: "2020-08-23"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2019
+  link: https://www.kdd.org/kdd2019/
+  deadline: "2019-02-03"
+  note:
+  date: "2019-08-04"
+  place: Anchorage, Alaska, USA
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2018
+  link: https://www.kdd.org/kdd2018/
+  deadline: "2018-02-11"
+  note:
+  date: "2018-08-19"
+  place: London, United Kingdom
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2017
+  link: https://www.kdd.org/kdd2017/
+  deadline: "2017-02-17"
+  note:
+  date: "2017-08-13"
+  place: Halifax, Nova Scotia, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2016
+  link: https://www.kdd.org/kdd2016/
+  deadline: "2016-02-12"
+  note:
+  date: "2016-08-13"
+  place: San Francisco, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2015
+  link: https://www.kdd.org/kdd2015/
+  deadline: "2015-02-13"
+  note:
+  date: "2015-08-10"
+  place: Sydney, Australia
   acceptance_rate:
   num_submission:
 

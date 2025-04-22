@@ -9,27 +9,118 @@
   acceptance_rate:
   num_submission:
 
-- name: ICSE
-  description: International Conference on Software Engineering
-  year: 2026
-  link: https://conf.researchr.org/home/icse-2026
-  deadline: "2025-07-18"
-  note: Second Cycle
-  date: "2026-04-12"
-  place: Rio De Janeiro, Brazil
+  - name: ASE
+  description: Automated Software Engineering
+  year: 2024
+  link: https://conf.researchr.org/home/ase-2024
+  deadline: "2024-05-31"
+  note: 
+  date: "2024-10-27"
+  place: Sacramento, California, USA
   acceptance_rate:
   num_submission:
 
-- name: ICSE
-  description: International Conference on Software Engineering
-  year: 2025
-  link: https://conf.researchr.org/home/icse-2025
-  deadline: "2024-08-02"
-  note: Second Cycle
-  date: "2025-04-27"
-  place: Ontario, Canada
+- name: ASE
+  description: Automated Software Engineering
+  year: 2023
+  link: https://conf.researchr.org/home/ase-2023
+  deadline: "2023-05-31"
+  note: 
+  date: "2023-09-11"
+  place: Luxembourg
   acceptance_rate:
   num_submission:
+
+- name: ASE
+  description: Automated Software Engineering
+  year: 2022
+  link: https://conf.researchr.org/home/ase-2022
+  deadline: "2022-05-31"
+  note: 
+  date: "2022-10-10"
+  place: Ann Arbor, Michigan, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ASE
+  description: Automated Software Engineering
+  year: 2021
+  link: https://conf.researchr.org/home/ase-2021
+  deadline: "2021-04-16"
+  note: Virtual conference
+  date: "2021-11-15"
+  place: Melbourne, Australia
+  acceptance_rate:
+  num_submission:
+
+- name: ASE
+  description: Automated Software Engineering
+  year: 2020
+  link: https://conf.researchr.org/home/ase-2020
+  deadline: "2020-04-15"
+  note: Virtual conference
+  date: "2020-09-21"
+  place: Melbourne, Australia
+  acceptance_rate:
+  num_submission:
+
+- name: ASE
+  description: Automated Software Engineering
+  year: 2019
+  link: https://2019.ase-conferences.org/
+  deadline: "2019-04-15"
+  note: 
+  date: "2019-11-11"
+  place: San Diego, California, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ASE
+  description: Automated Software Engineering
+  year: 2018
+  link: https://www.ase2018.com/
+  deadline: "2018-04-15"
+  note: 
+  date: "2018-09-03"
+  place: Montpellier, France
+  acceptance_rate:
+  num_submission:
+
+- name: ASE
+  description: Automated Software Engineering
+  year: 2017
+  link: https://www.se.cs.uni-saarland.de/conferences/ASE/ase2017/index.html
+  deadline: "2017-04-15"
+  note: 
+  date: "2017-10-30"
+  place: Urbana-Champaign, Illinois, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ASE
+  description: Automated Software Engineering
+  year: 2016
+  link: https://www.ase2016.org/
+  deadline: "2016-04-15"
+  note: 
+  date: "2016-09-03"
+  place: Singapore
+  acceptance_rate:
+  num_submission:
+
+- name: ASE
+  description: Automated Software Engineering
+  year: 2015
+  link: https://www.ase2015.org/
+  deadline: "2015-04-15"
+  note: 
+  date: "2015-11-09"
+  place: Lincoln, Nebraska, USA
+  acceptance_rate:
+  num_submission:
+
+
+
 
 - name: FSE
   description: Foundations of Software Engineering
@@ -87,6 +178,338 @@
   acceptance_rate:
   num_submission:  
 
+- name: FSE
+  description: Foundations of Software Engineering
+  year: 2021
+  link: https://2021.esec-fse.org/
+  deadline: "2021-02-25"
+  note: Virtual conference
+  date: "2021-08-23"
+  place: Virtual
+  acceptance_rate: 24.5%
+  num_submission: 407
+
+- name: FSE
+  description: Foundations of Software Engineering
+  year: 2020
+  link: https://2020.esec-fse.org/
+  deadline: "2020-03-05"
+  note: Virtual conference
+  date: "2020-11-08"
+  place: Virtual
+  acceptance_rate:
+  num_submission:
+
+- name: FSE
+  description: Foundations of Software Engineering
+  year: 2019
+  link: https://conf.researchr.org/home/fse-2019
+  deadline: "2019-03-14"
+  note:
+  date: "2019-08-26"
+  place: Tallinn, Estonia
+  acceptance_rate:
+  num_submission:
+
+- name: FSE
+  description: Foundations of Software Engineering
+  year: 2018
+  link: https://conf.researchr.org/home/fse-2018
+  deadline: "2018-03-15"
+  note:
+  date: "2018-11-04"
+  place: Lake Buena Vista, Florida, USA
+  acceptance_rate:
+  num_submission:
+
+- name: FSE
+  description: Foundations of Software Engineering
+  year: 2017
+  link: https://conf.researchr.org/home/fse-2017
+  deadline: "2017-03-16"
+  note:
+  date: "2017-09-04"
+  place: Paderborn, Germany
+  acceptance_rate:
+  num_submission:
+
+- name: FSE
+  description: Foundations of Software Engineering
+  year: 2016
+  link: https://conf.researchr.org/home/fse-2016
+  deadline: "2016-03-17"
+  note:
+  date: "2016-11-13"
+  place: Seattle, Washington, USA
+  acceptance_rate:
+  num_submission:
+
+- name: FSE
+  description: Foundations of Software Engineering
+  year: 2015
+  link: https://conf.researchr.org/home/fse-2015
+  deadline: "2015-03-12"
+  note:
+  date: "2015-08-30"
+  place: Bergamo, Italy
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2026
+  link: https://conf.researchr.org/home/icse-2026
+  deadline: "2025-07-18"
+  note: Second Cycle
+  date: "2026-04-12"
+  place: Rio De Janeiro, Brazil
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2025
+  link: https://conf.researchr.org/home/icse-2025
+  deadline: "2024-08-02"
+  note: Second Cycle
+  date: "2025-04-27"
+  place: Ontario, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2024
+  link: https://conf.researchr.org/home/icse-2024
+  deadline: "2023-08-01"
+  note:
+  date: "2024-04-12"
+  place: Lisbon, Portugal
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2023
+  link: https://conf.researchr.org/home/icse-2023
+  deadline: "2022-08-01"
+  note:
+  date: "2023-05-14"
+  place: Melbourne, Australia
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2022
+  link: https://conf.researchr.org/home/icse-2022
+  deadline: "2021-08-01"
+  note:
+  date: "2022-05-21"
+  place: Pittsburgh, Pennsylvania, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2021
+  link: https://conf.researchr.org/home/icse-2021
+  deadline: "2020-08-01"
+  note: Virtual conference (originally planned for Madrid, Spain)
+  date: "2021-05-25"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2020
+  link: https://conf.researchr.org/home/icse-2020
+  deadline: "2019-08-01"
+  note: Virtual conference (originally planned for Seoul, South Korea)
+  date: "2020-06-27"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2019
+  link: https://conf.researchr.org/home/icse-2019
+  deadline: "2018-08-01"
+  note:
+  date: "2019-05-25"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2018
+  link: https://conf.researchr.org/home/icse-2018
+  deadline: "2017-08-01"
+  note:
+  date: "2018-05-27"
+  place: Gothenburg, Sweden
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2017
+  link: https://conf.researchr.org/home/icse-2017
+  deadline: "2016-08-01"
+  note:
+  date: "2017-05-20"
+  place: Buenos Aires, Argentina
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2016
+  link: https://conf.researchr.org/home/icse-2016
+  deadline: "2015-08-01"
+  note:
+  date: "2016-05-14"
+  place: Austin, Texas, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2015
+  link: https://conf.researchr.org/home/icse-2015
+  deadline: "2014-08-01"
+  note:
+  date: "2015-05-16"
+  place: Florence, Italy
+  acceptance_rate:
+  num_submission:
+
+  
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2025
+  link: https://conf.researchr.org/home/issta-2025
+  deadline: "2025-03-20"
+  note: 
+  date: "2025-06-25"
+  place: Oslo, Norway
+  acceptance_rate:
+  num_submission:
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2024
+  link: https://conf.researchr.org/home/issta-2024
+  deadline: "2024-05-25"
+  note: Co-located with ECOOP 2024
+  date: "2024-09-16"
+  place: Vienna, Austria
+  acceptance_rate:
+  num_submission:
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2023
+  link: https://conf.researchr.org/home/issta-2023
+  deadline: "2023-02-16"
+  note: Co-located with ECOOP 2023
+  date: "2023-07-17"
+  place: Seattle, Washington, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2022
+  link: https://conf.researchr.org/home/issta-2022
+  deadline: "2022-01-28"
+  note: Virtual conference
+  date: "2022-07-18"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2021
+  link: https://conf.researchr.org/home/issta-2021
+  deadline: "2021-01-15"
+  note: Virtual conference
+  date: "2021-07-14"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2020
+  link: https://conf.researchr.org/home/issta-2020
+  deadline: "2020-01-27"
+  note: Virtual conference
+  date: "2020-07-20"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2019
+  link: https://conf.researchr.org/home/issta-2019
+  deadline: "2019-01-25"
+  note: Co-located with SPIN 2019
+  date: "2019-07-15"
+  place: Beijing, China
+  acceptance_rate:
+  num_submission:
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2018
+  link: https://conf.researchr.org/home/issta-2018
+  deadline: "2018-01-26"
+  note: Co-located with ECOOP 2018
+  date: "2018-07-16"
+  place: Amsterdam, Netherlands
+  acceptance_rate:
+  num_submission:
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2017
+  link: https://conf.researchr.org/home/issta-2017
+  deadline: "2017-01-27"
+  note: Co-located with SPIN 2017
+  date: "2017-07-10"
+  place: Santa Barbara, California, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2016
+  link: https://conf.researchr.org/home/issta-2016
+  deadline: "2016-01-29"
+  note: Co-located with ECOOP 2016
+  date: "2016-07-18"
+  place: Rome, Italy
+  acceptance_rate:
+  num_submission:
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2015
+  link: https://conf.researchr.org/home/issta-2015
+  deadline: "2015-01-30"
+  note: Co-located with ECOOP 2015
+  date: "2015-07-15"
+  place: Baltimore, Maryland, USA
+  acceptance_rate:
+  num_submission:
+
+
 
 - name: POPL
   description: Principles of Programming Languages
@@ -98,7 +521,129 @@
   place: Rennes, France
   acceptance_rate:
   num_submission:
-  
+
+- name: POPL
+  description: Principles of Programming Languages
+  year: 2025
+  link: https://conf.researchr.org/home/POPL-2025
+  deadline: "2024-07-11"
+  note: 
+  date: "2025-01-19"
+  place: Denver, Colorado, United States
+  acceptance_rate:
+  num_submission:
+
+- name: POPL
+  description: Principles of Programming Languages
+  year: 2024
+  link: https://conf.researchr.org/home/POPL-2024
+  deadline: "2023-07-13"
+  note: 
+  date: "2024-01-14"
+  place: London, United Kingdom
+  acceptance_rate:
+  num_submission:
+
+- name: POPL
+  description: Principles of Programming Languages
+  year: 2023
+  link: https://conf.researchr.org/home/POPL-2023
+  deadline: "2022-07-07"
+  note: 
+  date: "2023-01-15"
+  place: Boston, Massachusetts, United States
+  acceptance_rate:
+  num_submission:
+
+- name: POPL
+  description: Principles of Programming Languages
+  year: 2022
+  link: https://conf.researchr.org/home/POPL-2022
+  deadline: "2021-07-08"
+  note: 
+  date: "2022-01-16"
+  place: Philadelphia, Pennsylvania, United States
+  acceptance_rate:
+  num_submission:
+
+- name: POPL
+  description: Principles of Programming Languages
+  year: 2021
+  link: https://conf.researchr.org/home/POPL-2021
+  deadline: "2020-07-09"
+  note: 
+  date: "2021-01-17"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: POPL
+  description: Principles of Programming Languages
+  year: 2020
+  link: https://conf.researchr.org/home/POPL-2020
+  deadline: "2019-07-11"
+  note: 
+  date: "2020-01-19"
+  place: New Orleans, Louisiana, United States
+  acceptance_rate:
+  num_submission:
+
+- name: POPL
+  description: Principles of Programming Languages
+  year: 2019
+  link: https://conf.researchr.org/home/POPL-2019
+  deadline: "2018-07-06"
+  note: 
+  date: "2019-01-13"
+  place: Cascais, Portugal
+  acceptance_rate:
+  num_submission:
+
+- name: POPL
+  description: Principles of Programming Languages
+  year: 2018
+  link: https://conf.researchr.org/home/POPL-2018
+  deadline: "2017-07-07"
+  note: 
+  date: "2018-01-08"
+  place: Los Angeles, California, United States
+  acceptance_rate:
+  num_submission:
+
+- name: POPL
+  description: Principles of Programming Languages
+  year: 2017
+  link: https://conf.researchr.org/home/POPL-2017
+  deadline: "2016-07-08"
+  note: 
+  date: "2017-01-15"
+  place: Paris, France
+  acceptance_rate:
+  num_submission:
+
+- name: POPL
+  description: Principles of Programming Languages
+  year: 2016
+  link: https://conf.researchr.org/home/POPL-2016
+  deadline: "2015-07-10"
+  note: 
+  date: "2016-01-20"
+  place: St. Petersburg, Florida, United States
+  acceptance_rate:
+  num_submission:
+
+- name: POPL
+  description: Principles of Programming Languages
+  year: 2015
+  link: https://popl.mpi-sws.org/2015/
+  deadline: "2014-07-08"
+  note: 
+  date: "2015-01-15"
+  place: Mumbai, India
+  acceptance_rate:
+  num_submission:
+
+
 - name: CAV
   description: Computer Aided Verification
   year: 2025
@@ -109,6 +654,118 @@
   place: Zagreb, Croatia
   acceptance_rate:
   num_submission:
+
+
+- name: CAV
+  description: Computer Aided Verification
+  year: 2024
+  link: https://i-cav.org/2024/
+  deadline: "2024-01-19"
+  note: 
+  date: "2024-07-24"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: CAV
+  description: Computer Aided Verification
+  year: 2023
+  link: https://i-cav.org/2023/
+  deadline: "2023-01-20"
+  note: 
+  date: "2023-07-17"
+  place: Paris, France
+  acceptance_rate:
+  num_submission:
+
+- name: CAV
+  description: Computer Aided Verification
+  year: 2022
+  link: https://i-cav.org/2022/
+  deadline: "2022-01-28"
+  note: 
+  date: "2022-08-07"
+  place: Haifa, Israel
+  acceptance_rate:
+  num_submission:
+
+- name: CAV
+  description: Computer Aided Verification
+  year: 2021
+  link: https://i-cav.org/2021/
+  deadline: "2021-01-28"
+  note: Virtual conference
+  date: "2021-07-20"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: CAV
+  description: Computer Aided Verification
+  year: 2020
+  link: https://i-cav.org/2020/
+  deadline: "2020-01-28"
+  note: Virtual conference
+  date: "2020-07-19"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: CAV
+  description: Computer Aided Verification
+  year: 2019
+  link: https://i-cav.org/2019/
+  deadline: "2019-01-25"
+  note: 
+  date: "2019-07-15"
+  place: New York City, USA
+  acceptance_rate:
+  num_submission:
+
+- name: CAV
+  description: Computer Aided Verification
+  year: 2018
+  link: https://i-cav.org/2018/
+  deadline: "2018-01-31"
+  note: Co-located with FLoC 2018
+  date: "2018-07-14"
+  place: Oxford, UK
+  acceptance_rate:
+  num_submission:
+
+- name: CAV
+  description: Computer Aided Verification
+  year: 2017
+  link: https://i-cav.org/2017/
+  deadline: "2017-01-24"
+  note: 
+  date: "2017-07-24"
+  place: Heidelberg, Germany
+  acceptance_rate:
+  num_submission:
+
+- name: CAV
+  description: Computer Aided Verification
+  year: 2016
+  link: https://i-cav.org/2016/
+  deadline: "2016-01-25"
+  note: 
+  date: "2016-07-17"
+  place: Toronto, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: CAV
+  description: Computer Aided Verification
+  year: 2015
+  link: https://i-cav.org/2015/
+  deadline: "2015-01-26"
+  note: 
+  date: "2015-07-18"
+  place: San Francisco, USA
+  acceptance_rate:
+  num_submission:
+
 
 - name: NeurIPS
   description: Neural Information Processing Systems

@@ -9,7 +9,7 @@
   acceptance_rate:
   num_submission:
 
-  - name: ASE
+- name: ASE
   description: Automated Software Engineering
   year: 2024
   link: https://conf.researchr.org/home/ase-2024
@@ -118,9 +118,6 @@
   place: Lincoln, Nebraska, USA
   acceptance_rate:
   num_submission:
-
-
-
 
 - name: FSE
   description: Foundations of Software Engineering
@@ -509,6 +506,216 @@
   acceptance_rate:
   num_submission:
 
+- name: ICFP
+  description: International Conference on Functional Programming
+  year: 2024
+  link: https://icfp24.sigplan.org/
+  deadline: "2024-02-28"
+  note:
+  date: "2024-09-02"
+  place: Milan, Italy
+  acceptance_rate:
+  num_submission:
+
+- name: ICFP
+  description: International Conference on Functional Programming
+  year: 2023
+  link: https://icfp23.sigplan.org/
+  deadline: "2023-03-01"
+  note:
+  date: "2023-09-04"
+  place: Seattle, WA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ICFP
+  description: International Conference on Functional Programming
+  year: 2022
+  link: https://icfp22.sigplan.org/
+  deadline: "2022-03-02"
+  note:
+  date: "2022-09-11"
+  place: Ljubljana, Slovenia
+  acceptance_rate:
+  num_submission:
+
+- name: ICFP
+  description: International Conference on Functional Programming
+  year: 2021
+  link: https://icfp21.sigplan.org/
+  deadline: "2021-03-03"
+  note: Virtual conference
+  date: "2021-08-22"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: ICFP
+  description: International Conference on Functional Programming
+  year: 2020
+  link: https://icfp20.sigplan.org/
+  deadline: "2020-03-04"
+  note: Virtual conference
+  date: "2020-08-23"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: ICFP
+  description: International Conference on Functional Programming
+  year: 2019
+  link: https://icfp19.sigplan.org/
+  deadline: "2019-03-06"
+  note:
+  date: "2019-08-18"
+  place: Berlin, Germany
+  acceptance_rate:
+  num_submission:
+
+- name: ICFP
+  description: International Conference on Functional Programming
+  year: 2018
+  link: https://icfp18.sigplan.org/
+  deadline: "2018-03-07"
+  note:
+  date: "2018-09-23"
+  place: St. Louis, MO, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ICFP
+  description: International Conference on Functional Programming
+  year: 2017
+  link: https://icfp17.sigplan.org/
+  deadline: "2017-03-08"
+  note:
+  date: "2017-09-03"
+  place: Oxford, UK
+  acceptance_rate:
+  num_submission:
+
+- name: ICFP
+  description: International Conference on Functional Programming
+  year: 2016
+  link: https://icfp16.sigplan.org/
+  deadline: "2016-03-09"
+  note:
+  date: "2016-09-18"
+  place: Nara, Japan
+  acceptance_rate:
+  num_submission:
+
+
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2024
+  link: https://pldi24.sigplan.org/
+  deadline: "2023-11-16"
+  note:
+  date: "2024-06-24"
+  place: Copenhagen, Denmark
+  acceptance_rate:
+  num_submission:
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2023
+  link: https://pldi23.sigplan.org/
+  deadline: "2022-11-17"
+  note:
+  date: "2023-06-17"
+  place: Orlando, FL, USA
+  acceptance_rate:
+  num_submission:
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2022
+  link: https://pldi22.sigplan.org/
+  deadline: "2021-11-18"
+  note:
+  date: "2022-06-13"
+  place: San Diego, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2021
+  link: https://pldi21.sigplan.org/
+  deadline: "2020-11-20"
+  note: Virtual conference
+  date: "2021-06-20"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2020
+  link: https://pldi20.sigplan.org/
+  deadline: "2019-11-22"
+  note: Virtual conference
+  date: "2020-06-15"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2019
+  link: https://pldi19.sigplan.org/
+  deadline: "2018-11-16"
+  note:
+  date: "2019-06-22"
+  place: Phoenix, AZ, USA
+  acceptance_rate:
+  num_submission:
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2018
+  link: https://pldi18.sigplan.org/
+  deadline: "2017-11-17"
+  note:
+  date: "2018-06-18"
+  place: Philadelphia, PA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2017
+  link: https://pldi17.sigplan.org/
+  deadline: "2016-11-18"
+  note:
+  date: "2017-06-18"
+  place: Barcelona, Spain
+  acceptance_rate:
+  num_submission:
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2016
+  link: https://pldi16.sigplan.org/
+  deadline: "2015-11-20"
+  note:
+  date: "2016-06-13"
+  place: Santa Barbara, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2015
+  link: https://pldi15.sigplan.org/
+  deadline: "2014-11-21"
+  note:
+  date: "2015-06-13"
+  place: Portland, OR, USA
+  acceptance_rate:
+  num_submission:
 
 
 - name: POPL

@@ -738,7 +738,7 @@
   place: Pittsburgh, PA, USA
   acceptance_rate:
   num_submission:
-  
+
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2025
@@ -1116,6 +1116,128 @@
   acceptance_rate:
   num_submission:
 
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2025
+  link: https://aaai.org/conference/aaai/aaai-25/
+  deadline: "2024-08-15"
+  note: Abstracts due August 7, 2024
+  date: "2025-02-10"
+  place: Philadelphia, PA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2024
+  link: https://aaai.org/conference/aaai/aaai-24/
+  deadline: "2023-08-15"
+  note: Abstracts due August 7, 2023
+  date: "2024-02-20"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2023
+  link: https://aaai-23.aaai.org/
+  deadline: "2022-08-15"
+  note: Abstracts due August 8, 2022
+  date: "2023-02-07"
+  place: Washington, DC, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2022
+  link: https://aaai.org/conference/aaai/aaai-22/
+  deadline: "2021-08-30"
+  note:
+  date: "2022-02-22"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2021
+  link: https://aaai.org/conference/aaai/aaai-21/
+  deadline: "2020-08-30"
+  note:
+  date: "2021-02-02"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2020
+  link: https://aaai.org/conference/aaai/aaai-20/
+  deadline: "2019-09-05"
+  note:
+  date: "2020-02-07"
+  place: New York, NY, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2019
+  link: https://www.openresearch.org/wiki/AAAI_2019
+  deadline: "2018-09-05"
+  note:
+  date: "2019-01-27"
+  place: Honolulu, HI, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2018
+  link: https://www.openresearch.org/wiki/AAAI_2018
+  deadline: "2017-09-08"
+  note:
+  date: "2018-02-02"
+  place: New Orleans, LA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2017
+  link: https://aaai.org/conference/aaai/aaai17/
+  deadline: "2016-09-14"
+  note:
+  date: "2017-02-04"
+  place: San Francisco, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2016
+  link: https://aaai.org/conference/aaai/aaai16/
+  deadline: "2015-09-10"
+  note:
+  date: "2016-02-12"
+  place: Phoenix, AZ, USA
+  acceptance_rate:
+  num_submission:
+
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2015
+  link: https://aaai.org/conference/aaai/aaai15/
+  deadline: "2014-09-10"
+  note:
+  date: "2015-01-25"
+  place: Austin, TX, USA
+  acceptance_rate:
+  num_submission:
+  
 
 - name: NeurIPS
   description: Neural Information Processing Systems

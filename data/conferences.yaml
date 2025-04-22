@@ -518,7 +518,7 @@
   acceptance_rate:
   num_submission:
   
-  
+
 - name: ICFP
   description: International Conference on Functional Programming
   year: 2024
@@ -618,7 +618,127 @@
   acceptance_rate:
   num_submission:
 
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2025
+  link: https://2025.splashcon.org/track/OOPSLA
+  deadline: "2024-10-15"
+  note: Round 1 submission deadline; Round 2 deadline: 2025-03-25
+  date: "2025-10-19"
+  place: Singapore
+  acceptance_rate:
+  num_submission:
 
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2024
+  link: https://2024.splashcon.org/track/splash-2024-OOPSLA
+  deadline: "2024-04-05"
+  note: Round 1 submission deadline
+  date: "2024-10-20"
+  place: Pasadena, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2023
+  link: https://2023.splashcon.org/track/splash-2023-oopsla
+  deadline: "2022-10-28"
+  note: Round 1 submission deadline
+  date: "2023-10-22"
+  place: Cascais, Portugal
+  acceptance_rate:
+  num_submission:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2022
+  link: https://2022.splashcon.org/track/splash-2022-oopsla
+  deadline: "2021-10-12"
+  note: Round 1 submission deadline
+  date: "2022-11-14"
+  place: Auckland, New Zealand
+  acceptance_rate:
+  num_submission:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2021
+  link: https://2021.splashcon.org/track/splash-2021-oopsla
+  deadline: "2020-10-15"
+  note: Round 1 submission deadline
+  date: "2021-10-17"
+  place: Chicago, IL, USA
+  acceptance_rate:
+  num_submission:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2020
+  link: https://2020.splashcon.org/track/splash-2020-oopsla
+  deadline: "2020-05-15"
+  note: Virtual conference
+  date: "2020-11-15"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2019
+  link: https://2019.splashcon.org/track/splash-2019-oopsla
+  deadline: "2019-04-05"
+  note:
+  date: "2019-10-20"
+  place: Athens, Greece
+  acceptance_rate:
+  num_submission:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2018
+  link: https://2018.splashcon.org/track/splash-2018-oopsla
+  deadline: "2018-04-05"
+  note:
+  date: "2018-11-04"
+  place: Boston, MA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2017
+  link: https://2017.splashcon.org/track/splash-2017-OOPSLA
+  deadline: "2017-04-05"
+  note:
+  date: "2017-10-22"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2016
+  link: https://2016.splashcon.org/track/splash-2016-oopsla
+  deadline: "2016-04-05"
+  note:
+  date: "2016-10-30"
+  place: Amsterdam, The Netherlands
+  acceptance_rate:
+  num_submission:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2015
+  link: https://2015.splashcon.org/track/oopsla2015
+  deadline: "2015-04-05"
+  note:
+  date: "2015-10-25"
+  place: Pittsburgh, PA, USA
+  acceptance_rate:
+  num_submission:
+  
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2025

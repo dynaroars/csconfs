@@ -534,7 +534,847 @@
   acceptance_rate:
   num_submission:
 
+## Machine Learning
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2025
+  link: https://icml.cc/Conferences/2025
+  deadline: "2025-02-01"
+  note:
+  date: "2025-07-13"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
 
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2024
+  link: https://icml.cc/Conferences/2024
+  deadline: "2024-02-01"
+  note:
+  date: "2024-07-21"
+  place: Vienna, Austria
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2023
+  link: https://icml.cc/Conferences/2023
+  deadline: "2023-01-26"
+  note:
+  date: "2023-07-23"
+  place: Honolulu, HI, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2022
+  link: https://icml.cc/Conferences/2022
+  deadline: "2022-01-27"
+  note:
+  date: "2022-07-17"
+  place: Baltimore, MD, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2021
+  link: https://icml.cc/Conferences/2021
+  deadline: "2021-01-28"
+  note: Virtual Conference
+  date: "2021-07-18"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2020
+  link: https://icml.cc/Conferences/2020
+  deadline: "2020-01-31"
+  note: Virtual Conference
+  date: "2020-07-12"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2019
+  link: https://icml.cc/Conferences/2019
+  deadline: "2019-01-31"
+  note:
+  date: "2019-06-10"
+  place: Long Beach, CA, USA
+  acceptance_rate:
+  num_submission:
+
+ 
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2025
+  link: https://iclr.cc/Conferences/2025
+  deadline: "2024-10-01"
+  note: "Abstract deadline: 2024-09-27"
+  date: "2025-04-24"
+  place: Singapore
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2024
+  link: https://iclr.cc/Conferences/2024
+  deadline: "2023-10-04"
+  note: "Abstract deadline: 2023-09-28"
+  date: "2024-05-07"
+  place: Vienna, Austria
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2023
+  link: https://iclr.cc/Conferences/2023
+  deadline: "2022-10-04"
+  note: "Abstract deadline: 2022-09-28"
+  date: "2023-05-01"
+  place: Kigali, Rwanda
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2022
+  link: https://iclr.cc/Conferences/2022
+  deadline: "2021-10-05"
+  note: "Abstract deadline: 2021-09-28"
+  date: "2022-04-25"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2021
+  link: https://iclr.cc/Conferences/2021
+  deadline: "2020-10-06"
+  note: "Abstract deadline: 2020-09-29"
+  date: "2021-05-03"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2020
+  link: https://iclr.cc/Conferences/2020
+  deadline: "2019-10-04"
+  note: "Abstract deadline: 2019-09-27"
+  date: "2020-04-26"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2019
+  link: https://iclr.cc/Conferences/2019
+  deadline: "2018-10-05"
+  note: "Abstract deadline: 2018-09-28"
+  date: "2019-05-06"
+  place: New Orleans, LA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2018
+  link: https://iclr.cc/Conferences/2018
+  deadline: "2017-10-06"
+  note: "Abstract deadline: 2017-09-29"
+  date: "2018-04-30"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2017
+  link: https://iclr.cc/Conferences/2017
+  deadline: "2016-10-07"
+  note: "Abstract deadline: 2016-09-30"
+  date: "2017-04-24"
+  place: Toulon, France
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2016
+  link: https://iclr.cc/Conferences/2016
+  deadline: "2015-10-09"
+  note: "Abstract deadline: 2015-10-02"
+  date: "2016-05-02"
+  place: San Juan, Puerto Rico
+  acceptance_rate:
+  num_submission:
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2015
+  link: https://iclr.cc/Conferences/2015
+  deadline: "2014-10-10"
+  note: "Abstract deadline: 2014-10-03"
+  date: "2015-05-07"
+  place: San Diego, CA, USA
+  acceptance_rate:
+  num_submission:
+
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2025
+  link: https://kdd2025.kdd.org/
+  deadline: "2025-02-10"
+  note: "Second cycle; Abstract deadline: 2025-02-03"
+  date: "2025-08-03"
+  place: Toronto, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2024
+  link: https://kdd2024.kdd.org/
+  deadline: "2024-02-09"
+  note: "Second cycle; Abstract deadline: 2024-02-02"
+  date: "2024-08-25"
+  place: Barcelona, Spain
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2023
+  link: https://kdd.org/kdd2023/
+  deadline: "2023-02-10"
+  note: "Second cycle; Abstract deadline: 2023-02-03"
+  date: "2023-08-06"
+  place: Long Beach, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2022
+  link: https://kdd.org/kdd2022/
+  deadline: "2022-02-10"
+  note: "Second cycle; Abstract deadline: 2022-02-04"
+  date: "2022-08-14"
+  place: Washington, D.C., USA
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2021
+  link: https://www.kdd.org/kdd2021/
+  deadline: "2021-02-08"
+  place: Virtual Conference
+  note: "Second cycle; Abstract deadline: 2021-02-05"
+  date: "2021-08-14"
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2020
+  link: https://www.kdd.org/kdd2020/
+  deadline: "2020-02-13"
+  note: Virtual Conference
+  date: "2020-08-23"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2019
+  link: https://www.kdd.org/kdd2019/
+  deadline: "2019-02-03"
+  note:
+  date: "2019-08-04"
+  place: Anchorage, Alaska, USA
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2018
+  link: https://www.kdd.org/kdd2018/
+  deadline: "2018-02-11"
+  note:
+  date: "2018-08-19"
+  place: London, United Kingdom
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2017
+  link: https://www.kdd.org/kdd2017/
+  deadline: "2017-02-17"
+  note:
+  date: "2017-08-13"
+  place: Halifax, Nova Scotia, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2016
+  link: https://www.kdd.org/kdd2016/
+  deadline: "2016-02-12"
+  note:
+  date: "2016-08-13"
+  place: San Francisco, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2015
+  link: https://www.kdd.org/kdd2015/
+  deadline: "2015-02-13"
+  note:
+  date: "2015-08-10"
+  place: Sydney, Australia
+  acceptance_rate:
+  num_submission:
+
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2025
+  link: https://neurips.cc/Conferences/2025
+  deadline: "2025-05-15"
+  notification_date: "2025-09-18"
+  note: 
+  date: "2025-12-02"
+  place: San Diego, CA
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2024
+  link: https://neurips.cc/Conferences/2024
+  deadline: "2024-05-15"
+  note:
+  date: "2024-12-10"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2023
+  link: https://neurips.cc/Conferences/2023
+  deadline: "2023-05-17"
+  note:
+  date: "2023-12-10"
+  place: New Orleans, Louisiana, USA
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2022
+  link: https://neurips.cc/Conferences/2022
+  deadline: "2022-05-19"
+  note:
+  date: "2022-11-28"
+  place: New Orleans, Louisiana, USA
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2021
+  link: https://neurips.cc/Conferences/2021
+  deadline: "2021-05-21"
+  note: Virtual conference
+  date: "2021-12-06"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2020
+  link: https://neurips.cc/Conferences/2020
+  deadline: "2020-06-05"
+  note: Virtual conference
+  date: "2020-12-06"
+  place: Online
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2019
+  link: https://neurips.cc/Conferences/2019
+  deadline: "2019-05-23"
+  note:
+  date: "2019-12-08"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2018
+  link: https://neurips.cc/Conferences/2018
+  deadline: "2018-05-18"
+  note:
+  date: "2018-12-02"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2017
+  link: https://neurips.cc/Conferences/2017
+  deadline: "2017-05-19"
+  note:
+  date: "2017-12-04"
+  place: Long Beach, California, USA
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2016
+  link: https://neurips.cc/Conferences/2016
+  deadline: "2016-05-20"
+  note:
+  date: "2016-12-05"
+  place: Barcelona, Spain
+  acceptance_rate:
+  num_submission:
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  year: 2015
+  link: https://neurips.cc/Conferences/2015
+  deadline: "2015-06-05"
+  note:
+  date: "2015-12-07"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+
+## Natural Language Processing
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
+  year: 2025
+  link: https://2025.aclweb.org/
+  deadline: "2025-02-15"
+  note: 
+  abstract_deadline: 
+  date: "2025-07-27"
+  place: Vienna, Austria
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Roberto Navigli
+  program_chair: Wanxiang Che, Joyce Nabende, Mohammad Taher Pilehvar, Ekaterina Shutova
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
+  year: 2024
+  link: https://2024.aclweb.org/
+  deadline: "2024-02-15"
+  note: 
+  abstract_deadline: 
+  date: "2024-08-11"
+  place: Bangkok, Thailand
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Claire Gardent
+  program_chair: Lun-Wei Ku, André Martins, Vivek Srikumar
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
+  year: 2023
+  link: https://2023.aclweb.org/
+  deadline: "2023-01-20"
+  note: 
+  abstract_deadline: "2023-01-13"
+  date: "2023-07-09"
+  place: Toronto, Canada
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Yang Liu
+  program_chair: Jordan Boyd-Graber, Naoaki Okazaki, Anna Rogers
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
+  year: 2022
+  link: https://2022.aclweb.org/
+  deadline: "2022-01-15"
+  note: 
+  abstract_deadline: 
+  date: "2022-05-22"
+  place: Dublin, Ireland
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Bernardo Magnini
+  program_chair: Smaranda Muresan, Preslav Nakov, Aline Villavicencio
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
+  year: 2021
+  link: https://2021.aclweb.org/
+  deadline: "2021-02-01"
+  note: 
+  abstract_deadline: 
+  date: "2021-08-01"
+  place: Bangkok, Thailand
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Chengqing Zong
+  program_chair: Fei Xia, Wenjie Li, Roberto Navigli
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
+  year: 2020
+  link: https://acl2020.org/
+  deadline: "2020-02-24"
+  note: 
+  abstract_deadline: 
+  date: "2020-07-05"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Dan Jurafsky
+  program_chair: Joyce Chai, Natalie Schluter, Joel Tetreault
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
+  year: 2019
+  link: https://acl2019.org/
+  deadline: "2019-03-04"
+  note: 
+  abstract_deadline: 
+  date: "2019-07-28"
+  place: Florence, Italy
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Lluís Màrquez
+  program_chair: Anna Korhonen, David Traum
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
+  year: 2018
+  link: https://acl2018.org/
+  deadline: "2018-03-09"
+  note: 
+  abstract_deadline: 
+  date: "2018-07-15"
+  place: Melbourne, Australia
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Claire Cardie
+  program_chair: Iryna Gurevych, Yusuke Miyao
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
+  year: 2017
+  link: http://acl2017.org/
+  deadline: "2017-02-06"
+  note: 
+  abstract_deadline: 
+  date: "2017-07-30"
+  place: Vancouver, Canada
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Chris Callison-Burch
+  program_chair: Regina Barzilay, Min-Yen Kan
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
+  year: 2016
+  link: https://acl2016.org/
+  deadline: "2016-03-18"
+  note: 
+  abstract_deadline: 
+  date: "2016-08-07"
+  place: Berlin, Germany
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Antal van den Bosch
+  program_chair: Katrin Erk, Noah Smith
+
+- name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  year: 2024
+  link: https://2024.emnlp.org/
+  deadline: "2024-06-15"
+  note: 
+  abstract_deadline: 
+  date: "2024-11-12"
+  place: Miami, FL, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Thamar Solorio
+  program_chair: Mohit Bansal, Yun-Nung (Vivian) Chen, Yaser Alonaizan
+
+- name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  year: 2023
+  link: https://2023.emnlp.org/
+  deadline: "2023-06-23"
+  note: 
+  abstract_deadline: "2023-06-16"
+  date: "2023-12-06"
+  place: Singapore
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Yuji Matsumoto
+  program_chair: Houda Bouamor, Juan Pino, Kalika Bali
+
+- name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  year: 2022
+  link: https://2022.emnlp.org/
+  deadline: "2022-06-17"
+  note: 
+  abstract_deadline: "2022-06-10"
+  date: "2022-12-07"
+  place: Abu Dhabi, UAE
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Noah Smith
+  program_chair: Yoav Goldberg, Yulia Tsvetkov
+
+- name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  year: 2021
+  link: https://2021.emnlp.org/
+  deadline: "2021-06-18"
+  note: 
+  abstract_deadline: "2021-06-11"
+  date: "2021-11-07"
+  place: Punta Cana, Dominican Republic
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Marie-Francine Moens
+  program_chair: Xuanjing Huang, Lucia Specia, Scott Wen-tau Yih
+
+- name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  year: 2020
+  link: https://2020.emnlp.org/
+  deadline: "2020-06-26"
+  note: 
+  abstract_deadline: "2020-06-19"
+  date: "2020-11-16"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Bonnie Webber
+  program_chair: Trevor Cohn, Yulan He, Yang Liu
+
+- name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  year: 2019
+  link: https://2019.emnlp.org/
+  deadline: "2019-05-31"
+  note: 
+  abstract_deadline: "2019-05-24"
+  date: "2019-11-03"
+  place: Hong Kong
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Kentaro Inui
+  program_chair: Jing Jiang, Vincent Ng, Xiaojun Wan
+
+- name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  year: 2018
+  link: https://emnlp2018.org/
+  deadline: "2018-06-15"
+  note: 
+  abstract_deadline: "2018-06-08"
+  date: "2018-10-31"
+  place: Brussels, Belgium
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Ellen Riloff
+  program_chair: David Chiang, Julia Hockenmaier, Junichi Tsujii
+
+- name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  year: 2017
+  link: https://emnlp2017.net/
+  deadline: "2017-05-19"
+  note: 
+  abstract_deadline: "2017-05-12"
+  date: "2017-09-07"
+  place: Copenhagen, Denmark
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Martha Palmer
+  program_chair: Sebastian Riedel, Rebecca Hwa
+
+- name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  year: 2016
+  link: https://www.aclweb.org/portal/content/emnlp-2016
+  deadline: "2016-06-17"
+  note: 
+  abstract_deadline: "2016-06-10"
+  date: "2016-11-02"
+  place: Austin, Texas, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Jian Su
+  program_chair: Kevin Duh, Xavier Carreras
+
+- name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  year: 2015
+  link: https://www.aclweb.org/portal/content/emnlp-2015
+  deadline: "2015-06-26"
+  note: 
+  abstract_deadline: "2015-06-19"
+  date: "2015-09-17"
+  place: Lisbon, Portugal
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Lluís Màrquez
+  program_chair: Chris Callison-Burch, Jian Su
+
+
+- name: NAACL
+  description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
+  year: 2025
+  link: https://2025.naacl.org/
+  deadline: "2024-12-15"
+  note: 
+  abstract_deadline: "2024-12-08"
+  date: "2025-04-29"
+  place: Albuquerque, NM, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Colin Cherry
+  program_chair: Lu Wang, Alan Ritter, Luis Chiruzzo
+
+- name: NAACL
+  description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
+  year: 2024
+  link: https://2024.naacl.org/
+  deadline: "2023-12-15"
+  note: 
+  abstract_deadline: "2023-12-08"
+  date: "2024-06-16"
+  place: Mexico City, Mexico
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Katrin Erk
+  program_chair: Kevin Duh, Helena Gómez-Adorno, Steven Bethard
+
+- name: NAACL
+  description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
+  year: 2022
+  link: https://2022.naacl.org/
+  deadline: "2021-12-15"
+  note: 
+  abstract_deadline: "2021-12-08"
+  date: "2022-07-10"
+  place: Seattle, WA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Dan Roth
+  program_chair: Marine Carpuat, Marie-Catherine de Marneffe, Ivan Vladimir Meza-Ruiz
+
+- name: NAACL
+  description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
+  year: 2021
+  link: https://2021.naacl.org/
+  deadline: "2020-12-15"
+  note: 
+  abstract_deadline: "2020-12-08"
+  date: "2021-06-06"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Kristina Toutanova
+  program_chair: Anna Rumshisky, Luke Zettlemoyer, Dilek Hakkani-Tur
+
+- name: NAACL
+  description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
+  year: 2019
+  link: https://naacl.org/naacl-hlt-2019/
+  deadline: "2018-12-15"
+  note: 
+  abstract_deadline: "2018-12-08"
+  date: "2019-06-02"
+  place: Minneapolis, MN, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Jill Burstein
+  program_chair: Christy Doran, Ted Pedersen, Thamar Solorio
+
+- name: NAACL
+  description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
+  year: 2018
+  link: https://naacl.org/naacl-hlt-2018/
+  deadline: "2017-12-15"
+  note: 
+  abstract_deadline: "2017-12-08"
+  date: "2018-06-01"
+  place: New Orleans, LA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Marilyn Walker
+  program_chair: Heng Ji, Amanda Stent
+
+- name: NAACL
+  description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
+  year: 2016
+  link: https://naacl.org/naacl-hlt-2016/
+  deadline: "2015-12-15"
+  note: 
+  abstract_deadline: "2015-12-08"
+  date: "2016-06-12"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Kevin Knight
+  program_chair: Ani Nenkova, Owen Rambow
+
+- name: NAACL
+  description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
+  year: 2015
+  link: https://naacl.org/naacl-hlt-2015/
+  deadline: "2014-12-15"
+  note: 
+  abstract_deadline: "2014-12-08"
+  date: "2015-05-31"
+  place: Denver, CO, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Rada Mihalcea
+  program_chair: Joyce Chai, Anoop Sarkar
+
+  
 # Systems
 ## Software Engineering
 - name: ASE
@@ -799,7 +1639,7 @@
   link: https://conf.researchr.org/home/icse-2026
   deadline: "2025-07-18"
   notification_date: "2025-10-17"
-  note: Second Cycle
+  note: Cycle 2/2
   date: "2026-04-12"
   place: Rio De Janeiro, Brazil
   acceptance_rate:
@@ -810,7 +1650,7 @@
   year: 2025
   link: https://conf.researchr.org/home/icse-2025
   deadline: "2024-08-02"
-  note: Second Cycle
+  note: Cycle 2/2
   date: "2025-04-27"
   place: Ontario, Canada
   acceptance_rate:
@@ -1660,450 +2500,6 @@
   num_submission:
 
 
-- name: ICML
-  description: International Conference on Machine Learning
-  year: 2025
-  link: https://icml.cc/Conferences/2025
-  deadline: "2025-02-01"
-  note:
-  date: "2025-07-13"
-  place: Vancouver, Canada
-  acceptance_rate:
-  num_submission:
-
-- name: ICML
-  description: International Conference on Machine Learning
-  year: 2024
-  link: https://icml.cc/Conferences/2024
-  deadline: "2024-02-01"
-  note:
-  date: "2024-07-21"
-  place: Vienna, Austria
-  acceptance_rate:
-  num_submission:
-
-- name: ICML
-  description: International Conference on Machine Learning
-  year: 2023
-  link: https://icml.cc/Conferences/2023
-  deadline: "2023-01-26"
-  note:
-  date: "2023-07-23"
-  place: Honolulu, HI, USA
-  acceptance_rate:
-  num_submission:
-
-- name: ICML
-  description: International Conference on Machine Learning
-  year: 2022
-  link: https://icml.cc/Conferences/2022
-  deadline: "2022-01-27"
-  note:
-  date: "2022-07-17"
-  place: Baltimore, MD, USA
-  acceptance_rate:
-  num_submission:
-
-- name: ICML
-  description: International Conference on Machine Learning
-  year: 2021
-  link: https://icml.cc/Conferences/2021
-  deadline: "2021-01-28"
-  note: Virtual Conference
-  date: "2021-07-18"
-  place: Online
-  acceptance_rate:
-  num_submission:
-
-- name: ICML
-  description: International Conference on Machine Learning
-  year: 2020
-  link: https://icml.cc/Conferences/2020
-  deadline: "2020-01-31"
-  note: Virtual Conference
-  date: "2020-07-12"
-  place: Online
-  acceptance_rate:
-  num_submission:
-
-- name: ICML
-  description: International Conference on Machine Learning
-  year: 2019
-  link: https://icml.cc/Conferences/2019
-  deadline: "2019-01-31"
-  note:
-  date: "2019-06-10"
-  place: Long Beach, CA, USA
-  acceptance_rate:
-  num_submission:
-
- 
-- name: ICLR
-  description: International Conference on Learning Representations
-  year: 2025
-  link: https://iclr.cc/Conferences/2025
-  deadline: "2024-10-01"
-  note: "Abstract deadline: 2024-09-27"
-  date: "2025-04-24"
-  place: Singapore
-  acceptance_rate:
-  num_submission:
-
-- name: ICLR
-  description: International Conference on Learning Representations
-  year: 2024
-  link: https://iclr.cc/Conferences/2024
-  deadline: "2023-10-04"
-  note: "Abstract deadline: 2023-09-28"
-  date: "2024-05-07"
-  place: Vienna, Austria
-  acceptance_rate:
-  num_submission:
-
-- name: ICLR
-  description: International Conference on Learning Representations
-  year: 2023
-  link: https://iclr.cc/Conferences/2023
-  deadline: "2022-10-04"
-  note: "Abstract deadline: 2022-09-28"
-  date: "2023-05-01"
-  place: Kigali, Rwanda
-  acceptance_rate:
-  num_submission:
-
-- name: ICLR
-  description: International Conference on Learning Representations
-  year: 2022
-  link: https://iclr.cc/Conferences/2022
-  deadline: "2021-10-05"
-  note: "Abstract deadline: 2021-09-28"
-  date: "2022-04-25"
-  place: Virtual Conference
-  acceptance_rate:
-  num_submission:
-
-- name: ICLR
-  description: International Conference on Learning Representations
-  year: 2021
-  link: https://iclr.cc/Conferences/2021
-  deadline: "2020-10-06"
-  note: "Abstract deadline: 2020-09-29"
-  date: "2021-05-03"
-  place: Virtual Conference
-  acceptance_rate:
-  num_submission:
-
-- name: ICLR
-  description: International Conference on Learning Representations
-  year: 2020
-  link: https://iclr.cc/Conferences/2020
-  deadline: "2019-10-04"
-  note: "Abstract deadline: 2019-09-27"
-  date: "2020-04-26"
-  place: Virtual Conference
-  acceptance_rate:
-  num_submission:
-
-- name: ICLR
-  description: International Conference on Learning Representations
-  year: 2019
-  link: https://iclr.cc/Conferences/2019
-  deadline: "2018-10-05"
-  note: "Abstract deadline: 2018-09-28"
-  date: "2019-05-06"
-  place: New Orleans, LA, USA
-  acceptance_rate:
-  num_submission:
-
-- name: ICLR
-  description: International Conference on Learning Representations
-  year: 2018
-  link: https://iclr.cc/Conferences/2018
-  deadline: "2017-10-06"
-  note: "Abstract deadline: 2017-09-29"
-  date: "2018-04-30"
-  place: Vancouver, Canada
-  acceptance_rate:
-  num_submission:
-
-- name: ICLR
-  description: International Conference on Learning Representations
-  year: 2017
-  link: https://iclr.cc/Conferences/2017
-  deadline: "2016-10-07"
-  note: "Abstract deadline: 2016-09-30"
-  date: "2017-04-24"
-  place: Toulon, France
-  acceptance_rate:
-  num_submission:
-
-- name: ICLR
-  description: International Conference on Learning Representations
-  year: 2016
-  link: https://iclr.cc/Conferences/2016
-  deadline: "2015-10-09"
-  note: "Abstract deadline: 2015-10-02"
-  date: "2016-05-02"
-  place: San Juan, Puerto Rico
-  acceptance_rate:
-  num_submission:
-
-- name: ICLR
-  description: International Conference on Learning Representations
-  year: 2015
-  link: https://iclr.cc/Conferences/2015
-  deadline: "2014-10-10"
-  note: "Abstract deadline: 2014-10-03"
-  date: "2015-05-07"
-  place: San Diego, CA, USA
-  acceptance_rate:
-  num_submission:
-
-
-- name: KDD
-  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2025
-  link: https://kdd2025.kdd.org/
-  deadline: "2025-02-10"
-  note: "Second cycle; Abstract deadline: 2025-02-03"
-  date: "2025-08-03"
-  place: Toronto, Canada
-  acceptance_rate:
-  num_submission:
-
-- name: KDD
-  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2024
-  link: https://kdd2024.kdd.org/
-  deadline: "2024-02-09"
-  note: "Second cycle; Abstract deadline: 2024-02-02"
-  date: "2024-08-25"
-  place: Barcelona, Spain
-  acceptance_rate:
-  num_submission:
-
-- name: KDD
-  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2023
-  link: https://kdd.org/kdd2023/
-  deadline: "2023-02-10"
-  note: "Second cycle; Abstract deadline: 2023-02-03"
-  date: "2023-08-06"
-  place: Long Beach, CA, USA
-  acceptance_rate:
-  num_submission:
-
-- name: KDD
-  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2022
-  link: https://kdd.org/kdd2022/
-  deadline: "2022-02-10"
-  note: "Second cycle; Abstract deadline: 2022-02-04"
-  date: "2022-08-14"
-  place: Washington, D.C., USA
-  acceptance_rate:
-  num_submission:
-
-- name: KDD
-  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2021
-  link: https://www.kdd.org/kdd2021/
-  deadline: "2021-02-08"
-  place: Virtual Conference
-  note: "Second cycle; Abstract deadline: 2021-02-05"
-  date: "2021-08-14"
-  acceptance_rate:
-  num_submission:
-
-- name: KDD
-  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2020
-  link: https://www.kdd.org/kdd2020/
-  deadline: "2020-02-13"
-  note: Virtual Conference
-  date: "2020-08-23"
-  place: Online
-  acceptance_rate:
-  num_submission:
-
-- name: KDD
-  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2019
-  link: https://www.kdd.org/kdd2019/
-  deadline: "2019-02-03"
-  note:
-  date: "2019-08-04"
-  place: Anchorage, Alaska, USA
-  acceptance_rate:
-  num_submission:
-
-- name: KDD
-  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2018
-  link: https://www.kdd.org/kdd2018/
-  deadline: "2018-02-11"
-  note:
-  date: "2018-08-19"
-  place: London, United Kingdom
-  acceptance_rate:
-  num_submission:
-
-- name: KDD
-  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2017
-  link: https://www.kdd.org/kdd2017/
-  deadline: "2017-02-17"
-  note:
-  date: "2017-08-13"
-  place: Halifax, Nova Scotia, Canada
-  acceptance_rate:
-  num_submission:
-
-- name: KDD
-  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2016
-  link: https://www.kdd.org/kdd2016/
-  deadline: "2016-02-12"
-  note:
-  date: "2016-08-13"
-  place: San Francisco, CA, USA
-  acceptance_rate:
-  num_submission:
-
-- name: KDD
-  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2015
-  link: https://www.kdd.org/kdd2015/
-  deadline: "2015-02-13"
-  note:
-  date: "2015-08-10"
-  place: Sydney, Australia
-  acceptance_rate:
-  num_submission:
-
-
-- name: NeurIPS
-  description: Neural Information Processing Systems
-  year: 2025
-  link: https://neurips.cc/Conferences/2025
-  deadline: "2025-05-15"
-  notification_date: "2025-09-18"
-  note: 
-  date: "2025-12-02"
-  place: San Diego, CA
-  acceptance_rate:
-  num_submission:
-
-- name: NeurIPS
-  description: Neural Information Processing Systems
-  year: 2024
-  link: https://neurips.cc/Conferences/2024
-  deadline: "2024-05-15"
-  note:
-  date: "2024-12-10"
-  place: Vancouver, Canada
-  acceptance_rate:
-  num_submission:
-
-- name: NeurIPS
-  description: Neural Information Processing Systems
-  year: 2023
-  link: https://neurips.cc/Conferences/2023
-  deadline: "2023-05-17"
-  note:
-  date: "2023-12-10"
-  place: New Orleans, Louisiana, USA
-  acceptance_rate:
-  num_submission:
-
-- name: NeurIPS
-  description: Neural Information Processing Systems
-  year: 2022
-  link: https://neurips.cc/Conferences/2022
-  deadline: "2022-05-19"
-  note:
-  date: "2022-11-28"
-  place: New Orleans, Louisiana, USA
-  acceptance_rate:
-  num_submission:
-
-- name: NeurIPS
-  description: Neural Information Processing Systems
-  year: 2021
-  link: https://neurips.cc/Conferences/2021
-  deadline: "2021-05-21"
-  note: Virtual conference
-  date: "2021-12-06"
-  place: Online
-  acceptance_rate:
-  num_submission:
-
-- name: NeurIPS
-  description: Neural Information Processing Systems
-  year: 2020
-  link: https://neurips.cc/Conferences/2020
-  deadline: "2020-06-05"
-  note: Virtual conference
-  date: "2020-12-06"
-  place: Online
-  acceptance_rate:
-  num_submission:
-
-- name: NeurIPS
-  description: Neural Information Processing Systems
-  year: 2019
-  link: https://neurips.cc/Conferences/2019
-  deadline: "2019-05-23"
-  note:
-  date: "2019-12-08"
-  place: Vancouver, Canada
-  acceptance_rate:
-  num_submission:
-
-- name: NeurIPS
-  description: Neural Information Processing Systems
-  year: 2018
-  link: https://neurips.cc/Conferences/2018
-  deadline: "2018-05-18"
-  note:
-  date: "2018-12-02"
-  place: Montreal, Canada
-  acceptance_rate:
-  num_submission:
-
-- name: NeurIPS
-  description: Neural Information Processing Systems
-  year: 2017
-  link: https://neurips.cc/Conferences/2017
-  deadline: "2017-05-19"
-  note:
-  date: "2017-12-04"
-  place: Long Beach, California, USA
-  acceptance_rate:
-  num_submission:
-
-- name: NeurIPS
-  description: Neural Information Processing Systems
-  year: 2016
-  link: https://neurips.cc/Conferences/2016
-  deadline: "2016-05-20"
-  note:
-  date: "2016-12-05"
-  place: Barcelona, Spain
-  acceptance_rate:
-  num_submission:
-
-- name: NeurIPS
-  description: Neural Information Processing Systems
-  year: 2015
-  link: https://neurips.cc/Conferences/2015
-  deadline: "2015-06-05"
-  note:
-  date: "2015-12-07"
-  place: Montreal, Canada
-  acceptance_rate:
-  num_submission:
-
 - name: IMC
   description: ACM Internet Measurement Conference
   year: 2025
@@ -2233,7 +2629,7 @@
   deadline: "2025-08-20"
   notification_date: "2025-11-24"
   note: "Cycle 2/2"
-  date: "TBD"
+  date: ""
   place: TBD
   acceptance_rate:
   num_submission:
@@ -2245,7 +2641,7 @@
   deadline: "2025-03-12"
   notification_date: "2025-06-24"
   note: "Cycle 1/2"
-  date: "TBD"
+  date: ""
   place: TBD
   acceptance_rate:
   num_submission:
@@ -2345,54 +2741,57 @@
   year: 2019
   link: https://www.asplos-conference.org/asplos2019/
   deadline: "2018-08-07"
-  note: "Abstract deadline: 2018-07-31"
+  note: 
+  Abstract_deadline: "2018-07-31"
   date: "2019-04-13"
   place: Providence, RI, USA
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair:
 
 - name: ASPLOS
   description: Architectural Support for Programming Languages and Operating Systems
   year: 2018
   link: https://www.asplos-conference.org/asplos2018/
   deadline: "2017-08-11"
-  note: "Abstract deadline: 2017-08-04"
+  note: 
+  abstract deadline: "2017-08-04"
   date: "2018-03-24"
   place: Williamsburg, VA, USA
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair:
 
 - name: ASPLOS
   description: Architectural Support for Programming Languages and Operating Systems
   year: 2017
   link: https://www.asplos-conference.org/asplos2017/
   deadline: "2016-08-12"
-  note: "Abstract deadline: 2016-08-05"
+  note: 
+  abstract_deadline: "2016-08-05"
   date: "2017-04-08"
-  place: Xi'an, China
+  place: "Xi'an, China"
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair:
+
 
 - name: ASPLOS
   description: Architectural Support for Programming Languages and Operating Systems
   year: 2016
   link: https://www.asplos-conference.org/asplos2016/
   deadline: "2015-08-12"
-  note: "Abstract deadline: 2015-08-05"
+  note: 
+  abstract_deadline: 2015-08-05"
   date: "2016-04-02"
   place: Atlanta, GA, USA
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair:
 
 
-# - name: 
-#   description: 
-#   year: 
-#   link: 
-#   deadline: 
-#   note: 
-#   date: 
-#   place: 
-#   acceptance_rate:
-#   num_submission:
   

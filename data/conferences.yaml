@@ -1374,7 +1374,148 @@
   general_chair: Rada Mihalcea
   program_chair: Joyce Chai, Anoop Sarkar
 
+# The Web and Information Retrieval
+- name: SIGIR
+  description: International ACM SIGIR Conference on Research and Development in Information Retrieval
+  year: 2025
+  link: https://sigir2025.dei.unipd.it/
+  deadline: "2025-01-31"
+  note: 
+  abstract_deadline: "2025-01-24"
+  date: "2025-07-13"
+  place: Padua, Italy
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Nicola Ferro, Maria Maistro, Gabriella Pasi
+  program_chair: Omar Alonso, Andrew Trotman, Suzan Verberne
+
+- name: SIGIR
+  description: International ACM SIGIR Conference on Research and Development in Information Retrieval
+  year: 2024
+  link: https://sigir-2024.github.io/
+  deadline: "2024-01-31"
+  note: 
+  abstract_deadline: "2024-01-24"
+  date: "2024-07-14"
+  place: Washington, D.C., USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Grace Hui Yang, Hongning Wang, Sam Han
+  program_chair: Claudia Hauff, Guido Zuccon, Yi Zhang
+
+- name: SIGIR
+  description: International ACM SIGIR Conference on Research and Development in Information Retrieval
+  year: 2023
+  link: https://sigir.org/sigir2023/
+  deadline: "2023-01-31"
+  note: 
+  abstract_deadline: "2023-01-24"
+  date: "2023-07-23"
+  place: Taipei, Taiwan
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Hsin-Hsi Chen, Wei-Jou (Edward) Duh, Hen-Hsen Huang
+  program_chair: Makoto P. Kato, Josiane Mothe, Barbara Poblete
+
+- name: SIGIR
+  description: International ACM SIGIR Conference on Research and Development in Information Retrieval
+  year: 2022
+  link: https://sigir.org/sigir2022/
+  deadline: "2022-01-31"
+  note: 
+  abstract_deadline: "2022-01-24"
+  date: "2022-07-11"
+  place: Madrid, Spain
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Enrique Amigó, Pablo Castells, Julio Gonzalo
+  program_chair: Ben Carterette, Shane Culpepper, Gabriella Kazai
+
+- name: SIGIR
+  description: International ACM SIGIR Conference on Research and Development in Information Retrieval
+  year: 2021
+  link: https://sigir.org/sigir2021/
+  deadline: "2021-01-29"
+  note: 
+  abstract_deadline: "2021-01-22"
+  date: "2021-07-11"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Fernando Diaz, Chirag Shah, Torsten Suel
+  program_chair: Pablo Castells, Rosie Jones, Tetsuya Sakai
+
+- name: SIGIR
+  description: International ACM SIGIR Conference on Research and Development in Information Retrieval
+  year: 2020
+  link: https://sigir.org/sigir2020/
+  deadline: "2020-01-28"
+  note: 
+  abstract_deadline: "2020-01-21"
+  date: "2020-07-25"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Yi Chang, Xueqi Cheng, Jimmy Huang
+  program_chair: Jaap Kamps, Vanessa Murdock, Ji-Rong Wen
+
+- name: SIGIR
+  description: International ACM SIGIR Conference on Research and Development in Information Retrieval
+  year: 2019
+  link: https://sigir.org/sigir2019/
+  deadline: "2019-01-28"
+  note: 
+  abstract_deadline: "2019-01-21"
+  date: "2019-07-21"
+  place: Paris, France
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Benjamin Piwowarski, Max Chevalier, Éric Gaussier
+  program_chair: Yoelle Maarek, Jian-Yun Nie, Falk Scholer
+
+- name: SIGIR
+  description: International ACM SIGIR Conference on Research and Development in Information Retrieval
+  year: 2018
+  link: https://sigir.org/sigir2018/
+  deadline: "2018-01-22"
+  note: 
+  abstract_deadline: "2018-01-15"
+  date: "2018-07-08"
+  place: Ann Arbor, MI, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Kevyn Collins-Thompson, Qiaozhu Mei
+  program_chair: Brian D. Davison, Yiqun Liu, Emine Yilmaz
+
+- name: SIGIR
+  description: International ACM SIGIR Conference on Research and Development in Information Retrieval
+  year: 2017
+  link: https://sigir.org/sigir2017/
+  deadline: "2017-01-23"
+  note: 
+  abstract_deadline: "2017-01-16"
+  date: "2017-08-07"
+  place: Tokyo, Japan
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Noriko Kando, Tetsuya Sakai, Hideo Joho
+  program_chair: Ryen W. White, Hang Li, Arjen P. de Vries
+
+- name: SIGIR
+  description: International ACM SIGIR Conference on Research and Development in Information Retrieval
+  year: 2016
+  link: https://sigir.org/sigir2016/
+  deadline: "2016-01-25"
+  note: 
+  abstract_deadline: "2016-01-18"
+  date: "2016-07-17"
+  place: Pisa, Italy
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Raffaele Perego, Fabrizio Sebastiani
+  program_chair: Diane Kelly, Evangelos Kanoulas, Emine Yilmaz
   
+    
 # Systems
 ## Software Engineering
 - name: ASE

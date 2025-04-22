@@ -663,6 +663,7 @@
   year: 2026
   link: https://conf.researchr.org/home/fse-2026
   deadline: "2025-09-11"
+  notification_date: "2025-12-22"
   note: 
   date: "2026-07-06"
   place: Montreal, Canada
@@ -796,6 +797,7 @@
   year: 2026
   link: https://conf.researchr.org/home/icse-2026
   deadline: "2025-07-18"
+  notification_date: "2025-10-17"
   note: Second Cycle
   date: "2026-04-12"
   place: Rio De Janeiro, Brazil
@@ -1405,6 +1407,7 @@
   year: 2026
   link: https://conf.researchr.org/home/POPL-2026
   deadline: "2025-07-10"
+  notification_date: "2025-10-02"
   note: 
   date: "2026-01-11"
   place: Rennes, France
@@ -1983,6 +1986,7 @@
   year: 2025
   link: https://neurips.cc/Conferences/2025
   deadline: "2025-05-15"
+  notification_date: "2025-09-18"
   note: 
   date: "2025-12-02"
   place: San Diego, CA

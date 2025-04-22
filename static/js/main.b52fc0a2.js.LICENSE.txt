@@ -5,6 +5,8 @@ https://github.com/mholt/PapaParse
 License: MIT
 */
 
+/*! decimal.js-light v2.5.1 https://github.com/MikeMcl/decimal.js-light/LICENCE */
+
 /*! js-yaml 4.1.0 https://github.com/nodeca/js-yaml @license MIT */
 
 /**
@@ -32,6 +34,16 @@ License: MIT
  * react-is.production.js
  *
  * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.

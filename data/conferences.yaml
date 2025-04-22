@@ -506,6 +506,19 @@
   acceptance_rate:
   num_submission:
 
+
+- name: ICFP
+  description: International Conference on Functional Programming
+  year: 2025
+  link: https://icfp25.sigplan.org/
+  deadline: "2025-04-22"
+  note: Co-located with SPLASH 2025
+  date: "2025-10-12"
+  place: Singapore
+  acceptance_rate:
+  num_submission:
+  
+  
 - name: ICFP
   description: International Conference on Functional Programming
   year: 2024
@@ -606,6 +619,16 @@
   num_submission:
 
 
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2025
+  link: https://pldi25.sigplan.org/
+  deadline: "2024-11-14"
+  note:
+  date: "2025-06-18"
+  place: Seoul, South Korea
+  acceptance_rate:
+  num_submission:
 
 - name: PLDI
   description: Programming Language Design and Implementation

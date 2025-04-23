@@ -8,7 +8,7 @@
   deadline: "2024-08-15"
   note: Abstracts due August 7, 2024
   date: "2025-02-10"
-  place: Philadelphia, PA, USA
+  place: Philadelphia, PA
   acceptance_rate:
   num_submission:
 
@@ -30,7 +30,7 @@
   deadline: "2022-08-15"
   note: Abstracts due August 8, 2022
   date: "2023-02-07"
-  place: Washington, DC, USA
+  place: Washington, DC
   acceptance_rate:
   num_submission:
 
@@ -63,7 +63,7 @@
   deadline: "2019-09-05"
   note:
   date: "2020-02-07"
-  place: New York, NY, USA
+  place: New York, NY
   acceptance_rate:
   num_submission:
 
@@ -74,7 +74,7 @@
   deadline: "2018-09-05"
   note:
   date: "2019-01-27"
-  place: Honolulu, HI, USA
+  place: Honolulu, HI
   acceptance_rate:
   num_submission:
 
@@ -85,7 +85,7 @@
   deadline: "2017-09-08"
   note:
   date: "2018-02-02"
-  place: New Orleans, LA, USA
+  place: New Orleans, LA
   acceptance_rate:
   num_submission:
 
@@ -96,7 +96,7 @@
   deadline: "2016-09-14"
   note:
   date: "2017-02-04"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate:
   num_submission:
 
@@ -107,7 +107,7 @@
   deadline: "2015-09-10"
   note:
   date: "2016-02-12"
-  place: Phoenix, AZ, USA
+  place: Phoenix, AZ
   acceptance_rate:
   num_submission:
 
@@ -118,7 +118,7 @@
   deadline: "2014-09-10"
   note:
   date: "2015-01-25"
-  place: Austin, TX, USA
+  place: Austin, TX
   acceptance_rate:
   num_submission:
 
@@ -229,7 +229,7 @@
   deadline: "2016-02-02"
   note: "Abstract deadline: 2016-01-27"
   date: "2016-07-09"
-  place: New York, NY, USA
+  place: New York, NY
   acceptance_rate:
   num_submission:
 
@@ -254,7 +254,7 @@
   deadline: "2024-11-14"
   note: "Abstract deadline: 2024-11-07"
   date: "2025-06-11"
-  place: Nashville, TN, USA
+  place: Nashville, TN
   acceptance_rate:
   num_submission:
 
@@ -265,7 +265,7 @@
   deadline: "2023-11-17"
   note: "Abstract deadline: 2023-11-10"
   date: "2024-06-17"
-  place: Seattle, WA, USA
+  place: Seattle, WA
   acceptance_rate:
   num_submission:
 
@@ -287,7 +287,7 @@
   deadline: "2021-11-16"
   note: "Abstract deadline: 2021-11-09"
   date: "2022-06-19"
-  place: New Orleans, LA, USA
+  place: New Orleans, LA
   acceptance_rate:
   num_submission:
 
@@ -309,7 +309,7 @@
   deadline: "2019-11-15"
   note: "Abstract deadline: 2019-11-08"
   date: "2020-06-14"
-  place: Seattle, WA, USA
+  place: Seattle, WA
   acceptance_rate:
   num_submission:
 
@@ -320,7 +320,7 @@
   deadline: "2018-11-16"
   note: "Abstract deadline: 2018-11-09"
   date: "2019-06-16"
-  place: Long Beach, CA, USA
+  place: Long Beach, CA
   acceptance_rate:
   num_submission:
 
@@ -331,7 +331,7 @@
   deadline: "2017-11-15"
   note: "Abstract deadline: 2017-11-08"
   date: "2018-06-18"
-  place: Salt Lake City, UT, USA
+  place: Salt Lake City, UT
   acceptance_rate:
   num_submission:
 
@@ -342,7 +342,7 @@
   deadline: "2016-11-16"
   note: "Abstract deadline: 2016-11-09"
   date: "2017-07-21"
-  place: Honolulu, HI, USA
+  place: Honolulu, HI
   acceptance_rate:
   num_submission:
 
@@ -353,7 +353,7 @@
   deadline: "2015-11-16"
   note: "Abstract deadline: 2015-11-09"
   date: "2016-06-27"
-  place: Las Vegas, NV, USA
+  place: Las Vegas, NV
   acceptance_rate:
   num_submission:
 
@@ -364,7 +364,7 @@
   deadline: "2014-11-14"
   note: "Abstract deadline: 2014-11-07"
   date: "2015-06-07"
-  place: Boston, MA, USA
+  place: Boston, MA
   acceptance_rate:
   num_submission:
 
@@ -564,7 +564,7 @@
   deadline: "2023-01-26"
   note:
   date: "2023-07-23"
-  place: Honolulu, HI, USA
+  place: Honolulu, HI
   acceptance_rate:
   num_submission:
 
@@ -575,7 +575,7 @@
   deadline: "2022-01-27"
   note:
   date: "2022-07-17"
-  place: Baltimore, MD, USA
+  place: Baltimore, MD
   acceptance_rate:
   num_submission:
 
@@ -608,7 +608,7 @@
   deadline: "2019-01-31"
   note:
   date: "2019-06-10"
-  place: Long Beach, CA, USA
+  place: Long Beach, CA
   acceptance_rate:
   num_submission:
 
@@ -686,7 +686,7 @@
   deadline: "2018-10-05"
   note: "Abstract deadline: 2018-09-28"
   date: "2019-05-06"
-  place: New Orleans, LA, USA
+  place: New Orleans, LA
   acceptance_rate:
   num_submission:
 
@@ -719,7 +719,7 @@
   deadline: "2015-10-09"
   note: "Abstract deadline: 2015-10-02"
   date: "2016-05-02"
-  place: San Juan, Puerto Rico
+  place: San Juan, PR
   acceptance_rate:
   num_submission:
 
@@ -730,7 +730,7 @@
   deadline: "2014-10-10"
   note: "Abstract deadline: 2014-10-03"
   date: "2015-05-07"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate:
   num_submission:
 
@@ -765,7 +765,7 @@
   deadline: "2023-02-10"
   note: "Second cycle; Abstract deadline: 2023-02-03"
   date: "2023-08-06"
-  place: Long Beach, CA, USA
+  place: Long Beach, CA
   acceptance_rate:
   num_submission:
 
@@ -776,7 +776,7 @@
   deadline: "2022-02-10"
   note: "Second cycle; Abstract deadline: 2022-02-04"
   date: "2022-08-14"
-  place: Washington, D.C., USA
+  place: Washington, DC
   acceptance_rate:
   num_submission:
 
@@ -809,7 +809,7 @@
   deadline: "2019-02-03"
   note:
   date: "2019-08-04"
-  place: Anchorage, Alaska, USA
+  place: Anchorage, AK
   acceptance_rate:
   num_submission:
 
@@ -842,7 +842,7 @@
   deadline: "2016-02-12"
   note:
   date: "2016-08-13"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate:
   num_submission:
 
@@ -888,7 +888,7 @@
   deadline: "2023-05-17"
   note:
   date: "2023-12-10"
-  place: New Orleans, Louisiana, USA
+  place: New Orleans, LA
   acceptance_rate:
   num_submission:
 
@@ -899,7 +899,7 @@
   deadline: "2022-05-19"
   note:
   date: "2022-11-28"
-  place: New Orleans, Louisiana, USA
+  place: New Orleans, LA
   acceptance_rate:
   num_submission:
 
@@ -954,7 +954,7 @@
   deadline: "2017-05-19"
   note:
   date: "2017-12-04"
-  place: Long Beach, California, USA
+  place: Long Beach, CA
   acceptance_rate:
   num_submission:
 
@@ -1130,7 +1130,7 @@
   note: 
   abstract_deadline: 
   date: "2024-11-12"
-  place: Miami, FL, USA
+  place: Miami, FL
   acceptance_rate: 
   num_submission: 
   general_chair: Thamar Solorio
@@ -1242,7 +1242,7 @@
   note: 
   abstract_deadline: "2016-06-10"
   date: "2016-11-02"
-  place: Austin, Texas, USA
+  place: Austin, TX
   acceptance_rate: 
   num_submission: 
   general_chair: Jian Su
@@ -1271,7 +1271,7 @@
   note: 
   abstract_deadline: "2024-12-08"
   date: "2025-04-29"
-  place: Albuquerque, NM, USA
+  place: Albuquerque, NM
   acceptance_rate: 
   num_submission: 
   general_chair: Colin Cherry
@@ -1299,7 +1299,7 @@
   note: 
   abstract_deadline: "2021-12-08"
   date: "2022-07-10"
-  place: Seattle, WA, USA
+  place: Seattle, WA
   acceptance_rate: 
   num_submission: 
   general_chair: Dan Roth
@@ -1327,7 +1327,7 @@
   note: 
   abstract_deadline: "2018-12-08"
   date: "2019-06-02"
-  place: Minneapolis, MN, USA
+  place: Minneapolis, MN
   acceptance_rate: 
   num_submission: 
   general_chair: Jill Burstein
@@ -1341,7 +1341,7 @@
   note: 
   abstract_deadline: "2017-12-08"
   date: "2018-06-01"
-  place: New Orleans, LA, USA
+  place: New Orleans, LA
   acceptance_rate: 
   num_submission: 
   general_chair: Marilyn Walker
@@ -1355,7 +1355,7 @@
   note: 
   abstract_deadline: "2015-12-08"
   date: "2016-06-12"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Kevin Knight
@@ -1369,7 +1369,7 @@
   note: 
   abstract_deadline: "2014-12-08"
   date: "2015-05-31"
-  place: Denver, CO, USA
+  place: Denver, CO
   acceptance_rate: 
   num_submission: 
   general_chair: Rada Mihalcea
@@ -1398,7 +1398,7 @@
   note: 
   abstract_deadline: "2024-01-24"
   date: "2024-07-14"
-  place: Washington, D.C., USA
+  place: Washington, DC
   acceptance_rate: 
   num_submission: 
   general_chair: Grace Hui Yang, Hongning Wang, Sam Han
@@ -1482,7 +1482,7 @@
   note: 
   abstract_deadline: "2018-01-15"
   date: "2018-07-08"
-  place: Ann Arbor, MI, USA
+  place: Ann Arbor, MI
   acceptance_rate: 
   num_submission: 
   general_chair: Kevyn Collins-Thompson, Qiaozhu Mei
@@ -1552,7 +1552,7 @@
   note: 
   abstract_deadline: "2022-10-08"
   date: "2023-04-30"
-  place: Austin, TX, USA
+  place: Austin, TX
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -1608,7 +1608,7 @@
   note: 
   abstract_deadline: "2018-10-08"
   date: "2019-05-13"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -1727,7 +1727,7 @@
   deadline: "2023-03-01"
   note: "Abstract deadline: 2023-02-23"
   date: "2024-04-27"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate:
   num_submission:
 
@@ -1783,7 +1783,7 @@
   note: 
   Abstract_deadline: "2018-07-31"
   date: "2019-04-13"
-  place: Providence, RI, USA
+  place: Providence, RI
   acceptance_rate:
   num_submission:
   general_chair:
@@ -1797,7 +1797,7 @@
   note: 
   abstract deadline: "2017-08-04"
   date: "2018-03-24"
-  place: Williamsburg, VA, USA
+  place: Williamsburg, VA
   acceptance_rate:
   num_submission:
   general_chair:
@@ -1826,7 +1826,7 @@
   note: 
   abstract_deadline: "2015-08-05"
   date: "2016-04-02"
-  place: Atlanta, GA, USA
+  place: Atlanta, GA
   acceptance_rate:
   num_submission:
   general_chair:
@@ -1841,7 +1841,7 @@
   note: 
   abstract_deadline: "2024-11-08"
   date: "2025-06-21"
-  place: Portland, OR, USA
+  place: Portland, OR
   acceptance_rate: 
   num_submission: 
   general_chair: Jean-Luc Gaudiot, Hironori Kasahara
@@ -1869,7 +1869,7 @@
   note: 
   abstract_deadline: "2022-11-08"
   date: "2023-06-17"
-  place: Orlando, FL, USA
+  place: Orlando, FL
   acceptance_rate: 
   num_submission: 
   general_chair: Yan Solihin, Mark Heinrich
@@ -1883,7 +1883,7 @@
   note: 
   abstract_deadline: "2021-11-08"
   date: "2022-06-18"
-  place: New York, NY, USA
+  place: New York, NY
   acceptance_rate: 
   num_submission: 
   general_chair: Valentina Salapura, Mohamed Zahran
@@ -1925,7 +1925,7 @@
   note: 
   abstract_deadline: "2018-11-08"
   date: "2019-06-22"
-  place: Phoenix, AZ, USA
+  place: Phoenix, AZ
   acceptance_rate: 
   num_submission: 
   general_chair: Srilatha (Bobbie) Manne
@@ -1939,7 +1939,7 @@
   note: 
   abstract_deadline: "2017-11-08"
   date: "2018-06-02"
-  place: Los Angeles, CA, USA
+  place: Los Angeles, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Murali Annavaram, Timothy M. Pinkston
@@ -1995,7 +1995,7 @@
   note: 
   abstract_deadline: "2024-04-05"
   date: "2024-11-02"
-  place: Austin, TX, USA
+  place: Austin, TX
   acceptance_rate: 
   num_submission: 
   general_chair: Paul V. Gratz, Jason Clemons, Jose Joao
@@ -2023,7 +2023,7 @@
   note: 
   abstract_deadline: "2022-04-14"
   date: "2022-10-01"
-  place: Chicago, IL, USA
+  place: Chicago, IL
   acceptance_rate: 
   num_submission: 
   general_chair: Nikos Hardavellas, Simone Campanoni
@@ -2065,7 +2065,7 @@
   note: 
   abstract_deadline: "2019-03-29"
   date: "2019-10-12"
-  place: Columbus, OH, USA
+  place: Columbus, OH
   acceptance_rate: 
   num_submission: 
   general_chair: Radu Teodorescu, Dhabaleswar K. Panda
@@ -2093,7 +2093,7 @@
   note: 
   abstract_deadline: "2017-05-05"
   date: "2017-10-14"
-  place: Boston, MA, USA
+  place: Boston, MA
   acceptance_rate: 
   num_submission: 
   general_chair: David H. Albonesi, Gabriel Loh
@@ -2121,7 +2121,7 @@
   note: 
   abstract_deadline: "2024-09-08"
   date: "2025-03-01"
-  place: Las Vegas, NV, USA
+  place: Las Vegas, NV
   acceptance_rate: 
   num_submission: 
   general_chair: Hung-Wei Tseng
@@ -2191,7 +2191,7 @@
   note: 
   abstract_deadline: "2019-07-23"
   date: "2020-02-22"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Dean Tullsen, Hadi Esmaeilzadeh
@@ -2205,7 +2205,7 @@
   note: 
   abstract_deadline: "2018-07-23"
   date: "2019-02-16"
-  place: Washington, D.C., USA
+  place: Washington, DC
   acceptance_rate: 
   num_submission: 
   general_chair: Ahmed Louri, Guru Prasadh Venkataramani
@@ -2233,7 +2233,7 @@
   note: 
   abstract_deadline: "2016-07-23"
   date: "2017-02-04"
-  place: Austin, TX, USA
+  place: Austin, TX
   acceptance_rate: 
   num_submission: 
   general_chair: Derek Chiou
@@ -2402,7 +2402,7 @@
   note: 
   abstract_deadline: "2024-09-06"
   date: "2025-04-14"
-  place: Santa Clara, CA, USA
+  place: Santa Clara, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2416,7 +2416,7 @@
   note: 
   abstract_deadline: "2023-09-08"
   date: "2024-04-16"
-  place: Santa Clara, CA, USA
+  place: Santa Clara, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2430,7 +2430,7 @@
   note: 
   abstract_deadline: "2022-09-09"
   date: "2023-04-17"
-  place: Boston, MA, USA
+  place: Boston, MA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2444,7 +2444,7 @@
   note: 
   abstract_deadline: "2021-09-10"
   date: "2022-04-04"
-  place: Renton, WA, USA
+  place: Renton, WA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2472,7 +2472,7 @@
   note: 
   abstract_deadline: "2019-09-06"
   date: "2020-02-25"
-  place: Santa Clara, CA, USA
+  place: Santa Clara, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2486,7 +2486,7 @@
   note: 
   abstract_deadline: "2018-09-07"
   date: "2019-02-26"
-  place: Boston, MA, USA
+  place: Boston, MA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2500,7 +2500,7 @@
   note: 
   abstract_deadline: "2017-09-08"
   date: "2018-04-09"
-  place: Renton, WA, USA
+  place: Renton, WA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2514,7 +2514,7 @@
   note: 
   abstract_deadline: "2016-09-09"
   date: "2017-03-27"
-  place: Boston, MA, USA
+  place: Boston, MA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2528,7 +2528,7 @@
   note: 
   abstract_deadline: "2015-09-11"
   date: "2016-03-16"
-  place: Santa Clara, CA, USA
+  place: Santa Clara, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2699,7 +2699,7 @@
   note: 
   abstract_deadline: "2024-09-08"
   date: "2025-05-19"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2713,7 +2713,7 @@
   note: 
   abstract_deadline: "2023-09-08"
   date: "2024-05-20"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2727,7 +2727,7 @@
   note: 
   abstract_deadline: "2022-09-08"
   date: "2023-05-22"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2741,7 +2741,7 @@
   note: 
   abstract_deadline: "2021-09-08"
   date: "2022-05-23"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2769,7 +2769,7 @@
   note: 
   abstract_deadline: "2019-09-08"
   date: "2020-05-18"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2783,7 +2783,7 @@
   note: 
   abstract_deadline: "2018-09-08"
   date: "2019-05-20"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2797,7 +2797,7 @@
   note: 
   abstract_deadline: "2017-09-08"
   date: "2018-05-21"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2811,7 +2811,7 @@
   note: 
   abstract_deadline: "2016-09-08"
   date: "2017-05-22"
-  place: San Jose, CA, USA
+  place: San Jose, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2825,7 +2825,7 @@
   note: 
   abstract_deadline: "2015-09-08"
   date: "2016-05-23"
-  place: San Jose, CA, USA
+  place: San Jose, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2867,7 +2867,7 @@
   note: 
   abstract_deadline: "2023-02-08"
   date: "2023-08-09"
-  place: Anaheim, CA, USA
+  place: Anaheim, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2881,7 +2881,7 @@
   note: 
   abstract_deadline: "2022-02-08"
   date: "2022-08-10"
-  place: Boston, MA, USA
+  place: Boston, MA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2909,7 +2909,7 @@
   note: 
   abstract_deadline: "2020-02-08"
   date: "2020-08-12"
-  place: Boston, MA, USA
+  place: Boston, MA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2923,7 +2923,7 @@
   note: 
   abstract_deadline: "2019-02-08"
   date: "2019-08-14"
-  place: Santa Clara, CA, USA
+  place: Santa Clara, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2937,7 +2937,7 @@
   note: 
   abstract_deadline: "2018-02-08"
   date: "2018-08-15"
-  place: Baltimore, MD, USA
+  place: Baltimore, MD
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2965,7 +2965,7 @@
   note: 
   abstract_deadline: "2016-02-08"
   date: "2016-08-10"
-  place: Austin, TX, USA
+  place: Austin, TX
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2979,7 +2979,7 @@
   note: 
   abstract_deadline: "2024-09-08"
   date: "2025-02-24"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: David Balenson, Heng Yin
@@ -2993,7 +2993,7 @@
   note: 
   abstract_deadline: "2023-09-08"
   date: "2024-02-26"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Cristina Nita-Rotaru, Yongdae Kim
@@ -3007,7 +3007,7 @@
   note: 
   abstract_deadline: "2022-09-08"
   date: "2023-02-27"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Carrie Gates, Cristina Nita-Rotaru
@@ -3021,7 +3021,7 @@
   note: 
   abstract_deadline: "2021-09-08"
   date: "2022-02-21"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Carrie Gates
@@ -3049,7 +3049,7 @@
   note: 
   abstract_deadline: "2019-09-08"
   date: "2020-02-23"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Trent Jaeger
@@ -3063,7 +3063,7 @@
   note: 
   abstract_deadline: "2018-09-08"
   date: "2019-02-24"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Trent Jaeger
@@ -3077,7 +3077,7 @@
   note: 
   abstract_deadline: "2017-09-08"
   date: "2018-02-18"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Lujo Bauer
@@ -3091,7 +3091,7 @@
   note: 
   abstract_deadline: "2016-09-08"
   date: "2017-02-26"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Lujo Bauer
@@ -3105,7 +3105,7 @@
   note: 
   abstract_deadline: "2015-09-08"
   date: "2016-02-21"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Lujo Bauer
@@ -3128,7 +3128,7 @@
   deadline: "2022-06-06"
   notification_date: "2022-09-05"
   date: "2023-06-18"
-  place: Seattle, WA, USA
+  place: Seattle, WA
 
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
@@ -3137,7 +3137,7 @@
   deadline: "2021-06-18"
   notification_date: "2021-08-13"
   date: "2022-06-12"
-  place: Philadelphia, PA, USA
+  place: Philadelphia, PA
 
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
@@ -3155,7 +3155,7 @@
   deadline: "2019-10-22"
   notification_date: "2020-01-17"
   date: "2020-06-14"
-  place: Portland, OR, USA
+  place: Portland, OR
 
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
@@ -3173,7 +3173,7 @@
   deadline: "2017-11-02"
   notification_date: "2018-01-19"
   date: "2018-06-10"
-  place: Houston, TX, USA
+  place: Houston, TX
 
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
@@ -3182,7 +3182,7 @@
   deadline: "2016-11-02"
   notification_date: "2017-01-19"
   date: "2017-05-14"
-  place: Chicago, IL, USA
+  place: Chicago, IL
 
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
@@ -3191,7 +3191,7 @@
   deadline: "2015-11-19"
   notification_date: "2016-01-29"
   date: "2016-06-26"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
 
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
@@ -3276,7 +3276,7 @@
   abstract_deadline:
   notification_date: "2019-03-15"
   date: "2019-08-26"
-  place: Los Angeles, CA, USA
+  place: Los Angeles, CA
   acceptance_rate:
   num_submission:
 
@@ -3328,7 +3328,7 @@
   abstract_deadline:
   notification_date: "2015-03-15"
   date: "2015-08-31"
-  place: Kohala Coast, Hawaii, USA
+  place: Kohala Coast, HI
   acceptance_rate:
   num_submission:
 
@@ -3368,7 +3368,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2023-04-03"
-  place: Anaheim, CA, USA
+  place: Anaheim, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Chen Li
@@ -3410,7 +3410,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2020-04-20"
-  place: Dallas, TX, USA
+  place: Dallas, TX
   acceptance_rate: 
   num_submission: 
   general_chair: Bhavani Thuraisingham, Elena Ferrari, Rao Kotagiri
@@ -3452,7 +3452,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2017-04-19"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Chaitanya Baru, Bhavani Thuraisingham
@@ -3495,7 +3495,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2023-06-18"
-  place: Seattle, WA, USA
+  place: Seattle, WA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3509,7 +3509,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2022-06-12"
-  place: Philadelphia, PA, USA
+  place: Philadelphia, PA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3537,7 +3537,7 @@
   abstract_deadline: "2019-12-15"
   notification_date: "2020-03-09"
   date: "2020-06-14"
-  place: Portland, OR, USA (Virtual)
+  place: Portland, OR (Virtual)
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3565,7 +3565,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2018-06-11"
-  place: Houston, TX, USA
+  place: Houston, TX
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3579,7 +3579,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2017-05-14"
-  place: Raleigh, NC, USA
+  place: Raleigh, NC
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3593,7 +3593,7 @@
   abstract_deadline: "2015-10-02"
   notification_date: "2015-12-18"
   date: "2016-06-26"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3624,7 +3624,7 @@
   abstract_deadline: "2024-11-12"
   notification_date: "2025-02-26"
   date: "2025-06-22"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3638,7 +3638,7 @@
   abstract_deadline: "2023-11-13"
   notification_date: 
   date: "2024-06-23"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3652,7 +3652,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2023-07-09"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3666,7 +3666,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2022-07-10"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Rob Oshana
@@ -3680,7 +3680,7 @@
   abstract_deadline: "2020-11-16"
   notification_date: 
   date: "2021-12-05"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Harry Foster
@@ -3694,7 +3694,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2020-07-19"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3708,7 +3708,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2019-06-02"
-  place: Las Vegas, NV, USA
+  place: Las Vegas, NV
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3722,7 +3722,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2018-06-24"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3736,7 +3736,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2017-06-18"
-  place: Austin, TX, USA
+  place: Austin, TX
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3750,7 +3750,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2016-06-05"
-  place: Austin, TX, USA
+  place: Austin, TX
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3764,7 +3764,7 @@
   abstract_deadline: 
   notification_date: "2024-06-30"
   date: "2024-10-27"
-  place: New York, NY, USA
+  place: New York, NY
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3778,7 +3778,7 @@
   abstract_deadline: "2023-05-15"
   notification_date: 
   date: "2023-10-29"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3834,7 +3834,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2019-11-04"
-  place: Westminster, CO, USA
+  place: Westminster, CO
   acceptance_rate: 
   num_submission: 
   general_chair: David Z. Pan
@@ -3848,7 +3848,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2018-11-05"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Iris Bahar
@@ -3862,7 +3862,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2017-11-13"
-  place: Irvine, CA, USA
+  place: Irvine, CA
   acceptance_rate: 
   num_submission: 
   general_chair: Sri Parameswaran
@@ -3876,7 +3876,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2016-11-07"
-  place: Austin, TX, USA
+  place: Austin, TX
   acceptance_rate: 
   num_submission: 
   general_chair: Frank Liu
@@ -3890,7 +3890,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2015-11-02"
-  place: Austin, TX, USA
+  place: Austin, TX
   acceptance_rate: 
   num_submission: 
   general_chair: Diana Marculescu
@@ -3961,7 +3961,7 @@
   abstract_deadline: "2019-04-05"
   notification_date: "2019-07-05"
   date: "2019-10-13"
-  place: New York City, NY, USA
+  place: New York City, NY
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4003,7 +4003,7 @@
   abstract_deadline: "2016-04-01"
   notification_date: "2016-07-01"
   date: "2016-10-02"
-  place: Pittsburgh, PA, USA
+  place: Pittsburgh, PA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4058,7 +4058,7 @@
   abstract_deadline: 
   notification_date: "2023-01-20"
   date: "2023-05-09"
-  place: San Antonio, TX, USA
+  place: San Antonio, TX
   acceptance_rate: 
   num_submission: 
   general_chair: Heechul Yun
@@ -4142,7 +4142,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2017-04-18"
-  place: Pittsburgh, PA, USA
+  place: Pittsburgh, PA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4170,7 +4170,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2015-04-14"
-  place: Seattle, WA, USA
+  place: Seattle, WA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4183,7 +4183,7 @@
   abstract_deadline: 
   notification_date: "2025-07-25"
   date: "2025-12-02"
-  place: Boston, MA, USA
+  place: Boston, MA
   acceptance_rate: 
   num_submission: 
   general_chair: Rich West
@@ -4225,7 +4225,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2022-12-05"
-  place: Houston, TX, USA
+  place: Houston, TX
   acceptance_rate: 
   num_submission: 
   general_chair: Liliana Cucu-Grosjean
@@ -4281,7 +4281,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2018-12-11"
-  place: Nashville, TN, USA
+  place: Nashville, TN
   acceptance_rate: 
   num_submission: 
   general_chair: Isabelle Puaut
@@ -4323,7 +4323,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2015-12-01"
-  place: San Antonio, TX, USA
+  place: San Antonio, TX
   acceptance_rate: 
   num_submission: 
   general_chair: Christopher D. Gill
@@ -4353,7 +4353,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2023-06-20"
-  place: Orlando, FL, USA
+  place: Orlando, FL
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4367,7 +4367,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2022-06-27"
-  place: Minneapolis, MN, USA
+  place: Minneapolis, MN
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4409,7 +4409,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2019-06-24"
-  place: Phoenix, AZ, USA
+  place: Phoenix, AZ
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4423,7 +4423,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2018-06-11"
-  place: Tempe, AZ, USA
+  place: Tempe, AZ
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4437,7 +4437,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2017-06-26"
-  place: Washington, D.C., USA
+  place: Washington, DC
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4465,7 +4465,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2015-06-15"
-  place: Portland, OR, USA
+  place: Portland, OR
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4516,7 +4516,7 @@
   deadline: "2024-05-31"
   note: 
   date: "2024-10-27"
-  place: Sacramento, California, USA
+  place: Sacramento, CA
   acceptance_rate:
   num_submission:
 
@@ -4538,7 +4538,7 @@
   deadline: "2022-05-31"
   note: 
   date: "2022-10-10"
-  place: Ann Arbor, Michigan, USA
+  place: Ann Arbor, MI
   acceptance_rate:
   num_submission:
 
@@ -4571,7 +4571,7 @@
   deadline: "2019-04-15"
   note: 
   date: "2019-11-11"
-  place: San Diego, California, USA
+  place: San Diego, CA
   acceptance_rate:
   num_submission:
 
@@ -4593,7 +4593,7 @@
   deadline: "2017-04-15"
   note: 
   date: "2017-10-30"
-  place: Urbana-Champaign, Illinois, USA
+  place: Urbana-Champaign, IL
   acceptance_rate:
   num_submission:
 
@@ -4615,7 +4615,7 @@
   deadline: "2015-04-15"
   note: 
   date: "2015-11-09"
-  place: Lincoln, Nebraska, USA
+  place: Lincoln, NE
   acceptance_rate:
   num_submission:
 
@@ -4716,7 +4716,7 @@
   deadline: "2018-03-15"
   note:
   date: "2018-11-04"
-  place: Lake Buena Vista, Florida, USA
+  place: Lake Buena Vista, FL
   acceptance_rate:
   num_submission:
 
@@ -4738,7 +4738,7 @@
   deadline: "2016-03-17"
   note:
   date: "2016-11-13"
-  place: Seattle, Washington, USA
+  place: Seattle, WA
   acceptance_rate:
   num_submission:
 
@@ -4805,7 +4805,7 @@
   deadline: "2021-08-01"
   note:
   date: "2022-05-21"
-  place: Pittsburgh, Pennsylvania, USA
+  place: Pittsburgh, PA
   acceptance_rate:
   num_submission:
 
@@ -4871,7 +4871,7 @@
   deadline: "2015-08-01"
   note:
   date: "2016-05-14"
-  place: Austin, Texas, USA
+  place: Austin, TX
   acceptance_rate:
   num_submission:
 
@@ -4916,7 +4916,7 @@
   deadline: "2023-02-16"
   note: Co-located with ECOOP 2023
   date: "2023-07-17"
-  place: Seattle, Washington, USA
+  place: Seattle, WA
   acceptance_rate:
   num_submission:
 
@@ -4982,7 +4982,7 @@
   deadline: "2017-01-27"
   note: Co-located with SPIN 2017
   date: "2017-07-10"
-  place: Santa Barbara, California, USA
+  place: Santa Barbara, CA
   acceptance_rate:
   num_submission:
 
@@ -5004,7 +5004,7 @@
   deadline: "2015-01-30"
   note: Co-located with ECOOP 2015
   date: "2015-07-15"
-  place: Baltimore, Maryland, USA
+  place: Baltimore, MD
   acceptance_rate:
   num_submission:
 
@@ -5039,7 +5039,7 @@
   deadline: "2023-03-01"
   note:
   date: "2023-09-04"
-  place: Seattle, WA, USA
+  place: Seattle, WA
   acceptance_rate:
   num_submission:
 
@@ -5094,7 +5094,7 @@
   deadline: "2018-03-07"
   note:
   date: "2018-09-23"
-  place: St. Louis, MO, USA
+  place: St. Louis, MO
   acceptance_rate:
   num_submission:
 
@@ -5138,7 +5138,7 @@
   deadline: "2024-04-05"
   note: Round 1 submission deadline
   date: "2024-10-20"
-  place: Pasadena, CA, USA
+  place: Pasadena, CA
   acceptance_rate:
   num_submission:
 
@@ -5171,7 +5171,7 @@
   deadline: "2020-10-15"
   note: Round 1 submission deadline
   date: "2021-10-17"
-  place: Chicago, IL, USA
+  place: Chicago, IL
   acceptance_rate:
   num_submission:
 
@@ -5204,7 +5204,7 @@
   deadline: "2018-04-05"
   note:
   date: "2018-11-04"
-  place: Boston, MA, USA
+  place: Boston, MA
   acceptance_rate:
   num_submission:
 
@@ -5237,7 +5237,7 @@
   deadline: "2015-04-05"
   note:
   date: "2015-10-25"
-  place: Pittsburgh, PA, USA
+  place: Pittsburgh, PA
   acceptance_rate:
   num_submission:
 
@@ -5270,7 +5270,7 @@
   deadline: "2022-11-17"
   note:
   date: "2023-06-17"
-  place: Orlando, FL, USA
+  place: Orlando, FL
   acceptance_rate:
   num_submission:
 
@@ -5281,7 +5281,7 @@
   deadline: "2021-11-18"
   note:
   date: "2022-06-13"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate:
   num_submission:
 
@@ -5314,7 +5314,7 @@
   deadline: "2018-11-16"
   note:
   date: "2019-06-22"
-  place: Phoenix, AZ, USA
+  place: Phoenix, AZ
   acceptance_rate:
   num_submission:
 
@@ -5325,7 +5325,7 @@
   deadline: "2017-11-17"
   note:
   date: "2018-06-18"
-  place: Philadelphia, PA, USA
+  place: Philadelphia, PA
   acceptance_rate:
   num_submission:
 
@@ -5347,7 +5347,7 @@
   deadline: "2015-11-20"
   note:
   date: "2016-06-13"
-  place: Santa Barbara, CA, USA
+  place: Santa Barbara, CA
   acceptance_rate:
   num_submission:
 
@@ -5358,7 +5358,7 @@
   deadline: "2014-11-21"
   note:
   date: "2015-06-13"
-  place: Portland, OR, USA
+  place: Portland, OR
   acceptance_rate:
   num_submission:
 
@@ -5382,7 +5382,7 @@
   deadline: "2024-07-11"
   note: 
   date: "2025-01-19"
-  place: Denver, Colorado, United States
+  place: Denver, CO
   acceptance_rate:
   num_submission:
 
@@ -5404,7 +5404,7 @@
   deadline: "2022-07-07"
   note: 
   date: "2023-01-15"
-  place: Boston, Massachusetts, United States
+  place: Boston, MA
   acceptance_rate:
   num_submission:
 
@@ -5415,7 +5415,7 @@
   deadline: "2021-07-08"
   note: 
   date: "2022-01-16"
-  place: Philadelphia, Pennsylvania, United States
+  place: Philadelphia, PA
   acceptance_rate:
   num_submission:
 
@@ -5437,7 +5437,7 @@
   deadline: "2019-07-11"
   note: 
   date: "2020-01-19"
-  place: New Orleans, Louisiana, United States
+  place: New Orleans, LA
   acceptance_rate:
   num_submission:
 
@@ -5459,7 +5459,7 @@
   deadline: "2017-07-07"
   note: 
   date: "2018-01-08"
-  place: Los Angeles, California, United States
+  place: Los Angeles, CA
   acceptance_rate:
   num_submission:
 
@@ -5481,7 +5481,7 @@
   deadline: "2015-07-10"
   note: 
   date: "2016-01-20"
-  place: St. Petersburg, Florida, United States
+  place: St. Petersburg, FL
   acceptance_rate:
   num_submission:
 
@@ -5571,7 +5571,7 @@
   deadline: "2019-01-25"
   note: 
   date: "2019-07-15"
-  place: New York City, USA
+  place: New York City, NY
   acceptance_rate:
   num_submission:
 
@@ -5615,7 +5615,7 @@
   deadline: "2015-01-26"
   note: 
   date: "2015-07-18"
-  place: San Francisco, USA
+  place: San Francisco, CA
   acceptance_rate:
   num_submission:
 
@@ -5629,7 +5629,7 @@
   notification_date: "2025-08-18"
   note: Cycle 2/2
   date: "2025-10-28"
-  place: Madison, Wisconsin, USA
+  place: Madison, WI
   acceptance_rate:
   num_submission:
 
@@ -5642,7 +5642,7 @@
   notification_date: "2025-03-26"
   note: Cycle 1/2
   date: "2025-10-28"
-  place: Madison, Wisconsin, USA
+  place: Madison, WI
   acceptance_rate:
   num_submission:
 
@@ -5697,7 +5697,7 @@
   deadline: "2020-05-26"
   note: "Abstract deadline: 2020-05-19"
   date: "2020-10-27"
-  place: Pittsburgh, Pennsylvania, USA
+  place: Pittsburgh, PA
   acceptance_rate:
   num_submission:
 
@@ -5719,7 +5719,7 @@
   deadline: "2018-05-18"
   note: "Abstract deadline: 2018-05-11"
   date: "2018-10-31"
-  place: Boston, Massachusetts, USA
+  place: Boston, MA
   acceptance_rate:
   num_submission:
 
@@ -5741,7 +5741,7 @@
   deadline: "2016-05-12"
   note: "Abstract deadline: 2016-05-05"
   date: "2016-11-14"
-  place: Santa Monica, California, USA
+  place: Santa Monica, CA
   acceptance_rate:
   num_submission:
 
@@ -5756,7 +5756,7 @@
   notification_date: "2024-11-04"
   note: Cycle 2/2
   date: "2025-03-01"
-  place: Las Vegas, Nevada, USA
+  place: Las Vegas, NV
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -5771,7 +5771,7 @@
   notification_date: "2023-07-22"
   note: Cycle 1/2
   date: "2025-03-01"
-  place: Las Vegas, Nevada, USA
+  place: Las Vegas, NV
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -5837,7 +5837,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2020-02-22"
-  place: San Diego, CA, USA
+  place: San Diego, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -5850,7 +5850,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2019-02-16"
-  place: Washington, DC, USA
+  place: Washington, DC
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -5876,7 +5876,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2017-02-04"
-  place: Austin, TX, USA
+  place: Austin, TX
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -5902,7 +5902,7 @@
   abstract_deadline: 
   notification_date: 
   date: "2015-02-07"
-  place: San Francisco, CA, USA
+  place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 

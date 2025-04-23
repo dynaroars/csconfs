@@ -3110,10 +3110,653 @@
   num_submission: 
   general_chair: Lujo Bauer
   program_chair: Srdjan Capkun, Deb Frincke
+
 ## Databases
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2024
+  link: https://2024.sigmod.org/
+  deadline: "2023-06-12"
+  notification_date: "2023-09-04"
+  date: "2024-06-09"
+  place: Santiago, Chile
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2023
+  link: https://2023.sigmod.org/
+  deadline: "2022-06-06"
+  notification_date: "2022-09-05"
+  date: "2023-06-18"
+  place: Seattle, WA, USA
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2022
+  link: https://2022.sigmod.org/
+  deadline: "2021-06-18"
+  notification_date: "2021-08-13"
+  date: "2022-06-12"
+  place: Philadelphia, PA, USA
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2021
+  link: https://2021.sigmod.org/
+  deadline: "2020-07-07"
+  notification_date: "2020-09-14"
+  date: "2021-06-20"
+  place: Xi'an, Shaanxi, China
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2020
+  link: https://sigmod2020.org/
+  deadline: "2019-10-22"
+  notification_date: "2020-01-17"
+  date: "2020-06-14"
+  place: Portland, OR, USA
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2019
+  link: https://sigmod2019.org/
+  deadline: "2018-11-02"
+  notification_date: "2019-01-25"
+  date: "2019-06-30"
+  place: Amsterdam, Netherlands
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2018
+  link: https://sigmod2018.org/
+  deadline: "2017-11-02"
+  notification_date: "2018-01-19"
+  date: "2018-06-10"
+  place: Houston, TX, USA
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2017
+  link: https://sigmod2017.org/
+  deadline: "2016-11-02"
+  notification_date: "2017-01-19"
+  date: "2017-05-14"
+  place: Chicago, IL, USA
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2016
+  link: https://sigmod2016.org/
+  deadline: "2015-11-19"
+  notification_date: "2016-01-29"
+  date: "2016-06-26"
+  place: San Francisco, CA, USA
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2015
+  link: https://www.sigmod2015.org/
+  deadline: "2014-11-06"
+  notification_date: "2015-01-12"
+  date: "2015-05-31"
+  place: Melbourne, Australia
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2024
+  link: https://vldb.org/2024/
+  deadline: "2024-03-01"
+  note: Rolling monthly deadlines until March 2024
+  abstract_deadline:
+  notification_date: "2024-03-15"
+  date: "2024-08-26"
+  place: Guangzhou, China
+  acceptance_rate:
+  num_submission:
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2023
+  link: https://vldb.org/2023/
+  deadline: "2023-03-01"
+  note: Rolling monthly deadlines until March 2023
+  abstract_deadline:
+  notification_date: "2023-03-15"
+  date: "2023-08-28"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2022
+  link: https://vldb.org/2022/
+  deadline: "2022-03-01"
+  note: Rolling monthly deadlines until March 2022
+  abstract_deadline:
+  notification_date: "2022-03-15"
+  date: "2022-09-05"
+  place: Sydney, Australia
+  acceptance_rate:
+  num_submission:
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2021
+  link: https://vldb.org/2021/
+  deadline: "2021-03-01"
+  note: Rolling monthly deadlines until March 2021
+  abstract_deadline:
+  notification_date: "2021-03-15"
+  date: "2021-08-16"
+  place: Copenhagen, Denmark
+  acceptance_rate:
+  num_submission:
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2020
+  link: https://vldb2020.org/
+  deadline: "2020-03-01"
+  note: Rolling monthly deadlines until March 2020
+  abstract_deadline:
+  notification_date: "2020-03-15"
+  date: "2020-08-31"
+  place: Tokyo, Japan
+  acceptance_rate:
+  num_submission:
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2019
+  link: https://vldb.org/2019/
+  deadline: "2019-03-01"
+  note: Rolling monthly deadlines until March 2019
+  abstract_deadline:
+  notification_date: "2019-03-15"
+  date: "2019-08-26"
+  place: Los Angeles, CA, USA
+  acceptance_rate:
+  num_submission:
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2018
+  link: http://vldb2018.lncc.br/
+  deadline: "2018-03-01"
+  note: Rolling monthly deadlines until March 2018
+  abstract_deadline:
+  notification_date: "2018-03-15"
+  date: "2018-08-27"
+  place: Rio de Janeiro, Brazil
+  acceptance_rate: "21%"
+  num_submission: "1014"
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2017
+  link: https://vldb.org/2017/
+  deadline: "2017-03-01"
+  note: Rolling monthly deadlines until March 2017
+  abstract_deadline:
+  notification_date: "2017-03-15"
+  date: "2017-08-28"
+  place: Munich, Germany
+  acceptance_rate:
+  num_submission:
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2016
+  link: http://vldb2016.persistent.com/
+  deadline: "2016-03-01"
+  note: Rolling monthly deadlines until March 2016
+  abstract_deadline:
+  notification_date: "2016-03-15"
+  date: "2016-09-05"
+  place: New Delhi, India
+  acceptance_rate:
+  num_submission:
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2015
+  link: https://vldb.org/2015/
+  deadline: "2015-03-01"
+  note: Rolling monthly deadlines until March 2015
+  abstract_deadline:
+  notification_date: "2015-03-15"
+  date: "2015-08-31"
+  place: Kohala Coast, Hawaii, USA
+  acceptance_rate:
+  num_submission:
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2025
+  link: https://ieee-icde.org/2025/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2025-05-19"
+  place: Hong Kong SAR, China
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Xiaofang Zhou, Qing Li
+  program_chair: Angela Bonifati, Wenjie Zhang, Hans-Arno Jacobsen
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2024
+  link: https://icde2024.github.io/
+  deadline: "2023-11-24"
+  abstract_deadline: 
+  notification_date: "2024-02-16"
+  date: 
+  place: Utrecht, Netherlands
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Malu Castellanos, Yannis Velegrakis
+  program_chair: Gautam Das, Timos Sellis, BingSheng He
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2023
+  link: https://icde2023.ics.uci.edu/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-04-03"
+  place: Anaheim, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Chen Li
+  program_chair: Lei Chen, Stefan Manegold, Sharad Mehrotra
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2022
+  link: https://icde2022.ieeecomputer.my/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-05-09"
+  place: Kuala Lumpur, Malaysia (Virtual)
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Murat Kantarcioglu, Divesh Srivastava, Ali Selamat
+  program_chair: Gao Cong, Stratos Idreos, Feifei Li
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2021
+  link: 
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: 
+  place: 
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Anastasia Ailamaki, Minos Garofalakis
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2020
+  link: https://icde.utdallas.edu/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-04-20"
+  place: Dallas, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Bhavani Thuraisingham, Elena Ferrari, Rao Kotagiri
+  program_chair: Murat Kantarcioglu, Dimitrios Gunopulos, S. Sudarshan
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2019
+  link: http://conferences.cis.umac.mo/icde2019/
+  deadline: 
+  abstract_deadline: 
+  notification_date: "2018-07-31"
+  date: "2019-04-08"
+  place: Macau SAR, China
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Christian S. Jensen, Lionel M. Ni, Tamer Özsu
+  program_chair: Wenfei Fan, Xuemin Lin, Divesh Srivastava
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2018
+  link: https://icde2018.aau.dk/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-04-16"
+  place: Paris, France
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Panos K. Chrysanthis
+  program_chair: Stefan Manegold, Timos Sellis
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2017
+  link: https://icde2017.sdsc.edu/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-04-19"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Chaitanya Baru, Bhavani Thuraisingham
+  program_chair: Yannis Papakonstantinou, Yanlei Diao
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2016
+  link: 
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-05-16"
+  place: Helsinki, Finland
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2024
+  link: https://2024.sigmod.org/
+  deadline: "2023-12-11"
+  abstract_deadline: "2023-12-04"
+  notification_date: "2024-02-09"
+  date: "2024-06-09"
+  place: Santiago, Chile
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2023
+  link: https://2023.sigmod.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-06-18"
+  place: Seattle, WA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2022
+  link: https://2022.sigmod.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-06-12"
+  place: Philadelphia, PA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2021
+  link: https://2021.sigmod.org/
+  deadline: "2020-12-20"
+  abstract_deadline: "2020-12-13"
+  notification_date: "2021-03-05"
+  date: "2021-06-20"
+  place: Xi'an, China (Virtual)
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2020
+  link: https://sigmod2020.org/
+  deadline: "2019-12-22"
+  abstract_deadline: "2019-12-15"
+  notification_date: "2020-03-09"
+  date: "2020-06-14"
+  place: Portland, OR, USA (Virtual)
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2019
+  link: https://sigmod2019.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-06-30"
+  place: Amsterdam, The Netherlands
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2018
+  link: https://sigmod2018.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-06-11"
+  place: Houston, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2017
+  link: http://www.sigmod2017.org
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-05-14"
+  place: Raleigh, NC, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2016
+  link: https://sigmod2016.org/
+  deadline: "2015-10-09"
+  abstract_deadline: "2015-10-02"
+  notification_date: "2015-12-18"
+  date: "2016-06-26"
+  place: San Francisco, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2015
+  link: https://www.sigmod2015.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2015-05-31"
+  place: Melbourne, Australia
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+
 
 ## Design and Automation
+- name: DAC
+  description: Design Automation Conference
+  year: 2025
+  link: https://www.dac.com/
+  deadline: "2024-11-19"
+  abstract_deadline: "2024-11-12"
+  notification_date: "2025-02-26"
+  date: "2025-06-22"
+  place: San Francisco, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
 
+- name: DAC
+  description: Design Automation Conference
+  year: 2024
+  link: https://www.dac.com/
+  deadline: "2023-11-20"
+  abstract_deadline: "2023-11-13"
+  notification_date: 
+  date: "2024-06-23"
+  place: San Francisco, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: DAC
+  description: Design Automation Conference
+  year: 2023
+  link: https://www.dac.com/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-07-09"
+  place: San Francisco, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: DAC
+  description: Design Automation Conference
+  year: 2022
+  link: https://www.dac.com/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-07-10"
+  place: San Francisco, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Rob Oshana
+  program_chair: Vivek De
+
+- name: DAC
+  description: Design Automation Conference
+  year: 2021
+  link: https://www.dac.com/
+  deadline: "2020-11-23"
+  abstract_deadline: "2020-11-16"
+  notification_date: 
+  date: "2021-12-05"
+  place: San Francisco, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Harry Foster
+  program_chair: Jörg Henkel
+
+- name: DAC
+  description: Design Automation Conference
+  year: 2020
+  link: https://www.dac.com/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-07-19"
+  place: San Francisco, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: DAC
+  description: Design Automation Conference
+  year: 2019
+  link: https://www.dac.com/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-06-02"
+  place: Las Vegas, NV, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: DAC
+  description: Design Automation Conference
+  year: 2018
+  link: https://www.dac.com/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-06-24"
+  place: San Francisco, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: DAC
+  description: Design Automation Conference
+  year: 2017
+  link: https://www.dac.com/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-06-18"
+  place: Austin, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: DAC
+  description: Design Automation Conference
+  year: 2016
+  link: https://www.dac.com/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-06-05"
+  place: Austin, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+  
 ## Embedded and Real-Time Systems
 
 # High-performance computing	

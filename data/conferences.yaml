@@ -3756,10 +3756,721 @@
   general_chair: 
   program_chair: 
 
-  
+- name: ICCAD
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  year: 2024
+  link: https://2024.iccad.com/
+  deadline: "2024-04-28"
+  abstract_deadline: 
+  notification_date: "2024-06-30"
+  date: "2024-10-27"
+  place: New York, NY, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: ICCAD
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  year: 2023
+  link: https://2023.iccad.com/
+  deadline: 
+  abstract_deadline: "2023-05-15"
+  notification_date: 
+  date: "2023-10-29"
+  place: San Francisco, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: ICCAD
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  year: 2022
+  link: https://www.iccad-conf.com/iccad2022/index.html
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-07-13"
+  place: Lisbon, Portugal
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: ICCAD
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  year: 2021
+  link: https://www.informatik.uni-bremen.de/iccad2021/index.php
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-11-01"
+  place: Munich, Germany
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Rolf Drechsler
+  program_chair: 
+
+- name: ICCAD
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  year: 2020
+  link: https://www.iccad-conf.com/iccad2020/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-10-07"
+  place: Paris, France
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: ICCAD
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  year: 2019
+  link: https://dblp.org/rec/conf/iccad/2019
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-11-04"
+  place: Westminster, CO, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: David Z. Pan
+  program_chair: 
+
+- name: ICCAD
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  year: 2018
+  link: https://dblp.org/rec/conf/iccad/2018
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-11-05"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Iris Bahar
+  program_chair: 
+
+- name: ICCAD
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  year: 2017
+  link: https://dblp.org/rec/conf/iccad/2017
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-11-13"
+  place: Irvine, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Sri Parameswaran
+  program_chair: 
+
+- name: ICCAD
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  year: 2016
+  link: https://dblp.org/rec/conf/iccad/2016
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-11-07"
+  place: Austin, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Frank Liu
+  program_chair: 
+
+- name: ICCAD
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  year: 2015
+  link: https://dblp.org/rec/conf/iccad/2015
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2015-11-02"
+  place: Austin, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Diana Marculescu
+  program_chair: 
+
 ## Embedded and Real-Time Systems
+- name: EMSOFT
+  description: International Conference on Embedded Software
+  year: 2023
+  link: https://esweek.org/emsoft/
+  deadline: "2023-03-23"
+  abstract_deadline: "2023-03-16"
+  notification_date: "2023-06-30"
+  date: "2023-09-17"
+  place: Hamburg, Germany
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Xiaobo Sharon Hu, Alain Girault
+  program_chair: Claire Pagetti, Alessandro Biondi
+
+- name: EMSOFT
+  description: International Conference on Embedded Software
+  year: 2022
+  link: https://esweek.org/emsoft/
+  deadline: "2022-04-07"
+  abstract_deadline: "2022-03-31"
+  notification_date: "2022-07-05"
+  date: "2022-10-07"
+  place: Hybrid (Shanghai, China)
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: David Broman, Claire Pagetti
+
+- name: EMSOFT
+  description: International Conference on Embedded Software
+  year: 2021
+  link: https://esweek.org/emsoft/
+  deadline: "2021-04-09"
+  abstract_deadline: "2021-04-02"
+  notification_date: "2021-07-05"
+  date: "2021-10-10"
+  place: Virtual
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Andreas Gerstlauer, Aviral Shrivastava
+  program_chair: Linh Thi Xuan Phan, David Broman
+
+- name: EMSOFT
+  description: International Conference on Embedded Software
+  year: 2020
+  link: https://esweek.org/emsoft/
+  deadline: "2020-04-10"
+  abstract_deadline: "2020-04-03"
+  notification_date: "2020-07-03"
+  date: "2020-09-20"
+  place: Virtual
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Tulika Mitra, Andreas Gerstlauer
+  program_chair: Timothy Roscoe, Björn B. Brandenburg
+
+- name: EMSOFT
+  description: International Conference on Embedded Software
+  year: 2019
+  link: https://esweek.org/emsoft/
+  deadline: "2019-04-12"
+  abstract_deadline: "2019-04-05"
+  notification_date: "2019-07-05"
+  date: "2019-10-13"
+  place: New York City, NY, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: EMSOFT
+  description: International Conference on Embedded Software
+  year: 2018
+  link: https://esweek.org/emsoft/
+  deadline: "2018-04-13"
+  abstract_deadline: "2018-04-06"
+  notification_date: "2018-07-06"
+  date: "2018-10-01"
+  place: Torino, Italy
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Zhonghai Lu, Sriram Vangal
+  program_chair: Paul Bogdan, Jiang Xu
+
+- name: EMSOFT
+  description: International Conference on Embedded Software
+  year: 2017
+  link: https://esweek.org/emsoft/
+  deadline: "2017-04-14"
+  abstract_deadline: "2017-04-07"
+  notification_date: "2017-07-07"
+  date: "2017-10-15"
+  place: Seoul, South Korea
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Lothar Thiele, Robert de Simone
+
+- name: EMSOFT
+  description: International Conference on Embedded Software
+  year: 2016
+  link: https://esweek.org/emsoft/
+  deadline: "2016-04-08"
+  abstract_deadline: "2016-04-01"
+  notification_date: "2016-07-01"
+  date: "2016-10-02"
+  place: Pittsburgh, PA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Petru Eles, Rahul Mangharam
+
+- name: EMSOFT
+  description: International Conference on Embedded Software
+  year: 2015
+  link: https://esweek.org/emsoft/
+  deadline: "2015-03-30"
+  abstract_deadline: "2015-03-23"
+  notification_date: "2015-06-26"
+  date: "2015-10-04"
+  place: Amsterdam, The Netherlands
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Alain Girault, Nan Guan
+
+- name: EMSOFT
+  description: International Conference on Embedded Software
+  year: 2014
+  link: https://esweek.org/emsoft/
+  deadline: "2014-04-04"
+  abstract_deadline: "2014-03-28"
+  notification_date: "2014-06-27"
+  date: "2014-10-12"
+  place: New Delhi, India
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Tulika Mitra, Jan Reineke
+- name: RTAS
+  description: IEEE Real-Time and Embedded Technology and Applications Symposium
+  year: 2024
+  link: https://2024.rtas.org/
+  deadline: "2023-10-31"
+  abstract_deadline: 
+  notification_date: "2024-01-20"
+  date: "2024-05-13"
+  place: Hong Kong
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Iain Bate
+  program_chair: Benny Akesson
+
+- name: RTAS
+  description: IEEE Real-Time and Embedded Technology and Applications Symposium
+  year: 2023
+  link: https://2023.rtas.org/
+  deadline: "2022-10-31"
+  abstract_deadline: 
+  notification_date: "2023-01-20"
+  date: "2023-05-09"
+  place: San Antonio, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Heechul Yun
+  program_chair: Iain Bate
+
+- name: RTAS
+  description: IEEE Real-Time and Embedded Technology and Applications Symposium
+  year: 2022
+  link: https://2022.rtas.org/
+  deadline: "2021-10-29"
+  abstract_deadline: 
+  notification_date: "2022-01-17"
+  date: "2022-05-04"
+  place: Milano, Italy (Virtual)
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Nan Guan
+  program_chair: Heechul Yun
+
+- name: RTAS
+  description: IEEE Real-Time and Embedded Technology and Applications Symposium
+  year: 2021
+  link: https://2021.rtas.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-05-18"
+  place: Virtual
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Nan Guan
+
+- name: RTAS
+  description: IEEE Real-Time and Embedded Technology and Applications Symposium
+  year: 2020
+  link: https://2020.rtas.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-04-21"
+  place: Sydney, Australia (Virtual)
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: RTAS
+  description: IEEE Real-Time and Embedded Technology and Applications Symposium
+  year: 2019
+  link: https://2019.rtas.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: "2018-12-21"
+  date: "2019-04-16"
+  place: Montreal, Canada
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: RTAS
+  description: IEEE Real-Time and Embedded Technology and Applications Symposium
+  year: 2018
+  link: https://2018.rtas.org/
+  deadline: "2017-10-06"
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-04-10"
+  place: Porto, Portugal
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: RTAS
+  description: IEEE Real-Time and Embedded Technology and Applications Symposium
+  year: 2017
+  link: https://2017.rtas.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-04-18"
+  place: Pittsburgh, PA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: RTAS
+  description: IEEE Real-Time and Embedded Technology and Applications Symposium
+  year: 2016
+  link: https://2016.rtas.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-04-11"
+  place: Vienna, Austria
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: RTAS
+  description: IEEE Real-Time and Embedded Technology and Applications Symposium
+  year: 2015
+  link: https://2015.rtas.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2015-04-14"
+  place: Seattle, WA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+- name: RTSS
+  description: IEEE Real-Time Systems Symposium
+  year: 2025
+  link: https://2025.rtss.org/
+  deadline: "2025-05-22"
+  abstract_deadline: 
+  notification_date: "2025-07-25"
+  date: "2025-12-02"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Rich West
+  program_chair: Björn Brandenburg
+
+- name: RTSS
+  description: IEEE Real-Time Systems Symposium
+  year: 2024
+  link: 
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2024-12-03"
+  place: York, UK
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Eduardo Tovar
+  program_chair: 
+
+- name: RTSS
+  description: IEEE Real-Time Systems Symposium
+  year: 2023
+  link: https://2023.rtss.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-12-05"
+  place: Taipei, Taiwan
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Jian-Jia Chen
+  program_chair: Insik Shin
+
+- name: RTSS
+  description: IEEE Real-Time Systems Symposium
+  year: 2022
+  link: http://2022.rtss.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-12-05"
+  place: Houston, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Liliana Cucu-Grosjean
+  program_chair: Arvind Easwaran
+
+- name: RTSS
+  description: IEEE Real-Time Systems Symposium
+  year: 2021
+  link: 
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-12-07"
+  place: Online
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Jian-Jia Chen
+  program_chair: Enrico Bini
+
+- name: RTSS
+  description: IEEE Real-Time Systems Symposium
+  year: 2020
+  link: http://2020.rtss.org/
+  deadline: "2020-07-02"
+  abstract_deadline: 
+  notification_date: "2020-09-15"
+  date: "2020-12-01"
+  place: Online
+  acceptance_rate: 
+  num_submission: 
+  general_chair: X. Sharon Hu
+  program_chair: Jian-Jia Chen
+
+- name: RTSS
+  description: IEEE Real-Time Systems Symposium
+  year: 2019
+  link: 
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: 
+  place: Hong Kong (Cancelled)
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Robert Davis
+  program_chair: X. Sharon Hu
+
+- name: RTSS
+  description: IEEE Real-Time Systems Symposium
+  year: 2018
+  link: https://2018.rtss.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-12-11"
+  place: Nashville, TN, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Isabelle Puaut
+  program_chair: Robert Davis
+
+- name: RTSS
+  description: IEEE Real-Time Systems Symposium
+  year: 2017
+  link: 
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-12-05"
+  place: Paris, France
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Frank Mueller
+  program_chair: Isabelle Puaut
+
+- name: RTSS
+  description: IEEE Real-Time Systems Symposium
+  year: 2016
+  link: 
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-11-29"
+  place: Porto, Portugal
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Marco Caccamo
+  program_chair: Frank Mueller
+
+- name: RTSS
+  description: IEEE Real-Time Systems Symposium
+  year: 2015
+  link: 
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2015-12-01"
+  place: San Antonio, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Christopher D. Gill
+  program_chair: Marco Caccamo  
 
 # High-performance computing	
+
+- name: HPDC
+  description: ACM International Symposium on High-Performance Parallel and Distributed Computing
+  year: 2024
+  link: https://hpdc.org/2024/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2024-06-03"
+  place: Pisa, Italy
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: HPDC
+  description: ACM International Symposium on High-Performance Parallel and Distributed Computing
+  year: 2023
+  link: https://hpdc.org/2023/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-06-20"
+  place: Orlando, FL, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: HPDC
+  description: ACM International Symposium on High-Performance Parallel and Distributed Computing
+  year: 2022
+  link: https://hpdc.org/2022/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-06-27"
+  place: Minneapolis, MN, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: HPDC
+  description: ACM International Symposium on High-Performance Parallel and Distributed Computing
+  year: 2021
+  link: https://hpdc.org/2021/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-06-21"
+  place: Online
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: HPDC
+  description: ACM International Symposium on High-Performance Parallel and Distributed Computing
+  year: 2020
+  link: https://hpdc.org/2020/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-06-23"
+  place: Stockholm, Sweden
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: HPDC
+  description: ACM International Symposium on High-Performance Parallel and Distributed Computing
+  year: 2019
+  link: https://hpdc.org/2019/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-06-24"
+  place: Phoenix, AZ, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: HPDC
+  description: ACM International Symposium on High-Performance Parallel and Distributed Computing
+  year: 2018
+  link: https://hpdc.org/2018/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-06-11"
+  place: Tempe, AZ, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: HPDC
+  description: ACM International Symposium on High-Performance Parallel and Distributed Computing
+  year: 2017
+  link: https://hpdc.org/2017/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-06-26"
+  place: Washington, D.C., USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: HPDC
+  description: ACM International Symposium on High-Performance Parallel and Distributed Computing
+  year: 2016
+  link: https://hpdc.org/2016/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-05-31"
+  place: Kyoto, Japan
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: HPDC
+  description: ACM International Symposium on High-Performance Parallel and Distributed Computing
+  year: 2015
+  link: https://hpdc.org/2015/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2015-06-15"
+  place: Portland, OR, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+  
 # Mobile computing	
 # Measurement & perf. analysis 	
 # Operating systems	
@@ -5035,3 +5746,164 @@
   num_submission:
 
 
+# CORE
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2025
+  link: https://conf.researchr.org/home/cgo-2025
+  deadline: "2024-09-12"
+  abstract_deadline: 
+  notification_date: "2024-11-04"
+  note: Cycle 2/2
+  date: "2025-03-01"
+  place: Las Vegas, Nevada, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair:
+
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2025
+  link: https://conf.researchr.org/home/cgo-2025
+  deadline: "2024-05-30"
+  abstract_deadline: 
+  notification_date: "2023-07-22"
+  note: Cycle 1/2
+  date: "2025-03-01"
+  place: Las Vegas, Nevada, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2024
+  link: https://conf.researchr.org/home/cgo-2024
+  deadline: "2023-05-19"
+  abstract_deadline: 
+  notification_date: "2023-07-17"
+  date: "2024-03-02"
+  place: Edinburgh, United Kingdom
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2023
+  link: https://conf.researchr.org/home/cgo-2023
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-02-25"
+  place: Montreal, Canada
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2022
+  link: https://conf.researchr.org/home/cgo-2022
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-04-02"
+  place: Seoul, South Korea (Virtual Conference)
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2021
+  link: https://conf.researchr.org/home/cgo-2021
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-02-27"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2020
+  link: https://cgo-conference.github.io/cgo2020/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-02-22"
+  place: San Diego, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2019
+  link: https://cgo.org/cgo2019/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-02-16"
+  place: Washington, DC, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2018
+  link: https://cgo.org/cgo2018/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-02-24"
+  place: Vienna, Austria
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2017
+  link: https://cgo.org/cgo2017/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-02-04"
+  place: Austin, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2016
+  link: https://cgo.org/cgo2016/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-03-12"
+  place: Barcelona, Spain
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2015
+  link: https://cgo.org/cgo2015/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2015-02-07"
+  place: San Francisco, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 

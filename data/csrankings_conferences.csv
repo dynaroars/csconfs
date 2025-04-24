@@ -20,7 +20,7 @@ hpca,HPCA,arch,Computer architecture,Systems,true
 sigcomm,SIGCOMM,comm,Computer networks,Systems,false
 nsdi,NSDI,comm,Computer networks,Systems,false
 ccs,CCS,sec,Computer security,Systems,false
-oakland,IEEE S&P ("Oakland"),sec,Computer security,Systems,false
+oakland,IEEE S&P (Oakland),sec,Computer security,Systems,false
 usenixsec,USENIXSEC,sec,Computer security,Systems,false
 ndss,NDSS,sec,Computer security,Systems,true
 pets,PETS,sec,Computer security,Systems,true

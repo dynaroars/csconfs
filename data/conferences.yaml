@@ -5165,29 +5165,6 @@
   general_chair: 
   program_chair: 
 
-- name: FAST
-  description: USENIX Conference on File and Storage Technologies
-  year: 2020
-  link: https://www.usenix.org/conference/fast20
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
-  date: "2020-02-24"
-  place: Santa Clara, CA, USA
-  acceptance_rate: 
-  num_submission: 
-  general_chair: 
-  program_chair: 
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
-  date: "2023-07-10"
-  place: Boston, MA, USA
-  acceptance_rate: 
-  num_submission: 
-  general_chair: 
-  program_chair: 
-
 - name: USENIX ATC
   description: USENIX Annual Technical Conference
   year: 2024

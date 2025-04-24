@@ -4472,7 +4472,431 @@
   program_chair: 
   
 # Mobile computing	
+
+- name: MobiCom
+  description: ACM International Conference on Mobile Computing and Networking
+  year: 2024
+  link: https://www.sigmobile.org/mobicom/2024/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2024-11-18"
+  place: Washington, D.C., USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiCom
+  description: ACM International Conference on Mobile Computing and Networking
+  year: 2023
+  link: https://www.sigmobile.org/mobicom/2023/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-10-02"
+  place: Madrid, Spain
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiCom
+  description: ACM International Conference on Mobile Computing and Networking
+  year: 2022
+  link: https://www.sigmobile.org/mobicom/2022/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-10-17"
+  place: Sydney, Australia
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiCom
+  description: ACM International Conference on Mobile Computing and Networking
+  year: 2021
+  link: https://www.sigmobile.org/mobicom/2021/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-10-25"
+  place: New Orleans, LA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiCom
+  description: ACM International Conference on Mobile Computing and Networking
+  year: 2020
+  link: https://www.sigmobile.org/mobicom/2020/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-09-21"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiCom
+  description: ACM International Conference on Mobile Computing and Networking
+  year: 2019
+  link: https://www.sigmobile.org/mobicom/2019/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-10-21"
+  place: Los Cabos, Mexico
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiCom
+  description: ACM International Conference on Mobile Computing and Networking
+  year: 2018
+  link: https://www.sigmobile.org/mobicom/2018/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-10-29"
+  place: New Delhi, India
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiCom
+  description: ACM International Conference on Mobile Computing and Networking
+  year: 2017
+  link: https://www.sigmobile.org/mobicom/2017/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-10-16"
+  place: Snowbird, Utah, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiCom
+  description: ACM International Conference on Mobile Computing and Networking
+  year: 2016
+  link: https://www.sigmobile.org/mobicom/2016/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-10-03"
+  place: New York City, NY, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiCom
+  description: ACM International Conference on Mobile Computing and Networking
+  year: 2015
+  link: https://www.sigmobile.org/mobicom/2015/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2015-09-07"
+  place: Paris, France
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  year: 2024
+  link: https://www.sigmobile.org/mobisys/2024/
+  deadline: "2023-11-30"
+  abstract_deadline: "2023-11-23"
+  notification_date: "2024-03-06"
+  date: "2024-06-04"
+  place: Tokyo, Japan
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  year: 2023
+  link: https://www.sigmobile.org/mobisys/2023/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-06-20"
+  place: Helsinki, Finland
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  year: 2022
+  link: https://www.sigmobile.org/mobisys/2022/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-06-28"
+  place: Portland, Oregon, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  year: 2021
+  link: https://www.sigmobile.org/mobisys/2021/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-06-24"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  year: 2020
+  link: https://www.sigmobile.org/mobisys/2020/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-06-16"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  year: 2019
+  link: https://www.sigmobile.org/mobisys/2019/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-06-18"
+  place: Seoul, South Korea
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  year: 2018
+  link: https://www.sigmobile.org/mobisys/2018/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-06-11"
+  place: Munich, Germany
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  year: 2017
+  link: https://www.sigmobile.org/mobisys/2017/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-06-19"
+  place: Niagara Falls, NY, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  year: 2016
+  link: https://www.sigmobile.org/mobisys/2016/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-06-26"
+  place: Singapore
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  year: 2015
+  link: https://www.sigmobile.org/mobisys/2015/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2015-05-18"
+  place: Florence, Italy
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+
+
 # Measurement & perf. analysis 	
+
+- name: SIGMETRICS
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  year: 2024
+  link: https://www.sigmetrics.org/sigmetrics2024/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2024-06-10"
+  place: Venice, Italy
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Andrea Marin, Michele Garetto
+  program_chair: Giulia Fanti, Florin Ciucu, Rhonda Righter
+
+- name: SIGMETRICS
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  year: 2023
+  link: https://www.sigmetrics.org/sigmetrics2023/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-06-19"
+  place: Orlando, FL, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGMETRICS
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  year: 2022
+  link: https://www.sigmetrics.org/sigmetrics2022/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-06-06"
+  place: Mumbai, India
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGMETRICS
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  year: 2021
+  link: https://www.sigmetrics.org/sigmetrics2021/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-06-14"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGMETRICS
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  year: 2020
+  link: https://www.sigmetrics.org/sigmetrics2020/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-06-08"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGMETRICS
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  year: 2019
+  link: https://www.sigmetrics.org/sigmetrics2019/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-06-24"
+  place: Phoenix, AZ, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGMETRICS
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  year: 2018
+  link: https://www.sigmetrics.org/sigmetrics2018/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-06-18"
+  place: Irvine, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGMETRICS
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  year: 2017
+  link: https://www.sigmetrics.org/sigmetrics2017/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-06-05"
+  place: Urbana-Champaign, IL, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGMETRICS
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  year: 2016
+  link: https://www.sigmetrics.org/sigmetrics2016/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-06-14"
+  place: Antibes Juan-les-Pins, France
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SIGMETRICS
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  year: 2015
+  link: https://www.sigmetrics.org/sigmetrics2015/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2015-06-15"
+  place: Portland, OR, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+  
 # Operating systems	
 # Programming languages	
 

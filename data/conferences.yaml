@@ -4896,8 +4896,438 @@
   num_submission: 
   general_chair: 
   program_chair: 
-  
+
 # Operating systems	
+- name: OSDI
+  description: USENIX Symposium on Operating Systems Design and Implementation
+  year: 2024
+  link: https://www.usenix.org/conference/osdi24
+  deadline: "2023-12-07"
+  abstract_deadline: "2023-11-30"
+  notification_date: "2024-03-21"
+  date: "2024-07-10"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: OSDI
+  description: USENIX Symposium on Operating Systems Design and Implementation
+  year: 2023
+  link: https://www.usenix.org/conference/osdi23
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-07-10"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: OSDI
+  description: USENIX Symposium on Operating Systems Design and Implementation
+  year: 2022
+  link: https://www.usenix.org/conference/osdi22
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-07-11"
+  place: Carlsbad, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: OSDI
+  description: USENIX Symposium on Operating Systems Design and Implementation
+  year: 2021
+  link: https://www.usenix.org/conference/osdi21
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-07-14"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: OSDI
+  description: USENIX Symposium on Operating Systems Design and Implementation
+  year: 2020
+  link: https://www.usenix.org/conference/osdi20
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-11-04"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SOSP
+  description: ACM Symposium on Operating Systems Principles
+  year: 2024
+  link: https://www.sosp2024.org/
+  deadline: "2024-04-19"
+  abstract_deadline: "2024-04-12"
+  notification_date: 
+  date: "2024-11-04"
+  place: Austin, TX, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SOSP
+  description: ACM Symposium on Operating Systems Principles
+  year: 2023
+  link: https://sosp2023.mpi-sws.org/
+  deadline: "2023-04-17"
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-10-23"
+  place: Koblenz, Germany
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SOSP
+  description: ACM Symposium on Operating Systems Principles
+  year: 2021
+  link: https://sosp2021.acm.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-10-25"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SOSP
+  description: ACM Symposium on Operating Systems Principles
+  year: 2019
+  link: https://sosp19.rcs.uwaterloo.ca/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-10-27"
+  place: Huntsville, Ontario, Canada
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: SOSP
+  description: ACM Symposium on Operating Systems Principles
+  year: 2017
+  link: https://www.sigops.org/sosp/sosp17/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-10-28"
+  place: Shanghai, China
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair:   
+
+
+- name: EuroSys
+  description: European Conference on Computer Systems
+  year: 2024
+  link: https://2024.eurosys.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2024-04-22"
+  place: Athens, Greece
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: EuroSys
+  description: European Conference on Computer Systems
+  year: 2023
+  link: https://2023.eurosys.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-05-08"
+  place: Rome, Italy
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: EuroSys
+  description: European Conference on Computer Systems
+  year: 2022
+  link: https://2022.eurosys.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-04-05"
+  place: Rennes, France
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: EuroSys
+  description: European Conference on Computer Systems
+  year: 2021
+  link: https://2021.eurosys.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-04-26"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: EuroSys
+  description: European Conference on Computer Systems
+  year: 2020
+  link: https://2020.eurosys.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-04-27"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: FAST
+  description: USENIX Conference on File and Storage Technologies
+  year: 2024
+  link: https://www.usenix.org/conference/fast24
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2024-02-27"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: FAST
+  description: USENIX Conference on File and Storage Technologies
+  year: 2023
+  link: https://www.usenix.org/conference/fast23
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-02-21"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: FAST
+  description: USENIX Conference on File and Storage Technologies
+  year: 2022
+  link: https://www.usenix.org/conference/fast22
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-02-22"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: FAST
+  description: USENIX Conference on File and Storage Technologies
+  year: 2021
+  link: https://www.usenix.org/conference/fast21
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-02-23"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: FAST
+  description: USENIX Conference on File and Storage Technologies
+  year: 2020
+  link: https://www.usenix.org/conference/fast20
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-02-24"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-07-10"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX ATC
+  description: USENIX Annual Technical Conference
+  year: 2024
+  link: https://www.usenix.org/conference/atc24
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2024-07-10"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX ATC
+  description: USENIX Annual Technical Conference
+  year: 2023
+  link: https://www.usenix.org/conference/atc23
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-07-10"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX ATC
+  description: USENIX Annual Technical Conference
+  year: 2022
+  link: https://www.usenix.org/conference/atc22
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-07-11"
+  place: Carlsbad, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX ATC
+  description: USENIX Annual Technical Conference
+  year: 2021
+  link: https://www.usenix.org/conference/atc21
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-07-14"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX ATC
+  description: USENIX Annual Technical Conference
+  year: 2020
+  link: https://www.usenix.org/conference/atc20
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-07-15"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX ATC
+  description: USENIX Annual Technical Conference
+  year: 2019
+  link: https://www.usenix.org/conference/atc19
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-07-10"
+  place: Renton, WA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX ATC
+  description: USENIX Annual Technical Conference
+  year: 2018
+  link: https://www.usenix.org/conference/atc18
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-07-11"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX ATC
+  description: USENIX Annual Technical Conference
+  year: 2017
+  link: https://www.usenix.org/conference/atc17
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-07-12"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX ATC
+  description: USENIX Annual Technical Conference
+  year: 2016
+  link: https://www.usenix.org/conference/atc16
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-06-22"
+  place: Denver, CO, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: USENIX ATC
+  description: USENIX Annual Technical Conference
+  year: 2015
+  link: https://www.usenix.org/conference/atc15
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2015-07-08"
+  place: Santa Clara, CA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+        
 # Programming languages	
 
  
@@ -6043,6 +6473,145 @@
   acceptance_rate:
   num_submission:
 
+- name: LICS
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  year: 2024
+  link: https://lics.siglog.org/lics24/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2024-07-08"
+  place: Tallinn, Estonia
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: LICS
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  year: 2023
+  link: https://lics.siglog.org/lics23/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2023-06-26"
+  place: Boston, MA, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: LICS
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  year: 2022
+  link: https://lics.siglog.org/lics22/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-08-02"
+  place: Haifa, Israel
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: LICS
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  year: 2021
+  link: https://lics.siglog.org/lics21/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-06-29"
+  place: Rome, Italy
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: LICS
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  year: 2020
+  link: https://lics.siglog.org/lics20/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2020-07-08"
+  place: Saarbrücken, Germany (held virtually)
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: LICS
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  year: 2019
+  link: https://lics.siglog.org/lics19/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-06-24"
+  place: Vancouver, Canada
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: LICS
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  year: 2018
+  link: https://lics.siglog.org/lics18/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-07-09"
+  place: Oxford, United Kingdom
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: LICS
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  year: 2017
+  link: https://lics.siglog.org/lics17/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2017-06-20"
+  place: Reykjavik, Iceland
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: LICS
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  year: 2016
+  link: https://lics.siglog.org/lics16/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2016-07-05"
+  place: New York City, NY, USA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: LICS
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  year: 2015
+  link: https://lics.siglog.org/lics15/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2015-07-06"
+  place: Kyoto, Japan
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
 
 - name: IMC
   description: ACM Internet Measurement Conference

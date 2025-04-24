@@ -1,5 +1,7 @@
 Conference,ConferenceTitle,Area,AreaTitle,ParentArea,NextTier
+neurips,NeurIPS,A*,A*,CORE2023,False
 sigcomm,SIGCOMM,A*,A*,CORE2023,False
+stoc,STOC,A*,A*,CORE2023,False
 ccs,CCS,A*,A*,CORE2023,False
 ec,EC,A*,A*,CORE2023,False
 sensys,SENSYS,A*,A*,CORE2023,False
@@ -14,13 +16,11 @@ pods,PODS,A*,A*,CORE2023,False
 sosp,SOSP,A*,A*,CORE2023,False
 sigmod,SIGMOD,A*,A*,CORE2023,False
 podc,PODC,A*,A*,CORE2023,False
-stoc,STOC,A*,A*,CORE2023,False
 uist,UIST,A*,A*,CORE2023,False
 popl,POPL,A*,A*,CORE2023,False
 pldi,PLDI,A*,A*,CORE2023,False
 soda,SODA,A*,A*,CORE2023,False
 crypto,CRYPTO,A*,A*,CORE2023,False
-neurips,NeurIPS,A*,A*,CORE2023,False
 asplos,ASPLOS,A*,A*,CORE2023,False
 acl,ACL,A*,A*,CORE2023,False
 ase,ASE,A*,A*,CORE2023,False
@@ -59,3 +59,4 @@ rtss,RTSS,A*,A*,CORE2023,False
 ndss,NDSS,A*,A*,CORE2023,False
 usenix-security,USENIX-Security,A*,A*,CORE2023,False
 osdi,OSDI,A*,A*,CORE2023,False
+ches,CHES,A,A,CORE2023,False

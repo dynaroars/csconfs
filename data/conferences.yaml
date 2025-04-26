@@ -5305,24 +5305,11 @@
   general_chair: 
   program_chair: 
         
-# Programming languages	
 
  
 
 
-# Algorithms & complexity	
-# Cryptography	
-# Logic & verification	
- 
 
-
-# Comp. bio & bioinformatics	
-# Computer graphics	
-# Computer science education	
-# Economics & computation	
-# Human-computer interaction	
-# Robotics	
-# Visualization	
 
 
 
@@ -6882,11 +6869,989 @@
 
 ## Comp. bio & bioinformatics
 
+- name: ISMB
+  description: Intelligent Systems for Molecular Biology
+  year: 2024
+  link: https://www.iscb.org/ismb2024/home
+  deadline: "2024-01-25"
+  abstract_deadline: "2024-04-19"
+  notification_date:
+  date: "2024-07-12"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ISMB/ECCB
+  description: Intelligent Systems for Molecular Biology / European Conference on Computational Biology
+  year: 2023
+  link: https://www.iscb.org/ismbeccb2023
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-07-23"
+  place: Lyon, France
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ISMB
+  description: Intelligent Systems for Molecular Biology
+  year: 2022
+  link: https://www.iscb.org/ismb2022
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-07-10"
+  place: Madison, WI, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ISMB/ECCB
+  description: Intelligent Systems for Molecular Biology / European Conference on Computational Biology
+  year: 2021
+  link: https://www.iscb.org/ismbeccb2021
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-07-25"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ISMB
+  description: Intelligent Systems for Molecular Biology
+  year: 2020
+  link: https://www.iscb.org/ismb2020
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-07-12"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ISMB/ECCB
+  description: Intelligent Systems for Molecular Biology / European Conference on Computational Biology
+  year: 2019
+  link: https://www.iscb.org/ismbeccb2019
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-07-21"
+  place: Basel, Switzerland
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ISMB
+  description: Intelligent Systems for Molecular Biology
+  year: 2018
+  link: https://www.iscb.org/ismb2018
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-07-06"
+  place: Chicago, IL, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ISMB/ECCB
+  description: Intelligent Systems for Molecular Biology / European Conference on Computational Biology
+  year: 2017
+  link: https://www.iscb.org/ismbeccb2017
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-07-21"
+  place: Prague, Czech Republic
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ISMB
+  description: Intelligent Systems for Molecular Biology
+  year: 2016
+  link: https://www.iscb.org/ismb2016
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-07-08"
+  place: Orlando, FL, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ISMB/ECCB
+  description: Intelligent Systems for Molecular Biology / European Conference on Computational Biology
+  year: 2015
+  link: https://www.iscb.org/ismbeccb2015
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2015-07-10"
+  place: Dublin, Ireland
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RECOMB
+  description: Research in Computational Molecular Biology
+  year: 2024
+  link: https://recomb.org/recomb2024/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-04-29"
+  place: Cambridge, MA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RECOMB
+  description: Research in Computational Molecular Biology
+  year: 2023
+  link: https://recomb2023.bilkent.edu.tr/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-04-16"
+  place: Istanbul, Turkey
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RECOMB
+  description: Research in Computational Molecular Biology
+  year: 2022
+  link: https://recomb2022.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-05-22"
+  place: La Jolla, CA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RECOMB
+  description: Research in Computational Molecular Biology
+  year: 2021
+  link: https://recomb2021.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-04-19"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RECOMB
+  description: Research in Computational Molecular Biology
+  year: 2020
+  link: https://recomb2020.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-05-10"
+  place: Padua, Italy
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RECOMB
+  description: Research in Computational Molecular Biology
+  year: 2019
+  link: https://recomb2019.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-05-05"
+  place: Washington, D.C., USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RECOMB
+  description: Research in Computational Molecular Biology
+  year: 2018
+  link: https://recomb2018.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-04-21"
+  place: Paris, France
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RECOMB
+  description: Research in Computational Molecular Biology
+  year: 2017
+  link: https://recomb2017.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-05-03"
+  place: Hong Kong, China
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RECOMB
+  description: Research in Computational Molecular Biology
+  year: 2016
+  link: https://recomb2016.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-04-17"
+  place: Santa Monica, CA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RECOMB
+  description: Research in Computational Molecular Biology
+  year: 2015
+  link: https://recomb2015.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2015-04-12"
+  place: Warsaw, Poland
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:  
+
 ## Computer graphics
+- name: SIGGRAPH
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  year: 2025
+  link: https://s2025.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2025-08-10"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  year: 2024
+  link: https://s2024.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-07-28"
+  place: Denver, CO, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  year: 2023
+  link: https://s2023.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-08-06"
+  place: Los Angeles, CA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  year: 2022
+  link: https://s2022.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-08-08"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  year: 2021
+  link: https://s2021.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-08-09"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  year: 2020
+  link: https://s2020.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-08-17"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  year: 2019
+  link: https://s2019.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-07-28"
+  place: Los Angeles, CA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  year: 2018
+  link: https://s2018.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-08-12"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  year: 2017
+  link: https://s2017.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-07-30"
+  place: Los Angeles, CA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  year: 2016
+  link: https://s2016.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-07-24"
+  place: Anaheim, CA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH Asia
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  year: 2025
+  link: https://asia.siggraph.org/2025/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2025-12-15"
+  place: Hong Kong
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH Asia
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  year: 2024
+  link: https://asia.siggraph.org/2024/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-12-03"
+  place: Tokyo, Japan
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH Asia
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  year: 2023
+  link: https://asia.siggraph.org/2023/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-12-12"
+  place: Sydney, Australia
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH Asia
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  year: 2022
+  link: https://sa2022.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-12-06"
+  place: Daegu, South Korea
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH Asia
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  year: 2021
+  link: https://sa2021.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-12-14"
+  place: Tokyo, Japan
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH Asia
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  year: 2020
+  link: https://sa2020.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-12-04"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH Asia
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  year: 2019
+  link: https://sa2019.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-11-17"
+  place: Brisbane, Australia
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH Asia
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  year: 2018
+  link: https://sa2018.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-12-04"
+  place: Tokyo, Japan
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH Asia
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  year: 2017
+  link: https://sa2017.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-11-27"
+  place: Bangkok, Thailand
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGGRAPH Asia
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  year: 2016
+  link: https://sa2016.siggraph.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-12-05"
+  place: Macao, China
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
 
 ## Computer science education
+- name: SIGCSE TS
+  description: ACM Technical Symposium on Computer Science Education
+  year: 2025
+  link: https://sigcse2025.sigcse.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2025-02-26"
+  place: Pittsburgh, PA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
 
+- name: SIGCSE TS
+  description: ACM Technical Symposium on Computer Science Education
+  year: 2024
+  link: https://sigcse2024.sigcse.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-03-20"
+  place: Portland, OR, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGCSE TS
+  description: ACM Technical Symposium on Computer Science Education
+  year: 2023
+  link: https://sigcse2023.sigcse.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-03-15"
+  place: Toronto, ON, Canada
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGCSE TS
+  description: ACM Technical Symposium on Computer Science Education
+  year: 2022
+  link: https://sigcse2022.sigcse.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-03-02"
+  place: Providence, RI, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGCSE TS
+  description: ACM Technical Symposium on Computer Science Education
+  year: 2021
+  link: https://sigcse2021.sigcse.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-03-17"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGCSE TS
+  description: ACM Technical Symposium on Computer Science Education
+  year: 2020
+  link: https://sigcse2020.sigcse.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-03-11"
+  place: Portland, OR, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGCSE TS
+  description: ACM Technical Symposium on Computer Science Education
+  year: 2019
+  link: https://sigcse2019.sigcse.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-02-27"
+  place: Minneapolis, MN, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGCSE TS
+  description: ACM Technical Symposium on Computer Science Education
+  year: 2018
+  link: https://sigcse2018.sigcse.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-02-21"
+  place: Baltimore, MD, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGCSE TS
+  description: ACM Technical Symposium on Computer Science Education
+  year: 2017
+  link: https://sigcse2017.sigcse.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-03-08"
+  place: Seattle, WA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: SIGCSE TS
+  description: ACM Technical Symposium on Computer Science Education
+  year: 2016
+  link: https://sigcse2016.sigcse.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-03-02"
+  place: Memphis, TN, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
 ## Economics & computation
+
+- name: EC
+  description: ACM Conference on Economics and Computation
+  year: 2025
+  link: https://www.ec25.sigecom.org/
+  deadline: 2025-02-10
+  abstract_deadline: 2025-02-03
+  notification_date: 2025-05-17
+  date: "2025-07-07"
+  place: Stanford, CA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: EC
+  description: ACM Conference on Economics and Computation
+  year: 2024
+  link: https://dl.acm.org/doi/proceedings/10.1145/3670865
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-07-08"
+  place: New Haven, CT, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: EC
+  description: ACM Conference on Economics and Computation
+  year: 2023
+  link: https://dl.acm.org/doi/proceedings/10.1145/3580507
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-07-09"
+  place: London, UK
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: EC
+  description: ACM Conference on Economics and Computation
+  year: 2022
+  link: https://dl.acm.org/doi/proceedings/10.1145/3490486
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-07-11"
+  place: Boulder, CO, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: EC
+  description: ACM Conference on Economics and Computation
+  year: 2021
+  link: https://dl.acm.org/doi/proceedings/10.1145/3465456
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-07-19"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: EC
+  description: ACM Conference on Economics and Computation
+  year: 2020
+  link: https://dl.acm.org/doi/proceedings/10.1145/3391403
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-07-13"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: EC
+  description: ACM Conference on Economics and Computation
+  year: 2019
+  link: https://dl.acm.org/doi/proceedings/10.1145/3328526
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-06-24"
+  place: Phoenix, AZ, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: EC
+  description: ACM Conference on Economics and Computation
+  year: 2018
+  link: https://dl.acm.org/doi/proceedings/10.1145/3219166
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-06-18"
+  place: Ithaca, NY, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: EC
+  description: ACM Conference on Economics and Computation
+  year: 2017
+  link: https://dl.acm.org/doi/proceedings/10.1145/3033274
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-06-26"
+  place: Cambridge, MA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: EC
+  description: ACM Conference on Economics and Computation
+  year: 2016
+  link: https://dl.acm.org/doi/proceedings/10.1145/2940716
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-07-24"
+  place: Maastricht, Netherlands
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: WINE
+  description: International Conference on Web and Internet Economics
+  year: 2023
+  link: https://dl.acm.org/doi/proceedings/10.1007/978-3-031-48974-7
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-12-04"
+  place: Shanghai, China
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: WINE
+  description: International Conference on Web and Internet Economics
+  year: 2022
+  link: https://link.springer.com/book/10.1007/978-3-031-20459-2
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-12-12"
+  place: Troy, NY, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: WINE
+  description: International Conference on Web and Internet Economics
+  year: 2021
+  link: https://link.springer.com/book/10.1007/978-3-030-72113-8
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-12-06"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: WINE
+  description: International Conference on Web and Internet Economics
+  year: 2020
+  link: https://link.springer.com/book/10.1007/978-3-030-64946-3
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-12-07"
+  place: Beijing, China
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: WINE
+  description: International Conference on Web and Internet Economics
+  year: 2019
+  link: https://link.springer.com/book/10.1007/978-3-030-35389-6
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-12-10"
+  place: New York, NY, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: WINE
+  description: International Conference on Web and Internet Economics
+  year: 2018
+  link: https://link.springer.com/book/10.1007/978-3-030-04612-5
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-12-15"
+  place: Oxford, UK
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: WINE
+  description: International Conference on Web and Internet Economics
+  year: 2017
+  link: https://link.springer.com/book/10.1007/978-3-319-71924-5
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-12-11"
+  place: Bangalore, India
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: WINE
+  description: International Conference on Web and Internet Economics
+  year: 2016
+  link: https://link.springer.com/book/10.1007/978-3-662-54110-4
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-12-14"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: WINE
+  description: International Conference on Web and Internet Economics
+  year: 2015
+  link: https://link.springer.com/book/10.1007/978-3-662-48995-6
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2015-12-09"
+  place: Cambridge, MA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: WINE
+  description: International Conference on Web and Internet Economics
+  year: 2014
+  link: https://link.springer.com/book/10.1007/978-3-319-13129-0
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2014-12-14"
+  place: Beijing, China
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
 
 ## Human-computer interaction
 - name: CHI

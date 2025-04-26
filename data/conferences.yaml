@@ -6891,6 +6891,426 @@
 ## Human-computer interaction
 
 ## Robotics
+- name: ICRA
+  description: IEEE International Conference on Robotics and Automation
+  year: 2025
+  link: https://2025.ieee-icra.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2025-05-19"
+  place: Atlanta, GA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ICRA
+  description: IEEE International Conference on Robotics and Automation
+  year: 2024
+  link: https://2024.ieee-icra.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-05-13"
+  place: Yokohama, Japan
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ICRA
+  description: IEEE International Conference on Robotics and Automation
+  year: 2023
+  link: https://www.icra2023.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-05-29"
+  place: London, United Kingdom
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ICRA
+  description: IEEE International Conference on Robotics and Automation
+  year: 2022
+  link: https://www.icra2022.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-05-23"
+  place: Philadelphia, PA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ICRA
+  description: IEEE International Conference on Robotics and Automation
+  year: 2021
+  link: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-05-30"
+  place: Xi'an, China
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ICRA
+  description: IEEE International Conference on Robotics and Automation
+  year: 2020
+  link: https://www.icra2020.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-05-31"
+  place: Paris, France
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ICRA
+  description: IEEE International Conference on Robotics and Automation
+  year: 2019
+  link: https://www.icra2019.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-05-20"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ICRA
+  description: IEEE International Conference on Robotics and Automation
+  year: 2018
+  link: https://www.icra2018.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-05-21"
+  place: Brisbane, Australia
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ICRA
+  description: IEEE International Conference on Robotics and Automation
+  year: 2017
+  link: https://www.icra2017.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-05-29"
+  place: Singapore
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: ICRA
+  description: IEEE International Conference on Robotics and Automation
+  year: 2016
+  link: https://www.icra2016.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-05-16"
+  place: Stockholm, Sweden
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IROS
+  description: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  year: 2025
+  link: https://www.iros25.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2025-10-19"
+  place: Hangzhou, China
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IROS
+  description: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  year: 2024
+  link: https://iros2024-abudhabi.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-10-14"
+  place: Abu Dhabi, UAE
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IROS
+  description: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  year: 2023
+  link: https://ieee-iros.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-10-01"
+  place: Detroit, Michigan, USA
+  acceptance_rate:
+  num_submission:
+  general_chair: Jim Schmiedeler
+  program_chair: Bobby Gregg
+
+- name: IROS
+  description: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  year: 2022
+  link: https://iros2022.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-10-23"
+  place: Kyoto, Japan
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IROS
+  description: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  year: 2021
+  link: https://www.aconf.org/conf_178649.2021_IEEE/RSJ_International_Conference_on_Intelligent_Robots_and_Systems.html
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-09-27"
+  place: Prague, Czech Republic
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IROS
+  description: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  year: 2020
+  link: https://spectrum.ieee.org/iros-2020-online
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-10-25"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IROS
+  description: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  year: 2019
+  link: https://www.iros2019.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-11-04"
+  place: Macau, China
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IROS
+  description: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  year: 2018
+  link: https://www.iros2018.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-10-01"
+  place: Madrid, Spain
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IROS
+  description: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  year: 2017
+  link: https://ewh.ieee.org/conf/iros/2017/iros2017.org/index.html
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-09-24"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IROS
+  description: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  year: 2016
+  link: https://www.ieee-ras.org/component/rseventspro/event/775-iros-2016-ieee-rsj-international-conference-on-intelligent-robots-and-systems
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-10-09"
+  place: Daejeon, South Korea
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+
+- name: RSS
+  description: Robotics: Science and Systems Conference
+  year: 2025
+  link: https://roboticsconference.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2025-06-21"
+  place: Los Angeles, California, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RSS
+  description: Robotics: Science and Systems Conference
+  year: 2024
+  link: https://roboticsconference.org/2024/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-07-15"
+  place: Delft, Netherlands
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RSS
+  description: Robotics: Science and Systems Conference
+  year: 2023
+  link: https://roboticsconference.org/2023/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-07-10"
+  place: Daegu, South Korea
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RSS
+  description: Robotics: Science and Systems Conference
+  year: 2022
+  link: https://roboticsconference.org/2022/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-06-27"
+  place: New York City, New York, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RSS
+  description: Robotics: Science and Systems Conference
+  year: 2021
+  link: https://roboticsconference.org/2021/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-07-12"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RSS
+  description: Robotics: Science and Systems Conference
+  year: 2020
+  link: https://roboticsconference.org/2020/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-07-12"
+  place: Corvallis, Oregon, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RSS
+  description: Robotics: Science and Systems Conference
+  year: 2019
+  link: https://roboticsconference.org/2019/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-06-22"
+  place: Freiburg, Germany
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RSS
+  description: Robotics: Science and Systems Conference
+  year: 2018
+  link: https://roboticsconference.org/2018/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-06-26"
+  place: Pittsburgh, Pennsylvania, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RSS
+  description: Robotics: Science and Systems Conference
+  year: 2017
+  link: https://roboticsconference.org/2017/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-07-12"
+  place: Cambridge, Massachusetts, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: RSS
+  description: Robotics: Science and Systems Conference
+  year: 2016
+  link: https://roboticsconference.org/2016/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-06-18"
+  place: Ann Arbor, Michigan, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:  
 
 ## Visualization  
 - name: VIS
@@ -7172,3 +7592,4 @@
   num_submission:
   general_chair:
   program_chair:  
+

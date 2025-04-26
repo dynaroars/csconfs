@@ -6889,6 +6889,425 @@
 ## Economics & computation
 
 ## Human-computer interaction
+- name: CHI
+  description: ACM Conference on Human Factors in Computing Systems
+  year: 2025
+  link: https://chi2025.acm.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2025-04-26"
+  place: Yokohama, Japan
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: CHI
+  description: ACM Conference on Human Factors in Computing Systems
+  year: 2024
+  link: https://chi2024.acm.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-05-11"
+  place: Honolulu, Hawaiʻi, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: CHI
+  description: ACM Conference on Human Factors in Computing Systems
+  year: 2023
+  link: https://chi2023.acm.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-04-23"
+  place: Hamburg, Germany
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: CHI
+  description: ACM Conference on Human Factors in Computing Systems
+  year: 2022
+  link: https://chi2022.acm.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-04-30"
+  place: New Orleans, LA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: CHI
+  description: ACM Conference on Human Factors in Computing Systems
+  year: 2021
+  link: https://chi2021.acm.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-05-08"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: CHI
+  description: ACM Conference on Human Factors in Computing Systems
+  year: 2020
+  link: https://chi2020.acm.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-04-25"
+  place: Honolulu, Hawaiʻi, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: CHI
+  description: ACM Conference on Human Factors in Computing Systems
+  year: 2019
+  link: https://chi2019.acm.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-05-04"
+  place: Glasgow, Scotland, UK
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: CHI
+  description: ACM Conference on Human Factors in Computing Systems
+  year: 2018
+  link: https://chi2018.acm.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-04-21"
+  place: Montreal, Canada
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: CHI
+  description: ACM Conference on Human Factors in Computing Systems
+  year: 2017
+  link: https://chi2017.acm.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-05-06"
+  place: Denver, Colorado, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: CHI
+  description: ACM Conference on Human Factors in Computing Systems
+  year: 2016
+  link: https://chi2016.acm.org/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-05-07"
+  place: San Jose, California, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UbiComp / ISWC
+  description: ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers
+  year: 2025
+  link: https://www.ubicomp.org/ubicomp-iswc-2025/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2025-10-12"
+  place: Espoo, Finland
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UbiComp / ISWC
+  description: ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers
+  year: 2024
+  link: https://www.ubicomp.org/ubicomp-iswc-2024/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-10-05"
+  place: Melbourne, Australia
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UbiComp / ISWC
+  description: ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers
+  year: 2023
+  link: https://www.ubicomp.org/ubicomp-iswc-2023/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-10-08"
+  place: Cancún, Mexico
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UbiComp / ISWC
+  description: ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers
+  year: 2022
+  link: https://ubicomp.org/ubicomp2022/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-09-11"
+  place: Cambridge, United Kingdom
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UbiComp / ISWC
+  description: ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers
+  year: 2021
+  link: https://ubicomp.org/ubicomp2021/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-09-21"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UbiComp / ISWC
+  description: ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers
+  year: 2020
+  link: https://ubicomp.org/ubicomp2020/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-09-12"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UbiComp / ISWC
+  description: ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers
+  year: 2019
+  link: https://ubicomp.org/ubicomp2019/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-09-09"
+  place: London, United Kingdom
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UbiComp / ISWC
+  description: ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers
+  year: 2018
+  link: https://ubicomp.org/ubicomp2018/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-10-08"
+  place: Singapore
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UbiComp / ISWC
+  description: ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers
+  year: 2017
+  link: https://ubicomp.org/ubicomp2017/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-09-11"
+  place: Maui, Hawaii, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UbiComp / ISWC
+  description: ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers
+  year: 2016
+  link: https://ubicomp.org/ubicomp2016/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-09-12"
+  place: Heidelberg, Germany
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UIST
+  description: ACM Symposium on User Interface Software and Technology
+  year: 2025
+  link: https://uist.acm.org/2025/
+  deadline: 2025-04-09
+  abstract_deadline: 2025-04-02
+  notification_date: 2025-07-11
+  date: "2025-09-28"
+  place: Busan, South Korea
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UIST
+  description: ACM Symposium on User Interface Software and Technology
+  year: 2024
+  link: https://uist.acm.org/2024/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-10-13"
+  place: Pittsburgh, PA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UIST
+  description: ACM Symposium on User Interface Software and Technology
+  year: 2023
+  link: https://uist.acm.org/2023/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-10-29"
+  place: San Francisco, CA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UIST
+  description: ACM Symposium on User Interface Software and Technology
+  year: 2022
+  link: https://uist.acm.org/uist2022/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-10-29"
+  place: Bend, OR, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UIST
+  description: ACM Symposium on User Interface Software and Technology
+  year: 2021
+  link: https://uist.acm.org/uist2021/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-10-10"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UIST
+  description: ACM Symposium on User Interface Software and Technology
+  year: 2020
+  link: https://uist.acm.org/uist2020/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-10-20"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UIST
+  description: ACM Symposium on User Interface Software and Technology
+  year: 2019
+  link: https://uist.acm.org/uist2019/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-10-20"
+  place: New Orleans, LA, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UIST
+  description: ACM Symposium on User Interface Software and Technology
+  year: 2018
+  link: https://uist.acm.org/uist2018/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-10-14"
+  place: Berlin, Germany
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UIST
+  description: ACM Symposium on User Interface Software and Technology
+  year: 2017
+  link: https://uist.acm.org/uist2017/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-10-22"
+  place: Quebec City, Canada
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: UIST
+  description: ACM Symposium on User Interface Software and Technology
+  year: 2016
+  link: https://uist.acm.org/uist2016/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-10-16"
+  place: Tokyo, Japan
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
 
 ## Robotics
 - name: ICRA
@@ -7173,7 +7592,7 @@
 
 
 - name: RSS
-  description: Robotics: Science and Systems Conference
+  description: "Robotics: Science and Systems Conference"
   year: 2025
   link: https://roboticsconference.org/
   deadline:
@@ -7187,7 +7606,7 @@
   program_chair:
 
 - name: RSS
-  description: Robotics: Science and Systems Conference
+  description: "Robotics: Science and Systems Conference"
   year: 2024
   link: https://roboticsconference.org/2024/
   deadline:
@@ -7201,7 +7620,7 @@
   program_chair:
 
 - name: RSS
-  description: Robotics: Science and Systems Conference
+  description: "Robotics: Science and Systems Conference"
   year: 2023
   link: https://roboticsconference.org/2023/
   deadline:
@@ -7215,7 +7634,7 @@
   program_chair:
 
 - name: RSS
-  description: Robotics: Science and Systems Conference
+  description: "Robotics: Science and Systems Conference"
   year: 2022
   link: https://roboticsconference.org/2022/
   deadline:
@@ -7229,7 +7648,7 @@
   program_chair:
 
 - name: RSS
-  description: Robotics: Science and Systems Conference
+  description: "Robotics: Science and Systems Conference"
   year: 2021
   link: https://roboticsconference.org/2021/
   deadline:
@@ -7243,7 +7662,7 @@
   program_chair:
 
 - name: RSS
-  description: Robotics: Science and Systems Conference
+  description: "Robotics: Science and Systems Conference"
   year: 2020
   link: https://roboticsconference.org/2020/
   deadline:
@@ -7257,7 +7676,7 @@
   program_chair:
 
 - name: RSS
-  description: Robotics: Science and Systems Conference
+  description: "Robotics: Science and Systems Conference"
   year: 2019
   link: https://roboticsconference.org/2019/
   deadline:
@@ -7271,7 +7690,7 @@
   program_chair:
 
 - name: RSS
-  description: Robotics: Science and Systems Conference
+  description: "Robotics: Science and Systems Conference"
   year: 2018
   link: https://roboticsconference.org/2018/
   deadline:
@@ -7285,7 +7704,7 @@
   program_chair:
 
 - name: RSS
-  description: Robotics: Science and Systems Conference
+  description: "Robotics: Science and Systems Conference"
   year: 2017
   link: https://roboticsconference.org/2017/
   deadline:
@@ -7299,7 +7718,7 @@
   program_chair:
 
 - name: RSS
-  description: Robotics: Science and Systems Conference
+  description: "Robotics: Science and Systems Conference"
   year: 2016
   link: https://roboticsconference.org/2016/
   deadline:

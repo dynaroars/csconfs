@@ -6877,3 +6877,298 @@
   num_submission: 
   general_chair: 
   program_chair: 
+
+# Interdisciplinary Areas
+
+## Comp. bio & bioinformatics
+
+## Computer graphics
+
+## Computer science education
+
+## Economics & computation
+
+## Human-computer interaction
+
+## Robotics
+
+## Visualization  
+- name: VIS
+  description: IEEE Visualization Conference
+  year: 2025
+  link: https://ieeevis.org/year/2025/welcome
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2025-11-02"
+  place: Vienna, Austria
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: VIS
+  description: IEEE Visualization Conference
+  year: 2024
+  link: https://ieeevis.org/year/2024/welcome
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-10-13"
+  place: Tampa Bay, Florida, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: VIS
+  description: IEEE Visualization Conference
+  year: 2023
+  link: https://ieeevis.org/year/2023/welcome
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-10-22"
+  place: Melbourne, Australia
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: VIS
+  description: IEEE Visualization Conference
+  year: 2022
+  link: https://ieeevis.org/year/2022/welcome
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-10-16"
+  place: Oklahoma City, Oklahoma, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: VIS
+  description: IEEE Visualization Conference
+  year: 2021
+  link: https://ieeevis.org/year/2021/welcome
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-10-24"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: VIS
+  description: IEEE Visualization Conference
+  year: 2020
+  link: https://ieeevis.org/year/2020/welcome
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-10-25"
+  place: Virtual Conference
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: VIS
+  description: IEEE Visualization Conference
+  year: 2019
+  link: https://ieeevis.org/year/2019/welcome
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-10-20"
+  place: Vancouver, Canada
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: VIS
+  description: IEEE Visualization Conference
+  year: 2018
+  link: https://ieeevis.org/year/2018/welcome
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-10-21"
+  place: Berlin, Germany
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: VIS
+  description: IEEE Visualization Conference
+  year: 2017
+  link: https://ieeevis.org/year/2017/welcome
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-10-01"
+  place: Phoenix, Arizona, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: VIS
+  description: IEEE Visualization Conference
+  year: 2016
+  link: https://ieeevis.org/year/2016/welcome
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-10-23"
+  place: Baltimore, Maryland, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IEEE VR
+  description: IEEE Conference on Virtual Reality and 3D User Interfaces
+  year: 2025
+  link: https://ieeevr.org/2025/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2025-03-08"
+  place: Saint-Malo, France
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IEEE VR
+  description: IEEE Conference on Virtual Reality and 3D User Interfaces
+  year: 2024
+  link: https://ieeevr.org/2024/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2024-03-16"
+  place: Orlando, Florida, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IEEE VR
+  description: IEEE Conference on Virtual Reality and 3D User Interfaces
+  year: 2023
+  link: https://ieeevr.org/2023/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2023-03-25"
+  place: Shanghai, China
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IEEE VR
+  description: IEEE Conference on Virtual Reality and 3D User Interfaces
+  year: 2022
+  link: https://ieeevr.org/2022/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2022-03-12"
+  place: Christchurch, New Zealand
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IEEE VR
+  description: IEEE Conference on Virtual Reality and 3D User Interfaces
+  year: 2021
+  link: https://ieeevr.org/2021/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2021-03-27"
+  place: Lisbon, Portugal
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IEEE VR
+  description: IEEE Conference on Virtual Reality and 3D User Interfaces
+  year: 2020
+  link: https://ieeevr.org/2020/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2020-03-22"
+  place: Atlanta, Georgia, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IEEE VR
+  description: IEEE Conference on Virtual Reality and 3D User Interfaces
+  year: 2019
+  link: https://ieeevr.org/2019/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2019-03-23"
+  place: Osaka, Japan
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IEEE VR
+  description: IEEE Conference on Virtual Reality and 3D User Interfaces
+  year: 2018
+  link: https://ieeevr.org/2018/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2018-03-18"
+  place: Reutlingen, Germany
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IEEE VR
+  description: IEEE Conference on Virtual Reality and 3D User Interfaces
+  year: 2017
+  link: https://ieeevr.org/2017/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2017-03-18"
+  place: Los Angeles, California, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: IEEE VR
+  description: IEEE Conference on Virtual Reality and 3D User Interfaces
+  year: 2016
+  link: https://ieeevr.org/2016/
+  deadline:
+  abstract_deadline:
+  notification_date:
+  date: "2016-03-19"
+  place: Greenville, South Carolina, USA
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:  

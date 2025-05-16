@@ -6321,6 +6321,7 @@
   year: 2025
   link: https://conferences.i-cav.org/2025/
   deadline: "2025-01-31"
+  notification_date: "2025-04-02"
   note: 
   date: "2025-07-21"
   place: Zagreb, Croatia
@@ -6333,6 +6334,7 @@
   year: 2024
   link: https://i-cav.org/2024/
   deadline: "2024-01-19"
+  notification_date: "2024-03-26"
   note: 
   date: "2024-07-24"
   place: Montreal, Canada
@@ -6343,7 +6345,8 @@
   description: Computer Aided Verification
   year: 2023
   link: https://i-cav.org/2023/
-  deadline: "2023-01-20"
+  deadline: "2023-02-03"
+  notification_date: "2023-04-21"
   note: 
   date: "2023-07-17"
   place: Paris, France
@@ -6354,7 +6357,8 @@
   description: Computer Aided Verification
   year: 2022
   link: https://i-cav.org/2022/
-  deadline: "2022-01-28"
+  deadline: "2022-01-21"
+  notification_date: "2022-04-30"
   note: 
   date: "2022-08-07"
   place: Haifa, Israel
@@ -6366,7 +6370,8 @@
   year: 2021
   link: https://i-cav.org/2021/
   deadline: "2021-01-28"
-  note: Virtual conference
+  notification_date: "2021-04-19"
+  note: 
   date: "2021-07-20"
   place: Online
   acceptance_rate:
@@ -6377,8 +6382,9 @@
   year: 2020
   link: https://i-cav.org/2020/
   deadline: "2020-01-28"
-  note: Virtual conference
-  date: "2020-07-19"
+  notification_date: "2020-04-06"
+  note: 
+  date: "2020-07-21"
   place: Online
   acceptance_rate:
   num_submission:

@@ -4176,6 +4176,7 @@
   num_submission: 
   general_chair: 
   program_chair: 
+
 - name: RTSS
   description: IEEE Real-Time Systems Symposium
   year: 2025
@@ -5307,14 +5308,6 @@
   program_chair: 
         
 
- 
-
-
-
-
-
-
-
 ## Software Engineering
 - name: ASE
   description: Automated Software Engineering
@@ -5327,6 +5320,8 @@
   place: Seoul, Korea
   acceptance_rate:
   num_submission:
+  general_chair: Shin Yoo
+  program_chair: Marchel Bohme, Lingming Zhang
 
 - name: ASE
   description: Automated Software Engineering
@@ -5338,6 +5333,8 @@
   place: Sacramento, CA
   acceptance_rate:
   num_submission:
+  general_chair: Vladimir Filkov
+  program_chair: Baishakhi Ray, Minghui Zhou
 
 - name: ASE
   description: Automated Software Engineering
@@ -5349,6 +5346,8 @@
   place: Luxembourg
   acceptance_rate:
   num_submission:
+  general_chair: Tegawendé F. Bissyandé, Jacques Klein
+  program_chair: :Christian Bird, Federica Sarro
 
 - name: ASE
   description: Automated Software Engineering
@@ -5357,9 +5356,11 @@
   deadline: "2022-05-31"
   note: 
   date: "2022-10-10"
-  place: Ann Arbor, MI
-  acceptance_rate:
+  place: Oakland Center, MI
+  acceptance_rate: 
   num_submission:
+  general_chair: Marouane Kessentini
+  program_chair: Julia Rubin, Shahar Maoz
 
 - name: ASE
   description: Automated Software Engineering
@@ -5371,6 +5372,8 @@
   place: Melbourne, Australia
   acceptance_rate:
   num_submission:
+  general_chair: John Grundy
+  program_chair: Dan Hao, Denys Poshyvanyk
 
 - name: ASE
   description: Automated Software Engineering
@@ -5382,6 +5385,8 @@
   place: Melbourne, Australia
   acceptance_rate:
   num_submission:
+  general_chair: John Grundy
+  program_chair: Claire Le Goues, David Lo 
 
 - name: ASE
   description: Automated Software Engineering

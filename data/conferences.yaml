@@ -2974,6 +2974,36 @@
 
 - name: NDSS
   description: Network and Distributed System Security Symposium
+  year: 2026
+  link: https://www.ndss-symposium.org/ndss2026/
+  deadline: "2025-08-06"
+  note: Cycle 2/2
+  abstract_deadline:
+  notification_date: "10-22-2025"
+  date: "2026-02-23"
+  place: San Diego, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Hamed Okhravi, Ivan Martinovic
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2026
+  link: https://www.ndss-symposium.org/ndss2026/
+  deadline: "2025-04-23"
+  note: Cycle 1/2
+  abstract_deadline:
+  notification_date: "07-02-2025"
+  date: "2026-02-23"
+  place: San Diego, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Hamed Okhravi, Ivan Martinovic
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
   year: 2025
   link: https://www.ndss-symposium.org/ndss2025/
   deadline: "2024-09-15"
@@ -6198,6 +6228,8 @@
   place: Rennes, France
   acceptance_rate:
   num_submission:
+  general_chair: Sandrine Blazy
+  program_chair: Suresh Jagannathan
 
 - name: POPL
   description: Principles of Programming Languages
@@ -6209,6 +6241,8 @@
   place: Denver, CO
   acceptance_rate:
   num_submission:
+  general_chair: Steve Zdancewic
+  program_chair: Armando Solar-Lezama
 
 - name: POPL
   description: Principles of Programming Languages
@@ -6220,6 +6254,8 @@
   place: London, United Kingdom
   acceptance_rate:
   num_submission:
+  general_chair: Philippa Gardner
+  program_chair: Derek Dreyer
 
 - name: POPL
   description: Principles of Programming Languages
@@ -6231,6 +6267,8 @@
   place: Boston, MA
   acceptance_rate:
   num_submission:
+  general_chair: Andrew Myers
+  program_chair: Amal Ahmed
 
 - name: POPL
   description: Principles of Programming Languages
@@ -6242,6 +6280,9 @@
   place: Philadelphia, PA
   acceptance_rate:
   num_submission:
+  general_chair: Rajeev Alur
+  program_chair: Hongseok Yang
+  
 
 - name: POPL
   description: Principles of Programming Languages
@@ -6253,6 +6294,8 @@
   place: Virtual Conference
   acceptance_rate:
   num_submission:
+  general_chair: Andreas Podelski
+  program_chair: Azadeh Farzan
 
 - name: POPL
   description: Principles of Programming Languages
@@ -6264,6 +6307,8 @@
   place: New Orleans, LA
   acceptance_rate:
   num_submission:
+  general_chair: Brigitte Pientka
+  program_chair: Lars Birkedal
 
 - name: POPL
   description: Principles of Programming Languages
@@ -8010,10 +8055,10 @@
   description: ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers
   year: 2025
   link: https://www.ubicomp.org/ubicomp-iswc-2025/
-  deadline:
+  deadline: "2025-05-25"
   abstract_deadline:
-  notification_date:
-  date: "2025-10-12"
+  notification_date: "2025-07-04"
+  date: "2025-10-14"
   place: Espoo, Finland
   acceptance_rate:
   num_submission:
@@ -8849,7 +8894,7 @@
   general_chair:
   program_chair:
 
-- name: IEEE VR
+- name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2025
   link: https://ieeevr.org/2025/
@@ -8863,7 +8908,7 @@
   general_chair:
   program_chair:
 
-- name: IEEE VR
+- name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2024
   link: https://ieeevr.org/2024/
@@ -8877,7 +8922,7 @@
   general_chair:
   program_chair:
 
-- name: IEEE VR
+- name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2023
   link: https://ieeevr.org/2023/
@@ -8891,7 +8936,7 @@
   general_chair:
   program_chair:
 
-- name: IEEE VR
+- name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2022
   link: https://ieeevr.org/2022/
@@ -8905,7 +8950,7 @@
   general_chair:
   program_chair:
 
-- name: IEEE VR
+- name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2021
   link: https://ieeevr.org/2021/
@@ -8919,7 +8964,7 @@
   general_chair:
   program_chair:
 
-- name: IEEE VR
+- name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2020
   link: https://ieeevr.org/2020/
@@ -8933,7 +8978,7 @@
   general_chair:
   program_chair:
 
-- name: IEEE VR
+- name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2019
   link: https://ieeevr.org/2019/
@@ -8947,7 +8992,7 @@
   general_chair:
   program_chair:
 
-- name: IEEE VR
+- name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2018
   link: https://ieeevr.org/2018/
@@ -8961,7 +9006,7 @@
   general_chair:
   program_chair:
 
-- name: IEEE VR
+- name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2017
   link: https://ieeevr.org/2017/
@@ -8975,7 +9020,7 @@
   general_chair:
   program_chair:
 
-- name: IEEE VR
+- name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2016
   link: https://ieeevr.org/2016/

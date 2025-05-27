@@ -7,7 +7,7 @@
   link: https://aaai.org/conference/aaai/aaai-25/
   deadline: "2024-08-15"
   note: Abstracts due August 7, 2024
-  date: "2025-02-10"
+  date: "2025-02-27"
   place: Philadelphia, PA
   acceptance_rate:
   num_submission:
@@ -17,7 +17,7 @@
   year: 2024
   link: https://aaai.org/conference/aaai/aaai-24/
   deadline: "2023-08-15"
-  note: Abstracts due August 7, 2023
+  note: Abstracts due August 8, 2023
   date: "2024-02-20"
   place: Vancouver, Canada
   acceptance_rate:
@@ -49,8 +49,8 @@
   description: AAAI Conference on Artificial Intelligence
   year: 2021
   link: https://aaai.org/conference/aaai/aaai-21/
-  deadline: "2020-08-30"
-  note:
+  deadline: "2020-09-09"
+  note: Abstracts due September 1, 2020
   date: "2021-02-02"
   place: Virtual Conference
   acceptance_rate:
@@ -61,7 +61,7 @@
   year: 2020
   link: https://aaai.org/conference/aaai/aaai-20/
   deadline: "2019-09-05"
-  note:
+  note: Abstracts due August 30, 2019
   date: "2020-02-07"
   place: New York, NY
   acceptance_rate:
@@ -72,7 +72,7 @@
   year: 2019
   link: https://www.openresearch.org/wiki/AAAI_2019
   deadline: "2018-09-05"
-  note:
+  note: Abstracts due August 30, 2018
   date: "2019-01-27"
   place: Honolulu, HI
   acceptance_rate:
@@ -82,8 +82,8 @@
   description: AAAI Conference on Artificial Intelligence
   year: 2018
   link: https://www.openresearch.org/wiki/AAAI_2018
-  deadline: "2017-09-08"
-  note:
+  deadline: "2017-09-11"
+  note: Abstracts due September 9, 2017
   date: "2018-02-02"
   place: New Orleans, LA
   acceptance_rate:
@@ -92,13 +92,13 @@
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2017
-  link: https://aaai.org/conference/aaai/aaai17/
+  link: https://www.openresearch.org/wiki/AAAI_2017
   deadline: "2016-09-14"
-  note:
+  note: Abstracts due September 9, 2016
   date: "2017-02-04"
   place: San Francisco, CA
-  acceptance_rate:
-  num_submission:
+  acceptance_rate: 24.6 %
+  num_submission: 2590
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
@@ -108,8 +108,8 @@
   note:
   date: "2016-02-12"
   place: Phoenix, AZ
-  acceptance_rate:
-  num_submission:
+  acceptance_rate: 25.8%
+  num_submission: 2132
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
@@ -152,7 +152,7 @@
   deadline: "2023-01-18"
   note: "Abstract deadline: 2023-01-11"
   date: "2023-08-19"
-  place: Cape Town, South Africa
+  place: Macao, South Africa
   acceptance_rate:
   num_submission:
 
@@ -160,8 +160,8 @@
   description: International Joint Conference on Artificial Intelligence
   year: 2022
   link: https://ijcai-22.org/
-  deadline: "2022-01-07"
-  note:
+  deadline: "2022-01-14"
+  note:  "Abstract deadline: 2022-01-07"
   date: "2022-07-23"
   place: Vienna, Austria
   acceptance_rate:
@@ -194,7 +194,7 @@
   year: 2019
   link: https://ijcai19.org/
   deadline: "2019-02-25"
-  note:
+  note: "Abstract deadline: 2019-02-19"
   date: "2019-08-10"
   place: Macao, China
   acceptance_rate:
@@ -205,7 +205,7 @@
   year: 2018
   link: https://www.ijcai-18.org/
   deadline: "2018-01-31"
-  note:
+  note: "Abstract deadline: 2018-01-25"
   date: "2018-07-13"
   place: Stockholm, Sweden
   acceptance_rate:
@@ -216,7 +216,7 @@
   year: 2017
   link: https://ijcai-17.org/
   deadline: "2017-02-20"
-  note:
+  note: "Abstract deadline: 2017-02-16"
   date: "2017-08-19"
   place: Melbourne, Australia
   acceptance_rate:

@@ -250,10 +250,10 @@
 - name: BMVC
   description: British Machine Vision Conference
   year: 2025
-  link: https://www.bmva.org/bmvc
+  link: https://bmvc2025.bmva.org
   deadline: "2025-05-16"
   note: "Abstract deadline: 2025-05-09"
-  date: "2025-24-11"
+  date: "2025-11-24"
   place: Sheffield, UK
   acceptance_rate:
   num_submission:
@@ -274,7 +274,7 @@
   year: 2023
   link: https://bmvc2023.org
   deadline: "2023-05-12"
-  note:
+  note: 
   date: "2023-11-20"
   place: Aberdeen, UK
   acceptance_rate:
@@ -295,8 +295,8 @@
   description: British Machine Vision Conference
   year: 2021
   link: https://www.bmvc2021-virtualconference.com
-  deadline: "2021-07-25"
-  note: "Abstract deadline: 2021-07-18"
+  deadline: "2021-06-25"
+  note: "Abstract deadline: 2021-06-18"
   date: "2021-11-22"
   place: Virtual Conference
   acceptance_rate:
@@ -315,21 +315,10 @@
 
 - name: BMVC
   description: British Machine Vision Conference
-  year: 2019
-  link: https://research.com/conference/bmvc-2019
-  deadline: "2019-04-29"
-  note: 
-  date: "2019-09-09"
-  place: Cardiff, UK
-  acceptance_rate:
-  num_submission:
-
-- name: BMVC
-  description: British Machine Vision Conference
   year: 2018
   link: http://bmvc2018.org
   deadline: "2018-05-07"
-  note: 
+  note:
   date: "2018-09-03"
   place: Newcastle, UK
   acceptance_rate:
@@ -340,7 +329,7 @@
   year: 2017
   link: https://bmva-archive.org.uk/bmvc/2017/index.html
   deadline: "2017-05-02"
-  note: 
+  note:
   date: "2017-09-04"
   place: London, UK
   acceptance_rate:
@@ -351,9 +340,20 @@
   year: 2016
   link: https://bmva-archive.org.uk/bmvc/2016/index.html
   deadline: "2016-05-09"
-  note: 
+  note:
   date: "2016-09-19"
   place: York, UK
+  acceptance_rate:
+  num_submission:
+
+- name: BMVC
+  description: British Machine Vision Conference
+  year: 2015
+  link: http://bmvc2015.swan.ac.uk
+  deadline: "2015-05-11"
+  note:
+  date: "2015-09-07"
+  place: Swansea, UK
   acceptance_rate:
   num_submission:
 
@@ -644,20 +644,9 @@
   acceptance_rate:
   num_submission:
 
-- name: ICCVPR
-  description: International Conference on Computer Vision and Pattern Recognition
-  year: 2025
-  link: https://www.iierd.org/events/index.php?id=3130050
-  deadline: "2025-04-08"
-  note: 
-  date: "2025-05-03"
-  place: Kathmandu, Nepal
-  acceptance_rate:
-  num_submission:
-
 - name: WACV
+  description: IEEE Winter Conference on Applications of Computer Vision
   year: 2025
-  description: Winter Conference on Applications of Computer Vision
   link: https://wacv2025.thecvf.com
   deadline: "2024-07-15"
   note: cycle 1/2
@@ -667,8 +656,8 @@
   num_submission:
 
 - name: WACV
+  description: IEEE Winter Conference on Applications of Computer Vision
   year: 2025
-  description: Winter Conference on Applications of Computer Vision
   link: https://wacv2025.thecvf.com
   deadline: "2024-09-09"
   note: cycle 2/2
@@ -678,90 +667,68 @@
   num_submission:
 
 - name: WACV
+  description: IEEE Winter Conference on Applications of Computer Vision
   year: 2024
-  description: Winter Conference on Applications of Computer Vision
   link: https://wacv2024.thecvf.com
-  deadline: "2023-07-28"
+  deadline: "2023-06-28"
   note: cycle 1/2
-  date: "2024-01-04"
+  date: "2024-02-04"
   place: Waikoloa, HI
   acceptance_rate:
   num_submission:
 
 - name: WACV
+  description: IEEE Winter Conference on Applications of Computer Vision
   year: 2024
-  description: Winter Conference on Applications of Computer Vision
   link: https://wacv2024.thecvf.com
   deadline: "2023-08-30"
   note: cycle 2/2
-  date: "2024-01-04"
+  date: "2024-02-04"
   place: Waikoloa, HI
   acceptance_rate:
   num_submission:
 
 - name: WACV
+  description: IEEE Winter Conference on Applications of Computer Vision
   year: 2023
-  description: Winter Conference on Applications of Computer Vision
   link: https://wacv2023.thecvf.com/home
-  deadline: "2022-07-13"
+  deadline: "2022-07-06"
   note: cycle 1/2
-  date: "2023-01-03"
-  place: Aikoloa, HI
+  date: "2023-02-03"
+  place: Waikoloa, HI
   acceptance_rate:
   num_submission:
 
 - name: WACV
+  description: IEEE Winter Conference on Applications of Computer Vision
   year: 2023
-  description: Winter Conference on Applications of Computer Vision
   link: https://wacv2023.thecvf.com/home
   deadline: "2022-08-29"
   note: cycle 2/2
-  date: "2023-01-03"
-  place: Aikoloa, HI
-  acceptance_rate:
-  num_submission:
-
-- name: WACV
-  year: 2022
-  description: Winter Conference on Applications of Computer Vision
-  link: https://wacv2022.thecvf.com/home
-  deadline: "2021-06-02"
-  note: cycle 1/2
-  date: "2022-01-04"
+  date: "2023-02-03"
   place: Waikoloa, HI
   acceptance_rate:
   num_submission:
 
 - name: WACV
-  year: 2022
-  description: Winter Conference on Applications of Computer Vision
-  link: https://wacv2022.thecvf.com/home
-  deadline: "2021-08-11"
-  note: cycle 2/2
-  date: "2022-01-04"
-  place: Waikoloa, HI
-  acceptance_rate:
-  num_submission:
-
-- name: WACV
+  description: IEEE Winter Conference on Applications of Computer Vision
   year: 2021
-  description: Winter Conference on Applications of Computer Vision
-  link: https://wacv2021.thecvf.com/home
+  link: https://wacv2021.thecvf.com/submission
   deadline: "2020-06-24"
   note: cycle 1/2
-  date: "2021-01-05"
-  place: Waikoloa, HI
+  date: "2021-02-05"
+  place: Virtual Conference
   acceptance_rate:
   num_submission:
 
 - name: WACV
+  description: IEEE Winter Conference on Applications of Computer Vision
   year: 2021
-  description: Winter Conference on Applications of Computer Vision
-  link: https://wacv2021.thecvf.com/home
+  link: https://wacv2021.thecvf.com/submission
   deadline: "2020-09-29"
   note: cycle 2/2
-  date: "2021-01-05"
-  place: Waikoloa, HI
+  date: "2021-02-05"
+  place: Virtual Conference
   acceptance_rate:
   num_submission:
 

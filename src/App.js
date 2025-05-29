@@ -211,18 +211,8 @@ function App() {
   
       return matchesConference && matchesSearch && isUpcoming;
     });
-  
-    // (Sort as before)
-    const sortedConferences = updatedConferences.sort((a, b) => {
-      const deadlineA = new Date(a.deadline);
-      const deadlineB = new Date(b.deadline);
-      if (deadlineA > now && deadlineB > now) return deadlineA - deadlineB;
-      else if (deadlineA <= now && deadlineB <= now) return 0;
-      else if (deadlineA > now) return -1;
-      else return 1;
-    });
-  
-    setFilteredConferences(sortedConferences);
+    
+    setFilteredConferences(updatedConferences);
   };
 
   // Select conferences

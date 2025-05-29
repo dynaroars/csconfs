@@ -56,6 +56,45 @@ async function parseCSV(url) {
   });
 }
 
+/**
+ * 
+ * @param {string} url
+ * @returns an object with key as conference name and values of acceptances and submissions
+ */
+async function parseAcceptanceRateFile(url) {
+  const response = await fetch(url);
+  const text = await response.text();
+  let conferences = Papa.parse(text, {
+    header: true,
+    skipEmptyLines: true
+  }).data;
+
+  let conferenceStat = {};
+
+  // Read the file and count the total submission and acceptance for each conference
+  for (let conf of conferences) {
+    const conferenceName = `${conf.Conference}-${conf.Year}`;
+    const acceptance = Number(conf.Accepted);
+    const submission = Number(conf.Submitted);
+    if (!(conferenceName in conferenceStat)) {
+      conferenceStat[conferenceName] = {
+        acceptance: 0,
+        submission: 0
+      }
+    }
+    conferenceStat[conferenceName].acceptance += acceptance;
+    conferenceStat[conferenceName].submission += submission;
+  }
+
+  //Calculate the acceptance rate
+  for (let conferenceName in conferenceStat) {
+    let acceptance = conferenceStat[conferenceName].acceptance;
+    let submission = conferenceStat[conferenceName].submission;
+    conferenceStat[conferenceName].acceptanceRate = acceptance / submission;
+  }
+  return conferenceStat;
+}
+
 export async function fetchFullData() {
   try {
     const yamlResponse = await fetch('/csconfs/data/conferences.yaml');
@@ -64,7 +103,15 @@ export async function fetchFullData() {
 
     const csrankingsData = await parseCSV('/csconfs/data/csrankings_conferences.csv');
     const coreData = await parseCSV('/csconfs/data/core_conferences.csv');
+    const conferenceStat = await parseAcceptanceRateFile('https://raw.githubusercontent.com/emeryberger/csconferences/refs/heads/main/csconferences.csv') || {};
 
+    loadedConferences.forEach(conf => {
+      let conferenceName = `${conf.name}-${conf.year}`;
+      if (conferenceName in conferenceStat) {
+        conf.acceptance_rate = conferenceStat[conferenceName].acceptanceRate;
+      }
+    })
+  
     return {
       loadedConferences,
       csrankingsData,

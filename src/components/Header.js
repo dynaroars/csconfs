@@ -59,14 +59,15 @@ export default function Header() {
             }}
           >
             <Link 
-              href="https://cs.gmu.edu" 
+              href="https://roars.dev" 
               target="_blank" 
               rel="noopener noreferrer" 
               underline="hover"
-              aria-label="Computer Science Department at George Mason University"
+              aria-label="Roars Lab, Computer Science, George Mason University"
             >
-              Computer Science
+              Roars Lab
             </Link> @ George Mason University.<br />
+            Countdown to submission deadlines uses AoE (Anywhere on Earth) time zone.<br />
             See something missing or inaccurate? Create a GitHub issue or a pull request at{' '}
             <Link 
               href="https://git.roars.dev/csconfs" 

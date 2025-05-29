@@ -252,7 +252,7 @@
   year: 2025
   link: https://bmvc2025.bmva.org
   deadline: "2025-05-16"
-  note: "Abstract deadline: 2025-05-09"
+  note: "Abstract deadline: 2025-05-13"
   date: "2025-11-24"
   place: Sheffield, UK
   acceptance_rate:
@@ -315,6 +315,17 @@
 
 - name: BMVC
   description: British Machine Vision Conference
+  year: 2019
+  link: http://wikicfp.com/cfp/servlet/event.showcfp?eventid=83296&copyownerid=62052
+  deadline: "2019-04-29"
+  note:
+  date: "2019-09-09"
+  place: Cardiff, Whales, UK
+  acceptance_rate:
+  num_submission:
+
+- name: BMVC
+  description: British Machine Vision Conference
   year: 2018
   link: http://bmvc2018.org
   deadline: "2018-05-07"
@@ -329,7 +340,7 @@
   year: 2017
   link: https://bmva-archive.org.uk/bmvc/2017/index.html
   deadline: "2017-05-02"
-  note:
+  note: "Abstract deadline: 2017-04-25"
   date: "2017-09-04"
   place: London, UK
   acceptance_rate:
@@ -384,7 +395,7 @@
   year: 2023
   link: https://cvpr.thecvf.com/Conferences/2023
   deadline: "2022-11-11"
-  note: "Abstract deadline: 2022-11-04"
+  note: 
   date: "2023-06-18"
   place: Vancouver, Canada
   acceptance_rate:
@@ -394,7 +405,7 @@
   description: Conference on Computer Vision and Pattern Recognition
   year: 2022
   link: https://cvpr.thecvf.com/Conferences/2022
-  deadline: "2021-11-16"
+  deadline: "2021-11-18"
   note: "Abstract deadline: 2021-11-09"
   date: "2022-06-19"
   place: New Orleans, LA
@@ -417,7 +428,7 @@
   year: 2020
   link: https://cvpr.thecvf.com/Conferences/2020
   deadline: "2019-11-15"
-  note: "Abstract deadline: 2019-11-08"
+  note: 
   date: "2020-06-14"
   place: Seattle, WA
   acceptance_rate:
@@ -445,6 +456,8 @@
   acceptance_rate:
   num_submission:
 
+ 
+
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
   year: 2017
@@ -460,7 +473,7 @@
   description: Conference on Computer Vision and Pattern Recognition
   year: 2016
   link: https://cvpr2016.thecvf.com/
-  deadline: "2015-11-16"
+  deadline: "2015-11-06"
   note: "Abstract deadline: 2015-11-09"
   date: "2016-06-27"
   place: Las Vegas, NV
@@ -478,6 +491,16 @@
   acceptance_rate:
   num_submission:
 
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2026
+  link: https://eccv.ecva.net/Conferences/2026
+  deadline: "2026-03-06"
+  note: 
+  date: "2026-09-08"
+  place: Malmo, Sweden
+  acceptance_rate:
+  num_submission:
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -537,7 +560,7 @@
 - name: ECCV
   description: European Conference on Computer Vision
   year: 2014
-  link: https://eccv2014.org
+  link: http://conferences.visionbib.com/2014/eccv-9-14-call.html
   deadline: "2014-03-14"
   note: "Abstract deadline: 2014-03-07"
   date: "2014-09-06"
@@ -548,8 +571,8 @@
 - name: ECCV
   description: European Conference on Computer Vision
   year: 2012
-  link: https://eccv2012.org
-  deadline: "2012-03-14"
+  link: https://eccv2012.unifi.it/conference/important-dates/
+  deadline: "2012-03-05"
   note: "Abstract deadline: 2012-03-07"
   date: "2012-10-07"
   place: Florence, Italy
@@ -559,8 +582,8 @@
 - name: ECCV
   description: European Conference on Computer Vision
   year: 2010
-  link: https://eccv2010.org
-  deadline: "2010-03-14"
+  link: https://projects.ics.forth.gr/eccv2010/dates.php
+  deadline: "2010-03-17"
   note: "Abstract deadline: 2010-03-07"
   date: "2010-09-05"
   place: Heraklion, Greece
@@ -570,13 +593,13 @@
 - name: ECCV
   description: European Conference on Computer Vision
   year: 2008
-  link: https://eccv2008.org
+  link: http://eccv2008.inrialpes.fr
   deadline: "2008-03-14"
   note: "Abstract deadline: 2008-03-07"
   date: "2008-10-12"
   place: Marseille, France
-  acceptance_rate:
-  num_submission:
+  acceptance_rate: 27.9%
+  num_submission: 871
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -586,6 +609,17 @@
   note: "Abstract deadline: 2006-03-07"
   date: "2006-05-07"
   place: Graz, Austria
+  acceptance_rate:
+  num_submission:
+
+- name: ICCV
+  description: International Conference on Computer Vision
+  year: 2025
+  link: https://iccv.thecvf.com
+  deadline: "2025-03-03"
+  note: 
+  date: "2025-10-19"
+  place: Honolulu, Hawaii
   acceptance_rate:
   num_submission:
 
@@ -639,7 +673,7 @@
   link: https://iccv2015.thecvf.com/
   deadline: "2015-04-22"
   note: "Abstract deadline: 2015-04-15"
-  date: "2015-12-07"
+  date: "2015-12-11"
   place: Santiago, Chile
   acceptance_rate:
   num_submission:
@@ -737,8 +771,8 @@
   description: International Conference on Machine Learning
   year: 2025
   link: https://icml.cc/Conferences/2025
-  deadline: "2025-02-01"
-  note:
+  deadline: "2025-01-30"
+  note: " Abstract submission deadline: 2025-01-25"
   date: "2025-07-13"
   place: Vancouver, Canada
   acceptance_rate:
@@ -771,7 +805,7 @@
   year: 2022
   link: https://icml.cc/Conferences/2022
   deadline: "2022-01-27"
-  note:
+  note: "Abstract submission deadline: 2022-01-20"
   date: "2022-07-17"
   place: Baltimore, MD
   acceptance_rate:
@@ -781,8 +815,8 @@
   description: International Conference on Machine Learning
   year: 2021
   link: https://icml.cc/Conferences/2021
-  deadline: "2021-01-28"
-  note: Virtual Conference
+  deadline: "2021-02-04"
+  note: "Abstract submission deadline: 2021-01-28"
   date: "2021-07-18"
   place: Online
   acceptance_rate:
@@ -792,8 +826,8 @@
   description: International Conference on Machine Learning
   year: 2020
   link: https://icml.cc/Conferences/2020
-  deadline: "2020-01-31"
-  note: Virtual Conference
+  deadline: "2020-02-06"
+  note: "Abstract submission deadline: 2020-01-30"
   date: "2020-07-12"
   place: Online
   acceptance_rate:
@@ -803,14 +837,57 @@
   description: International Conference on Machine Learning
   year: 2019
   link: https://icml.cc/Conferences/2019
-  deadline: "2019-01-31"
-  note:
-  date: "2019-06-10"
+  deadline: "2019-01-23"
+  note: "Abstract submission deadline: 2019-01-18"
+  date: "2019-06-09"
   place: Long Beach, CA
   acceptance_rate:
   num_submission:
 
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2018
+  link: https://icml.cc/Conferences/2018
+  deadline: "2018-02-09"
+  note: 
+  date: "2018-07-10"
+  place: Stockholm, Sweden
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2017
+  link: https://icml.cc/Conferences/2017
+  deadline: "2017-02-02"
+  note: 
+  date: "2017-08-06"
+  place: Sidney, Australia
+  acceptance_rate:
+  num_submission:
  
+ - name: ICML
+  description: International Conference on Machine Learning
+  year: 2016
+  link: https://icml.cc/2016/index.html
+  deadline: "2016-02-05"
+  note: 
+  date: "2016-06-19"
+  place: New York, NY
+  acceptance_rate:
+  num_submission:
+
+ - name: ICML
+  description: International Conference on Machine Learning
+  year: 2015
+  link: https://icml.cc/2015/
+  deadline: "2015-02-06"
+  note: 
+  date: "2015-07-06"
+  place: Lile, France
+  acceptance_rate:
+  num_submission:
+
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2025

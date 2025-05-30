@@ -5611,6 +5611,7 @@
   description: International Conference on Software Engineering
   year: 2026
   link: https://conf.researchr.org/home/icse-2026
+  abstract_deadline: "2025-07-11"
   deadline: "2025-07-18"
   notification_date: "2025-10-17"
   note: Cycle 2/2
@@ -5618,6 +5619,22 @@
   place: Rio De Janeiro, Brazil
   acceptance_rate:
   num_submission:
+  program_chair: Thomas Zimmermann
+
+- name: ICSE
+  description: International Conference on Software Engineering
+  year: 2026
+  link: https://conf.researchr.org/home/icse-2026
+  deadline: "2025-03-14"
+  abstract_deadline: "2025-03-07"
+  notification_date: "2025-06-20"
+  note: Cycle 1/2
+  date: "2026-04-12"
+  place: Rio De Janeiro, Brazil
+  acceptance_rate:
+  num_submission:
+  program_chair: Thomas Zimmermann
+
 
 - name: ICSE
   description: International Conference on Software Engineering
@@ -5629,6 +5646,8 @@
   place: Ontario, Canada
   acceptance_rate:
   num_submission:
+  program_chair:
+
 
 - name: ICSE
   description: International Conference on Software Engineering

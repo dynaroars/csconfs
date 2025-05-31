@@ -563,7 +563,7 @@
   year: 2025
   link: https://icml.cc/Conferences/2025
   deadline: "2025-01-30"
-  note: " Abstract submission deadline: 2025-01-25"
+  note: " Abstract submission deadline: 2025-01-23"
   date: "2025-07-13"
   place: Vancouver, Canada
   acceptance_rate:
@@ -657,7 +657,7 @@
   acceptance_rate:
   num_submission:
  
- - name: ICML
+- name: ICML
   description: International Conference on Machine Learning
   year: 2016
   link: https://icml.cc/2016/index.html
@@ -668,7 +668,7 @@
   acceptance_rate:
   num_submission:
 
- - name: ICML
+- name: ICML
   description: International Conference on Machine Learning
   year: 2015
   link: https://icml.cc/2015/
@@ -694,8 +694,8 @@
   description: International Conference on Learning Representations
   year: 2024
   link: https://iclr.cc/Conferences/2024
-  deadline: "2023-10-04"
-  note: "Abstract deadline: 2023-09-28"
+  deadline: "2023-09-28"
+  note: "Abstract deadline: 2023-09-23"
   date: "2024-05-07"
   place: Vienna, Austria
   acceptance_rate:
@@ -705,8 +705,8 @@
   description: International Conference on Learning Representations
   year: 2023
   link: https://iclr.cc/Conferences/2023
-  deadline: "2022-10-04"
-  note: "Abstract deadline: 2022-09-28"
+  deadline: "2022-09-28"
+  note: "Abstract deadline: 2022-09-21"
   date: "2023-05-01"
   place: Kigali, Rwanda
   acceptance_rate:
@@ -716,8 +716,8 @@
   description: International Conference on Learning Representations
   year: 2022
   link: https://iclr.cc/Conferences/2022
-  deadline: "2021-10-05"
-  note: "Abstract deadline: 2021-09-28"
+  deadline: "2021-10-06"
+  note: "Abstract deadline: 2021-09-29"
   date: "2022-04-25"
   place: Virtual Conference
   acceptance_rate:
@@ -727,8 +727,8 @@
   description: International Conference on Learning Representations
   year: 2021
   link: https://iclr.cc/Conferences/2021
-  deadline: "2020-10-06"
-  note: "Abstract deadline: 2020-09-29"
+  deadline: "2020-10-02"
+  note: "Abstract deadline: 2020-09-28"
   date: "2021-05-03"
   place: Virtual Conference
   acceptance_rate:
@@ -738,8 +738,8 @@
   description: International Conference on Learning Representations
   year: 2020
   link: https://iclr.cc/Conferences/2020
-  deadline: "2019-10-04"
-  note: "Abstract deadline: 2019-09-27"
+  deadline: "2019-09-21"
+  note: 
   date: "2020-04-26"
   place: Virtual Conference
   acceptance_rate:
@@ -749,8 +749,8 @@
   description: International Conference on Learning Representations
   year: 2019
   link: https://iclr.cc/Conferences/2019
-  deadline: "2018-10-05"
-  note: "Abstract deadline: 2018-09-28"
+  deadline: "2018-09-27"
+  note: 
   date: "2019-05-06"
   place: New Orleans, LA
   acceptance_rate:
@@ -760,8 +760,8 @@
   description: International Conference on Learning Representations
   year: 2018
   link: https://iclr.cc/Conferences/2018
-  deadline: "2017-10-06"
-  note: "Abstract deadline: 2017-09-29"
+  deadline: "2017-10-27"
+  note: 
   date: "2018-04-30"
   place: Vancouver, Canada
   acceptance_rate:
@@ -771,8 +771,8 @@
   description: International Conference on Learning Representations
   year: 2017
   link: https://iclr.cc/Conferences/2017
-  deadline: "2016-10-07"
-  note: "Abstract deadline: 2016-09-30"
+  deadline: "2017-10-27"
+  note: 
   date: "2017-04-24"
   place: Toulon, France
   acceptance_rate:
@@ -782,8 +782,8 @@
   description: International Conference on Learning Representations
   year: 2016
   link: https://iclr.cc/Conferences/2016
-  deadline: "2015-10-09"
-  note: "Abstract deadline: 2015-10-02"
+  deadline: "2015-11-19"
+  note: "Abstract deadline: 2015-11-12"
   date: "2016-05-02"
   place: San Juan, PR
   acceptance_rate:
@@ -792,14 +792,25 @@
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2015
-  link: https://iclr.cc/Conferences/2015
-  deadline: "2014-10-10"
-  note: "Abstract deadline: 2014-10-03"
+  link: https://iclr.cc/archive/www/doku.php%3Fid=iclr2015:main.html
+  deadline: "2014-12-19"
+  note: 
   date: "2015-05-07"
   place: San Diego, CA
   acceptance_rate:
   num_submission:
 
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2025
+  link: https://kdd2025.kdd.org/
+  abstract_deadline: "2024-08-01"
+  deadline: "2024-08-08"
+  note: Cycle 1/2
+  date: "2025-08-03"
+  place: Toronto, Canada
+  acceptance_rate:
+  num_submission:
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
@@ -817,8 +828,19 @@
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2024
   link: https://kdd2024.kdd.org/
-  deadline: "2024-02-09"
-  note: "Second cycle; Abstract deadline: 2024-02-02"
+  deadline: "2024-02-08"
+  note: "First cycle; Abstract deadline: 2024-02-01"
+  date: "2024-08-25"
+  place: Barcelona, Spain
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2024
+  link: https://kdd2024.kdd.org/
+  deadline: "2024-08-08"
+  note: "Second cycle; Abstract deadline: 2024-08-01"
   date: "2024-08-25"
   place: Barcelona, Spain
   acceptance_rate:
@@ -828,8 +850,8 @@
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2023
   link: https://kdd.org/kdd2023/
-  deadline: "2023-02-10"
-  note: "Second cycle; Abstract deadline: 2023-02-03"
+  deadline: "2023-02-02"
+  note: 
   date: "2023-08-06"
   place: Long Beach, CA
   acceptance_rate:
@@ -840,7 +862,7 @@
   year: 2022
   link: https://kdd.org/kdd2022/
   deadline: "2022-02-10"
-  note: "Second cycle; Abstract deadline: 2022-02-04"
+  note: 
   date: "2022-08-14"
   place: Washington, DC
   acceptance_rate:
@@ -930,7 +952,7 @@
   link: https://neurips.cc/Conferences/2025
   deadline: "2025-05-15"
   notification_date: "2025-09-18"
-  note: 
+  note: "Abstract deadline: 2025-05-11"
   date: "2025-12-02"
   place: San Diego, CA
   acceptance_rate:
@@ -940,8 +962,8 @@
   description: Neural Information Processing Systems
   year: 2024
   link: https://neurips.cc/Conferences/2024
-  deadline: "2024-05-15"
-  note:
+  deadline: "2024-05-22"
+  note: "Abstract deadline: 2024-05-15"
   date: "2024-12-10"
   place: Vancouver, Canada
   acceptance_rate:
@@ -952,7 +974,7 @@
   year: 2023
   link: https://neurips.cc/Conferences/2023
   deadline: "2023-05-17"
-  note:
+  note: "Abstract deadline: 2023-05-11"
   date: "2023-12-10"
   place: New Orleans, LA
   acceptance_rate:
@@ -963,7 +985,7 @@
   year: 2022
   link: https://neurips.cc/Conferences/2022
   deadline: "2022-05-19"
-  note:
+  note: "Abstract deadline: 2022-05-16"
   date: "2022-11-28"
   place: New Orleans, LA
   acceptance_rate:
@@ -973,8 +995,8 @@
   description: Neural Information Processing Systems
   year: 2021
   link: https://neurips.cc/Conferences/2021
-  deadline: "2021-05-21"
-  note: Virtual conference
+  deadline: "2021-05-28"
+  note: "Abstract deadline: 2021-05-21"
   date: "2021-12-06"
   place: Online
   acceptance_rate:
@@ -985,7 +1007,7 @@
   year: 2020
   link: https://neurips.cc/Conferences/2020
   deadline: "2020-06-05"
-  note: Virtual conference
+  note: "Abstract deadline: 2020-05-27"
   date: "2020-12-06"
   place: Online
   acceptance_rate:
@@ -996,7 +1018,7 @@
   year: 2019
   link: https://neurips.cc/Conferences/2019
   deadline: "2019-05-23"
-  note:
+  note: "Abstract deadline: 2019-05-16"
   date: "2019-12-08"
   place: Vancouver, Canada
   acceptance_rate:

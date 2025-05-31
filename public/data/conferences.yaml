@@ -7,7 +7,7 @@
   link: https://aaai.org/conference/aaai/aaai-25/
   deadline: "2024-08-15"
   note: Abstracts due August 7, 2024
-  date: "2025-02-10"
+  date: "2025-02-27"
   place: Philadelphia, PA
   acceptance_rate:
   num_submission:
@@ -17,7 +17,7 @@
   year: 2024
   link: https://aaai.org/conference/aaai/aaai-24/
   deadline: "2023-08-15"
-  note: Abstracts due August 7, 2023
+  note: Abstracts due August 8, 2023
   date: "2024-02-20"
   place: Vancouver, Canada
   acceptance_rate:
@@ -49,8 +49,8 @@
   description: AAAI Conference on Artificial Intelligence
   year: 2021
   link: https://aaai.org/conference/aaai/aaai-21/
-  deadline: "2020-08-30"
-  note:
+  deadline: "2020-09-09"
+  note: Abstracts due September 1, 2020
   date: "2021-02-02"
   place: Virtual Conference
   acceptance_rate:
@@ -61,7 +61,7 @@
   year: 2020
   link: https://aaai.org/conference/aaai/aaai-20/
   deadline: "2019-09-05"
-  note:
+  note: Abstracts due August 30, 2019
   date: "2020-02-07"
   place: New York, NY
   acceptance_rate:
@@ -72,7 +72,7 @@
   year: 2019
   link: https://www.openresearch.org/wiki/AAAI_2019
   deadline: "2018-09-05"
-  note:
+  note: Abstracts due August 30, 2018
   date: "2019-01-27"
   place: Honolulu, HI
   acceptance_rate:
@@ -82,8 +82,8 @@
   description: AAAI Conference on Artificial Intelligence
   year: 2018
   link: https://www.openresearch.org/wiki/AAAI_2018
-  deadline: "2017-09-08"
-  note:
+  deadline: "2017-09-11"
+  note: Abstracts due September 9, 2017
   date: "2018-02-02"
   place: New Orleans, LA
   acceptance_rate:
@@ -92,13 +92,13 @@
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2017
-  link: https://aaai.org/conference/aaai/aaai17/
+  link: https://www.openresearch.org/wiki/AAAI_2017
   deadline: "2016-09-14"
-  note:
+  note: Abstracts due September 9, 2016
   date: "2017-02-04"
   place: San Francisco, CA
-  acceptance_rate:
-  num_submission:
+  acceptance_rate: 24.6 %
+  num_submission: 2590
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
@@ -108,8 +108,8 @@
   note:
   date: "2016-02-12"
   place: Phoenix, AZ
-  acceptance_rate:
-  num_submission:
+  acceptance_rate: 25.8%
+  num_submission: 2132
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
@@ -152,7 +152,7 @@
   deadline: "2023-01-18"
   note: "Abstract deadline: 2023-01-11"
   date: "2023-08-19"
-  place: Cape Town, South Africa
+  place: Macao, South Africa
   acceptance_rate:
   num_submission:
 
@@ -160,8 +160,8 @@
   description: International Joint Conference on Artificial Intelligence
   year: 2022
   link: https://ijcai-22.org/
-  deadline: "2022-01-07"
-  note:
+  deadline: "2022-01-14"
+  note:  "Abstract deadline: 2022-01-07"
   date: "2022-07-23"
   place: Vienna, Austria
   acceptance_rate:
@@ -194,7 +194,7 @@
   year: 2019
   link: https://ijcai19.org/
   deadline: "2019-02-25"
-  note:
+  note: "Abstract deadline: 2019-02-19"
   date: "2019-08-10"
   place: Macao, China
   acceptance_rate:
@@ -205,7 +205,7 @@
   year: 2018
   link: https://www.ijcai-18.org/
   deadline: "2018-01-31"
-  note:
+  note: "Abstract deadline: 2018-01-25"
   date: "2018-07-13"
   place: Stockholm, Sweden
   acceptance_rate:
@@ -216,7 +216,7 @@
   year: 2017
   link: https://ijcai-17.org/
   deadline: "2017-02-20"
-  note:
+  note: "Abstract deadline: 2017-02-16"
   date: "2017-08-19"
   place: Melbourne, Australia
   acceptance_rate:
@@ -274,7 +274,7 @@
   year: 2023
   link: https://cvpr.thecvf.com/Conferences/2023
   deadline: "2022-11-11"
-  note: "Abstract deadline: 2022-11-04"
+  note: 
   date: "2023-06-18"
   place: Vancouver, Canada
   acceptance_rate:
@@ -284,7 +284,7 @@
   description: Conference on Computer Vision and Pattern Recognition
   year: 2022
   link: https://cvpr.thecvf.com/Conferences/2022
-  deadline: "2021-11-16"
+  deadline: "2021-11-18"
   note: "Abstract deadline: 2021-11-09"
   date: "2022-06-19"
   place: New Orleans, LA
@@ -307,7 +307,7 @@
   year: 2020
   link: https://cvpr.thecvf.com/Conferences/2020
   deadline: "2019-11-15"
-  note: "Abstract deadline: 2019-11-08"
+  note: 
   date: "2020-06-14"
   place: Seattle, WA
   acceptance_rate:
@@ -335,6 +335,8 @@
   acceptance_rate:
   num_submission:
 
+ 
+
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
   year: 2017
@@ -350,7 +352,7 @@
   description: Conference on Computer Vision and Pattern Recognition
   year: 2016
   link: https://cvpr2016.thecvf.com/
-  deadline: "2015-11-16"
+  deadline: "2015-11-06"
   note: "Abstract deadline: 2015-11-09"
   date: "2016-06-27"
   place: Las Vegas, NV
@@ -368,6 +370,16 @@
   acceptance_rate:
   num_submission:
 
+- name: ECCV
+  description: European Conference on Computer Vision
+  year: 2026
+  link: https://eccv.ecva.net/Conferences/2026
+  deadline: "2026-03-06"
+  note: 
+  date: "2026-09-08"
+  place: Malmo, Sweden
+  acceptance_rate:
+  num_submission:
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -427,7 +439,7 @@
 - name: ECCV
   description: European Conference on Computer Vision
   year: 2014
-  link: https://eccv2014.org
+  link: http://conferences.visionbib.com/2014/eccv-9-14-call.html
   deadline: "2014-03-14"
   note: "Abstract deadline: 2014-03-07"
   date: "2014-09-06"
@@ -438,8 +450,8 @@
 - name: ECCV
   description: European Conference on Computer Vision
   year: 2012
-  link: https://eccv2012.org
-  deadline: "2012-03-14"
+  link: https://eccv2012.unifi.it/conference/important-dates/
+  deadline: "2012-03-05"
   note: "Abstract deadline: 2012-03-07"
   date: "2012-10-07"
   place: Florence, Italy
@@ -449,8 +461,8 @@
 - name: ECCV
   description: European Conference on Computer Vision
   year: 2010
-  link: https://eccv2010.org
-  deadline: "2010-03-14"
+  link: https://projects.ics.forth.gr/eccv2010/dates.php
+  deadline: "2010-03-17"
   note: "Abstract deadline: 2010-03-07"
   date: "2010-09-05"
   place: Heraklion, Greece
@@ -460,13 +472,13 @@
 - name: ECCV
   description: European Conference on Computer Vision
   year: 2008
-  link: https://eccv2008.org
+  link: http://eccv2008.inrialpes.fr
   deadline: "2008-03-14"
   note: "Abstract deadline: 2008-03-07"
   date: "2008-10-12"
   place: Marseille, France
-  acceptance_rate:
-  num_submission:
+  acceptance_rate: 27.9%
+  num_submission: 871
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -476,6 +488,17 @@
   note: "Abstract deadline: 2006-03-07"
   date: "2006-05-07"
   place: Graz, Austria
+  acceptance_rate:
+  num_submission:
+
+- name: ICCV
+  description: International Conference on Computer Vision
+  year: 2025
+  link: https://iccv.thecvf.com
+  deadline: "2025-03-03"
+  note: 
+  date: "2025-10-19"
+  place: Honolulu, Hawaii
   acceptance_rate:
   num_submission:
 
@@ -529,19 +552,18 @@
   link: https://iccv2015.thecvf.com/
   deadline: "2015-04-22"
   note: "Abstract deadline: 2015-04-15"
-  date: "2015-12-07"
+  date: "2015-12-11"
   place: Santiago, Chile
   acceptance_rate:
   num_submission:
-
 
 ## Machine Learning
 - name: ICML
   description: International Conference on Machine Learning
   year: 2025
   link: https://icml.cc/Conferences/2025
-  deadline: "2025-02-01"
-  note:
+  deadline: "2025-01-30"
+  note: " Abstract submission deadline: 2025-01-23"
   date: "2025-07-13"
   place: Vancouver, Canada
   acceptance_rate:
@@ -574,7 +596,7 @@
   year: 2022
   link: https://icml.cc/Conferences/2022
   deadline: "2022-01-27"
-  note:
+  note: "Abstract submission deadline: 2022-01-20"
   date: "2022-07-17"
   place: Baltimore, MD
   acceptance_rate:
@@ -584,8 +606,8 @@
   description: International Conference on Machine Learning
   year: 2021
   link: https://icml.cc/Conferences/2021
-  deadline: "2021-01-28"
-  note: Virtual Conference
+  deadline: "2021-02-04"
+  note: "Abstract submission deadline: 2021-01-28"
   date: "2021-07-18"
   place: Online
   acceptance_rate:
@@ -595,8 +617,8 @@
   description: International Conference on Machine Learning
   year: 2020
   link: https://icml.cc/Conferences/2020
-  deadline: "2020-01-31"
-  note: Virtual Conference
+  deadline: "2020-02-04"
+  note: "Abstract submission deadline: 2020-01-30"
   date: "2020-07-12"
   place: Online
   acceptance_rate:
@@ -606,14 +628,57 @@
   description: International Conference on Machine Learning
   year: 2019
   link: https://icml.cc/Conferences/2019
-  deadline: "2019-01-31"
-  note:
-  date: "2019-06-10"
+  deadline: "2019-01-23"
+  note: "Abstract submission deadline: 2019-01-18"
+  date: "2019-06-09"
   place: Long Beach, CA
   acceptance_rate:
   num_submission:
 
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2018
+  link: https://icml.cc/Conferences/2018
+  deadline: "2018-01-09"
+  note: 
+  date: "2018-07-10"
+  place: Stockholm, Sweden
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2017
+  link: https://icml.cc/Conferences/2017
+  deadline: "2017-02-02"
+  note: 
+  date: "2017-08-06"
+  place: Sidney, Australia
+  acceptance_rate:
+  num_submission:
  
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2016
+  link: https://icml.cc/2016/index.html
+  deadline: "2016-02-05"
+  note: 
+  date: "2016-06-19"
+  place: New York, NY
+  acceptance_rate:
+  num_submission:
+
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2015
+  link: https://icml.cc/2015/
+  deadline: "2015-02-06"
+  note: 
+  date: "2015-07-06"
+  place: Lile, France
+  acceptance_rate:
+  num_submission:
+
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2025
@@ -629,8 +694,8 @@
   description: International Conference on Learning Representations
   year: 2024
   link: https://iclr.cc/Conferences/2024
-  deadline: "2023-10-04"
-  note: "Abstract deadline: 2023-09-28"
+  deadline: "2023-09-28"
+  note: "Abstract deadline: 2023-09-23"
   date: "2024-05-07"
   place: Vienna, Austria
   acceptance_rate:
@@ -640,8 +705,8 @@
   description: International Conference on Learning Representations
   year: 2023
   link: https://iclr.cc/Conferences/2023
-  deadline: "2022-10-04"
-  note: "Abstract deadline: 2022-09-28"
+  deadline: "2022-09-28"
+  note: "Abstract deadline: 2022-09-21"
   date: "2023-05-01"
   place: Kigali, Rwanda
   acceptance_rate:
@@ -651,8 +716,8 @@
   description: International Conference on Learning Representations
   year: 2022
   link: https://iclr.cc/Conferences/2022
-  deadline: "2021-10-05"
-  note: "Abstract deadline: 2021-09-28"
+  deadline: "2021-10-06"
+  note: "Abstract deadline: 2021-09-29"
   date: "2022-04-25"
   place: Virtual Conference
   acceptance_rate:
@@ -662,8 +727,8 @@
   description: International Conference on Learning Representations
   year: 2021
   link: https://iclr.cc/Conferences/2021
-  deadline: "2020-10-06"
-  note: "Abstract deadline: 2020-09-29"
+  deadline: "2020-10-02"
+  note: "Abstract deadline: 2020-09-28"
   date: "2021-05-03"
   place: Virtual Conference
   acceptance_rate:
@@ -673,8 +738,8 @@
   description: International Conference on Learning Representations
   year: 2020
   link: https://iclr.cc/Conferences/2020
-  deadline: "2019-10-04"
-  note: "Abstract deadline: 2019-09-27"
+  deadline: "2019-09-21"
+  note: 
   date: "2020-04-26"
   place: Virtual Conference
   acceptance_rate:
@@ -684,8 +749,8 @@
   description: International Conference on Learning Representations
   year: 2019
   link: https://iclr.cc/Conferences/2019
-  deadline: "2018-10-05"
-  note: "Abstract deadline: 2018-09-28"
+  deadline: "2018-09-27"
+  note: 
   date: "2019-05-06"
   place: New Orleans, LA
   acceptance_rate:
@@ -695,8 +760,8 @@
   description: International Conference on Learning Representations
   year: 2018
   link: https://iclr.cc/Conferences/2018
-  deadline: "2017-10-06"
-  note: "Abstract deadline: 2017-09-29"
+  deadline: "2017-10-27"
+  note: 
   date: "2018-04-30"
   place: Vancouver, Canada
   acceptance_rate:
@@ -706,8 +771,8 @@
   description: International Conference on Learning Representations
   year: 2017
   link: https://iclr.cc/Conferences/2017
-  deadline: "2016-10-07"
-  note: "Abstract deadline: 2016-09-30"
+  deadline: "2017-10-27"
+  note: 
   date: "2017-04-24"
   place: Toulon, France
   acceptance_rate:
@@ -717,8 +782,8 @@
   description: International Conference on Learning Representations
   year: 2016
   link: https://iclr.cc/Conferences/2016
-  deadline: "2015-10-09"
-  note: "Abstract deadline: 2015-10-02"
+  deadline: "2015-11-19"
+  note: "Abstract deadline: 2015-11-12"
   date: "2016-05-02"
   place: San Juan, PR
   acceptance_rate:
@@ -727,14 +792,25 @@
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2015
-  link: https://iclr.cc/Conferences/2015
-  deadline: "2014-10-10"
-  note: "Abstract deadline: 2014-10-03"
+  link: https://iclr.cc/archive/www/doku.php%3Fid=iclr2015:main.html
+  deadline: "2014-12-19"
+  note: 
   date: "2015-05-07"
   place: San Diego, CA
   acceptance_rate:
   num_submission:
 
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2025
+  link: https://kdd2025.kdd.org/
+  abstract_deadline: "2024-08-01"
+  deadline: "2024-08-08"
+  note: Cycle 1/2
+  date: "2025-08-03"
+  place: Toronto, Canada
+  acceptance_rate:
+  num_submission:
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
@@ -752,8 +828,19 @@
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2024
   link: https://kdd2024.kdd.org/
-  deadline: "2024-02-09"
-  note: "Second cycle; Abstract deadline: 2024-02-02"
+  deadline: "2024-02-08"
+  note: "First cycle; Abstract deadline: 2024-02-01"
+  date: "2024-08-25"
+  place: Barcelona, Spain
+  acceptance_rate:
+  num_submission:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2024
+  link: https://kdd2024.kdd.org/
+  deadline: "2024-08-08"
+  note: "Second cycle; Abstract deadline: 2024-08-01"
   date: "2024-08-25"
   place: Barcelona, Spain
   acceptance_rate:
@@ -763,8 +850,8 @@
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2023
   link: https://kdd.org/kdd2023/
-  deadline: "2023-02-10"
-  note: "Second cycle; Abstract deadline: 2023-02-03"
+  deadline: "2023-02-02"
+  note: 
   date: "2023-08-06"
   place: Long Beach, CA
   acceptance_rate:
@@ -775,7 +862,7 @@
   year: 2022
   link: https://kdd.org/kdd2022/
   deadline: "2022-02-10"
-  note: "Second cycle; Abstract deadline: 2022-02-04"
+  note: 
   date: "2022-08-14"
   place: Washington, DC
   acceptance_rate:
@@ -865,7 +952,7 @@
   link: https://neurips.cc/Conferences/2025
   deadline: "2025-05-15"
   notification_date: "2025-09-18"
-  note: 
+  note: "Abstract deadline: 2025-05-11"
   date: "2025-12-02"
   place: San Diego, CA
   acceptance_rate:
@@ -875,8 +962,8 @@
   description: Neural Information Processing Systems
   year: 2024
   link: https://neurips.cc/Conferences/2024
-  deadline: "2024-05-15"
-  note:
+  deadline: "2024-05-22"
+  note: "Abstract deadline: 2024-05-15"
   date: "2024-12-10"
   place: Vancouver, Canada
   acceptance_rate:
@@ -887,7 +974,7 @@
   year: 2023
   link: https://neurips.cc/Conferences/2023
   deadline: "2023-05-17"
-  note:
+  note: "Abstract deadline: 2023-05-11"
   date: "2023-12-10"
   place: New Orleans, LA
   acceptance_rate:
@@ -898,7 +985,7 @@
   year: 2022
   link: https://neurips.cc/Conferences/2022
   deadline: "2022-05-19"
-  note:
+  note: "Abstract deadline: 2022-05-16"
   date: "2022-11-28"
   place: New Orleans, LA
   acceptance_rate:
@@ -908,8 +995,8 @@
   description: Neural Information Processing Systems
   year: 2021
   link: https://neurips.cc/Conferences/2021
-  deadline: "2021-05-21"
-  note: Virtual conference
+  deadline: "2021-05-28"
+  note: "Abstract deadline: 2021-05-21"
   date: "2021-12-06"
   place: Online
   acceptance_rate:
@@ -920,7 +1007,7 @@
   year: 2020
   link: https://neurips.cc/Conferences/2020
   deadline: "2020-06-05"
-  note: Virtual conference
+  note: "Abstract deadline: 2020-05-27"
   date: "2020-12-06"
   place: Online
   acceptance_rate:
@@ -931,7 +1018,7 @@
   year: 2019
   link: https://neurips.cc/Conferences/2019
   deadline: "2019-05-23"
-  note:
+  note: "Abstract deadline: 2019-05-16"
   date: "2019-12-08"
   place: Vancouver, Canada
   acceptance_rate:

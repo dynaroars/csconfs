@@ -1460,9 +1460,9 @@
   description: International ACM SIGIR Conference on Research and Development in Information Retrieval
   year: 2025
   link: https://sigir2025.dei.unipd.it/
-  deadline: "2025-01-31"
+  deadline: "2025-01-23"
   note: 
-  abstract_deadline: "2025-01-24"
+  abstract_deadline: "2025-01-16"
   date: "2025-07-13"
   place: Padua, Italy
   acceptance_rate: 
@@ -1474,9 +1474,9 @@
   description: International ACM SIGIR Conference on Research and Development in Information Retrieval
   year: 2024
   link: https://sigir-2024.github.io/
-  deadline: "2024-01-31"
+  deadline: "2024-01-25"
   note: 
-  abstract_deadline: "2024-01-24"
+  abstract_deadline: "2024-01-18"
   date: "2024-07-14"
   place: Washington, DC
   acceptance_rate: 
@@ -1502,9 +1502,9 @@
   description: International ACM SIGIR Conference on Research and Development in Information Retrieval
   year: 2022
   link: https://sigir.org/sigir2022/
-  deadline: "2022-01-31"
+  deadline: "2022-01-28"
   note: 
-  abstract_deadline: "2022-01-24"
+  abstract_deadline: "2022-01-21"
   date: "2022-07-11"
   place: Madrid, Spain
   acceptance_rate: 
@@ -1516,9 +1516,9 @@
   description: International ACM SIGIR Conference on Research and Development in Information Retrieval
   year: 2021
   link: https://sigir.org/sigir2021/
-  deadline: "2021-01-29"
+  deadline: "2021-02-09"
   note: 
-  abstract_deadline: "2021-01-22"
+  abstract_deadline: "2021-02-02"
   date: "2021-07-11"
   place: Virtual Conference
   acceptance_rate: 
@@ -1530,9 +1530,9 @@
   description: International ACM SIGIR Conference on Research and Development in Information Retrieval
   year: 2020
   link: https://sigir.org/sigir2020/
-  deadline: "2020-01-28"
+  deadline: "2020-01-22"
   note: 
-  abstract_deadline: "2020-01-21"
+  abstract_deadline: "2020-01-14"
   date: "2020-07-25"
   place: Virtual Conference
   acceptance_rate: 
@@ -1558,9 +1558,9 @@
   description: International ACM SIGIR Conference on Research and Development in Information Retrieval
   year: 2018
   link: https://sigir.org/sigir2018/
-  deadline: "2018-01-22"
+  deadline: "2018-01-29"
   note: 
-  abstract_deadline: "2018-01-15"
+  abstract_deadline: "2018-01-22"
   date: "2018-07-08"
   place: Ann Arbor, MI
   acceptance_rate: 
@@ -1572,9 +1572,9 @@
   description: International ACM SIGIR Conference on Research and Development in Information Retrieval
   year: 2017
   link: https://sigir.org/sigir2017/
-  deadline: "2017-01-23"
+  deadline: "2017-01-24"
   note: 
-  abstract_deadline: "2017-01-16"
+  abstract_deadline: "2017-01-17"
   date: "2017-08-07"
   place: Tokyo, Japan
   acceptance_rate: 
@@ -1600,10 +1600,10 @@
   description: The Web Conference (formerly International World Wide Web Conference)
   year: 2025
   link: https://www2025.thewebconf.org/
-  deadline: "2024-10-15"
+  deadline: "2024-10-45"
   note: 
-  abstract_deadline: "2024-10-08"
-  date: "2025-05-12"
+  abstract_deadline: "2024-10-07"
+  date: "2025-04-28"
   place: Singapore
   acceptance_rate: 
   num_submission: 
@@ -1614,9 +1614,9 @@
   description: The Web Conference (formerly International World Wide Web Conference)
   year: 2024
   link: https://www2024.thewebconf.org/
-  deadline: "2023-10-15"
+  deadline: "2023-10-12"
   note: 
-  abstract_deadline: "2023-10-08"
+  abstract_deadline: "2023-10-05"
   date: "2024-05-13"
   place: Singapore
   acceptance_rate: 

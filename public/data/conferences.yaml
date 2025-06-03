@@ -2364,11 +2364,11 @@
   description: ACM Special Interest Group on Data Communication Conference
   year: 2025
   link: https://conferences.sigcomm.org/sigcomm/2025/
-  deadline: "2025-03-15"
+  deadline: "2025-01-31"
   note: 
-  abstract_deadline: "2025-03-08"
-  date: "2025-08-18"
-  place: TBD
+  abstract_deadline: "2025-01-24"
+  date: "2025-09-08"
+  place: Coimbra, Portugal
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2378,11 +2378,11 @@
   description: ACM Special Interest Group on Data Communication Conference
   year: 2024
   link: https://conferences.sigcomm.org/sigcomm/2024/
-  deadline: "2024-03-15"
+  deadline: "2024-02-02"
   note: 
-  abstract_deadline: "2024-03-08"
-  date: "2024-08-19"
-  place: TBD
+  abstract_deadline: "2024-01-26"
+  date: "2024-08-04"
+  place: Sydney, Australia
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2392,11 +2392,11 @@
   description: ACM Special Interest Group on Data Communication Conference
   year: 2023
   link: https://conferences.sigcomm.org/sigcomm/2023/
-  deadline: "2023-03-15"
+  deadline: "2023-02-15"
   note: 
-  abstract_deadline: "2023-03-08"
-  date: "2023-08-21"
-  place: TBD
+  abstract_deadline: "2023-02-08"
+  date: "2023-09-10"
+  place: New York, NY
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2406,11 +2406,11 @@
   description: ACM Special Interest Group on Data Communication Conference
   year: 2022
   link: https://conferences.sigcomm.org/sigcomm/2022/
-  deadline: "2022-03-15"
+  deadline: "2022-02-02"
   note: 
-  abstract_deadline: "2022-03-08"
+  abstract_deadline: "2022-01-26"
   date: "2022-08-22"
-  place: TBD
+  place: Amsterdam, Netherlands
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2420,11 +2420,11 @@
   description: ACM Special Interest Group on Data Communication Conference
   year: 2021
   link: https://conferences.sigcomm.org/sigcomm/2021/
-  deadline: "2021-03-15"
+  deadline: "2021-01-27"
   note: 
-  abstract_deadline: "2021-03-08"
+  abstract_deadline: "2021-01-20"
   date: "2021-08-23"
-  place: TBD
+  place: Virtual Conference
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2434,11 +2434,10 @@
   description: ACM Special Interest Group on Data Communication Conference
   year: 2020
   link: https://conferences.sigcomm.org/sigcomm/2020/
-  deadline: "2020-03-15"
+  deadline: "2020-02-07"
   note: 
-  abstract_deadline: "2020-03-08"
-  date: "2020-08-24"
-  place: TBD
+  date: "2020-08-10"
+  place: New York, NY
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2448,11 +2447,11 @@
   description: ACM Special Interest Group on Data Communication Conference
   year: 2019
   link: https://conferences.sigcomm.org/sigcomm/2019/
-  deadline: "2019-03-15"
+  deadline: "2019-01-31"
   note: 
-  abstract_deadline: "2019-03-08"
-  date: "2019-08-26"
-  place: TBD
+  abstract_deadline: "2019-01-24"
+  date: "2019-08-19"
+  place: Beijing, China
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2462,11 +2461,11 @@
   description: ACM Special Interest Group on Data Communication Conference
   year: 2018
   link: https://conferences.sigcomm.org/sigcomm/2018/
-  deadline: "2018-03-15"
+  deadline: "2018-01-31"
   note: 
-  abstract_deadline: "2018-03-08"
-  date: "2018-08-27"
-  place: TBD
+  abstract_deadline: "2018-01-24"
+  date: "2018-08-20"
+  place: Budapest, Hungary
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2476,11 +2475,11 @@
   description: ACM Special Interest Group on Data Communication Conference
   year: 2017
   link: https://conferences.sigcomm.org/sigcomm/2017/
-  deadline: "2017-03-15"
+  deadline: "2017-01-20"
   note: 
-  abstract_deadline: "2017-03-08"
-  date: "2017-08-28"
-  place: TBD
+  abstract_deadline: "2017-01-27"
+  date: "2017-08-21"
+  place: Los Angeles, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2490,11 +2489,11 @@
   description: ACM Special Interest Group on Data Communication Conference
   year: 2016
   link: https://conferences.sigcomm.org/sigcomm/2016/
-  deadline: "2016-03-15"
+  deadline: "2016-01-29"
   note: 
-  abstract_deadline: "2016-03-08"
+  abstract_deadline: "2016-01-22"
   date: "2016-08-22"
-  place: TBD
+  place: Florianópolis, Brazil
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2504,11 +2503,11 @@
   description: USENIX Symposium on Networked Systems Design and Implementation
   year: 2025
   link: https://www.usenix.org/conference/nsdi25
-  deadline: "2024-09-13"
+  deadline: "2024-05-07"
   note: 
-  abstract_deadline: "2024-09-06"
-  date: "2025-04-14"
-  place: Santa Clara, CA
+  abstract_deadline: "2024-04-30"
+  date: "2025-04-28"
+  place: Philadelphia, PA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2518,9 +2517,9 @@
   description: USENIX Symposium on Networked Systems Design and Implementation
   year: 2024
   link: https://www.usenix.org/conference/nsdi24
-  deadline: "2023-09-15"
+  deadline: "2023-05-04"
   note: 
-  abstract_deadline: "2023-09-08"
+  abstract_deadline: "2023-04-27"
   date: "2024-04-16"
   place: Santa Clara, CA
   acceptance_rate: 
@@ -2532,9 +2531,23 @@
   description: USENIX Symposium on Networked Systems Design and Implementation
   year: 2023
   link: https://www.usenix.org/conference/nsdi23
-  deadline: "2022-09-16"
-  note: 
-  abstract_deadline: "2022-09-09"
+  deadline: "2022-09-20"
+  note: "Cycle 2/2"
+  abstract_deadline: "2022-09-13"
+  date: "2023-04-17"
+  place: Boston, MA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2023
+  link: https://www.usenix.org/conference/nsdi23
+  deadline: "2022-04-20"
+  note: "Cycle 1/2"
+  abstract_deadline: "2022-04-13"
   date: "2023-04-17"
   place: Boston, MA
   acceptance_rate: 
@@ -2546,9 +2559,23 @@
   description: USENIX Symposium on Networked Systems Design and Implementation
   year: 2022
   link: https://www.usenix.org/conference/nsdi22
-  deadline: "2021-09-17"
-  note: 
-  abstract_deadline: "2021-09-10"
+  deadline: "2021-09-15"
+  note: "Cycle 2/2"
+  abstract_deadline: "2021-09-09"
+  date: "2022-04-04"
+  place: Renton, WA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2022
+  link: https://www.usenix.org/conference/nsdi22
+  deadline: "2021-03-10"
+  note: "Cycle 1/2"
+  abstract_deadline: "2021-03-04"
   date: "2022-04-04"
   place: Renton, WA
   acceptance_rate: 
@@ -2560,9 +2587,9 @@
   description: USENIX Symposium on Networked Systems Design and Implementation
   year: 2021
   link: https://www.usenix.org/conference/nsdi21
-  deadline: "2020-09-18"
-  note: 
-  abstract_deadline: "2020-09-11"
+  deadline: "2020-09-17"
+  note: "Cycle 2/2"
+  abstract_deadline: "2020-09-10"
   date: "2021-04-12"
   place: Virtual Conference
   acceptance_rate: 
@@ -2572,11 +2599,39 @@
 
 - name: NSDI
   description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2021
+  link: https://www.usenix.org/conference/nsdi21
+  deadline: "2020-04-17"
+  note: "Cycle 1/2"
+  abstract_deadline: "2020-04-10"
+  date: "2021-04-12"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair:
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
   year: 2020
   link: https://www.usenix.org/conference/nsdi20
-  deadline: "2019-09-13"
-  note: 
-  abstract_deadline: "2019-09-06"
+  deadline: "2019-09-19"
+  note: "Cycle 2/2"
+  abstract_deadline: "2019-09-12"
+  date: "2020-02-25"
+  place: Santa Clara, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2020
+  link: https://www.usenix.org/conference/nsdi20
+  deadline: "2019-03-19"
+  note: "Cycle 1/2"
+  abstract_deadline: "2019-03-12"
   date: "2020-02-25"
   place: Santa Clara, CA
   acceptance_rate: 
@@ -2588,9 +2643,23 @@
   description: USENIX Symposium on Networked Systems Design and Implementation
   year: 2019
   link: https://www.usenix.org/conference/nsdi19
-  deadline: "2018-09-14"
-  note: 
-  abstract_deadline: "2018-09-07"
+  deadline: "2018-09-20"
+  note: "Cycle 2/2"
+  abstract_deadline: "2018-09-13"
+  date: "2019-02-26"
+  place: Boston, MA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: NSDI
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  year: 2019
+  link: https://www.usenix.org/conference/nsdi19
+  deadline: "2018-05-31"
+  note: "Cycle 1/2"
+  abstract_deadline: "2018-05-24"
   date: "2019-02-26"
   place: Boston, MA
   acceptance_rate: 
@@ -2602,9 +2671,9 @@
   description: USENIX Symposium on Networked Systems Design and Implementation
   year: 2018
   link: https://www.usenix.org/conference/nsdi18
-  deadline: "2017-09-15"
+  deadline: "2017-09-25"
   note: 
-  abstract_deadline: "2017-09-08"
+  abstract_deadline: "2017-09-18"
   date: "2018-04-09"
   place: Renton, WA
   acceptance_rate: 
@@ -2616,9 +2685,9 @@
   description: USENIX Symposium on Networked Systems Design and Implementation
   year: 2017
   link: https://www.usenix.org/conference/nsdi17
-  deadline: "2016-09-16"
+  deadline: "2016-09-21"
   note: 
-  abstract_deadline: "2016-09-09"
+  abstract_deadline: "2016-09-14"
   date: "2017-03-27"
   place: Boston, MA
   acceptance_rate: 
@@ -2629,10 +2698,10 @@
 - name: NSDI
   description: USENIX Symposium on Networked Systems Design and Implementation
   year: 2016
-  link: https://www.usenix.org/conference/nsdi16
-  deadline: "2015-09-18"
+  link: https://www.usenix.org/conference/nsdi16/call-for-papers
+  deadline: "2015-09-24"
   note: 
-  abstract_deadline: "2015-09-11"
+  abstract_deadline: "2015-09-17"
   date: "2016-03-16"
   place: Santa Clara, CA
   acceptance_rate: 

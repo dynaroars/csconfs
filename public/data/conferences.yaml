@@ -2744,11 +2744,25 @@
   description: ACM Conference on Computer and Communications Security
   year: 2024
   link: https://www.sigsac.org/ccs/CCS2024/
-  deadline: "2024-05-15"
-  note: 
-  abstract_deadline: "2024-05-08"
-  date: "2024-11-11"
-  place: TBD
+  deadline: "2024-04-29"
+  note: Cycle 2/2
+  notification_date: "2024-07-04"
+  date: "2024-11-14"
+  place: Salt Lake City, UT
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2024
+  link: https://www.sigsac.org/ccs/CCS2024/
+  deadline: "2024-01-28"
+  note: Cycle 1/2
+  notification_date: "2024-04-03"
+  date: "2024-11-14"
+  place: Salt Lake City, UT
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2758,11 +2772,25 @@
   description: ACM Conference on Computer and Communications Security
   year: 2023
   link: https://www.sigsac.org/ccs/CCS2023/
-  deadline: "2023-05-15"
-  note: 
-  abstract_deadline: "2023-05-08"
-  date: "2023-11-13"
-  place: TBD
+  deadline: "2023-05-04"
+  note: Cycle 2/2
+  notification_date: "2023-09-02"
+  date: "2023-11-26"
+  place: Copenhagen, Denmark
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2023
+  link: https://www.sigsac.org/ccs/CCS2023/
+  deadline: "2023-01-19"
+  note: Cycle 1/2
+  notification_date: "2023-03-17"
+  date: "2023-11-26"
+  place: Copenhagen, Denmark
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2772,11 +2800,25 @@
   description: ACM Conference on Computer and Communications Security
   year: 2022
   link: https://www.sigsac.org/ccs/CCS2022/
-  deadline: "2022-05-15"
-  note: 
-  abstract_deadline: "2022-05-08"
-  date: "2022-11-14"
-  place: TBD
+  deadline: "2022-05-02"
+  note: Cycle 2/2 
+  notification_date: "2022-07-15"
+  date: "2022-11-07"
+  place: Los Angeles, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2022
+  link: https://www.sigsac.org/ccs/CCS2022/
+  deadline: "2022-01-14"
+  note: Cycle 1/2
+  notification_date: "2022-03-10"
+  date: "2022-11-07"
+  place: Los Angeles, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2786,11 +2828,25 @@
   description: ACM Conference on Computer and Communications Security
   year: 2021
   link: https://www.sigsac.org/ccs/CCS2021/
-  deadline: "2021-05-15"
-  note: 
-  abstract_deadline: "2021-05-08"
+  deadline: "2021-03-06"
+  note: Cycle 2/2
+  notification_date: "2021-07-20"
   date: "2021-11-15"
-  place: TBD
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2021
+  link: https://www.sigsac.org/ccs/CCS2021/
+  deadline: "2021-01-20"
+  note: Cycle 1/2
+  notification_date: "2021-03-22"
+  date: "2021-11-15"
+  place: Virtual Conference
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2800,11 +2856,25 @@
   description: ACM Conference on Computer and Communications Security
   year: 2020
   link: https://www.sigsac.org/ccs/CCS2020/
-  deadline: "2020-05-15"
-  note: 
-  abstract_deadline: "2020-05-08"
-  date: "2020-11-16"
-  place: TBD
+  deadline: "2020-05-04"
+  note: Cycle 2/2
+  notification_date: "2020-07-28"
+  date: "2020-11-09"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2020
+  link: https://www.sigsac.org/ccs/CCS2020/
+  deadline: "2020-01-20"
+  note: Cycle 1/2
+  notification_date: "2020-03-30"
+  date: "2020-11-09"
+  place: Virtual Conference
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2815,10 +2885,24 @@
   year: 2019
   link: https://www.sigsac.org/ccs/CCS2019/
   deadline: "2019-05-15"
-  note: 
-  abstract_deadline: "2019-05-08"
+  note: Cycle 2/2
+  notification_date: "2019-06-30"
   date: "2019-11-11"
-  place: TBD
+  place: London, UK
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2019
+  link: https://www.sigsac.org/ccs/CCS2019/
+  deadline: "2019-02-05"
+  note: Cycle 1/2
+  notification_date: "2019-06-30"
+  date: "2019-11-11"
+  place: London, UK
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2827,12 +2911,12 @@
 - name: CCS
   description: ACM Conference on Computer and Communications Security
   year: 2018
-  link: https://www.sigsac.org/ccs/CCS2018/
-  deadline: "2018-05-15"
+  link: https://www.sigsac.org/ccs/CCS2018/index.html
+  deadline: "2018-05-09"
   note: 
-  abstract_deadline: "2018-05-08"
-  date: "2018-11-12"
-  place: TBD
+  notification_date: "2018-07-23"
+  date: "2018-10-15"
+  place: Toronto, Canada
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2842,11 +2926,11 @@
   description: ACM Conference on Computer and Communications Security
   year: 2017
   link: https://www.sigsac.org/ccs/CCS2017/
-  deadline: "2017-05-15"
+  deadline: "2017-05-19"
   note: 
-  abstract_deadline: "2017-05-08"
-  date: "2017-11-13"
-  place: TBD
+  notification_date: "2017-08-02"
+  date: "2017-10-30"
+  place: Dallas, TX
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2855,12 +2939,12 @@
 - name: CCS
   description: ACM Conference on Computer and Communications Security
   year: 2016
-  link: https://www.sigsac.org/ccs/CCS2016/
-  deadline: "2016-05-15"
+  link: https://www.sigsac.org/ccs/CCS2016/index.html
+  deadline: "2016-05-23"
   note: 
-  abstract_deadline: "2016-05-08"
+  notification_date: "2016-07-08"
   date: "2016-10-24"
-  place: TBD
+  place: Vienna, Austria
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -2870,10 +2954,24 @@
   description: IEEE Symposium on Security and Privacy
   year: 2025
   link: https://www.ieee-security.org/TC/SP2025/
-  deadline: "2024-09-15"
-  note: 
-  abstract_deadline: "2024-09-08"
-  date: "2025-05-19"
+  deadline: "2024-11-14"
+  note: Cycle 2/2
+  abstract_deadline: "2025-03-10"
+  date: "2025-05-12"
+  place: San Francisco, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2025
+  link: https://www.ieee-security.org/TC/SP2025/
+  deadline: "2024-06-06"
+  note: Cycle 1/2
+  notification_date: "2024-09-09"
+  date: "2025-05-12"
   place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
@@ -2884,9 +2982,37 @@
   description: IEEE Symposium on Security and Privacy
   year: 2024
   link: https://www.ieee-security.org/TC/SP2024/
-  deadline: "2023-09-15"
-  note: 
-  abstract_deadline: "2023-09-08"
+  deadline: "2023-04-13"
+  note: Cycle 3/3
+  notification_date: "2023-07-10"
+  date: "2024-05-20"
+  place: San Francisco, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2024
+  link: https://www.ieee-security.org/TC/SP2024/
+  deadline: "2023-08-03"
+  note: Cycle 2/3
+  notification_date: "2023-10-27"
+  date: "2024-05-20"
+  place: San Francisco, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2024
+  link: https://www.ieee-security.org/TC/SP2024/
+  deadline: "2023-12-06"
+  note: Cycle 1/3
+  notification_date: "2024-03-04"
   date: "2024-05-20"
   place: San Francisco, CA
   acceptance_rate: 
@@ -2898,9 +3024,37 @@
   description: IEEE Symposium on Security and Privacy
   year: 2023
   link: https://www.ieee-security.org/TC/SP2023/
-  deadline: "2022-09-15"
-  note: 
-  abstract_deadline: "2022-09-08"
+  deadline: "2022-12-02"
+  note: Cycle 3/3
+  notification_date: "2023-03-10"
+  date: "2023-05-22"
+  place: San Francisco, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2023
+  link: https://www.ieee-security.org/TC/SP2023/
+  deadline: "2022-08-19"
+  note: Cycle 2/3
+  notification_date: "2022-11-09"
+  date: "2023-05-22"
+  place: San Francisco, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2023
+  link: https://www.ieee-security.org/TC/SP2023/
+  deadline: "2022-04-01"
+  note: Cycle 1/3
+  notification_date: "2022-06-24"
   date: "2023-05-22"
   place: San Francisco, CA
   acceptance_rate: 
@@ -2912,9 +3066,37 @@
   description: IEEE Symposium on Security and Privacy
   year: 2022
   link: https://www.ieee-security.org/TC/SP2022/
-  deadline: "2021-09-15"
-  note: 
-  abstract_deadline: "2021-09-08"
+  deadline: "2021-12-02"
+  note: Cycle 3/3
+  notification_date: "2022-03-04"
+  date: "2022-05-23"
+  place: San Francisco, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2022
+  link: https://www.ieee-security.org/TC/SP2022/
+  deadline: "2021-08-19"
+  note: Cyscle 2/3
+  notification_date: "2021-11-05"
+  date: "2022-05-23"
+  place: San Francisco, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2022
+  link: https://www.ieee-security.org/TC/SP2022/
+  deadline: "2021-04-15"
+  note: Cycle 1/3
+  notification_date: "2021-07-02"
   date: "2022-05-23"
   place: San Francisco, CA
   acceptance_rate: 
@@ -2926,9 +3108,51 @@
   description: IEEE Symposium on Security and Privacy
   year: 2021
   link: https://www.ieee-security.org/TC/SP2021/
-  deadline: "2020-09-15"
-  note: 
-  abstract_deadline: "2020-09-08"
+  deadline: "2020-12-03"
+  note: Cycle 4/4
+  notification_date: "2021-02-19"
+  date: "2021-05-24"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2021
+  link: https://www.ieee-security.org/TC/SP2021/
+  deadline: "2020-09-03"
+  note: Cycle 3/4
+  notification_date: "2020-11-20"
+  date: "2021-05-24"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2021
+  link: https://www.ieee-security.org/TC/SP2021/
+  deadline: "2020-07-04"
+  note: Cycle 2/4
+  notification_date: "2020-08-21"
+  date: "2021-05-24"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2021
+  link: https://www.ieee-security.org/TC/SP2021/
+  deadline: "2020-03-05"
+  note: Cycle 1/4
+  notification_date: "2020-05-22"
   date: "2021-05-24"
   place: Virtual Conference
   acceptance_rate: 
@@ -2941,66 +3165,81 @@
   year: 2020
   link: https://www.ieee-security.org/TC/SP2020/
   deadline: "2019-09-15"
-  note: 
+  note: Rolling Deadlines (12 cycles with deadlines on the 1st of each month)
   abstract_deadline: "2019-09-08"
   date: "2020-05-18"
   place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Gabriela Ciocarlie
+  program_chair: Hovav Shacham, Alina Oprea
 
 - name: IEEE S&P
   description: IEEE Symposium on Security and Privacy
   year: 2019
   link: https://www.ieee-security.org/TC/SP2019/
   deadline: "2018-09-15"
-  note: 
+  note: Rolling Deadlines (12 cycles with deadlines on the 1st of each month)
   abstract_deadline: "2018-09-08"
   date: "2019-05-20"
   place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Christopher Kruegel
+  program_chair: Hovav Shacham
 
 - name: IEEE S&P
   description: IEEE Symposium on Security and Privacy
   year: 2018
   link: https://www.ieee-security.org/TC/SP2018/
   deadline: "2017-09-15"
-  note: 
+  note: Rolling Deadlines (12 cycles with deadlines on the 1st of each month)
   abstract_deadline: "2017-09-08"
   date: "2018-05-21"
   place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Bryan Parno 
+  program_chair: Christopher Kruegel
 
 - name: IEEE S&P
   description: IEEE Symposium on Security and Privacy
   year: 2017
   link: https://www.ieee-security.org/TC/SP2017/
-  deadline: "2016-09-15"
+  deadline: "2016-11-11"
   note: 
-  abstract_deadline: "2016-09-08"
+  abstract_deadline: "2016-11-04"
+  notification_date: "2017-02-09"
   date: "2017-05-22"
   place: San Jose, CA
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Úlfar Erlingsson
+  program_chair: Bryan Parno
 
 - name: IEEE S&P
   description: IEEE Symposium on Security and Privacy
   year: 2016
   link: https://www.ieee-security.org/TC/SP2016/
-  deadline: "2015-09-15"
+  deadline: "2015-11-13"
   note: 
-  abstract_deadline: "2015-09-08"
+  notification_date: "2016-02-07"
   date: "2016-05-23"
   place: San Jose, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Michael Locasto
+  program_chair: Vitaly Shmatikov
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2025
+  link: https://www.usenix.org/conference/usenixsecurity25
+  deadline: "2025-01-22"
+  note: Cycle 2/2
+  notification_date: "2025-04-30"
+  date: "2025-08-13"
+  place: Seattle, WA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3010,11 +3249,11 @@
   description: USENIX Security Symposium
   year: 2025
   link: https://www.usenix.org/conference/usenixsecurity25
-  deadline: "2025-02-15"
-  note: 
-  abstract_deadline: "2025-02-08"
-  date: "2025-08-12"
-  place: TBD
+  deadline: "2024-09-04"
+  note: Cycle 1/2
+  notification_date: "2024-12-11"
+  date: "2025-08-13"
+  place: Seattle, WA
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -3024,57 +3263,169 @@
   description: USENIX Security Symposium
   year: 2024
   link: https://www.usenix.org/conference/usenixsecurity24
-  deadline: "2024-02-15"
-  note: 
-  abstract_deadline: "2024-02-08"
+  deadline: "2024-02-08"
+  note: Cycle 3/3
+  notification_date: "2024-05-08"
   date: "2024-08-14"
-  place: TBD
+  place: Philadelphia, PA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Davide Balzarotti, Wenyuan Xu
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2024
+  link: https://www.usenix.org/conference/usenixsecurity24
+  deadline: "2023-10-17"
+  note: Cycle 2/3
+  notification_date: "2024-02-01"
+  date: "2024-08-14"
+  place: Philadelphia, PA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Davide Balzarotti, Wenyuan Xu
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2024
+  link: https://www.usenix.org/conference/usenixsecurity24
+  deadline: "2023-06-06"
+  note: Cycle 1/3
+  notification_date: "2023-09-01"
+  date: "2024-08-14"
+  place: Philadelphia, PA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Davide Balzarotti, Wenyuan Xu
 
 - name: USENIX Security
   description: USENIX Security Symposium
   year: 2023
   link: https://www.usenix.org/conference/usenixsecurity23
-  deadline: "2023-02-15"
-  note: 
-  abstract_deadline: "2023-02-08"
+  deadline: "2023-02-07"
+  note: Cycle 3/3
+  notification_date: "2023-03-08"
   date: "2023-08-09"
   place: Anaheim, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Joe Calandrino, Carmela Troncoso
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2023
+  link: https://www.usenix.org/conference/usenixsecurity23
+  deadline: "2022-10-11"
+  note: Cycle 2/3
+  notification_date: "2022-09-02"
+  date: "2023-08-09"
+  place: Anaheim, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Joe Calandrino, Carmela Troncoso
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2023
+  link: https://www.usenix.org/conference/usenixsecurity23
+  deadline: "2022-06-07"
+  note: Cycle 1/3
+  notification_date: "2022-09-02"
+  date: "2023-08-09"
+  place: Anaheim, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Joe Calandrino, Carmela Troncoso
 
 - name: USENIX Security
   description: USENIX Security Symposium
   year: 2022
   link: https://www.usenix.org/conference/usenixsecurity22
-  deadline: "2022-02-15"
-  note: 
-  abstract_deadline: "2022-02-08"
+  deadline: "2022-02-01"
+  note: Cycle 3/3
+  notification_date: "2022-05-02"
   date: "2022-08-10"
   place: Boston, MA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Kevin Butler, Kurt Thomas
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2022
+  link: https://www.usenix.org/conference/usenixsecurity22
+  deadline: "2021-10-12"
+  note: Cycle 2/3
+  notification_date: "2022-01-20"
+  date: "2022-08-10"
+  place: Boston, MA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Kevin Butler, Kurt Thomas
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2022
+  link: https://www.usenix.org/conference/usenixsecurity22
+  deadline: "2021-06-08"
+  note: Cycle 1/3
+  notification_date: "2021-09-03"
+  date: "2022-08-10"
+  place: Boston, MA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Kevin Butler, Kurt Thomas
 
 - name: USENIX Security
   description: USENIX Security Symposium
   year: 2021
   link: https://www.usenix.org/conference/usenixsecurity21
-  deadline: "2021-02-15"
-  note: 
-  abstract_deadline: "2021-02-08"
+  deadline: "2021-02-04"
+  note: Cycle 3/3
+  notification_date: "2021-04-30"
   date: "2021-08-11"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Michael Bailey, Rachel Greenstadt
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2021
+  link: https://www.usenix.org/conference/usenixsecurity21
+  deadline: "2020-10-15"
+  note: Cycle 2/3
+  notification_date: "2021-01-21"
+  date: "2021-08-11"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Michael Bailey, Rachel Greenstadt
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2021
+  link: https://www.usenix.org/conference/usenixsecurity21
+  deadline: "2020-06-18"
+  note: Cycle 1/3
+  notification_date: "2020-09-11"
+  date: "2021-08-11"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Michael Bailey, Rachel Greenstadt
 
 - name: USENIX Security
   description: USENIX Security Symposium
@@ -3092,59 +3443,129 @@
 
 - name: USENIX Security
   description: USENIX Security Symposium
+  year: 2020
+  link: https://www.usenix.org/conference/usenixsecurity20
+  deadline: "2020-02-15"
+  note: Cycle 4/4
+  notification_date: "2020-05-15"
+  date: "2020-08-12"
+  place: Boston, MA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Srdjan Capkun, Franziska Roesner
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2020
+  link: https://www.usenix.org/conference/usenixsecurity20
+  deadline: "2019-11-15"
+  note: Cycle 3/4
+  notification_date: "2019-11-01"
+  date: "2020-08-12"
+  place: Boston, MA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Srdjan Capkun, Franziska Roesner
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2020
+  link: https://www.usenix.org/conference/usenixsecurity20
+  deadline: "2019-08-23"
+  note: Cycle 2/4
+  notification_date: "2019-11-01"
+  date: "2020-08-12"
+  place: Boston, MA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Srdjan Capkun, Franziska Roesner
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2020
+  link: https://www.usenix.org/conference/usenixsecurity20
+  deadline: "2019-05-15"
+  note: Cycle 1/4
+  notification_date: "2019-08-19"
+  date: "2020-08-12"
+  place: Boston, MA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Srdjan Capkun, Franziska Roesner
+
+- name: USENIX Security
+  description: USENIX Security Symposium
   year: 2019
   link: https://www.usenix.org/conference/usenixsecurity19
   deadline: "2019-02-15"
-  note: 
-  abstract_deadline: "2019-02-08"
+  note: Cycle 2/2
+  notification_date: "2019-05-01"
   date: "2019-08-14"
   place: Santa Clara, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Nadia Heninger, Patrick Traynor
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2019
+  link: https://www.usenix.org/conference/usenixsecurity19
+  deadline: "2018-11-15"
+  note: Cycle 1/2
+  notification_date: "2019-01-18"
+  date: "2019-08-14"
+  place: Santa Clara, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: Nadia Heninger, Patrick Traynor
 
 - name: USENIX Security
   description: USENIX Security Symposium
   year: 2018
   link: https://www.usenix.org/conference/usenixsecurity18
-  deadline: "2018-02-15"
+  deadline: "2018-02-08"
   note: 
-  abstract_deadline: "2018-02-08"
+  notification_date: "2018-05-04"
   date: "2018-08-15"
   place: Baltimore, MD
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: William Enck, Adrienne Porter Felt
 
 - name: USENIX Security
   description: USENIX Security Symposium
   year: 2017
   link: https://www.usenix.org/conference/usenixsecurity17
-  deadline: "2017-02-15"
+  deadline: "2017-02-16"
   note: 
-  abstract_deadline: "2017-02-08"
+  notification_date: "2017-05-12"
   date: "2017-08-16"
   place: Vancouver, BC, Canada
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Engin Kirda, Thomas Ristenpart
 
 - name: USENIX Security
   description: USENIX Security Symposium
   year: 2016
   link: https://www.usenix.org/conference/usenixsecurity16
-  deadline: "2016-02-15"
+  deadline: "2016-02-18"
   note: 
-  abstract_deadline: "2016-02-08"
+  notification_date: "2016-05-16"
   date: "2016-08-10"
   place: Austin, TX
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair:   
+  program_chair: Thorsten Holz, Stefan Savage
 
 - name: NDSS
   description: Network and Distributed System Security Symposium
@@ -3208,9 +3629,23 @@
   description: Network and Distributed System Security Symposium
   year: 2023
   link: https://www.ndss-symposium.org/ndss2023/
-  deadline: "2022-09-15"
-  note: 
-  abstract_deadline: "2022-09-08"
+  deadline: "2022-07-29"
+  note: Cycle 2/2
+  notification_date: "2022-10-21"
+  date: "2023-02-27"
+  place: San Diego, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Carrie Gates, Cristina Nita-Rotaru
+  program_chair: Wenyuan Xu, Mathias Payer
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2023
+  link: https://www.ndss-symposium.org/ndss2023/
+  deadline: "2022-05-13"
+  note: Cycle 1/2
+  notification_date: "2022-07-27"
   date: "2023-02-27"
   place: San Diego, CA
   acceptance_rate: 
@@ -3222,9 +3657,23 @@
   description: Network and Distributed System Security Symposium
   year: 2022
   link: https://www.ndss-symposium.org/ndss2022/
-  deadline: "2021-09-15"
-  note: 
-  abstract_deadline: "2021-09-08"
+  deadline: "2021-07-23"
+  note: Cycle 2/2
+  notification_date: "2021-10-29"
+  date: "2022-02-21"
+  place: San Diego, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Carrie Gates
+  program_chair: Farinaz Koushanfar, Wenyuan Xu
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2022
+  link: https://www.ndss-symposium.org/ndss2022/
+  deadline: "2021-05-21"
+  note: Cycle 1/2
+  notification_date: "2021-08-06"
   date: "2022-02-21"
   place: San Diego, CA
   acceptance_rate: 
@@ -3236,9 +3685,23 @@
   description: Network and Distributed System Security Symposium
   year: 2021
   link: https://www.ndss-symposium.org/ndss2021/
-  deadline: "2020-09-15"
-  note: 
-  abstract_deadline: "2020-09-08"
+  deadline: "2020-07-21"
+  note: Cycle 2/2
+  notification_date: "2020-10-23"
+  date: "2021-02-21"
+  place: Virtual Conference
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Trent Jaeger
+  program_chair: Ahmad-Reza Sadeghi, Farinaz Koushanfar
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2021
+  link: https://www.ndss-symposium.org/ndss2021/
+  deadline: "2020-05-22"
+  note: Cycle 1/2
+  notification_date: "2020-08-07"
   date: "2021-02-21"
   place: Virtual Conference
   acceptance_rate: 
@@ -3250,9 +3713,23 @@
   description: Network and Distributed System Security Symposium
   year: 2020
   link: https://www.ndss-symposium.org/ndss2020/
-  deadline: "2019-09-15"
-  note: 
-  abstract_deadline: "2019-09-08"
+  deadline: "2019-09-13"
+  note: Cycle 2/2
+  notification_date: "2019-12-08"
+  date: "2020-02-23"
+  place: San Diego, CA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Trent Jaeger
+  program_chair: Ahmad-Reza Sadeghi, Dongyan Xu
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
+  year: 2020
+  link: https://www.ndss-symposium.org/ndss2020/
+  deadline: "2019-06-14"
+  note: Cycle 1/2
+  notification_date: "2019-08-25"
   date: "2020-02-23"
   place: San Diego, CA
   acceptance_rate: 
@@ -3264,9 +3741,9 @@
   description: Network and Distributed System Security Symposium
   year: 2019
   link: https://www.ndss-symposium.org/ndss2019/
-  deadline: "2018-09-15"
+  deadline: "2018-08-07"
   note: 
-  abstract_deadline: "2018-09-08"
+  notification_date: "2018-11-06"
   date: "2019-02-24"
   place: San Diego, CA
   acceptance_rate: 
@@ -3278,9 +3755,8 @@
   description: Network and Distributed System Security Symposium
   year: 2018
   link: https://www.ndss-symposium.org/ndss2018/
-  deadline: "2017-09-15"
+  deadline: "2017-08-11"
   note: 
-  abstract_deadline: "2017-09-08"
   date: "2018-02-18"
   place: San Diego, CA
   acceptance_rate: 
@@ -3292,9 +3768,10 @@
   description: Network and Distributed System Security Symposium
   year: 2017
   link: https://www.ndss-symposium.org/ndss2017/
-  deadline: "2016-09-15"
+  deadline: "2016-08-16"
   note: 
-  abstract_deadline: "2016-09-08"
+  abstract_deadline: "2016-08-12"
+  notification_date: "2016-10-22"
   date: "2017-02-26"
   place: San Diego, CA
   acceptance_rate: 
@@ -3306,9 +3783,10 @@
   description: Network and Distributed System Security Symposium
   year: 2016
   link: https://www.ndss-symposium.org/ndss2016/
-  deadline: "2015-09-15"
+  deadline: "2015-08-18"
   note: 
-  abstract_deadline: "2015-09-08"
+  abstract_deadline: "2015-08-14"
+  notification_date: "2015-10-22"
   date: "2016-02-21"
   place: San Diego, CA
   acceptance_rate: 

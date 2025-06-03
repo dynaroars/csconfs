@@ -1628,9 +1628,9 @@
   description: The Web Conference (formerly International World Wide Web Conference)
   year: 2023
   link: https://www2023.thewebconf.org/
-  deadline: "2022-10-15"
+  deadline: "2022-10-13"
   note: 
-  abstract_deadline: "2022-10-08"
+  abstract_deadline: "2022-10-06"
   date: "2023-04-30"
   place: Austin, TX
   acceptance_rate: 
@@ -1670,9 +1670,9 @@
   description: The Web Conference (formerly International World Wide Web Conference)
   year: 2020
   link: https://www2020.thewebconf.org/
-  deadline: "2019-10-15"
+  deadline: "2019-10-14"
   note: 
-  abstract_deadline: "2019-10-08"
+  abstract_deadline: "2019-10-07"
   date: "2020-04-20"
   place: Taipei, Taiwan
   acceptance_rate: 
@@ -1698,9 +1698,9 @@
   description: The Web Conference (formerly International World Wide Web Conference)
   year: 2018
   link: https://www2018.thewebconf.org/
-  deadline: "2017-10-15"
+  deadline: "2017-10-31"
   note: 
-  abstract_deadline: "2017-10-08"
+  abstract_deadline: "2017-10-26"
   date: "2018-04-23"
   place: Lyon, France
   acceptance_rate: 
@@ -1711,10 +1711,10 @@
 - name: WWW
   description: The Web Conference (formerly International World Wide Web Conference)
   year: 2017
-  link: https://www2017.thewebconf.org/
-  deadline: "2016-10-15"
+  link: http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=56073
+  deadline: "2016-10-24"
   note: 
-  abstract_deadline: "2016-10-08"
+  abstract_deadline: "2016-10-19"
   date: "2017-04-03"
   place: Perth, Australia
   acceptance_rate: 
@@ -1747,9 +1747,10 @@
   link: https://www.asplos-conference.org/asplos2026/
   deadline: "2025-08-20"
   notification_date: "2025-11-24"
+  abstract_deadline: "2025-08-13"
   note: "Cycle 2/2"
-  date: ""
-  place: TBD
+  date: "2026-03-22"
+  place: Pittsburgh, PA
   acceptance_rate:
   num_submission:
 
@@ -1759,9 +1760,10 @@
   link: https://www.asplos-conference.org/asplos2026/
   deadline: "2025-03-12"
   notification_date: "2025-06-24"
+  abstract_deadline: "2025-03-05"
   note: "Cycle 1/2"
-  date: ""
-  place: TBD
+  date: "2026-03-22"
+  place: Pittsburgh, PA
   acceptance_rate:
   num_submission:
 
@@ -1770,7 +1772,9 @@
   description: Architectural Support for Programming Languages and Operating Systems
   year: 2025
   link: https://www.asplos-conference.org/asplos2025/
-  deadline: "2025-03-01"
+  deadline: "2024-03-01"
+  notification_date: "2024-06-10"
+  abstract_deadline: "2024-02-23"
   note: "Cycle 3/3"
   date: "2025-03-30"
   place: Rotterdam, Netherlands
@@ -1782,6 +1786,8 @@
   year: 2025
   link: https://www.asplos-conference.org/asplos2025/
   deadline: "2024-06-24"
+  notification_date: "2024-10-02"
+  abstract_deadline: "2024-06-17"
   note: "Cycle 2/3"
   date: "2025-03-30"
   place: Rotterdam, Netherlands
@@ -1794,6 +1800,7 @@
   year: 2025
   link: https://www.asplos-conference.org/asplos2025/
   deadline: "2024-10-18"
+  notification_date: "2025-01-27"
   note: "Cycle 1/3"
   date: "2025-03-30"
   place: Rotterdam, Netherlands
@@ -1804,8 +1811,31 @@
   description: Architectural Support for Programming Languages and Operating Systems
   year: 2024
   link: https://www.asplos-conference.org/asplos2024/
-  deadline: "2023-03-01"
-  note: "Abstract deadline: 2023-02-23"
+  deadline: "2023-11-30"
+  date: "2024-04-27"
+  note: "Cycle 3/3"
+  place: San Diego, CA
+  acceptance_rate:
+  num_submission:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2024
+  link: https://www.asplos-conference.org/asplos2024/
+  deadline: "2023-08-10"
+  note: "Cycle 2/3"
+  date: "2024-04-27"
+  place: San Diego, CA
+  acceptance_rate:
+  num_submission:
+
+- name: ASPLOS
+  description: Architectural Support for Programming Languages and Operating Systems
+  year: 2024
+  link: https://www.asplos-conference.org/asplos2024/
+  deadline: "2023-11-24"
+  notification_date: "2023-08-02"
+  note: "Cycle 1/3"
   date: "2024-04-27"
   place: San Diego, CA
   acceptance_rate:
@@ -1827,7 +1857,6 @@
   year: 2022
   link: https://www.asplos-conference.org/asplos2022/
   deadline: "2021-08-13"
-  note: "Abstract deadline: 2021-08-06"
   date: "2022-02-28"
   place: Lausanne, Switzerland
   acceptance_rate:
@@ -1872,7 +1901,7 @@
 - name: ASPLOS
   description: Architectural Support for Programming Languages and Operating Systems
   year: 2018
-  link: https://www.asplos-conference.org/asplos2018/
+  link: https://www.sigarch.org/call-contributions/asplos-2018/
   deadline: "2017-08-11"
   note: 
   abstract deadline: "2017-08-04"
@@ -1887,7 +1916,7 @@
   description: Architectural Support for Programming Languages and Operating Systems
   year: 2017
   link: https://www.asplos-conference.org/asplos2017/
-  deadline: "2016-08-12"
+  deadline: "2016-08-15"
   note: 
   abstract_deadline: "2016-08-05"
   date: "2017-04-08"
@@ -1917,9 +1946,9 @@
   description: International Symposium on Computer Architecture
   year: 2025
   link: https://www.iscaconf.org/isca2025/
-  deadline: "2024-11-15"
+  deadline: "2024-11-22"
   note: 
-  abstract_deadline: "2024-11-08"
+  abstract_deadline: "2024-11-15"
   date: "2025-06-21"
   place: Portland, OR
   acceptance_rate: 
@@ -1931,9 +1960,9 @@
   description: International Symposium on Computer Architecture
   year: 2024
   link: https://www.iscaconf.org/isca2024/
-  deadline: "2023-11-15"
+  deadline: "2023-11-21"
   note: 
-  abstract_deadline: "2023-11-08"
+  abstract_deadline: "2023-11-14"
   date: "2024-06-29"
   place: Buenos Aires, Argentina
   acceptance_rate: 
@@ -1945,9 +1974,9 @@
   description: International Symposium on Computer Architecture
   year: 2023
   link: https://www.iscaconf.org/isca2023/
-  deadline: "2022-11-15"
+  deadline: "2022-11-21"
   note: 
-  abstract_deadline: "2022-11-08"
+  abstract_deadline: "2022-11-14"
   date: "2023-06-17"
   place: Orlando, FL
   acceptance_rate: 
@@ -1959,9 +1988,8 @@
   description: International Symposium on Computer Architecture
   year: 2022
   link: https://www.iscaconf.org/isca2022/
-  deadline: "2021-11-15"
+  deadline: "2021-11-23"
   note: 
-  abstract_deadline: "2021-11-08"
   date: "2022-06-18"
   place: New York, NY
   acceptance_rate: 
@@ -1975,7 +2003,6 @@
   link: https://www.iscaconf.org/isca2021/
   deadline: "2020-11-24"
   note: 
-  abstract_deadline: "2020-11-19"
   date: "2021-05-22"
   place: Virtual Conference
   acceptance_rate: 
@@ -1989,8 +2016,7 @@
   link: https://www.iscaconf.org/isca2020/
   deadline: "2019-11-26"
   note: 
-  abstract_deadline: "2019-11-19"
-  date: "2020-05-30"
+  date: "2020-05-29"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
@@ -2001,9 +2027,9 @@
   description: International Symposium on Computer Architecture
   year: 2019
   link: https://www.iscaconf.org/isca2019/
-  deadline: "2018-11-15"
+  deadline: "2018-12-07"
   note: 
-  abstract_deadline: "2018-11-08"
+  abstract_deadline: "2018-12-03"
   date: "2019-06-22"
   place: Phoenix, AZ
   acceptance_rate: 
@@ -2015,9 +2041,9 @@
   description: International Symposium on Computer Architecture
   year: 2018
   link: https://www.iscaconf.org/isca2018/
-  deadline: "2017-11-15"
+  deadline: "2017-11-21"
   note: 
-  abstract_deadline: "2017-11-08"
+  abstract_deadline: "2017-11-14"
   date: "2018-06-02"
   place: Los Angeles, CA
   acceptance_rate: 
@@ -2029,9 +2055,9 @@
   description: International Symposium on Computer Architecture
   year: 2017
   link: https://www.iscaconf.org/isca2017/
-  deadline: "2016-11-15"
+  deadline: "2016-11-18"
   note: 
-  abstract_deadline: "2016-11-08"
+  abstract_deadline: "2016-11-11"
   date: "2017-06-24"
   place: Toronto, Canada
   acceptance_rate: 
@@ -2071,9 +2097,9 @@
   description: IEEE/ACM International Symposium on Microarchitecture
   year: 2024
   link: https://microarch.org/micro57/
-  deadline: "2024-04-12"
+  deadline: "2024-04-18"
   note: 
-  abstract_deadline: "2024-04-05"
+  abstract_deadline: "2024-04-11"
   date: "2024-11-02"
   place: Austin, TX
   acceptance_rate: 
@@ -2085,9 +2111,9 @@
   description: IEEE/ACM International Symposium on Microarchitecture
   year: 2023
   link: https://microarch.org/micro56/
-  deadline: "2023-04-14"
+  deadline: "2023-04-28"
   note: 
-  abstract_deadline: "2023-04-07"
+  abstract_deadline: "2023-04-21"
   date: "2023-10-28"
   place: Toronto, Canada
   acceptance_rate: 
@@ -2113,9 +2139,9 @@
   description: IEEE/ACM International Symposium on Microarchitecture
   year: 2021
   link: https://microarch.org/micro54/
-  deadline: "2021-04-23"
+  deadline: "2021-04-16"
   note: 
-  abstract_deadline: "2021-04-16"
+  abstract_deadline: "2021-04-09"
   date: "2021-10-18"
   place: Virtual Conference
   acceptance_rate: 
@@ -2127,9 +2153,9 @@
   description: IEEE/ACM International Symposium on Microarchitecture
   year: 2020
   link: https://microarch.org/micro53/
-  deadline: "2020-04-24"
+  deadline: "2020-04-17"
   note: 
-  abstract_deadline: "2020-04-17"
+  abstract_deadline: "2020-04-10"
   date: "2020-10-17"
   place: Virtual Conference
   acceptance_rate: 
@@ -2169,9 +2195,9 @@
   description: IEEE/ACM International Symposium on Microarchitecture
   year: 2017
   link: https://microarch.org/micro50/
-  deadline: "2017-05-12"
+  deadline: "2017-04-04"
   note: 
-  abstract_deadline: "2017-05-05"
+  abstract_deadline: "2017-03-28"
   date: "2017-10-14"
   place: Boston, MA
   acceptance_rate: 
@@ -2183,9 +2209,9 @@
   description: IEEE/ACM International Symposium on Microarchitecture
   year: 2016
   link: https://microarch.org/micro49/
-  deadline: "2016-05-13"
+  deadline: "2016-04-10"
   note: 
-  abstract_deadline: "2016-05-06"
+  abstract_deadline: "2016-04-03"
   date: "2016-10-15"
   place: Taipei, Taiwan
   acceptance_rate: 
@@ -2197,9 +2223,9 @@
   description: IEEE International Symposium on High-Performance Computer Architecture
   year: 2025
   link: https://hpca-conf.org/2025/
-  deadline: "2024-09-15"
+  deadline: "2024-08-02"
   note: 
-  abstract_deadline: "2024-09-08"
+  abstract_deadline: "2024-07-26"
   date: "2025-03-01"
   place: Las Vegas, NV
   acceptance_rate: 
@@ -2210,10 +2236,10 @@
 - name: HPCA
   description: IEEE International Symposium on High-Performance Computer Architecture
   year: 2024
-  link: https://hpca-conf.org/2024/
-  deadline: "2023-09-15"
+  link: https://www.hpca-conf.org/2024/program/main.php
+  deadline: "2023-08-04"
   note: 
-  abstract_deadline: "2023-09-08"
+  abstract_deadline: "2023-07-28"
   date: "2024-03-02"
   place: Edinburgh, UK
   acceptance_rate: 
@@ -2225,9 +2251,9 @@
   description: IEEE International Symposium on High-Performance Computer Architecture
   year: 2023
   link: https://hpca-conf.org/2023/
-  deadline: "2022-09-15"
+  deadline: "2022-08-01"
   note: 
-  abstract_deadline: "2022-09-08"
+  abstract_deadline: "2022-07-25"
   date: "2023-02-25"
   place: Montreal, Canada
   acceptance_rate: 
@@ -2239,10 +2265,10 @@
   description: IEEE International Symposium on High-Performance Computer Architecture
   year: 2022
   link: https://hpca-conf.org/2022/
-  deadline: "2021-09-15"
+  deadline: "2021-07-30"
   note: 
-  abstract_deadline: "2021-09-08"
-  date: "2022-02-12"
+  abstract_deadline: "2021-07-23"
+  date: "2022-04-02"
   place: Seoul, South Korea
   acceptance_rate: 
   num_submission: 
@@ -2253,9 +2279,9 @@
   description: IEEE International Symposium on High-Performance Computer Architecture
   year: 2021
   link: https://hpca-conf.org/2021/
-  deadline: "2020-09-15"
+  deadline: "2020-07-31"
   note: 
-  abstract_deadline: "2020-09-08"
+  abstract_deadline: "2020-07-24"
   date: "2021-02-27"
   place: Virtual Conference
   acceptance_rate: 
@@ -2267,9 +2293,9 @@
   description: IEEE International Symposium on High-Performance Computer Architecture
   year: 2020
   link: https://hpca-conf.org/2020/
-  deadline: "2019-07-30"
+  deadline: "2019-08-06"
   note: 
-  abstract_deadline: "2019-07-23"
+  abstract_deadline: "2019-07-30"
   date: "2020-02-22"
   place: San Diego, CA
   acceptance_rate: 
@@ -2281,9 +2307,9 @@
   description: IEEE International Symposium on High-Performance Computer Architecture
   year: 2019
   link: http://hpca2019.seas.gwu.edu/
-  deadline: "2018-07-30"
+  deadline: "2018-08-03"
   note: 
-  abstract_deadline: "2018-07-23"
+  abstract_deadline: "2018-07-27"
   date: "2019-02-16"
   place: Washington, DC
   acceptance_rate: 
@@ -2309,9 +2335,9 @@
   description: IEEE International Symposium on High-Performance Computer Architecture
   year: 2017
   link: https://hpca2017.org/
-  deadline: "2016-07-30"
+  deadline: "2016-08-01"
   note: 
-  abstract_deadline: "2016-07-23"
+  abstract_deadline: "2016-07-25"
   date: "2017-02-04"
   place: Austin, TX
   acceptance_rate: 

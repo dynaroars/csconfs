@@ -1144,7 +1144,7 @@
   description: Annual Meeting of the Association for Computational Linguistics
   year: 2020
   link: https://acl2020.org/
-  deadline: "2020-02-24"
+  deadline: "2019-12-09"
   note: 
   abstract_deadline: 
   date: "2020-07-05"
@@ -1172,7 +1172,7 @@
   description: Annual Meeting of the Association for Computational Linguistics
   year: 2018
   link: https://acl2018.org/
-  deadline: "2018-03-09"
+  deadline: "2018-02-22"
   note: 
   abstract_deadline: 
   date: "2018-07-15"
@@ -1256,9 +1256,9 @@
   description: Empirical Methods in Natural Language Processing
   year: 2021
   link: https://2021.emnlp.org/
-  deadline: "2021-06-18"
+  deadline: "2021-05-17"
   note: 
-  abstract_deadline: "2021-06-11"
+  abstract_deadline: "2021-05-10"
   date: "2021-11-07"
   place: Punta Cana, Dominican Republic
   acceptance_rate: 
@@ -1298,9 +1298,8 @@
   description: Empirical Methods in Natural Language Processing
   year: 2018
   link: https://emnlp2018.org/
-  deadline: "2018-06-15"
+  deadline: "2018-05-22"
   note: 
-  abstract_deadline: "2018-06-08"
   date: "2018-10-31"
   place: Brussels, Belgium
   acceptance_rate: 
@@ -1311,10 +1310,9 @@
 - name: EMNLP
   description: Empirical Methods in Natural Language Processing
   year: 2017
-  link: https://emnlp2017.net/
-  deadline: "2017-05-19"
+  link: https://www.aclweb.org/portal/content/emnlp-2017-call-system-demonstrations
+  deadline: "2017-04-17"
   note: 
-  abstract_deadline: "2017-05-12"
   date: "2017-09-07"
   place: Copenhagen, Denmark
   acceptance_rate: 
@@ -1325,11 +1323,10 @@
 - name: EMNLP
   description: Empirical Methods in Natural Language Processing
   year: 2016
-  link: https://www.aclweb.org/portal/content/emnlp-2016
-  deadline: "2016-06-17"
+  link: https://www.aclweb.org/mirror/emnlp2016/call.html
+  deadline: "2016-06-03"
   note: 
-  abstract_deadline: "2016-06-10"
-  date: "2016-11-02"
+  date: "2016-11-01"
   place: Austin, TX
   acceptance_rate: 
   num_submission: 
@@ -1340,9 +1337,8 @@
   description: Empirical Methods in Natural Language Processing
   year: 2015
   link: https://www.aclweb.org/portal/content/emnlp-2015
-  deadline: "2015-06-26"
+  deadline: "2015-05-31"
   note: 
-  abstract_deadline: "2015-06-19"
   date: "2015-09-17"
   place: Lisbon, Portugal
   acceptance_rate: 
@@ -1355,9 +1351,8 @@
   description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
   year: 2025
   link: https://2025.naacl.org/
-  deadline: "2024-12-15"
+  deadline: "2024-10-15"
   note: 
-  abstract_deadline: "2024-12-08"
   date: "2025-04-29"
   place: Albuquerque, NM
   acceptance_rate: 
@@ -1383,9 +1378,8 @@
   description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
   year: 2022
   link: https://2022.naacl.org/
-  deadline: "2021-12-15"
+  deadline: "2022-01-15"
   note: 
-  abstract_deadline: "2021-12-08"
   date: "2022-07-10"
   place: Seattle, WA
   acceptance_rate: 
@@ -1397,9 +1391,8 @@
   description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
   year: 2021
   link: https://2021.naacl.org/
-  deadline: "2020-12-15"
+  deadline: "2020-11-23"
   note: 
-  abstract_deadline: "2020-12-08"
   date: "2021-06-06"
   place: Virtual Conference
   acceptance_rate: 
@@ -1411,9 +1404,9 @@
   description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
   year: 2019
   link: https://naacl.org/naacl-hlt-2019/
-  deadline: "2018-12-15"
+  deadline: "2018-12-10"
   note: 
-  abstract_deadline: "2018-12-08"
+  abstract_deadline: "2018-12-03"
   date: "2019-06-02"
   place: Minneapolis, MN
   acceptance_rate: 
@@ -1439,7 +1432,7 @@
   description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
   year: 2016
   link: https://naacl.org/naacl-hlt-2016/
-  deadline: "2015-12-15"
+  deadline: "2016-01-06"
   note: 
   abstract_deadline: "2015-12-08"
   date: "2016-06-12"
@@ -1453,9 +1446,8 @@
   description: Annual Conference of the North American Chapter of the Association for Computational Linguistics
   year: 2015
   link: https://naacl.org/naacl-hlt-2015/
-  deadline: "2014-12-15"
+  deadline: "2014-12-04"
   note: 
-  abstract_deadline: "2014-12-08"
   date: "2015-05-31"
   place: Denver, CO
   acceptance_rate: 

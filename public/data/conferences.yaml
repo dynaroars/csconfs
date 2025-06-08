@@ -5177,6 +5177,22 @@
   program_chair: 
 
 ## Embedded and Real-Time Systems
+
+- name: EMSOFT
+  description: International Conference on Embedded Software
+  year: 2025
+  link: https://esweek.org/emsoft/
+  deadline: "2025-03-30"
+  abstract_deadline: "2025-03-23"
+  notification_date: "2025-05-18"
+  date: "2025-09-28"
+  place: Taipei, Taiwan
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Tei-Wei Kuo, Andy Pimentel
+  program_chair: Jeronimo Castrillon, Christophe Dubach, Prabhat Mishra, Paul Bogdan, Martina Maggio, Borzoo Bonakdarpour
+
+
 - name: EMSOFT
   description: International Conference on Embedded Software
   year: 2023
@@ -5225,7 +5241,7 @@
   link: https://esweek.org/emsoft/
   deadline: "2020-04-10"
   abstract_deadline: "2020-04-03"
-  notification_date: "2020-07-03"
+  notification_date: "2020-07-06"
   date: "2020-09-20"
   place: Virtual
   acceptance_rate: 
@@ -5239,7 +5255,7 @@
   link: https://esweek.org/emsoft/
   deadline: "2019-04-12"
   abstract_deadline: "2019-04-05"
-  notification_date: "2019-07-05"
+  notification_date: "2019-07-10"
   date: "2019-10-13"
   place: New York City, NY
   acceptance_rate: 
@@ -5251,8 +5267,8 @@
   description: International Conference on Embedded Software
   year: 2018
   link: https://esweek.org/emsoft/
-  deadline: "2018-04-13"
-  abstract_deadline: "2018-04-06"
+  deadline: "2018-04-03"
+  abstract_deadline: "2018-03-27"
   notification_date: "2018-07-06"
   date: "2018-10-01"
   place: Torino, Italy
@@ -5295,7 +5311,7 @@
   link: https://esweek.org/emsoft/
   deadline: "2015-03-30"
   abstract_deadline: "2015-03-23"
-  notification_date: "2015-06-26"
+  notification_date: "2015-06-11"
   date: "2015-10-04"
   place: Amsterdam, The Netherlands
   acceptance_rate: 
@@ -5316,6 +5332,7 @@
   num_submission: 
   general_chair: 
   program_chair: Tulika Mitra, Jan Reineke
+
 - name: RTAS
   description: IEEE Real-Time and Embedded Technology and Applications Symposium
   year: 2024
@@ -5362,9 +5379,9 @@
   description: IEEE Real-Time and Embedded Technology and Applications Symposium
   year: 2021
   link: https://2021.rtas.org/
-  deadline: 
+  deadline: "2020-10-26"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2021-01-17"
   date: "2021-05-18"
   place: Virtual
   acceptance_rate: 
@@ -5376,9 +5393,9 @@
   description: IEEE Real-Time and Embedded Technology and Applications Symposium
   year: 2020
   link: https://2020.rtas.org/
-  deadline: 
+  deadline: "2019-10-23"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2019-12-20"
   date: "2020-04-21"
   place: Sydney, Australia (Virtual)
   acceptance_rate: 
@@ -5390,7 +5407,7 @@
   description: IEEE Real-Time and Embedded Technology and Applications Symposium
   year: 2019
   link: https://2019.rtas.org/
-  deadline: 
+  deadline: "2018-10-17"
   abstract_deadline: 
   notification_date: "2018-12-21"
   date: "2019-04-16"
@@ -5406,7 +5423,7 @@
   link: https://2018.rtas.org/
   deadline: "2017-10-06"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2017-12-19"
   date: "2018-04-10"
   place: Porto, Portugal
   acceptance_rate: 
@@ -5418,9 +5435,9 @@
   description: IEEE Real-Time and Embedded Technology and Applications Symposium
   year: 2017
   link: https://2017.rtas.org/
-  deadline: 
+  deadline: "2016-10-13"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2016-12-20"
   date: "2017-04-18"
   place: Pittsburgh, PA
   acceptance_rate: 
@@ -5432,9 +5449,9 @@
   description: IEEE Real-Time and Embedded Technology and Applications Symposium
   year: 2016
   link: https://2016.rtas.org/
-  deadline: 
+  deadline: "2015-10-15"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2015-12-14"
   date: "2016-04-11"
   place: Vienna, Austria
   acceptance_rate: 
@@ -5446,9 +5463,9 @@
   description: IEEE Real-Time and Embedded Technology and Applications Symposium
   year: 2015
   link: https://2015.rtas.org/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2014-10-20"
+  abstract_deadline: "2014-10-13"
+  notification_date: "2014-12-13"
   date: "2015-04-14"
   place: Seattle, WA
   acceptance_rate: 
@@ -5473,11 +5490,11 @@
 - name: RTSS
   description: IEEE Real-Time Systems Symposium
   year: 2024
-  link: 
-  deadline: 
+  link: https://2024.rtss.org
+  deadline: "2024-05-23"
   abstract_deadline: 
-  notification_date: 
-  date: "2024-12-03"
+  notification_date: "2024-07-31"
+  date: "2024-12-10"
   place: York, UK
   acceptance_rate: 
   num_submission: 
@@ -5488,9 +5505,9 @@
   description: IEEE Real-Time Systems Symposium
   year: 2023
   link: https://2023.rtss.org/
-  deadline: 
+  deadline: "2023-05-25"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2023-04-04"
   date: "2023-12-05"
   place: Taipei, Taiwan
   acceptance_rate: 
@@ -5502,9 +5519,9 @@
   description: IEEE Real-Time Systems Symposium
   year: 2022
   link: http://2022.rtss.org/
-  deadline: 
+  deadline: "2022-05-26"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2022-08-05"
   date: "2022-12-05"
   place: Houston, TX
   acceptance_rate: 
@@ -5515,10 +5532,10 @@
 - name: RTSS
   description: IEEE Real-Time Systems Symposium
   year: 2021
-  link: 
-  deadline: 
+  link: http://2021.rtss.org
+  deadline: "2021-05-27"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2021-08-06"
   date: "2021-12-07"
   place: Online
   acceptance_rate: 
@@ -5532,7 +5549,7 @@
   link: http://2020.rtss.org/
   deadline: "2020-07-02"
   abstract_deadline: 
-  notification_date: "2020-09-15"
+  notification_date: "2020-09-14"
   date: "2020-12-01"
   place: Online
   acceptance_rate: 
@@ -5543,11 +5560,11 @@
 - name: RTSS
   description: IEEE Real-Time Systems Symposium
   year: 2019
-  link: 
-  deadline: 
+  link: https://2019.rtss.org
+  deadline: "2019-05-30"
   abstract_deadline: 
-  notification_date: 
-  date: 
+  notification_date: "2019-08-05"
+  date: Cancelled
   place: Hong Kong (Cancelled)
   acceptance_rate: 
   num_submission: 
@@ -5558,9 +5575,9 @@
   description: IEEE Real-Time Systems Symposium
   year: 2018
   link: https://2018.rtss.org/
-  deadline: 
+  deadline: "2018-05-31"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2018-08-03"
   date: "2018-12-11"
   place: Nashville, TN
   acceptance_rate: 
@@ -5571,10 +5588,10 @@
 - name: RTSS
   description: IEEE Real-Time Systems Symposium
   year: 2017
-  link: 
-  deadline: 
+  link: https://2017.rtss.org
+  deadline: "2017-05-01"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2017-07-10"
   date: "2017-12-05"
   place: Paris, France
   acceptance_rate: 
@@ -5585,10 +5602,10 @@
 - name: RTSS
   description: IEEE Real-Time Systems Symposium
   year: 2016
-  link: 
-  deadline: 
+  link: https://2016.rtss.org
+  deadline: "2016-05-04"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2016-07-15"
   date: "2016-11-29"
   place: Porto, Portugal
   acceptance_rate: 
@@ -5599,10 +5616,10 @@
 - name: RTSS
   description: IEEE Real-Time Systems Symposium
   year: 2015
-  link: 
-  deadline: 
+  link: https://2015.rtss.org
+  deadline: "2015-05-15"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2015-07-20"
   date: "2015-12-01"
   place: San Antonio, TX
   acceptance_rate: 

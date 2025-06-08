@@ -3795,12 +3795,132 @@
   program_chair: Srdjan Capkun, Deb Frincke
 
 ## Databases
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2026
+  link: https://2025.sigmod.org
+  abstract_deadline: "2025-01-10"
+  deadline: "2025-01-17"
+  note: Cycle 1/4
+  notification_date: "2025-04-04"
+  date: "2026-05-21"
+  place: Bengaluru, India
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2026
+  link: https://2025.sigmod.org
+  abstract_deadline: "2025-04-10"
+  deadline: "2025-04-17"
+  note: Cycle 2/4
+  notification_date: "2025-07-04"
+  date: "2026-05-21"
+  place: Bengaluru, India
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2026
+  link: https://2025.sigmod.org
+  abstract_deadline: "2025-07-10"
+  deadline: "2025-07-17"
+  note: Cycle 3/4
+  notification_date: "2025-10-04"
+  date: "2026-05-21"
+  place: Bengaluru, India
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2026
+  link: https://2025.sigmod.org
+  abstract_deadline: "2025-10-10"
+  deadline: "2025-10-17"
+  note: Cycle 4/4
+  notification_date: "2026-01-04"
+  date: "2026-05-21"
+  place: Bengaluru, India
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2025
+  link: https://2025.sigmod.org
+  abstract_deadline: "2024-01-10"
+  deadline: "2024-01-17"
+  note: Cycle 1/4
+  notification_date: "2024-02-29"
+  date: "2025-06-22"
+  place: Berlin, Germany
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2025
+  link: https://2025.sigmod.org
+  abstract_deadline: "2024-04-10"
+  deadline: "2024-10-17"
+  note: Cycle 2/4
+  notification_date: "2024-05-30"
+  date: "2025-06-22"
+  place: Berlin, Germany
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2025
+  link: https://2025.sigmod.org
+  abstract_deadline: "2024-07-10"
+  deadline: "2024-07-17"
+  note: Cycle 3/4
+  notification_date: "2024-08-29"
+  date: "2025-06-22"
+  place: Berlin, Germany
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2025
+  link: https://2025.sigmod.org
+  abstract_deadline: "2024-10-10"
+  deadline: "2024-10-17"
+  note: Cycle 4/4
+  notification_date: "2024-11-28"
+  date: "2025-06-22"
+  place: Berlin, Germany
+
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
   year: 2024
   link: https://2024.sigmod.org/
-  deadline: "2023-06-12"
+  deadline: "2023-10-15"
+  note: Cycle 4/4
+  notification_date: "2023-12-20"
+  date: "2024-06-09"
+  place: Santiago, Chile
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2024
+  link: https://2024.sigmod.org/
+  deadline: "2023-07-15"
+  note: Cycle 3/4
   notification_date: "2023-09-04"
+  date: "2024-09-20"
+  place: Santiago, Chile
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2024
+  link: https://2024.sigmod.org/
+  deadline: "2023-04-15"
+  note: Cycle 2/4
+  notification_date: "2023-06-29"
+  date: "2024-06-09"
+  place: Santiago, Chile
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2024
+  link: https://2024.sigmod.org/
+  deadline: "2023-01-15"
+  note: Cycle 1/4
+  notification_date: "2023-03-20"
   date: "2024-06-09"
   place: Santiago, Chile
 
@@ -3808,8 +3928,29 @@
   description: ACM SIGMOD International Conference on Management of Data
   year: 2023
   link: https://2023.sigmod.org/
-  deadline: "2022-06-06"
-  notification_date: "2022-09-05"
+  deadline: "2022-04-15"
+  note: Cycle 1/3
+  notification_date: "2022-06-20"
+  date: "2023-06-18"
+  place: Seattle, WA
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2023
+  link: https://2023.sigmod.org/
+  deadline: "2022-07-15"
+  note: Cycle 2/3
+  notification_date: "2022-09-20"
+  date: "2023-06-18"
+  place: Seattle, WA
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2023
+  link: https://2023.sigmod.org/
+  deadline: "2022-10-15"
+  note: Cycle 3/3
+  notification_date: "2022-12-20"
   date: "2023-06-18"
   place: Seattle, WA
 
@@ -3817,8 +3958,19 @@
   description: ACM SIGMOD International Conference on Management of Data
   year: 2022
   link: https://2022.sigmod.org/
-  deadline: "2021-06-18"
-  notification_date: "2021-08-13"
+  deadline: "2021-07-02"
+  note: Cycle 1/2
+  notification_date: "2021-09-14"
+  date: "2022-06-12"
+  place: Philadelphia, PA
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2022
+  link: https://2022.sigmod.org/
+  deadline: "2021-09-15"
+  note: Cycle 2/2
+  notification_date: "2021-12-06"
   date: "2022-06-12"
   place: Philadelphia, PA
 
@@ -3827,7 +3979,17 @@
   year: 2021
   link: https://2021.sigmod.org/
   deadline: "2020-07-07"
+  note: Cycle 1/2
   notification_date: "2020-09-14"
+  date: "2021-06-20"
+  place: Xi'an, Shaanxi, China
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2021
+  link: https://2021.sigmod.org/
+  deadline: "2020-09-22"
+  notification_date: "2020-11-30"
   date: "2021-06-20"
   place: Xi'an, Shaanxi, China
 
@@ -3835,7 +3997,20 @@
   description: ACM SIGMOD International Conference on Management of Data
   year: 2020
   link: https://sigmod2020.org/
+  abstract_deadline: "2019-07-09"
+  deadline: "2019-07-16"
+  note: Cycle 1/2
+  notification_date: "2019-10-03"
+  date: "2020-06-14"
+  place: Portland, OR
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2020
+  link: https://sigmod2020.org/
+  abstract_deadline: "2019-10-15"
   deadline: "2019-10-22"
+  note: Cycle 2/2
   notification_date: "2020-01-17"
   date: "2020-06-14"
   place: Portland, OR
@@ -3844,8 +4019,21 @@
   description: ACM SIGMOD International Conference on Management of Data
   year: 2019
   link: https://sigmod2019.org/
-  deadline: "2018-11-02"
-  notification_date: "2019-01-25"
+  abstract_deadline: "2018-07-12"
+  deadline: "2018-07-19"
+  note: Cycle 1/2
+  notification_date: "2018-10-05"
+  date: "2019-06-30"
+  place: Amsterdam, Netherlands
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2019
+  link: https://sigmod2019.org/
+  abstract_deadline: "2018-10-18"
+  deadline: "2018-10-25"
+  note: Cycle 2/2
+  notification_date: "2019-01-19"
   date: "2019-06-30"
   place: Amsterdam, Netherlands
 
@@ -3853,7 +4041,20 @@
   description: ACM SIGMOD International Conference on Management of Data
   year: 2018
   link: https://sigmod2018.org/
+  abstract_deadline: "2017-07-06"
+  deadline: "2017-07-13"
+  note: Cycle 1/2
+  notification_date: "2017-09-20"
+  date: "2018-06-10"
+  place: Houston, TX
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2018
+  link: https://sigmod2018.org/
+  abstract_deadline: "2017-10-26"
   deadline: "2017-11-02"
+  note: Cycle 2/2
   notification_date: "2018-01-19"
   date: "2018-06-10"
   place: Houston, TX
@@ -3871,7 +4072,20 @@
   description: ACM SIGMOD International Conference on Management of Data
   year: 2016
   link: https://sigmod2016.org/
+  abstract_deadline: "2015-07-09"
+  deadline: "2015-07-16"
+  note: Cycle 1/2
+  notification_date: "2015-08-18"
+  date: "2016-06-26"
+  place: San Francisco, CA
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2016
+  link: https://sigmod2016.org/
+  abstract_deadline: "2015-11-12"
   deadline: "2015-11-19"
+  note: Cycle 2/2
   notification_date: "2016-01-29"
   date: "2016-06-26"
   place: San Francisco, CA
@@ -3880,10 +4094,49 @@
   description: ACM SIGMOD International Conference on Management of Data
   year: 2015
   link: https://www.sigmod2015.org/
+  abstract_deadline: "2014-08-07"
+  deadline: "2014-08-14"
+  note: Cycle 1/2
+  notification_date: "2014-10-16"
+  date: "2015-05-31"
+  place: Melbourne, Australia
+
+- name: SIGMOD
+  description: ACM SIGMOD International Conference on Management of Data
+  year: 2015
+  link: https://www.sigmod2015.org/
+  abstract_deadline: "2014-10-30"
   deadline: "2014-11-06"
+  note: Cycle 2/2
   notification_date: "2015-01-12"
   date: "2015-05-31"
   place: Melbourne, Australia
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2026
+  link: https://vldb.org/2026/
+  deadline: "2026-03-01"
+  note: Rolling monthly deadlines until March 2026
+  abstract_deadline:
+  notification_date: "2026-03-15"
+  date: "2026-08-31"
+  place: Boston, MA
+  acceptance_rate:
+  num_submission:
+
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2025
+  link: https://vldb.org/2025/
+  deadline: "2025-03-01"
+  note: Rolling monthly deadlines until March 2025
+  abstract_deadline:
+  notification_date: "2025-03-15"
+  date: "2025-09-01"
+  place: London, UK
+  acceptance_rate:
+  num_submission:
 
 - name: VLDB
   description: International Conference on Very Large Data Bases
@@ -4017,13 +4270,59 @@
 
 - name: ICDE
   description: IEEE International Conference on Data Engineering
+  year: 2026
+  link: https://icde2026.github.io
+  deadline: 2025-06-18
+  abstract_deadline: 
+  notification_date: 2025-08-18
+  date: "2026-05-04"
+  place: Montreal, Canada
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Fei Chiang, Essam Mansour
+  program_chair: Khuzaima Daudjee, Qiong Luo, Alkis Simitsis
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2026
+  link: https://icde2026.github.io
+  deadline: 2025-10-27
+  abstract_deadline: 
+  notification_date: 2025-12-22
+  date: "2026-05-04"
+  place: Montreal, Canada
+  note: Cycle 2/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Fei Chiang, Essam Mansour
+  program_chair: Khuzaima Daudjee, Qiong Luo, Alkis Simitsis
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
   year: 2025
   link: https://ieee-icde.org/2025/
-  deadline: 
+  deadline: 2024-08-02
   abstract_deadline: 
-  notification_date: 
+  notification_date: 2024-09-24
   date: "2025-05-19"
   place: Hong Kong SAR, China
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Xiaofang Zhou, Qing Li
+  program_chair: Angela Bonifati, Wenjie Zhang, Hans-Arno Jacobsen
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2025
+  link: https://ieee-icde.org/2025/
+  deadline: 2024-11-25
+  abstract_deadline: 
+  notification_date: 2025-01-21
+  date: "2025-05-19"
+  place: Hong Kong SAR, China
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: Xiaofang Zhou, Qing Li
@@ -4033,11 +4332,27 @@
   description: IEEE International Conference on Data Engineering
   year: 2024
   link: https://icde2024.github.io/
-  deadline: "2023-11-24"
+  deadline: "2023-07-28"
   abstract_deadline: 
-  notification_date: "2024-02-16"
-  date: 
+  notification_date: "2023-10-16"
+  date: 2024-05-13
   place: Utrecht, Netherlands
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Malu Castellanos, Yannis Velegrakis
+  program_chair: Gautam Das, Timos Sellis, BingSheng He
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2024
+  link: https://icde2024.github.io/
+  deadline: "2023-12-03"
+  abstract_deadline: 
+  notification_date: "2024-02-09"
+  date: 2024-05-13
+  place: Utrecht, Netherlands
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: Malu Castellanos, Yannis Velegrakis
@@ -4047,11 +4362,42 @@
   description: IEEE International Conference on Data Engineering
   year: 2023
   link: https://icde2023.ics.uci.edu/
-  deadline: 
+  deadline: 2022-04-25
   abstract_deadline: 
-  notification_date: 
+  notification_date: 2022-06-25
   date: "2023-04-03"
   place: Anaheim, CA
+  note: Cycle 1/3
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Chen Li
+  program_chair: Lei Chen, Stefan Manegold, Sharad Mehrotra
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2023
+  link: https://icde2023.ics.uci.edu/
+  deadline: 2022-07-08
+  abstract_deadline: 
+  notification_date: 2022-09-08
+  date: "2023-04-03"
+  place: Anaheim, CA
+  note: Cycle 2/3
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Chen Li
+  program_chair: Lei Chen, Stefan Manegold, Sharad Mehrotra
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2023
+  link: https://icde2023.ics.uci.edu/
+  deadline: 2022-10-08
+  abstract_deadline: 
+  notification_date: 2022-12-08
+  date: "2023-04-03"
+  place: Anaheim, CA
+  note: Cycle 3/3
   acceptance_rate: 
   num_submission: 
   general_chair: Chen Li
@@ -4061,11 +4407,27 @@
   description: IEEE International Conference on Data Engineering
   year: 2022
   link: https://icde2022.ieeecomputer.my/
-  deadline: 
+  deadline: 2021-07-21
   abstract_deadline: 
-  notification_date: 
+  notification_date: 2021-09-01
   date: "2022-05-09"
   place: Kuala Lumpur, Malaysia (Virtual)
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Murat Kantarcioglu, Divesh Srivastava, Ali Selamat
+  program_chair: Gao Cong, Stratos Idreos, Feifei Li
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2022
+  link: https://icde2022.ieeecomputer.my/
+  deadline: 2021-11-19
+  abstract_deadline: 
+  notification_date: 2022-01-14
+  date: "2022-05-09"
+  place: Kuala Lumpur, Malaysia (Virtual)
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: Murat Kantarcioglu, Divesh Srivastava, Ali Selamat
@@ -4089,11 +4451,27 @@
   description: IEEE International Conference on Data Engineering
   year: 2020
   link: https://icde.utdallas.edu/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: 2019-06-15
+  abstract_deadline: 2019-06-08
+  notification_date: 2019-08-10
   date: "2020-04-20"
   place: Dallas, TX
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Bhavani Thuraisingham, Elena Ferrari, Rao Kotagiri
+  program_chair: Murat Kantarcioglu, Dimitrios Gunopulos, S. Sudarshan
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2020
+  link: https://icde.utdallas.edu/
+  deadline: 2019-10-15
+  abstract_deadline: 2019-10-08
+  notification_date: 2019-12-14
+  date: "2020-04-20"
+  place: Dallas, TX
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: Bhavani Thuraisingham, Elena Ferrari, Rao Kotagiri
@@ -4103,11 +4481,27 @@
   description: IEEE International Conference on Data Engineering
   year: 2019
   link: http://conferences.cis.umac.mo/icde2019/
-  deadline: 
-  abstract_deadline: 
+  deadline: 2018-06-01
+  abstract_deadline: 2018-05-25
   notification_date: "2018-07-31"
   date: "2019-04-08"
   place: Macau SAR, China
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Christian S. Jensen, Lionel M. Ni, Tamer Özsu
+  program_chair: Wenfei Fan, Xuemin Lin, Divesh Srivastava
+
+- name: ICDE
+  description: IEEE International Conference on Data Engineering
+  year: 2019
+  link: http://conferences.cis.umac.mo/icde2019/
+  deadline: 2018-10-15
+  abstract_deadline: 2018-10-08
+  notification_date: "2018-12-14"
+  date: "2019-04-08"
+  place: Macau SAR, China
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: Christian S. Jensen, Lionel M. Ni, Tamer Özsu
@@ -4117,9 +4511,9 @@
   description: IEEE International Conference on Data Engineering
   year: 2018
   link: https://icde2018.aau.dk/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: 2017-10-01
+  abstract_deadline: 2017-09-22
+  notification_date: 2017-12-22
   date: "2018-04-16"
   place: Paris, France
   acceptance_rate: 
@@ -4130,10 +4524,10 @@
 - name: ICDE
   description: IEEE International Conference on Data Engineering
   year: 2017
-  link: https://icde2017.sdsc.edu/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  link: http://icde2017.sdsc.edu
+  deadline: 2016-10-18
+  abstract_deadline: 2016-10-11
+  notification_date: 2017-01-10
   date: "2017-04-19"
   place: San Diego, CA
   acceptance_rate: 
@@ -4155,6 +4549,81 @@
   general_chair: 
   program_chair: 
 
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2026
+  link: https://2024.sigmod.org/
+  deadline: "2025-06-10"
+  abstract_deadline: "2025-06-03"
+  notification_date: "2025-08-11"
+  date: "2026-05-31"
+  place: Bengaluru, India
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2026
+  link: https://2024.sigmod.org/
+  deadline: "2025-12-10"
+  abstract_deadline: "2025-12-03"
+  notification_date: "2026-02-08"
+  date: "2026-05-31"
+  place: Bengaluru, India
+  note: Cycle 2/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2025
+  link: https://2024.sigmod.org/
+  deadline: "2024-06-07"
+  abstract_deadline: "2024-05-31"
+  notification_date: "2024-08-12"
+  date: "2025-06-22"
+  place: Berlin, Germany
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2025
+  link: https://2024.sigmod.org/
+  deadline: "2024-12-09"
+  abstract_deadline: "2024-12-02"
+  notification_date: "2025-02-14"
+  date: "2025-06-22"
+  place: Berlin, Germany
+  note: Cycle 2/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2024
+  link: https://2024.sigmod.org/
+  deadline: "2023-06-12"
+  abstract_deadline: "2023-06-06"
+  notification_date: "2024-09-04"
+  date: "2024-06-09"
+  place: Santiago, Chile
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
 
 - name: PODS
   description: ACM Symposium on Principles of Database Systems
@@ -4165,6 +4634,7 @@
   notification_date: "2024-02-09"
   date: "2024-06-09"
   place: Santiago, Chile
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4174,11 +4644,27 @@
   description: ACM Symposium on Principles of Database Systems
   year: 2023
   link: https://2023.sigmod.org/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: 2022-06-06
+  abstract_deadline: 2022-05-30
+  notification_date: 2022-09-05
   date: "2023-06-18"
   place: Seattle, WA
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2023
+  link: https://2023.sigmod.org/
+  deadline: 2022-12-05
+  abstract_deadline: 2022-11-28
+  notification_date: 2023-03-03
+  date: "2023-06-18"
+  place: Seattle, WA
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4188,11 +4674,41 @@
   description: ACM Symposium on Principles of Database Systems
   year: 2022
   link: https://2022.sigmod.org/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: 2021-06-18
+  abstract_deadline: 2021-06-11
+  notification_date: 2021-07-21
   date: "2022-06-12"
   place: Philadelphia, PA
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2022
+  link: https://2022.sigmod.org/
+  deadline: 2021-12-17
+  abstract_deadline: 2021-12-10
+  notification_date: 2022-02-28
+  date: "2022-06-12"
+  place: Philadelphia, PA
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2021
+  link: https://2021.sigmod.org/
+  deadline: "2020-07-07"
+  abstract_deadline: "2020-07-02"
+  notification_date: "2020-09-18"
+  date: "2021-06-20"
+  place: Xi'an, China (Virtual)
+  note: Cycle 1/2
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4207,6 +4723,22 @@
   notification_date: "2021-03-05"
   date: "2021-06-20"
   place: Xi'an, China (Virtual)
+  note: Cycle 2/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2020
+  link: https://sigmod2020.org/
+  deadline: "2019-06-23"
+  abstract_deadline: "2019-06-15"
+  notification_date: "2020-09-01"
+  date: "2020-06-14"
+  place: Portland, OR (Virtual)
+  note: Cycle 1/2
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4221,6 +4753,7 @@
   notification_date: "2020-03-09"
   date: "2020-06-14"
   place: Portland, OR (Virtual)
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4230,9 +4763,9 @@
   description: ACM Symposium on Principles of Database Systems
   year: 2019
   link: https://sigmod2019.org/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: 2018-12-21
+  abstract_deadline: 2018-12-14
+  notification_date: 2019-03-08
   date: "2019-06-30"
   place: Amsterdam, The Netherlands
   acceptance_rate: 
@@ -4244,11 +4777,27 @@
   description: ACM Symposium on Principles of Database Systems
   year: 2018
   link: https://sigmod2018.org/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
-  date: "2018-06-11"
+  deadline: 2017-06-22
+  abstract_deadline: 2017-06-15
+  notification_date: 2017-11-02
+  date: "2018-06-10"
   place: Houston, TX
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2018
+  link: https://sigmod2018.org/
+  deadline: 2017-12-19
+  abstract_deadline: 2017-12-12
+  notification_date: 2018-02-27
+  date: "2018-06-10"
+  place: Houston, TX
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4258,11 +4807,27 @@
   description: ACM Symposium on Principles of Database Systems
   year: 2017
   link: http://www.sigmod2017.org
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: 2016-07-22
+  abstract_deadline: 2016-07-15
+  notification_date: 2016-09-28
   date: "2017-05-14"
   place: Raleigh, NC
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2017
+  link: http://www.sigmod2017.org
+  deadline: 2016-11-11
+  abstract_deadline: 2016-11-04
+  notification_date: 2017-01-27
+  date: "2017-05-14"
+  place: Raleigh, NC
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4277,6 +4842,22 @@
   notification_date: "2015-12-18"
   date: "2016-06-26"
   place: San Francisco, CA
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2016
+  link: https://sigmod2016.org/
+  deadline: "2015-12-04"
+  abstract_deadline: "2015-11-27"
+  notification_date: "2016-03-04"
+  date: "2016-06-26"
+  place: San Francisco, CA
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: 
@@ -4286,11 +4867,27 @@
   description: ACM Symposium on Principles of Database Systems
   year: 2015
   link: https://www.sigmod2015.org/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: 2014-10-10
+  abstract_deadline: 2014-10-03
+  notification_date: 2014-12-19
   date: "2015-05-31"
   place: Melbourne, Australia
+  note: Cycle 1/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: PODS
+  description: ACM Symposium on Principles of Database Systems
+  year: 2015
+  link: https://www.sigmod2015.org/
+  deadline: 2014-12-05
+  abstract_deadline: 2014-11-28
+  notification_date: 2015-02-20
+  date: "2015-05-31"
+  place: Melbourne, Australia
+  note: Cycle 2/2
   acceptance_rate: 
   num_submission: 
   general_chair: 

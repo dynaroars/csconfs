@@ -4916,7 +4916,7 @@
   link: https://www.dac.com/
   deadline: "2023-11-20"
   abstract_deadline: "2023-11-13"
-  notification_date: 
+  notification_date: "2024-02-26"
   date: "2024-06-23"
   place: San Francisco, CA
   acceptance_rate: 
@@ -4942,9 +4942,9 @@
   description: Design Automation Conference
   year: 2022
   link: https://www.dac.com/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2021-11-22"
+  abstract_deadline: "2021-11-15"
+  notification_date: "2022-02-21"
   date: "2022-07-10"
   place: San Francisco, CA
   acceptance_rate: 
@@ -4958,7 +4958,7 @@
   link: https://www.dac.com/
   deadline: "2020-11-23"
   abstract_deadline: "2020-11-16"
-  notification_date: 
+  notification_date: "2021-02-24"
   date: "2021-12-05"
   place: San Francisco, CA
   acceptance_rate: 
@@ -4970,9 +4970,9 @@
   description: Design Automation Conference
   year: 2020
   link: https://www.dac.com/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2019-11-27"
+  abstract_deadline: "2019-11-21"
+  notification_date: "2020-02-28"
   date: "2020-07-19"
   place: San Francisco, CA
   acceptance_rate: 
@@ -4984,9 +4984,9 @@
   description: Design Automation Conference
   year: 2019
   link: https://www.dac.com/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2018-11-27"
+  abstract_deadline: "2018-11-20"
+  notification_date: "2019-02-14"
   date: "2019-06-02"
   place: Las Vegas, NV
   acceptance_rate: 
@@ -4998,8 +4998,8 @@
   description: Design Automation Conference
   year: 2018
   link: https://www.dac.com/
-  deadline: 
-  abstract_deadline: 
+  deadline: "2017-11-21"
+  abstract_deadline: "2017-11-14"
   notification_date: 
   date: "2018-06-24"
   place: San Francisco, CA
@@ -5026,9 +5026,9 @@
   description: Design Automation Conference
   year: 2016
   link: https://www.dac.com/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2015-11-24"
+  abstract_deadline: "2015-11-17"
+  notification_date: "2016-02-16"
   date: "2016-06-05"
   place: Austin, TX
   acceptance_rate: 
@@ -5040,8 +5040,8 @@
   description: IEEE/ACM International Conference on Computer-Aided Design
   year: 2024
   link: https://2024.iccad.com/
-  deadline: "2024-04-28"
-  abstract_deadline: 
+  deadline: "2024-05-05"
+  abstract_deadline: "2024-04-28"
   notification_date: "2024-06-30"
   date: "2024-10-27"
   place: New York, NY
@@ -5054,9 +5054,9 @@
   description: IEEE/ACM International Conference on Computer-Aided Design
   year: 2023
   link: https://2023.iccad.com/
-  deadline: 
+  deadline: "2023-05-22"
   abstract_deadline: "2023-05-15"
-  notification_date: 
+  notification_date: "2023-07-21"
   date: "2023-10-29"
   place: San Francisco, CA
   acceptance_rate: 
@@ -5068,9 +5068,9 @@
   description: IEEE/ACM International Conference on Computer-Aided Design
   year: 2022
   link: https://www.iccad-conf.com/iccad2022/index.html
-  deadline: 
+  deadline: "2022-04-15"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2022-05-10"
   date: "2022-07-13"
   place: Lisbon, Portugal
   acceptance_rate: 
@@ -5082,9 +5082,9 @@
   description: IEEE/ACM International Conference on Computer-Aided Design
   year: 2021
   link: https://www.informatik.uni-bremen.de/iccad2021/index.php
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2021-05-28"
+  abstract_deadline: "2021-05-21"
+  notification_date: "2021-07-17"
   date: "2021-11-01"
   place: Munich, Germany
   acceptance_rate: 
@@ -5096,9 +5096,9 @@
   description: IEEE/ACM International Conference on Computer-Aided Design
   year: 2020
   link: https://www.iccad-conf.com/iccad2020/
-  deadline: 
+  deadline: "2020-06-30"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2020-07-31"
   date: "2020-10-07"
   place: Paris, France
   acceptance_rate: 
@@ -5110,9 +5110,9 @@
   description: IEEE/ACM International Conference on Computer-Aided Design
   year: 2019
   link: https://dblp.org/rec/conf/iccad/2019
-  deadline: 
+  deadline: "2019-01-31"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2019-03-31"
   date: "2019-11-04"
   place: Westminster, CO
   acceptance_rate: 
@@ -5124,9 +5124,9 @@
   description: IEEE/ACM International Conference on Computer-Aided Design
   year: 2018
   link: https://dblp.org/rec/conf/iccad/2018
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2018-06-04"
+  abstract_deadline: "2018-06-04"
+  notification_date: "2018-08-06"
   date: "2018-11-05"
   place: San Diego, CA
   acceptance_rate: 
@@ -5138,9 +5138,9 @@
   description: IEEE/ACM International Conference on Computer-Aided Design
   year: 2017
   link: https://dblp.org/rec/conf/iccad/2017
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2017-06-28"
+  abstract_deadline: "2017-06-19"
+  notification_date: "2017-09-01"
   date: "2017-11-13"
   place: Irvine, CA
   acceptance_rate: 
@@ -5152,9 +5152,9 @@
   description: IEEE/ACM International Conference on Computer-Aided Design
   year: 2016
   link: https://dblp.org/rec/conf/iccad/2016
-  deadline: 
+  deadline: "2016-02-01"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2016-05-06"
   date: "2016-11-07"
   place: Austin, TX
   acceptance_rate: 
@@ -5166,7 +5166,7 @@
   description: IEEE/ACM International Conference on Computer-Aided Design
   year: 2015
   link: https://dblp.org/rec/conf/iccad/2015
-  deadline: 
+  deadline: "2015-04-24"
   abstract_deadline: 
   notification_date: 
   date: "2015-11-02"

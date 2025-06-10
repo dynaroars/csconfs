@@ -1,6 +1,19 @@
-# AI
-
 ## Artificial Intelligence
+- name: AAAI
+  description: AAAI Conference on Artificial Intelligence
+  year: 2026
+  link: https://aaai.org/conference/aaai/aaai-26/
+  deadline: "2025-08-01"
+  notification: "2025-11-03"
+  note: Abstracts due July 25, 2025
+  date: "2026-01-20"
+  place: Singapore
+  acceptance_rate:
+  num_submission:
+  general_chair: Sven Koenig
+  program_chair: Chad Jenkins, Matthew Taylor
+
+
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2025

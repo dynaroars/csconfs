@@ -68,7 +68,7 @@ export default function Header() {
               Roars Lab
             </Link> @ George Mason University.<br />
             Countdown to submission deadlines uses AoE (Anywhere on Earth) time zone.<br />
-            See something missing or inaccurate? Create a GitHub issue or a pull request at{' '}
+            See something missing or inaccurate? Want to Contribute? Create a GitHub issue or a pull request at{' '}
             <Link 
               href="https://git.roars.dev/csconfs" 
               target="_blank" 

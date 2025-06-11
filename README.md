@@ -25,7 +25,8 @@ We welcome contributions!
 
 ### How to contribute:
 
-> You can help **check**, **add**, or **fix** inconsistencies about the conferences in the `public/data/conferences.yaml` file. Use the existing entries in that file as examples to maintain formatting and consistency.
+You can help **check**, **add**, or **fix** inconsistencies about the conferences in the `public/data/conferences.yaml` file. Use the existing entries in that file as examples to maintain formatting and consistency.
+
 
 1. **Fork** the repository.
 1. **Clone** your forked repository to your local machine.

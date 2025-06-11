@@ -6758,9 +6758,10 @@
   link: https://conf.researchr.org/home/fse-2026
   deadline: "2025-09-11"
   notification_date: "2025-12-22"
-  note: 
-  date: "2026-07-06"
+  note: "Abstract deadline: 2025-09-04"
+  date: "2026-07-05"
   place: Montreal, Canada
+  program_chair: Julia Lawall, Christoph Treude
   acceptance_rate:
   num_submission:
 
@@ -6769,23 +6770,26 @@
   year: 2025
   link: https://conf.researchr.org/home/fse-2025
   deadline: "2024-09-12"
-  note: 
+  notification_date: "2025-01-14"
+  note: "Paper Registration: 2024-09-04"
   date: "2025-06-23"
   place: Trondheim, Norway
   acceptance_rate:
   num_submission:
+  program_chair: Denys Poshyvanyk, Dongmei Zhang
 
 - name: FSE
   description: Foundations of Software Engineering
   year: 2024
   link: https://conf.researchr.org/home/fse-2024
   deadline: "2023-09-28"
-  note: 
+  notification_date: "2024-01-23"
+  note: "Paper Registration: 2023-09-21"
   date: "2024-07-15"
   place: Porto de Galinhas, Brazil
   acceptance_rate:
   num_submission:
-
+  program_chair: David Lo, Lin Tan
 
 - name: FSE
   description: Foundations of Software Engineering

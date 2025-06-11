@@ -5645,10 +5645,10 @@
 - name: HPDC
   description: ACM International Symposium on High-Performance Parallel and Distributed Computing
   year: 2024
-  link: http://hpdc.org/2024/
-  deadline: "2024-01-25"
+  link: https://hpdc.org/2024/
+  deadline: 
   abstract_deadline: 
-  notification_date: "2024-03-25"
+  notification_date: 
   date: "2024-06-03"
   place: Pisa, Italy
   acceptance_rate: 
@@ -5659,11 +5659,11 @@
 - name: HPDC
   description: ACM International Symposium on High-Performance Parallel and Distributed Computing
   year: 2023
-  link: http://hpdc.org/2023/
-  deadline: "2023-01-27"
+  link: https://hpdc.org/2023/
+  deadline: 
   abstract_deadline: 
-  notification_date: "2023-03-29"
-  date: "2023-06-16"
+  notification_date: 
+  date: "2023-06-20"
   place: Orlando, FL
   acceptance_rate: 
   num_submission: 
@@ -5674,113 +5674,113 @@
   description: ACM International Symposium on High-Performance Parallel and Distributed Computing
   year: 2022
   link: https://hpdc.org/2022/
-  deadline: "2022-01-27"
-  abstract_deadline: "2022-01-20"
-  notification_date: "2022-03-31"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2022-06-27"
   place: Minneapolis, MN
   acceptance_rate: 
   num_submission: 
-  general_chair: Jon Weissman, Abhishek Chandra
-  program_chair: Ada Gavrilovska, Devesh Tiwari
+  general_chair: 
+  program_chair: 
 
 - name: HPDC
   description: ACM International Symposium on High-Performance Parallel and Distributed Computing
   year: 2021
   link: https://hpdc.org/2021/
-  deadline: "2021-01-24"
-  abstract_deadline: "2021-01-18"
-  notification_date: "2021-03-29"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2021-06-21"
   place: Online
   acceptance_rate: 
   num_submission: 
-  general_chair: Erwin Laure, Stefano Markidis
+  general_chair: 
   program_chair: 
 
 - name: HPDC
   description: ACM International Symposium on High-Performance Parallel and Distributed Computing
   year: 2020
   link: https://hpdc.org/2020/
-  deadline: "2020-01-23"
-  abstract_deadline: "2020-01-16"
-  notification_date: "2020-03-27"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2020-06-23"
   place: Stockholm, Sweden
   acceptance_rate: 
   num_submission: 
-  general_chair: Manish Parashar, Vladimir Vlassov	
+  general_chair: 
   program_chair: 
 
 - name: HPDC
   description: ACM International Symposium on High-Performance Parallel and Distributed Computing
   year: 2019
   link: https://hpdc.org/2019/
-  deadline: "2019-01-23"
-  abstract_deadline: "2019-01-16"
-  notification_date: "2019-03-25"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2019-06-24"
   place: Phoenix, AZ
   acceptance_rate: 
   num_submission: 
-  general_chair: Jon Weissman
-  program_chair: Ali R. Butt, Evgenia Smirni
+  general_chair: 
+  program_chair: 
 
 - name: HPDC
   description: ACM International Symposium on High-Performance Parallel and Distributed Computing
   year: 2018
   link: https://hpdc.org/2018/
-  deadline: "2018-01-24"
-  abstract_deadline: "2018-01-17"
-  notification_date: "2018-03-26"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2018-06-11"
   place: Tempe, AZ
   acceptance_rate: 
   num_submission: 
-  general_chair: Ming Zhao
+  general_chair: 
   program_chair: 
 
 - name: HPDC
   description: ACM International Symposium on High-Performance Parallel and Distributed Computing
   year: 2017
   link: https://hpdc.org/2017/
-  deadline: "2017-01-17"
-  abstract_deadline: "2017-01-10"
-  notification_date: "2017-03-29"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2017-06-26"
   place: Washington, DC
   acceptance_rate: 
   num_submission: 
-  general_chair: Howie Huang
+  general_chair: 
   program_chair: 
 
 - name: HPDC
   description: ACM International Symposium on High-Performance Parallel and Distributed Computing
   year: 2016
   link: https://hpdc.org/2016/
-  deadline: "2016-01-18"
-  abstract_deadline: "2016-01-11"
-  notification_date: "2016-03-12"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2016-05-31"
   place: Kyoto, Japan
   acceptance_rate: 
   num_submission: 
-  general_chair: Hiroshi Nakashima
-  program_chair: Kenjiro Taura, Jack Lange
+  general_chair: 
+  program_chair: 
 
 - name: HPDC
   description: ACM International Symposium on High-Performance Parallel and Distributed Computing
   year: 2015
   link: https://hpdc.org/2015/
-  deadline: "2015-01-19"
-  abstract_deadline: "2015-01-12"
-  notification_date: "2015-03-16"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2015-06-15"
   place: Portland, OR
   acceptance_rate: 
   num_submission: 
-  general_chair: Thilo Kielmann
-  program_chair: Dean Hildebrand, Michela Taufer
+  general_chair: 
+  program_chair: 
   
 # Mobile computing	
 
@@ -5788,219 +5788,141 @@
   description: ACM International Conference on Mobile Computing and Networking
   year: 2024
   link: https://www.sigmobile.org/mobicom/2024/
-  deadline: "2023-08-25"
-  abstract_deadline: "2023-08-18"
-  notification_date: "2023-10-13"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2024-11-18"
   place: Washington, D.C., USA
-  note: Cycle 1/2
   acceptance_rate: 
   num_submission: 
-  general_chair: Weisong Shi
-  program_chair: 
-
-- name: MobiCom
-  description: ACM International Conference on Mobile Computing and Networking
-  year: 2024
-  link: https://www.sigmobile.org/mobicom/2024/
-  deadline: "2024-03-15"
-  abstract_deadline: "2024-03-08"
-  notification_date: "2024-03-10"
-  date: "2024-11-18"
-  place: Washington, D.C., USA
-  note: Cycle 2/2
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Weisong Shi
+  general_chair: 
   program_chair: 
 
 - name: MobiCom
   description: ACM International Conference on Mobile Computing and Networking
   year: 2023
   link: https://www.sigmobile.org/mobicom/2023/
-  deadline: "2022-08-19"
-  abstract_deadline: "2022-08-12"
-  notification_date: "2022-10-07"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2023-10-02"
   place: Madrid, Spain
-  note: Cycle 1/2
   acceptance_rate: 
   num_submission: 
-  general_chair: Joerg Widmer, Xavier Costa-Pérez
-  program_chair: 
-
-- name: MobiCom
-  description: ACM International Conference on Mobile Computing and Networking
-  year: 2023
-  link: https://www.sigmobile.org/mobicom/2023/
-  deadline: "2023-03-17"
-  abstract_deadline: "2023-03-10"
-  notification_date: "2023-05-08"
-  date: "2023-10-02"
-  place: Madrid, Spain
-  note: Cycle 2/2
-  acceptance_rate: 
-  num_submission: 
-  general_chair:  Joerg Widmer, Xavier Costa-Pérez
+  general_chair: 
   program_chair: 
 
 - name: MobiCom
   description: ACM International Conference on Mobile Computing and Networking
   year: 2022
   link: https://www.sigmobile.org/mobicom/2022/
-  deadline: "2021-08-20"
-  abstract_deadline: "2021-08-13"
-  notification_date: "2021-11-14"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2022-10-17"
   place: Sydney, Australia
-  note: Cycle 1/2
   acceptance_rate: 
   num_submission: 
-  general_chair: Tao Gu, Aruna Seneviratne
-  program_chair: 
-
-- name: MobiCom
-  description: ACM International Conference on Mobile Computing and Networking
-  year: 2022
-  link: https://www.sigmobile.org/mobicom/2022/
-  deadline: "2022-03-25"
-  abstract_deadline: "2022-03-18"
-  notification_date: "2022-06-10"
-  date: "2022-10-17"
-  place: Sydney, Australia
-  note: Cycle 2/2
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Tao Gu, Aruna Seneviratne
+  general_chair: 
   program_chair: 
 
 - name: MobiCom
   description: ACM International Conference on Mobile Computing and Networking
   year: 2021
   link: https://www.sigmobile.org/mobicom/2021/
-  deadline: "2020-08-21"
-  abstract_deadline: "2020-08-14"
-  notification_date: "2020-11-13"
-  date: "2021-03-28"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2021-10-25"
   place: New Orleans, LA, USA
-  note: Cycle 1/2
   acceptance_rate: 
   num_submission: 
-  general_chair: David B. Johnson
-  program_chair: 
-
-- name: MobiCom
-  description: ACM International Conference on Mobile Computing and Networking
-  year: 2021
-  link: https://www.sigmobile.org/mobicom/2021/
-  deadline: "2021-03-26"
-  abstract_deadline: "2021-03-19"
-  notification_date: "2021-06-11"
-  date: "2021-03-28"
-  place: New Orleans, LA, USA
-  note: Cycle 2/2
-  acceptance_rate: 
-  num_submission: 
-  general_chair: David B. Johnson
+  general_chair: 
   program_chair: 
 
 - name: MobiCom
   description: ACM International Conference on Mobile Computing and Networking
   year: 2020
   link: https://www.sigmobile.org/mobicom/2020/
-  deadline: "2020-03-26"
-  abstract_deadline: "2020-03-21"
+  deadline: 
+  abstract_deadline: 
   notification_date: 
   date: "2020-09-21"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
-  general_chair: Jon Crowcroft, Hamed Haddadi
+  general_chair: 
   program_chair: 
 
 - name: MobiCom
   description: ACM International Conference on Mobile Computing and Networking
   year: 2019
   link: https://www.sigmobile.org/mobicom/2019/
-  deadline: "2019-03-22"
-  abstract_deadline: "2019-03-15"
-  notification_date: "2019-06-14"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2019-10-21"
   place: Los Cabos, Mexico
   acceptance_rate: 
   num_submission: 
-  general_chair: Sharad Agarwal, Ben Greenstein
+  general_chair: 
   program_chair: 
 
 - name: MobiCom
   description: ACM International Conference on Mobile Computing and Networking
   year: 2018
   link: https://www.sigmobile.org/mobicom/2018/
-  deadline: "2018-03-13"
-  abstract_deadline: "2018-03-06"
-  notification_date: "2018-03-24"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2018-10-29"
   place: New Delhi, India
   acceptance_rate: 
   num_submission: 
-  general_chair: Rajeev Shorey, Rohan Murty
-  program_chair: YingYing (Jennifer) Chen, Kyle Jamieson
+  general_chair: 
+  program_chair: 
 
 - name: MobiCom
   description: ACM International Conference on Mobile Computing and Networking
   year: 2017
   link: https://www.sigmobile.org/mobicom/2017/
-  deadline: "2017-03-16"
-  abstract_deadline: "2017-03-09"
-  notification_date: "2017-06-08"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2017-10-16"
   place: Snowbird, Utah, USA
   acceptance_rate: 
   num_submission: 
-  general_chair: Kobus Van der Merwe 
-  program_chair: Ben Greenstein, Kannan Srinivasan
+  general_chair: 
+  program_chair: 
 
 - name: MobiCom
   description: ACM International Conference on Mobile Computing and Networking
   year: 2016
   link: https://www.sigmobile.org/mobicom/2016/
-  deadline: "2016-03-15"
-  abstract_deadline: "2016-03-08"
-  notification_date: "2016-06-13"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2016-10-03"
   place: New York City, NY, USA
   acceptance_rate: 
   num_submission: 
-  general_chair: Yingying Chen, Marco Gruteser 
-  program_chair: Y. Charlie Hu, Karthik Sundaresan
+  general_chair: 
+  program_chair: 
 
 - name: MobiCom
   description: ACM International Conference on Mobile Computing and Networking
   year: 2015
   link: https://www.sigmobile.org/mobicom/2015/
-  deadline: "2015-03-11"
-  abstract_deadline: "2015-03-04"
-  notification_date: "2015-06-05"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2015-09-07"
   place: Paris, France
   acceptance_rate: 
   num_submission: 
-  general_chair: Serge Fdida, Giovanni Pau 
-  program_chair: Sneha Kumar Kasera, Heather Zheng 
-
-- name: MobiSys
-  description: ACM International Conference on Mobile Systems, Applications, and Services
-  year: 2025
-  link: https://www.sigmobile.org/mobisys/2025/
-  deadline: "2024-12-09"
-  abstract_deadline: "2024-12-02"
-  notification_date: "2025-01-20"
-  date: "2025-06-23"
-  place: Anaheim, CA
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Ardalan Amiri Sani, Chenren Xu
-  program_chair: Swarun Kumar, Przemysław Pawełczak
+  general_chair: 
+  program_chair: 
 
 - name: MobiSys
   description: ACM International Conference on Mobile Systems, Applications, and Services
@@ -6013,134 +5935,134 @@
   place: Tokyo, Japan
   acceptance_rate: 
   num_submission: 
-  general_chair: Tadashi Okoshi, JeongGil Ko
+  general_chair: 
   program_chair: 
 
 - name: MobiSys
   description: ACM International Conference on Mobile Systems, Applications, and Services
   year: 2023
   link: https://www.sigmobile.org/mobisys/2023/
-  deadline: "2022-12-09"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2023-02-27"
-  date: "2023-06-18"
+  notification_date: 
+  date: "2023-06-20"
   place: Helsinki, Finland
   acceptance_rate: 
   num_submission: 
-  general_chair: Petteri Nurmi, Pan Hui
-  program_chair: Ardalan Amiri Sani, Yunxin Liu
+  general_chair: 
+  program_chair: 
 
 - name: MobiSys
   description: ACM International Conference on Mobile Systems, Applications, and Services
   year: 2022
   link: https://www.sigmobile.org/mobisys/2022/
-  deadline: "2021-12-20"
-  abstract_deadline: "2021-12-13"
-  notification_date: "2022-03-14"
-  date: "2022-06-27"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2022-06-28"
   place: Portland, Oregon, USA
   acceptance_rate: 
   num_submission: 
-  general_chair: Nirupama Bulusu
-  program_chair: Aruna Balasubramanian, Junehwa Song
+  general_chair: 
+  program_chair: 
 
 - name: MobiSys
   description: ACM International Conference on Mobile Systems, Applications, and Services
   year: 2021
   link: https://www.sigmobile.org/mobisys/2021/
-  deadline: "2021-01-15"
-  abstract_deadline: "2021-01-08"
-  notification_date: "2021-03-25"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2021-06-24"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
-  general_chair: Suman Banerjee
-  program_chair: Luca Mottola, Xia Zhou
+  general_chair: 
+  program_chair: 
 
 - name: MobiSys
   description: ACM International Conference on Mobile Systems, Applications, and Services
   year: 2020
   link: https://www.sigmobile.org/mobisys/2020/
-  deadline: "2019-12-12"
-  abstract_deadline: "2019-12-05"
-  notification_date: "2020-03-09"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2020-06-16"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
-  general_chair: Eyal de Lara, Iqbal Mohomed
-  program_chair: Jason Nieh, Elizabeth M. Belding
+  general_chair: 
+  program_chair: 
 
 - name: MobiSys
   description: ACM International Conference on Mobile Systems, Applications, and Services
   year: 2019
   link: https://www.sigmobile.org/mobisys/2019/
-  deadline: "2018-12-14"
-  abstract_deadline: "2018-12-07"
-  notification_date: "2019-03-09"
-  date: "2019-06-17"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2019-06-18"
   place: Seoul, South Korea
   acceptance_rate: 
   num_submission: 
-  general_chair: Junehwa Song, Minkyong Kim
-  program_chair: Nicholas D. Lane, Rajesh K. Balan
+  general_chair: 
+  program_chair: 
 
 - name: MobiSys
   description: ACM International Conference on Mobile Systems, Applications, and Services
   year: 2018
   link: https://www.sigmobile.org/mobisys/2018/
-  deadline: "2017-12-08"
-  abstract_deadline: "2017-12-01"
-  notification_date: "2018-03-02"
-  date: "2018-06-10"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
+  date: "2018-06-11"
   place: Munich, Germany
   acceptance_rate: 
   num_submission: 
-  general_chair: Joerg Ott, Falko Dressler
-  program_chair: Stefan Saroiu, Prabal Dutta
+  general_chair: 
+  program_chair: 
 
 - name: MobiSys
   description: ACM International Conference on Mobile Systems, Applications, and Services
   year: 2017
   link: https://www.sigmobile.org/mobisys/2017/
-  deadline: "2016-12-08"
-  abstract_deadline: "2016-12-01"
-  notification_date: "2017-03-01"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2017-06-19"
   place: Niagara Falls, NY, USA
   acceptance_rate: 
   num_submission: 
-  general_chair: Tanzeem Choudhury, Steve Ko 
-  program_chair: Andrew Campbell, Deepak Ganesan
+  general_chair: 
+  program_chair: 
 
 - name: MobiSys
   description: ACM International Conference on Mobile Systems, Applications, and Services
   year: 2016
   link: https://www.sigmobile.org/mobisys/2016/
-  deadline: "2015-12-09"
-  abstract_deadline: "2015-12-02"
-  notification_date: "2016-03-01"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2016-06-26"
   place: Singapore
   acceptance_rate: 
   num_submission: 
-  general_chair: Rajesh Balan, Archan Misra
-  program_chair: Sharad Agarwal, Cecilia Mascolo
+  general_chair: 
+  program_chair: 
 
 - name: MobiSys
   description: ACM International Conference on Mobile Systems, Applications, and Services
   year: 2015
   link: https://www.sigmobile.org/mobisys/2015/
-  deadline: "2014-12-05"
-  abstract_deadline: "2014-11-28"
-  notification_date: "2015-02-16"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2015-05-18"
   place: Florence, Italy
   acceptance_rate: 
   num_submission: 
-  general_chair: Gaetano Borriello, Giovanni Pau 
-  program_chair: Marco Gruteser, Jason Hong
+  general_chair: 
+  program_chair: 
 
 
 
@@ -6148,89 +6070,13 @@
 
 - name: SIGMETRICS
   description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2025
-  link: https://www.sigmetrics.org/sigmetrics2025/
-  deadline: "2024-08-07"
-  abstract_deadline: "2024-07-31"
-  notification_date: "2024-09-24"
-  date: "2025-06-09"
-  place: Stony Brook, NY, USA
-  note: Cycle 1/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Anshul Gandhi, Zhenhua Liu
-  program_chair: Sewoong Oh, Ramesh Sitaraman, Benny Van Houdt
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2025
-  link: https://www.sigmetrics.org/sigmetrics2025/
-  deadline: "2024-10-09"
-  abstract_deadline: "2024-10-02"
-  notification_date: "2024-12-10"
-  date: "2025-06-09"
-  place: Stony Brook, NY, USA
-  note: Cycle 2/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Anshul Gandhi, Zhenhua Liu
-  program_chair: Sewoong Oh, Ramesh Sitaraman, Benny Van Houdt
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2025
-  link: https://www.sigmetrics.org/sigmetrics2025/
-  deadline: "2025-01-22"
-  abstract_deadline: "2025-01-15"
-  notification_date: "2025-03-18"
-  date: "2025-06-09"
-  place: Stony Brook, NY, USA
-  note: Cycle 3/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Anshul Gandhi, Zhenhua Liu
-  program_chair: Sewoong Oh, Ramesh Sitaraman, Benny Van Houdt
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
   year: 2024
   link: https://www.sigmetrics.org/sigmetrics2024/
-  deadline: "2023-08-09"
-  abstract_deadline: "2023-08-02"
-  notification_date: "2023-09-26"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2024-06-10"
   place: Venice, Italy
-  note: Cycle 1/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Andrea Marin, Michele Garetto
-  program_chair: Giulia Fanti, Florin Ciucu, Rhonda Righter
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2024
-  link: https://www.sigmetrics.org/sigmetrics2024/
-  deadline: "2023-10-11"
-  abstract_deadline: "2023-10-04"
-  notification_date: "2023-12-12"
-  date: "2024-06-10"
-  place: Venice, Italy
-  note: Cycle 2/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Andrea Marin, Michele Garetto
-  program_chair: Giulia Fanti, Florin Ciucu, Rhonda Righter
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2024
-  link: https://www.sigmetrics.org/sigmetrics2024/
-  deadline: "2024-01-31"
-  abstract_deadline: "2024-01-24"
-  notification_date: "2024-03-26"
-  date: "2024-06-10"
-  place: Venice, Italy
-  note: Cycle 3/3
   acceptance_rate: 
   num_submission: 
   general_chair: Andrea Marin, Michele Garetto
@@ -6240,346 +6086,129 @@
   description: ACM SIGMETRICS / IFIP Performance Conference
   year: 2023
   link: https://www.sigmetrics.org/sigmetrics2023/
-  deadline: "2022-08-10"
-  abstract_deadline: "2022-08-03"
-  notification_date: "2022-10-04"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2023-06-19"
   place: Orlando, FL, USA
-  note: Cycle 1/3
   acceptance_rate: 
   num_submission: 
-  general_chair: Evgenia Smirni
-  program_chair: Konstantin Avrachenkov, Phillipa Gill, Bhuvan Urgaonkar
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2023
-  link: https://www.sigmetrics.org/sigmetrics2023/
-  deadline: "2022-10-19"
-  abstract_deadline: "2022-10-12"
-  notification_date: "2022-12-20"
-  date: "2023-06-19"
-  place: Orlando, FL, USA
-  note: Cycle 2/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Evgenia Smirni
-  program_chair: Konstantin Avrachenkov, Phillipa Gill, Bhuvan Urgaonkar
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2023
-  link: https://www.sigmetrics.org/sigmetrics2023/
-  deadline: "2023-02-01"
-  abstract_deadline: "2023-01-25"
-  notification_date: "2023-03-28"
-  date: "2023-06-19"
-  place: Orlando, FL, USA
-  note: Cycle 3/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Evgenia Smirni
-  program_chair: Konstantin Avrachenkov, Phillipa Gill, Bhuvan Urgaonkar
+  general_chair: 
+  program_chair: 
 
 - name: SIGMETRICS
   description: ACM SIGMETRICS / IFIP Performance Conference
   year: 2022
   link: https://www.sigmetrics.org/sigmetrics2022/
-  deadline: "2021-08-11"
-  abstract_deadline: "2021-08-04"
-  notification_date: "2021-10-04"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2022-06-06"
   place: Mumbai, India
-  note: Cycle 1/3
   acceptance_rate: 
   num_submission: 
-  general_chair: D Manjunath, Jayakrishnan Nair
-  program_chair: Niklas Carlsson, Edith Cohen, Philippe Robert
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2022
-  link: https://www.sigmetrics.org/sigmetrics2022/
-  deadline: "2021-10-20"
-  abstract_deadline: "2021-10-13"
-  notification_date: "2021-12-13"
-  date: "2022-06-06"
-  place: Mumbai, India
-  note: Cycle 2/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: D Manjunath, Jayakrishnan Nair
-  program_chair: Niklas Carlsson, Edith Cohen, Philippe Robert
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2022
-  link: https://www.sigmetrics.org/sigmetrics2022/
-  deadline: "2022-02-03"
-  abstract_deadline: "2022-01-26"
-  notification_date: "2022-03-28"
-  date: "2022-06-06"
-  place: Mumbai, India
-  note: Cycle 3/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: D Manjunath, Jayakrishnan Nair
-  program_chair: Niklas Carlsson, Edith Cohen, Philippe Robert
+  general_chair: 
+  program_chair: 
 
 - name: SIGMETRICS
   description: ACM SIGMETRICS / IFIP Performance Conference
   year: 2021
   link: https://www.sigmetrics.org/sigmetrics2021/
-  deadline: "2020-08-07"
-  abstract_deadline: "2020-07-31"
-  notification_date: "2020-09-29"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2021-06-14"
   place: Virtual Conference
-  note: Cycle 1/3
   acceptance_rate: 
   num_submission: 
-  general_chair: Longbo Huang
-  program_chair: Anshul Gandhi, Negar Kiyavash, Jia Wang 
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2021
-  link: https://www.sigmetrics.org/sigmetrics2021/
-  deadline: "2020-10-23"
-  abstract_deadline: "2020-10-16"
-  notification_date: "2020-12-15"
-  date: "2021-06-14"
-  place: Virtual Conference
-  note: Cycle 2/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Longbo Huang
-  program_chair: Anshul Gandhi, Negar Kiyavash, Jia Wang  
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2021
-  link: https://www.sigmetrics.org/sigmetrics2021/
-  deadline: "2021-02-05"
-  abstract_deadline: "2021-01-29"
-  notification_date: "2021-03-30"
-  date: "2021-06-14"
-  place: Virtual Conference
-  note: Cycle 3/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Longbo Huang
-  program_chair: Anshul Gandhi, Negar Kiyavash, Jia Wang 
+  general_chair: 
+  program_chair: 
 
 - name: SIGMETRICS
   description: ACM SIGMETRICS / IFIP Performance Conference
   year: 2020
   link: https://www.sigmetrics.org/sigmetrics2020/
-  deadline: "2019-08-08"
-  abstract_deadline: "2019-08-01"
-  notification_date: "2019-09-30"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2020-06-08"
   place: Boston, MA, USA
-  note: Cycle 1/3
   acceptance_rate: 
   num_submission: 
-  general_chair: Edmund Yeh
-  program_chair: Athina Markopoulou, Y.C. Tay
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2020
-  link: https://www.sigmetrics.org/sigmetrics2020/
-  deadline: "2019-10-21"
-  abstract_deadline: "2019-10-14"
-  notification_date: "2019-12-16"
-  date: "2020-06-08"
-  place: Boston, MA, USA
-  note: Cycle 2/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Edmund Yeh
-  program_chair: Athina Markopoulou, Y.C. Tay
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2020
-  link: https://www.sigmetrics.org/sigmetrics2020/
-  deadline: "2020-02-03"
-  abstract_deadline: "2020-01-27"
-  notification_date: "2020-03-31"
-  date: "2020-06-08"
-  place: Boston, MA, USA
-  note: Cycle 3/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Edmund Yeh
-  program_chair: Athina Markopoulou, Y.C. Tay
+  general_chair: 
+  program_chair: 
 
 - name: SIGMETRICS
   description: ACM SIGMETRICS / IFIP Performance Conference
   year: 2019
   link: https://www.sigmetrics.org/sigmetrics2019/
-  deadline: "2018-08-20"
-  abstract_deadline: "2018-08-13"
-  notification_date: "2018-10-08"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2019-06-24"
   place: Phoenix, AZ, USA
-  note: Cycle 1/3
   acceptance_rate: 
   num_submission: 
-  general_chair: Erich Nahum 
-  program_chair: Thomas Bonald, Nick Duffield 
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2019
-  link: https://www.sigmetrics.org/sigmetrics2019/
-  deadline: "2018-10-29"
-  abstract_deadline: "2018-10-22"
-  notification_date: "2018-12-17"
-  date: "2019-06-24"
-  place: Phoenix, AZ, USA
-  note: Cycle 2/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Erich Nahum 
-  program_chair: Thomas Bonald, Nick Duffield 
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2019
-  link: https://www.sigmetrics.org/sigmetrics2019/
-  deadline: "2019-02-18"
-  abstract_deadline: "2019-02-11"
-  notification_date: "2019-04-26"
-  date: "2019-06-24"
-  place: Phoenix, AZ, USA
-  note: Cycle 3/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Erich Nahum 
-  program_chair: Thomas Bonald, Nick Duffield 
+  general_chair: 
+  program_chair: 
 
 - name: SIGMETRICS
   description: ACM SIGMETRICS / IFIP Performance Conference
   year: 2018
   link: https://www.sigmetrics.org/sigmetrics2018/
-  deadline: "2017-07-17"
-  abstract_deadline: "2017-07-10"
-  notification_date: "2017-09-22"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2018-06-18"
   place: Irvine, CA, USA
-  note: Cycle 1/3
   acceptance_rate: 
   num_submission: 
-  general_chair: Konstantinos Psounis 
-  program_chair: Aditya Akella, Adam Wierman
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2018
-  link: https://www.sigmetrics.org/sigmetrics2018/
-  deadline: "2017-10-23"
-  abstract_deadline: "2017-10-16"
-  notification_date: "2017-12-15"
-  date: "2018-06-18"
-  place: Irvine, CA, USA
-  note: Cycle 2/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Konstantinos Psounis 
-  program_chair: Aditya Akella, Adam Wierman
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2018
-  link: https://www.sigmetrics.org/sigmetrics2018/
-  deadline: "2018-02-19"
-  abstract_deadline: "2018-02-12"
-  notification_date: "2108-04-27"
-  date: "2018-06-18"
-  place: Irvine, CA, USA
-  note: Cycle 3/3
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Konstantinos Psounis 
-  program_chair: Aditya Akella, Adam Wierman
+  general_chair: 
+  program_chair: 
 
 - name: SIGMETRICS
   description: ACM SIGMETRICS / IFIP Performance Conference
   year: 2017
   link: https://www.sigmetrics.org/sigmetrics2017/
-  deadline: "2016-10-18"
-  abstract_deadline: "2016-10-11"
-  notification_date: "2016-12-30"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2017-06-05"
   place: Urbana-Champaign, IL, USA
-  note: Cycle 1/2
   acceptance_rate: 
   num_submission: 
-  general_chair: Bruce Hajek, Sewoong Oh
-  program_chair: Augustin Chaintreau, Leana Golubchik, Zhi-Li Zhang
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS / IFIP Performance Conference
-  year: 2017
-  link: https://www.sigmetrics.org/sigmetrics2017/
-  deadline: "2017-01-17"
-  abstract_deadline: "2017-01-10"
-  notification_date: "2017-04-01"
-  date: "2017-06-05"
-  place: Urbana-Champaign, IL, USA
-  note: Cycle 2/2
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Bruce Hajek, Sewoong Oh
-  program_chair: Augustin Chaintreau, Leana Golubchik, Zhi-Li Zhang
+  general_chair: 
+  program_chair: 
 
 - name: SIGMETRICS
   description: ACM SIGMETRICS / IFIP Performance Conference
   year: 2016
   link: https://www.sigmetrics.org/sigmetrics2016/
-  deadline: "2015-11-30"
-  abstract_deadline: "2015-11-23"
-  notification_date: "2016-02-20"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2016-06-14"
   place: Antibes Juan-les-Pins, France
   acceptance_rate: 
   num_submission: 
-  general_chair: Sara Alouf, Alain Jean-Marie
-  program_chair: Nidhi Hegde, Alexandre Proutière, 
+  general_chair: 
+  program_chair: 
 
 - name: SIGMETRICS
   description: ACM SIGMETRICS / IFIP Performance Conference
   year: 2015
   link: https://www.sigmetrics.org/sigmetrics2015/
-  deadline: "2014-11-24"
-  abstract_deadline: "2014-11-17"
-  notification_date: "2015-02-17"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2015-06-15"
   place: Portland, OR, USA
   acceptance_rate: 
   num_submission: 
-  general_chair: Bill Lin, Jun (Jim) Xu, 
-  program_chair: Sudipta Sengupta, Devavrat Shah
+  general_chair: 
+  program_chair: 
 
 # Operating systems	
-
-- name: OSDI
-  description: USENIX Symposium on Operating Systems Design and Implementation
-  year: 2025
-  link: https://www.usenix.org/conference/osdi25
-  deadline: "2024-12-10"
-  abstract_deadline: "2024-12-03"
-  notification_date: "2025-03-25"
-  date: "2025-07-07"
-  place: Boston, MA, USA
-  acceptance_rate: 
-  num_submission: 
-  general_chair: 
-  program_chair: Lidong Zhou, Yuanyuan Zhou
-
 - name: OSDI
   description: USENIX Symposium on Operating Systems Design and Implementation
   year: 2024
@@ -6592,705 +6221,403 @@
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Ada Gavrilovska, Douglas B. Terry
+  program_chair: 
 
 - name: OSDI
   description: USENIX Symposium on Operating Systems Design and Implementation
   year: 2023
   link: https://www.usenix.org/conference/osdi23
-  deadline: "2022-12-13"
-  abstract_deadline: "2022-12-06"
-  notification_date: "2023-03-23"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2023-07-10"
   place: Boston, MA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Roxana Geambasu, Ed Nightingale
+  program_chair: 
 
 - name: OSDI
   description: USENIX Symposium on Operating Systems Design and Implementation
   year: 2022
   link: https://www.usenix.org/conference/osdi22
-  deadline: "2021-12-14"
-  abstract_deadline: "2021-12-07"
-  notification_date: "2022-03-25"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2022-07-11"
   place: Carlsbad, CA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Marcos K. Aguilera, Hakim Weatherspoon
+  program_chair: 
 
 - name: OSDI
   description: USENIX Symposium on Operating Systems Design and Implementation
   year: 2021
   link: https://www.usenix.org/conference/osdi21
-  deadline: "2020-12-10"
-  abstract_deadline: "2020-12-03"
-  notification_date: "2021-03-16"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2021-07-14"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Angela Demke Brown, Jay Lorch
+  program_chair: 
 
 - name: OSDI
   description: USENIX Symposium on Operating Systems Design and Implementation
   year: 2020
   link: https://www.usenix.org/conference/osdi20
-  deadline: "2020-05-27"
-  abstract_deadline: "2020-05-20"
-  notification_date: "2020-08-18"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2020-11-04"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Jon Howell, Shan Lu
-
-- name: OSDI
-  description: USENIX Symposium on Operating Systems Design and Implementation
-  year: 2018
-  link: https://www.usenix.org/conference/osdi18
-  deadline: "2018-05-03"
-  abstract_deadline: "2018-04-26"
-  notification_date: "2018-07-24"
-  date: "2018-10-08"
-  place: Carlsbad, CA, USA
-  acceptance_rate: 
-  num_submission: 
-  general_chair: 
-  program_chair: Andrea Arpaci-Dusseau, Geoff Voelker
-
-- name: OSDI
-  description: USENIX Symposium on Operating Systems Design and Implementation
-  year: 2016
-  link: https://www.usenix.org/conference/osdi16
-  deadline: "2016-05-10"
-  abstract_deadline: "2016-05-03"
-  notification_date: "2016-07-30"
-  date: "2016-11-02"
-  place: Savannah, GA, USA
-  acceptance_rate: 
-  num_submission: 
-  general_chair: 
-  program_chair: Kimberly Keeton, Timothy Roscoe
-
-- name: SOSP
-  description: ACM Symposium on Operating Systems Principles
-  year: 2026
-  link: https://sigops.org/s/conferences/sosp/2026/
-  deadline: "2026-04-01"
-  abstract_deadline: "2026-03-26"
-  notification_date: "2026-07-03"
-  date: "2026-09-29"
-  place: Prague, Czech Republic
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Pramod Bhatotia, Christof Fetzer
-  program_chair: Angela Demke Brown, Shan Lu
-
-- name: SOSP
-  description: ACM Symposium on Operating Systems Principles
-  year: 2025
-  link: https://sigops.org/s/conferences/sosp/2025/
-  deadline: "2025-04-17"
-  abstract_deadline: "2025-04-10"
-  notification_date: "2025-07-15"
-  date: "2025-10-13"
-  place: Seoul, Republic of Korea
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Youjip Won, Youngjin Kwon
-  program_chair: Rebecca Isaacs, Ding Yuan
+  program_chair: 
 
 - name: SOSP
   description: ACM Symposium on Operating Systems Principles
   year: 2024
-  link: https://sigops.org/s/conferences/sosp/2024/
+  link: https://www.sosp2024.org/
   deadline: "2024-04-19"
   abstract_deadline: "2024-04-12"
-  notification_date: "2024-08-05"
+  notification_date: 
   date: "2024-11-04"
   place: Austin, TX, USA
   acceptance_rate: 
   num_submission: 
-  general_chair: Emmett Witchel, Christopher J. Rossbach
-  program_chair: Andrea Arpaci-Dusseau, Kimberly Keeton
+  general_chair: 
+  program_chair: 
 
 - name: SOSP
   description: ACM Symposium on Operating Systems Principles
   year: 2023
   link: https://sosp2023.mpi-sws.org/
   deadline: "2023-04-17"
-  abstract_deadline: "2023-04-10"
-  notification_date: "2023-07-16"
+  abstract_deadline: 
+  notification_date: 
   date: "2023-10-23"
   place: Koblenz, Germany
   acceptance_rate: 
   num_submission: 
-  general_chair: Peter Druschel, Antoine Kaufmann, Jonathan Mace
-  program_chair: Jason Flinn, Margo Seltzer
+  general_chair: 
+  program_chair: 
 
 - name: SOSP
   description: ACM Symposium on Operating Systems Principles
   year: 2021
-  link: https://sosp2021.mpi-sws.org
-  deadline: "2021-05-07"
-  abstract_deadline: "2021-04-30"
-  notification_date: "2021-08-09"
+  link: https://sosp2021.acm.org/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2021-10-25"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
-  general_chair: Vijay Chidambaram, Anthony D. Joseph
-  program_chair: Robbert van Renesse, Nickolai Zeldovich
+  general_chair: 
+  program_chair: 
 
 - name: SOSP
   description: ACM Symposium on Operating Systems Principles
   year: 2019
-  link: https://www.sigops.org/s/conferences/sosp/2019/program.html
-  deadline: "2019-04-24"
-  abstract_deadline: "2019-04-17"
-  notification_date: "2019-07-22"
+  link: https://sosp19.rcs.uwaterloo.ca/
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2019-10-27"
   place: Huntsville, Ontario, Canada
   acceptance_rate: 
   num_submission: 
-  general_chair: Tim Brecht, Carey Williamson
-  program_chair: Remzi H. Arpaci-Dusseau, Yuanyuan Zhou
+  general_chair: 
+  program_chair: 
 
 - name: SOSP
   description: ACM Symposium on Operating Systems Principles
   year: 2017
   link: https://www.sigops.org/sosp/sosp17/
-  deadline: "2017-04-21"
-  abstract_deadline: "2017-04-14"
-  notification_date: "2017-08-07"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2017-10-28"
   place: Shanghai, China
   acceptance_rate: 
   num_submission: 
-  general_chair: Haibo Chen, Lidong Zhou
-  program_chair: Lorenzo Alvisi, Peter Chen
+  general_chair: 
+  program_chair:   
 
-- name: SOSP
-  description: ACM Symposium on Operating Systems Principles
-  year: 2015
-  link: https://sigops.org/s/conferences/sosp/2015/website/index.html
-  deadline: "2015-03-26"
-  abstract_deadline: "2015-03-19"
-  notification_date: "2015-06-29"
-  date: "2015-10-04"
-  place: Monterey, CA, USA
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Ethan Miller
-  program_chair: Steven Hand
-
-- name: EuroSys
-  description: European Conference on Computer Systems
-  year: 2026
-  link: https://2026.eurosys.org
-  deadline: "2025-05-15"
-  abstract_deadline: "2025-05-08"
-  notification_date: "2025-08-22"
-  date: "2026-03-13"
-  place: Edinburgh, Scotland
-  note: Cycle 1/2
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Antonio Barbalace, Luo Mai
-  program_chair: Roxana Geambasu, Peter Pietzuch
-
-- name: EuroSys
-  description: European Conference on Computer Systems
-  year: 2026
-  link: https://2026.eurosys.org
-  deadline: "2025-09-25"
-  abstract_deadline: "2025-09-18"
-  notification_date: "2026-01-30"
-  date: "2026-03-13"
-  place: Edinburgh, Scotland
-  note: Cycle 2/2
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Antonio Barbalace, Luo Mai
-  program_chair: Roxana Geambasu, Peter Pietzuch
-
-- name: EuroSys
-  description: European Conference on Computer Systems
-  year: 2025
-  link: https://2025.eurosys.org
-  deadline: "2024-05-21"
-  abstract_deadline: "2024-05-14"
-  notification_date: "2024-08-21"
-  date: "2025-03-30"
-  place: Rotterdam, Netherlands
-  note: Cycle 1/2
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Cristiano Giuffrida, Kaitai Liang, Georgios Smaragdakis
-  program_chair: Julia Lawall, Haibo Chen 
-
-- name: EuroSys
-  description: European Conference on Computer Systems
-  year: 2025
-  link: https://2025.eurosys.org
-  deadline: "2024-10-22"
-  abstract_deadline: "2024-10-15"
-  notification_date: "2025-01-25"
-  date: "2025-03-30"
-  place: Rotterdam, Netherlands
-  note: Cycle 2/2
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Cristiano Giuffrida, Kaitai Liang, Georgios Smaragdakis
-  program_chair: Julia Lawall, Haibo Chen 
 
 - name: EuroSys
   description: European Conference on Computer Systems
   year: 2024
   link: https://2024.eurosys.org/
-  deadline: "2023-05-24"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2023-09-12"
+  notification_date: 
   date: "2024-04-22"
   place: Athens, Greece
-  note: Cycle 1/2
   acceptance_rate: 
   num_submission: 
-  general_chair: Vana Kalogeraki, Spyros Voulgaris
-  program_chair: Bianca Schroeder, Mark Silberstein
-
-- name: EuroSys
-  description: European Conference on Computer Systems
-  year: 2024
-  link: https://2024.eurosys.org/
-  deadline: "2023-10-19"
-  abstract_deadline: 
-  notification_date: "2024-03-07"
-  date: "2024-04-22"
-  place: Athens, Greece
-  note: Cycle 2/2
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Vana Kalogeraki, Spyros Voulgaris
-  program_chair: Bianca Schroeder, Mark Silberstein
+  general_chair: 
+  program_chair: 
 
 - name: EuroSys
   description: European Conference on Computer Systems
   year: 2023
   link: https://2023.eurosys.org/
-  deadline: "2022-05-18"
-  abstract_deadline: "2022-05-11"
-  notification_date: "2022-08-10"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2023-05-08"
   place: Rome, Italy
-  note: Cycle 1/2
   acceptance_rate: 
   num_submission: 
-  general_chair: Giuseppe Antonio Di Luna, Leonardo Querzoni
-  program_chair: Alexandra (Sasha) Fedorova, Dushyanth Narayanan
-
-- name: EuroSys
-  description: European Conference on Computer Systems
-  year: 2023
-  link: https://2023.eurosys.org/
-  deadline: "2022-10-19"
-  abstract_deadline: "2022-10-12"
-  notification_date: "2023-01-18"
-  date: "2023-05-08"
-  place: Rome, Italy
-  note: Cycle 2/2
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Giuseppe Antonio Di Luna, Leonardo Querzoni
-  program_chair: Alexandra (Sasha) Fedorova, Dushyanth Narayanan
+  general_chair: 
+  program_chair: 
 
 - name: EuroSys
   description: European Conference on Computer Systems
   year: 2022
   link: https://2022.eurosys.org/
-  deadline: "2021-10-09"
-  abstract_deadline: "2021-10-01"
-  notification_date: "2022-01-20"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2022-04-05"
   place: Rennes, France
   acceptance_rate: 
   num_submission: 
-  general_chair: David Bromberg
+  general_chair: 
   program_chair: 
 
 - name: EuroSys
   description: European Conference on Computer Systems
   year: 2021
   link: https://2021.eurosys.org/
-  deadline: "2020-10-09"
-  abstract_deadline: "2020-10-01"
-  notification_date: "2021-01-20"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2021-04-26"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
-  general_chair: Antonio Barbalace, Pramod Bhatotia
-  program_chair: Lorenzo Alvisi, Cristian Cadar
+  general_chair: 
+  program_chair: 
 
 - name: EuroSys
   description: European Conference on Computer Systems
   year: 2020
   link: https://2020.eurosys.org/
-  deadline: "2019-11-04"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2020-02-15"
+  notification_date: 
   date: "2020-04-27"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
-  general_chair: Angelos Bilas, Kostas Magoutis, Evangelos Markatos
-  program_chair: Dejan Kostic, Margo Seltzer
-
-- name: EuroSys
-  description: European Conference on Computer Systems
-  year: 2019
-  link: https://2019.eurosys.org
-  deadline: "2018-10-01"
-  abstract_deadline: "2018-09-24"
-  notification_date: "2018-12-21"
-  date: "2019-03-25"
-  place: Dresden, Germany
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Christof Fetzer
-  program_chair: George Candea, Robbert van Renesse
-
-- name: EuroSys
-  description: European Conference on Computer Systems
-  year: 2018
-  link: https://2018.eurosys.org
-  deadline: "2017-10-27"
-  abstract_deadline: "2017-10-20"
-  notification_date: "2018-01-22"
-  date: "2018-04-23"
-  place: Porto, Portugal
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Rui Oliveira
-  program_chair: Pascal Felber, Y. Charlie Hu
-
-- name: EuroSys
-  description: European Conference on Computer Systems
-  year: 2017
-  link: https://eurosys2017.github.io
-  deadline: "2016-10-21"
-  abstract_deadline: "2016-10-14"
-  notification_date: "2017-01-23"
-  date: "2017-04-23"
-  place: Belgrade, Serbia
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Marko Vukolić
-  program_chair: Gustavo Alonso, Ricardo Bianchini
-
-- name: EuroSys
-  description: European Conference on Computer Systems
-  year: 2016
-  link: http://eurosys16.doc.ic.ac.uk
-  deadline: "2015-10-23"
-  abstract_deadline: "2015-10-16"
-  notification_date: "2016-01-29"
-  date: "2016-04-18"
-  place: London, UK
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Cristian Cadar, Peter Pietzuch
-  program_chair: Kimberly Keeton, Rodrigo Rodrigues
-
-- name: EuroSys
-  description: European Conference on Computer Systems
-  year: 2015
-  link: https://eurosys2015.labri.fr
-  deadline: "2014-10-10"
-  abstract_deadline: "2014-10-03"
-  notification_date: "2015-01-23"
-  date: "2015-04-21"
-  place: Bordeaux, France
-  acceptance_rate: 
-  num_submission: 
-  general_chair: Laurent Réveillère
-  program_chair: Tim Harris, Maurice Herlihy
-
-- name: FAST
-  description: USENIX Conference on File and Storage Technologies
-  year: 2025
-  link: https://www.usenix.org/conference/fast25
-  deadline: "2024-09-17"
-  abstract_deadline: 
-  notification_date: "2024-12-06"
-  date: "2025-02-25"
-  place: Santa Clara, CA, USA
-  acceptance_rate: 
-  num_submission: 
   general_chair: 
-  program_chair: Haryadi Gunawi, Vasily Tarasov
+  program_chair: 
 
 - name: FAST
   description: USENIX Conference on File and Storage Technologies
   year: 2024
   link: https://www.usenix.org/conference/fast24
-  deadline: "2023-09-21"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2023-12-08"
+  notification_date: 
   date: "2024-02-27"
   place: Santa Clara, CA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Xiaosong Ma, Youjip Won
+  program_chair: 
 
 - name: FAST
   description: USENIX Conference on File and Storage Technologies
   year: 2023
   link: https://www.usenix.org/conference/fast23
-  deadline: "2022-09-22"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2022-12-09"
+  notification_date: 
   date: "2023-02-21"
   place: Santa Clara, CA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Ashvin Goel, Dalit Naor
+  program_chair: 
 
 - name: FAST
   description: USENIX Conference on File and Storage Technologies
   year: 2022
   link: https://www.usenix.org/conference/fast22
-  deadline: "2021-09-23"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2021-12-10"
+  notification_date: 
   date: "2022-02-22"
   place: Santa Clara, CA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Dean Hildebrand, Don Porter
+  program_chair: 
 
 - name: FAST
   description: USENIX Conference on File and Storage Technologies
   year: 2021
   link: https://www.usenix.org/conference/fast21
-  deadline: "2020-09-24"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2020-12-11"
+  notification_date: 
   date: "2021-02-23"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Marcos K. Aguilera, Gala Yadgar
-
-- name: FAST
-  description: USENIX Conference on File and Storage Technologies
-  year: 2020
-  link: https://www.usenix.org/conference/fast20
-  deadline: "2019-09-26"
-  abstract_deadline: 
-  notification_date: "2019-12-11"
-  date: "2020-02-24"
-  place: Santa Clara, CA, USA
-  acceptance_rate: 
-  num_submission: 
-  general_chair: 
-  program_chair: Sam H. Noh, Brent Welch
-
-- name: FAST
-  description: USENIX Conference on File and Storage Technologies
-  year: 2019
-  link: https://www.usenix.org/conference/fast19
-  deadline: "2018-09-26"
-  abstract_deadline: 
-  notification_date: "2018-12-11"
-  date: "2019-02-25"
-  place: Boston, MA, USA
-  acceptance_rate: 
-  num_submission: 
-  general_chair: 
-  program_chair: Arif Merchant, Hakim Weatherspoon
-
-- name: FAST
-  description: USENIX Conference on File and Storage Technologies
-  year: 2018
-  link: https://www.usenix.org/conference/fast18
-  deadline: "2017-09-28"
-  abstract_deadline: 
-  notification_date: "2017-12-11"
-  date: "2018-02-12"
-  place: Oakland, CA, USA
-  acceptance_rate: 
-  num_submission: 
-  general_chair: 
-  program_chair: Nitin Agrawal, Raju Rangaswami
-
-- name: USENIX ATC
-  description: USENIX Annual Technical Conference
-  year: 2025
-  link: https://www.usenix.org/conference/atc25
-  deadline: "2025-01-14"
-  abstract_deadline: "2025-01-07"
-  notification_date: "20205-04-25"
-  date: "2025-07-07"
-  place: Boston, MA, USA
-  acceptance_rate: 
-  num_submission: 
-  general_chair: 
-  program_chair: Deniz Altınbüken, Ryan Stutsman
+  program_chair: 
 
 - name: USENIX ATC
   description: USENIX Annual Technical Conference
   year: 2024
   link: https://www.usenix.org/conference/atc24
-  deadline: "2024-01-16"
-  abstract_deadline: "2024-01-09"
-  notification_date: "2024-04-30"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2024-07-10"
   place: Santa Clara, CA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Saurabh Bagchi, Yiying Zhang
+  program_chair: 
 
 - name: USENIX ATC
   description: USENIX Annual Technical Conference
   year: 2023
   link: https://www.usenix.org/conference/atc23
-  deadline: "2023-01-12"
-  abstract_deadline: "2023-01-05"
-  notification_date: "2023-04-28"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2023-07-10"
   place: Boston, MA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Julia Lawall, Dan Williams
+  program_chair: 
 
 - name: USENIX ATC
   description: USENIX Annual Technical Conference
   year: 2022
   link: https://www.usenix.org/conference/atc22
-  deadline: "2022-01-13"
-  abstract_deadline: "2022-01-06"
-  notification_date: "2022-04-29"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2022-07-11"
   place: Carlsbad, CA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Jiri Schindler, Noa Zilberman
+  program_chair: 
 
 - name: USENIX ATC
   description: USENIX Annual Technical Conference
   year: 2021
   link: https://www.usenix.org/conference/atc21
-  deadline: "2021-01-12"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2021-04-26"
+  notification_date: 
   date: "2021-07-14"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Irina Calciu, Geoff Kuenning
+  program_chair: 
 
 - name: USENIX ATC
   description: USENIX Annual Technical Conference
   year: 2020
   link: https://www.usenix.org/conference/atc20
-  deadline: "2020-01-15"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2020-04-24"
+  notification_date: 
   date: "2020-07-15"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Ada Gavrilovska, Erez Zadok
+  program_chair: 
 
 - name: USENIX ATC
   description: USENIX Annual Technical Conference
   year: 2019
   link: https://www.usenix.org/conference/atc19
-  deadline: "2019-01-10"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2019-04-16"
+  notification_date: 
   date: "2019-07-10"
   place: Renton, WA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Dahlia Malkhi, Dan Tsafrir
+  program_chair: 
 
 - name: USENIX ATC
   description: USENIX Annual Technical Conference
   year: 2018
   link: https://www.usenix.org/conference/atc18
-  deadline: "2018-02-06"
-  abstract_deadline: "2018-01-30"
-  notification_date: "2018-04-18"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2018-07-11"
   place: Boston, MA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Haryadi Gunawi, Benjamin Reed
+  program_chair: 
 
 - name: USENIX ATC
   description: USENIX Annual Technical Conference
   year: 2017
   link: https://www.usenix.org/conference/atc17
-  deadline: "2017-02-07"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2017-04-21"
+  notification_date: 
   date: "2017-07-12"
   place: Santa Clara, CA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Dilma Da Silva, Bryan Ford
+  program_chair: 
 
 - name: USENIX ATC
   description: USENIX Annual Technical Conference
   year: 2016
   link: https://www.usenix.org/conference/atc16
-  deadline: "2016-02-01"
+  deadline: 
   abstract_deadline: 
-  notification_date: "2016-04-15"
+  notification_date: 
   date: "2016-06-22"
   place: Denver, CO, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Ajay Gulati, Hakim Weatherspoon
+  program_chair: 
 
 - name: USENIX ATC
   description: USENIX Annual Technical Conference
   year: 2015
   link: https://www.usenix.org/conference/atc15
-  deadline: "2015-02-03"
-  abstract_deadline: "2015-01-27"
-  notification_date: "2015-04-16"
+  deadline: 
+  abstract_deadline: 
+  notification_date: 
   date: "2015-07-08"
   place: Santa Clara, CA, USA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: Shan Lu, Erik Riedel
+  program_chair: 
         
 
 ## Software Engineering
-
 - name: ASE
   description: Automated Software Engineering
   year: 2025
@@ -7309,9 +6636,7 @@
   description: Automated Software Engineering
   year: 2024
   link: https://conf.researchr.org/home/ase-2024
-  deadline: "2024-06-07"
-  abstract_deadline: "2024-05-31"
-  notification_date: "2024-07-22"
+  deadline: "2024-05-31"
   note: 
   date: "2024-10-27"
   place: Sacramento, CA
@@ -7324,9 +6649,7 @@
   description: Automated Software Engineering
   year: 2023
   link: https://conf.researchr.org/home/ase-2023
-  deadline: "2023-05-05"
-  abstract_deadline: "2023-04-28"
-  notification_date: "2023-07-17"
+  deadline: "2023-05-31"
   note: 
   date: "2023-09-11"
   place: Luxembourg
@@ -7339,9 +6662,7 @@
   description: Automated Software Engineering
   year: 2022
   link: https://conf.researchr.org/home/ase-2022
-  deadline: "2022-05-06"
-  abstract_deadline: "2022-04-29"
-  notification_date: "2022-07-20"
+  deadline: "2022-05-31"
   note: 
   date: "2022-10-10"
   place: Oakland Center, MI
@@ -7354,11 +6675,9 @@
   description: Automated Software Engineering
   year: 2021
   link: https://conf.researchr.org/home/ase-2021
-  deadline: "2021-04-23"
-  abstract_deadline: "2021-04-16"
-  notification_date: "2021-07-07"
+  deadline: "2021-04-16"
   note: Virtual conference
-  date: "2021-11-14"
+  date: "2021-11-15"
   place: Melbourne, Australia
   acceptance_rate:
   num_submission:
@@ -7369,9 +6688,7 @@
   description: Automated Software Engineering
   year: 2020
   link: https://conf.researchr.org/home/ase-2020
-  deadline: "2020-05-08"
-  abstract_deadline: "2020-05-01"
-  notification_date: "2020-07-31"
+  deadline: "2020-04-15"
   note: Virtual conference
   date: "2020-09-21"
   place: Melbourne, Australia
@@ -7384,75 +6701,81 @@
   description: Automated Software Engineering
   year: 2019
   link: https://2019.ase-conferences.org/
-  deadline: "2019-05-13"
-  abstract_deadline: "2019-05-06"
-  notification_date: "2019-08-05"
+  deadline: "2019-04-15"
   note: 
-  date: "2019-11-10"
+  date: "2019-11-11"
   place: San Diego, CA
   acceptance_rate:
   num_submission:
-  general_chair: Thomas Zimmermann
-  program_chair: Julia Lawall, Darko Marinov 
 
 - name: ASE
   description: Automated Software Engineering
   year: 2018
-  link: http://ase2018.com
-  deadline: "2018-04-26"
-  abstract_deadline: "2018-04-19"
-  notification_date: "2018-07-03"
+  link: https://www.ase2018.com/
+  deadline: "2018-04-15"
   note: 
   date: "2018-09-03"
   place: Montpellier, France
   acceptance_rate:
   num_submission:
-  general_chair: Marianne Huchard
-  program_chair: Christian Kästner, Gordon Fraser
 
 - name: ASE
   description: Automated Software Engineering
   year: 2017
   link: https://www.se.cs.uni-saarland.de/conferences/ASE/ase2017/index.html
-  deadline: "2017-05-12"
-  abstract_deadline: "2017-05-05"
-  notification_date: "2017-07-21"
+  deadline: "2017-04-15"
   note: 
   date: "2017-10-30"
   place: Urbana-Champaign, IL
   acceptance_rate:
   num_submission:
-  general_chair: Grigore Rosu
-  program_chair: Massimiliano Di Penta, Tien N. Nguyen
+
+- name: ASE
+  description: Automated Software Engineering
+  year: 2016
+  link: https://www.ase2016.org/
+  deadline: "2016-04-15"
+  note: 
+  date: "2016-09-03"
+  place: Singapore
+  acceptance_rate:
+  num_submission:
+
+- name: ASE
+  description: Automated Software Engineering
+  year: 2015
+  link: https://www.ase2015.org/
+  deadline: "2015-04-15"
+  note: 
+  date: "2015-11-09"
+  place: Lincoln, NE
+  acceptance_rate:
+  num_submission:
 
 - name: FSE
   description: Foundations of Software Engineering
   year: 2026
   link: https://conf.researchr.org/home/fse-2026
   deadline: "2025-09-11"
-  abstract_deadline: "2025-09-04"
   notification_date: "2025-12-22"
-  note: 
+  note: "Abstract deadline: 2025-09-04"
   date: "2026-07-05"
   place: Montreal, Canada
+  program_chair: Julia Lawall, Christoph Treude
   acceptance_rate:
   num_submission:
-  general_chair: Foutse Khomh, Shin Hwei Tan
-  program_chair: Julia Lawall, Christoph Treude
 
 - name: FSE
   description: Foundations of Software Engineering
   year: 2025
   link: https://conf.researchr.org/home/fse-2025
   deadline: "2024-09-12"
-  abstract_deadline: "2024-09-05"
   notification_date: "2025-01-14"
-  note: 
+  note: "Paper Registration: 2024-09-04"
   date: "2025-06-23"
   place: Trondheim, Norway
   acceptance_rate:
   num_submission:
-  general_chair: Jingyue Li
   program_chair: Denys Poshyvanyk, Dongmei Zhang
 
 - name: FSE
@@ -7460,14 +6783,12 @@
   year: 2024
   link: https://conf.researchr.org/home/fse-2024
   deadline: "2023-09-28"
-  abstract_deadline: "2023-09-21"
   notification_date: "2024-01-23"
-  note: 
+  note: "Paper Registration: 2023-09-21"
   date: "2024-07-15"
   place: Porto de Galinhas, Brazil
   acceptance_rate:
   num_submission:
-  general_chair: Marcelo d'Amorim
   program_chair: David Lo, Lin Tan
 
 - name: FSE
@@ -7475,29 +6796,23 @@
   year: 2023
   link: https://conf.researchr.org/home/fse-2023
   deadline: "2023-02-02"
-  abstract_deadline: "2023-01-26"
-  notification_date: "2023-05-04"
   note: 
   date: "2023-12-03"
   place: San Francisco, CA
   acceptance_rate:
   num_submission:
-  general_chair: Satish Chandra
-  program_chair: Kelly Blincoe, Paolo Tonella
+  program_chair: Kelly Blincoe, Paolo Tonella 
 
 - name: FSE
   description: Foundations of Software Engineering
   year: 2022
   link: https://conf.researchr.org/home/fse-2022
   deadline: "2022-03-17"
-  abstract_deadline: "2022-03-10"
-  notification_date: "2022-06-14"
   note: 
-  date: "2022-11-14"
+  date: "2022-11-18"
   place: Singapore
   acceptance_rate:
   num_submission:  
-  general_chair: Abhik Roychoudhury
   program_chair: Cristian Cadar, Miryung Kim
 
 - name: FSE
@@ -7505,13 +6820,11 @@
   year: 2021
   link: https://2021.esec-fse.org/
   deadline: "2021-02-25"
-  notification_date: "2021-05-21"
   note: Virtual conference
-  date: "2021-08-19"
+  date: "2021-08-23"
   place: Virtual
   acceptance_rate: 24.5%
   num_submission: 407
-  general_chair: Diomidis Spinellis, Georgios Gousios
   program_chair: Marsha Chechik, Massimiliano Di Penta
 
 - name: FSE
@@ -7519,82 +6832,68 @@
   year: 2020
   link: https://2020.esec-fse.org/
   deadline: "2020-03-05"
-  notification_date: "2020-05-21"
   note: Virtual conference
-  date: "2020-11-06"
+  date: "2020-11-08"
   place: Virtual
   acceptance_rate:
   num_submission:
-  general_chair: Prem Devanbu
   program_chair: Myra Cohen, Thomas Zimmermann
 
 - name: FSE
   description: Foundations of Software Engineering
   year: 2019
-  link: https://esec-fse19.ut.ee
-  deadline: "2019-02-20"
-  notification_date: "2019-05-27"
+  link: https://conf.researchr.org/home/fse-2019
+  deadline: "2019-03-14"
   note:
   date: "2019-08-26"
   place: Tallinn, Estonia
   acceptance_rate:
   num_submission:
-  general_chair: Marlon Dumas, Dietmar Pfahl
-  program_chair: Sven Apel, Alessandra Russo
 
 - name: FSE
   description: Foundations of Software Engineering
   year: 2018
   link: https://conf.researchr.org/home/fse-2018
-  deadline: "2018-03-09"
-  notification_date: "2018-06-11"
+  deadline: "2018-03-15"
   note:
   date: "2018-11-04"
   place: Lake Buena Vista, FL
   acceptance_rate:
   num_submission:
-  general_chair: Gary T. leavens
-  program_chair: Corina S. Păsăreanu, Alessandro Garcia
+  program_chair: Alessandro Garcia, Corina S. Păsăreanu, 
 
 - name: FSE
   description: Foundations of Software Engineering
   year: 2017
-  link: http://esec-fse17.uni-paderborn.de
-  deadline: "2017-02-27"
-  notification_date: "2017-06-02"
+  link: https://conf.researchr.org/home/fse-2017
+  deadline: "2017-03-16"
   note:
   date: "2017-09-04"
   place: Paderborn, Germany
   acceptance_rate:
   num_submission:
-  general_chair: Eric Bodden, Wilhelm Schäfer
-  program_chair: Arie van Deursen, Andrea Zisman
 
 - name: FSE
   description: Foundations of Software Engineering
   year: 2016
   link: https://conf.researchr.org/home/fse-2016
-  deadline: "2016-03-11"
+  deadline: "2016-03-17"
   note:
   date: "2016-11-13"
   place: Seattle, WA
   acceptance_rate:
   num_submission:
 
-- name: ICSE
-  description: International Conference on Software Engineering
-  year: 2026
-  link: https://conf.researchr.org/home/icse-2026
-  deadline: "2025-03-14"
-  abstract_deadline: "2025-03-07"
-  notification_date: "2025-07-20"
-  date: "2026-04-12"
-  place: Rio De Janeiro, Brazil
-  note: Cycle 1/2
+- name: FSE
+  description: Foundations of Software Engineering
+  year: 2015
+  link: https://conf.researchr.org/home/fse-2015
+  deadline: "2015-03-12"
+  note:
+  date: "2015-08-30"
+  place: Bergamo, Italy
   acceptance_rate:
   num_submission:
-  general_chair: Marcos Kalinowski, Rafael Prikladnicki
-  program_chair: Mira Mezini, Thomas Zimmermann
 
 - name: ICSE
   description: International Conference on Software Engineering
@@ -7602,59 +6901,40 @@
   link: https://conf.researchr.org/home/icse-2026
   abstract_deadline: "2025-07-11"
   deadline: "2025-07-18"
-  abstract_deadline: "2025-07-11"
   notification_date: "2025-10-17"
+  note: Cycle 2/2
   date: "2026-04-12"
   place: Rio De Janeiro, Brazil
-  note: Cycle 2/2
-  general_chair: Marcos Kalinowski, Rafael Prikladnicki
-  program_chair: Mira Mezini, Thomas Zimmermann
+  acceptance_rate:
+  num_submission:
+  program_chair: Thomas Zimmermann
 
 - name: ICSE
   description: International Conference on Software Engineering
-  year: 2025
-  link: https://conf.researchr.org/home/icse-2025
-  deadline: "2024-03-22"
-  abstract_deadline: "2024-03-15"
-  notification_date: "2024-07-05"
+  year: 2026
+  link: https://conf.researchr.org/home/icse-2026
+  deadline: "2025-03-14"
+  abstract_deadline: "2025-03-07"
+  notification_date: "2025-06-20"
   note: Cycle 1/2
-  date: "2025-04-27"
-  place: Ontario, Canada
+  date: "2026-04-12"
+  place: Rio De Janeiro, Brazil
   acceptance_rate:
   num_submission:
-  general_chair: Lionel Briand, Timothy Lethbridge
-  program_chair: Corina S. Păsăreanu, David Lo
-
   program_chair: Thomas Zimmermann
+
 
 - name: ICSE
   description: International Conference on Software Engineering
   year: 2025
   link: https://conf.researchr.org/home/icse-2025
   deadline: "2024-08-02"
-  abstract_deadline: "2024-07-26"
-  notification_date: "2024-11-01"
   note: Cycle 2/2
   date: "2025-04-27"
   place: Ontario, Canada
   acceptance_rate:
   num_submission:
-  general_chair: Lionel Briand, Timothy Lethbridge
-  program_chair: Corina S. Păsăreanu, David Lo
-
-- name: ICSE
-  description: International Conference on Software Engineering
-  year: 2024
-  link: https://conf.researchr.org/home/icse-2024
-  deadline: "2023-03-29"
-  notification_date: "2023-06-02"
-  date: "2024-04-14"
-  place: Lisbon, Portugal
-  note: Cycle 1/2
-  acceptance_rate:
-  num_submission:
-  general_chair: Rui Abreu, Ana Paiva
-  program_chair: Margaret-Anne Storey, Abhik Roychoudhury
+  program_chair:
 
 
 - name: ICSE
@@ -7662,43 +6942,33 @@
   year: 2024
   link: https://conf.researchr.org/home/icse-2024
   deadline: "2023-08-01"
-  notification_date: "2023-10-10"
-  date: "2024-04-14"
+  note:
+  date: "2024-04-12"
   place: Lisbon, Portugal
-  note: Cycle 2/2
   acceptance_rate:
   num_submission:
-  general_chair: Rui Abreu, Ana Paiva
-  program_chair: Margaret-Anne Storey, Abhik Roychoudhury
 
 - name: ICSE
   description: International Conference on Software Engineering
   year: 2023
   link: https://conf.researchr.org/home/icse-2023
-  deadline: "2022-09-01"
-  notification_date: "2022-12-09"
+  deadline: "2022-08-01"
   note:
   date: "2023-05-14"
   place: Melbourne, Australia
   acceptance_rate:
   num_submission:
-  general_chair: John Grundy
-  program_chair: Lory Pollock, Massimiliano Di Penta
 
 - name: ICSE
   description: International Conference on Software Engineering
   year: 2022
   link: https://conf.researchr.org/home/icse-2022
-  deadline: "2021-09-03"
-  abstract_deadline: "2021-07-27"
-  notification_date: "2021-12-03"
+  deadline: "2021-08-01"
   note:
-  date: "2022-05-22"
+  date: "2022-05-21"
   place: Pittsburgh, PA
   acceptance_rate:
   num_submission:
-  general_chair: Matthew B. Dwyer
-  program_chair: Daniela Damian, Andreas Zeller
 
 - name: ICSE
   description: International Conference on Software Engineering

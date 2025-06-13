@@ -9080,77 +9080,100 @@
   year: 2024
   link: https://conferences.sigcomm.org/imc/2024/
   deadline: "2024-05-15"
+  abstract_deadline: "2024-05-08"
+  notification_date: "2024-07-31"
   note: 
   date: "2024-11-04"
   place: Madrid, Spain
   acceptance_rate:
   num_submission:
+  general_chair: Narseo Vallina-Rodriguez, Guillermo Suarez-Tangil
+  program_chair: Dave Levin, Cristel Pelsser
 
 - name: IMC
   description: ACM Internet Measurement Conference
   year: 2023
   link: https://conferences.sigcomm.org/imc/2023/
   deadline: "2023-05-26"
-  note: "Abstract deadline: 2023-05-20"
+  abstract_deadline: "2023-05-20"
+  notification_date: "2023-08-18"
   date: "2023-10-24"
   place: Montreal, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Marie-José Montpetit, Aris Leivadeas
+  program_chair: Steve Uhlig, Mobin Javed
 
 - name: IMC
   description: ACM Internet Measurement Conference
   year: 2022
   link: https://conferences.sigcomm.org/imc/2022/
   deadline: "2022-05-18"
-  note: "Abstract deadline: 2022-05-11"
+  abstract_deadline: "2022-05-11"
+  notification_date: "2022-08-19"
   date: "2022-10-25"
   place: Nice, France
   acceptance_rate:
   num_submission:
+  general_chair: Chadi Barakat, Cristel Pelsser
+  program_chair: Theophilus Benson, David Choffnes
 
 - name: IMC
   description: ACM Internet Measurement Conference
   year: 2021
   link: https://conferences.sigcomm.org/imc/2021/
   deadline: "2021-05-26"
-  note: "Abstract deadline: 2021-05-19"
+  abstract_deadline: "2021-05-19"
+  notification_date: "2021-08-18"
   date: "2021-11-02"
   place: Virtual Conference
   acceptance_rate:
   num_submission:
+  general_chair: Dave Levin, Alan Mislove
+  program_chair: Johanna Amann, Matthew Luckie
 
 - name: IMC
   description: ACM Internet Measurement Conference
   year: 2020
   link: https://conferences.sigcomm.org/imc/2020/
   deadline: "2020-05-26"
-  note: "Abstract deadline: 2020-05-19"
+  abstract_deadline: "2020-05-19"
+  notification_date: "2020-08-12"
   date: "2020-10-27"
   place: Pittsburgh, PA
   acceptance_rate:
   num_submission:
+  general_chair: Nicolas Christin, Konstantinos Pelechrinis, Vyas Sekar 
+  program_chair: Fabián Bustamante, Nick Feamster
 
 - name: IMC
   description: ACM Internet Measurement Conference
   year: 2019
   link: https://conferences.sigcomm.org/imc/2019/
   deadline: "2019-05-13"
-  note: "Abstract deadline: 2019-05-06"
+  abstract_deadline: "2019-05-06"
+  notification_date: "2019-07-19"
   date: "2019-10-21"
   place: Amsterdam, Netherlands
   acceptance_rate:
   num_submission:
+  general_chair: Anna Sperotto, Roland van Rijswijk-Deij, Cristian Hesselman
+  program_chair: Phillipa Gill, Robert Beverly
 
 - name: IMC
   description: ACM Internet Measurement Conference
   year: 2018
   link: https://conferences.sigcomm.org/imc/2018/
   deadline: "2018-05-18"
+  abstract_deadline: "2018-05-25"
+  notification_date: "2018-07-31"
   note: "Abstract deadline: 2018-05-11"
   date: "2018-10-31"
   place: Boston, MA
   acceptance_rate:
   num_submission:
+  general_chair: Alan Mislove, David Choffnes, Christo Wilson
+  program_chair: Ben Y. Zhao, Ethan Katz-Bassett
 
 - name: IMC
   description: ACM Internet Measurement Conference
@@ -9167,12 +9190,15 @@
   description: ACM Internet Measurement Conference
   year: 2016
   link: https://conferences.sigcomm.org/imc/2016/
-  deadline: "2016-05-12"
-  note: "Abstract deadline: 2016-05-05"
+  deadline: "2016-05-18"
+  abstract_deadline: "2016-05-11"
+  notification_date: "2016-07-31"
   date: "2016-11-14"
   place: Santa Monica, CA
   acceptance_rate:
   num_submission:
+  general_chair: Steve Uhlig, Olaf Maennel
+  program_chair: Renata Cruz, Geoffrey M. Voelker 
 
 
 # CORE
@@ -9188,8 +9214,8 @@
   place: Las Vegas, NV
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair:
+  general_chair: Johannes Doerfert, Tobias Grosser
+  program_chair: Hugh Leather, Saday Sadayappan
 
 - name: CGO
   description: IEEE/ACM International Symposium on Code Generation and Optimization
@@ -9203,8 +9229,8 @@
   place: Las Vegas, NV
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Johannes Doerfert, Tobias Grosser
+  program_chair: Hugh Leather, Saday Sadayappan
 
 - name: CGO
   description: IEEE/ACM International Symposium on Code Generation and Optimization
@@ -9212,130 +9238,156 @@
   link: https://conf.researchr.org/home/cgo-2024
   deadline: "2023-05-19"
   abstract_deadline: 
-  notification_date: "2023-07-17"
+  notification_date: "2023-07-31"
   date: "2024-03-02"
   place: Edinburgh, United Kingdom
+  note: Cycle 1/2
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Tobias Grosser, Christophe Dubach
+  program_chair: Miichael Steuwer, Jingling Xue
+
+
+- name: CGO
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  year: 2024
+  link: https://conf.researchr.org/home/cgo-2024
+  deadline: "2023-09-01"
+  abstract_deadline: 
+  notification_date: "2023-11-06"
+  date: "2024-03-02"
+  place: Edinburgh, United Kingdom
+  note: Cycle 2/2
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Tobias Grosser, Christophe Dubach
+  program_chair: Guilherme Ottoni, Fernando Magno Quintao Pereira
+
 - name: CGO
   description: IEEE/ACM International Symposium on Code Generation and Optimization
   year: 2023
   link: https://conf.researchr.org/home/cgo-2023
-  deadline: 
+  deadline: "2022-09-02"
   abstract_deadline: 
-  notification_date: 
+  notification_date: "2022-11-07"
   date: "2023-02-25"
   place: Montreal, Canada
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Christophe Dubach
+  program_chair: Derek Bruening, Ben Hardekopf
+
 - name: CGO
   description: IEEE/ACM International Symposium on Code Generation and Optimization
   year: 2022
   link: https://conf.researchr.org/home/cgo-2022
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2021-09-03"
+  abstract_deadline: "2021-08-27"
+  notification_date: "2021-11-05"
   date: "2022-04-02"
   place: Seoul, South Korea (Virtual Conference)
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Jae W. Lee
+  program_chair: Sebastian Hack, Tatiana Shpeisman
+
 - name: CGO
   description: IEEE/ACM International Symposium on Code Generation and Optimization
   year: 2021
   link: https://conf.researchr.org/home/cgo-2021
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2020-09-01"
+  abstract_deadline: "2020-08-25"
+  notification_date: "2020-11-05"
   date: "2021-02-27"
   place: Virtual Conference
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Jae W. Lee
+  program_chair:  Mary Lou Soffa, Ayal Zaks
+
 - name: CGO
   description: IEEE/ACM International Symposium on Code Generation and Optimization
   year: 2020
   link: https://cgo-conference.github.io/cgo2020/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2020-09-06"
+  abstract_deadline: "2020-08-30"
+  notification_date: "2020-10-22"
   date: "2020-02-22"
   place: San Diego, CA
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Jason Mars, Lingjia Tang
+  program_chair: Jingling Xue, Peng Wu
+  
 - name: CGO
   description: IEEE/ACM International Symposium on Code Generation and Optimization
   year: 2019
   link: https://cgo.org/cgo2019/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2018-09-07"
+  abstract_deadline: "2018-08-31"
+  notification_date: "2018-10-30"
   date: "2019-02-16"
   place: Washington, DC
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Mahmut Taylan Kandemir
+  program_chair: Alexandra Jimborean, Tipp Moseley
+  
 - name: CGO
   description: IEEE/ACM International Symposium on Code Generation and Optimization
   year: 2018
   link: https://cgo.org/cgo2018/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2017-09-15"
+  abstract_deadline: "2017-09-08"
+  notification_date: "2017-10-31"
   date: "2018-02-24"
   place: Vienna, Austria
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Jens Knoop, Markus Schordan
+  program_chair: Teresa Johnson, Michael O'Boyle
+
 - name: CGO
   description: IEEE/ACM International Symposium on Code Generation and Optimization
   year: 2017
   link: https://cgo.org/cgo2017/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2016-09-13"
+  abstract_deadline: "2016-09-02"
+  notification_date: "2016-10-25"
   date: "2017-02-04"
   place: Austin, TX
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Vijay Janapa Reddi
+  program_chair: Aaron Smith, Lingjia Tang
+
 - name: CGO
   description: IEEE/ACM International Symposium on Code Generation and Optimization
   year: 2016
   link: https://cgo.org/cgo2016/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2015-09-18"
+  abstract_deadline: "2015-09-12"
+  notification_date: "2015-11-08"
   date: "2016-03-12"
   place: Barcelona, Spain
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Bjoern Franke
+  program_chair: Youfeng Wu, Fabrice Rastello
+
 - name: CGO
   description: IEEE/ACM International Symposium on Code Generation and Optimization
   year: 2015
   link: https://cgo.org/cgo2015/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
-  date: "2015-02-07"
+  deadline: "2014-09-12"
+  abstract_deadline: "2014-09-05"
+  notification_date: "2014-10-01"
+  date: "2015-02-09"
   place: San Francisco, CA
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Natalie Enright Jerger
 
 # Interdisciplinary Areas
 
@@ -9345,23 +9397,23 @@
   description: Intelligent Systems for Molecular Biology
   year: 2024
   link: https://www.iscb.org/ismb2024/home
-  deadline: "2024-01-25"
+  deadline: "2024-04-22"
   abstract_deadline: "2024-04-19"
-  notification_date:
+  notification_date: "2024-05-13"
   date: "2024-07-12"
   place: Montreal, Canada
   acceptance_rate:
   num_submission:
   general_chair:
-  program_chair:
+  program_chair: Aïda Ouangraoua, Karin Verspoor
 
 - name: ISMB/ECCB
   description: Intelligent Systems for Molecular Biology / European Conference on Computational Biology
   year: 2023
   link: https://www.iscb.org/ismbeccb2023
-  deadline:
-  abstract_deadline:
-  notification_date:
+  deadline: "2023-05-04"
+  abstract_deadline: 
+  notification_date: "2023-05-25"
   date: "2023-07-23"
   place: Lyon, France
   acceptance_rate:
@@ -9373,9 +9425,9 @@
   description: Intelligent Systems for Molecular Biology
   year: 2022
   link: https://www.iscb.org/ismb2022
-  deadline:
+  deadline: "2022-05-05"
   abstract_deadline:
-  notification_date:
+  notification_date: "2022-05-26"
   date: "2022-07-10"
   place: Madison, WI, USA
   acceptance_rate:
@@ -9387,9 +9439,9 @@
   description: Intelligent Systems for Molecular Biology / European Conference on Computational Biology
   year: 2021
   link: https://www.iscb.org/ismbeccb2021
-  deadline:
+  deadline: "2021-05-31"
   abstract_deadline:
-  notification_date:
+  notification_date: "2021-06-03"
   date: "2021-07-25"
   place: Virtual Conference
   acceptance_rate:
@@ -9401,10 +9453,10 @@
   description: Intelligent Systems for Molecular Biology
   year: 2020
   link: https://www.iscb.org/ismb2020
-  deadline:
+  deadline: "2020-05-07"
   abstract_deadline:
-  notification_date:
-  date: "2020-07-12"
+  notification_date: "2020-05-28"
+  date: "2020-07-13"
   place: Virtual Conference
   acceptance_rate:
   num_submission:
@@ -9415,9 +9467,9 @@
   description: Intelligent Systems for Molecular Biology / European Conference on Computational Biology
   year: 2019
   link: https://www.iscb.org/ismbeccb2019
-  deadline:
+  deadline: "2019-05-11"
   abstract_deadline:
-  notification_date:
+  notification_date: "2019-05-30"
   date: "2019-07-21"
   place: Basel, Switzerland
   acceptance_rate:
@@ -9429,9 +9481,9 @@
   description: Intelligent Systems for Molecular Biology
   year: 2018
   link: https://www.iscb.org/ismb2018
-  deadline:
+  deadline: "2018-05-10"
   abstract_deadline:
-  notification_date:
+  notification_date: "2018-05-31"
   date: "2018-07-06"
   place: Chicago, IL, USA
   acceptance_rate:
@@ -9443,9 +9495,9 @@
   description: Intelligent Systems for Molecular Biology / European Conference on Computational Biology
   year: 2017
   link: https://www.iscb.org/ismbeccb2017
-  deadline:
+  deadline: "2017-05-20"
   abstract_deadline:
-  notification_date:
+  notification_date: "2017-05-31"
   date: "2017-07-21"
   place: Prague, Czech Republic
   acceptance_rate:
@@ -9457,9 +9509,9 @@
   description: Intelligent Systems for Molecular Biology
   year: 2016
   link: https://www.iscb.org/ismb2016
-  deadline:
+  deadline: "2016-05-20"
   abstract_deadline:
-  notification_date:
+  notification_date: " 2016-05-31"
   date: "2016-07-08"
   place: Orlando, FL, USA
   acceptance_rate:
@@ -9471,9 +9523,9 @@
   description: Intelligent Systems for Molecular Biology / European Conference on Computational Biology
   year: 2015
   link: https://www.iscb.org/ismbeccb2015
-  deadline:
+  deadline: "2015-06-05"
   abstract_deadline:
-  notification_date:
+  notification_date: "2015-06-05"
   date: "2015-07-10"
   place: Dublin, Ireland
   acceptance_rate:
@@ -9485,51 +9537,51 @@
   description: Research in Computational Molecular Biology
   year: 2024
   link: https://recomb.org/recomb2024/
-  deadline:
-  abstract_deadline:
-  notification_date:
+  deadline: "2023-11-03"
+  abstract_deadline: "2023-10-23"
+  notification_date: "2024-03-12"
   date: "2024-04-29"
   place: Cambridge, MA, USA
   acceptance_rate:
   num_submission:
-  general_chair:
-  program_chair:
+  general_chair: 
+  program_chair: Jian Ma
 
 - name: RECOMB
   description: Research in Computational Molecular Biology
   year: 2023
   link: https://recomb2023.bilkent.edu.tr/
-  deadline:
-  abstract_deadline:
-  notification_date:
+  deadline: "2022-10-14"
+  abstract_deadline: "2022-10-07"
+  notification_date: "2022-11-20"
   date: "2023-04-16"
   place: Istanbul, Turkey
   acceptance_rate:
   num_submission:
   general_chair:
-  program_chair:
+  program_chair: Haixu Tang
 
 - name: RECOMB
   description: Research in Computational Molecular Biology
   year: 2022
-  link: https://recomb2022.org/
-  deadline:
-  abstract_deadline:
-  notification_date:
+  link: https://recomb.org/recomb2022/index.html
+  deadline: "2021-11-04"
+  abstract_deadline: "2021-11-04"
+  notification_date: "2022-04-01"
   date: "2022-05-22"
   place: La Jolla, CA, USA
   acceptance_rate:
   num_submission:
   general_chair:
-  program_chair:
+  program_chair: Itsik Pe’er
 
 - name: RECOMB
   description: Research in Computational Molecular Biology
   year: 2021
   link: https://recomb2021.org/
-  deadline:
-  abstract_deadline:
-  notification_date:
+  deadline: "2020-10-30"
+  abstract_deadline: 
+  notification_date: "2020-12-18"
   date: "2021-04-19"
   place: Virtual Conference
   acceptance_rate:
@@ -9539,87 +9591,73 @@
 
 - name: RECOMB
   description: Research in Computational Molecular Biology
-  year: 2020
-  link: https://recomb2020.org/
-  deadline:
-  abstract_deadline:
-  notification_date:
-  date: "2020-05-10"
-  place: Padua, Italy
-  acceptance_rate:
-  num_submission:
-  general_chair:
-  program_chair:
-
-- name: RECOMB
-  description: Research in Computational Molecular Biology
   year: 2019
   link: https://recomb2019.org/
-  deadline:
+  deadline: "2019-01-21"
   abstract_deadline:
-  notification_date:
+  notification_date: "2019-02-21"
   date: "2019-05-05"
   place: Washington, D.C., USA
   acceptance_rate:
   num_submission:
   general_chair:
-  program_chair:
+  program_chair: Lenore J. Cowen
 
 - name: RECOMB
   description: Research in Computational Molecular Biology
   year: 2018
-  link: https://recomb2018.org/
-  deadline:
+  link: https://recomb2018.fr
+  deadline: "2017-11-16"
   abstract_deadline:
-  notification_date:
+  notification_date: "2017-12-21"
   date: "2018-04-21"
   place: Paris, France
   acceptance_rate:
   num_submission:
   general_chair:
-  program_chair:
+  program_chair: Ben Raphael
 
 - name: RECOMB
   description: Research in Computational Molecular Biology
   year: 2017
-  link: https://recomb2017.org/
-  deadline:
+  link: https://cb.csail.mit.edu/recomb2017/
+  deadline: "2016-11-01"
   abstract_deadline:
-  notification_date:
+  notification_date: "2016-12-16"
   date: "2017-05-03"
   place: Hong Kong, China
   acceptance_rate:
   num_submission:
   general_chair:
-  program_chair:
+  program_chair: Cenk Sahinalp
 
 - name: RECOMB
   description: Research in Computational Molecular Biology
   year: 2016
-  link: https://recomb2016.org/
-  deadline:
+  link: https://recomb.org/recomb2016/index.html
+  deadline: "2015-10-26"
   abstract_deadline:
-  notification_date:
-  date: "2016-04-17"
+  notification_date: "2015-12-15"
+  date: "2016-04-16"
   place: Santa Monica, CA, USA
   acceptance_rate:
   num_submission:
   general_chair:
-  program_chair:
+  program_chair: Mona Singh
 
 - name: RECOMB
   description: Research in Computational Molecular Biology
   year: 2015
-  link: https://recomb2015.org/
-  deadline:
+  link: https://recomb.org/recomb2015/
+  deadline: "2014-10-19"
   abstract_deadline:
-  notification_date:
+  notification_date: "2014-12-15"
   date: "2015-04-12"
   place: Warsaw, Poland
   acceptance_rate:
   num_submission:
   general_chair:
-  program_chair:  
+  program_chair: Teresa Przytycka
 
 ## Computer graphics
 - name: SIGGRAPH

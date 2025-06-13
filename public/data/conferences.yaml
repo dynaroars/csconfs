@@ -7682,15 +7682,15 @@
   place: Melbourne, Australia
   acceptance_rate:
   num_submission:
-  general_chair: John Grundy
-  program_chair: Lory Pollock, Massimiliano Di Penta
+  general_chair: Natalia Juristo
+  program_chair: Arie van Deursen, Tao Xie
 
 - name: ICSE
   description: International Conference on Software Engineering
   year: 2022
   link: https://conf.researchr.org/home/icse-2022
   deadline: "2021-09-03"
-  abstract_deadline: "2021-07-27"
+  abstract_deadline: "2021-08-27"
   notification_date: "2021-12-03"
   note:
   date: "2022-05-22"
@@ -7704,178 +7704,257 @@
   description: International Conference on Software Engineering
   year: 2021
   link: https://conf.researchr.org/home/icse-2021
-  deadline: "2020-08-01"
+  deadline: "2020-08-28"
+  notification_date: "2020-12-17"
   note: Virtual conference (originally planned for Madrid, Spain)
   date: "2021-05-25"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Matthew B. Dwyer
+  program_chair: Daniela Damian, Andreas Zeller
 
 - name: ICSE
   description: International Conference on Software Engineering
   year: 2020
   link: https://conf.researchr.org/home/icse-2020
-  deadline: "2019-08-01"
+  deadline: "2019-08-23"
+  notification_date: "2019-12-09"
   note: Virtual conference (originally planned for Seoul, South Korea)
   date: "2020-06-27"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Gregg Rothermel, Doo-Hwan Bae
+  program_chair: Jane Cleland-Huang, Darko Marinov
 
 - name: ICSE
   description: International Conference on Software Engineering
   year: 2019
   link: https://conf.researchr.org/home/icse-2019
-  deadline: "2018-08-01"
+  deadline: "2018-08-24"
+  notification_date: "2018-12-12"
   note:
   date: "2019-05-25"
   place: Montreal, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Joanne M. Atlee
+  program_chair: Tevfik Bultan, John Whittle
 
 - name: ICSE
   description: International Conference on Software Engineering
   year: 2018
   link: https://conf.researchr.org/home/icse-2018
-  deadline: "2017-08-01"
+  deadline: "2017-08-25"
+  notification_date: "2017-12-15"
   note:
   date: "2018-05-27"
   place: Gothenburg, Sweden
   acceptance_rate:
   num_submission:
+  general_chair: Ivica Crnkovic
+  program_chair: Marsha Chechick, Mark Harman
 
 - name: ICSE
   description: International Conference on Software Engineering
   year: 2017
-  link: https://conf.researchr.org/home/icse-2017
-  deadline: "2016-08-01"
+  link: https://icse2017.gatech.edu
+  deadline: "2016-08-26"
+  notification_date: "2016-12-12"
   note:
   date: "2017-05-20"
   place: Buenos Aires, Argentina
   acceptance_rate:
   num_submission:
+  general_chair: Sebastian Uchitel
+  program_chair: Alessandro Orso, Martin Robillard
 
 - name: ICSE
   description: International Conference on Software Engineering
   year: 2016
-  link: https://conf.researchr.org/home/icse-2016
-  deadline: "2015-08-01"
+  link: https://2016.icse.cs.txstate.edu
+  deadline: "2015-08-28"
+  notification_date: "2015-12-15"
   note:
   date: "2016-05-14"
   place: Austin, TX
   acceptance_rate:
   num_submission:
-
-- name: ICSE
-  description: International Conference on Software Engineering
-  year: 2015
-  link: https://conf.researchr.org/home/icse-2015
-  deadline: "2014-08-01"
-  note:
-  date: "2015-05-16"
-  place: Florence, Italy
-  acceptance_rate:
-  num_submission:
+  general_chair: Laura Dillon
+  program_chair: Willem Visser, Laurie Williams
 
 
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
   year: 2025
+  link: https://conf.researchr.org/home/issta-2026
+  deadline: TBD
+  note: 
+  date: "2026-10-03"
+  place: Oakland, CA
+  acceptance_rate:
+  num_submission:
+  general_chair: 
+  program_chair: 
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2025
   link: https://conf.researchr.org/home/issta-2025
-  deadline: "2025-03-20"
+  deadline: "2024-10-31"
+  notification_date: "2024-12-19"
   note: 
   date: "2025-06-25"
   place: Oslo, Norway
   acceptance_rate:
   num_submission:
+  general_chair: Mike Papadakis
+  program_chair: Myra Cohen, Paolo Tonella
 
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
   year: 2024
   link: https://conf.researchr.org/home/issta-2024
-  deadline: "2024-05-25"
+  deadline: "2023-12-15"
+  notification_date: "2024-03-02"
   note: Co-located with ECOOP 2024
   date: "2024-09-16"
   place: Vienna, Austria
+  note: Cycle 1/2
   acceptance_rate:
   num_submission:
+  general_chair: Maria Christakis
+  program_chair: Michael Pradel
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2024
+  link: https://conf.researchr.org/home/issta-2024
+  deadline: "2024-04-12"
+  notification_date: "2024-07-03"
+  note: Co-located with ECOOP 2024
+  date: "2024-09-16"
+  place: Vienna, Austria
+  note: Cycle 2/2
+  acceptance_rate:
+  num_submission:
+  general_chair: Maria Christakis
+  program_chair: Michael Pradel
+
+- name: ISSTA
+  description: International Symposium on Software Testing and Analysis
+  year: 2023
+  link: https://conf.researchr.org/home/issta-2023
+  deadline: "2022-11-10"
+  notification_date: "2023-01-16"
+  note: Co-located with ECOOP 2023
+  date: "2023-07-17"
+  place: Seattle, WA
+  note: Cycle 1/2
+  acceptance_rate:
+  num_submission:
+  general_chair: René Just
+  program_chair: Gordon Fraser
 
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
   year: 2023
   link: https://conf.researchr.org/home/issta-2023
   deadline: "2023-02-16"
+  notification_date: "2023-03-03"
   note: Co-located with ECOOP 2023
   date: "2023-07-17"
   place: Seattle, WA
+  note: Cycle 2/2
   acceptance_rate:
   num_submission:
+  general_chair: René Just
+  program_chair: Gordon Fraser
 
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
   year: 2022
   link: https://conf.researchr.org/home/issta-2022
   deadline: "2022-01-28"
+  notification_date: "2022-04-11"
   note: Virtual conference
   date: "2022-07-18"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Sukyoung Ryu
+  program_chair: Yannis Smaragdakis
 
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
   year: 2021
   link: https://conf.researchr.org/home/issta-2021
-  deadline: "2021-01-15"
+  deadline: "2021-01-29"
+  notification_date: "2021-04-19"
   note: Virtual conference
-  date: "2021-07-14"
+  date: "2021-07-11"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Cristian Cadar
+  program_chair: Xiangyu Zhang
 
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
   year: 2020
   link: https://conf.researchr.org/home/issta-2020
   deadline: "2020-01-27"
+  notification_date: "2020-04-15"
   note: Virtual conference
-  date: "2020-07-20"
+  date: "2020-07-18"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Sarfraz Khurshid
+  program_chair: Corina S. Păsăreanu
 
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
   year: 2019
   link: https://conf.researchr.org/home/issta-2019
-  deadline: "2019-01-25"
+  deadline: "2019-01-28"
+  notification_date: "2019-03-18"
   note: Co-located with SPIN 2019
   date: "2019-07-15"
   place: Beijing, China
   acceptance_rate:
   num_submission:
+  general_chair: Dongmei Zhang
+  program_chair: Anders Møller
 
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
   year: 2018
   link: https://conf.researchr.org/home/issta-2018
-  deadline: "2018-01-26"
+  deadline: "2018-01-29"
+  notification_date: "2018-03-19"
   note: Co-located with ECOOP 2018
   date: "2018-07-16"
   place: Amsterdam, Netherlands
   acceptance_rate:
   num_submission:
+  general_chair: Frank Tip
+  program_chair: Eric Bodden
 
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
   year: 2017
   link: https://conf.researchr.org/home/issta-2017
-  deadline: "2017-01-27"
+  deadline: "2017-02-03"
+  notification_date: "2017-04-29"
   note: Co-located with SPIN 2017
   date: "2017-07-10"
   place: Santa Barbara, CA
   acceptance_rate:
   num_submission:
+  general_chair: Tevfik Bultan
+  program_chair: Koushik Sen
 
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
@@ -7893,23 +7972,29 @@
   year: 2015
   link: https://conf.researchr.org/home/issta-2015
   deadline: "2015-01-30"
+  notification_date: "2015-04-01"
   note: Co-located with ECOOP 2015
-  date: "2015-07-15"
+  date: "2015-07-14"
   place: Baltimore, MD
   acceptance_rate:
   num_submission:
+  general_chair: Michal Young
+  program_chair: Tao Xie
 
 
 - name: ICFP
   description: International Conference on Functional Programming
   year: 2025
   link: https://icfp25.sigplan.org/
-  deadline: "2025-04-22"
+  deadline: "2025-02-27"
+  notification_date: "2025-03-23"
   note: Co-located with SPLASH 2025
   date: "2025-10-12"
   place: Singapore
   acceptance_rate:
   num_submission:
+  general_chair: Ilya Sergey
+  program_chair: Dominique Devriese
   
 
 - name: ICFP
@@ -7917,341 +8002,577 @@
   year: 2024
   link: https://icfp24.sigplan.org/
   deadline: "2024-02-28"
+  notification_date: "2024-03-20"
   note:
   date: "2024-09-02"
   place: Milan, Italy
   acceptance_rate:
   num_submission:
+  general_chair: Marco Gaboardi
+  program_chair: Brigitte Pientka
 
 - name: ICFP
   description: International Conference on Functional Programming
   year: 2023
   link: https://icfp23.sigplan.org/
   deadline: "2023-03-01"
+  notification_date: "2023-05-18"
   note:
   date: "2023-09-04"
   place: Seattle, WA
   acceptance_rate:
   num_submission:
+  general_chair: Nikhil Swamy
+  program_chair: Sam Lindley
+
 
 - name: ICFP
   description: International Conference on Functional Programming
   year: 2022
   link: https://icfp22.sigplan.org/
   deadline: "2022-03-02"
+  notification_date: "2022-05-21"
   note:
   date: "2022-09-11"
   place: Ljubljana, Slovenia
   acceptance_rate:
   num_submission:
+  general_chair: Andrej Bauer
+  program_chair: Zena M. Ariola
 
 - name: ICFP
   description: International Conference on Functional Programming
   year: 2021
   link: https://icfp21.sigplan.org/
-  deadline: "2021-03-03"
+  deadline: "2021-03-02"
+  notification_date: "2021-05-08"
   note: Virtual conference
   date: "2021-08-22"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Sukyoung Ryu
+  program_chair: Ronald Garcia
 
 - name: ICFP
   description: International Conference on Functional Programming
   year: 2020
   link: https://icfp20.sigplan.org/
-  deadline: "2020-03-04"
+  deadline: "2020-03-03"
+  notification_date: "2020-05-08"
   note: Virtual conference
-  date: "2020-08-23"
+  date: "2020-08-20"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Stephanie Weirich
+  program_chair: Adam Chlipala
 
 - name: ICFP
   description: International Conference on Functional Programming
   year: 2019
   link: https://icfp19.sigplan.org/
-  deadline: "2019-03-06"
+  deadline: "2019-03-01"
+  notification_date: "2019-05-03"
   note:
   date: "2019-08-18"
   place: Berlin, Germany
   acceptance_rate:
   num_submission:
+  general_chair: Derek Dreyer
+  program_chair: François Pottier
 
 - name: ICFP
   description: International Conference on Functional Programming
   year: 2018
   link: https://icfp18.sigplan.org/
-  deadline: "2018-03-07"
+  deadline: "2018-03-16"
+  notification_date: "2018-05-18"
   note:
   date: "2018-09-23"
   place: St. Louis, MO
   acceptance_rate:
   num_submission:
+  general_chair: William E. Byrd
+  program_chair: Matthew Flatt
 
 - name: ICFP
   description: International Conference on Functional Programming
   year: 2017
   link: https://icfp17.sigplan.org/
-  deadline: "2017-03-08"
+  deadline: "2017-02-27"
+  notification_date: "2017-05-01"
   note:
   date: "2017-09-03"
   place: Oxford, UK
   acceptance_rate:
   num_submission:
+  general_chair: Jeremy Gibbons
+  program_chair: Mark Jones
 
 - name: ICFP
   description: International Conference on Functional Programming
   year: 2016
   link: https://icfp16.sigplan.org/
-  deadline: "2016-03-09"
+  deadline: "2016-03-16"
+  notification_date: "2016-05-20"
   note:
   date: "2016-09-18"
   place: Nara, Japan
   acceptance_rate:
   num_submission:
+  general_chair: Jacques Garrigue, Gabriele Keller
+  program_chair: Eijiro Sumii
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2025
   link: https://2025.splashcon.org/track/OOPSLA
   deadline: "2024-10-15"
-  note: "Round 1 submission deadline; Round 2 deadline: 2025-03-25"
-  date: "2025-10-19"
+  notification_date: "2024-12-18"
+  date: "2025-10-12"
   place: Singapore
+  note: Cycle 1/2
   acceptance_rate:
   num_submission:
+  general_chair: Charles Zhang
+  program_chair: 
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2025
+  link: https://2025.splashcon.org/track/OOPSLA
+  deadline: "2025-03-25"
+  notification_date: "2025-05-26"
+  date: "2025-10-12"
+  place: Singapore
+  note: Cycle 2/2
+  acceptance_rate:
+  num_submission:
+  general_chair: Charles Zhang
+  program_chair: 
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2024
+  link: https://2024.splashcon.org/track/splash-2024-OOPSLA
+  deadline: "2023-10-20"
+  notification_date: "2023-12-22"
+  date: "2024-10-20"
+  place: Pasadena, CA
+  note: Cycle 1/2
+  acceptance_rate:
+  num_submission:
+  general_chair: Manu Sridharan
+  program_chair: 
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2024
   link: https://2024.splashcon.org/track/splash-2024-OOPSLA
   deadline: "2024-04-05"
-  note: Round 1 submission deadline
+  notification_date: "2024-06-21"
   date: "2024-10-20"
   place: Pasadena, CA
+  note: Cycle 2/2
   acceptance_rate:
   num_submission:
+  general_chair: Manu Sridharan
+  program_chair: 
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2023
   link: https://2023.splashcon.org/track/splash-2023-oopsla
   deadline: "2022-10-28"
-  note: Round 1 submission deadline
+  notification_date: "2022-12-23"
   date: "2023-10-22"
   place: Cascais, Portugal
+  note: Cycle 1/2
   acceptance_rate:
   num_submission:
+  general_chair: 
+  program_chair: Mira Mezini
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2023
+  link: https://2023.splashcon.org/track/splash-2023-oopsla
+  deadline: "2023-04-14"
+  notification_date: "2023-06-30"
+  date: "2023-10-22"
+  place: Cascais, Portugal
+  note: Cycle 2/2
+  acceptance_rate:
+  num_submission:
+  general_chair: 
+  program_chair: Mira Mezini
+
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2022
   link: https://2022.splashcon.org/track/splash-2022-oopsla
   deadline: "2021-10-12"
-  note: Round 1 submission deadline
-  date: "2022-11-14"
+  notification_date: "2021-12-16"
+  date: "2022-12-05"
   place: Auckland, New Zealand
+  note: Cycle 1/2
   acceptance_rate:
   num_submission:
+  general_chair: Alex Potanin
+  program_chair: 
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2022
+  link: https://2022.splashcon.org/track/splash-2022-oopsla
+  deadline: "2022-04-15"
+  notification_date: "2022-06-30"
+  date: "2022-12-05"
+  place: Auckland, New Zealand
+  note: Cycle 2/2
+  acceptance_rate:
+  num_submission:
+  general_chair: Alex Potanin
+  program_chair: 
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2021
   link: https://2021.splashcon.org/track/splash-2021-oopsla
-  deadline: "2020-10-15"
-  note: Round 1 submission deadline
+  deadline: "2021-04-16"
+  notification_date: "2021-07-02"
   date: "2021-10-17"
   place: Chicago, IL
+  note: Cycle 1/2
   acceptance_rate:
   num_submission:
+  general_chair: 
+  program_chair:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2021
+  link: https://2021.splashcon.org/track/splash-2021-oopsla
+  deadline: "2021-08-13"
+  notification_date: "2021-08-30"
+  date: "2021-10-17"
+  place: Chicago, IL
+  note: Cycle 2/2
+  acceptance_rate:
+  num_submission:
+  general_chair: 
+  program_chair:
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2020
   link: https://2020.splashcon.org/track/splash-2020-oopsla
   deadline: "2020-05-15"
-  note: Virtual conference
+  notification_date: "2020-07-31"
   date: "2020-11-15"
   place: Online
+  note: Cycle 1/2
   acceptance_rate:
   num_submission:
+  general_chair: Hridesh Rajan
+  program_chair:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2020
+  link: https://2020.splashcon.org/track/splash-2020-oopsla
+  deadline: "2020-09-14"
+  notification_date: "2020-10-01"
+  date: "2020-09-14"
+  place: Online
+  note: Cycle 2/2
+  acceptance_rate:
+  num_submission: 
+  general_chair: Hridesh Rajan
+  program_chair:
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2019
   link: https://2019.splashcon.org/track/splash-2019-oopsla
   deadline: "2019-04-05"
-  note:
+  notification_date: "2019-07-01"
   date: "2019-10-20"
   place: Athens, Greece
+  note: Cycle 1/2
   acceptance_rate:
   num_submission:
+  general_chair: Yannis Smaragdakis
+  program_chair:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2019
+  link: https://2019.splashcon.org/track/splash-2019-oopsla
+  deadline: "2019-08-15"
+  notification_date: "2019-09-01"
+  date: "2019-10-20"
+  place: Athens, Greece
+  note: Cycle 2/2
+  acceptance_rate:
+  num_submission:
+  general_chair: Yannis Smaragdakis
+  program_chair:
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2018
   link: https://2018.splashcon.org/track/splash-2018-oopsla
-  deadline: "2018-04-05"
-  note:
+  deadline: "2018-04-16"
+  notification_date: "2018-06-25"
   date: "2018-11-04"
   place: Boston, MA
+  note: Cycle 1/2
   acceptance_rate:
   num_submission:
+  general_chair: 
+  program_chair:
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2018
+  link: https://2018.splashcon.org/track/splash-2018-oopsla
+  deadline: "2018-07-31"
+  notification_date: "2018-08-16"
+  date: "2018-11-04"
+  place: Boston, MA
+  note: Cycle 2/2
+  acceptance_rate:
+  num_submission:
+  general_chair: 
+  program_chair:
+  
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2017
+  link: https://2017.splashcon.org/track/splash-2017-OOPSLA
+  deadline: "2017-04-17"
+  abstract_deadline: "2017-04-13"
+  notification_date: "2017-06-21"
+  date: "2017-10-22"
+  place: Vancouver, Canada
+  note: Cycle 1/2
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair: Jonathan Aldrich
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2017
   link: https://2017.splashcon.org/track/splash-2017-OOPSLA
-  deadline: "2017-04-05"
-  note:
+  deadline: "2017-07-27"
+  abstract_deadline: "2017-04-13"
+  notification_date: "2017-08-11"
   date: "2017-10-22"
   place: Vancouver, Canada
+  note: Cycle 2/2
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair: Jonathan Aldrich
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2016
   link: https://2016.splashcon.org/track/splash-2016-oopsla
-  deadline: "2016-04-05"
-  note:
+  deadline: "2016-03-23"
+  notification_date: "2016-06-01"
   date: "2016-10-30"
   place: Amsterdam, The Netherlands
+  note:
   acceptance_rate:
   num_submission:
+  general_chair: Eelco Visser
+  program_chair: Yannis Smaragdakis
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2016
+  link: https://2016.splashcon.org/track/splash-2016-oopsla
+  deadline: "2016-07-19"
+  notification_date: "2016-08-03"
+  date: "2016-10-30"
+  place: Amsterdam, The Netherlands
+  note: Cycle 2/2
+  acceptance_rate:
+  num_submission:
+  general_chair: Eelco Visser
+  program_chair: Yannis Smaragdakis
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2015
   link: https://2015.splashcon.org/track/oopsla2015
-  deadline: "2015-04-05"
-  note:
-  date: "2015-10-25"
+  deadline: "2015-03-25"
+  notification_date: "2015-05-25"
+  date: "2015-10-23"
   place: Pittsburgh, PA
   acceptance_rate:
   num_submission:
+  general_chair: Jonathan Aldrich
+  program_chair: Patrick Eugster
 
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2025
   link: https://pldi25.sigplan.org/
   deadline: "2024-11-14"
+  notification_date: "2025-03-06"
   note:
-  date: "2025-06-18"
+  date: "2025-06-16"
   place: Seoul, South Korea
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair: Zachary Tatlock
 
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2024
   link: https://pldi24.sigplan.org/
   deadline: "2023-11-16"
+  notification_date: "2024-02-26"
   note:
   date: "2024-06-24"
   place: Copenhagen, Denmark
   acceptance_rate:
   num_submission:
+  general_chair: 
+  program_chair: John Regehr
 
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2023
   link: https://pldi23.sigplan.org/
-  deadline: "2022-11-17"
+  deadline: "2022-11-10"
+  notification_date: "2023-02-24"
   note:
   date: "2023-06-17"
   place: Orlando, FL
   acceptance_rate:
   num_submission:
+  general_chair: Steve Blackburn
+  program_chair: Nate Foster
 
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2022
   link: https://pldi22.sigplan.org/
-  deadline: "2021-11-18"
+  deadline: "2021-11-19"
+  notification_date: "2022-02-25"
   note:
   date: "2022-06-13"
   place: San Diego, CA
   acceptance_rate:
   num_submission:
+  general_chair: Ranjit Jhala
+  program_chair: Işıl Dillig
 
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2021
   link: https://pldi21.sigplan.org/
   deadline: "2020-11-20"
+  notification_date: "2021-02-25"
   note: Virtual conference
   date: "2021-06-20"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Stephen N. Freund
+  program_chair: Eran Yahav
 
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2020
   link: https://pldi20.sigplan.org/
   deadline: "2019-11-22"
+  notification_date: "2020-02-21"
   note: Virtual conference
   date: "2020-06-15"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Alastair F. Donaldson
+  program_chair: Emina Torlak
 
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2019
   link: https://pldi19.sigplan.org/
   deadline: "2018-11-16"
+  notification_date: "2019-02-15"
   note:
   date: "2019-06-22"
   place: Phoenix, AZ
   acceptance_rate:
   num_submission:
+  general_chair: Kathryn S. McKinley
+  program_chair: Kathleen Fisher
 
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2018
   link: https://pldi18.sigplan.org/
-  deadline: "2017-11-17"
+  deadline: "2017-11-16"
+  notification_date: "2018-02-13"
   note:
   date: "2018-06-18"
   place: Philadelphia, PA
   acceptance_rate:
   num_submission:
+  general_chair: Jeffrey S. Foster
+  program_chair: Dan Grossman
 
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2017
   link: https://pldi17.sigplan.org/
-  deadline: "2016-11-18"
+  deadline: "2016-11-15"
+  notification_date: "2017-02-13"
   note:
   date: "2017-06-18"
   place: Barcelona, Spain
   acceptance_rate:
   num_submission:
+  general_chair: Albert Cohen
+  program_chair: Martin Vechev
 
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2016
   link: https://pldi16.sigplan.org/
   deadline: "2015-11-20"
+  notification_date: "2016-02-20"
   note:
   date: "2016-06-13"
   place: Santa Barbara, CA
   acceptance_rate:
   num_submission:
+  general_chair: Chandra Krintz
+  program_chair: Emery D. Berger
 
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2015
   link: https://pldi15.sigplan.org/
-  deadline: "2014-11-21"
+  deadline: "2014-11-13"
+  notification_date: "2014-12-19"
   note:
   date: "2015-06-13"
   place: Portland, OR
   acceptance_rate:
   num_submission:
+  general_chair: David Grove
+  program_chair: Steve Blackburn
 
 
 - name: POPL
@@ -8273,6 +8594,7 @@
   year: 2025
   link: https://conf.researchr.org/home/POPL-2025
   deadline: "2024-07-11"
+  notification_date: "2024-10-08"
   note: 
   date: "2025-01-19"
   place: Denver, CO
@@ -8285,7 +8607,8 @@
   description: Principles of Programming Languages
   year: 2024
   link: https://conf.researchr.org/home/POPL-2024
-  deadline: "2023-07-13"
+  deadline: "2023-07-11"
+  notification_date: "2023-10-02"
   note: 
   date: "2024-01-14"
   place: London, United Kingdom
@@ -8299,6 +8622,7 @@
   year: 2023
   link: https://conf.researchr.org/home/POPL-2023
   deadline: "2022-07-07"
+  notification_date: "2022-09-27"
   note: 
   date: "2023-01-15"
   place: Boston, MA
@@ -8312,6 +8636,7 @@
   year: 2022
   link: https://conf.researchr.org/home/POPL-2022
   deadline: "2021-07-08"
+  notification_date: "2021-09-29"
   note: 
   date: "2022-01-16"
   place: Philadelphia, PA
@@ -8326,6 +8651,7 @@
   year: 2021
   link: https://conf.researchr.org/home/POPL-2021
   deadline: "2020-07-09"
+  notification_date: "2020-10-01"
   note: 
   date: "2021-01-17"
   place: Virtual Conference
@@ -8338,7 +8664,8 @@
   description: Principles of Programming Languages
   year: 2020
   link: https://conf.researchr.org/home/POPL-2020
-  deadline: "2019-07-11"
+  deadline: "2019-07-10"
+  notification_date: "2019-10-14"
   note: 
   date: "2020-01-19"
   place: New Orleans, LA
@@ -8351,56 +8678,74 @@
   description: Principles of Programming Languages
   year: 2019
   link: https://conf.researchr.org/home/POPL-2019
-  deadline: "2018-07-06"
+  deadline: "2018-07-11"
+  notification_date: "2018-10-10"
   note: 
   date: "2019-01-13"
   place: Cascais, Portugal
   acceptance_rate:
   num_submission:
+  general_chair: Fritz Henglein
+  program_chair: Stephanie Weirich
 
 - name: POPL
   description: Principles of Programming Languages
   year: 2018
   link: https://conf.researchr.org/home/POPL-2018
   deadline: "2017-07-07"
+  notification_date: "2017-09-29"
   note: 
-  date: "2018-01-08"
+  date: "2018-01-07"
   place: Los Angeles, CA
   acceptance_rate:
   num_submission:
+  general_chair: Ranjit Jhala
+  program_chair: Andrew Myers
 
 - name: POPL
   description: Principles of Programming Languages
   year: 2017
   link: https://conf.researchr.org/home/POPL-2017
-  deadline: "2016-07-08"
+  deadline: "2016-07-06"
+  abstract_deadline: "2016-07-01"
+  notification_date: "2016-10-03"
   note: 
   date: "2017-01-15"
   place: Paris, France
   acceptance_rate:
   num_submission:
+  general_chair: Giuseppe Castagna
+  program_chair: Andrew D. Gordon
 
 - name: POPL
   description: Principles of Programming Languages
   year: 2016
   link: https://conf.researchr.org/home/POPL-2016
   deadline: "2015-07-10"
+  abstract_deadline: "2015-07-03"
+  notification_date: "2015-10-05"
   note: 
   date: "2016-01-20"
   place: St. Petersburg, FL
   acceptance_rate:
   num_submission:
+  general_chair: Rastislav Bodík
+  program_chair: Rupak Majumdar
 
 - name: POPL
   description: Principles of Programming Languages
   year: 2015
   link: https://popl.mpi-sws.org/2015/
   deadline: "2014-07-08"
+  abstract_deadline: "2014-07-03"
+  notification_date: "2014-09-30"
   note: 
-  date: "2015-01-15"
+  date: "2015-01-12"
   place: Mumbai, India
   acceptance_rate:
   num_submission:
+  general_chair: Sriram Rajamani
+  program_chair: David Walker
 
 
 - name: CAV
@@ -8414,6 +8759,8 @@
   place: Zagreb, Croatia
   acceptance_rate:
   num_submission:
+  general_chair: 
+  program_chair: Ruzica Piskac, Zvonimir Rakamaric
 
 
 - name: CAV
@@ -8423,10 +8770,12 @@
   deadline: "2024-01-19"
   notification_date: "2024-03-26"
   note: 
-  date: "2024-07-24"
+  date: "2024-07-22"
   place: Montreal, Canada
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair: Arie Gurfinkel, Vijay Ganesh
 
 - name: CAV
   description: Computer Aided Verification
@@ -8439,6 +8788,8 @@
   place: Paris, France
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair: Constantin Enea, Akash Lal
 
 - name: CAV
   description: Computer Aided Verification
@@ -8451,6 +8802,8 @@
   place: Haifa, Israel
   acceptance_rate:
   num_submission:
+  general_chair: 
+  program_chair: Sharon Shoham, Yakir Vizel
 
 - name: CAV
   description: Computer Aided Verification
@@ -8459,10 +8812,12 @@
   deadline: "2021-01-28"
   notification_date: "2021-04-19"
   note: 
-  date: "2021-07-20"
+  date: "2021-07-18"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair: Rustan Leino, Alexandra Silva
 
 - name: CAV
   description: Computer Aided Verification
@@ -8475,69 +8830,88 @@
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair: Shuvendu Lahiri, Chao Wang
 
 - name: CAV
   description: Computer Aided Verification
   year: 2019
   link: https://i-cav.org/2019/
-  deadline: "2019-01-25"
+  deadline: "2019-02-07"
+  notification_date: "2019-04-17"
   note: 
   date: "2019-07-15"
   place: New York City, NY
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair: Isil Dillig, Serdar Tasiran
 
 - name: CAV
   description: Computer Aided Verification
   year: 2018
   link: https://i-cav.org/2018/
   deadline: "2018-01-31"
+  notification_date: "2018-03-31"
   note: Co-located with FLoC 2018
   date: "2018-07-14"
   place: Oxford, UK
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair: Hana Chockler, Georg Weissenbacher
 
 - name: CAV
   description: Computer Aided Verification
   year: 2017
   link: https://i-cav.org/2017/
   deadline: "2017-01-24"
+  notification_date: "2017-04-12"
   note: 
   date: "2017-07-24"
   place: Heidelberg, Germany
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair: Viktor Kuncak, Rupak Majumdar
 
 - name: CAV
   description: Computer Aided Verification
   year: 2016
   link: https://i-cav.org/2016/
-  deadline: "2016-01-25"
+  deadline: "2016-01-29"
+  abstract_deadline: "2016-01-24"
+  notification_date: "2016-04-15"
   note: 
   date: "2016-07-17"
   place: Toronto, Canada
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair: Swarat Chaudhuri, Azadeh Farzan
 
 - name: CAV
   description: Computer Aided Verification
   year: 2015
   link: https://i-cav.org/2015/
-  deadline: "2015-01-26"
+  deadline: "2015-02-06"
+  abstract_deadline: "2015-01-30"
+  notification_date: "2015-04-17"
   note: 
   date: "2015-07-18"
   place: San Francisco, CA
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair: Daniel Kroening, Corina Pasareanu
 
 - name: LICS
   description: ACM/IEEE Symposium on Logic in Computer Science
   year: 2024
   link: https://lics.siglog.org/lics24/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2024-01-26"
+  abstract_deadline: "2024-01-21"
+  notification_date: "2024-04-15"
   date: "2024-07-08"
   place: Tallinn, Estonia
   acceptance_rate: 
@@ -8549,9 +8923,9 @@
   description: ACM/IEEE Symposium on Logic in Computer Science
   year: 2023
   link: https://lics.siglog.org/lics23/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2023-01-23"
+  abstract_deadline: "2023-01-18"
+  notification_date: "2023-04-05"
   date: "2023-06-26"
   place: Boston, MA, USA
   acceptance_rate: 
@@ -8563,9 +8937,9 @@
   description: ACM/IEEE Symposium on Logic in Computer Science
   year: 2022
   link: https://lics.siglog.org/lics22/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2022-01-21"
+  abstract_deadline: "2022-01-17"
+  notification_date: "2022-04-14"
   date: "2022-08-02"
   place: Haifa, Israel
   acceptance_rate: 
@@ -8576,113 +8950,115 @@
 - name: LICS
   description: ACM/IEEE Symposium on Logic in Computer Science
   year: 2021
-  link: https://lics.siglog.org/lics21/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  link: https://easyconferences.eu/lics2021/
+  deadline: "2021-01-25"
+  abstract_deadline: "2021-01-20"
+  notification_date: "2021-03-31"
   date: "2021-06-29"
-  place: Rome, Italy
+  place: Online
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Daniele Gorla
+  program_chair: Leonid Libkin
 
 - name: LICS
   description: ACM/IEEE Symposium on Logic in Computer Science
   year: 2020
   link: https://lics.siglog.org/lics20/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2020-01-10"
+  abstract_deadline: "2020-01-06"
+  notification_date: "2020-04-10"
   date: "2020-07-08"
   place: Saarbrücken, Germany (held virtually)
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Naoki Kobayashi 
 
 - name: LICS
   description: ACM/IEEE Symposium on Logic in Computer Science
   year: 2019
   link: https://lics.siglog.org/lics19/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2019-01-11"
+  abstract_deadline: "2019-01-04"
+  notification_date: "2019-03-29"
   date: "2019-06-24"
   place: Vancouver, Canada
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Patricia Bouyer,
 
 - name: LICS
   description: ACM/IEEE Symposium on Logic in Computer Science
   year: 2018
   link: https://lics.siglog.org/lics18/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2018-01-31"
+  abstract_deadline: "2018-01-124"
+  notification_date: "2018-03-31"
   date: "2018-07-09"
   place: Oxford, United Kingdom
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Martin Hofmann, Anuj Dawar, Erich Grädel
 
 - name: LICS
   description: ACM/IEEE Symposium on Logic in Computer Science
   year: 2017
   link: https://lics.siglog.org/lics17/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2017-01-09"
+  abstract_deadline: "2017-01-03"
+  notification_date: "2017-03-21"
   date: "2017-06-20"
   place: Reykjavik, Iceland
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Martin Grohe
+  program_chair: Joel Ouaknine
 
 - name: LICS
   description: ACM/IEEE Symposium on Logic in Computer Science
   year: 2016
   link: https://lics.siglog.org/lics16/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2016-01-18"
+  abstract_deadline: "2016-01-11"
+  notification_date: "2016-04-04"
   date: "2016-07-05"
   place: New York City, NY, USA
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Martin Grohe
+  program_chair: Natarajan Shankar
 
 - name: LICS
   description: ACM/IEEE Symposium on Logic in Computer Science
   year: 2015
   link: https://lics.siglog.org/lics15/
-  deadline: 
-  abstract_deadline: 
-  notification_date: 
+  deadline: "2015-01-19"
+  abstract_deadline: "2015-01-12"
+  notification_date: "2015-03-30"
   date: "2015-07-06"
   place: Kyoto, Japan
   acceptance_rate: 
   num_submission: 
-  general_chair: 
-  program_chair: 
+  general_chair: Luke Ong
+  program_chair: Catuscia Palamidessi
 
 - name: IMC
   description: ACM Internet Measurement Conference
   year: 2025
   link: https://conferences.sigcomm.org/imc/2025/
-  abstract_deadline: "2025-05-08"
   deadline: "2025-05-15"
+  abstract_deadline: "2025-05-08"
   notification_date: "2025-08-18"
   note: Cycle 2/2
   date: "2025-10-28"
   place: Madison, WI
   acceptance_rate:
   num_submission:
+  general_chair: Paul Barford
+  program_chair: Alberto Dainotti, Aruna Balasubramanian 
 
 - name: IMC
   description: ACM Internet Measurement Conference
@@ -8696,6 +9072,8 @@
   place: Madison, WI
   acceptance_rate:
   num_submission:
+  general_chair: Paul Barford
+  program_chair: Alberto Dainotti, Aruna Balasubramanian 
 
 - name: IMC
   description: ACM Internet Measurement Conference

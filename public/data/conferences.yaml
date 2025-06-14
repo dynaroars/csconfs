@@ -7677,8 +7677,8 @@
   place: Melbourne, Australia
   acceptance_rate:
   num_submission:
-  general_chair: Natalia Juristo
-  program_chair: Arie van Deursen, Tao Xie
+  general_chair: John Grundy
+  program_chair: Lori Pollock, Massimiliano Di Penta
 
 - name: ICSE
   description: International Conference on Software Engineering
@@ -7813,7 +7813,6 @@
   link: https://conf.researchr.org/home/issta-2024
   deadline: "2023-12-15"
   notification_date: "2024-03-02"
-  note: Co-located with ECOOP 2024
   date: "2024-09-16"
   place: Vienna, Austria
   note: Cycle 1/2
@@ -7828,7 +7827,6 @@
   link: https://conf.researchr.org/home/issta-2024
   deadline: "2024-04-12"
   notification_date: "2024-07-03"
-  note: Co-located with ECOOP 2024
   date: "2024-09-16"
   place: Vienna, Austria
   note: Cycle 2/2
@@ -7843,7 +7841,6 @@
   link: https://conf.researchr.org/home/issta-2023
   deadline: "2022-11-10"
   notification_date: "2023-01-16"
-  note: Co-located with ECOOP 2023
   date: "2023-07-17"
   place: Seattle, WA
   note: Cycle 1/2
@@ -7858,7 +7855,6 @@
   link: https://conf.researchr.org/home/issta-2023
   deadline: "2023-02-16"
   notification_date: "2023-03-03"
-  note: Co-located with ECOOP 2023
   date: "2023-07-17"
   place: Seattle, WA
   note: Cycle 2/2

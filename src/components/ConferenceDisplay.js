@@ -106,9 +106,9 @@ const sortFunctions = {
         confs.sort((a, b) => b.acceptance_rate - a.acceptance_rate),
 };
 
+
 function ConferenceDisplay({ filteredConferences }) {
-    // State to track current view: 'list' or 'graph'
-    const [viewMode, setViewMode] = useState('list'); // default is list
+    const [viewMode, setViewMode] = useState('list');
     const [sortMode, setSortMode] = useState('submission_deadline');
     const [sortFunction, setSortFunction] = useState(
         () => sortFunctions.submission_deadline
@@ -125,7 +125,7 @@ function ConferenceDisplay({ filteredConferences }) {
 
     return (
         <div style={{ width: '100%' }}>
-            {/* Dropdown selector */}
+            {/* Dropdown selector for view mode */}
             <FormControl sx={{ minWidth: 150, marginBottom: 2 }} size="small">
                 <InputLabel id="view-select-label">View</InputLabel>
                 <Select
@@ -140,29 +140,29 @@ function ConferenceDisplay({ filteredConferences }) {
                 </Select>
             </FormControl>
 
-            {/* Dropdown selector for conference sorting */}
-            <FormControl
-                sx={{ marginLeft: 2, minWidth: 150, marginBottom: 2 }}
-                size="small"
-            >
-                <InputLabel id="sort-select-label">Sort</InputLabel>
-                <Select
-                    labelId="sort-select-label"
-                    id="sort-select"
-                    value={sortMode}
-                    label="Sort"
-                    onChange={handleSortChange}
+            {/* Conditionally render sort dropdown only in list view */}
+            {viewMode === 'list' && (
+                <FormControl
+                    sx={{ marginLeft: 2, minWidth: 150, marginBottom: 2 }}
+                    size="small"
                 >
-                    <MenuItem value="submission_deadline">Submission Deadline</MenuItem>
-                    <MenuItem value="notification_date">Notification Date</MenuItem>
-                    <MenuItem value="confdate">Conf. Date</MenuItem>
-                    {/* <MenuItem value="confname">Conf. Name</MenuItem> */}
-                    <MenuItem value="confplace">Conf. Location (Country)</MenuItem>
-                    {/* <MenuItem value="acceptanceRate">Acceptance Rate</MenuItem> */}
-                </Select>
-            </FormControl>
+                    <InputLabel id="sort-select-label">Sort</InputLabel>
+                    <Select
+                        labelId="sort-select-label"
+                        id="sort-select"
+                        value={sortMode}
+                        label="Sort"
+                        onChange={handleSortChange}
+                    >
+                        <MenuItem value="submission_deadline">Submission Deadline</MenuItem>
+                        <MenuItem value="notification_date">Notification Date</MenuItem>
+                        <MenuItem value="confdate">Conf. Date</MenuItem>
+                        <MenuItem value="confplace">Conf. Location (Country)</MenuItem>
+                    </Select>
+                </FormControl>
+            )}
 
-            {/* Conditionally render based on view */}
+            {/* Conditionally render content */}
             {viewMode === 'graph' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
                     <Graph conferences={filteredConferences} />
@@ -182,5 +182,6 @@ function ConferenceDisplay({ filteredConferences }) {
         </div>
     );
 }
+
 
 export default ConferenceDisplay;

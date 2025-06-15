@@ -116,9 +116,9 @@ const ConferenceCard = ({ conference }) => {
           {conference.note}
         </Typography>
         
-        {conference.general_chair && <Typography variant="body2" sx={{ fontWeight: 'normal', marginBottom: 0, color: 'text.secondary', fontSize: 'var(--font-size-body)', }}>
-          General Chair:{' '} {conference.general_chair}
-        </Typography>}
+        {/* {conference.general_chair && <Typography variant="body2" sx={{ fontWeight: 'normal', marginBottom: 0, color: 'text.secondary', fontSize: 'var(--font-size-body)', }}> */}
+        {/*   General Chair:{' '} {conference.general_chair} */}
+        {/* </Typography>} */}
 
         {conference.program_chair && <Typography variant="body2" sx={{ fontWeight: 'normal', marginBottom: 0, color: 'text.secondary', fontSize: 'var(--font-size-body)', }}>
           Program Chair:{' '} {conference.program_chair}

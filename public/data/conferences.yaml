@@ -7706,8 +7706,8 @@
   place: Online
   acceptance_rate:
   num_submission:
-  general_chair: Matthew B. Dwyer
-  program_chair: Daniela Damian, Andreas Zeller
+  general_chair: Natalia Juristo
+  program_chair: Arie van Deursen, Tao Xie
 
 - name: ICSE
   description: International Conference on Software Engineering
@@ -7749,7 +7749,7 @@
   acceptance_rate:
   num_submission:
   general_chair: Ivica Crnkovic
-  program_chair: Marsha Chechick, Mark Harman
+  program_chair: Marsha Chechik, Mark Harman
 
 - name: ICSE
   description: International Conference on Software Engineering

@@ -4,8 +4,8 @@
   year: 2026
   link: https://aaai.org/conference/aaai/aaai-26/
   deadline: "2025-08-01"
+  abstract_deadline: "2025-07-25"
   notification_date: "2025-11-03"
-  note: Abstracts due July 25, 2025
   date: "2026-01-20"
   place: Singapore
   acceptance_rate:
@@ -19,121 +19,151 @@
   year: 2025
   link: https://aaai.org/conference/aaai/aaai-25/
   deadline: "2024-08-15"
-  note: Abstracts due August 7, 2024
+  abstract_deadline: "2024-08-07"
+  notification_date: "2024-12-09"
   date: "2025-02-27"
   place: Philadelphia, PA
   acceptance_rate:
   num_submission:
+  general_chair: Toby Walsh
+  program_chair: Julie Shah, Zico Kolter
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2024
   link: https://aaai.org/conference/aaai/aaai-24/
   deadline: "2023-08-15"
-  note: Abstracts due August 8, 2023
+  abstract_deadline: "2023-08-08"
+  notification_date: "2023-12-09"
   date: "2024-02-20"
   place: Vancouver, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Michael Wooldridge
+  program_chair: Jennifer Dy, Sriraam Natarajan
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2023
   link: https://aaai-23.aaai.org/
   deadline: "2022-08-15"
-  note: Abstracts due August 8, 2022
+  abstract_deadline: "2022-08-08"
+  notification_date: "2022-11-18"
   date: "2023-02-07"
   place: Washington, DC
   acceptance_rate:
   num_submission:
+  general_chair: Brian Williams
+  program_chair: Yiling Chen, Jennifer Neville
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2022
   link: https://aaai.org/conference/aaai/aaai-22/
-  deadline: "2021-08-30"
-  note:
+  deadline: "2021-09-08"
+  abstract_deadline: "2021-08-30"
+  notification_date: "2021-11-29"
   date: "2022-02-22"
   place: Virtual Conference
   acceptance_rate:
   num_submission:
+  general_chair: Katia Sycara 
+  program_chair: Vasant Honavar, Matthijs Spaan
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2021
   link: https://aaai.org/conference/aaai/aaai-21/
   deadline: "2020-09-09"
-  note: Abstracts due September 1, 2020
+  abstract_deadline: "2020-09-01"
+  notification_date: "2020-11-30"
   date: "2021-02-02"
   place: Virtual Conference
   acceptance_rate:
   num_submission:
+  general_chair: Qiang Yang
+  program_chair: Kevin Leyton-Brown, Mausam
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2020
   link: https://aaai.org/conference/aaai/aaai-20/
   deadline: "2019-09-05"
-  note: Abstracts due August 30, 2019
+  abstract_deadline: "2019-08-30"
+  notification_date: "2019-11-10"
   date: "2020-02-07"
   place: New York, NY
   acceptance_rate:
   num_submission:
+  general_chair: Francesca Rossi
+  program_chair: Vincent Conitzer, Fei Sha
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2019
   link: https://www.openresearch.org/wiki/AAAI_2019
   deadline: "2018-09-05"
-  note: Abstracts due August 30, 2018
+  abstract_deadline: "2018-08-30"
+  notification_date: "2018-11-01"
   date: "2019-01-27"
   place: Honolulu, HI
-  acceptance_rate:
-  num_submission:
+  acceptance_rate: 16.2 
+  num_submission: 7095
+  general_chair: Peter Stone
+  program_chair: Pascal van Hentenryck, Zhi-Hua Zhou
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2018
   link: https://www.openresearch.org/wiki/AAAI_2018
   deadline: "2017-09-11"
-  note: Abstracts due September 9, 2017
+  abstract_deadline: "2017-09-08"
+  notification_date: "2017-11-09"
   date: "2018-02-02"
   place: New Orleans, LA
-  acceptance_rate:
-  num_submission:
+  acceptance_rate: 24.6
+  num_submission: 3800
+  general_chair: G. Michael Youngblood, Karen Myers
+  program_chair: Sheila McIlraith, Kilian Weinberger
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2017
   link: https://www.openresearch.org/wiki/AAAI_2017
   deadline: "2016-09-14"
-  note: Abstracts due September 9, 2016
+  abstract_deadline: "2016-09-09"
   date: "2017-02-04"
   place: San Francisco, CA
   acceptance_rate: 24.6 %
   num_submission: 2590
+  general_chair: 
+  program_chair: Satinder Singh, Shaul Markovitch
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2016
   link: https://aaai.org/conference/aaai/aaai16/
-  deadline: "2015-09-10"
-  note:
+  deadline: "2015-09-15"
+  notification_date: "2015-11-06"
   date: "2016-02-12"
   place: Phoenix, AZ
   acceptance_rate: 25.8%
   num_submission: 2132
+  general_chair: Matthew E.Taylor, Gita Sukthankar
 
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   year: 2015
   link: https://aaai.org/conference/aaai/aaai15/
-  deadline: "2014-09-10"
-  note:
+  deadline: "2014-09-15"
+  abstract_deadline: "2014-09-10"
+  notification_date: "2014-11-07"
   date: "2015-01-25"
   place: Austin, TX
   acceptance_rate:
   num_submission:
+  general_chair:
+  program_chair:
 
 
 - name: IJCAI
@@ -141,121 +171,158 @@
   year: 2025
   link: https://2025.ijcai.org/
   deadline: "2025-01-23"
-  note: "Abstract deadline: 2025-01-16"
+  abstract_deadline: "2025-01-16"
+  notification_date: "2025-04-28"
   date: "2025-08-16"
   place: Montreal, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Shlomo Zilberstein
+  program_chair: James Kwok
 
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
   year: 2024
   link: https://ijcai24.org/
   deadline: "2024-01-17"
-  note: "Abstract deadline: 2024-01-10"
+  abstract_deadline: "2024-01-10"
+  notification_date: "2024-04-16"
   date: "2024-08-03"
   place: Jeju, South Korea
   acceptance_rate:
   num_submission:
+  general_chair: Chengqi Zhang
+  program_chair: Kate Larson
 
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
   year: 2023
   link: https://ijcai-23.org/
   deadline: "2023-01-18"
-  note: "Abstract deadline: 2023-01-11"
+  abstract_deadline: "2023-01-11"
+  notification_date: "2023-04-19"
   date: "2023-08-19"
   place: Macao, South Africa
   acceptance_rate:
   num_submission:
+  general_chair: Peter Stone
+  program_chair: Edith Elkind
+
 
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
   year: 2022
   link: https://ijcai-22.org/
   deadline: "2022-01-14"
-  note:  "Abstract deadline: 2022-01-07"
+  abstract_deadline: "2022-01-07"
+  notification_date: "2022-04-20"
   date: "2022-07-23"
   place: Vienna, Austria
   acceptance_rate:
   num_submission:
+  general_chair: Rina Dechter
+  program_chair: Luc De Raedt
+
 
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
   year: 2021
   link: https://ijcai-21.org/
   deadline: "2021-01-20"
-  note: "Abstract deadline: 2021-01-13"
+  abstract_deadline: "2021-01-13"
+  notification_date: "2021-04-30"
   date: "2021-08-21"
   place: Montreal, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Maria Gini
+  program_chair: Zhi-Hua Zhou
 
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
   year: 2020
   link: https://ijcai20.org/
   deadline: "2020-01-21"
-  note: "Abstract deadline: 2020-01-15"
+  abstract_deadline: "2020-01-15"
+  notification_date: "2020-04-19"
   date: "2021-01-07"
   place: Virtual Conference
   acceptance_rate:
   num_submission:
+  general_chair: Marie desJardins
+  program_chair: Christian Bessiere
+
 
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
   year: 2019
   link: https://ijcai19.org/
   deadline: "2019-02-25"
-  note: "Abstract deadline: 2019-02-19"
+  abstract_deadline: "2019-02-19"
+  notification_date: "2019-05-09"
   date: "2019-08-10"
   place: Macao, China
   acceptance_rate:
   num_submission:
+  general_chair: Thomas Eiter
+  program_chair: Sarit Kraus
+
 
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
   year: 2018
   link: https://www.ijcai-18.org/
   deadline: "2018-01-31"
-  note: "Abstract deadline: 2018-01-25"
+  abstract_deadline: "2018-01-25"
+  notification_date: "2018-04-16"
   date: "2018-07-13"
   place: Stockholm, Sweden
-  acceptance_rate:
-  num_submission:
+  acceptance_rate: 20.5
+  num_submission: 3470
+  general_chair: Jeffrey S. Rosenschein
+  program_chair: Jérôme Lang
 
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
   year: 2017
   link: https://ijcai-17.org/
   deadline: "2017-02-20"
-  note: "Abstract deadline: 2017-02-16"
+  abstract_deadline: "2017-02-16"
+  notification_date: "2017-04-23"
   date: "2017-08-19"
   place: Melbourne, Australia
   acceptance_rate:
   num_submission:
+  general_chair: Fahiem Bacchus
+  program_chair: Carles Sierra
 
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
   year: 2016
   link: https://ijcai-16.org/
   deadline: "2016-02-02"
-  note: "Abstract deadline: 2016-01-27"
+  abstract_deadline: "2016-01-27"
+  notification_date: "2016-04-04"
   date: "2016-07-09"
   place: New York, NY
   acceptance_rate:
   num_submission:
+  general_chair: Gerhard Brewka
+  program_chair: Subbarao Kambhampati
 
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
   year: 2015
   link: https://ijcai-15.org/
   deadline: "2015-02-12"
-  note: "Abstract deadline: 2015-02-08"
+  abstract_deadline: "2015-02-08"
+  notification_date: "2015-04-16"
   date: "2015-07-25"
   place: Buenos Aires, Argentina
   acceptance_rate:
   num_submission:
+  general_chair: Michael Wooldridge
+  program_chair: Qiang Yang
 
 
 ## Computer Vision
@@ -265,88 +332,111 @@
   year: 2025
   link: https://cvpr.thecvf.com/Conferences/2025
   deadline: "2024-11-14"
-  note: "Abstract deadline: 2024-11-07"
+  abstract_deadline: "2024-11-07"
+  notification_date: "2025-01-23"
   date: "2025-06-11"
   place: Nashville, TN
   acceptance_rate:
-  num_submission:
+  num_submission: 
+  general_chair: Ce Liu, Bryan Morse, Cristian Sminchisescu
+  program_chair: Phillip Isola, Hedvig Kjellström, Vincent Lepetit, Fuxin Li, Hao Su, Siyu Tang 
 
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
   year: 2024
   link: https://cvpr.thecvf.com/Conferences/2024
   deadline: "2023-11-17"
-  note: "Abstract deadline: 2023-11-10"
+  abstract_deadline: "2023-11-03"
+  notification_date: "2024-02-26"
   date: "2024-06-17"
   place: Seattle, WA
   acceptance_rate:
   num_submission:
+  general_chair: Octavia Camps, Rita Cucchiara, Sudeep Sarkar, Walter Scheirer,Ramin Zabih
+  program_chair: Zeynep Akata, David Crandall, Ali Farhadi, Robert Pless, Imari Sato, Jianxin Wu 
+
 
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
   year: 2023
   link: https://cvpr.thecvf.com/Conferences/2023
   deadline: "2022-11-11"
-  note: 
+  abstract_deadline: "2022-11-04"
+  notification_date: "2023-02-27"
   date: "2023-06-18"
   place: Vancouver, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Michael S Brown, Fei-Fei Li, Greg Mori, Yoichi Sato
+  program_chair: Andreas Geiger, Ross Girshick, Judy Hoffman, Vladlen Koltun, Svetlana Lazebnik
 
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
   year: 2022
   link: https://cvpr.thecvf.com/Conferences/2022
   deadline: "2021-11-18"
-  note: "Abstract deadline: 2021-11-09"
+  abstract_deadline: "2021-11-09"
+  notification_date: "2022-03-02"
   date: "2022-06-19"
   place: New Orleans, LA
   acceptance_rate:
   num_submission:
+  general_chair: Rama Chellappa, Jiri Matas, Long Quan, Mubarak Shah
+  program_chair: Kristin Dana, Gang Hua, Stefan Roth, Dimitris Samaras, Richa Singh
 
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
   year: 2021
-  link: https://cvpr.thecvf.com/Conferences/2021
+  link: https://cvpr2021.thecvf.com
   deadline: "2020-11-16"
-  note: "Abstract deadline: 2020-11-09"
+  abstract_deadline: "2020-11-09"
+  notification_date: "2021-02-28"
   date: "2021-06-19"
   place: Virtual Conference
   acceptance_rate:
   num_submission:
+  general_chair: Michael S. Brown, Rahul Sukthankar, Tieniu Tan, Lihi Zelnik
+  program_chair: David Forsyth, Georgia Gkioxari, Tinne Tuytelaars, Ruigang Yang, Jingyi Yu
 
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
   year: 2020
-  link: https://cvpr.thecvf.com/Conferences/2020
+  link: https://cvpr2020.thecvf.com
   deadline: "2019-11-15"
-  note: 
+  notification_date: "2020-02-23"
   date: "2020-06-14"
   place: Seattle, WA
   acceptance_rate:
   num_submission:
+  general_chair: Terry Boult, Gerard Medioni, Ramin Zabih
+  program_chair: Ce Liu, Greg Mori, Kate Saenko, Silvio Savarese
 
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
   year: 2019
   link: https://cvpr2019.thecvf.com/
   deadline: "2018-11-16"
-  note: "Abstract deadline: 2018-11-09"
+  notification_date: "2019-03-02"
   date: "2019-06-16"
   place: Long Beach, CA
   acceptance_rate:
   num_submission:
+  general_chair: Larry Davis, Philip Torr, Song-Chun Zhu
+  program_chair: Abhinav Gupta, Derek Hoiem, Gang Hua, Zhuowen Tu
 
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
   year: 2018
   link: https://cvpr2018.thecvf.com/
   deadline: "2017-11-15"
-  note: "Abstract deadline: 2017-11-08"
+  abstract_deadline: "2017-11-08"
+  notification_date: "2018-02-28"
   date: "2018-06-18"
   place: Salt Lake City, UT
   acceptance_rate:
   num_submission:
+  general_chair: Michael Brown, Bryan Morse, Shmuel Peleg
+  program_chair: David Forsyth, Ivan Laptev, Deva Ramanan, Aude Oliva
 
  
 
@@ -354,34 +444,42 @@
   description: Conference on Computer Vision and Pattern Recognition
   year: 2017
   link: https://cvpr2017.thecvf.com/
-  deadline: "2016-11-16"
-  note: "Abstract deadline: 2016-11-09"
+  deadline: "2016-11-15"
+  abstract_deadline: "2016-11-15"
+  notification_date: "2017-03-03"
   date: "2017-07-21"
   place: Honolulu, HI
   acceptance_rate:
   num_submission:
+  general_chair: Rama Chellappa, Zhengyou Zhang, Anthony Hoogs
+  program_chair: Jim Rehg, Yanxi Liu, Ying Wu, Camillo Taylor
 
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
   year: 2016
   link: https://cvpr2016.thecvf.com/
   deadline: "2015-11-06"
-  note: "Abstract deadline: 2015-11-09"
+  abstract_deadline: "2015-11-09"
+  notification_date: "2016-03-02"
   date: "2016-06-27"
   place: Las Vegas, NV
   acceptance_rate:
   num_submission:
+  general_chair: Ruzena Bajcsy, Fei-Fei Li, Tinne Tuytelaars
+  program_chair: Lourdes Agapito, Tamara Berg, Jana Kosecka, Lihi Zelnik-Manor
 
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
   year: 2015
   link: https://cvpr2015.thecvf.com/
   deadline: "2014-11-14"
-  note: "Abstract deadline: 2014-11-07"
+  notification_date: "2015-03-02"
   date: "2015-06-07"
   place: Boston, MA
   acceptance_rate:
   num_submission:
+  general_chair: Horst Bischof, David Forsyth, Cordelia Schmid, Stan Sclaroff
+  program_chair: Kristen Grauman, Erik Learned-Miller, Antonio Torralba, Andrew Zisserman
 
 - name: ECCV
   description: European Conference on Computer Vision

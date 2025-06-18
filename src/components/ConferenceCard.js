@@ -88,7 +88,7 @@ const ConferenceCard = ({ conference }) => {
     : 'TBD';
 
   const acceptance_rate = conference.acceptance_rate
-    ? (Math.round(conference.acceptance_rate * 10000) / 100).toFixed(2) + '%'
+    ? (Math.round(conference.acceptance_rate * 100) / 100).toFixed(2) + '%'
     : 'N/A';
 
   return (

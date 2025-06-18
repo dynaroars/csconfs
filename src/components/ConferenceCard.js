@@ -79,6 +79,10 @@ const ConferenceCard = ({ conference }) => {
     ? formatDateAoE(conference.deadline)
     : 'TBD';
 
+  const abstractDeadlineDisplay = conference.abstract_deadline
+    ? formatDateAoE(conference.abstract_deadline)
+    : '';
+
   const notificationDateDisplay = conference.notification_date
     ? formatDateAoE(conference.notification_date)
     : 'TBD';
@@ -162,6 +166,11 @@ const ConferenceCard = ({ conference }) => {
         <Typography variant="h5" fontWeight="bold" color="error.main" sx={{ fontSize: 'var(--font-size-title)' }}>
           {countdown || 'TBD'}
         </Typography>
+        {abstractDeadlineDisplay && (
+          <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
+            Abstract: {abstractDeadlineDisplay}
+          </Typography>
+        )}
         <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
           Submission: {deadlineDisplay}
         </Typography>

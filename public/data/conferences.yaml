@@ -492,7 +492,8 @@
   place: Malmo, Sweden
   acceptance_rate:
   num_submission:
-  program_chair: Zeynep Akata, Paolo Favaro, Zuzana Kukelova, Atsuto Maki, Federico Tombari
+  general_chair: Kalle Åström, Serge Belongie, Richard Hartley, Jana Košecká, Andrea Vedaldi
+  program_chair: Zeynep Akata, Paolo Favaro, Zuzana Kukelova, Atsuto Maki, Federico Tombari 
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -505,18 +506,22 @@
   place: Milan, Italy
   acceptance_rate:
   num_submission:
-  program_chair: Aleš Leonardis, Elisa Ricci, Stefan Roth, Olga Russakovsky, Torsten Sattler, Gül Varol
+  general_chair: Andrew Fitzgibbon, Laura Leal-Taixe, Vittorio Murino
+  program_chair: Aleš Leonardis, Elisa Ricci, Stefan Roth, Olga Russakovsky, Torsten Sattler, Gül Varol 
+
 
 - name: ECCV
   description: European Conference on Computer Vision
   year: 2022
   link: https://eccv2022.ecva.net
   deadline: "2022-03-07"
-  note: "No separate abstract deadline"
+  notification_date: "2022-07-03"
   date: "2022-10-24"
   place: Tel Aviv, Israel
   acceptance_rate:
   num_submission:
+    general_chair: Rita Cucchiara, Jiri Matas, Amnon Shashua, Lihi Zelnik-Manor
+  program_chair: Shai Avidan, Gabriel Brostow, Giovanni Maria Farinella, Tal Hassner
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -524,10 +529,14 @@
   link: https://eccv2020.eu
   deadline: "2020-03-05"
   abstract_deadline: "2020-02-27"
+  notification_date: "2020-07-03"
   date: "2020-08-23"
   place: Virtual Conference
   acceptance_rate:
   num_submission:
+  general_chair: Vittorio Ferrari, Bob Fisher, Cordelia Schmid, Emanuele Trucco
+  program_chair: Andrea Vedaldi, Horst Bischof, Thomas Brox, Jan-Michael Frahm
+
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -536,9 +545,12 @@
   deadline: "2018-03-14"
   abstract_deadline: "2018-03-07"
   date: "2018-09-08"
+  notification_date: "2018-07-03"
   place: Munich, Germany
   acceptance_rate:
   num_submission:
+  general_chair: Horst Bischof, Daniel Cremers, Bernt Schiele, Ramin Zabih
+  program_chair: Vittorio Ferrari, Martial Hebert, Cristian Sminchisescu, Yair Weiss
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -557,6 +569,7 @@
   link: http://conferences.visionbib.com/2014/eccv-9-14-call.html
   deadline: "2014-03-14"
   abstract_deadline: "2014-03-07"
+  notification_date: "2014-06-17"
   date: "2014-09-06"
   place: Zurich, Switzerland
   acceptance_rate:
@@ -567,11 +580,14 @@
   year: 2012
   link: https://eccv2012.unifi.it/conference/important-dates/
   deadline: "2012-03-05"
-  abstract_deadline: "2012-03-07"
+  abstract_deadline: "2012-02-15"
+  notification_date: "2012-07-05"
   date: "2012-10-07"
   place: Florence, Italy
   acceptance_rate:
   num_submission:
+  general_chair: Roberto Cipolla, Carlo Colombo, Alberto Del Bimbo
+  program_chair: Andrew Fitzgibbon, Svetlana Lazebnik, Yoichi Sato, Cordelia Schmid
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -579,10 +595,14 @@
   link: https://projects.ics.forth.gr/eccv2010/dates.php
   deadline: "2010-03-17"
   abstract_deadline: "2010-03-07"
+  notification_date: "2010-06-10"
   date: "2010-09-05"
   place: Heraklion, Greece
   acceptance_rate:
   num_submission:
+  general_chair: Antonis Argyros, Panos Trahanais, George Tziritas
+  program_chair: Kostas Daniilidis, Petros Maragos, Nikos Paragios
+
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -594,6 +614,9 @@
   place: Marseille, France
   acceptance_rate: 27.9%
   num_submission: 871
+  stats_link: http://eccv2008.inrialpes.fr/stats.html
+  general_chair: Jean Ponce
+  program_chair: David Forsyth, Philip Torr, Andrew Zisserman
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -610,12 +633,15 @@
   description: International Conference on Computer Vision
   year: 2025
   link: https://iccv.thecvf.com
-  deadline: "2025-03-03"
-  note: 
+  deadline: "2025-03-07"
+  abstract_deadline: "2025-03-03"
+  notification_date: "2025-06-26" 
   date: "2025-10-19"
   place: Honolulu, Hawaii
   acceptance_rate:
   num_submission:
+  general_chair: Hilde Kuehne, Gerard Medioni, Dimitris Samaras, Jingyi Yu, Ramin Zabih
+  program_chair: Bohyung Han, Aniruddha Kembhavi, Richard Souvenir, Deqing Sun, Ayellet Tal, Jingdong Wang 
 
 - name: ICCV
   description: International Conference on Computer Vision
@@ -623,10 +649,14 @@
   link: https://iccv2023.thecvf.com/
   deadline: "2023-03-08"
   abstract_deadline: "2023-03-01"
+  notification_date: "2023-07-13"
   date: "2023-10-02"
   place: Paris, France
   acceptance_rate:
   num_submission:
+  general_chair: Jana Kosecka, Jean Ponce, Cordelia Schmid, Andrew Zisserman
+  program_chair: Lourdes Agapito, Yasu Furukawa, Kristen Grauman, Kaiming He, Ivan Laptev
+
 
 - name: ICCV
   description: International Conference on Computer Vision
@@ -634,10 +664,13 @@
   link: https://iccv2021.thecvf.com/
   deadline: "2021-03-17"
   abstract_deadline: "2021-03-10"
+  notification_date: "2021-07-22"
   date: "2021-10-11"
   place: Virtual Conference
   acceptance_rate:
   num_submission:
+  general_chair: James Clark, Yasuyuki Matsushita, Camillo J. Taylor, Tamara Berg
+  program_chair: Tal Hassner, Christopher Pal, Yoichi Sato, Dima Damen
 
 - name: ICCV
   description: International Conference on Computer Vision
@@ -645,10 +678,13 @@
   link: https://iccv2019.thecvf.com/
   deadline: "2019-03-22"
   abstract_deadline: "2019-03-15"
+  notification_date: "2019-07-22"
   date: "2019-10-27"
   place: Seoul, South Korea
   acceptance_rate:
   num_submission:
+  general_chair: Kyoung Mu Lee, David Forsyth, Marc Pollefeys, Xiaoou Tang
+  program_chair: In So Kweon, Nikos Paragios, Ming-Hsuan Yang, Svetlana Lazebnik
 
 - name: ICCV
   description: International Conference on Computer Vision
@@ -656,10 +692,13 @@
   link: https://iccv2017.thecvf.com/
   deadline: "2017-03-17"
   abstract_deadline: "2017-03-10"
+  notification_date: "2017-07-17"
   date: "2017-10-22"
   place: Venice, Italy
   acceptance_rate:
   num_submission:
+  general_chair: Katsushi Ikeuchi, Gérard Medioni, Marcello Pelillo
+  program_chair: Rita Cucchiara, Yasuyuki Matsushita, Nicu Sebe, Stefano Soatto
 
 - name: ICCV
   description: International Conference on Computer Vision
@@ -667,10 +706,13 @@
   link: https://iccv2015.thecvf.com/
   deadline: "2015-04-22"
   abstract_deadline: "2015-04-15"
+  notification_date: "2015-09-03"
   date: "2015-12-11"
   place: Santiago, Chile
   acceptance_rate:
   num_submission:
+  general_chair: Ruzena Bajcsy, Greg Hager, Yi Ma
+  program_chair: Katsushi Ikeuchi, Christoph Schnörr, Josef Sivic, Rene Vidal
 
 ## Machine Learning
 - name: ICML
@@ -678,99 +720,120 @@
   year: 2025
   link: https://icml.cc/Conferences/2025
   deadline: "2025-01-30"
-  abstraction_deadline: "2025-01-23"
+  abstract_deadline: "2025-01-23"
   date: "2025-07-13"
   place: Vancouver, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Aarti Singh
+  program_chair: Maryam Fazel, Daniel Hsu, Simon Lacoste-Julien, Virginia Smith
 
 - name: ICML
   description: International Conference on Machine Learning
   year: 2024
   link: https://icml.cc/Conferences/2024
   deadline: "2024-02-01"
-  note:
+  notification_date: "2024-05-01"
   date: "2024-07-21"
   place: Vienna, Austria
   acceptance_rate:
   num_submission:
+  general_chair: Russ Salakhutdinov
+  program_chair: Katherine Heller, Zico Kolter, Nuria Oliver, Adrian Weller
 
 - name: ICML
   description: International Conference on Machine Learning
   year: 2023
   link: https://icml.cc/Conferences/2023
   deadline: "2023-01-26"
-  note:
+  notification_date: "2023-04-24"
   date: "2023-07-23"
   place: Honolulu, HI
   acceptance_rate:
   num_submission:
+  general_chair: Andreas Krause
+  program_chair: Emma Brunskill, Kyunghyun Cho, Barbara Engelhardt 
 
 - name: ICML
   description: International Conference on Machine Learning
   year: 2022
   link: https://icml.cc/Conferences/2022
   deadline: "2022-01-27"
-  abstraction_deadline: "2022-01-20"
+  abstract_deadline: "2022-01-20"
+  notification_date: "2022-05-14"
   date: "2022-07-17"
   place: Baltimore, MD
   acceptance_rate:
   num_submission:
+  general_chair: Kamalika Chaudhuri 
+  program_chair: Stefanie Jegelka, Le Song, Csaba Szepesvari
 
 - name: ICML
   description: International Conference on Machine Learning
   year: 2021
   link: https://icml.cc/Conferences/2021
   deadline: "2021-02-04"
-  abstraction_deadline: "2021-01-28"
+  abstract_deadline: "2021-01-28"
+  notification_date: "2021-05-08"
   date: "2021-07-18"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: John Langford
+  program_chair: Marina Meila, Tong Zhang
 
 - name: ICML
   description: International Conference on Machine Learning
   year: 2020
   link: https://icml.cc/Conferences/2020
   deadline: "2020-02-04"
-  abstraction_deadline: "2020-01-30"
+  abstract_deadline: "2020-01-30"
   date: "2020-07-12"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: David Blei
+  program_chair: Hal Daumé, Aarti Singh
 
 - name: ICML
   description: International Conference on Machine Learning
   year: 2019
   link: https://icml.cc/Conferences/2019
   deadline: "2019-01-23"
-  abstraction_deadline: "2019-01-18"
+  abstract_deadline: "2019-01-16"
+  notification_date: "2019-04-24"
   date: "2019-06-09"
   place: Long Beach, CA
   acceptance_rate:
   num_submission:
+  general_chair: Eric Xing
+  program_chair: Kamalika Chaudhuri, Ruslan Salakhutdinov
 
 - name: ICML
   description: International Conference on Machine Learning
   year: 2018
   link: https://icml.cc/Conferences/2018
   deadline: "2018-01-09"
-  note: 
+  notification_date: "2018-05-12"
   date: "2018-07-10"
   place: Stockholm, Sweden
   acceptance_rate:
   num_submission:
+  general_chair: Francis Bach
+  program_chair: Jennifer Dy, Andreas Krause
 
 - name: ICML
   description: International Conference on Machine Learning
   year: 2017
   link: https://icml.cc/Conferences/2017
   deadline: "2017-02-02"
-  note: 
+  notification_date: "2017-05-13"
   date: "2017-08-06"
   place: Sidney, Australia
   acceptance_rate:
   num_submission:
+  general_chair: Tony Jebara
+  program_chair: Doina Precup, Yee Whye Teh
  
 - name: ICML
   description: International Conference on Machine Learning
@@ -782,28 +845,35 @@
   place: New York, NY
   acceptance_rate:
   num_submission:
+  general_chair: John Langford
+  program_chair: Nina Balcan, Kilian Weinberger
 
 - name: ICML
   description: International Conference on Machine Learning
   year: 2015
   link: https://icml.cc/2015/
   deadline: "2015-02-06"
-  note: 
+  notification_date: "2015-04-24"
   date: "2015-07-06"
   place: Lile, France
   acceptance_rate:
   num_submission:
+  general_chair: Joelle Pineau
+  program_chair: Francis Bach, David Blei
 
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2025
   link: https://iclr.cc/Conferences/2025
   deadline: "2024-10-01"
-  abstract_deadline: "2024-09-27"
+  abstract_deadline: "2024-09-24"
+  notification_date: "2025-01-22"
   date: "2025-04-24"
   place: Singapore
   acceptance_rate:
   num_submission:
+  general_chair: Yisong Yue
+  program_chair: Animesh Garg, Nanyun (Violet) Peng, Fei Sha
 
 - name: ICLR
   description: International Conference on Learning Representations
@@ -815,6 +885,8 @@
   place: Vienna, Austria
   acceptance_rate:
   num_submission:
+  general_chair: Been Kim 
+  program_chair: Swarat Chaudhuri, Katerina Fragkiadaki, Mohammad Emtiyaz Khan, Yizhou Sun 
 
 - name: ICLR
   description: International Conference on Learning Representations
@@ -822,10 +894,13 @@
   link: https://iclr.cc/Conferences/2023
   deadline: "2022-09-28"
   abstract_deadline: "2022-09-21"
+  notification_date: "2023-01-21"
   date: "2023-05-01"
   place: Kigali, Rwanda
   acceptance_rate:
   num_submission:
+  general_chair: Yan Liu
+  program_chair: Maximilian Nickel, Mengdi Wang, Nancy F Chen, Vukosi Marivate
 
 - name: ICLR
   description: International Conference on Learning Representations
@@ -833,87 +908,104 @@
   link: https://iclr.cc/Conferences/2022
   deadline: "2021-10-06"
   abstract_deadline: "2021-09-29"
+  notification_date: "2022-01-24"
   date: "2022-04-25"
   place: Virtual Conference
   acceptance_rate:
   num_submission:
+  general_chair: Katja Hofmann
+  program_chair: Chelsea Finn, Yejin Choi, Marc Deisenroth
 
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2021
   link: https://iclr.cc/Conferences/2021
   deadline: "2020-10-02"
-  abstract_deadline: "2020-09-28"
+  abstract_deadline: "2020-09-25"
+  notification_date: "2021-01-14"
   date: "2021-05-03"
   place: Virtual Conference
   acceptance_rate:
   num_submission:
+  general_chair: Shakir Mohamed
+  program_chair: Katja Hofmann
 
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2020
   link: https://iclr.cc/Conferences/2020
-  deadline: "2019-09-21"
-  note: 
+  deadline: "2019-09-25"
+  notification_date: "2019-12-19"
   date: "2020-04-26"
   place: Virtual Conference
   acceptance_rate:
   num_submission:
+  general_chair: Alexander Rush
+  program_chair: Shakir Mohamed
 
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2019
   link: https://iclr.cc/Conferences/2019
   deadline: "2018-09-27"
-  note: 
   date: "2019-05-06"
   place: New Orleans, LA
   acceptance_rate:
   num_submission:
+  general_chair: Tara Sainath
+  program_chair: Sergey Levine, Karen Livescu, Shakir Mohamed
 
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2018
   link: https://iclr.cc/Conferences/2018
   deadline: "2017-10-27"
-  note: 
+  notification_date: "2018-01-29"
   date: "2018-04-30"
   place: Vancouver, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Yoshua Bengio, Yann LeCun
+  program_chair: Tara Sainath
 
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2017
-  link: https://iclr.cc/Conferences/2017
+  link: https://iclr.cc/archive/www/2017.html
   deadline: "2017-10-27"
-  note: 
   date: "2017-04-24"
   place: Toulon, France
   acceptance_rate:
   num_submission:
+  general_chair: Yoshua Bengio, Yann LeCun
+  program_chair: Marc1Aurelio Ranzato
 
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2016
-  link: https://iclr.cc/Conferences/2016
+  link: https://iclr.cc/archive/www/2016.html
   deadline: "2015-11-19"
   abstract_deadline: "2015-11-12"
   date: "2016-05-02"
   place: San Juan, PR
   acceptance_rate:
   num_submission:
+  general_chair: Yoshua Bengio, Yann LeCun
+  program_chair: Hugo Larochell
+
 
 - name: ICLR
   description: International Conference on Learning Representations
   year: 2015
   link: https://iclr.cc/archive/www/doku.php%3Fid=iclr2015:main.html
   deadline: "2014-12-19"
-  note: 
+  notification_date: "2015-03-20"
   date: "2015-05-07"
   place: San Diego, CA
   acceptance_rate:
   num_submission:
+  general_chair: Yoshua Bengio, Yann LeCun
+  program_chair: Brian Kingsbury, Hugo Larochelle, Samy Bengio, Nando de Freitas
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
@@ -926,6 +1018,8 @@
   place: Toronto, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Luiza Antonie, Jian Pei, Xiaohui Yu
+  program_chair: Flavio Chierichetti, Hady W. Lauw, Yizhou Sun, Srinivasan Parthasarathy
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
@@ -938,50 +1032,61 @@
   place: Toronto, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Luiza Antonie, Jian Pei, Xiaohui Yu
+  program_chair: Flavio Chierichetti, Hady W. Lauw, Yizhou Sun, Srinivasan Parthasarathy
+
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2024
   link: https://kdd2024.kdd.org/
   deadline: "2024-02-08"
-  note: "First cycle; Abstract deadline: 2024-02-01"
+  abstract_deadline: "2024-02-01"
   date: "2024-08-25"
   place: Barcelona, Spain
+  note: Cycle 1/2
   acceptance_rate:
   num_submission:
+  general_chair: Ricardo Baeza-Yates, Francesco Bonchi
+  program_chair: Flavio Chierichetti, Danai Koutra, Ravi Kumar
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2024
   link: https://kdd2024.kdd.org/
   deadline: "2024-08-08"
-  note: "Second cycle; Abstract deadline: 2024-08-01"
+  abstract_deadline: "2024-08-01"
   date: "2024-08-25"
   place: Barcelona, Spain
+  note: Cycle 2/2
   acceptance_rate:
   num_submission:
+  general_chair: Ricardo Baeza-Yates, Francesco Bonchi
+  program_chair: Flavio Chierichetti, Danai Koutra, Ravi Kumar
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2023
   link: https://kdd.org/kdd2023/
   deadline: "2023-02-02"
-  note: 
   date: "2023-08-06"
   place: Long Beach, CA
   acceptance_rate:
   num_submission:
+  general_chair: Ambuj Singh, Yizhou Sun
+  program_chair: Xifeng Yan, Leman Akoglu, Dimitrios Gunopulos
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2022
   link: https://kdd.org/kdd2022/
   deadline: "2022-02-10"
-  note: 
   date: "2022-08-14"
   place: Washington, DC
   acceptance_rate:
   num_submission:
+  general_chair: Aidong Zhang, Huzefa Rangwala
+  program_chair: Nitesh Chawla, Yan Liu
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
@@ -989,76 +1094,83 @@
   link: https://www.kdd.org/kdd2021/
   deadline: "2021-02-08"
   place: Virtual Conference
-  note: "Second cycle; Abstract deadline: 2021-02-05"
   date: "2021-08-14"
   acceptance_rate:
   num_submission:
+  general_chair: Feida Zhu, Beng Chin Ooi, Chunyan Miao
+  program_chair: Wynne Hsu, Sanjay Chawla
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2020
   link: https://www.kdd.org/kdd2020/
   deadline: "2020-02-13"
-  note: Virtual Conference
   date: "2020-08-23"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Rajesh Gupta, Yan Liu
+  program_chair: Wei Wang, Heng Huang
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2019
   link: https://www.kdd.org/kdd2019/
   deadline: "2019-02-03"
-  note:
   date: "2019-08-04"
   place: Anchorage, AK
   acceptance_rate:
   num_submission:
+  general_chair: Vipin Kumar, Ankur Teredesai
+  program_chair: George Karypis, Evimaria Terzi, Ying Li, Romer Rosales
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2018
   link: https://www.kdd.org/kdd2018/
   deadline: "2018-02-11"
-  note:
   date: "2018-08-19"
   place: London, United Kingdom
   acceptance_rate:
   num_submission:
+  general_chair: Yike Guo, Faisal Farooq
+  program_chair: Chih-Jen Lin, Hui Xiong
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2017
   link: https://www.kdd.org/kdd2017/
   deadline: "2017-02-17"
-  note:
   date: "2017-08-13"
   place: Halifax, Nova Scotia, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Stan Matwin, Shipeng Yu
+  program_chair: Ravi Kumar, Tina Eliassi-Rad
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2016
   link: https://www.kdd.org/kdd2016/
   deadline: "2016-02-12"
-  note:
   date: "2016-08-13"
   place: San Francisco, CA
   acceptance_rate:
   num_submission:
+  general_chair: Balaji Krishnapuram, Mohak Shah
+  program_chair: Alex Smola, Charu Aggarwal
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2015
   link: https://www.kdd.org/kdd2015/
-  deadline: "2015-02-13"
-  note:
+  deadline: "2015-02-20"
   date: "2015-08-10"
   place: Sydney, Australia
   acceptance_rate:
   num_submission:
+  general_chair: Longbing Cao, Changqi Zhang
+  program_chair: Thorsten Joachims, Geoff Webb
 
 
 - name: NeurIPS
@@ -1066,12 +1178,15 @@
   year: 2025
   link: https://neurips.cc/Conferences/2025
   deadline: "2025-05-15"
+  abstract_deadline: "2025-05-11"
   notification_date: "2025-09-18"
   abstract_deadline: "2025-05-11"
   date: "2025-12-02"
   place: San Diego, CA
   acceptance_rate:
   num_submission:
+  general_chair: Danielle Belgrave, Cheng Zhang
+  program_chair: Nancy Chen, Marzyeh Ghassemi, Piotr Koniusz, Razvan Pascanu
 
 - name: NeurIPS
   description: Neural Information Processing Systems
@@ -1079,10 +1194,13 @@
   link: https://neurips.cc/Conferences/2024
   deadline: "2024-05-22"
   abstract_deadline: "2024-05-15"
+  notification_date: "2024-09-26"
   date: "2024-12-10"
   place: Vancouver, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Amir Globerson, Lester Mackey
+  program_chair: Angela Fan, Ulrich Paquet, Jakub Tomczak, Cheng Zhang 
 
 - name: NeurIPS
   description: Neural Information Processing Systems
@@ -1090,10 +1208,13 @@
   link: https://neurips.cc/Conferences/2023
   deadline: "2023-05-17"
   abstract_deadline: "2023-05-11"
+  notification_date: "2023-09-22"
   date: "2023-12-10"
   place: New Orleans, LA
   acceptance_rate:
   num_submission:
+  general_chair: Tristan Naumann, Alice Oh
+  program_chair: Amir Globerson, Moritz Hardt, Sergey Levine, Kate Saenko
 
 - name: NeurIPS
   description: Neural Information Processing Systems
@@ -1101,10 +1222,13 @@
   link: https://neurips.cc/Conferences/2022
   deadline: "2022-05-19"
   abstract_deadline: "2022-05-16"
+  notification_date: "2022-09-14"
   date: "2022-11-28"
   place: New Orleans, LA
   acceptance_rate:
   num_submission:
+  general_chair: Sanmi Koyejo, Shakir Mohamed 
+  program_chair: Alekh Agarwal, Danielle Belgrave, Kyunghyun Cho
 
 - name: NeurIPS
   description: Neural Information Processing Systems
@@ -1112,10 +1236,13 @@
   link: https://neurips.cc/Conferences/2021
   deadline: "2021-05-28"
   abstract_deadline: "2021-05-21"
+  notification_date: "2021-09-28"
   date: "2021-12-06"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Marc'Aurelio Ranzato
+  program_chair: Alina Beygelzimer
 
 - name: NeurIPS
   description: Neural Information Processing Systems
@@ -1123,10 +1250,13 @@
   link: https://neurips.cc/Conferences/2020
   deadline: "2020-06-05"
   abstract_deadline: "2020-05-27"
+  notification_date: "2020-09-26"
   date: "2020-12-06"
   place: Online
   acceptance_rate:
   num_submission:
+  general_chair: Hugo Larochelle
+  program_chair: Marc'Aurelio Ranzato
 
 - name: NeurIPS
   description: Neural Information Processing Systems
@@ -1134,54 +1264,63 @@
   link: https://neurips.cc/Conferences/2019
   deadline: "2019-05-23"
   abstract_deadline: "2019-05-16"
+  notification_date: "2019-09-04"
   date: "2019-12-08"
   place: Vancouver, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Hanna Wallach
+  program_chair: Hugo Larochelle
 
 - name: NeurIPS
   description: Neural Information Processing Systems
   year: 2018
   link: https://neurips.cc/Conferences/2018
   deadline: "2018-05-18"
-  note:
+  notification_date: "2018-09-05"
   date: "2018-12-02"
   place: Montreal, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Samy Bengio
+  program_chair: Hanna Wallach
 
 - name: NeurIPS
   description: Neural Information Processing Systems
   year: 2017
   link: https://neurips.cc/Conferences/2017
   deadline: "2017-05-19"
-  note:
+  notification_date: "2017-09-04"
   date: "2017-12-04"
   place: Long Beach, CA
   acceptance_rate:
   num_submission:
+  general_chair: Isabelle Guyon, Ulrike von Luxburg
+  program_chair: Samy Bengio
 
 - name: NeurIPS
   description: Neural Information Processing Systems
   year: 2016
   link: https://neurips.cc/Conferences/2016
   deadline: "2016-05-20"
-  note:
   date: "2016-12-05"
   place: Barcelona, Spain
   acceptance_rate:
   num_submission:
+  general_chair: Daniel D Lee, Masashi Sugiyama
+  program_chair: Ulrike von Luxburg, Isabelle Guyon
 
 - name: NeurIPS
   description: Neural Information Processing Systems
   year: 2015
   link: https://neurips.cc/Conferences/2015
   deadline: "2015-06-05"
-  note:
   date: "2015-12-07"
   place: Montreal, Canada
   acceptance_rate:
   num_submission:
+  general_chair: Corinna Cortes, Neil D Lawrence
+  program_chair: Daniel D Lee, Masashi Sugiyama
 
 ## Natural Language Processing
 

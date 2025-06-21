@@ -239,109 +239,6 @@ const extractCity = (place) => {
 
   return (
     <Box sx={{ width: '95%', padding: 0 }}>
-      {/* Paper Statistics Chart */}
-      {paperData && paperData.length > 0 && (
-        <>
-          <Typography variant="h5" sx={{ marginBottom: 2, fontWeight: 'bold' }}>
-            Paper Statistics Over Years
-          </Typography>
-          
-          <Box sx={{ 
-            width: '100%', 
-            height: 400, 
-            marginBottom: 4,
-            background: 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)',
-            borderRadius: '12px',
-            border: '1px solid #dee2e6',
-            boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-            padding: 2
-          }}>
-            <ResponsiveContainer width="100%" height="100%">
-              <ComposedChart data={paperData} margin={{ top: 20, right: 20, left: 20, bottom: 20 }}>
-                <CartesianGrid 
-                  strokeDasharray="3 3" 
-                  stroke="#d1d5db"
-                  strokeOpacity={0.6}
-                />
-                <XAxis 
-                  dataKey="year" 
-                  tick={{ fontSize: 12, fill: '#374151', fontWeight: '500' }}
-                  axisLine={{ stroke: '#6b7280', strokeWidth: 1 }}
-                  tickLine={{ stroke: '#6b7280' }}
-                />
-                <YAxis 
-                  yAxisId="left"
-                  tick={{ fontSize: 12, fill: '#374151', fontWeight: '500' }}
-                  label={{ value: 'Number of Papers', angle: -90, position: 'insideLeft', style: { textAnchor: 'middle', fill: '#374151', fontWeight: '600' } }}
-                  axisLine={{ stroke: '#6b7280', strokeWidth: 1 }}
-                  tickLine={{ stroke: '#6b7280' }}
-                />
-                <YAxis 
-                  yAxisId="right" 
-                  orientation="right"
-                  tick={{ fontSize: 12, fill: '#374151', fontWeight: '500' }}
-                  label={{ value: 'Acceptance Rate (%)', angle: 90, position: 'insideRight', style: { textAnchor: 'middle', fill: '#374151', fontWeight: '600' } }}
-                  axisLine={{ stroke: '#6b7280', strokeWidth: 1 }}
-                  tickLine={{ stroke: '#6b7280' }}
-                />
-                <Tooltip 
-                  formatter={(value, name) => {
-                    if (name === 'Acceptance Rate') {
-                      return [`${value}%`, name];
-                    }
-                    return [value, name];
-                  }}
-                  labelFormatter={(year) => `Year: ${year}`}
-                  contentStyle={{
-                    backgroundColor: '#ffffff',
-                    border: '1px solid #d1d5db',
-                    borderRadius: '8px',
-                    boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-                    fontWeight: '500'
-                  }}
-                />
-                <Legend 
-                  wrapperStyle={{
-                    paddingTop: '20px',
-                    fontWeight: '500',
-                    fontSize: '13px'
-                  }}
-                />
-                <Bar 
-                  yAxisId="left"
-                  dataKey="accepted" 
-                  stackId="papers"
-                  fill="#ff8c00" 
-                  name="Number of Accepted"
-                  radius={[0, 0, 0, 0]}
-                  stroke="#e67300"
-                  strokeWidth={1}
-                />
-                <Bar 
-                  yAxisId="left"
-                  dataKey="rejected" 
-                  stackId="papers"
-                  fill="#1f77b4" 
-                  name="Number of Rejected"
-                  radius={[4, 4, 0, 0]}
-                  stroke="#1565c0"
-                  strokeWidth={1}
-                />
-                <Line 
-                  yAxisId="right"
-                  type="monotone" 
-                  dataKey="acceptanceRate" 
-                  stroke="#ff7f0e" 
-                  strokeWidth={3}
-                  dot={{ fill: '#ff7f0e', strokeWidth: 2, r: 4 }}
-                  name="Acceptance Rate"
-                />
-              </ComposedChart>
-            </ResponsiveContainer>
-          </Box>
-        </>
-      )}
-
       {/* Countries Chart */}
       <Typography variant="h5" sx={{ marginBottom: 3, fontWeight: 'bold' }}>
         The Most Frequent Countries
@@ -531,7 +428,108 @@ const extractCity = (place) => {
           );
         })}
       </Box>
-
+      {/* Paper Statistics Chart */}
+      {paperData && paperData.length > 0 && (
+        <>
+          <Typography variant="h5" sx={{ marginTop: 4, marginBottom: 3, fontWeight: 'bold' }}>
+            Paper Statistics Over Years
+          </Typography>
+          
+          <Box sx={{ 
+            width: '100%', 
+            height: 400, 
+            marginBottom: 4,
+            background: 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)',
+            borderRadius: '12px',
+            border: '1px solid #dee2e6',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+            padding: 2
+          }}>
+            <ResponsiveContainer width="100%" height="100%">
+              <ComposedChart data={paperData} margin={{ top: 20, right: 20, left: 20, bottom: 20 }}>
+                <CartesianGrid 
+                  strokeDasharray="3 3" 
+                  stroke="#d1d5db"
+                  strokeOpacity={0.6}
+                />
+                <XAxis 
+                  dataKey="year" 
+                  tick={{ fontSize: 12, fill: '#374151', fontWeight: '500' }}
+                  axisLine={{ stroke: '#6b7280', strokeWidth: 1 }}
+                  tickLine={{ stroke: '#6b7280' }}
+                />
+                <YAxis 
+                  yAxisId="left"
+                  tick={{ fontSize: 12, fill: '#374151', fontWeight: '500' }}
+                  label={{ value: 'Number of Papers', angle: -90, position: 'insideLeft', style: { textAnchor: 'middle', fill: '#374151', fontWeight: '600' } }}
+                  axisLine={{ stroke: '#6b7280', strokeWidth: 1 }}
+                  tickLine={{ stroke: '#6b7280' }}
+                />
+                <YAxis 
+                  yAxisId="right" 
+                  orientation="right"
+                  tick={{ fontSize: 12, fill: '#374151', fontWeight: '500' }}
+                  label={{ value: 'Acceptance Rate (%)', angle: 90, position: 'insideRight', style: { textAnchor: 'middle', fill: '#374151', fontWeight: '600' } }}
+                  axisLine={{ stroke: '#6b7280', strokeWidth: 1 }}
+                  tickLine={{ stroke: '#6b7280' }}
+                />
+                <Tooltip 
+                  formatter={(value, name) => {
+                    if (name === 'Acceptance Rate') {
+                      return [`${value}%`, name];
+                    }
+                    return [value, name];
+                  }}
+                  labelFormatter={(year) => `Year: ${year}`}
+                  contentStyle={{
+                    backgroundColor: '#ffffff',
+                    border: '1px solid #d1d5db',
+                    borderRadius: '8px',
+                    boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                    fontWeight: '500'
+                  }}
+                />
+                <Legend 
+                  wrapperStyle={{
+                    paddingTop: '20px',
+                    fontWeight: '500',
+                    fontSize: '13px'
+                  }}
+                />
+                <Bar 
+                  yAxisId="left"
+                  dataKey="accepted" 
+                  stackId="papers"
+                  fill="#ff8c00" 
+                  name="Number of Accepted"
+                  radius={[0, 0, 0, 0]}
+                  stroke="#e67300"
+                  strokeWidth={1}
+                />
+                <Bar 
+                  yAxisId="left"
+                  dataKey="rejected" 
+                  stackId="papers"
+                  fill="#1f77b4" 
+                  name="Number of Rejected"
+                  radius={[4, 4, 0, 0]}
+                  stroke="#1565c0"
+                  strokeWidth={1}
+                />
+                <Line 
+                  yAxisId="right"
+                  type="monotone" 
+                  dataKey="acceptanceRate" 
+                  stroke="#ff7f0e" 
+                  strokeWidth={3}
+                  dot={{ fill: '#ff7f0e', strokeWidth: 2, r: 4 }}
+                  name="Acceptance Rate"
+                />
+              </ComposedChart>
+            </ResponsiveContainer>
+          </Box>
+        </>
+      )}
     </Box>
   );
 };

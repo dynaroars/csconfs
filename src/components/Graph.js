@@ -25,15 +25,15 @@ const parseDateToDays = (dateStr) => {
 const CustomTooltip = ({ active, payload }) => {
   if (!active || !payload || !payload.length) return null;
   const conf = payload[0].payload;
+  const myDate = (d) => new Date(d).toLocaleDateString()
+  const daysLeft = (d) => Math.max(0, Math.floor((new Date(d) - new Date()) / DAY_MS));
+
   return (
     <div style={{ background: '#fff', border: '1px solid #ccc', padding: 10 }}>
       <strong>{conf.name}</strong>
       <div>
-        Deadline: {new Date(conf.deadline).toLocaleDateString()} ({Math.max(0, Math.floor((new Date(conf.deadline) - new Date()) / DAY_MS))} days)
-      </div>
-      <div>
-        Notification: {conf.isSynthesized ? 'TBD ' : new Date(conf.notification_date).toLocaleDateString()} 
-        ({conf.isSynthesized ? 'TBD' : Math.max(0, Math.floor((new Date(conf.notification_date) - new Date()) / DAY_MS))} days)
+        Deadline: {myDate(conf.deadline)} ({daysLeft(conf.deadline)} days)<br/>
+        Notification: {conf.isSynthesized ? 'TBD' : `${myDate(conf.notification_date)} (${daysLeft(conf.notification_date)} days)`}
       </div>
     </div>
   );

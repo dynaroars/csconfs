@@ -6,6 +6,7 @@ import MenuItem from '@mui/material/MenuItem';
 
 import Graph from './Graph';
 import ConferenceCard from './ConferenceCard';
+import Stat from './Stat';
 
 function getAoEAdjustedDeadline(deadline) {
     if (!deadline) return null;
@@ -106,10 +107,11 @@ const sortFunctions = {
         confs.sort((a, b) => b.acceptance_rate - a.acceptance_rate),
 };
 
+
 function ConferenceDisplay({ filteredConferences }) {
-    // State to track current view: 'list' or 'graph'
-    const [viewMode, setViewMode] = useState('list'); // default is list
+    const [viewMode, setViewMode] = useState('list');
     const [sortMode, setSortMode] = useState('submission_deadline');
+    const [yearFilter, setYearFilter] = useState('None');
     const [sortFunction, setSortFunction] = useState(
         () => sortFunctions.submission_deadline
     );
@@ -123,9 +125,49 @@ function ConferenceDisplay({ filteredConferences }) {
         setSortFunction(() => sortFunctions[e.target.value]);
     };
 
+    const handleYearChange = (e) => {
+        setYearFilter(e.target.value);
+    };
+
+    // Filter conferences by year
+    const filterConferencesByYear = (conferences) => {
+        if (yearFilter === 'None') return conferences;
+        
+        const selectedYear = parseInt(yearFilter);
+        
+        return conferences.filter(conf => {
+            // Check if any of the three dates fall within the selected year
+            return conf.year === selectedYear;
+        });
+    };
+
+    // Generate year options dynamically from data
+    const getYearOptions = () => {
+        const years = filteredConferences
+            .map(conf => conf.year)
+            .filter(year => year && !isNaN(year))
+            .map(year => parseInt(year));
+        
+        if (years.length === 0) return ['None'];
+        
+        const minYear = Math.min(...years);
+        const maxYear = Math.max(...years);
+        
+        const yearOptions = ['None'];
+        for (let year = maxYear; year >= minYear; year--) {
+            yearOptions.push(year.toString());
+        }
+        return yearOptions;
+    };
+    
+    const yearOptions = getYearOptions();
+
+    // Apply year filter before sorting
+    const yearFilteredConferences = filterConferencesByYear(filteredConferences);
+
     return (
         <div style={{ width: '100%' }}>
-            {/* Dropdown selector */}
+            {/* Dropdown selector for view mode */}
             <FormControl sx={{ minWidth: 150, marginBottom: 2 }} size="small">
                 <InputLabel id="view-select-label">View</InputLabel>
                 <Select
@@ -137,41 +179,65 @@ function ConferenceDisplay({ filteredConferences }) {
                 >
                     <MenuItem value="list">List View</MenuItem>
                     <MenuItem value="graph">Graph View</MenuItem>
+                    <MenuItem value="stat">Statistics View</MenuItem>
                 </Select>
             </FormControl>
 
-            {/* Dropdown selector for conference sorting */}
-            <FormControl
-                sx={{ marginLeft: 2, minWidth: 150, marginBottom: 2 }}
-                size="small"
-            >
-                <InputLabel id="sort-select-label">Sort</InputLabel>
-                <Select
-                    labelId="sort-select-label"
-                    id="sort-select"
-                    value={sortMode}
-                    label="Sort"
-                    onChange={handleSortChange}
+            {/* Conditionally render sort dropdown only in list view */}
+            {viewMode === 'list' && (
+                <FormControl
+                    sx={{ marginLeft: 2, minWidth: 150, marginBottom: 2 }}
+                    size="small"
                 >
-                    <MenuItem value="submission_deadline">Submission Deadline</MenuItem>
-                    <MenuItem value="notification_date">Notification Date</MenuItem>
-                    <MenuItem value="confdate">Conf. Date</MenuItem>
-                    {/* <MenuItem value="confname">Conf. Name</MenuItem> */}
-                    <MenuItem value="confplace">Conf. Location (Country)</MenuItem>
-                    {/* <MenuItem value="acceptanceRate">Acceptance Rate</MenuItem> */}
-                </Select>
-            </FormControl>
+                    <InputLabel id="sort-select-label">Sort</InputLabel>
+                    <Select
+                        labelId="sort-select-label"
+                        id="sort-select"
+                        value={sortMode}
+                        label="Sort"
+                        onChange={handleSortChange}
+                    >
+                        <MenuItem value="submission_deadline">Submission Deadline</MenuItem>
+                        <MenuItem value="notification_date">Notification Date</MenuItem>
+                        <MenuItem value="confdate">Conf. Date</MenuItem>
+                        <MenuItem value="confplace">Conf. Location (Country)</MenuItem>
+                    </Select>
+                </FormControl>
+            )}
 
-            {/* Conditionally render based on view */}
+            {/* Year filter dropdown - shown in list view */}
+            {viewMode === 'list' && (
+                <FormControl
+                    sx={{ marginLeft: 2, minWidth: 120, marginBottom: 2 }}
+                    size="small"
+                >
+                    <InputLabel id="year-select-label">Year</InputLabel>
+                    <Select
+                        labelId="year-select-label"
+                        id="year-select"
+                        value={yearFilter}
+                        label="Year"
+                        onChange={handleYearChange}
+                    >
+                        {yearOptions.map(year => (
+                            <MenuItem key={year} value={year}>{year}</MenuItem>
+                        ))}
+                    </Select>
+                </FormControl>
+            )}
+
+            
+
+            {/* Conditionally render content */}
             {viewMode === 'graph' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Graph conferences={filteredConferences} />
+                    <Graph conferences={yearFilteredConferences} />
                 </div>
             )}
 
             {viewMode === 'list' && (
                 <div className="conference-card" style={{ width: '100%' }}>
-                    {sortFunction(filteredConferences).map((conf) => (
+                    {sortFunction(yearFilteredConferences).map((conf) => (
                         <ConferenceCard
                             key={`${conf.name}-${conf.year}-${conf.note}`}
                             conference={conf}
@@ -179,8 +245,15 @@ function ConferenceDisplay({ filteredConferences }) {
                     ))}
                 </div>
             )}
+
+            {viewMode === 'stat' && (
+                <div style={{ width: '100%', marginBottom: 16 }}>
+                    <Stat conferences={yearFilteredConferences} />
+                </div>
+            )}
         </div>
     );
 }
+
 
 export default ConferenceDisplay;

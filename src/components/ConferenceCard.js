@@ -79,12 +79,16 @@ const ConferenceCard = ({ conference }) => {
     ? formatDateAoE(conference.deadline)
     : 'TBD';
 
+  const abstractDeadlineDisplay = conference.abstract_deadline
+    ? formatDateAoE(conference.abstract_deadline)
+    : '';
+
   const notificationDateDisplay = conference.notification_date
     ? formatDateAoE(conference.notification_date)
     : 'TBD';
 
   const acceptance_rate = conference.acceptance_rate
-    ? (Math.round(conference.acceptance_rate * 10000) / 100).toFixed(2) + '%'
+    ? (Math.round(conference.acceptance_rate * 100) / 100).toFixed(2) + '%'
     : 'N/A';
 
   return (
@@ -116,9 +120,9 @@ const ConferenceCard = ({ conference }) => {
           {conference.note}
         </Typography>
         
-        {conference.general_chair && <Typography variant="body2" sx={{ fontWeight: 'normal', marginBottom: 0, color: 'text.secondary', fontSize: 'var(--font-size-body)', }}>
-          General Chair:{' '} {conference.general_chair}
-        </Typography>}
+        {/* {conference.general_chair && <Typography variant="body2" sx={{ fontWeight: 'normal', marginBottom: 0, color: 'text.secondary', fontSize: 'var(--font-size-body)', }}> */}
+        {/*   General Chair:{' '} {conference.general_chair} */}
+        {/* </Typography>} */}
 
         {conference.program_chair && <Typography variant="body2" sx={{ fontWeight: 'normal', marginBottom: 0, color: 'text.secondary', fontSize: 'var(--font-size-body)', }}>
           Program Chair:{' '} {conference.program_chair}
@@ -162,6 +166,11 @@ const ConferenceCard = ({ conference }) => {
         <Typography variant="h5" fontWeight="bold" color="error.main" sx={{ fontSize: 'var(--font-size-title)' }}>
           {countdown || 'TBD'}
         </Typography>
+        {abstractDeadlineDisplay && (
+          <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
+            Abstract: {abstractDeadlineDisplay}
+          </Typography>
+        )}
         <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
           Submission: {deadlineDisplay}
         </Typography>

@@ -108,10 +108,16 @@ export async function fetchFullData() {
     loadedConferences.forEach(conf => {
       let conferenceName = `${conf.name}-${conf.year}`;
       if (conferenceName in conferenceStat) {
-        conf.acceptance_rate = conferenceStat[conferenceName].acceptanceRate;
+        // Only add CSV data if not already present in YAML
+        if (!conf.acceptance_rate || conf.acceptance_rate.toString().trim() === '') {
+          conf.acceptance_rate = (conferenceStat[conferenceName].acceptanceRate * 100).toFixed(2);
+        }
+        if (!conf.num_submission || conf.num_submission.toString().trim() === '') {
+          conf.num_submission = conferenceStat[conferenceName].submission;
+        }
       }
-    })
-  
+    });
+    
     return {
       loadedConferences,
       csrankingsData,

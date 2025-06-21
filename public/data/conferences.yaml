@@ -486,6 +486,8 @@
   year: 2026
   link: https://eccv.ecva.net/Conferences/2026
   deadline: "2026-03-06"
+  notification_date:
+  note: 
   date: "2026-09-08"
   place: Malmo, Sweden
   acceptance_rate:
@@ -499,13 +501,14 @@
   link: https://eccv2024.ecva.net
   deadline: "2024-03-07"
   abstract_deadline: "2024-02-29"
-  notification_date: "2024-05-17"
+  notificate_date: "2024-07-01"
   date: "2024-09-29"
   place: Milan, Italy
   acceptance_rate:
   num_submission:
   general_chair: Andrew Fitzgibbon, Laura Leal-Taixe, Vittorio Murino
   program_chair: Aleš Leonardis, Elisa Ricci, Stefan Roth, Olga Russakovsky, Torsten Sattler, Gül Varol 
+
 
 - name: ECCV
   description: European Conference on Computer Vision
@@ -1177,6 +1180,7 @@
   deadline: "2025-05-15"
   abstract_deadline: "2025-05-11"
   notification_date: "2025-09-18"
+  abstract_deadline: "2025-05-11"
   date: "2025-12-02"
   place: San Diego, CA
   acceptance_rate:
@@ -2003,7 +2007,10 @@
   place: Pittsburgh, PA
   acceptance_rate:
   num_submission:
+  general_chair: Xulong Tang, Vijaykrishnan Narayanan
+  program_chair: Benjamin C. Lee, Harry Xu, Mark Silberstein
 
+  
 - name: ASPLOS
   description: Architectural Support for Programming Languages and Operating Systems
   year: 2026
@@ -2016,6 +2023,9 @@
   place: Pittsburgh, PA
   acceptance_rate:
   num_submission:
+  general_chair: Xulong Tang, Vijaykrishnan Narayanan
+  program_chair: Benjamin C. Lee, Harry Xu, Mark Silberstein
+
 
 
 - name: ASPLOS
@@ -2096,7 +2106,7 @@
   year: 2023
   link: https://www.asplos-conference.org/asplos2023/
   deadline: "2022-03-31"
-  note: "Abstract deadline: 2022-03-24"
+  abstract_deadline: "2022-03-24"
   date: "2023-03-25"
   place: Vancouver, Canada
   acceptance_rate:
@@ -2117,7 +2127,7 @@
   year: 2021
   link: https://www.asplos-conference.org/asplos2021/
   deadline: "2020-08-21"
-  note: "Abstract deadline: 2020-08-14"
+  abstract_deadline: "2020-08-14"
   date: "2021-04-19"
   place: Virtual Conference
   acceptance_rate:
@@ -2128,7 +2138,7 @@
   year: 2020
   link: https://www.asplos-conference.org/asplos2020/
   deadline: "2019-08-16"
-  note: "Abstract deadline: 2019-08-09"
+  abstract_deadline: "2019-08-09"
   date: "2020-03-16"
   place: Lausanne, Switzerland
   acceptance_rate:
@@ -2140,7 +2150,7 @@
   link: https://www.asplos-conference.org/asplos2019/
   deadline: "2018-08-07"
   note: 
-  Abstract_deadline: "2018-07-31"
+  abstract_deadline: "2018-07-31"
   date: "2019-04-13"
   place: Providence, RI
   acceptance_rate:
@@ -2154,7 +2164,7 @@
   link: https://www.sigarch.org/call-contributions/asplos-2018/
   deadline: "2017-08-11"
   note: 
-  abstract deadline: "2017-08-04"
+  abstract_deadline: "2017-08-04"
   date: "2018-03-24"
   place: Williamsburg, VA
   acceptance_rate:
@@ -3829,7 +3839,7 @@
   place: San Diego, CA
   acceptance_rate: 
   num_submission: 
-  general_chair: 
+  general_chair: Heng Yin, Mauro Conti
   program_chair: Hamed Okhravi, Ivan Martinovic
 
 - name: NDSS
@@ -3844,7 +3854,7 @@
   place: San Diego, CA
   acceptance_rate: 
   num_submission: 
-  general_chair: 
+  general_chair: Heng Yin, Mauro Conti
   program_chair: Hamed Okhravi, Ivan Martinovic
 
 - name: NDSS
@@ -4049,35 +4059,42 @@
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
   year: 2026
-  link: https://2025.sigmod.org
+  link: https://2026.sigmod.org
   abstract_deadline: "2025-01-10"
   deadline: "2025-01-17"
   note: Cycle 1/4
   notification_date: "2025-04-04"
-  date: "2026-05-21"
+  date: "2026-05-31"
   place: Bengaluru, India
+  program_chair:  Carsten Binnig, Sudeepa Roy
+  general_chair:  Jayant R. Haritsa,  S. Sudarshan
 
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
   year: 2026
-  link: https://2025.sigmod.org
+  link: https://2026.sigmod.org
   abstract_deadline: "2025-04-10"
   deadline: "2025-04-17"
   note: Cycle 2/4
   notification_date: "2025-07-04"
-  date: "2026-05-21"
-  place: Bengaluru, India
+  date: "2026-05-31"
+  program_chair:  Carsten Binnig, Sudeepa Roy
+  general_chair:  Jayant R. Haritsa,  S. Sudarshan
+
 
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
   year: 2026
-  link: https://2025.sigmod.org
+  link: https://2026.sigmod.org
   abstract_deadline: "2025-07-10"
   deadline: "2025-07-17"
   note: Cycle 3/4
   notification_date: "2025-10-04"
-  date: "2026-05-21"
+  date: "2026-05-31"
   place: Bengaluru, India
+  program_chair:  Carsten Binnig, Sudeepa Roy
+  general_chair:  Jayant R. Haritsa,  S. Sudarshan
+
 
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
@@ -4089,6 +4106,9 @@
   notification_date: "2026-01-04"
   date: "2026-05-21"
   place: Bengaluru, India
+  program_chair:  Carsten Binnig, Sudeepa Roy
+  general_chair:  Jayant R. Haritsa,  S. Sudarshan
+
 
 - name: SIGMOD
   description: ACM SIGMOD International Conference on Management of Data
@@ -4374,6 +4394,7 @@
   place: Boston, MA
   acceptance_rate:
   num_submission:
+  program_chair: Yanlei Diao, Xiaokui Xiao
 
 - name: VLDB
   description: International Conference on Very Large Data Bases
@@ -4812,7 +4833,7 @@
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Ke Yi
 
 
 - name: PODS
@@ -4828,7 +4849,7 @@
   acceptance_rate: 
   num_submission: 
   general_chair: 
-  program_chair: 
+  program_chair: Ke Yi
 
 - name: PODS
   description: ACM Symposium on Principles of Database Systems
@@ -7669,7 +7690,6 @@
   deadline: "2025-09-11"
   abstract_deadline: "2025-09-04"
   notification_date: "2025-12-22"
-  note: 
   date: "2026-07-05"
   place: Montreal, Canada
   acceptance_rate:
@@ -7682,9 +7702,8 @@
   year: 2025
   link: https://conf.researchr.org/home/fse-2025
   deadline: "2024-09-12"
-  abstract_deadline: "2024-09-05"
   notification_date: "2025-01-14"
-  note: 
+  note: "Paper Registration: 2024-09-04"
   date: "2025-06-23"
   place: Trondheim, Norway
   acceptance_rate:
@@ -7697,9 +7716,8 @@
   year: 2024
   link: https://conf.researchr.org/home/fse-2024
   deadline: "2023-09-28"
-  abstract_deadline: "2023-09-21"
   notification_date: "2024-01-23"
-  note: 
+  note: "Paper Registration: 2023-09-21"
   date: "2024-07-15"
   place: Porto de Galinhas, Brazil
   acceptance_rate:
@@ -7839,7 +7857,6 @@
   link: https://conf.researchr.org/home/icse-2026
   abstract_deadline: "2025-07-11"
   deadline: "2025-07-18"
-  abstract_deadline: "2025-07-11"
   notification_date: "2025-10-17"
   date: "2026-04-12"
   place: Rio De Janeiro, Brazil
@@ -7860,8 +7877,6 @@
   acceptance_rate:
   num_submission:
   general_chair: Lionel Briand, Timothy Lethbridge
-  program_chair: Corina S. Păsăreanu, David Lo
-
   program_chair: Thomas Zimmermann
 
 - name: ICSE
@@ -8024,7 +8039,7 @@
 
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
-  year: 2025
+  year: 2026
   link: https://conf.researchr.org/home/issta-2026
   deadline: TBD
   note: 
@@ -8055,7 +8070,6 @@
   link: https://conf.researchr.org/home/issta-2024
   deadline: "2023-12-15"
   notification_date: "2024-03-02"
-  note: Co-located with ECOOP 2024
   date: "2024-09-16"
   place: Vienna, Austria
   note: Cycle 1/2
@@ -8070,7 +8084,6 @@
   link: https://conf.researchr.org/home/issta-2024
   deadline: "2024-04-12"
   notification_date: "2024-07-03"
-  note: Co-located with ECOOP 2024
   date: "2024-09-16"
   place: Vienna, Austria
   note: Cycle 2/2
@@ -8085,7 +8098,6 @@
   link: https://conf.researchr.org/home/issta-2023
   deadline: "2022-11-10"
   notification_date: "2023-01-16"
-  note: Co-located with ECOOP 2023
   date: "2023-07-17"
   place: Seattle, WA
   note: Cycle 1/2
@@ -8100,7 +8112,6 @@
   link: https://conf.researchr.org/home/issta-2023
   deadline: "2023-02-16"
   notification_date: "2023-03-03"
-  note: Co-located with ECOOP 2023
   date: "2023-07-17"
   place: Seattle, WA
   note: Cycle 2/2
@@ -9401,10 +9412,9 @@
   description: ACM Internet Measurement Conference
   year: 2018
   link: https://conferences.sigcomm.org/imc/2018/
-  deadline: "2018-05-18"
-  abstract_deadline: "2018-05-25"
+  deadline: "2018-05-25"
+  abstract_deadline: "2018-05-18"
   notification_date: "2018-07-31"
-  note: "Abstract deadline: 2018-05-11"
   date: "2018-10-31"
   place: Boston, MA
   acceptance_rate:
@@ -9417,7 +9427,7 @@
   year: 2017
   link: https://conferences.sigcomm.org/imc/2017/
   deadline: "2017-05-19"
-  note: "Abstract deadline: 2017-05-12"
+  abstract_deadline: "2017-05-12"
   date: "2017-11-01"
   place: London, United Kingdom
   acceptance_rate:
@@ -9748,7 +9758,7 @@
   link: https://www.iscb.org/ismb2016
   deadline: "2016-05-20"
   abstract_deadline:
-  notification_date: " 2016-05-31"
+  notification_date: "2016-05-31"
   date: "2016-07-08"
   place: Orlando, FL, USA
   acceptance_rate:

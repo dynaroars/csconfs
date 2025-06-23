@@ -206,25 +206,23 @@ function ConferenceDisplay({ filteredConferences }) {
             )}
 
             {/* Year filter dropdown - shown in list view */}
-            {viewMode === 'list' && (
-                <FormControl
-                    sx={{ marginLeft: 2, minWidth: 120, marginBottom: 2 }}
-                    size="small"
+            <FormControl
+                sx={{ marginLeft: 2, minWidth: 120, marginBottom: 2 }}
+                size="small"
+            >
+                <InputLabel id="year-select-label">Year</InputLabel>
+                <Select
+                    labelId="year-select-label"
+                    id="year-select"
+                    value={yearFilter}
+                    label="Year"
+                    onChange={handleYearChange}
                 >
-                    <InputLabel id="year-select-label">Year</InputLabel>
-                    <Select
-                        labelId="year-select-label"
-                        id="year-select"
-                        value={yearFilter}
-                        label="Year"
-                        onChange={handleYearChange}
-                    >
-                        {yearOptions.map(year => (
-                            <MenuItem key={year} value={year}>{year}</MenuItem>
-                        ))}
-                    </Select>
-                </FormControl>
-            )}
+                    {yearOptions.map(year => (
+                        <MenuItem key={year} value={year}>{year}</MenuItem>
+                    ))}
+                </Select>
+            </FormControl>
 
             
 

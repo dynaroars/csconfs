@@ -64,12 +64,12 @@ lics,LICS,log,Logic & verification,Theory,false
 ismb,ISMB,bio,Comp. bio & bioinformatics,Interdisciplinary Areas,false
 recomb,RECOMB,bio,Comp. bio & bioinformatics,Interdisciplinary Areas,false
 siggraph,SIGGRAPH,graph,Computer graphics,Interdisciplinary Areas,false
-siggraph-asia,SIGGRAPH ASIA,graph,Computer graphics,Interdisciplinary Areas,false
-eurographics,EUROGRAPHICS,graph,Computer graphics,Interdisciplinary Areas,true
+siggraph-asia,SIGGRAPH Asia,graph,Computer graphics,Interdisciplinary Areas,false
+eurographics,Eurographics,graph,Computer graphics,Interdisciplinary Areas,true
 sigcse,SIGCSE,csed,Computer science education,Interdisciplinary Areas,false
 ec,EC,ecom,Economics & computation,Interdisciplinary Areas,false
 wine,WINE,ecom,Economics & computation,Interdisciplinary Areas,false
-chiconf,CHIConf,chi,Human-computer interaction,Interdisciplinary Areas,false
+chiconf,CHI,chi,Human-computer interaction,Interdisciplinary Areas,false
 ubicomp,UbiComp / ISWC,chi,Human-computer interaction,Interdisciplinary Areas,false
 uist,UIST,chi,Human-computer interaction,Interdisciplinary Areas,false
 icra,ICRA,robotics,Robotics,Interdisciplinary Areas,false

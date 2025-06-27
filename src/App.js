@@ -197,11 +197,11 @@ function App() {
 
 
   const filterConferences = () => {
-    const selected = Array.from(selectedConferences);
+    const selected = Array.from(selectedConferences).map(name => name.toLowerCase());
     const now = new Date();
   
     const updatedConferences = conferences.filter(conf => {
-      const matchesConference = selected.includes(conf.name);
+      const matchesConference = selected.includes(conf.name.toLowerCase());
       const matchesSearch = conf.name.toLowerCase().includes(searchQuery.toLowerCase());
   
       const deadlineDate = new Date(conf.deadline);

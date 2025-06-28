@@ -15,7 +15,7 @@ Visit here 👉 [https://roars.dev/csconfs/](https://roars.dev/csconfs/)
 
 - **Open**: This project is open-source on [**GitHub**](https://git.roars.dev/csconfs).  
 - **Tech stuff**: This website is built using **React** and **Node.js**. It is a **static site** that fetches data from a **YAML** file and is hosted through **Github Pages**.
-- **Data:** Main database is stored in the file `public/data/conferences.yaml`.
+- **Data:** Main database is stored in the file [`public/data/conferences.yaml`](https://github.com/dynaroars/csconfs/blob/main/public/data/conferences.yaml).
 
 ---
 
@@ -30,7 +30,7 @@ You can help **check**, **add**, or **fix** inconsistencies about the conference
 
 1. **Fork** the repository.
 1. **Clone** your forked repository to your local machine.
-1. Make your changes in the `public/data/conferences.yaml` file.
+1. Make your changes in the [`public/data/conferences.yaml`](https://github.com/dynaroars/csconfs/blob/main/public/data/conferences.yaml) file.
 1. Save and **Test** your changes locally (see below).
 1. **Commit** and **Push** your changes with a clear message.
 1. Create a **pull request** to the [original repository](https://git.roars.dev/csconfs).

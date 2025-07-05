@@ -9920,20 +9920,6 @@
   general_chair: Leif Kobbelt, Shi-Min Hu
   program_chair: Belen Masia, Justus Thies
 
-- name: SIGGRAPH Asia
-  description: ACM Conference on Computer Graphics and Interactive Techniques
-  year: 2025
-  link: https://asia.siggraph.org/2025
-  deadline: "2025-05-23"
-  abstract_deadline: "2025-05-16"
-  notification_date: "2025-08-10"
-  date: "2025-12-15"
-  place: Hong Kong
-  acceptance_rate:
-  num_submission:
-  general_chair: Taku Komura
-  program_chair: Michael Wimmer
-
 - name: SIGGRAPH
   description: ACM Conference on Computer Graphics and Interactive Techniques
   year: 2025
@@ -10080,13 +10066,13 @@
   link: https://asia.siggraph.org/2025/
   deadline: "2025-05-23"
   abstract_deadline: "2025-05-16"
-  notification_date:
+  notification_date: "2025-08-10"
   date: "2025-12-15"
   place: Hong Kong
   acceptance_rate:
   num_submission:
-  general_chair:
-  program_chair: Taku Komura
+  general_chair: Taku Komura
+  program_chair: Michael Wimmer
 
 - name: SIGGRAPH Asia
   description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia

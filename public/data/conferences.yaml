@@ -717,6 +717,19 @@
 ## Machine Learning
 - name: ICML
   description: International Conference on Machine Learning
+  year: 2026
+  link: http://icml.cc/Conferences/FutureMeetings
+  deadline: "2026-01-30"
+  abstract_deadline: "2026-01-23"
+  date: "2026-07-06"
+  place: Seoul, South Korea
+  acceptance_rate:
+  num_submission:
+  general_chair: 
+  program_chair:
+
+- name: ICML
+  description: International Conference on Machine Learning
   year: 2025
   link: https://icml.cc/Conferences/2025
   deadline: "2025-01-30"

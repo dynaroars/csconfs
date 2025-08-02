@@ -87,6 +87,10 @@ const ConferenceCard = ({ conference }) => {
     ? formatDateAoE(conference.notification_date)
     : 'TBD';
 
+  const rebuttalDateDisplay = conference.rebuttal_date
+    ? formatDateAoE(conference.rebuttal_date)
+    : ''
+
   const acceptance_rate = conference.acceptance_rate
     ? (Math.round(conference.acceptance_rate * 100) / 100).toFixed(2) + '%'
     : 'N/A';
@@ -196,6 +200,11 @@ const ConferenceCard = ({ conference }) => {
         <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
           Notification: {notificationDateDisplay}
         </Typography>
+        {rebuttalDateDisplay && (
+          <Typography sx={{ fontSize: 'var(--font-size-body)'}}>
+          Rebuttal: {rebuttalDateDisplay}
+          </Typography>
+        )}
       </CardContent>
     </Card>
   );

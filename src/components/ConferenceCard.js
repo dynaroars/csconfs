@@ -105,7 +105,7 @@ const ConferenceCard = ({ conference }) => {
   } else if(daysRemaining <= 7){ 
     countdownColor = "red" // Urgent
   } else if (daysRemaining <= 30){ 
-    countdownColor = "gold" // Soon
+    countdownColor = "blue" // Soon
   } else{ 
     countdownColor = "green" //Way in future
   }

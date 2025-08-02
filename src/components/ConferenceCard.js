@@ -91,6 +91,25 @@ const ConferenceCard = ({ conference }) => {
     ? (Math.round(conference.acceptance_rate * 100) / 100).toFixed(2) + '%'
     : 'N/A';
 
+  //Calculate days remaining until conference
+  const deadlineDate = new Date(conference.deadline);
+  const now = new Date();
+  const diffInMS = deadlineDate - now;
+  const daysRemaining = diffInMS / (1000 * 60 * 60 * 24)
+
+  let countdownColor;
+
+  //Color based on urgency
+  if (daysRemaining < 0){
+    countdownColor = "gray" //Date has passed
+  } else if(daysRemaining <= 7){ 
+    countdownColor = "red" // Urgent
+  } else if (daysRemaining <= 30){ 
+    countdownColor = "gold" // Soon
+  } else{ 
+    countdownColor = "green" //Way in future
+  }
+
   return (
     <Card
       variant="outlined"
@@ -163,7 +182,7 @@ const ConferenceCard = ({ conference }) => {
           paddingRight: 0,
         }}
       >
-        <Typography variant="h5" fontWeight="bold" color="error.main" sx={{ fontSize: 'var(--font-size-title)' }}>
+        <Typography variant="h5" fontWeight="bold" sx={{color: countdownColor, fontSize: 'var(--font-size-title)' }}>
           {countdown || 'TBD'}
         </Typography>
         {abstractDeadlineDisplay && (

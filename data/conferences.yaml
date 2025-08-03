@@ -878,6 +878,22 @@
 
 - name: ICLR
   description: International Conference on Learning Representations
+  year: 2026
+  link: https://iclr.cc/Conferences/2026
+  deadline: "2025-09-24"
+  abstract_deadline: "2025-09-19"
+  notification_date: "2025-01-22"
+  rebuttal_date: "2025-11-11"
+  date: ""
+  place: TBD
+  acceptance_rate:
+  num_submission:
+  general_chair: TBD
+  program_chair: TBD
+
+
+- name: ICLR
+  description: International Conference on Learning Representations
   year: 2025
   link: https://iclr.cc/Conferences/2025
   deadline: "2024-10-01"

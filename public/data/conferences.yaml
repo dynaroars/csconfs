@@ -722,6 +722,8 @@
   deadline: "2026-01-30"
   abstract_deadline: "2026-01-23"
   date: "2026-07-06"
+  notificate_date:
+  rebuttal_date: 
   place: Seoul, South Korea
   acceptance_rate:
   num_submission:
@@ -4105,6 +4107,7 @@
   note: Cycle 2/4
   notification_date: "2025-07-04"
   date: "2026-05-31"
+  place: "Bengaluru, India"
   program_chair:  Carsten Binnig, Sudeepa Roy
   general_chair:  Jayant R. Haritsa,  S. Sudarshan
 
@@ -7097,6 +7100,7 @@
   deadline: "2025-09-25"
   abstract_deadline: "2025-09-18"
   notification_date: "2026-01-30"
+  rebuttal_date: "2026-01-09"
   date: "2026-03-13"
   place: Edinburgh, Scotland
   note: Cycle 2/2

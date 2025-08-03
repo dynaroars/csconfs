@@ -87,9 +87,32 @@ const ConferenceCard = ({ conference }) => {
     ? formatDateAoE(conference.notification_date)
     : 'TBD';
 
+  const rebuttalDateDisplay = conference.rebuttal_date
+    ? formatDateAoE(conference.rebuttal_date)
+    : ''
+
   const acceptance_rate = conference.acceptance_rate
     ? (Math.round(conference.acceptance_rate * 100) / 100).toFixed(2) + '%'
     : 'N/A';
+
+  //Calculate days remaining until conference
+  const deadlineDate = new Date(conference.deadline);
+  const now = new Date();
+  const diffInMS = deadlineDate - now;
+  const daysRemaining = diffInMS / (1000 * 60 * 60 * 24)
+
+  let countdownColor;
+
+  //Color based on urgency
+  if (daysRemaining < 0){
+    countdownColor = "gray" //Date has passed
+  } else if(daysRemaining <= 7){ 
+    countdownColor = "red" // Urgent
+  } else if (daysRemaining <= 30){ 
+    countdownColor = "blue" // Soon
+  } else{ 
+    countdownColor = "green" //Way in future
+  }
 
   return (
     <Card
@@ -163,7 +186,7 @@ const ConferenceCard = ({ conference }) => {
           paddingRight: 0,
         }}
       >
-        <Typography variant="h5" fontWeight="bold" color="error.main" sx={{ fontSize: 'var(--font-size-title)' }}>
+        <Typography variant="h5" fontWeight="bold" sx={{color: countdownColor, fontSize: 'var(--font-size-title)' }}>
           {countdown || 'TBD'}
         </Typography>
         {abstractDeadlineDisplay && (
@@ -177,6 +200,11 @@ const ConferenceCard = ({ conference }) => {
         <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
           Notification: {notificationDateDisplay}
         </Typography>
+        {rebuttalDateDisplay && (
+          <Typography sx={{ fontSize: 'var(--font-size-body)'}}>
+          Rebuttal: {rebuttalDateDisplay}
+          </Typography>
+        )}
       </CardContent>
     </Card>
   );

@@ -67,7 +67,7 @@ export default function Header() {
               underline="hover"
               aria-label="Code repository for CSConfs"
             >
-              git.roars.dev/csconfs
+              code.roars.dev/csconfs
             </Link>.
           </Typography>
         </div>

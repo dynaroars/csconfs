@@ -197,14 +197,14 @@ const ConferenceCard = ({ conference }) => {
         <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
           Submission: {deadlineDisplay}
         </Typography>
-        <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
-          Notification: {notificationDateDisplay}
-        </Typography>
         {rebuttalDateDisplay && (
           <Typography sx={{ fontSize: 'var(--font-size-body)'}}>
           Rebuttal: {rebuttalDateDisplay}
           </Typography>
         )}
+        <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
+          Notification: {notificationDateDisplay}
+        </Typography>
       </CardContent>
     </Card>
   );

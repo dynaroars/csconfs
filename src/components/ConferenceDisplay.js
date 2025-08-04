@@ -61,7 +61,15 @@ const sortFunctions = {
                 // Both upcoming, sort by countdown ascending
                 return deadlineA.getTime() - deadlineB.getTime();
             }
-            return 0; // TBD or passed both equal
+
+            if (priorityA === PRIORITY.TBD || priorityB === PRIORITY.TBD) {
+                if (a.year === b.year)
+                    return a.name.localeCompare(b.name);
+                return b.year - a.year
+            }
+
+            // When the deadlines passed, sorted by the closer deadline
+            return deadlineB.getTime() - deadlineA.getTime();
         }),
     notification_date: (confs) =>
         confs.sort((a, b) => {
@@ -81,7 +89,7 @@ const sortFunctions = {
                 return deadlineA - deadlineB;
             }
             if (!isAUpcoming && !isBUpcoming) {
-                return 0; // both passed
+                return deadlineB - deadlineA; // both passed
             }
             if (isAUpcoming) return -1;
             return 1;
@@ -91,7 +99,7 @@ const sortFunctions = {
         confs.sort((a, b) => {
             if (!a.date) return 1;
             if (!b.date) return -1;
-            return new Date(a.date) - new Date(b.date);
+            return new Date(b.date) - new Date(a.date);
         }),
     confname: (confs) => confs.sort((a, b) => a.name.localeCompare(b.name)),
     confplace: (confs) =>

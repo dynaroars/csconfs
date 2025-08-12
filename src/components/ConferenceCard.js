@@ -14,8 +14,7 @@ const StyledLink = styled(Link)({
   },
 });
 
-const calculateCountdown = (deadline) => {
-  if (!deadline) return '';
+const calculateTimeLeft = (deadline) => {
 
   // Create a Date object from the provided deadline
   const deadlineDate = new Date(deadline);
@@ -32,6 +31,13 @@ const calculateCountdown = (deadline) => {
 
   const now = new Date();
   const diff = utcDeadlineDate - now;
+  return diff;
+}
+
+const calculateCountdown = (deadline) => {
+  if (!deadline) return '';
+
+  const diff = calculateTimeLeft(deadline);
   if (diff <= 0) return 'Submission Passed';
 
   const days = Math.floor(diff / (1000 * 60 * 60 * 24));
@@ -96,9 +102,7 @@ const ConferenceCard = ({ conference }) => {
     : 'N/A';
 
   //Calculate days remaining until conference
-  const deadlineDate = new Date(conference.deadline);
-  const now = new Date();
-  const diffInMS = deadlineDate - now;
+  const diffInMS = calculateTimeLeft(conference.deadline);
   const daysRemaining = diffInMS / (1000 * 60 * 60 * 24)
 
   let countdownColor;

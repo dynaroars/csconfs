@@ -1897,6 +1897,22 @@
 
 - name: WWW
   description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2026
+  link: https://www2026.thewebconf.org/
+  deadline: "2025-10-07"
+  note: 
+  notification_date: "2026-01-13"
+  rebuttal_date: "2025-11-24"
+  abstract_deadline: "2025-09-30"
+  date: "2026-04-13"
+  place: Dubai, United Arab Emirates
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
   year: 2025
   link: https://www2025.thewebconf.org/
   deadline: "2024-10-45"

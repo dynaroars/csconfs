@@ -2055,7 +2055,6 @@
   general_chair: Xulong Tang, Vijaykrishnan Narayanan
   program_chair: Benjamin C. Lee, Harry Xu, Mark Silberstein
 
-  
 - name: ASPLOS
   description: Architectural Support for Programming Languages and Operating Systems
   year: 2026
@@ -2070,8 +2069,6 @@
   num_submission:
   general_chair: Xulong Tang, Vijaykrishnan Narayanan
   program_chair: Benjamin C. Lee, Harry Xu, Mark Silberstein
-
-
 
 - name: ASPLOS
   description: Architectural Support for Programming Languages and Operating Systems

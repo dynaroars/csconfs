@@ -106,7 +106,6 @@ const ConferenceCard = ({ conference }) => {
   const daysRemaining = diffInMS / (1000 * 60 * 60 * 24)
 
   let countdownColor;
-
   //Color based on urgency
   if (daysRemaining < 0){
     countdownColor = "gray" //Date has passed

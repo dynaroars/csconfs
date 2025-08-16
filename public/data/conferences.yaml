@@ -1040,6 +1040,21 @@
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2026
+  link: https://kdd2026.kdd.org/
+  abstract_deadline: "2025-07-24"
+  deadline: "2025-07-31"
+  date: "2026-08-09"
+  place: Jeju, Korea
+  rebuttal_date: "2025-10-04"
+  notificate_date: "2025-11-23"
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2025
   link: https://kdd2025.kdd.org/
   abstract_deadline: "2024-08-01"
@@ -1356,7 +1371,7 @@
 
 - name: ACL
   description: Annual Meeting of the Association for Computational Linguistics
-  year: 206
+  year: 2026
   link: https://2026.aclweb.org/
   deadline: 
   note: 

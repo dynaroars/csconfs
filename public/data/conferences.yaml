@@ -2568,6 +2568,20 @@
 
 - name: HPCA
   description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2026
+  link: https://hpca-conf.org/2026/
+  deadline: "2025-08-01"
+  note: 
+  abstract_deadline: "2025-07-25"
+  date: "2026-01-31"
+  place: Sydney, NSW, Australia
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Shuaiwen Leon Song
+  program_chair:
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
   year: 2025
   link: https://hpca-conf.org/2025/
   deadline: "2024-08-02"

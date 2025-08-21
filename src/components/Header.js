@@ -8,7 +8,7 @@ export default function Header() {
       <div>
         <div>
           <Link 
-            href="https://github.com/dynaroars/csconfs" 
+            href="https://roars.dev/csconfs"
             target="_blank" 
             rel="noopener noreferrer" 
             underline="none"
@@ -61,13 +61,13 @@ export default function Header() {
             Countdown to submission deadlines uses AoE (Anywhere on Earth) time zone.<br />
             Src, contributions, issues:{' '}
             <Link 
-              href="https://git.roars.dev/csconfs" 
+              href="https://code.roars.dev/csconfs"
               target="_blank" 
               rel="noopener noreferrer" 
               underline="hover"
-              aria-label="Git repository for CSConfs"
+              aria-label="Code repository for CSConfs"
             >
-              git.roars.dev/csconfs
+              code.roars.dev/csconfs
             </Link>.
           </Typography>
         </div>

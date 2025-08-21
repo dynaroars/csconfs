@@ -717,6 +717,21 @@
 ## Machine Learning
 - name: ICML
   description: International Conference on Machine Learning
+  year: 2026
+  link: http://icml.cc/Conferences/FutureMeetings
+  deadline: "2026-01-30"
+  abstract_deadline: "2026-01-23"
+  date: "2026-07-06"
+  notificate_date:
+  rebuttal_date: 
+  place: Seoul, South Korea
+  acceptance_rate:
+  num_submission:
+  general_chair: 
+  program_chair:
+
+- name: ICML
+  description: International Conference on Machine Learning
   year: 2025
   link: https://icml.cc/Conferences/2025
   deadline: "2025-01-30"
@@ -863,6 +878,22 @@
 
 - name: ICLR
   description: International Conference on Learning Representations
+  year: 2026
+  link: https://iclr.cc/Conferences/2026
+  deadline: "2025-09-24"
+  abstract_deadline: "2025-09-19"
+  notification_date: "2025-01-22"
+  rebuttal_date: "2025-11-11"
+  date: "2026-04-23"
+  place: Rio de Janeiro, Brazil
+  acceptance_rate:
+  num_submission:
+  general_chair: TBD
+  program_chair: TBD
+
+
+- name: ICLR
+  description: International Conference on Learning Representations
   year: 2025
   link: https://iclr.cc/Conferences/2025
   deadline: "2024-10-01"
@@ -1006,6 +1037,21 @@
   num_submission:
   general_chair: Yoshua Bengio, Yann LeCun
   program_chair: Brian Kingsbury, Hugo Larochelle, Samy Bengio, Nando de Freitas
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2026
+  link: https://kdd2026.kdd.org/
+  abstract_deadline: "2025-07-24"
+  deadline: "2025-07-31"
+  date: "2026-08-09"
+  place: Jeju, Korea
+  rebuttal_date: "2025-10-04"
+  notificate_date: "2025-11-23"
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
@@ -1325,6 +1371,20 @@
 
 - name: ACL
   description: Annual Meeting of the Association for Computational Linguistics
+  year: 2026
+  link: https://2026.aclweb.org/
+  deadline: 
+  note: 
+  abstract_deadline: 
+  date: "2026-07-02"
+  place: 
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
   year: 2025
   link: https://2025.aclweb.org/
   deadline: "2025-02-15"
@@ -1462,6 +1522,21 @@
   num_submission: 
   general_chair: Antal van den Bosch
   program_chair: Katrin Erk, Noah Smith
+
+- name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  year: 2025
+  link: https://2025.emnlp.org/
+  deadline: "2025-05-19"
+  notification_date: "2025-08-20"
+  note: 
+  abstract_deadline: 
+  date: "2025-11-05"
+  place: Suzhou, China
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Dirk Hovy
+  program_chair: Christos Christodoulopoulos, Tanmoy Chakraborty, Carolyn Rose, Violet Peng
 
 - name: EMNLP
   description: Empirical Methods in Natural Language Processing
@@ -1851,9 +1926,25 @@
 
 - name: WWW
   description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2026
+  link: https://www2026.thewebconf.org/
+  deadline: "2025-10-07"
+  note: 
+  notification_date: "2026-01-13"
+  rebuttal_date: "2025-11-24"
+  abstract_deadline: "2025-09-30"
+  date: "2026-04-13"
+  place: Dubai, United Arab Emirates
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
   year: 2025
   link: https://www2025.thewebconf.org/
-  deadline: "2024-10-45"
+  deadline: "2024-10-14"
   note: 
   abstract_deadline: "2024-10-07"
   date: "2025-04-28"
@@ -2009,7 +2100,6 @@
   general_chair: Xulong Tang, Vijaykrishnan Narayanan
   program_chair: Benjamin C. Lee, Harry Xu, Mark Silberstein
 
-  
 - name: ASPLOS
   description: Architectural Support for Programming Languages and Operating Systems
   year: 2026
@@ -2024,8 +2114,6 @@
   num_submission:
   general_chair: Xulong Tang, Vijaykrishnan Narayanan
   program_chair: Benjamin C. Lee, Harry Xu, Mark Silberstein
-
-
 
 - name: ASPLOS
   description: Architectural Support for Programming Languages and Operating Systems
@@ -2477,6 +2565,20 @@
   num_submission: 
   general_chair: Wei-Chung Hsu, Chia-Lin Yang
   program_chair: Mikko H. Lipasti, Gabriel Loh  
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2026
+  link: https://hpca-conf.org/2026/
+  deadline: "2025-08-01"
+  note: 
+  abstract_deadline: "2025-07-25"
+  date: "2026-01-31"
+  place: Sydney, NSW, Australia
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Shuaiwen Leon Song
+  program_chair:
 
 - name: HPCA
   description: IEEE International Symposium on High-Performance Computer Architecture
@@ -4077,6 +4179,7 @@
   note: Cycle 2/4
   notification_date: "2025-07-04"
   date: "2026-05-31"
+  place: "Bengaluru, India"
   program_chair:  Carsten Binnig, Sudeepa Roy
   general_chair:  Jayant R. Haritsa,  S. Sudarshan
 
@@ -7069,6 +7172,7 @@
   deadline: "2025-09-25"
   abstract_deadline: "2025-09-18"
   notification_date: "2026-01-30"
+  rebuttal_date: "2026-01-09"
   date: "2026-03-13"
   place: Edinburgh, Scotland
   note: Cycle 2/2

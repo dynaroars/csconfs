@@ -14,8 +14,7 @@ const StyledLink = styled(Link)({
   },
 });
 
-const calculateCountdown = (deadline) => {
-  if (!deadline) return '';
+const calculateTimeLeft = (deadline) => {
 
   // Create a Date object from the provided deadline
   const deadlineDate = new Date(deadline);
@@ -32,6 +31,13 @@ const calculateCountdown = (deadline) => {
 
   const now = new Date();
   const diff = utcDeadlineDate - now;
+  return diff;
+}
+
+const calculateCountdown = (deadline) => {
+  if (!deadline) return '';
+
+  const diff = calculateTimeLeft(deadline);
   if (diff <= 0) return 'Submission Passed';
 
   const days = Math.floor(diff / (1000 * 60 * 60 * 24));
@@ -87,9 +93,29 @@ const ConferenceCard = ({ conference }) => {
     ? formatDateAoE(conference.notification_date)
     : 'TBD';
 
+  const rebuttalDateDisplay = conference.rebuttal_date
+    ? formatDateAoE(conference.rebuttal_date)
+    : ''
+
   const acceptance_rate = conference.acceptance_rate
     ? (Math.round(conference.acceptance_rate * 100) / 100).toFixed(2) + '%'
     : 'N/A';
+
+  //Calculate days remaining until conference
+  const diffInMS = calculateTimeLeft(conference.deadline);
+  const daysRemaining = diffInMS / (1000 * 60 * 60 * 24)
+
+  let countdownColor;
+  //Color based on urgency
+  if (daysRemaining < 0){
+    countdownColor = "gray" //Date has passed
+  } else if(daysRemaining <= 7){ 
+    countdownColor = "red" // Urgent
+  } else if (daysRemaining <= 30){ 
+    countdownColor = "blue" // Soon
+  } else{ 
+    countdownColor = "green" //Way in future
+  }
 
   return (
     <Card
@@ -163,7 +189,7 @@ const ConferenceCard = ({ conference }) => {
           paddingRight: 0,
         }}
       >
-        <Typography variant="h5" fontWeight="bold" color="error.main" sx={{ fontSize: 'var(--font-size-title)' }}>
+        <Typography variant="h5" fontWeight="bold" sx={{color: countdownColor, fontSize: 'var(--font-size-title)' }}>
           {countdown || 'TBD'}
         </Typography>
         {abstractDeadlineDisplay && (
@@ -174,6 +200,11 @@ const ConferenceCard = ({ conference }) => {
         <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
           Submission: {deadlineDisplay}
         </Typography>
+        {rebuttalDateDisplay && (
+          <Typography sx={{ fontSize: 'var(--font-size-body)'}}>
+          Rebuttal: {rebuttalDateDisplay}
+          </Typography>
+        )}
         <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
           Notification: {notificationDateDisplay}
         </Typography>

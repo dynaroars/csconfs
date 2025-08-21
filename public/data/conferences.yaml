@@ -723,7 +723,7 @@
   abstract_deadline: "2026-01-23"
   date: "2026-07-06"
   notificate_date:
-  rebuttal_date: 
+  rebuttal_date:
   place: Seoul, South Korea
   acceptance_rate:
   num_submission:
@@ -8145,6 +8145,8 @@
   year: 2026
   link: https://conf.researchr.org/home/issta-2026
   deadline: "2026-01-29"
+  rebuttal_date: "2026-03-19"
+  notification_date: "2026-04-09"
   note: 
   date: "2026-10-03"
   place: Oakland, CA
@@ -8770,6 +8772,22 @@
   num_submission:
   general_chair: Jonathan Aldrich
   program_chair: Patrick Eugster
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2026
+  link: https://pldi26.sigplan.org/
+  deadline: "2025-11-13"
+  rebuttal_date: "2026-02-17"
+  notification_date: "2026-03-05"
+  note:
+  date: "2026-06-19"
+  place: Boulder, Colorado
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair: Manu Sridharan
+
 
 - name: PLDI
   description: Programming Language Design and Implementation

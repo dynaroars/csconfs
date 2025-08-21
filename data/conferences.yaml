@@ -723,7 +723,7 @@
   abstract_deadline: "2026-01-23"
   date: "2026-07-06"
   notificate_date:
-  rebuttal_date: 
+  rebuttal_date:
   place: Seoul, South Korea
   acceptance_rate:
   num_submission:
@@ -1040,6 +1040,21 @@
 
 - name: KDD
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2026
+  link: https://kdd2026.kdd.org/
+  abstract_deadline: "2025-07-24"
+  deadline: "2025-07-31"
+  date: "2026-08-09"
+  place: Jeju, Korea
+  rebuttal_date: "2025-10-04"
+  notificate_date: "2025-11-23"
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: KDD
+  description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2025
   link: https://kdd2025.kdd.org/
   abstract_deadline: "2024-08-01"
@@ -1353,6 +1368,20 @@
   program_chair: Daniel D Lee, Masashi Sugiyama
 
 ## Natural Language Processing
+
+- name: ACL
+  description: Annual Meeting of the Association for Computational Linguistics
+  year: 2026
+  link: https://2026.aclweb.org/
+  deadline: 
+  note: 
+  abstract_deadline: 
+  date: "2026-07-02"
+  place: 
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
 
 - name: ACL
   description: Annual Meeting of the Association for Computational Linguistics
@@ -1897,9 +1926,25 @@
 
 - name: WWW
   description: The Web Conference (formerly International World Wide Web Conference)
+  year: 2026
+  link: https://www2026.thewebconf.org/
+  deadline: "2025-10-07"
+  note: 
+  notification_date: "2026-01-13"
+  rebuttal_date: "2025-11-24"
+  abstract_deadline: "2025-09-30"
+  date: "2026-04-13"
+  place: Dubai, United Arab Emirates
+  acceptance_rate: 
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: WWW
+  description: The Web Conference (formerly International World Wide Web Conference)
   year: 2025
   link: https://www2025.thewebconf.org/
-  deadline: "2024-10-45"
+  deadline: "2024-10-14"
   note: 
   abstract_deadline: "2024-10-07"
   date: "2025-04-28"
@@ -2055,7 +2100,6 @@
   general_chair: Xulong Tang, Vijaykrishnan Narayanan
   program_chair: Benjamin C. Lee, Harry Xu, Mark Silberstein
 
-  
 - name: ASPLOS
   description: Architectural Support for Programming Languages and Operating Systems
   year: 2026
@@ -2070,8 +2114,6 @@
   num_submission:
   general_chair: Xulong Tang, Vijaykrishnan Narayanan
   program_chair: Benjamin C. Lee, Harry Xu, Mark Silberstein
-
-
 
 - name: ASPLOS
   description: Architectural Support for Programming Languages and Operating Systems
@@ -2523,6 +2565,20 @@
   num_submission: 
   general_chair: Wei-Chung Hsu, Chia-Lin Yang
   program_chair: Mikko H. Lipasti, Gabriel Loh  
+
+- name: HPCA
+  description: IEEE International Symposium on High-Performance Computer Architecture
+  year: 2026
+  link: https://hpca-conf.org/2026/
+  deadline: "2025-08-01"
+  note: 
+  abstract_deadline: "2025-07-25"
+  date: "2026-01-31"
+  place: Sydney, NSW, Australia
+  acceptance_rate: 
+  num_submission: 
+  general_chair: Shuaiwen Leon Song
+  program_chair:
 
 - name: HPCA
   description: IEEE International Symposium on High-Performance Computer Architecture
@@ -8088,7 +8144,9 @@
   description: International Symposium on Software Testing and Analysis
   year: 2026
   link: https://conf.researchr.org/home/issta-2026
-  deadline: TBD
+  deadline: "2026-01-29"
+  rebuttal_date: "2026-03-19"
+  notification_date: "2026-04-09"
   note: 
   date: "2026-10-03"
   place: Oakland, CA
@@ -8714,6 +8772,22 @@
   num_submission:
   general_chair: Jonathan Aldrich
   program_chair: Patrick Eugster
+
+- name: PLDI
+  description: Programming Language Design and Implementation
+  year: 2026
+  link: https://pldi26.sigplan.org/
+  deadline: "2025-11-13"
+  rebuttal_date: "2026-02-17"
+  notification_date: "2026-03-05"
+  note:
+  date: "2026-06-19"
+  place: Boulder, Colorado
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair: Manu Sridharan
+
 
 - name: PLDI
   description: Programming Language Design and Implementation

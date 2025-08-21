@@ -1,6 +1,6 @@
 
 # 📅 CS Conference Deadlines
-**CSConfs** is open-source app for tracking **Computer Science conference deadlines**, **notifications**, **locations**, and more! CSConfs uses conferences defined by [CSRankings](https://csrankings.org/) and [CORE](https://portal.core.edu.au/conf-ranks/) (A*). Enjoy tracking your CS conferences! 
+**CSConfs** is open-source app for tracking **Computer Science conference deadlines**, **notifications**, **locations**, and more! CSConfs uses conferences defined by [CSRankings](https://csrankings.org/) and [CORE](https://portal.core.edu.au/conf-ranks/) (A*). Enjoy tracking your favorite CS conferences! 
 
 
 ---

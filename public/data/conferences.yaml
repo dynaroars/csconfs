@@ -329,6 +329,21 @@
 
 - name: CVPR
   description: Conference on Computer Vision and Pattern Recognition
+  year: 2026
+  link: https://cvpr.thecvf.com/Conferences/2026
+  deadline: "2025-11-13"
+  abstract_deadline: "2025-11-06"
+  notification_date: "2026-02-20"
+  rebuttal_date: "2026-01-22"
+  date: "2026-06-03"
+  place: Denver, CO
+  acceptance_rate:
+  num_submission: 
+  general_chair: 
+  program_chair: 
+
+- name: CVPR
+  description: Conference on Computer Vision and Pattern Recognition
   year: 2025
   link: https://cvpr.thecvf.com/Conferences/2025
   deadline: "2024-11-14"

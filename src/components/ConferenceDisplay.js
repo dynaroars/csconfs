@@ -7,6 +7,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Graph from './Graph';
 import ConferenceCard from './ConferenceCard';
 import Stat from './Stat';
+import Calendar from './Calendar';
 
 function getAoEAdjustedDeadline(deadline) {
     if (!deadline) return null;
@@ -186,6 +187,7 @@ function ConferenceDisplay({ filteredConferences }) {
                     onChange={handleViewChange}
                 >
                     <MenuItem value="list">List View</MenuItem>
+                    <MenuItem value="calendar">Calendar View</MenuItem>
                     <MenuItem value="graph">Graph View</MenuItem>
                     <MenuItem value="stat">Statistics View</MenuItem>
                 </Select>
@@ -235,6 +237,12 @@ function ConferenceDisplay({ filteredConferences }) {
             
 
             {/* Conditionally render content */}
+            {viewMode === 'calendar' && (
+                <div style={{ width: '100%', marginBottom: 16 }}>
+                    <Calendar conferences={yearFilteredConferences} />
+                </div>
+            )}
+
             {viewMode === 'graph' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
                     <Graph conferences={yearFilteredConferences} />

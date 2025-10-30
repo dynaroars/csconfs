@@ -7,7 +7,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Graph from './Graph';
 import ConferenceCard from './ConferenceCard';
 import Stat from './Stat';
-import Calendar from './Calendar';
+import Calendar from './Calendar/index';
 
 function getAoEAdjustedDeadline(deadline) {
     if (!deadline) return null;

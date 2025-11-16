@@ -8413,6 +8413,20 @@
   general_chair: Michal Young
   program_chair: Tao Xie
 
+- name: ICFP
+  description: International Conference on Functional Programming
+  year: 2026
+  link: https://conf.researchr.org/home/icfp-2026
+  deadline: "2026-02-19"
+  rebuttal_date: "2026-04-20"
+  notification_date: "2026-05-14"
+  note: 
+  date: "2026-08-24"
+  place: Indianapolis, IN
+  acceptance_rate:
+  num_submission:
+  general_chair: Sam Tobin-Hochstadt
+  program_chair: Manuel Serrano
 
 - name: ICFP
   description: International Conference on Functional Programming

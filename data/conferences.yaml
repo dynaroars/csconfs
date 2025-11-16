@@ -8511,6 +8511,21 @@
 
 - name: OOPSLA
   description: Object-Oriented Programming, Systems, Languages, and Applications
+  year: 2026
+  link: https://conf.researchr.org/track/splash-2026/oopsla-2026
+  deadline: "2026-03-17"
+  notification_date: "2026-06-10"
+  rebuttal_date: "2026-05-18"
+  date: "2026-10-03"
+  place: Oakland, CA
+  note: Cycle 2/2
+  acceptance_rate:
+  num_submission:
+  general_chair: Anders Møller, Işıl Dillig
+  program_chair: 
+
+- name: OOPSLA
+  description: Object-Oriented Programming, Systems, Languages, and Applications
   year: 2025
   link: https://2025.splashcon.org/track/OOPSLA
   deadline: "2024-10-15"

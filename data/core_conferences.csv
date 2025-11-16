@@ -37,7 +37,7 @@ percom,PERCOM,A*,A*,CORE2023,False
 icra,ICRA,A*,A*,CORE2023,False
 focs,FOCS,A*,A*,CORE2023,False
 lics,LICS,A*,A*,CORE2023,False
-sp,IEEE S&P,A*,A*,CORE2023,False
+ieee s&p,IEEE S&P,A*,A*,CORE2023,False
 ismar,ISMAR,A*,A*,CORE2023,False
 ipsn,IPSN,A*,A*,CORE2023,False
 icaps,ICAPS,A*,A*,CORE2023,False
@@ -57,5 +57,5 @@ sigmetrics,SIGMETRICS,A*,A*,CORE2023,False
 aaai,AAAI,A*,A*,CORE2023,False
 rtss,RTSS,A*,A*,CORE2023,False
 ndss,NDSS,A*,A*,CORE2023,False
-usenix-security,USENIX Security,A*,A*,CORE2023,False
+usenix security,USENIX Security,A*,A*,CORE2023,False
 osdi,OSDI,A*,A*,CORE2023,False

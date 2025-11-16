@@ -3624,6 +3624,22 @@
 
 - name: USENIX Security
   description: USENIX Security Symposium
+  year: 2026
+  link: https://www.usenix.org/conference/usenixsecurity26
+  deadline: "2026-02-05"
+  abstract_deadline: "2026-01-29"
+  rebuttal_date: "2026-04-16"
+  notification_date: "2026-05-14"
+  note: Cycle 2
+  date: "2026-08-12"
+  place: Baltimore, MD
+  acceptance_rate:
+  num_submission:
+  general_chair:
+  program_chair:
+
+- name: USENIX Security
+  description: USENIX Security Symposium
   year: 2025
   link: https://www.usenix.org/conference/usenixsecurity25
   deadline: "2025-01-22"
@@ -9208,7 +9224,7 @@
   num_submission:
   general_chair: 
   program_chair: Anthony W. Lin, Eva Darulova, Philipp Rümmer
-  
+
 - name: CAV
   description: Computer Aided Verification
   year: 2025

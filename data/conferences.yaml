@@ -165,6 +165,21 @@
   general_chair:
   program_chair:
 
+- name: IJCAI
+  description: International Joint Conferences on Artificial Intelligence
+  year: 2026
+  link: https://2026.ijcai.org/
+  deadline: "2025-01-19"
+  abstract_deadline: "2025-01-12"
+  rebuttal_date: "2025-04-07"
+  notification_date: "2025-04-29"
+  note: Phase 1
+  date: "2026-08-15"
+  place: Bremen, Germany
+  acceptance_rate:
+  num_submission:
+  general_chair: Francesca Toni
+  program_chair: Diego Calvanese
 
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence

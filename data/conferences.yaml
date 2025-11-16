@@ -6397,6 +6397,22 @@
 
 - name: MobiSys
   description: ACM International Conference on Mobile Systems, Applications, and Services
+  year: 2026
+  link: https://www.sigmobile.org/mobisys/2026/
+  deadline: "2025-12-05"
+  abstract_deadline: "2025-11-28"
+  rebuttal_date: "2026-02-09"
+  notification_date: "2026-03-02"
+  note: 
+  date: "2026-06-21"
+  place: Cambridge, UK
+  acceptance_rate:
+  num_submission:
+  general_chair: Fahim Kawsar, Cecilia Mascolo
+  program_chair: Fadel Adib, Youngki Lee
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
   year: 2025
   link: https://www.sigmobile.org/mobisys/2025/
   deadline: "2024-12-09"

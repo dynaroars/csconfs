@@ -9194,7 +9194,21 @@
   general_chair: Sriram Rajamani
   program_chair: David Walker
 
-
+- name: CAV
+  description: International Conference on Computer Aided Verification
+  year: 2026
+  link: https://conferences.i-cav.org/2026/
+  deadline: "2026-01-28"
+  rebuttal_date: "2026-03-30"
+  notification_date: "2026-04-17"
+  note: 
+  date: "2026-07-26"
+  place: Lisbon, Portugal
+  acceptance_rate:
+  num_submission:
+  general_chair: 
+  program_chair: Anthony W. Lin, Eva Darulova, Philipp Rümmer
+  
 - name: CAV
   description: Computer Aided Verification
   year: 2025

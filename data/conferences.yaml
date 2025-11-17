@@ -6046,7 +6046,7 @@
   general_chair: Christopher D. Gill
   program_chair: Marco Caccamo  
 
-# High-performance computing	
+# High-performance computing
 
 - name: HPDC
   description: ACM International Symposium on High-Performance Parallel and Distributed Computing
@@ -6115,7 +6115,7 @@
   place: Stockholm, Sweden
   acceptance_rate: 
   num_submission: 
-  general_chair: Manish Parashar, Vladimir Vlassov	
+  general_chair: Manish Parashar, Vladimir Vlassov
   program_chair: 
 
 - name: HPDC
@@ -6188,7 +6188,7 @@
   general_chair: Thilo Kielmann
   program_chair: Dean Hildebrand, Michela Taufer
   
-# Mobile computing	
+# Mobile computing
 
 - name: MobiCom
   description: ACM International Conference on Mobile Computing and Networking
@@ -6583,7 +6583,7 @@
 
 
 
-# Measurement & perf. analysis 	
+# Measurement & perf. analysis 
 
 - name: SIGMETRICS
   description: ACM SIGMETRICS / IFIP Performance Conference
@@ -7003,7 +7003,7 @@
   general_chair: Bill Lin, Jun (Jim) Xu, 
   program_chair: Sudipta Sengupta, Devavrat Shah
 
-# Operating systems	
+# Operating systems
 
 - name: OSDI
   description: USENIX Symposium on Operating Systems Design and Implementation
@@ -12021,7 +12021,7 @@
   place: Phoenix, Arizona, USA
   acceptance_rate:
   num_submission:
-  general_chair: James Ahrens	
+  general_chair: James Ahrens
   program_chair: Gautam Chaudhary
 
 - name: VIS

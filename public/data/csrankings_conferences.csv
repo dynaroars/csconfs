@@ -20,8 +20,8 @@ hpca,HPCA,arch,Computer architecture,Systems,true
 sigcomm,SIGCOMM,comm,Computer networks,Systems,false
 nsdi,NSDI,comm,Computer networks,Systems,false
 ccs,CCS,sec,Computer security,Systems,false
-oakland,IEEE S&P (Oakland),sec,Computer security,Systems,false
-usenixsec,USENIXSEC,sec,Computer security,Systems,false
+ieee s&p,IEEE S&P,sec,Computer security,Systems,false
+usenix security,USENIX Security,sec,Computer security,Systems,false
 ndss,NDSS,sec,Computer security,Systems,true
 pets,PETS,sec,Computer security,Systems,true
 sigmod,SIGMOD,mod,Databases,Systems,false
@@ -30,7 +30,7 @@ icde,ICDE,mod,Databases,Systems,true
 pods,PODS,mod,Databases,Systems,true
 dac,DAC,da,Design automation,Systems,false
 iccad,ICCAD,da,Design automation,Systems,false
-emsoft,EMSsoft,bed,Embedded & real-time systems,Systems,false
+emsoft,EMsoft,bed,Embedded & real-time systems,Systems,false
 rtas,RTAS,bed,Embedded & real-time systems,Systems,false
 rtss,RTSS,bed,Embedded & real-time systems,Systems,false
 hpdc,HPDC,hpc,High-performance computing,Systems,false
@@ -45,7 +45,7 @@ osdi,OSDI,ops,Operating systems,Systems,false
 sosp,SOSP,ops,Operating systems,Systems,false
 eurosys,Eurosys,ops,Operating systems,Systems,true
 fast,FAST,ops,Operating systems,Systems,true
-usenixatc,USENIXATC,ops,Operating systems,Systems,true
+usenix atc,USENIX ATC,ops,Operating systems,Systems,true
 pldi,PLDI,plan,Programming languages,Systems,false
 popl,POPL,plan,Programming languages,Systems,false
 icfp,ICFP,plan,Programming languages,Systems,true
@@ -62,11 +62,12 @@ eurocrypt,EUROCRYPT,crypt,Cryptography,Theory,false
 cav,CAV,log,Logic & verification,Theory,false
 lics,LICS,log,Logic & verification,Theory,false
 ismb,ISMB,bio,Comp. bio & bioinformatics,Interdisciplinary Areas,false
+ismb/eccb,ISMB/ECCB,bio,Comp. bio & bioinformatics,Interdisciplinary Areas,false
 recomb,RECOMB,bio,Comp. bio & bioinformatics,Interdisciplinary Areas,false
 siggraph,SIGGRAPH,graph,Computer graphics,Interdisciplinary Areas,false
 siggraph-asia,SIGGRAPH Asia,graph,Computer graphics,Interdisciplinary Areas,false
 eurographics,Eurographics,graph,Computer graphics,Interdisciplinary Areas,true
-sigcse,SIGCSE,csed,Computer science education,Interdisciplinary Areas,false
+sigcse ts,SIGCSE TS,csed,Computer science education,Interdisciplinary Areas,false
 ec,EC,ecom,Economics & computation,Interdisciplinary Areas,false
 wine,WINE,ecom,Economics & computation,Interdisciplinary Areas,false
 chiconf,CHI,chi,Human-computer interaction,Interdisciplinary Areas,false

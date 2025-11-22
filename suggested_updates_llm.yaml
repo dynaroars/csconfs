@@ -1,0 +1,106 @@
+- abstract_deadline: null
+  acceptance_rate: null
+  date: "July 2\u20137, 2026"
+  deadline: null
+  description: Annual Conference of the North American Chapter of the Association
+    for Computational Linguistics
+  general_chair: null
+  link: https://2026.aclweb.org
+  name: NAACL
+  notification_date: null
+  num_submission: null
+  place: San Diego, California, United States
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: June 13-19, 2027
+  deadline: null
+  description: ACM SIGMOD International Conference on Management of Data
+  general_chair: null
+  link: https://2027.sigmod.org/
+  name: SIGMOD
+  notification_date: null
+  num_submission: null
+  place: Huntington Beach, California, United States
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: October 26-30, 2025
+  deadline: null
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  general_chair: null
+  link: https://2025.iccad.com/
+  name: ICCAD
+  notification_date: null
+  num_submission: null
+  place: Munich, Germany
+  program_chair: null
+  year: 2025
+- abstract_deadline: null
+  acceptance_rate: null
+  date: June 8-12, 2026
+  deadline: null
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  general_chair: null
+  link: http://www.sigmetrics.org/sigmetrics2026/
+  name: SIGMETRICS
+  notification_date: null
+  num_submission: null
+  place: Ann Arbor, Michigan, USA
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: Sat 31 January - Wed 4 February 2026
+  deadline: null
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  general_chair: null
+  link: https://2026.cgo.org
+  name: CGO
+  notification_date: null
+  num_submission: null
+  place: Sydney, Australia
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: "19\u201323 July 2026"
+  deadline: 15 January 2026
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  general_chair: null
+  link: https://s2026.siggraph.org/
+  name: SIGGRAPH
+  notification_date: null
+  num_submission: null
+  place: Los Angeles, California
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: "1 \u2013 4 December 2026"
+  deadline: null
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive
+    Techniques in Asia
+  general_chair: null
+  link: https://asia.siggraph.org/2025/about-the-event/siggraph-asia-2026/
+  name: SIGGRAPH Asia
+  notification_date: null
+  num_submission: null
+  place: KLCC, Kuala Lumpur, Malaysia
+  program_chair: null
+  year: 2026
+- abstract_deadline: March 24, 2026
+  acceptance_rate: null
+  date: "November 2\u20135, 2026"
+  deadline: March 31, 2026
+  description: ACM Symposium on User Interface Software and Technology
+  general_chair: null
+  link: https://uist.acm.org/2026/
+  name: UIST
+  notification_date: null
+  num_submission: null
+  place: Detroit, MI
+  program_chair: null
+  year: 2026

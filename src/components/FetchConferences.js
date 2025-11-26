@@ -1,6 +1,56 @@
 import yaml from 'js-yaml';
 import Papa from 'papaparse';
 
+/**
+ * Formats a Date object as YYYY-MM-DD string in local time.
+ * @param {Date} date
+ * @returns {string}
+ */
+function formatDateLocal(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+/**
+ * Expands a conference with rolling deadlines into multiple entries.
+ * For conferences like VLDB that have monthly submission deadlines.
+ *
+ * @param {Object} conf - Conference object with rolling_deadline field
+ * @returns {Array} Array of conference objects with individual deadlines
+ */
+function expandRollingDeadlines(conf) {
+  if (!conf.rolling_deadline) return [conf];
+
+  const { submission_day, notification_day, notification_month_offset, start, end } = conf.rolling_deadline;
+  const deadlines = [];
+
+  let current = new Date(start + 'T00:00:00');
+  const endDate = new Date(end + 'T00:00:00');
+  let cycleNum = 1;
+
+  while (current <= endDate) {
+    const notification = new Date(current);
+    notification.setMonth(notification.getMonth() + notification_month_offset);
+    notification.setDate(notification_day);
+
+    deadlines.push({
+      ...conf,
+      deadline: formatDateLocal(current),
+      notification_date: formatDateLocal(notification),
+      note: `Cycle ${cycleNum}`,
+      rolling_deadline: undefined,
+    });
+
+    current.setMonth(current.getMonth() + 1);
+    current.setDate(submission_day);
+    cycleNum++;
+  }
+
+  return deadlines;
+}
+
 async function parseCSV(url) {
   const response = await fetch(url);
   const text = await response.text();
@@ -117,9 +167,12 @@ export async function fetchFullData() {
         }
       }
     });
-    
+
+    // Expand rolling deadlines (e.g., VLDB monthly submissions)
+    const expandedConferences = loadedConferences.flatMap(expandRollingDeadlines);
+
     return {
-      loadedConferences,
+      loadedConferences: expandedConferences,
       csrankingsData,
       coreData,
     };

@@ -4416,10 +4416,12 @@
   description: International Conference on Very Large Data Bases
   year: 2026
   link: https://vldb.org/2026/
-  deadline: '2026-03-01'
-  note: Rolling monthly deadlines until March 2026
-  abstract_deadline: null
-  notification_date: '2026-03-15'
+  rolling_deadline:
+    submission_day: 1
+    notification_day: 15
+    notification_month_offset: 1
+    start: '2025-04-01'
+    end: '2026-03-01'
   date: '2026-08-31'
   place: Boston, MA
   acceptance_rate: null
@@ -4429,10 +4431,12 @@
   description: International Conference on Very Large Data Bases
   year: 2025
   link: https://vldb.org/2025/
-  deadline: '2025-03-01'
-  note: Rolling monthly deadlines until March 2025
-  abstract_deadline: null
-  notification_date: '2025-03-15'
+  rolling_deadline:
+    submission_day: 1
+    notification_day: 15
+    notification_month_offset: 1
+    start: '2024-04-01'
+    end: '2025-03-01'
   date: '2025-09-01'
   place: London, UK
   acceptance_rate: null

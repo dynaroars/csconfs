@@ -7498,6 +7498,19 @@
   program_chair: Shan Lu, Erik Riedel
 - name: ASE
   description: Automated Software Engineering
+  year: 2026
+  link: https://conf.researchr.org/home/ase-2026
+  deadline: '2026-03-26'
+  notification_date: '2026-05-25'
+  note: null
+  date: '2026-10-12'
+  place: Munich, Germany
+  acceptance_rate: null
+  num_submission: null
+  general_chair: Dirk Beyer
+  program_chair: Shiva Nejati, Justyna Petke
+- name: ASE
+  description: Automated Software Engineering
   year: 2025
   link: https://conf.researchr.org/home/ase-2025
   deadline: '2025-05-30'

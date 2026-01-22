@@ -24,6 +24,33 @@ model = genai.GenerativeModel('gemini-2.0-flash')
 DATA_FILE = "public/data/conferences.yaml"
 OUTPUT_FILE = "suggested_updates_llm.yaml"
 
+# URL patterns for conferences with predictable yearly domains
+# Format: conference_name -> pattern with {yy} for 2-digit year
+URL_PATTERNS = {
+    'POPL': 'https://popl{yy}.sigplan.org/',
+    'PLDI': 'https://pldi{yy}.sigplan.org/',
+}
+
+def try_pattern_url(name, next_year):
+    """Try to construct and verify a pattern-based URL for the next year."""
+    if name not in URL_PATTERNS:
+        return None
+    
+    short_year = str(next_year)[-2:]
+    url = URL_PATTERNS[name].format(yy=short_year)
+    
+    try:
+        print(f"  Trying pattern URL: {url}")
+        response = requests.head(url, headers=get_headers(), timeout=10, allow_redirects=True)
+        if response.status_code == 200:
+            return url
+        else:
+            print(f"  Pattern URL returned {response.status_code}")
+            return None
+    except Exception as e:
+        print(f"  Pattern URL failed: {e}")
+        return None
+
 def load_conferences():
     with open(DATA_FILE, 'r') as f:
         return yaml.safe_load(f)
@@ -63,7 +90,7 @@ def find_next_year_link(series_url, current_year):
     # Look for links containing the next year
     for a in soup.find_all('a', href=True):
         text = a.get_text().strip()
-        href = a['href']
+        href = a['href'].strip() 
         
         # Skip bad patterns
         if any(pattern in href.lower() for pattern in BAD_PATTERNS):
@@ -191,7 +218,35 @@ def main():
                 # Sleep to avoid rate limits
                 time.sleep(2)
         else:
-            print(f"  Could not find link for {next_year} on {series_link}")
+            # Try pattern-based URL fallback for conferences with predictable domains
+            next_url = try_pattern_url(name, next_year)
+            if next_url:
+                print(f"  Found via pattern: {next_url}")
+                html = fetch_html(next_url)
+                if html:
+                    data = extract_data_with_llm(html, name, next_year)
+                    if data:
+                        print(f"  Extracted: {data}")
+                        description = conf.get('description', '')
+                        suggestion = {
+                            'name': name,
+                            'description': description,
+                            'year': next_year,
+                            'link': next_url,
+                            'deadline': data.get('deadline'),
+                            'abstract_deadline': data.get('abstract_deadline'),
+                            'notification_date': None,
+                            'date': data.get('date'),
+                            'place': data.get('place'),
+                            'acceptance_rate': None,
+                            'num_submission': None,
+                            'general_chair': None,
+                            'program_chair': None
+                        }
+                        suggestions.append(suggestion)
+                    time.sleep(2)
+            else:
+                print(f"  Could not find link for {next_year} on {series_link}")
 
     # Save suggestions
     if suggestions:

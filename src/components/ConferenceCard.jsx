@@ -7,7 +7,7 @@ import Link from '@mui/material/Link';
 // import Box from '@mui/material/Box';
 
 const StyledLink = styled(Link)({
-  color: 'darkblue',
+  color: 'var(--link-color)',
   textDecoration: 'none',
   '&:hover': {
     textDecoration: 'underline',
@@ -108,13 +108,13 @@ const ConferenceCard = ({ conference }) => {
   let countdownColor;
   //Color based on urgency
   if (daysRemaining < 0) {
-    countdownColor = "gray" //Date has passed
+    countdownColor = "text.disabled" //Date has passed
   } else if (daysRemaining <= 7) {
-    countdownColor = "red" // Urgent
+    countdownColor = "error.main" // Urgent
   } else if (daysRemaining <= 30) {
-    countdownColor = "blue" // Soon
+    countdownColor = "info.main" // Soon
   } else {
-    countdownColor = "green" //Way in future
+    countdownColor = "success.main" //Way in future
   }
 
   return (

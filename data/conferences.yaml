@@ -862,10 +862,10 @@
   description: International Conference on Machine Learning
   year: 2026
   link: http://icml.cc/Conferences/FutureMeetings
-  deadline: '2026-01-30'
+  deadline: '2026-01-28'
   abstract_deadline: '2026-01-23'
   date: '2026-07-06'
-  notificate_date: null
+  notificate_date: '2026-04-30'
   rebuttal_date: null
   place: Seoul, South Korea
   acceptance_rate: null

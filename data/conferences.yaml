@@ -1,3 +1,122 @@
+- abstract_deadline: null
+  acceptance_rate: null
+  date: "June 15–19, 2026"
+  deadline: "March 22, 2026"
+  description: ACM SIGPLAN Conference on Programming Language Design and Implementation
+  general_chair: null
+  link: https://pldi26.sigplan.org/
+  name: PLDI
+  notification_date: "March 5, 2026"
+  num_submission: null
+  place: Boulder, Colorado, United States
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: "January 11\u201317, 2026"
+  deadline: "July 10, 2025"
+  description: ACM SIGPLAN Symposium on Principles of Programming Languages
+  general_chair: null
+  link: https://popl26.sigplan.org/
+  name: POPL
+  notification_date: null
+  num_submission: null
+  place: Rennes, France
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: "July 2\u20137, 2026"
+  deadline: null
+  description: Annual Conference of the North American Chapter of the Association
+    for Computational Linguistics
+  general_chair: null
+  link: https://2026.aclweb.org
+  name: NAACL
+  notification_date: null
+  num_submission: null
+  place: San Diego, California, United States
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: June 13-19, 2027
+  deadline: null
+  description: ACM SIGMOD International Conference on Management of Data
+  general_chair: null
+  link: https://2027.sigmod.org/
+  name: SIGMOD
+  notification_date: null
+  num_submission: null
+  place: Huntington Beach, California, United States
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: June 8-12, 2026
+  deadline: null
+  description: ACM SIGMETRICS / IFIP Performance Conference
+  general_chair: null
+  link: http://www.sigmetrics.org/sigmetrics2026/
+  name: SIGMETRICS
+  notification_date: null
+  num_submission: null
+  place: Ann Arbor, Michigan, USA
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: Sat 31 January - Wed 4 February 2026
+  deadline: null
+  description: IEEE/ACM International Symposium on Code Generation and Optimization
+  general_chair: null
+  link: https://2026.cgo.org
+  name: CGO
+  notification_date: null
+  num_submission: null
+  place: Sydney, Australia
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: "19\u201323 July 2026"
+  deadline: 15 January 2026
+  description: ACM Conference on Computer Graphics and Interactive Techniques
+  general_chair: null
+  link: https://s2026.siggraph.org/
+  name: SIGGRAPH
+  notification_date: null
+  num_submission: null
+  place: Los Angeles, California
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: "1 \u2013 4 December 2026"
+  deadline: null
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive
+    Techniques in Asia
+  general_chair: null
+  link: https://asia.siggraph.org/2025/about-the-event/siggraph-asia-2026/
+  name: SIGGRAPH Asia
+  notification_date: null
+  num_submission: null
+  place: KLCC, Kuala Lumpur, Malaysia
+  program_chair: null
+  year: 2026
+- abstract_deadline: March 24, 2026
+  acceptance_rate: null
+  date: "November 2\u20135, 2026"
+  deadline: March 31, 2026
+  description: ACM Symposium on User Interface Software and Technology
+  general_chair: null
+  link: https://uist.acm.org/2026/
+  name: UIST
+  notification_date: null
+  num_submission: null
+  place: Detroit, MI
+  program_chair: null
+  year: 2026
 - name: AAAI
   description: AAAI Conference on Artificial Intelligence
   series_link: https://aaai.org/conference/aaai/
@@ -8637,6 +8756,7 @@
   num_submission: null
   general_chair: null
   program_chair: Manu Sridharan
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2025
@@ -8650,6 +8770,7 @@
   num_submission: null
   general_chair: null
   program_chair: Zachary Tatlock
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2024
@@ -8663,6 +8784,7 @@
   num_submission: null
   general_chair: null
   program_chair: John Regehr
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2023
@@ -8676,6 +8798,7 @@
   num_submission: null
   general_chair: Steve Blackburn
   program_chair: Nate Foster
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2022
@@ -8689,6 +8812,7 @@
   num_submission: null
   general_chair: Ranjit Jhala
   program_chair: Işıl Dillig
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2021
@@ -8702,6 +8826,7 @@
   num_submission: null
   general_chair: Stephen N. Freund
   program_chair: Eran Yahav
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2020
@@ -8715,6 +8840,7 @@
   num_submission: null
   general_chair: Alastair F. Donaldson
   program_chair: Emina Torlak
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2019
@@ -8728,6 +8854,7 @@
   num_submission: null
   general_chair: Kathryn S. McKinley
   program_chair: Kathleen Fisher
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2018
@@ -8741,6 +8868,7 @@
   num_submission: null
   general_chair: Jeffrey S. Foster
   program_chair: Dan Grossman
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2017
@@ -8754,6 +8882,7 @@
   num_submission: null
   general_chair: Albert Cohen
   program_chair: Martin Vechev
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2016
@@ -8767,6 +8896,7 @@
   num_submission: null
   general_chair: Chandra Krintz
   program_chair: Emery D. Berger
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: PLDI
   description: Programming Language Design and Implementation
   year: 2015
@@ -8780,6 +8910,7 @@
   num_submission: null
   general_chair: David Grove
   program_chair: Steve Blackburn
+  series_link: https://sigplan.org/Conferences/PLDI/
 - name: POPL
   description: Principles of Programming Languages
   year: 2026
@@ -8793,6 +8924,7 @@
   num_submission: null
   general_chair: Sandrine Blazy
   program_chair: Suresh Jagannathan
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: POPL
   description: Principles of Programming Languages
   year: 2025
@@ -8806,6 +8938,7 @@
   num_submission: null
   general_chair: Steve Zdancewic
   program_chair: Armando Solar-Lezama
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: POPL
   description: Principles of Programming Languages
   year: 2024
@@ -8819,6 +8952,7 @@
   num_submission: null
   general_chair: Philippa Gardner
   program_chair: Derek Dreyer
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: POPL
   description: Principles of Programming Languages
   year: 2023
@@ -8832,6 +8966,7 @@
   num_submission: null
   general_chair: Andrew Myers
   program_chair: Amal Ahmed
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: POPL
   description: Principles of Programming Languages
   year: 2022
@@ -8845,6 +8980,7 @@
   num_submission: null
   general_chair: Rajeev Alur
   program_chair: Hongseok Yang
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: POPL
   description: Principles of Programming Languages
   year: 2021
@@ -8858,6 +8994,7 @@
   num_submission: null
   general_chair: Andreas Podelski
   program_chair: Azadeh Farzan
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: POPL
   description: Principles of Programming Languages
   year: 2020
@@ -8871,6 +9008,7 @@
   num_submission: null
   general_chair: Brigitte Pientka
   program_chair: Lars Birkedal
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: POPL
   description: Principles of Programming Languages
   year: 2019
@@ -8884,6 +9022,7 @@
   num_submission: null
   general_chair: Fritz Henglein
   program_chair: Stephanie Weirich
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: POPL
   description: Principles of Programming Languages
   year: 2018
@@ -8897,6 +9036,7 @@
   num_submission: null
   general_chair: Ranjit Jhala
   program_chair: Andrew Myers
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: POPL
   description: Principles of Programming Languages
   year: 2017
@@ -8911,6 +9051,7 @@
   num_submission: null
   general_chair: Giuseppe Castagna
   program_chair: Andrew D. Gordon
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: POPL
   description: Principles of Programming Languages
   year: 2016
@@ -8925,6 +9066,7 @@
   num_submission: null
   general_chair: Rastislav Bodík
   program_chair: Rupak Majumdar
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: POPL
   description: Principles of Programming Languages
   year: 2015
@@ -8939,6 +9081,7 @@
   num_submission: null
   general_chair: Sriram Rajamani
   program_chair: David Walker
+  series_link: https://sigplan.org/Conferences/POPL/
 - name: CAV
   description: International Conference on Computer Aided Verification
   year: 2026

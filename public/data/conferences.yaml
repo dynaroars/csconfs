@@ -1,14 +1,15 @@
 - abstract_deadline: null
   acceptance_rate: null
-  date: "June 15–19, 2026"
-  deadline: "March 22, 2026"
+  date: "June 15, 2026"
+  deadline: "November 13, 2025"
   description: ACM SIGPLAN Conference on Programming Language Design and Implementation
   general_chair: null
   link: https://pldi26.sigplan.org/
   name: PLDI
   notification_date: "March 5, 2026"
+  rebuttal_date: "February 21, 2026"
   num_submission: null
-  place: Boulder, Colorado, United States
+  place: Boulder, CO
   program_chair: null
   year: 2026
 - abstract_deadline: null

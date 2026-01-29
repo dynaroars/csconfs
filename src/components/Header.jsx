@@ -7,10 +7,10 @@ export default function Header() {
     <header style={{ display: 'flex', alignItems: 'center', padding: '10px' }}>
       <div>
         <div>
-          <Link 
+          <Link
             href="https://roars.dev/csconfs"
-            target="_blank" 
-            rel="noopener noreferrer" 
+            target="_blank"
+            rel="noopener noreferrer"
             underline="none"
             aria-label="CSConfs project homepage"
             sx={{
@@ -41,7 +41,7 @@ export default function Header() {
                 },
               }}
             >
-              CSConfs: CS Conference Deadlines 
+              CSConfs: CS Conference Deadlines
             </Typography>
           </Link>
         </div>
@@ -49,9 +49,9 @@ export default function Header() {
           <Typography
             variant="body2"
             component="div"
-            sx={{ 
-              marginTop: 1, 
-              color: 'text.secondary', 
+            sx={{
+              marginTop: 1,
+              color: 'text.secondary',
               userSelect: 'text',
               '@media (max-width:600px)': {
                 fontSize: '0.6rem',
@@ -60,10 +60,10 @@ export default function Header() {
           >
             Countdown to submission deadlines uses AoE (Anywhere on Earth) time zone.<br />
             Src, contributions, issues:{' '}
-            <Link 
+            <Link
               href="https://code.roars.dev/csconfs"
-              target="_blank" 
-              rel="noopener noreferrer" 
+              target="_blank"
+              rel="noopener noreferrer"
               underline="hover"
               aria-label="Code repository for CSConfs"
             >

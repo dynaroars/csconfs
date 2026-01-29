@@ -57,7 +57,7 @@ const formatDateAoE = (date) => {
 
   // Create a Date object
   const dateObject = new Date(date);
-  
+
   // Increment to the end of the specified day
   dateObject.setHours(23, 59, 59, 999); // Set it to the end of the AoE day
 
@@ -107,13 +107,13 @@ const ConferenceCard = ({ conference }) => {
 
   let countdownColor;
   //Color based on urgency
-  if (daysRemaining < 0){
+  if (daysRemaining < 0) {
     countdownColor = "gray" //Date has passed
-  } else if(daysRemaining <= 7){ 
+  } else if (daysRemaining <= 7) {
     countdownColor = "red" // Urgent
-  } else if (daysRemaining <= 30){ 
+  } else if (daysRemaining <= 30) {
     countdownColor = "blue" // Soon
-  } else{ 
+  } else {
     countdownColor = "green" //Way in future
   }
 
@@ -123,7 +123,7 @@ const ConferenceCard = ({ conference }) => {
       sx={{
         borderRadius: '5px',
         padding: 1,
-        marginBottom: 2, 
+        marginBottom: 2,
         boxShadow: '0 2px 12px rgba(0,0,0,0.05)',
         display: 'flex',
         justifyContent: 'space-between',
@@ -141,11 +141,11 @@ const ConferenceCard = ({ conference }) => {
         <Typography variant="body2" sx={{ marginBottom: 0., color: 'text.secondary', fontSize: 'var(--font-size-body)' }}>
           {conference.description}
         </Typography>
-        
+
         <Typography variant="subtitle2" sx={{ fontWeight: 'bold', fontStyle: 'italic', color: 'text.secondary', fontSize: 'var(--font-size-body)' }}>
           {conference.note}
         </Typography>
-        
+
         {/* {conference.general_chair && <Typography variant="body2" sx={{ fontWeight: 'normal', marginBottom: 0, color: 'text.secondary', fontSize: 'var(--font-size-body)', }}> */}
         {/*   General Chair:{' '} {conference.general_chair} */}
         {/* </Typography>} */}
@@ -182,14 +182,14 @@ const ConferenceCard = ({ conference }) => {
       </CardContent>
 
       {/* Right column: countdown and deadline */}
-      <CardContent 
-        sx={{ 
-          flexBasis: '35%', 
+      <CardContent
+        sx={{
+          flexBasis: '35%',
           textAlign: 'right',
           paddingRight: 0,
         }}
       >
-        <Typography variant="h5" fontWeight="bold" sx={{color: countdownColor, fontSize: 'var(--font-size-title)' }}>
+        <Typography variant="h5" fontWeight="bold" sx={{ color: countdownColor, fontSize: 'var(--font-size-title)' }}>
           {countdown || 'TBD'}
         </Typography>
         {abstractDeadlineDisplay && (
@@ -201,8 +201,8 @@ const ConferenceCard = ({ conference }) => {
           Submission: {deadlineDisplay}
         </Typography>
         {rebuttalDateDisplay && (
-          <Typography sx={{ fontSize: 'var(--font-size-body)'}}>
-          Rebuttal: {rebuttalDateDisplay}
+          <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
+            Rebuttal: {rebuttalDateDisplay}
           </Typography>
         )}
         <Typography sx={{ fontSize: 'var(--font-size-body)' }}>

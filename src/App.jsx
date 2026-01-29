@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
 import Checkbox from '@mui/material/Checkbox';
 import FormControlLabel from '@mui/material/FormControlLabel';
@@ -15,6 +17,39 @@ function App() {
   const [filteredConferences, setFilteredConferences] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);
+
+  const [mode, setMode] = useState(localStorage.getItem('theme') || 'light');
+
+  useEffect(() => {
+    const handleThemeChange = () => {
+      setMode(localStorage.getItem('theme') || 'light');
+    };
+    window.addEventListener('themeChanged', handleThemeChange);
+    return () => window.removeEventListener('themeChanged', handleThemeChange);
+  }, []);
+
+  const theme = useMemo(
+    () =>
+      createTheme({
+        palette: {
+          mode,
+          ...(mode === 'dark'
+            ? {
+              background: {
+                default: '#1a1d21',
+                paper: '#222529',
+              },
+            }
+            : {
+              background: {
+                default: '#ffffff',
+                paper: '#ffffff',
+              },
+            }),
+        },
+      }),
+    [mode]
+  );
 
   // States for both datasets
   const [csrAreas, setCsrAreas] = useState({});
@@ -150,32 +185,32 @@ function App() {
   // Update URL when selectedConferences changes
   useEffect(() => {
     if (conferences.length === 0) return;
-    
+
     // Conferences overlapping in both datasets
     const confsInBoth = allCsrConfNames.filter(conf => allCoreConfNames.includes(conf));
-  
+
     // Identify selected conferences for CSR and CORE
     const selectedCsr = allCsrConfNames.filter(conf => selectedConferences.has(conf));
     const selectedCore = allCoreConfNames.filter(conf => selectedConferences.has(conf));
-  
+
     // Determine if all CSR and/or CORE conferences are selected
     const allCsrSelected = selectedCsr.length === allCsrConfNames.length;
     const allCoreSelected = selectedCore.length === allCoreConfNames.length;
-  
+
     // Compose CSR param excluding any conferences also in CORE if CORE fully selected
     let csrParamList = selectedCsr;
     if (allCoreSelected) {
       // remove overlapping conferences from CSR
       csrParamList = csrParamList.filter(conf => !confsInBoth.includes(conf));
     }
-  
+
     // Compose CORE param excluding any conferences also in CSR if CSR fully selected
     let coreParamList = selectedCore;
     if (allCsrSelected) {
       // remove overlapping conferences from CORE
       coreParamList = coreParamList.filter(conf => !confsInBoth.includes(conf));
     }
-  
+
     let paramUrl = '';
     // Set csrankings param
     if (csrParamList.length === allCsrConfNames.length - (allCoreSelected ? confsInBoth.length : 0)) {
@@ -183,7 +218,7 @@ function App() {
     } else if (csrParamList.length > 0) {
       paramUrl += `csrankings=${csrParamList.join(',')}`;
     }
-  
+
     // Set core param
     if (coreParamList.length === allCoreConfNames.length - (allCsrSelected ? confsInBoth.length : 0)) {
       paramUrl += '&core=all';
@@ -199,19 +234,19 @@ function App() {
   const filterConferences = () => {
     const selected = Array.from(selectedConferences).map(name => name.toLowerCase());
     const now = new Date();
-  
+
     const updatedConferences = conferences.filter(conf => {
       const matchesConference = selected.includes(conf.name.toLowerCase());
       const matchesSearch = conf.name.toLowerCase().includes(searchQuery.toLowerCase());
-  
+
       const deadlineDate = new Date(conf.deadline);
       const conferenceDate = new Date(conf.date);
       // Filter out past deadline conferences if hidePastDeadlines is true
       const isUpcoming = !hidePastDeadlines || deadlineDate >= now || conferenceDate >= now;
-  
+
       return matchesConference && matchesSearch && isUpcoming;
     });
-    
+
     setFilteredConferences(updatedConferences);
   };
 
@@ -236,68 +271,71 @@ function App() {
   };
 
   return (
-    <div>
-      <Header />
-      <div className="App">
-        {loading ? (
-          <div style={{ textAlign: 'center', marginTop: '20px' }}>
-            <h2>Loading...</h2>
-          </div>
-        ) : (
-          <>
-            <div className="conference-list">
-              <ConferenceDisplay filteredConferences={filteredConferences} />
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <div>
+        <Header />
+        <div className="App">
+          {loading ? (
+            <div style={{ textAlign: 'center', marginTop: '20px' }}>
+              <h2>Loading...</h2>
             </div>
-            
-            <div className="sidebar">
-              <h2>Filters</h2>
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    checked={hidePastDeadlines}
-                    onChange={e => setHidePastDeadlines(e.target.checked)}
-                    color="primary"
-                  />
-                }
-                label="Hide past conferences"
-              />
-              <TextField
-                label="Search by conference name"
-                variant="outlined"
-                name="search"
-                value={searchQuery}
-                onChange={handleSearchChange}
-                style={{ marginBottom: '20px', width: '100%', fontSize: '1.0rem' }}
-                fullWidth
-              />
-              <Sidebar
-                datasets={{
-                  csrankings: { areas: csrAreas, conferencesByArea: csrConfsByArea },
-                  core: { areas: coreAreas, conferencesByArea: coreConfsByArea },
-                }}
-                selectedConferences={selectedConferences}
-                openTopLevel={openTopLevel}
-                setOpenTopLevel={setOpenTopLevel}
-                openParents={openParents}
-                setOpenParents={setOpenParents}
-                openAreas={openAreas}
-                setOpenAreas={setOpenAreas}
-                toggleMultipleConferences={toggleMultipleConferences}
-                handleCheckboxChange={handleCheckboxChange}
-                getConferencesByParentArea={getConferencesByParentArea}
-                getConferencesByAreaTitle={getConferencesByAreaTitle}
-                isAllSelected={isAllSelected}
-                isSomeSelected={isSomeSelected}
-                toggleParent={toggleParent}
-                toggleArea={toggleArea}
-              />
-            </div>
+          ) : (
+            <>
+              <div className="conference-list">
+                <ConferenceDisplay filteredConferences={filteredConferences} />
+              </div>
 
-          </>
-        )}
+              <div className="sidebar">
+                <h2>Filters</h2>
+                <FormControlLabel
+                  control={
+                    <Checkbox
+                      checked={hidePastDeadlines}
+                      onChange={e => setHidePastDeadlines(e.target.checked)}
+                      color="primary"
+                    />
+                  }
+                  label="Hide past conferences"
+                />
+                <TextField
+                  label="Search by conference name"
+                  variant="outlined"
+                  name="search"
+                  value={searchQuery}
+                  onChange={handleSearchChange}
+                  style={{ marginBottom: '20px', width: '100%', fontSize: '1.0rem' }}
+                  fullWidth
+                />
+                <Sidebar
+                  datasets={{
+                    csrankings: { areas: csrAreas, conferencesByArea: csrConfsByArea },
+                    core: { areas: coreAreas, conferencesByArea: coreConfsByArea },
+                  }}
+                  selectedConferences={selectedConferences}
+                  openTopLevel={openTopLevel}
+                  setOpenTopLevel={setOpenTopLevel}
+                  openParents={openParents}
+                  setOpenParents={setOpenParents}
+                  openAreas={openAreas}
+                  setOpenAreas={setOpenAreas}
+                  toggleMultipleConferences={toggleMultipleConferences}
+                  handleCheckboxChange={handleCheckboxChange}
+                  getConferencesByParentArea={getConferencesByParentArea}
+                  getConferencesByAreaTitle={getConferencesByAreaTitle}
+                  isAllSelected={isAllSelected}
+                  isSomeSelected={isSomeSelected}
+                  toggleParent={toggleParent}
+                  toggleArea={toggleArea}
+                />
+              </div>
+
+            </>
+          )}
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </ThemeProvider>
   );
 }
 

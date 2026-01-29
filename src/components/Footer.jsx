@@ -19,22 +19,22 @@ export default function Footer() {
         },
       }}
     >
-      <a 
-        href="https://roars.dev" 
-        target="_blank" 
-        rel="noopener noreferrer" 
+      <a
+        href="https://roars.dev"
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label="ROARS website"
-        style={{ 
-          display: 'inline-flex', 
-          alignItems: 'center', 
-          textDecoration: 'none', 
-          color: 'inherit' 
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          textDecoration: 'none',
+          color: 'inherit'
         }}
       >
-        <img 
-          src={logo} 
-          alt="dino logo" 
-          style={{ height: '60px', marginRight: '10px' }} 
+        <img
+          src={logo}
+          alt="dino logo"
+          style={{ height: '60px', marginRight: '10px' }}
         />
         <Typography variant="body2" component="span">
           ROARS © {new Date().getFullYear()}.

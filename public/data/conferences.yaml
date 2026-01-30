@@ -628,11 +628,13 @@
   description: European Conference on Computer Vision
   year: 2026
   link: https://eccv.ecva.net/Conferences/2026
-  deadline: '2026-03-06'
-  notification_date: null
+  deadline: '2026-03-05'
+  abstract_deadline: '2026-02-26'
+  notification_date: '2026-06-17'
   note: null
   date: '2026-09-08'
   place: Malmo, Sweden
+  rebuttal_date: '2026-05-11'
   acceptance_rate: null
   num_submission: null
   general_chair: Kalle Åström, Serge Belongie, Richard Hartley, Jana Košecká, Andrea

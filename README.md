@@ -89,3 +89,36 @@ npm run build
 
 
 Created by [Roars Lab](https://roars.dev)  
+
+---
+
+## 🤖 Automated Conference Crawler
+
+We use an LLM-powered script to automatically find and extract the next year's conference details.
+
+### Prerequisites
+1. **Python 3.10+**
+2. **Install dependencies**:
+   ```bash
+   pip install requests beautifulsoup4 fake-useragent google-generativeai python-dotenv pyyaml
+   ```
+3. **Get a Gemini API Key**:
+   - Get a free key from [Google AI Studio](https://aistudio.google.com/).
+   - Create a `.env` file in the root directory:
+     ```env
+     GEMINI_API_KEY=your_api_key_here
+     ```
+
+### How to Run
+```bash
+python3 scripts/update_confs_llm.py
+```
+
+### Output
+- The script looks for `series_link` in `public/data/conferences.yaml`.
+- It saves new suggestions to **`suggested_updates_llm.yaml`**.
+- **Manual Step**: Review the `suggested_updates_llm.yaml` file and manually copy-paste the correct entries into `public/data/conferences.yaml`. 
+
+### Limitations
+Not every conference is covered by this script. Some conferences use inconsistent URL patterns or complex hosting structures that are difficult to crawl automatically.
+- See **[`known_crawler_issues.md`](known_crawler_issues.md)** for a list of known exclusions and manual update requirements.

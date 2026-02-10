@@ -54,7 +54,7 @@ npm install
 2. **Run the local server**:
 
 ```bash
-npm run start
+npm run dev
 ```
 
 3. **View in browser**:

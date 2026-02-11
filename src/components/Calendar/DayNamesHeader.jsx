@@ -23,7 +23,7 @@ function DayNamesHeader({ isMobile }) {
                     sx={{
                         textAlign: 'center',
                         fontWeight: 600,
-                        color: 'text.secondary',
+                        color: 'var(--text-color)',
                         p: 1,
                         fontSize: isMobile ? '0.75rem' : '0.875rem'
                     }}

@@ -24,6 +24,7 @@ code {
   --primary-color: #000000;
   --primary-light: #eff6ff;
   --link-color: darkblue;
+  --text-special-color: #526cff;
 }
 
 [data-theme="dark"] {
@@ -38,6 +39,7 @@ code {
   --primary-color: #36c5f0;
   --primary-light: #2c3e50;
   --link-color: #66b2ff;
+  --text-special-color: #1d34ff;
 }
 
 body {

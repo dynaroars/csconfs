@@ -246,7 +246,7 @@ const extractCity = (place) => {
       <Box sx={{ 
         width: '100%', 
         padding: 2,
-        background: 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)',
+        background: 'var(--bg-color)',
         borderRadius: '12px',
         border: '1px solid #dee2e6',
         boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
@@ -282,7 +282,7 @@ const extractCity = (place) => {
                 <Box sx={{ 
                   flex: 1, 
                   height: 25, 
-                  background: 'linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%)',
+                  background: 'var(--bg-color)',
                   borderRadius: '4px',
                   border: '1px solid #dee2e6',
                   position: 'relative',
@@ -312,7 +312,7 @@ const extractCity = (place) => {
                       top: '50%',
                       transform: 'translateY(-50%)',
                       left: `calc(${barWidth}% + 8px)`,
-                      color: colors.text,
+                      color: 'var(--text-color)',
                       fontWeight: 'bold',
                       fontSize: '12px'
                     }}
@@ -342,7 +342,7 @@ const extractCity = (place) => {
       <Box sx={{ 
         width: '100%', 
         padding: 2,
-        background: 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)',
+        background: 'var(--bg-color)',
         borderRadius: '12px',
         border: '1px solid #dee2e6',
         boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
@@ -377,7 +377,7 @@ const extractCity = (place) => {
                <Box sx={{ 
                  flex: 1, 
                  height: 25, 
-                 background: 'linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%)',
+                 background: 'var(--bg-color)',
                  borderRadius: '4px',
                  border: '1px solid #dee2e6',
                  position: 'relative',
@@ -407,7 +407,7 @@ const extractCity = (place) => {
                     top: '50%',
                     transform: 'translateY(-50%)',
                     left: `calc(${barWidth}% + 8px)`,
-                    color: colors.text,
+                    color: 'var(--text-color)',
                     fontWeight: 'bold',
                     fontSize: '12px'
                   }}

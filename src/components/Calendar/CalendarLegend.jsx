@@ -12,7 +12,7 @@ function CalendarLegend({ isMobile }) {
             sx={{
                 mt: 3,
                 p: 2,
-                backgroundColor: 'grey.100',
+                backgroundColor: 'var(--hover-bg)',
                 borderRadius: 1,
                 display: 'flex',
                 gap: isMobile ? 1.5 : 2,

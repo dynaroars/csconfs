@@ -179,5 +179,13 @@ export function getConferencesForDay(conferences, dayDate) {
         }
     });
 
-    return events;
+    // Remove duplicates
+    const uniqueEvents = events.filter(
+        (item, index, self) =>
+            index === self.findIndex(obj =>
+            JSON.stringify(obj) === JSON.stringify(item)
+        )
+    );
+
+    return uniqueEvents;
 }

@@ -16,8 +16,8 @@ function CalendarHeader({ currentDate, onPreviousMonth, onNextMonth }) {
                 justifyContent: 'space-between',
                 mb: 3,
                 p: 2,
-                backgroundColor: 'grey.100',
-                borderRadius: 1
+                backgroundColor: 'var(--hover-bg)',
+                borderRadius: 1,
             }}
         >
             <IconButton

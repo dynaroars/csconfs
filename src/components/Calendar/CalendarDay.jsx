@@ -15,11 +15,11 @@ function CalendarDay({ day, events, isToday, isMobile }) {
                 borderColor: 'divider',
                 borderRadius: 1,
                 p: 1,
-                backgroundColor: day.isCurrentMonth ? 'background.paper' : 'grey.50',
+                backgroundColor: day.isCurrentMonth ? 'background.paper' : 'var(--hover-bg)',
                 position: 'relative',
                 transition: 'background-color 0.2s',
                 '&:hover': {
-                    backgroundColor: day.isCurrentMonth ? 'grey.50' : 'grey.100'
+                    backgroundColor: 'var(--hover-bg)'
                 }
             }}
             role="gridcell"

@@ -60,7 +60,7 @@ npm run dev
 3. **View in browser**:
 
 ```bash
-http://localhost:3000/
+http://localhost:5173/
 ```
 
 - If there are any errors, check and fix your edits in the `public/data/conferences.yaml` file.

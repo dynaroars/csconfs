@@ -31,7 +31,7 @@ function CalendarDay({ day, events, isToday, isMobile }) {
                     fontSize: isMobile ? '0.75rem' : '0.875rem',
                     fontWeight: isToday ? 700 : 500,
                     color: day.isCurrentMonth
-                        ? (isToday ? 'primary.main' : 'text.primary')
+                        ? (isToday ? 'var(--text-special-color)' : 'text.primary')
                         : 'text.disabled',
                     mb: 0.5
                 }}
@@ -55,7 +55,7 @@ function CalendarDay({ day, events, isToday, isMobile }) {
                                 alignItems: 'center',
                                 justifyContent: 'center',
                                 backgroundColor: event.color,
-                                color: 'white',
+                                color: 'var(--text-color)',
                                 fontSize: isMobile ? '0.6rem' : '0.65rem',
                                 height: isMobile ? 18 : 20,
                                 borderRadius: '10px',

@@ -325,7 +325,7 @@ const extractCity = (place) => {
               <Box sx={{ 
                 width: 60, 
                 fontSize: '12px',
-                color: 'text.secondary'
+                color: 'var(--text-color)'
               }}>
                 {item.percentage}%
               </Box>
@@ -420,7 +420,7 @@ const extractCity = (place) => {
               <Box sx={{ 
                 width: 60, 
                 fontSize: '12px',
-                color: 'text.secondary'
+                color: 'var(--text-color)'
               }}>
                 {item.percentage}%
               </Box>

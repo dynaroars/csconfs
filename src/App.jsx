@@ -132,17 +132,10 @@ function App() {
       // Parse URL params
       const parseParams = () => {
         // key as ranking criteria and value as list of conferences
-        let res = {};
-
-        let paramList = window.location.search.substring(1).split("&");
-
-        // Map the paramList into an object with key as ranking criteria and value as list of conferences
-        for (let param of paramList) {
-          let tempSplit = param.split("=");
-          const key = tempSplit[0], value = tempSplit[1];
-          res[key] = value;
-        }
-        return res;
+        const url = new URL(window.location.href)
+        const paramsURL = new URLSearchParams(url.search);
+        const params = Object.fromEntries(paramsURL.entries());
+        return params;
       }
 
       const params = parseParams();
@@ -216,14 +209,14 @@ function App() {
     if (csrParamList.length === allCsrConfNames.length - (allCoreSelected ? confsInBoth.length : 0)) {
       paramUrl += 'csrankings=all';
     } else if (csrParamList.length > 0) {
-      paramUrl += `csrankings=${csrParamList.join(',')}`;
+      paramUrl += `csrankings=${encodeURIComponent(csrParamList.join(','))}`;
     }
 
     // Set core param
     if (coreParamList.length === allCoreConfNames.length - (allCsrSelected ? confsInBoth.length : 0)) {
-      paramUrl += '&core=all';
+      paramUrl += `&core=all`;
     } else if (coreParamList.length > 0) {
-      paramUrl += `&core=${coreParamList.join(',')}`;
+      paramUrl += `&core=${encodeURIComponent(coreParamList.join(','))}`;
     }
     const newUrl = window.location.pathname + '?' + paramUrl;
     window.history.replaceState(null, '', newUrl);

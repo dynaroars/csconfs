@@ -3,7 +3,7 @@
   date: null
   deadline: null
   description: Neural Information Processing Systems
-  general_chair: null
+  general_chair: Hsuan-Tien Lin, Razvan Pascanu
   link: https://blog.neurips.cc/2026/01/07/neurips-2026-call-for-organizer-nominations/
   name: NeurIPS
   notification_date: null
@@ -25,35 +25,35 @@
   place: null
   program_chair: null
   year: 2026
-- abstract_deadline: null
+- abstract_deadline: '2025-11-10'
   acceptance_rate: null
-  date: null
-  deadline: null
+  date: June 27-July 1, 2026
+  deadline: '2025-11-17'
   description: International Symposium on Computer Architecture
-  general_chair: null
-  link: https://www.isca.org/news-detail/1545/ ESSD_2026_Step_Pedal_Move!
+  general_chair: James Tuck, Huiyang Zhou
+  link: https://iscaconf.org/isca2026/
   name: ISCA
-  notification_date: null
+  notification_date: '2026-03-27'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Raleigh, NC, USA
+  program_chair: Kevin Skadron, Carole-Jean Wu
   year: 2026
-- abstract_deadline: null
+- abstract_deadline: '2025-04-14'
   acceptance_rate: null
   date: October 26-30, 2025
-  deadline: null
+  deadline: '2025-04-21'
   description: IEEE/ACM International Conference on Computer-Aided Design
-  general_chair: null
+  general_chair: Robert Wille
   link: https://2025.iccad.com/
   name: ICCAD
-  notification_date: null
+  notification_date: '2025-06-30'
   num_submission: null
   place: Munich, Germany
-  program_chair: null
+  program_chair: Deming Chen
   year: 2025
 - abstract_deadline: null
   acceptance_rate: null
-  date: null
+  date: February 24-26, 2026
   deadline: null
   description: USENIX Conference on File and Storage Technologies
   general_chair: null
@@ -61,7 +61,7 @@
   name: FAST
   notification_date: null
   num_submission: null
-  place: null
+  place: Santa Clara, CA, USA
   program_chair: null
   year: 2026
 - abstract_deadline: null
@@ -72,10 +72,10 @@
   general_chair: null
   link: https://popl27.sigplan.org/
   name: POPL
-  notification_date: null
+  notification_date: '2026-10-05'
   num_submission: null
   place: Mexico City, Mexico
-  program_chair: null
+  program_chair: Sharon Shoham
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null

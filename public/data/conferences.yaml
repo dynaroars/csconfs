@@ -1,5 +1,84 @@
 - abstract_deadline: null
   acceptance_rate: null
+  date: null
+  deadline: null
+  description: Neural Information Processing Systems
+  general_chair: null
+  link: https://blog.neurips.cc/2026/01/07/neurips-2026-call-for-organizer-nominations/
+  name: NeurIPS
+  notification_date: null
+  num_submission: null
+  place: Sydney, Australia
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: null
+  deadline: null
+  description: International ACM SIGIR Conference on Research and Development in Information
+    Retrieval
+  general_chair: null
+  link: https://sigir.org/announcing-acm-sigir-futures/
+  name: SIGIR
+  notification_date: null
+  num_submission: null
+  place: null
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: null
+  deadline: null
+  description: International Symposium on Computer Architecture
+  general_chair: null
+  link: https://www.isca.org/news-detail/1545/ ESSD_2026_Step_Pedal_Move!
+  name: ISCA
+  notification_date: null
+  num_submission: null
+  place: null
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: October 26-30, 2025
+  deadline: null
+  description: IEEE/ACM International Conference on Computer-Aided Design
+  general_chair: null
+  link: https://2025.iccad.com/
+  name: ICCAD
+  notification_date: null
+  num_submission: null
+  place: Munich, Germany
+  program_chair: null
+  year: 2025
+- abstract_deadline: null
+  acceptance_rate: null
+  date: null
+  deadline: null
+  description: USENIX Conference on File and Storage Technologies
+  general_chair: null
+  link: https://fast.org/fast-legal-update-member-bulletin-january-2026/
+  name: FAST
+  notification_date: null
+  num_submission: null
+  place: null
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: January 10-16, 2027
+  deadline: '2026-07-09'
+  description: Principles of Programming Languages
+  general_chair: null
+  link: https://popl27.sigplan.org/
+  name: POPL
+  notification_date: null
+  num_submission: null
+  place: Mexico City, Mexico
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
   date: "June 15, 2026"
   deadline: "November 13, 2025"
   description: ACM SIGPLAN Conference on Programming Language Design and Implementation

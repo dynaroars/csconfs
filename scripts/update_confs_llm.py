@@ -19,7 +19,7 @@ if not GEMINI_API_KEY:
 
 # Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-2.0-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 DATA_FILE = "public/data/conferences.yaml"
 OUTPUT_FILE = "suggested_updates_llm.yaml"
@@ -166,6 +166,12 @@ def main():
     suggestions = []
     processed_names = set()
 
+    # Build a set of existing (name, year) pairs to avoid duplicates
+    existing_entries = set()
+    for conf in confs:
+        if isinstance(conf, dict) and conf.get('name') and conf.get('year'):
+            existing_entries.add((conf['name'], int(conf['year'])))
+
     for conf in confs:
         if not isinstance(conf, dict): continue
         
@@ -178,10 +184,16 @@ def main():
             continue
             
         processed_names.add(name)
-        print(f"Processing {name}...")
         
         # 1. Find next year's URL
         next_year = int(year) + 1
+
+        # Skip if this conference+year already exists in the database
+        if (name, next_year) in existing_entries:
+            print(f"Skipping {name} {next_year} (already in database)")
+            continue
+
+        print(f"Processing {name}...")
         next_url = find_next_year_link(series_link, year)
         
         if next_url:

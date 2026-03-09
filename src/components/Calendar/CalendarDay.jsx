@@ -12,7 +12,7 @@ function CalendarDay({ day, events, isToday, isMobile }) {
             sx={{
                 minHeight: isMobile ? 80 : MIN_CALENDAR_HEIGHT,
                 border: 1,
-                borderColor: 'divider',
+                borderColor: isToday ? 'primary.main' : 'divider',
                 borderRadius: 1,
                 p: 1,
                 backgroundColor: day.isCurrentMonth ? 'background.paper' : 'var(--hover-bg)',
@@ -26,18 +26,31 @@ function CalendarDay({ day, events, isToday, isMobile }) {
             aria-label={`${day.fullDate.toLocaleDateString()}, ${events.length} events`}
         >
             {/* Day Number */}
-            <Typography
+            <Box
                 sx={{
-                    fontSize: isMobile ? '0.75rem' : '0.875rem',
-                    fontWeight: isToday ? 700 : 500,
-                    color: day.isCurrentMonth
-                        ? (isToday ? 'var(--text-special-color)' : 'text.primary')
-                        : 'text.disabled',
-                    mb: 0.5
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    width: isMobile ? 22 : 26,
+                    height: isMobile ? 22 : 26,
+                    borderRadius: '50%',
+                    mb: 0.5,
+                    backgroundColor: isToday ? 'primary.main' : 'transparent',
                 }}
             >
-                {day.date}
-            </Typography>
+                <Typography
+                    sx={{
+                        fontSize: isMobile ? '0.75rem' : '0.875rem',
+                        fontWeight: isToday ? 700 : 500,
+                        color: isToday
+                            ? 'primary.contrastText'
+                            : (day.isCurrentMonth ? 'text.primary' : 'text.disabled'),
+                        lineHeight: 1,
+                    }}
+                >
+                    {day.date}
+                </Typography>
+            </Box>
 
             {/* Events */}
             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>

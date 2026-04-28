@@ -1443,6 +1443,20 @@
   series_link: https://kdd.org/
 - name: NeurIPS
   description: Neural Information Processing Systems
+  year: 2026
+  link: https://neurips.cc/Conferences/2026
+  deadline: '2026-05-06'
+  notification_date: '2026-09-24'
+  abstract_deadline: '2026-05-04'
+  date: '2026-12-06'
+  place: Multiple Cities
+  acceptance_rate: null
+  num_submission: null
+  general_chair: null
+  program_chair: null
+  series_link: https://neurips.cc/
+- name: NeurIPS
+  description: Neural Information Processing Systems
   year: 2025
   link: https://neurips.cc/Conferences/2025
   deadline: '2025-05-15'

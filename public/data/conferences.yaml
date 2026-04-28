@@ -7993,6 +7993,21 @@
   num_submission: null
 - name: ICSE
   description: International Conference on Software Engineering
+  year: 2027
+  link: https://conf.researchr.org/track/icse-2027/icse-2027-research-track?
+  deadline: '2026-06-30'
+  abstract_deadline: '2026-06-23'
+  notification_date: '2026-10-20'
+  date: '2027-04-25'
+  place: Dublin, Ireland
+  note: 
+  acceptance_rate: null
+  num_submission: null
+  general_chair: 
+  program_chair: Dongmei Zhang, Andrea Zisman
+  series_link: https://conf.researchr.org/series/icse
+- name: ICSE
+  description: International Conference on Software Engineering
   year: 2026
   link: https://conf.researchr.org/home/icse-2026
   deadline: '2025-03-14'

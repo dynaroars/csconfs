@@ -1,216 +1,324 @@
-import React, { useEffect, useState } from 'react';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import { styled } from '@mui/material/styles';
-import Card from '@mui/material/Card';
-import Link from '@mui/material/Link';
-// import Box from '@mui/material/Box';
+import React, { useEffect, useState } from "react";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
+import { styled } from "@mui/material/styles";
+import Card from "@mui/material/Card";
+import Link from "@mui/material/Link";
+
+import Box from "@mui/material/Box";
+import IconButton from "@mui/material/IconButton";
+import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 
 const StyledLink = styled(Link)({
-  color: 'var(--link-color)',
-  textDecoration: 'none',
-  '&:hover': {
-    textDecoration: 'underline',
-  },
+	color: "var(--link-color)",
+	textDecoration: "none",
+	"&:hover": {
+		textDecoration: "underline",
+	},
 });
 
 const calculateTimeLeft = (deadline) => {
+	// Create a Date object from the provided deadline
+	const deadlineDate = new Date(deadline);
 
-  // Create a Date object from the provided deadline
-  const deadlineDate = new Date(deadline);
+	// Set it to the end of the day (23:59:59)
+	deadlineDate.setHours(23, 59, 59, 999); // End of the specified date
 
-  // Set it to the end of the day (23:59:59)
-  deadlineDate.setHours(23, 59, 59, 999); // End of the specified date 
+	// Convert this time to UTC
+	const utcDeadlineDate = new Date(
+		deadlineDate.getTime() + deadlineDate.getTimezoneOffset() * 60000,
+	);
 
-  // Convert this time to UTC
-  const utcDeadlineDate = new Date(deadlineDate.getTime() + (deadlineDate.getTimezoneOffset() * 60000));
+	// Adjust to the following day at 11:59 PM UTC-0
+	utcDeadlineDate.setUTCDate(utcDeadlineDate.getUTCDate() + 1);
+	utcDeadlineDate.setUTCHours(11, 59, 59, 999); // Set to 11:59 PM UTC-0
 
-  // Adjust to the following day at 11:59 PM UTC-0
-  utcDeadlineDate.setUTCDate(utcDeadlineDate.getUTCDate() + 1);
-  utcDeadlineDate.setUTCHours(11, 59, 59, 999); // Set to 11:59 PM UTC-0
-
-  const now = new Date();
-  const diff = utcDeadlineDate - now;
-  return diff;
-}
+	const now = new Date();
+	const diff = utcDeadlineDate - now;
+	return diff;
+};
 
 const calculateCountdown = (deadline) => {
-  if (!deadline) return '';
+	if (!deadline) return "";
 
-  const diff = calculateTimeLeft(deadline);
-  if (diff <= 0) return 'Submission Passed';
+	const diff = calculateTimeLeft(deadline);
+	if (diff <= 0) return "Submission Passed";
 
-  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-  const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-  const minutes = Math.floor((diff / (1000 * 60)) % 60);
-  const seconds = Math.floor((diff / 1000) % 60);
+	const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+	const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+	const minutes = Math.floor((diff / (1000 * 60)) % 60);
+	const seconds = Math.floor((diff / 1000) % 60);
 
-  if ([days, hours, minutes, seconds].some(isNaN)) return '';
+	if ([days, hours, minutes, seconds].some(isNaN)) return "";
 
-  // return `${days}d, ${hours}h, ${minutes}m, ${seconds}s`;
-  return `${String(days).padStart(2, '0')}d ${String(hours).padStart(2, '0')}h ${String(minutes).padStart(2, '0')}m ${String(seconds).padStart(2, '0')}s`;
+	// return `${days}d, ${hours}h, ${minutes}m, ${seconds}s`;
+	return `${String(days).padStart(2, "0")}d ${String(hours).padStart(2, "0")}h ${String(minutes).padStart(2, "0")}m ${String(seconds).padStart(2, "0")}s`;
 };
 
 // Function to format AoE dates
 const formatDateAoE = (date) => {
-  if (!date) return 'TBD';
+	if (!date) return "TBD";
 
-  // Create a Date object
-  const dateObject = new Date(date);
+	// Create a Date object
+	const dateObject = new Date(date);
 
-  // Increment to the end of the specified day
-  dateObject.setHours(23, 59, 59, 999); // Set it to the end of the AoE day
+	// Increment to the end of the specified day
+	dateObject.setHours(23, 59, 59, 999); // Set it to the end of the AoE day
 
-  dateObject.setUTCDate(dateObject.getUTCDate() + 1); // Set to next day for display purposes
-  return dateObject.toLocaleDateString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit' });
+	dateObject.setUTCDate(dateObject.getUTCDate() + 1); // Set to next day for display purposes
+	return dateObject.toLocaleDateString("en-US", {
+		year: "numeric",
+		month: "2-digit",
+		day: "2-digit",
+	});
 };
 
-
 const ConferenceCard = ({ conference }) => {
-  const [countdown, setCountdown] = useState(calculateCountdown(conference.deadline));
+	const [countdown, setCountdown] = useState(
+		calculateCountdown(conference.deadline),
+	);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCountdown(calculateCountdown(conference.deadline));
-    }, 1000);
-    return () => clearInterval(interval);
-  });
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setCountdown(calculateCountdown(conference.deadline));
+		}, 1000);
+		return () => clearInterval(interval);
+	});
 
-  // Format date range or fallback
-  const dateRangeDisplay = conference.date
-    ? formatDateAoE(conference.date)
-    : 'TBD';
+	// Format date range or fallback
+	const dateRangeDisplay = conference.date
+		? formatDateAoE(conference.date)
+		: "TBD";
 
-  const deadlineDisplay = conference.deadline
-    ? formatDateAoE(conference.deadline)
-    : 'TBD';
+	const deadlineDisplay = conference.deadline
+		? formatDateAoE(conference.deadline)
+		: "TBD";
 
-  const abstractDeadlineDisplay = conference.abstract_deadline
-    ? formatDateAoE(conference.abstract_deadline)
-    : '';
+	const abstractDeadlineDisplay = conference.abstract_deadline
+		? formatDateAoE(conference.abstract_deadline)
+		: "";
 
-  const notificationDateDisplay = conference.notification_date
-    ? formatDateAoE(conference.notification_date)
-    : 'TBD';
+	const notificationDateDisplay = conference.notification_date
+		? formatDateAoE(conference.notification_date)
+		: "TBD";
 
-  const rebuttalDateDisplay = conference.rebuttal_date
-    ? formatDateAoE(conference.rebuttal_date)
-    : ''
+	const rebuttalDateDisplay = conference.rebuttal_date
+		? formatDateAoE(conference.rebuttal_date)
+		: "";
 
-  const acceptance_rate = conference.acceptance_rate
-    ? (Math.round(conference.acceptance_rate * 100) / 100).toFixed(2) + '%'
-    : 'N/A';
+	const acceptance_rate = conference.acceptance_rate
+		? (Math.round(conference.acceptance_rate * 100) / 100).toFixed(2) + "%"
+		: "N/A";
 
-  //Calculate days remaining until conference
-  const diffInMS = calculateTimeLeft(conference.deadline);
-  const daysRemaining = diffInMS / (1000 * 60 * 60 * 24)
+	//Calculate days remaining until conference
+	const diffInMS = calculateTimeLeft(conference.deadline);
+	const daysRemaining = diffInMS / (1000 * 60 * 60 * 24);
 
-  let countdownColor;
-  //Color based on urgency
-  if (daysRemaining < 0) {
-    countdownColor = "text.disabled" //Date has passed
-  } else if (daysRemaining <= 7) {
-    countdownColor = "error.main" // Urgent
-  } else if (daysRemaining <= 30) {
-    countdownColor = "info.main" // Soon
-  } else {
-    countdownColor = "success.main" //Way in future
-  }
+	let countdownColor;
+	//Color based on urgency
+	if (daysRemaining < 0) {
+		countdownColor = "text.disabled"; //Date has passed
+	} else if (daysRemaining <= 7) {
+		countdownColor = "error.main"; // Urgent
+	} else if (daysRemaining <= 30) {
+		countdownColor = "info.main"; // Soon
+	} else {
+		countdownColor = "success.main"; //Way in future
+	}
 
-  return (
-    <Card
-      variant="outlined"
-      sx={{
-        borderRadius: '5px',
-        padding: 1,
-        marginBottom: 2,
-        boxShadow: '0 2px 12px rgba(0,0,0,0.05)',
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        minHeight: 100,
-      }}
-    >
-      {/* Left column: name, description, area */}
-      <CardContent sx={{ flexBasis: '50%', padding: 0, }}>
-        <Typography variant="h5" fontWeight="bold" gutterBottom>
-          <StyledLink href={conference.link} target="_blank" rel="noopener noreferrer">
-            {conference.name} {conference.year}
-          </StyledLink>
-        </Typography>
-        <Typography variant="body2" sx={{ marginBottom: 0., color: 'text.secondary', fontSize: 'var(--font-size-body)' }}>
-          {conference.description}
-        </Typography>
+	const createGoogleCalendarLink = (conference) => {
+		// Fallback to current page if conference has no deadline
+		if (!conference.date) return "#";
+		const baseUrl =
+			"https://calendar.google.com/calendar/render?action=TEMPLATE";
+		const conName = encodeURIComponent(
+			`${conference.name} ${conference.year}`,
+		);
+		const conDescription = encodeURIComponent(
+			`${conference.description}\n\nWebsite:\n${conference.link}`,
+		);
+		const conPlace = encodeURIComponent(conference.place || "TBD");
 
-        <Typography variant="subtitle2" sx={{ fontWeight: 'bold', fontStyle: 'italic', color: 'text.secondary', fontSize: 'var(--font-size-body)' }}>
-          {conference.note}
-        </Typography>
+		const displayDate = formatDateAoE(conference.date);
+		if (displayDate === "TBD") return "#";
 
-        {/* {conference.general_chair && <Typography variant="body2" sx={{ fontWeight: 'normal', marginBottom: 0, color: 'text.secondary', fontSize: 'var(--font-size-body)', }}> */}
-        {/*   General Chair:{' '} {conference.general_chair} */}
-        {/* </Typography>} */}
+		const [month, day, year] = displayDate.split("/");
 
-        {conference.program_chair && <Typography variant="body2" sx={{ fontWeight: 'normal', marginBottom: 0, color: 'text.secondary', fontSize: 'var(--font-size-body)', }}>
-          Program Chair:{' '} {conference.program_chair}
-        </Typography>}
+		// Rearrange for Google's Start Date (YYYYMMDD)
+		const startDateStr = `${year}${month}${day}`;
 
+		const nextDayObj = new Date(year, parseInt(month) - 1, parseInt(day));
+		nextDayObj.setDate(nextDayObj.getDate() + 1);
 
+		// Extract the new year, month, and day, padding them with zeroes if necessary
+		const endYear = nextDayObj.getFullYear();
+		const endMonth = String(nextDayObj.getMonth() + 1).padStart(2, "0");
+		const endDay = String(nextDayObj.getDate()).padStart(2, "0");
 
-        {acceptance_rate !== 'N/A' && (
-          <Typography variant="subtitle2" sx={{ fontStyle: 'italic', fontSize: 'var(--font-size-body)' }}>
-            Acceptance rate: {acceptance_rate}
-          </Typography>
-        )}
+		const endDateStr = `${endYear}${endMonth}${endDay}`;
 
-      </CardContent>
+		const conDates = `${startDateStr}/${endDateStr}`;
 
-      {/* Center column: date range and location */}
-      <CardContent
-        sx={{
-          flexBasis: '25%',
-          textAlign: 'right',
-          color: 'text.black',
-          fontWeight: 'medium',
-          fontSize: 'var(--font-size-body)',
-          padding: 0,
-        }}
-      >
-        <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
-          {dateRangeDisplay}
-        </Typography>
-        {conference.place}
-      </CardContent>
+		return `${baseUrl}&text=${conName}&details=${conDescription}&location=${conPlace}&dates=${conDates}`;
+	};
 
-      {/* Right column: countdown and deadline */}
-      <CardContent
-        sx={{
-          flexBasis: '35%',
-          textAlign: 'right',
-          paddingRight: 0,
-        }}
-      >
-        <Typography variant="h5" fontWeight="bold" sx={{ color: countdownColor, fontSize: 'var(--font-size-title)' }}>
-          {countdown || 'TBD'}
-        </Typography>
-        {abstractDeadlineDisplay && (
-          <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
-            Abstract: {abstractDeadlineDisplay}
-          </Typography>
-        )}
-        <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
-          Submission: {deadlineDisplay}
-        </Typography>
-        {rebuttalDateDisplay && (
-          <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
-            Rebuttal: {rebuttalDateDisplay}
-          </Typography>
-        )}
-        <Typography sx={{ fontSize: 'var(--font-size-body)' }}>
-          Notification: {notificationDateDisplay}
-        </Typography>
-      </CardContent>
-    </Card>
-  );
+	return (
+		<Card
+			variant="outlined"
+			sx={{
+				borderRadius: "5px",
+				padding: 1,
+				marginBottom: 2,
+				boxShadow: "0 2px 12px rgba(0,0,0,0.05)",
+				display: "flex",
+				justifyContent: "space-between",
+				alignItems: "center",
+				minHeight: 100,
+			}}
+		>
+			{/* Left column: name, description, area */}
+			<CardContent sx={{ flexBasis: "50%", padding: 0 }}>
+				<Typography variant="h5" fontWeight="bold" gutterBottom>
+					<StyledLink
+						href={conference.link}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						{conference.name} {conference.year}
+					</StyledLink>
+				</Typography>
+				<Typography
+					variant="body2"
+					sx={{
+						marginBottom: 0,
+						color: "text.secondary",
+						fontSize: "var(--font-size-body)",
+					}}
+				>
+					{conference.description}
+				</Typography>
+
+				<Typography
+					variant="subtitle2"
+					sx={{
+						fontWeight: "bold",
+						fontStyle: "italic",
+						color: "text.secondary",
+						fontSize: "var(--font-size-body)",
+					}}
+				>
+					{conference.note}
+				</Typography>
+
+				{/* {conference.general_chair && <Typography variant="body2" sx={{ fontWeight: 'normal', marginBottom: 0, color: 'text.secondary', fontSize: 'var(--font-size-body)', }}> */}
+				{/*   General Chair:{' '} {conference.general_chair} */}
+				{/* </Typography>} */}
+
+				{conference.program_chair && (
+					<Typography
+						variant="body2"
+						sx={{
+							fontWeight: "normal",
+							marginBottom: 0,
+							color: "text.secondary",
+							fontSize: "var(--font-size-body)",
+						}}
+					>
+						Program Chair: {conference.program_chair}
+					</Typography>
+				)}
+
+				{acceptance_rate !== "N/A" && (
+					<Typography
+						variant="subtitle2"
+						sx={{
+							fontStyle: "italic",
+							fontSize: "var(--font-size-body)",
+						}}
+					>
+						Acceptance rate: {acceptance_rate}
+					</Typography>
+				)}
+			</CardContent>
+
+			{/* Center column: date range and location */}
+			<CardContent
+				sx={{
+					flexBasis: "25%",
+					textAlign: "right",
+					color: "text.black",
+					fontWeight: "medium",
+					fontSize: "var(--font-size-body)",
+					padding: 0,
+					position:
+						"relative" /* I'm making the CardContent position to be based on coordinates to the parent Card */,
+				}}
+			>
+				<Box
+					sx={{
+						position: "absolute",
+						top: -32,
+						right: -8,
+					}}
+				>
+					<IconButton
+						size="small"
+						component="a"
+						href={createGoogleCalendarLink(conference)}
+						target="_blank"
+						rel="noopener noreferrer"
+						title="Add to Google Calendar"
+					>
+						<CalendarMonthIcon
+							fontSize="small"
+							sx={{ color: "text.secondary" }}
+						/>
+					</IconButton>
+				</Box>
+				{/* <Typography> Add event to Google Calendar</Typography> */}
+				<Typography sx={{ fontSize: "var(--font-size-body)" }}>
+					{dateRangeDisplay}
+				</Typography>
+				{conference.place}
+			</CardContent>
+
+			{/* Right column: countdown and deadline */}
+			<CardContent
+				sx={{
+					flexBasis: "35%",
+					textAlign: "right",
+					paddingRight: 0,
+				}}
+			>
+				<Typography
+					variant="h5"
+					fontWeight="bold"
+					sx={{
+						color: countdownColor,
+						fontSize: "var(--font-size-title)",
+					}}
+				>
+					{countdown || "TBD"}
+				</Typography>
+				{abstractDeadlineDisplay && (
+					<Typography sx={{ fontSize: "var(--font-size-body)" }}>
+						Abstract: {abstractDeadlineDisplay}
+					</Typography>
+				)}
+				<Typography sx={{ fontSize: "var(--font-size-body)" }}>
+					Submission: {deadlineDisplay}
+				</Typography>
+				{rebuttalDateDisplay && (
+					<Typography sx={{ fontSize: "var(--font-size-body)" }}>
+						Rebuttal: {rebuttalDateDisplay}
+					</Typography>
+				)}
+				<Typography sx={{ fontSize: "var(--font-size-body)" }}>
+					Notification: {notificationDateDisplay}
+				</Typography>
+			</CardContent>
+		</Card>
+	);
 };
 
 export default ConferenceCard;

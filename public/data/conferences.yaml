@@ -1,3 +1,172 @@
+- abstract_deadline: '2026-07-21'
+  acceptance_rate: null
+  date: February 16-23, 2027
+  deadline: '2026-07-28'
+  description: AAAI Conference on Artificial Intelligence
+  general_chair: null
+  link: https://aaai.org/conference/aaai/aaai-27/
+  name: AAAI
+  notification_date: '2026-11-30'
+  num_submission: null
+  place: Montréal, Canada
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: 22 to 26 March 2027
+  deadline: null
+  description: Network and Distributed System Security Symposium
+  general_chair: null
+  link: https://www.ndss-symposium.org/ndss2027/
+  name: NDSS
+  notification_date: null
+  num_submission: null
+  place: Seoul, Republic of Korea
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: null
+  deadline: null
+  description: ACM SIGPLAN Conference on Programming Language Design and Implementation
+  general_chair: null
+  link: https://pldi27.sigplan.org/
+  name: PLDI
+  notification_date: null
+  num_submission: null
+  place: null
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: August 17 - 21, 2026
+  deadline: null
+  description: ACM Special Interest Group on Data Communication Conference
+  general_chair: null
+  link: https://conferences.sigcomm.org/sigcomm/2026/
+  name: SIGCOMM
+  notification_date: null
+  num_submission: null
+  place: Denver, Colorado, USA
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: null
+  deadline: null
+  description: ACM Symposium on Operating Systems Principles
+  general_chair: null
+  link: https://sigops.org/s/conferences/sosp/2027/
+  name: SOSP
+  notification_date: null
+  num_submission: null
+  place: null
+  program_chair: null
+  year: 2027
+- abstract_deadline: '2026-03-31'
+  acceptance_rate: null
+  date: October 31 – November 4, 2026
+  deadline: '2026-04-07'
+  description: IEEE/ACM International Symposium on Microarchitecture
+  general_chair: null
+  link: https://microarch.org/micro59/
+  name: MICRO
+  notification_date: '2026-07-07'
+  num_submission: null
+  place: Athens, Greece
+  program_chair: null
+  year: 2026
+- abstract_deadline: Fri 26 Jun 2026
+  acceptance_rate: null
+  date: Sun 25 April - Sat 1 May 2027
+  deadline: null
+  description: International Conference on Software Engineering
+  general_chair: null
+  link: https://conf.researchr.org/home/icse-2027
+  name: ICSE
+  notification_date: null
+  num_submission: null
+  place: Dublin, Ireland
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: Mon 12 - Fri 16 July 2027
+  deadline: '2026-12-18'
+  description: Foundations of Software Engineering
+  general_chair: null
+  link: https://conf.researchr.org/home/fse-2027
+  name: FSE
+  notification_date: '2027-03-05'
+  num_submission: null
+  place: Shenzhen, China
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: April 19—23, 2027
+  deadline: null
+  description: European Conference on Computer Systems
+  general_chair: null
+  link: https://2027.eurosys.org/
+  name: EuroSys
+  notification_date: null
+  num_submission: null
+  place: Rabat, Morocco
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: October 24 –29, 2026
+  deadline: '2026-05-25'
+  description: Empirical Methods in Natural Language Processing
+  general_chair: null
+  link: https://2026.emnlp.org/
+  name: EMNLP
+  notification_date: '2026-08-20'
+  num_submission: null
+  place: Budapest, Hungary
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: 10–14 May, 2027
+  deadline: '2026-09-10'
+  description: ACM Conference on Human Factors in Computing Systems
+  general_chair: Amy Ogan, Anind Dey
+  link: https://chi2027.acm.org/
+  name: CHI
+  notification_date: '2026-12-17'
+  num_submission: null
+  place: Pittsburgh, USA
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: November 15-19, 2026
+  deadline: null
+  description: ACM Conference on Computer and Communications Security
+  general_chair: null
+  link: https://www.sigsac.org/ccs/CCS2026/
+  name: CCS
+  notification_date: null
+  num_submission: null
+  place: The Hague, The Netherlands
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: April 11-15, 2027
+  deadline: null
+  description: Architectural Support for Programming Languages and Operating Systems
+  general_chair: null
+  link: https://www.asplos-conference.org/asplos2027/
+  name: ASPLOS
+  notification_date: null
+  num_submission: null
+  place: Crete, Greece
+  program_chair: null
+  year: 2027
 - abstract_deadline: null
   acceptance_rate: null
   date: null

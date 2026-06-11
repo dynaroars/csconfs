@@ -159,8 +159,17 @@ def load_conferences():
         return yaml.safe_load(f)
 
 def get_headers():
-    ua = UserAgent()
-    return {'User-Agent': ua.random}
+    fallback_uas = [
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+    ]
+    try:
+        ua = UserAgent()
+        return {'User-Agent': ua.random}
+    except Exception:
+        import random
+        return {'User-Agent': random.choice(fallback_uas)}
 
 def fetch_html(url):
     try:
@@ -280,7 +289,7 @@ def call_llm(prompt, max_retries=3):
     return None
 
 def extract_data_with_llm(html_content, conference_name, year):
-    print(f"  Asking Gemini to extract data for {conference_name} {year}...")
+    print(f"  Asking {LLM_PROVIDER.capitalize()} to extract data for {conference_name} {year}...")
     
     # Reduce HTML size by keeping only body and stripping scripts/styles
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -332,6 +341,8 @@ def main():
                         help='Comma-separated list of conference names to process (e.g., AAAI,IJCAI,PLDI). Default: all.')
     parser.add_argument('--dry-run', action='store_true',
                         help='Only check which URLs exist, skip LLM extraction.')
+    parser.add_argument('--auto-merge', action='store_true',
+                        help='Directly merge suggestions into public/data/conferences.yaml')
     args = parser.parse_args()
 
     target_confs = None
@@ -453,7 +464,21 @@ def main():
         print(f"✅ Found {len(suggestions)} suggestion(s). Saving to {OUTPUT_FILE}...")
         with open(OUTPUT_FILE, 'w') as f:
             yaml.dump(suggestions, f, default_flow_style=False, allow_unicode=True)
-        print(f"\nReview {OUTPUT_FILE} and manually add approved entries to {DATA_FILE}")
+            
+        if args.auto_merge:
+            print(f"Merging suggestions directly into {DATA_FILE}...")
+            try:
+                with open(DATA_FILE, 'r') as f:
+                    current_confs = yaml.safe_load(f) or []
+                # Prepend suggestions to the existing database list
+                new_confs = suggestions + current_confs
+                with open(DATA_FILE, 'w') as f:
+                    yaml.dump(new_confs, f, default_flow_style=False, allow_unicode=True)
+                print(f"Successfully merged new conferences into {DATA_FILE}.")
+            except Exception as e:
+                print(f"❌ Failed to merge suggestions: {e}")
+        else:
+            print(f"\nReview {OUTPUT_FILE} and manually add approved entries to {DATA_FILE}")
     else:
         print("No new updates found.")
 

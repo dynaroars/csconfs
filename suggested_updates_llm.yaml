@@ -1,79 +1,104 @@
 - abstract_deadline: null
   acceptance_rate: null
-  date: null
-  deadline: null
-  description: Neural Information Processing Systems
+  date: July 19-23
+  deadline: '2027-01-20'
+  description: International Conference on Computer Aided Verification
   general_chair: null
-  link: https://blog.neurips.cc/2026/01/07/neurips-2026-call-for-organizer-nominations/
-  name: NeurIPS
+  link: https://conferences.i-cav.org/2027/
+  name: CAV
+  notification_date: '2027-04-23'
+  num_submission: null
+  place: Amsterdam, The Netherlands
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: October 2027
+  deadline: null
+  description: ACM Conference on Computer and Communications Security
+  general_chair: null
+  link: https://www.sigsac.org/ccs/CCS2027/
+  name: CCS
   notification_date: null
   num_submission: null
-  place: Sydney, Australia
+  place: Atlanta, USA
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: July 26-29, 2026
+  deadline: null
+  description: Design Automation Conference
+  general_chair: null
+  link: https://www.dac.com/
+  name: DAC
+  notification_date: null
+  num_submission: null
+  place: Long Beach, CA
   program_chair: null
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
   date: null
   deadline: null
-  description: International ACM SIGIR Conference on Research and Development in Information
-    Retrieval
+  description: International Conference on Software Engineering
   general_chair: null
-  link: https://sigir.org/announcing-acm-sigir-futures/
-  name: SIGIR
+  link: https://conf.researchr.org/home/icse-2028
+  name: ICSE
   notification_date: null
   num_submission: null
   place: null
   program_chair: null
-  year: 2026
+  year: 2028
 - abstract_deadline: null
   acceptance_rate: null
-  date: null
+  date: May 18-20, 2026
   deadline: null
-  description: International Symposium on Computer Architecture
-  general_chair: null
-  link: https://www.isca.org/news-detail/1545/ ESSD_2026_Step_Pedal_Move!
-  name: ISCA
+  description: IEEE Symposium on Security and Privacy
+  general_chair: Alina Oprea
+  link: https://sp2026.ieee-security.org/
+  name: IEEE S&P
   notification_date: null
   num_submission: null
-  place: null
-  program_chair: null
+  place: San Francisco, CA
+  program_chair: Cristina Nita-Rotaru, Nicolas Papernot
   year: 2026
-- abstract_deadline: null
+- abstract_deadline: '2025-01-16'
   acceptance_rate: null
-  date: October 26-30, 2025
-  deadline: null
-  description: IEEE/ACM International Conference on Computer-Aided Design
+  date: 23–26 June 2025
+  deadline: '2025-01-23'
+  description: ACM/IEEE Symposium on Logic in Computer Science
   general_chair: null
-  link: https://2025.iccad.com/
-  name: ICCAD
+  link: https://lics.siglog.org/lics25/
+  name: LICS
   notification_date: null
   num_submission: null
-  place: Munich, Germany
-  program_chair: null
+  place: Singapore
+  program_chair: Lars Birkedal, Barbara König
   year: 2025
 - abstract_deadline: null
   acceptance_rate: null
   date: null
   deadline: null
-  description: USENIX Conference on File and Storage Technologies
+  description: ACM Symposium on Operating Systems Principles
   general_chair: null
-  link: https://fast.org/fast-legal-update-member-bulletin-january-2026/
-  name: FAST
+  link: https://sigops.org/s/conferences/sosp/2028/
+  name: SOSP
+  notification_date: null
+  num_submission: null
+  place: null
+  program_chair: null
+  year: 2028
+- abstract_deadline: null
+  acceptance_rate: null
+  date: null
+  deadline: null
+  description: IEEE Conference on Virtual Reality and 3D User Interfaces
+  general_chair: null
+  link: https://www.vr.org/articles/omega-pilot-evolution-vr-wipeout-racer-2026
+  name: VR
   notification_date: null
   num_submission: null
   place: null
   program_chair: null
   year: 2026
-- abstract_deadline: null
-  acceptance_rate: null
-  date: January 10-16, 2027
-  deadline: '2026-07-09'
-  description: Principles of Programming Languages
-  general_chair: null
-  link: https://popl27.sigplan.org/
-  name: POPL
-  notification_date: null
-  num_submission: null
-  place: Mexico City, Mexico
-  program_chair: null
-  year: 2027

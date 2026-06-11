@@ -1,0 +1,65 @@
+- abstract_deadline: null
+  acceptance_rate: null
+  date: July 19-23
+  deadline: '2027-01-20'
+  description: International Conference on Computer Aided Verification
+  general_chair: null
+  link: https://conferences.i-cav.org/2027/
+  name: CAV
+  notification_date: '2027-04-23'
+  num_submission: null
+  place: Amsterdam, The Netherlands
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: October 2027
+  deadline: null
+  description: ACM Conference on Computer and Communications Security
+  general_chair: null
+  link: https://www.sigsac.org/ccs/CCS2027/
+  name: CCS
+  notification_date: null
+  num_submission: null
+  place: Atlanta, USA
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: July 26-29, 2026
+  deadline: null
+  description: Design Automation Conference
+  general_chair: null
+  link: https://dac.com/2026
+  name: DAC
+  notification_date: null
+  num_submission: null
+  place: Long Beach, CA
+  program_chair: null
+  year: 2026
+- abstract_deadline: null
+  acceptance_rate: null
+  date: May 18-20, 2026
+  deadline: null
+  description: IEEE Symposium on Security and Privacy
+  general_chair: Alina Oprea
+  link: https://sp2026.ieee-security.org/
+  name: IEEE S&P
+  notification_date: null
+  num_submission: null
+  place: San Francisco, CA
+  program_chair: Cristina Nita-Rotaru, Nicolas Papernot
+  year: 2026
+- abstract_deadline: '2025-01-16'
+  acceptance_rate: null
+  date: 23–26 June 2025
+  deadline: '2025-01-23'
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  general_chair: null
+  link: https://lics.siglog.org/lics25/
+  name: LICS
+  notification_date: null
+  num_submission: null
+  place: Singapore
+  program_chair: Lars Birkedal, Barbara König
+  year: 2025

@@ -12124,7 +12124,7 @@
   num_submission: null
   general_chair: Anatole Lécuyer, Ferran Argelaguet, Anne-Hélène Olivier
   program_chair: Daisuke Iwai, Tabitha Peck, Voicu Popescu, Luciana Nedel
-  series_link: https://www.vr.org/
+  series_link: https://ieeevr.org/
 - name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2024
@@ -12138,7 +12138,7 @@
   num_submission: null
   general_chair: Carolina Cruz-Neira, Greg Welch, Xubo Yang
   program_chair: Yuta Itoh, Tabitha Peck, Voicu Popescu, Stefanie Zollmann
-  series_link: https://www.vr.org/
+  series_link: https://ieeevr.org/
 - name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2023
@@ -12152,7 +12152,7 @@
   num_submission: null
   general_chair: Xubo Yang, Kun Zhou, Stephan Lukosch, Tobias Langlot
   program_chair: Bobby Bodenheimer, Voicu Popescu, John Quarles, Lili Wang
-  series_link: https://www.vr.org/
+  series_link: https://ieeevr.org/
 - name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2022
@@ -12166,7 +12166,7 @@
   num_submission: null
   general_chair: Stephan Lukosch, Tobias Langlotz, Joaquim Jorge
   program_chair: null
-  series_link: https://www.vr.org/
+  series_link: https://ieeevr.org/
 - name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2021
@@ -12180,7 +12180,7 @@
   num_submission: null
   general_chair: Joaquim Jorge, Kyle Johnsen, J. Edward Swan II, Pedro Campos
   program_chair: null
-  series_link: https://www.vr.org/
+  series_link: https://ieeevr.org/
 - name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2020
@@ -12195,7 +12195,7 @@
   general_chair: Kyle Johnsen, Blair MacIntyre, J. Edward Swan II, Kiyoshi Kiyokawa
   program_chair: Maud Marchal, Joe Gabbard, Joaquim Jorge, Torsten Kuhlen, Anthony
     Steed
-  series_link: https://www.vr.org/
+  series_link: https://ieeevr.org/
 - name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2019
@@ -12209,7 +12209,7 @@
   num_submission: null
   general_chair: Kiyoshi Kiyokawa, Hideyuki Ando, Betty Mohler
   program_chair: Bruce Thomas, Greg Welch, Torsten Kuhlen, Kyle Johnsen
-  series_link: https://www.vr.org/
+  series_link: https://ieeevr.org/
 - name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2018
@@ -12223,7 +12223,7 @@
   num_submission: null
   general_chair: Betty Mohler, Torsten W. Kuhlen, Matthias Bues, Evan Suma Rosenberg
   program_chair: Kiyoshi Kiyokawa, Frank Steinicke, Bruce Thomas, Greg Welch
-  series_link: https://www.vr.org/
+  series_link: https://ieeevr.org/
 - name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2017
@@ -12237,7 +12237,7 @@
   num_submission: null
   general_chair: Evan Suma Rosenberg, David Krum, Zachary Wartell
   program_chair: Betty Mohler, Sabarish Babu, Frank Steinicke, Victoria Interrante
-  series_link: https://www.vr.org/
+  series_link: https://ieeevr.org/
 - name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2016
@@ -12251,7 +12251,7 @@
   num_submission: null
   general_chair: Sabarish V. Babu, Sabine Coquillart, Larry F. Hodges, Zach Wartell
   program_chair: Tobias Höllerer, Vicki Interrante, Anatole Lécuyer, Evan Suma
-  series_link: https://www.vr.org/
+  series_link: https://ieeevr.org/
 - name: VR
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   year: 2015
@@ -12266,4 +12266,4 @@
   general_chair: Sabine Coquillart, Bernd Fröhlich, Daniel Keefe,  Susumu Tachi
   program_chair: Tobias Höllerer, Victoria Interrante, Anatole Lécuyer, J. Edward
     Swan II
-  series_link: https://www.vr.org/
+  series_link: https://ieeevr.org/

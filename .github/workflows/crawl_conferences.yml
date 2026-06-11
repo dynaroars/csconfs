@@ -37,7 +37,7 @@ jobs:
       - name: Generate PR Description Markdown
         run: |
           if [ -f suggested_updates_llm.yaml ]; then
-            python scripts/notify_updates.py --write-pr-body pr_body.md
+            python scripts/notify_updates.py --write-pr-body ${{ runner.temp }}/pr_body.md
           else
             echo "No suggested updates file found."
           fi
@@ -51,7 +51,7 @@ jobs:
           author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           branch: automated-conference-updates
           title: "[CONFERENCE CRAWLER] Automated conference updates"
-          body-path: pr_body.md
+          body-path: ${{ runner.temp }}/pr_body.md
           labels: |
             conference-update
             automated-pr

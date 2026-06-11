@@ -69,6 +69,7 @@ URL_PATTERNS = {
     'CVPR':  ['https://cvpr.thecvf.com/Conferences/{yyyy}'],
     'ECCV':  ['https://eccv.ecva.net/Conferences/{yyyy}'],
     'ICCV':  ['https://iccv.thecvf.com/Conferences/{yyyy}'],
+    'VR':    ['https://ieeevr.org/{yyyy}/'],
 
     # --- PL / SE (sigplan/researchr) ---
     'PLDI':  ['https://pldi{yy}.sigplan.org/'],
@@ -135,6 +136,33 @@ def format_pattern(pattern, year):
         result = result.replace('{ed}', str(edition))
     return result
 
+def validate_url(url, target_year):
+    """Verify the URL resolves correctly, is not an auth/error page, and does not redirect to a different year."""
+    BAD_URL_KEYWORDS = ['accessdenied', 'access-denied', 'login', 'signin', 'forbidden', 'unauthorized', 'error']
+    try:
+        response = requests.get(url, headers=get_headers(), timeout=12, allow_redirects=True)
+        if response.status_code != 200 or len(response.text) <= 500:
+            print(f"  → Validation failed: HTTP {response.status_code} (length: {len(response.text)}b)")
+            return None
+            
+        final_url = response.url.lower()
+        # Check for block/auth pages
+        if any(keyword in final_url for keyword in BAD_URL_KEYWORDS):
+            print(f"  → Validation failed: Redirected to block/auth page: {response.url}")
+            return None
+            
+        # Check for redirection to different years
+        if response.history:
+            years_in_final = re.findall(r'\d{4}', response.url)
+            if years_in_final and str(target_year) not in years_in_final:
+                print(f"  → Validation failed: Redirected to a different year: {response.url}")
+                return None
+                
+        return response.url
+    except Exception as e:
+        print(f"  → Validation failed: {type(e).__name__}")
+        return None
+
 def try_pattern_urls(name, target_year):
     """Try all pattern-based URLs for a conference. Returns first working URL or None."""
     if name not in URL_PATTERNS:
@@ -142,16 +170,11 @@ def try_pattern_urls(name, target_year):
     
     for pattern in URL_PATTERNS[name]:
         url = format_pattern(pattern, target_year)
-        try:
-            print(f"  Trying pattern: {url}")
-            response = requests.get(url, headers=get_headers(), timeout=12, allow_redirects=True)
-            if response.status_code == 200 and len(response.text) > 500:
-                return url
-            else:
-                print(f"  → {response.status_code}" + (f" (too small: {len(response.text)}b)" if response.status_code == 200 else ""))
-        except Exception as e:
-            print(f"  → Failed: {type(e).__name__}")
-    
+        print(f"  Trying pattern: {url}")
+        valid_url = validate_url(url, target_year)
+        if valid_url:
+            return valid_url
+            
     return None
 
 def load_conferences():
@@ -406,9 +429,12 @@ def main():
         
         if not next_url and series_link:
             print(f"  Trying series link: {series_link}")
-            next_url = find_next_year_link(series_link, year)
-            if next_url:
-                print(f"  ✅ Found via series link: {next_url}")
+            possible_url = find_next_year_link(series_link, year)
+            if possible_url:
+                print(f"  Validating series link: {possible_url}")
+                next_url = validate_url(possible_url, next_year)
+                if next_url:
+                    print(f"  ✅ Found via series link: {next_url}")
 
         if not next_url:
             print(f"  ❌ No URL found for {name} {next_year}")
@@ -438,6 +464,11 @@ def main():
             data = extract_data_with_llm(html, name, next_year)
             if data:
                 print(f"  📋 Extracted: {json.dumps(data, indent=2)}")
+                
+                # Verify that we extracted at least some meaningful conference info (date/deadline)
+                if not data.get('date') and not data.get('deadline') and not data.get('abstract_deadline'):
+                    print(f"  ⚠️ Skipping {name} {next_year} - extracted data is completely empty (likely a login or draft/shell page).")
+                    continue
                 
                 description = conf.get('description', '')
                 suggestion = {

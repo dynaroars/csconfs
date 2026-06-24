@@ -120,7 +120,6 @@ const sortFunctions = {
 function ConferenceDisplay({ filteredConferences }) {
     const [viewMode, setViewMode] = useState('list');
     const [sortMode, setSortMode] = useState('submission_deadline');
-    const [yearFilter, setYearFilter] = useState('None');
     const [sortFunction, setSortFunction] = useState(
         () => sortFunctions.submission_deadline
     );
@@ -133,46 +132,6 @@ function ConferenceDisplay({ filteredConferences }) {
         setSortMode(e.target.value);
         setSortFunction(() => sortFunctions[e.target.value]);
     };
-
-    const handleYearChange = (e) => {
-        setYearFilter(e.target.value);
-    };
-
-    // Filter conferences by year
-    const filterConferencesByYear = (conferences) => {
-        if (yearFilter === 'None') return conferences;
-        
-        const selectedYear = parseInt(yearFilter);
-        
-        return conferences.filter(conf => {
-            // Check if any of the three dates fall within the selected year
-            return conf.year === selectedYear;
-        });
-    };
-
-    // Generate year options dynamically from data
-    const getYearOptions = () => {
-        const years = filteredConferences
-            .map(conf => conf.year)
-            .filter(year => year && !isNaN(year))
-            .map(year => parseInt(year));
-        
-        if (years.length === 0) return ['None'];
-        
-        const minYear = Math.min(...years);
-        const maxYear = Math.max(...years);
-        
-        const yearOptions = ['None'];
-        for (let year = maxYear; year >= minYear; year--) {
-            yearOptions.push(year.toString());
-        }
-        return yearOptions;
-    };
-    
-    const yearOptions = getYearOptions();
-
-    // Apply year filter before sorting
-    const yearFilteredConferences = filterConferencesByYear(filteredConferences);
 
     return (
         <div style={{ width: '100%' }}>
@@ -215,43 +174,25 @@ function ConferenceDisplay({ filteredConferences }) {
                 </FormControl>
             )}
 
-            {/* Year filter dropdown - shown in list view */}
-            <FormControl
-                sx={{ marginLeft: 2, minWidth: 120, marginBottom: 2 }}
-                size="small"
-            >
-                <InputLabel id="year-select-label">Year</InputLabel>
-                <Select
-                    labelId="year-select-label"
-                    id="year-select"
-                    value={yearFilter}
-                    label="Year"
-                    onChange={handleYearChange}
-                >
-                    {yearOptions.map(year => (
-                        <MenuItem key={year} value={year}>{year}</MenuItem>
-                    ))}
-                </Select>
-            </FormControl>
 
-            
+
 
             {/* Conditionally render content */}
             {viewMode === 'calendar' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Calendar conferences={yearFilteredConferences} />
+                    <Calendar conferences={filteredConferences} />
                 </div>
             )}
 
             {viewMode === 'graph' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Graph conferences={yearFilteredConferences} />
+                    <Graph conferences={filteredConferences} />
                 </div>
             )}
 
             {viewMode === 'list' && (
                 <div className="conference-card" style={{ width: '100%' }}>
-                    {sortFunction(yearFilteredConferences).map((conf) => (
+                    {sortFunction(filteredConferences).map((conf) => (
                         <ConferenceCard
                             key={`${conf.name}-${conf.year}-${conf.note}`}
                             conference={conf}
@@ -262,7 +203,7 @@ function ConferenceDisplay({ filteredConferences }) {
 
             {viewMode === 'stat' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Stat conferences={yearFilteredConferences} />
+                    <Stat conferences={filteredConferences} />
                 </div>
             )}
         </div>

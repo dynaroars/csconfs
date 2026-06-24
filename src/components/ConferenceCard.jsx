@@ -58,6 +58,11 @@ const formatDateAoE = (date) => {
   // Create a Date object
   const dateObject = new Date(date);
 
+  // If the date is not valid, return the original string
+  if (isNaN(dateObject.getTime())) {
+    return date;
+  }
+
   // Increment to the end of the specified day
   dateObject.setHours(23, 59, 59, 999); // Set it to the end of the AoE day
 

@@ -1,5 +1,6 @@
 import yaml from 'js-yaml';
 import Papa from 'papaparse';
+import { parseConferenceDate } from '../utils/dateParser';
 
 /**
  * Formats a Date object as YYYY-MM-DD string in local time.
@@ -166,6 +167,9 @@ export async function fetchFullData() {
           conf.num_submission = conferenceStat[conferenceName].submission;
         }
       }
+      
+      // Attach the mathematically parsed date object for downstream sorting/filtering
+      conf.parsed_date = parseConferenceDate(conf.date, conf.year);
     });
 
     // Expand rolling deadlines (e.g., VLDB monthly submissions)

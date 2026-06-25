@@ -98,9 +98,9 @@ const sortFunctions = {
 
     confdate: (confs) =>
         confs.sort((a, b) => {
-            if (!a.date) return 1;
-            if (!b.date) return -1;
-            return new Date(b.date) - new Date(a.date);
+            if (!a.parsed_date) return 1;
+            if (!b.parsed_date) return -1;
+            return b.parsed_date - a.parsed_date;
         }),
     confname: (confs) => confs.sort((a, b) => a.name.localeCompare(b.name)),
     confplace: (confs) =>
@@ -194,7 +194,7 @@ function ConferenceDisplay({ filteredConferences }) {
                 <div className="conference-card" style={{ width: '100%' }}>
                     {sortFunction(filteredConferences).map((conf) => (
                         <ConferenceCard
-                            key={`${conf.name}-${conf.year}-${conf.note}`}
+                            key={`${conf.name}-${conf.year}-${conf.note || ''}-${conf.link}`}
                             conference={conf}
                         />
                     ))}

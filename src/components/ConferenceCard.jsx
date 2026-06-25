@@ -82,9 +82,9 @@ const ConferenceCard = ({ conference }) => {
   });
 
   // Format date range or fallback
-  const dateRangeDisplay = conference.date
-    ? formatDateAoE(conference.date)
-    : 'TBD';
+  const dateRangeDisplay = conference.parsed_date
+    ? formatDateAoE(conference.parsed_date)
+    : (conference.date ? String(conference.date) : 'TBD');
 
   const deadlineDisplay = conference.deadline
     ? formatDateAoE(conference.deadline)

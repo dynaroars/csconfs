@@ -233,9 +233,14 @@ function App() {
       const matchesSearch = conf.name.toLowerCase().includes(searchQuery.toLowerCase());
 
       const deadlineDate = new Date(conf.deadline);
-      const conferenceDate = new Date(conf.date);
+      const conferenceDate = conf.parsed_date;
+      
+      // If both deadline and date are completely null, fallback to checking if the conference year is in the future
+      const hasNoValidDates = (!conf.deadline || isNaN(deadlineDate)) && !conferenceDate;
+      const isFutureYear = hasNoValidDates && parseInt(conf.year) >= now.getFullYear();
+
       // Filter out past deadline conferences if hidePastDeadlines is true
-      const isUpcoming = !hidePastDeadlines || deadlineDate >= now || conferenceDate >= now;
+      const isUpcoming = !hidePastDeadlines || deadlineDate >= now || (conferenceDate && conferenceDate >= now) || isFutureYear;
 
       return matchesConference && matchesSearch && isUpcoming;
     });

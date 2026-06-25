@@ -164,9 +164,9 @@ export function getConferencesForDay(conferences, dayDate) {
             }
         }
 
-        // Check conference date
-        if (conf.date) {
-            const confDate = new Date(conf.date);
+        // Check conference date using the mathematical parsed_date
+        if (conf.parsed_date) {
+            const confDate = conf.parsed_date;
             if (!isNaN(confDate.getTime()) && formatDateToISO(confDate) === dayStr) {
                 events.push({
                     name: conf.name,

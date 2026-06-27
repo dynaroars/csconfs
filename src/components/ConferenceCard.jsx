@@ -14,6 +14,22 @@ const StyledLink = styled(Link)({
   },
 });
 
+const EstimatedBadge = styled('span')({
+  backgroundColor: '#fff3e0',
+  color: '#e65100',
+  border: '1px solid #ffe0b2',
+  borderRadius: '12px',
+  padding: '2px 8px',
+  fontSize: '0.75rem',
+  fontWeight: 'bold',
+  marginLeft: '8px',
+  display: 'inline-flex',
+  alignItems: 'center',
+  gap: '4px',
+  verticalAlign: 'middle',
+  textTransform: 'uppercase',
+});
+
 const calculateTimeLeft = (deadline) => {
 
   // Create a Date object from the provided deadline
@@ -138,11 +154,21 @@ const ConferenceCard = ({ conference }) => {
     >
       {/* Left column: name, description, area */}
       <CardContent sx={{ flexBasis: '50%', padding: 0, }}>
-        <Typography variant="h5" fontWeight="bold" gutterBottom>
+        <Typography variant="h5" fontWeight="bold" gutterBottom sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap' }}>
           <StyledLink href={conference.link} target="_blank" rel="noopener noreferrer">
             {conference.name} {conference.year}
           </StyledLink>
+          {conference.estimated && (
+            <EstimatedBadge title="Dates are projected based on last year's timeline">
+              Estimated
+            </EstimatedBadge>
+          )}
         </Typography>
+        {conference.estimated && (
+          <Typography variant="caption" display="block" sx={{ color: '#e65100', fontWeight: 'bold', fontStyle: 'italic', mb: 0.5 }}>
+            * Dates are estimated based on last year's calendar.
+          </Typography>
+        )}
         <Typography variant="body2" sx={{ marginBottom: 0., color: 'text.secondary', fontSize: 'var(--font-size-body)' }}>
           {conference.description}
         </Typography>

@@ -24,7 +24,7 @@
 }
 
 /* Large screens: sidebar left, sticky */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .App {
     flex-direction: row;
     align-items: flex-start;
@@ -209,7 +209,7 @@
 }
 
 /* On large screens, hide the summary and keep details always open visually */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .mobile-filters-details {
     border: none;
     margin-bottom: 0;

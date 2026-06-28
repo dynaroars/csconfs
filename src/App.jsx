@@ -1,9 +1,4 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import TextField from '@mui/material/TextField';
-import Checkbox from '@mui/material/Checkbox';
-import FormControlLabel from '@mui/material/FormControlLabel';
 
 import ConferenceDisplay from './components/ConferenceDisplay';
 import { fetchFullData } from './components/FetchConferences';
@@ -28,28 +23,25 @@ function App() {
     return () => window.removeEventListener('themeChanged', handleThemeChange);
   }, []);
 
-  const theme = useMemo(
-    () =>
-      createTheme({
-        palette: {
-          mode,
-          ...(mode === 'dark'
-            ? {
-              background: {
-                default: '#1a1d21',
-                paper: '#222529',
-              },
-            }
-            : {
-              background: {
-                default: '#ffffff',
-                paper: '#ffffff',
-              },
-            }),
-        },
-      }),
-    [mode]
-  );
+  const toggleTheme = (e) => {
+    const next = mode === 'light' ? 'dark' : 'light';
+    // Store origin for circle-wipe transition
+    if (e) {
+      document.documentElement.style.setProperty('--vt-x', e.clientX + 'px');
+      document.documentElement.style.setProperty('--vt-y', e.clientY + 'px');
+    }
+    const apply = () => {
+      const newMode = next;
+      setMode(newMode);
+      document.documentElement.setAttribute('data-theme', newMode);
+      localStorage.setItem('theme', newMode);
+    };
+    if (document.startViewTransition) {
+      document.startViewTransition(apply);
+    } else {
+      apply();
+    }
+  };
 
   // States for both datasets
   const [csrAreas, setCsrAreas] = useState({});
@@ -268,72 +260,92 @@ function App() {
     setSearchQuery(event.target.value);
   };
 
-  return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <div>
-        <Header />
-        <div className="App">
-          {loading ? (
-            <div style={{ textAlign: 'center', marginTop: '20px' }}>
-              <h2>Loading...</h2>
-            </div>
-          ) : (
-            <>
-              <div className="conference-list">
-                <ConferenceDisplay filteredConferences={filteredConferences} />
-              </div>
+    const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
-              <div className="sidebar">
-                <h2>Filters</h2>
-                <FormControlLabel
-                  control={
-                    <Checkbox
+    return (
+        <div>
+            <Header toggleTheme={toggleTheme} mode={mode} />
+            <div className="App">
+                {loading ? (
+                    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+                        <h2>Loading...</h2>
+                    </div>
+                ) : (
+                    <>
+                        <div className="conference-list">
+                            <ConferenceDisplay filteredConferences={filteredConferences} />
+                        </div>
+
+                        <div className="sidebar">
+                            <div className={`mobile-filters-details ${mobileFiltersOpen ? 'is-open' : ''}`}>
+                                <div className="mobile-filters-summary" onClick={() => setMobileFiltersOpen(!mobileFiltersOpen)}>
+                  <span style={{ fontFamily: 'var(--font-heading)', fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--text-primary)' }}>Filters</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="details-chevron">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </div>
+                
+                <div className="filters-content" style={{ marginTop: '16px' }}>
+                  <label style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px', cursor: 'pointer', fontFamily: 'var(--font-body)', fontSize: 'var(--text-sm)', color: 'var(--text-primary)' }}>
+                    <input
+                      type="checkbox"
                       checked={hidePastDeadlines}
                       onChange={e => setHidePastDeadlines(e.target.checked)}
-                      color="primary"
+                      style={{ cursor: 'pointer', accentColor: 'var(--primary-color)' }}
                     />
-                  }
-                  label="Hide past conferences"
-                />
-                <TextField
-                  label="Search by conference name"
-                  variant="outlined"
-                  name="search"
-                  value={searchQuery}
-                  onChange={handleSearchChange}
-                  style={{ marginBottom: '20px', width: '100%', fontSize: '1.0rem' }}
-                  fullWidth
-                />
-                <Sidebar
-                  datasets={{
-                    csrankings: { areas: csrAreas, conferencesByArea: csrConfsByArea },
-                    core: { areas: coreAreas, conferencesByArea: coreConfsByArea },
-                  }}
-                  selectedConferences={selectedConferences}
-                  openTopLevel={openTopLevel}
-                  setOpenTopLevel={setOpenTopLevel}
-                  openParents={openParents}
-                  setOpenParents={setOpenParents}
-                  openAreas={openAreas}
-                  setOpenAreas={setOpenAreas}
-                  toggleMultipleConferences={toggleMultipleConferences}
-                  handleCheckboxChange={handleCheckboxChange}
-                  getConferencesByParentArea={getConferencesByParentArea}
-                  getConferencesByAreaTitle={getConferencesByAreaTitle}
-                  isAllSelected={isAllSelected}
-                  isSomeSelected={isSomeSelected}
-                  toggleParent={toggleParent}
-                  toggleArea={toggleArea}
-                />
+                    Hide past conferences
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Search by conference name"
+                    name="search"
+                    value={searchQuery}
+                    onChange={handleSearchChange}
+                    style={{
+                      marginBottom: '16px',
+                      width: '100%',
+                      fontFamily: 'var(--font-body)',
+                      fontSize: 'var(--text-sm)',
+                      padding: '8px 12px',
+                      border: '1px solid var(--border-color)',
+                      borderRadius: '6px',
+                      backgroundColor: 'var(--bg-color)',
+                      color: 'var(--text-primary)',
+                      boxSizing: 'border-box',
+                      outline: 'none',
+                    }}
+                    onFocus={e => e.target.style.borderColor = 'var(--primary-color)'}
+                    onBlur={e => e.target.style.borderColor = 'var(--border-color)'}
+                  />
+                  <Sidebar
+                    datasets={{
+                      csrankings: { areas: csrAreas, conferencesByArea: csrConfsByArea },
+                      core: { areas: coreAreas, conferencesByArea: coreConfsByArea },
+                    }}
+                    selectedConferences={selectedConferences}
+                    openTopLevel={openTopLevel}
+                    setOpenTopLevel={setOpenTopLevel}
+                    openParents={openParents}
+                    setOpenParents={setOpenParents}
+                    openAreas={openAreas}
+                    setOpenAreas={setOpenAreas}
+                    toggleMultipleConferences={toggleMultipleConferences}
+                    handleCheckboxChange={handleCheckboxChange}
+                    getConferencesByParentArea={getConferencesByParentArea}
+                    getConferencesByAreaTitle={getConferencesByAreaTitle}
+                    isAllSelected={isAllSelected}
+                    isSomeSelected={isSomeSelected}
+                    toggleParent={toggleParent}
+                    toggleArea={toggleArea}
+                  />
+                </div>
               </div>
-
-            </>
-          )}
-        </div>
-        <Footer />
+            </div>
+          </>
+        )}
       </div>
-    </ThemeProvider>
+      <Footer />
+    </div>
   );
 }
 

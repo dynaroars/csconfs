@@ -79,11 +79,9 @@ a {
 
 /* ── Theme toggle (matches CSPicks exactly) ───────────────── */
 .theme-toggle {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
   background: var(--card-bg);
   border: 1px solid var(--border-color);
+  flex-shrink: 0;
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -112,11 +110,28 @@ a {
 [data-theme="dark"] .theme-toggle .moon-icon { display: none; }
 
 /* ── View Transition API – dark mode circle wipe ──────────── */
-/* (CSPicks uses this too: no animation on old, instant on new) */
 ::view-transition-old(root),
 ::view-transition-new(root) {
   animation: none;
   mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  z-index: 1;
+}
+
+::view-transition-new(root) {
+  z-index: 2;
+  animation: circular-reveal 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@keyframes circular-reveal {
+  from {
+    clip-path: circle(0px at var(--vt-x, 100%) var(--vt-y, 0%));
+  }
+  to {
+    clip-path: circle(150% at var(--vt-x, 100%) var(--vt-y, 0%));
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

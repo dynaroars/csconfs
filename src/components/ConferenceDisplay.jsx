@@ -1,8 +1,4 @@
 import React, { useState } from 'react';
-import FormControl from '@mui/material/FormControl';
-import InputLabel from '@mui/material/InputLabel';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
 
 import Graph from './Graph';
 import ConferenceCard from './ConferenceCard';
@@ -127,88 +123,129 @@ function ConferenceDisplay({ filteredConferences }) {
     const handleViewChange = (e) => {
         setViewMode(e.target.value);
     };
+    const ITEMS_PER_PAGE = 25;
+    const [page, setPage] = useState(1);
 
     const handleSortChange = (e) => {
         setSortMode(e.target.value);
         setSortFunction(() => sortFunctions[e.target.value]);
     };
 
+    const sorted = sortFunction(filteredConferences);
+    const totalPages = Math.max(1, Math.ceil(sorted.length / ITEMS_PER_PAGE));
+    const paginated  = sorted.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE);
+
+    const selectStyle = {
+        fontFamily: 'var(--font-body)',
+        fontSize: 'var(--text-sm)',
+        padding: '6px 10px',
+        border: '1px solid var(--border-color)',
+        background: 'var(--bg-color)',
+        color: 'var(--text-primary)',
+        cursor: 'pointer',
+        outline: 'none',
+        borderRadius: '4px',
+    };
+
     return (
         <div style={{ width: '100%' }}>
-            {/* Dropdown selector for view mode */}
-            <FormControl sx={{ minWidth: 150, marginBottom: 2 }} size="small">
-                <InputLabel id="view-select-label">View</InputLabel>
-                <Select
-                    labelId="view-select-label"
-                    id="view-select"
-                    value={viewMode}
-                    label="View"
-                    onChange={handleViewChange}
-                >
-                    <MenuItem value="list">List View</MenuItem>
-                    <MenuItem value="calendar">Calendar View</MenuItem>
-                    <MenuItem value="graph">Graph View</MenuItem>
-                    <MenuItem value="stat">Statistics View</MenuItem>
-                </Select>
-            </FormControl>
+            {/* Controls row */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px', flexWrap: 'wrap' }}>
+                <label style={{ fontFamily: 'var(--font-body)', fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', fontWeight: 600 }}>
+                    View
+                </label>
+                <select value={viewMode} onChange={handleViewChange} style={selectStyle}>
+                    <option value="list">List</option>
+                    <option value="calendar">Calendar</option>
+                    <option value="graph">Graph</option>
+                    <option value="stat">Statistics</option>
+                </select>
 
-            {/* Conditionally render sort dropdown only in list view */}
-            {viewMode === 'list' && (
-                <FormControl
-                    sx={{ marginLeft: 2, minWidth: 150, marginBottom: 2 }}
-                    size="small"
-                >
-                    <InputLabel id="sort-select-label">Sort</InputLabel>
-                    <Select
-                        labelId="sort-select-label"
-                        id="sort-select"
-                        value={sortMode}
-                        label="Sort"
-                        onChange={handleSortChange}
-                    >
-                        <MenuItem value="submission_deadline">Submission Deadline</MenuItem>
-                        <MenuItem value="notification_date">Notification Date</MenuItem>
-                        <MenuItem value="confdate">Conf. Date</MenuItem>
-                        <MenuItem value="confplace">Conf. Location (Country)</MenuItem>
-                    </Select>
-                </FormControl>
-            )}
+                {viewMode === 'list' && (
+                    <>
+                        <label style={{ fontFamily: 'var(--font-body)', fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', fontWeight: 600 }}>
+                            Sort
+                        </label>
+                        <select value={sortMode} onChange={handleSortChange} style={selectStyle}>
+                            <option value="submission_deadline">Submission Deadline</option>
+                            <option value="notification_date">Notification Date</option>
+                            <option value="confdate">Conf. Date</option>
+                            <option value="confplace">Location</option>
+                        </select>
+                    </>
+                )}
+            </div>
 
-
-
-
-            {/* Conditionally render content */}
             {viewMode === 'calendar' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
                     <Calendar conferences={filteredConferences} />
                 </div>
             )}
-
             {viewMode === 'graph' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
                     <Graph conferences={filteredConferences} />
                 </div>
             )}
-
-            {viewMode === 'list' && (
-                <div className="conference-card" style={{ width: '100%' }}>
-                    {sortFunction(filteredConferences).map((conf) => (
-                        <ConferenceCard
-                            key={`${conf.name}-${conf.year}-${conf.note || ''}-${conf.link}`}
-                            conference={conf}
-                        />
-                    ))}
-                </div>
-            )}
-
             {viewMode === 'stat' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
                     <Stat conferences={filteredConferences} />
                 </div>
             )}
+
+            {viewMode === 'list' && (
+                <div style={{ width: '100%' }}>
+                    {paginated.map((conf) => (
+                        <ConferenceCard
+                            key={`${conf.name}-${conf.year}-${conf.note || ''}-${conf.link}`}
+                            conference={conf}
+                        />
+                    ))}
+
+                    {/* Pagination */}
+                    {totalPages > 1 && (
+                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '6px', marginTop: '24px', flexWrap: 'wrap' }}>
+                            <button
+                                onClick={() => setPage(p => Math.max(1, p - 1))}
+                                disabled={page === 1}
+                                style={{ ...selectStyle, padding: '6px 14px', opacity: page === 1 ? 0.4 : 1 }}
+                            >← Prev</button>
+
+                            {Array.from({ length: totalPages }, (_, i) => i + 1)
+                                .filter(p => p === 1 || p === totalPages || Math.abs(p - page) <= 2)
+                                .reduce((acc, p, i, arr) => {
+                                    if (i > 0 && p - arr[i-1] > 1) acc.push('…');
+                                    acc.push(p);
+                                    return acc;
+                                }, [])
+                                .map((p, i) => p === '…' ? (
+                                    <span key={`ellipsis-${i}`} style={{ fontFamily: 'var(--font-body)', color: 'var(--text-secondary)', padding: '0 4px' }}>…</span>
+                                ) : (
+                                    <button
+                                        key={p}
+                                        onClick={() => setPage(p)}
+                                        style={{
+                                            ...selectStyle,
+                                            padding: '6px 12px',
+                                            fontWeight: p === page ? 700 : 400,
+                                            background: p === page ? 'var(--text-primary)' : 'var(--bg-color)',
+                                            color: p === page ? 'var(--bg-color)' : 'var(--text-primary)',
+                                            borderColor: p === page ? 'var(--text-primary)' : 'var(--border-color)',
+                                        }}
+                                    >{p}</button>
+                                ))
+                            }
+
+                            <button
+                                onClick={() => setPage(p => Math.min(totalPages, p + 1))}
+                                disabled={page === totalPages}
+                                style={{ ...selectStyle, padding: '6px 14px', opacity: page === totalPages ? 0.4 : 1 }}
+                            >Next →</button>
+                        </div>
+                    )}
+                </div>
+            )}
         </div>
     );
 }
-
 
 export default ConferenceDisplay;

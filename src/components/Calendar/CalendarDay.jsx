@@ -68,7 +68,7 @@ function CalendarDay({ day, events, isToday, isMobile }) {
                                 alignItems: 'center',
                                 justifyContent: 'center',
                                 backgroundColor: event.color,
-                                color: 'var(--text-color)',
+                                color: '#ffffff',
                                 fontSize: isMobile ? '0.6rem' : '0.65rem',
                                 height: isMobile ? 18 : 20,
                                 borderRadius: '10px',

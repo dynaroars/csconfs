@@ -1,7 +1,7 @@
 .App {
   display: flex;
-  flex-direction: column; /* Stack on small screens */
-  font-family: Arial, sans-serif;
+  flex-direction: column;
+  font-family: var(--font-body);
   padding: 20px;
   gap: 20px;
   min-height: 100vh;
@@ -9,14 +9,13 @@
 }
 
 .sidebar {
-  order: 2;        /* Sidebar below cards by default */
+  order: 1;
   width: 100%;
   max-width: 100%;
-  margin-top: 0px;
 }
 
 .conference-list {
-  order: 1;        /* Cards come first on small screens */
+  order: 2;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -24,53 +23,239 @@
   min-width: 0;
 }
 
-/* Conference card styling */
-.conference-card {
-  /* border: 1px solid #ccc; */
-
-  --font-size-title: clamp(0.7rem, 2vw, 1.5rem);
-  --font-size-body: clamp(0.6rem, 1.5vw, 1rem);
-  --font-size-note: clamp(0.4rem, 1.2vw, 0.9rem);
-
-  border-radius: 5px;
-  word-break: break-word;
-}
-.conference-card h3 {
-  margin-top: 0;
-  font-size: var(--font-size-title);
-}
-.conference-card span {
-  font-weight: bold;
-  font-size: var(--font-size-body);
-}
-
-.conference-card .body-text {
-  font-size: var(--font-size-note);
-}
-
-.conference-card h5 {
-  margin-top: 0;
-  font-size: var(--font-size-title);
-}
-/* Large screens: row layout and sidebar on left */
+/* Large screens: sidebar left, sticky */
 @media (min-width: 768px) {
   .App {
     flex-direction: row;
     align-items: flex-start;
+    padding: 24px 28px;
+    max-width: 1400px;
+    margin: 0 auto;
   }
   .sidebar {
-    order: 1;   /* Sidebar first on wide screens */
-    flex: 0 0 400px;
-    max-width: 400px;
-    margin-top: 0;
-    margin-right: 20px; /* gap between sidebar and cards */
-    width: 400px;
+    order: 1;
+    flex: 0 0 300px;
+    width: 300px;
+    max-width: 300px;
+    margin-right: 24px;
+    /* Sticky sidebar */
+    position: sticky;
+    top: 16px;
+    max-height: calc(100vh - 32px);
+    overflow-y: auto;
+    /* Blend the scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-color) transparent;
   }
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-track { background: transparent; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
   .conference-list {
-    order: 2;   /* Cards second on wide screens */
+    order: 2;
     flex: 1 1 auto;
-    max-width: calc(100% - 320px);
     min-width: 0;
   }
 }
 
+/* Mobile details accordion styling */
+.mobile-filters-details {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+  margin-bottom: 24px;
+}
+.mobile-filters-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+.mobile-filters-summary .details-chevron {
+  transition: transform 0.2s ease;
+  color: var(--text-primary);
+}
+.mobile-filters-details.is-open .mobile-filters-summary .details-chevron {
+  transform: rotate(180deg);
+}
+.filters-content {
+  display: none;
+  padding: 0 16px 16px;
+}
+.mobile-filters-details.is-open .filters-content {
+  display: block;
+}
+
+/* Conference Card Responsiveness - Option B (Premium SaaS Split-Card) */
+.conference-card-item {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.conference-card-item:hover {
+  border-color: var(--text-primary);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+.split-card-left {
+  padding: 1.25rem 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.conference-card-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+
+.conference-card-description {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.conference-card-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.conference-card-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  background: var(--bg-color);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.conference-card-meta-item svg {
+  color: var(--accent-color);
+}
+
+.conference-card-note {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-top: 1rem;
+}
+
+.split-card-right {
+  background: var(--hover-bg);
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.conference-card-countdown {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 1rem;
+}
+
+.status-panel-deadlines {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+
+.status-deadline-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.status-deadline-label {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 0.125rem;
+}
+
+.status-deadline-date {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+/* On large screens, hide the summary and keep details always open visually */
+@media (min-width: 768px) {
+  .mobile-filters-details {
+    border: none;
+    margin-bottom: 0;
+  }
+  .mobile-filters-summary {
+    display: none;
+  }
+  .filters-content {
+    display: block !important;
+    padding: 0;
+  }
+  
+  .sidebar {
+    order: 1;
+    flex: 0 0 320px;
+    width: 320px;
+    max-width: 320px;
+    margin-right: 28px;
+  }
+
+  .conference-card-item.split-card {
+    flex-direction: row;
+    min-height: 220px;
+  }
+  
+  .split-card-left {
+    padding: 1.5rem 2rem;
+  }
+  
+  .split-card-right {
+    border-top: none;
+    border-left: 1px solid var(--border-color);
+    width: 300px;
+    flex-shrink: 0;
+    padding: 1.5rem 2rem;
+  }
+}
+
+.sidebar-btn {
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.sidebar-btn:hover {
+  background-color: var(--hover-bg) !important;
+}
+
+.sidebar-btn:active {
+  transform: scale(0.98);
+}

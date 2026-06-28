@@ -1,24 +1,16 @@
 import React from 'react';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
 import logo from '../assets/t-rex-2.gif';
 
 export default function Footer() {
   return (
-    <Box
-      component="footer"
-      sx={{
-        marginTop: 4,
-        padding: 2,
-        textAlign: 'center',
-        borderTop: '1px solid #ddd',
-        color: 'text.secondary',
-        fontSize: '1rem',
-        '@media (max-width:600px)': {
-          fontSize: '0.8rem',
-        },
-      }}
-    >
+    <footer style={{
+      marginTop: '2rem',
+      padding: '1rem 1.5rem',
+      textAlign: 'center',
+      borderTop: '1px solid var(--border-color)',
+      backgroundColor: 'var(--bg-color)',
+      transition: 'background-color 0.3s ease, border-color 0.3s ease',
+    }}>
       <a
         href="https://roars.dev"
         target="_blank"
@@ -27,19 +19,18 @@ export default function Footer() {
         style={{
           display: 'inline-flex',
           alignItems: 'center',
+          gap: '8px',
           textDecoration: 'none',
-          color: 'inherit'
+          color: 'var(--text-secondary)',
+          fontFamily: 'var(--font-body)',
+          fontSize: 'var(--text-sm)',
         }}
+        onMouseOver={e => e.currentTarget.style.color = 'var(--text-primary)'}
+        onMouseOut={e => e.currentTarget.style.color = 'var(--text-secondary)'}
       >
-        <img
-          src={logo}
-          alt="dino logo"
-          style={{ height: '60px', marginRight: '10px' }}
-        />
-        <Typography variant="body2" component="span">
-          ROARS © {new Date().getFullYear()}.
-        </Typography>
+        <img src={logo} alt="ROARS dino logo" style={{ height: '40px' }} />
+        ROARS © {new Date().getFullYear()}
       </a>
-    </Box>
+    </footer>
   );
 }

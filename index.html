@@ -24,15 +24,12 @@
 </head>
 
 <body>
-  <!-- Theme toggle button -->
-  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-    <span class="sun-icon">☀️</span>
-    <span class="moon-icon">🌙</span>
-  </button>
-
   <script>
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    document.documentElement.setAttribute('data-theme', savedTheme);
+    // Apply saved theme before React mounts to prevent flash
+    (function() {
+      var t = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
   </script>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>

@@ -1,5 +1,28 @@
 import React, { useEffect, useState } from 'react';
 
+const EstimatedBadge = ({ children, title }) => (
+  <span
+    title={title}
+    style={{
+      backgroundColor: '#fff3e0',
+      color: '#e65100',
+      border: '1px solid #ffe0b2',
+      borderRadius: '12px',
+      padding: '2px 8px',
+      fontSize: '0.75rem',
+      fontWeight: 'bold',
+      marginLeft: '8px',
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: '4px',
+      verticalAlign: 'middle',
+      textTransform: 'uppercase',
+    }}
+  >
+    {children}
+  </span>
+);
+
 // ── Date helpers ──────────────────────────────────────────────
 const calculateTimeLeft = (deadline) => {
   const d = new Date(deadline);
@@ -68,7 +91,7 @@ const ConferenceCard = ({ conference }) => {
     <div className="conference-card-item split-card">
       {/* Left Column: Content */}
       <div className="split-card-left">
-        <div className="conference-card-title">
+        <div className="conference-card-title" style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap' }}>
           <a
             href={conference.link}
             target="_blank"
@@ -79,7 +102,17 @@ const ConferenceCard = ({ conference }) => {
           >
             {conference.name} {conference.year}
           </a>
+          {conference.estimated && (
+            <EstimatedBadge title="Dates are projected based on last year's timeline">
+              Estimated
+            </EstimatedBadge>
+          )}
         </div>
+        {conference.estimated && (
+          <div style={{ color: '#e65100', fontSize: '0.75rem', fontWeight: 'bold', fontStyle: 'italic', marginBottom: '0.5rem' }}>
+            * Dates are estimated based on last year's calendar.
+          </div>
+        )}
 
         {/* Highlighted Date & Location */}
         <div style={{

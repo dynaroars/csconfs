@@ -124,6 +124,70 @@ URL_PATTERNS = {
 }
 
 
+def is_leap_year(year):
+    return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+
+def shift_yyyy_mm_dd(date_str, year_diff):
+    if not date_str:
+        return None
+    date_str = str(date_str).strip()
+    match = re.match(r'^(\d{4})-(\d{2})-(\d{2})$', date_str)
+    if not match:
+        return date_str
+    
+    old_year, month, day = int(match.group(1)), int(match.group(2)), int(match.group(3))
+    target_year = old_year + year_diff
+    
+    if month == 2 and day == 29:
+        if not is_leap_year(target_year):
+            day = 28
+            
+    return f"{target_year:04d}-{month:02d}-{day:02d}"
+
+def shift_date_string(date_str, source_year, target_year):
+    if not date_str:
+        return None
+    date_str = str(date_str).strip()
+    if str(source_year) in date_str:
+        return date_str.replace(str(source_year), str(target_year))
+    if str(target_year) in date_str:
+        return date_str
+    years = re.findall(r'\d{4}', date_str)
+    if years:
+        return date_str.replace(years[0], str(target_year))
+    return f"{date_str}, {target_year}"
+
+def generate_estimated_entry(conf, next_year):
+    source_year = int(conf.get('year', next_year - 1))
+    year_diff = next_year - source_year
+    
+    link = conf.get('series_link') or conf.get('link')
+    
+    deadline = shift_yyyy_mm_dd(conf.get('deadline'), year_diff)
+    abstract_deadline = shift_yyyy_mm_dd(conf.get('abstract_deadline'), year_diff)
+    notification_date = shift_yyyy_mm_dd(conf.get('notification_date'), year_diff)
+    rebuttal_date = shift_yyyy_mm_dd(conf.get('rebuttal_date'), year_diff)
+    date_str = shift_date_string(conf.get('date'), source_year, next_year)
+    
+    return {
+        'name': conf.get('name'),
+        'description': conf.get('description', ''),
+        'year': next_year,
+        'link': link,
+        'deadline': deadline,
+        'abstract_deadline': abstract_deadline,
+        'notification_date': notification_date,
+        'rebuttal_date': rebuttal_date,
+        'date': date_str,
+        'place': conf.get('place'),
+        'acceptance_rate': None,
+        'num_submission': None,
+        'general_chair': None,
+        'program_chair': None,
+        'series_link': conf.get('series_link'),
+        'estimated': True
+    }
+
 MICRO_EDITION_BASE = 2025 - 58 
 
 def format_pattern(pattern, year):
@@ -377,11 +441,17 @@ def main():
     suggestions = []
     processed_names = set()
 
-    # Build a set of existing (name, year) pairs to avoid duplicates
-    existing_entries = set()
+    # Build sets of confirmed and estimated entries in the database
+    confirmed_entries = set()
+    estimated_entries = set()
     for conf in confs:
         if isinstance(conf, dict) and conf.get('name') and conf.get('year'):
-            existing_entries.add((conf['name'], int(conf['year'])))
+            name = conf['name']
+            year = int(conf['year'])
+            if conf.get('estimated'):
+                estimated_entries.add((name, year))
+            else:
+                confirmed_entries.add((name, year))
 
     max_year = {}
     for conf in confs:
@@ -399,6 +469,9 @@ def main():
         year = conf.get('year')
         if not name or not year:
             continue
+        # Skip estimated entries when determining the baseline of the latest confirmed year
+        if conf.get('estimated'):
+            continue
         if name not in conf_info or int(year) > int(conf_info[name]['year']):
             conf_info[name] = conf
 
@@ -410,8 +483,8 @@ def main():
         series_link = conf.get('series_link')
         next_year = year + 1
 
-        if (name, next_year) in existing_entries:
-            print(f"✓ {name} {next_year} already in database")
+        if (name, next_year) in confirmed_entries:
+            print(f"✓ {name} {next_year} already in database (confirmed)")
             continue
 
         print(f"\n{'='*50}")
@@ -438,6 +511,12 @@ def main():
 
         if not next_url:
             print(f"  ❌ No URL found for {name} {next_year}")
+            if (name, next_year) not in estimated_entries:
+                print(f"  💡 Generating estimated entry for {name} {next_year}...")
+                est_entry = generate_estimated_entry(conf, next_year)
+                suggestions.append(est_entry)
+            else:
+                print(f"  ℹ️ {name} {next_year} already has an estimated entry in database")
             continue
 
         if args.dry_run:
@@ -501,8 +580,42 @@ def main():
             try:
                 with open(DATA_FILE, 'r') as f:
                     current_confs = yaml.safe_load(f) or []
-                # Prepend suggestions to the existing database list
-                new_confs = suggestions + current_confs
+                
+                merged_dict = {}
+                for item in current_confs:
+                    if not isinstance(item, dict):
+                        continue
+                    key = (item.get('name'), int(item.get('year', 0)))
+                    merged_dict[key] = item
+                
+                # Merge in suggestions (overwrite if suggestion is confirmed/updating estimate)
+                for item in suggestions:
+                    key = (item.get('name'), int(item.get('year', 0)))
+                    if key in merged_dict:
+                        existing_item = merged_dict[key]
+                        if existing_item.get('estimated') or not item.get('estimated'):
+                            merged_dict[key] = item
+                    else:
+                        merged_dict[key] = item
+                
+                # Reconstruct list
+                new_confs = []
+                seen_keys = set()
+                
+                for item in suggestions:
+                    key = (item.get('name'), int(item.get('year', 0)))
+                    if key not in seen_keys:
+                        new_confs.append(merged_dict[key])
+                        seen_keys.add(key)
+                
+                for item in current_confs:
+                    if not isinstance(item, dict):
+                        continue
+                    key = (item.get('name'), int(item.get('year', 0)))
+                    if key not in seen_keys:
+                        new_confs.append(merged_dict[key])
+                        seen_keys.add(key)
+                
                 with open(DATA_FILE, 'w') as f:
                     yaml.dump(new_confs, f, default_flow_style=False, allow_unicode=True)
                 print(f"Successfully merged new conferences into {DATA_FILE}.")

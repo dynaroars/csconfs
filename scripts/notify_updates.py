@@ -16,6 +16,8 @@ def build_pr_body(suggestions):
     
     for item in suggestions:
         name = item.get("name", "N/A")
+        if item.get("estimated"):
+            name = f"{name} *(Estimated)*"
         year = item.get("year", "N/A")
         date = item.get("date") or "—"
         place = item.get("place") or "—"
@@ -42,6 +44,8 @@ def build_markdown_body(suggestions):
     
     for item in suggestions:
         name = item.get("name", "N/A")
+        if item.get("estimated"):
+            name = f"{name} *(Estimated)*"
         year = item.get("year", "N/A")
         date = item.get("date") or "—"
         place = item.get("place") or "—"

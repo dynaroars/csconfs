@@ -68,10 +68,12 @@ const getCountdownColor = (deadline) => {
 const ConferenceCard = ({ conference }) => {
   const [countdown, setCountdown] = useState(calculateCountdown(conference.deadline));
 
+  // needs the dep array — without it a new setInterval spawns on every render,
+  // which creates hundreds of zombie timers just from toggling filters.
   useEffect(() => {
     const id = setInterval(() => setCountdown(calculateCountdown(conference.deadline)), 1000);
     return () => clearInterval(id);
-  });
+  }, [conference.deadline]);
 
   const dateDisplay   = conference.parsed_date
     ? formatDateAoE(conference.parsed_date)

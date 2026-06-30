@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Graph from './Graph';
 import ConferenceCard from './ConferenceCard';
@@ -125,6 +125,9 @@ function ConferenceDisplay({ filteredConferences }) {
     };
     const ITEMS_PER_PAGE = 25;
     const [page, setPage] = useState(1);
+
+    // reset to page 1 whenever the filter/search changes so we never land on a blank page
+    useEffect(() => { setPage(1); }, [filteredConferences]);
 
     const handleSortChange = (e) => {
         setSortMode(e.target.value);

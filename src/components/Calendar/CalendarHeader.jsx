@@ -24,13 +24,14 @@ function CalendarHeader({ currentDate, onPreviousMonth, onNextMonth }) {
                 onClick={onPreviousMonth}
                 aria-label="Previous month"
                 size="small"
+                sx={{ color: 'var(--text-primary)' }}
             >
                 <ChevronLeft />
             </IconButton>
             <Typography
                 variant="h5"
                 component="h2"
-                sx={{ fontWeight: 600 }}
+                sx={{ fontWeight: 600, color: 'var(--text-primary)' }}
                 aria-live="polite"
             >
                 {MONTH_NAMES[currentDate.getMonth()]} {currentDate.getFullYear()}
@@ -39,6 +40,7 @@ function CalendarHeader({ currentDate, onPreviousMonth, onNextMonth }) {
                 onClick={onNextMonth}
                 aria-label="Next month"
                 size="small"
+                sx={{ color: 'var(--text-primary)' }}
             >
                 <ChevronRight />
             </IconButton>

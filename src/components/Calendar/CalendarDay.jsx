@@ -12,10 +12,10 @@ function CalendarDay({ day, events, isToday, isMobile }) {
             sx={{
                 minHeight: isMobile ? 80 : MIN_CALENDAR_HEIGHT,
                 border: 1,
-                borderColor: isToday ? 'primary.main' : 'divider',
+                borderColor: isToday ? 'primary.main' : 'var(--border-color)',
                 borderRadius: 1,
                 p: 1,
-                backgroundColor: day.isCurrentMonth ? 'background.paper' : 'var(--hover-bg)',
+                backgroundColor: day.isCurrentMonth ? 'var(--card-bg)' : 'var(--hover-bg)',
                 position: 'relative',
                 transition: 'background-color 0.2s',
                 '&:hover': {
@@ -43,8 +43,8 @@ function CalendarDay({ day, events, isToday, isMobile }) {
                         fontSize: isMobile ? '0.75rem' : '0.875rem',
                         fontWeight: isToday ? 700 : 500,
                         color: isToday
-                            ? 'primary.contrastText'
-                            : (day.isCurrentMonth ? 'text.primary' : 'text.disabled'),
+                            ? '#ffffff'
+                            : (day.isCurrentMonth ? 'var(--text-primary)' : 'var(--text-secondary)'),
                         lineHeight: 1,
                     }}
                 >
@@ -68,7 +68,7 @@ function CalendarDay({ day, events, isToday, isMobile }) {
                                 alignItems: 'center',
                                 justifyContent: 'center',
                                 backgroundColor: event.color,
-                                color: 'var(--text-color)',
+                                color: '#ffffff',
                                 fontSize: isMobile ? '0.6rem' : '0.65rem',
                                 height: isMobile ? 18 : 20,
                                 borderRadius: '10px',

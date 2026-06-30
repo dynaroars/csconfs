@@ -37,7 +37,7 @@ function CalendarLegend({ isMobile }) {
                         }}
                         aria-hidden="true"
                     />
-                    <Typography variant={isMobile ? "caption" : "body2"}>
+                    <Typography variant={isMobile ? "caption" : "body2"} sx={{ color: 'var(--text-primary)' }}>
                         {eventType.legendLabel}
                     </Typography>
                 </Box>

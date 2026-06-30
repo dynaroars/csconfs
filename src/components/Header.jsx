@@ -1,76 +1,92 @@
 import React from 'react';
-import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
 
-export default function Header() {
+/**
+ * Header – Phase 2
+ * Matches CSPicks visual language: Outfit heading font, Inter body,
+ * fixed circle theme toggle top-right, clean border-bottom.
+ */
+export default function Header({ toggleTheme, mode }) {
+  const isDark = mode === 'dark';
+
+  const handleToggle = (e) => {
+    // Pass click origin so App can run View Transition from that point
+    if (toggleTheme) toggleTheme(e);
+  };
+
   return (
-    <header style={{ display: 'flex', alignItems: 'center', padding: '10px' }}>
-      <div>
-        <div>
-          <Link
+    <header style={{
+      borderBottom: '1px solid var(--border-color)',
+      backgroundColor: 'var(--bg-color)',
+      transition: 'background-color 0.3s ease, border-color 0.3s ease',
+    }}>
+      <div style={{
+        maxWidth: '1400px',
+        margin: '0 auto',
+        padding: '1.25rem 28px 1rem',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'flex-start',
+        gap: '1rem'
+      }}>
+        <div style={{ flex: 1 }}>
+          {/* Title */}
+          <a
             href="https://roars.dev/csconfs"
             target="_blank"
             rel="noopener noreferrer"
-            underline="none"
             aria-label="CSConfs project homepage"
-            sx={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              textDecoration: 'none',
-            }}
+            style={{ textDecoration: 'none' }}
           >
-            <Typography
-              variant="h4"
-              component="h1"
-              sx={{
-                margin: 0,
-                fontWeight: '900',
-                letterSpacing: 2,
-                background: 'rgb(117, 177, 109)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                textShadow: '1px 1px 4px rgba(0,0,0,0.3)',
-                display: 'flex',
-                alignItems: 'center',
-                gap: 1.5,
-                userSelect: 'none',
-                fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
-                '@media (max-width:600px)': {
-                  fontSize: '1rem',
-                  letterSpacing: 1,
-                },
-              }}
-            >
-              CSConfs: CS Conference Deadlines
-            </Typography>
-          </Link>
-        </div>
-        <div>
-          <Typography
-            variant="body2"
-            component="div"
-            sx={{
-              marginTop: 1,
-              color: 'text.secondary',
-              userSelect: 'text',
-              '@media (max-width:600px)': {
-                fontSize: '0.6rem',
-              },
-            }}
-          >
-            Countdown to submission deadlines uses AoE (Anywhere on Earth) time zone.<br />
+            <h1 style={{
+              margin: 0,
+              fontFamily: 'var(--font-heading)',
+              fontSize: 'clamp(1.75rem, 6vw, var(--text-2xl))',
+              fontWeight: 800,
+              letterSpacing: '0.02em',
+              color: 'var(--text-primary)',
+              lineHeight: 1.15,
+              userSelect: 'none',
+            }}>
+              <span style={{ color: '#2ca02c' }}>CSConfs:</span> CS Conference Deadlines
+            </h1>
+          </a>
+
+          {/* Subtitle */}
+          <p style={{
+            marginTop: '0.375rem',
+            marginBottom: 0,
+            fontFamily: 'var(--font-body)',
+            fontSize: 'var(--text-sm)',
+            color: 'var(--text-secondary)',
+            lineHeight: 1.55,
+            userSelect: 'text',
+          }}>
+            Countdown to submission deadlines uses AoE (Anywhere on Earth) time zone.{' '}
             Src, contributions, issues:{' '}
-            <Link
+            <a
               href="https://code.roars.dev/csconfs"
               target="_blank"
               rel="noopener noreferrer"
-              underline="hover"
               aria-label="Code repository for CSConfs"
+              style={{ color: 'var(--accent-color)', textDecoration: 'none' }}
+              onMouseOver={e => e.target.style.textDecoration = 'underline'}
+              onMouseOut={e => e.target.style.textDecoration = 'none'}
             >
               code.roars.dev/csconfs
-            </Link>.
-          </Typography>
+            </a>.
+          </p>
         </div>
+
+        {/* Theme toggle — aligned to the right edge of the 1400px container */}
+        <button
+          className="theme-toggle"
+          onClick={handleToggle}
+          aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+          title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+        >
+          <span className="sun-icon">☀️</span>
+          <span className="moon-icon">🌙</span>
+        </button>
       </div>
     </header>
   );

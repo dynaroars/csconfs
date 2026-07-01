@@ -157,11 +157,62 @@ def shift_date_string(date_str, source_year, target_year):
         return date_str.replace(years[0], str(target_year))
     return f"{date_str}, {target_year}"
 
+def clean_estimated_link(link, name, source_year):
+    if not link:
+        return None
+    link = str(link).strip()
+    
+    source_year_str = str(source_year)
+    short_year_str = source_year_str[-2:]
+    
+    from urllib.parse import urlparse, urlunparse
+    try:
+        parsed = urlparse(link)
+        netloc = parsed.netloc
+        path = parsed.path
+        
+        netloc_parts = netloc.split('.')
+        new_netloc_parts = []
+        for part in netloc_parts:
+            if source_year_str in part or short_year_str in part:
+                stripped_part = part.replace(source_year_str, '').replace(short_year_str, '')
+                if stripped_part in ('', 'www'):
+                    continue
+                new_netloc_parts.append(stripped_part)
+            else:
+                new_netloc_parts.append(part)
+        
+        if new_netloc_parts:
+            new_netloc = '.'.join(new_netloc_parts)
+        else:
+            new_netloc = netloc
+            
+        path_parts = path.split('/')
+        new_path_parts = []
+        for part in path_parts:
+            if source_year_str in part or short_year_str in part:
+                stripped_part = part.replace(source_year_str, '').replace(short_year_str, '')
+                if stripped_part == '':
+                    continue
+                new_path_parts.append(stripped_part)
+            else:
+                new_path_parts.append(part)
+        new_path = '/'.join(new_path_parts)
+        
+        cleaned_url = urlunparse((parsed.scheme, new_netloc, new_path, parsed.params, parsed.query, parsed.fragment))
+        if not cleaned_url.endswith('/') and parsed.path in ('', '/'):
+            cleaned_url += '/'
+        return cleaned_url
+    except Exception:
+        return link
+
 def generate_estimated_entry(conf, next_year):
     source_year = int(conf.get('year', next_year - 1))
     year_diff = next_year - source_year
     
-    link = conf.get('series_link') or conf.get('link')
+    link = conf.get('series_link')
+    if not link:
+        link = clean_estimated_link(conf.get('link'), conf.get('name'), source_year)
     
     deadline = shift_yyyy_mm_dd(conf.get('deadline'), year_diff)
     abstract_deadline = shift_yyyy_mm_dd(conf.get('abstract_deadline'), year_diff)
@@ -179,7 +230,7 @@ def generate_estimated_entry(conf, next_year):
         'notification_date': notification_date,
         'rebuttal_date': rebuttal_date,
         'date': date_str,
-        'place': conf.get('place'),
+        'place': None,
         'acceptance_rate': None,
         'num_submission': None,
         'general_chair': None,
@@ -519,6 +570,12 @@ def main():
             
             if (name, next_year) not in estimated_entries:
                 print(f"  💡 Generating estimated entry for {name} {next_year}...")
+                # Make sure series_link is set on conf if any other entry in the database has it
+                if not conf.get('series_link'):
+                    for item in confs:
+                        if isinstance(item, dict) and item.get('name') == name and item.get('series_link'):
+                            conf['series_link'] = item.get('series_link')
+                            break
                 est_entry = generate_estimated_entry(conf, next_year)
                 suggestions.append(est_entry)
             else:
@@ -541,6 +598,7 @@ def main():
                 'num_submission': None,
                 'general_chair': None,
                 'program_chair': None,
+                'series_link': conf.get('series_link'),
             })
             continue
 
@@ -570,6 +628,7 @@ def main():
                     'num_submission': None,
                     'general_chair': data.get('general_chair'),
                     'program_chair': data.get('program_chair'),
+                    'series_link': conf.get('series_link'),
                 }
                 suggestions.append(suggestion)
                 

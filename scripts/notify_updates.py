@@ -7,17 +7,23 @@ import argparse
 SUGGESTIONS_FILE = "suggested_updates_llm.yaml"
 
 def build_pr_body(suggestions):
-    body = "### 🔔 Automated Conference Updates!\n\n"
+    confirmed_suggestions = [item for item in suggestions if not item.get("estimated")]
+    
+    body = "### Automated Conference Updates!\n\n"
+    if not confirmed_suggestions:
+        body += "No new confirmed conference editions were found in this run. (Any estimated timeline updates have been merged directly into the database.)\n\n"
+        body += "---\n\n"
+        body += "*This Pull Request was automatically created by the Conference Crawler GitHub Action.*"
+        return body
+        
     body += "The automated crawler found and added the following new conference editions to `public/data/conferences.yaml`. Please review the diff and merge this PR if they are correct.\n\n"
     
     # Table header
     body += "| Name | Year | Dates | Location | Main Deadline | Abstract Deadline | Notification | Link |\n"
     body += "| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n"
     
-    for item in suggestions:
+    for item in confirmed_suggestions:
         name = item.get("name", "N/A")
-        if item.get("estimated"):
-            name = f"{name} *(Estimated)*"
         year = item.get("year", "N/A")
         date = item.get("date") or "—"
         place = item.get("place") or "—"
@@ -35,17 +41,23 @@ def build_pr_body(suggestions):
     return body
 
 def build_markdown_body(suggestions):
+    confirmed_suggestions = [item for item in suggestions if not item.get("estimated")]
+    
     body = "### 🔔 New Conferences Found!\n\n"
+    if not confirmed_suggestions:
+        body += "No new confirmed conference editions were found in this run. (Any estimated timeline updates have been merged directly into the database.)\n\n"
+        body += "---\n\n"
+        body += "*This issue was automatically created by the Conference Crawler GitHub Action.*"
+        return body
+        
     body += "The automated crawler found the following new conference editions. Please review them and copy the approved entries into `public/data/conferences.yaml`.\n\n"
     
     # Table header
     body += "| Name | Year | Dates | Location | Main Deadline | Abstract Deadline | Notification | Link |\n"
     body += "| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n"
     
-    for item in suggestions:
+    for item in confirmed_suggestions:
         name = item.get("name", "N/A")
-        if item.get("estimated"):
-            name = f"{name} *(Estimated)*"
         year = item.get("year", "N/A")
         date = item.get("date") or "—"
         place = item.get("place") or "—"
@@ -61,7 +73,7 @@ def build_markdown_body(suggestions):
     body += "\n---\n\n"
     body += "### 📋 Raw YAML Snippet (Copy & Paste directly into `public/data/conferences.yaml`)\n\n"
     body += "```yaml\n"
-    body += yaml.dump(suggestions, default_flow_style=False, allow_unicode=True)
+    body += yaml.dump(confirmed_suggestions, default_flow_style=False, allow_unicode=True)
     body += "```\n"
     
     body += "\n---\n\n"

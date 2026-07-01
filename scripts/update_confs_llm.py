@@ -511,6 +511,12 @@ def main():
 
         if not next_url:
             print(f"  ❌ No URL found for {name} {next_year}")
+            import datetime
+            current_year = datetime.datetime.now().year
+            if next_year < current_year:
+                print(f"  ⚠️ {next_year} is in the past (current year: {current_year}). Skipping estimation.")
+                continue
+            
             if (name, next_year) not in estimated_entries:
                 print(f"  💡 Generating estimated entry for {name} {next_year}...")
                 est_entry = generate_estimated_entry(conf, next_year)
@@ -581,40 +587,40 @@ def main():
                 with open(DATA_FILE, 'r') as f:
                     current_confs = yaml.safe_load(f) or []
                 
-                merged_dict = {}
-                for item in current_confs:
-                    if not isinstance(item, dict):
-                        continue
-                    key = (item.get('name'), int(item.get('year', 0)))
-                    merged_dict[key] = item
-                
-                # Merge in suggestions (overwrite if suggestion is confirmed/updating estimate)
-                for item in suggestions:
-                    key = (item.get('name'), int(item.get('year', 0)))
-                    if key in merged_dict:
-                        existing_item = merged_dict[key]
-                        if existing_item.get('estimated') or not item.get('estimated'):
-                            merged_dict[key] = item
-                    else:
-                        merged_dict[key] = item
-                
-                # Reconstruct list
+                # Merge suggestions while preserving all existing confirmed entries 
+                # and replacing estimated entries with new data.
                 new_confs = []
-                seen_keys = set()
+                replaced_keys = set()
                 
+                # Group suggestions by (name, year)
+                suggestions_by_key = {}
                 for item in suggestions:
                     key = (item.get('name'), int(item.get('year', 0)))
-                    if key not in seen_keys:
-                        new_confs.append(merged_dict[key])
-                        seen_keys.add(key)
+                    suggestions_by_key[key] = item
                 
                 for item in current_confs:
                     if not isinstance(item, dict):
+                        new_confs.append(item)
                         continue
+                    name = item.get('name')
+                    year = int(item.get('year', 0))
+                    key = (name, year)
+                    
+                    # If this item is estimated and we have an update/suggestion for it, replace it
+                    if key in suggestions_by_key and item.get('estimated'):
+                        new_confs.append(suggestions_by_key[key])
+                        replaced_keys.add(key)
+                    else:
+                        new_confs.append(item)
+                
+                # Prepend any suggestions that did not replace an estimated entry
+                new_suggestions_to_prepend = []
+                for item in suggestions:
                     key = (item.get('name'), int(item.get('year', 0)))
-                    if key not in seen_keys:
-                        new_confs.append(merged_dict[key])
-                        seen_keys.add(key)
+                    if key not in replaced_keys:
+                        new_suggestions_to_prepend.append(item)
+                
+                new_confs = new_suggestions_to_prepend + new_confs
                 
                 with open(DATA_FILE, 'w') as f:
                     yaml.dump(new_confs, f, default_flow_style=False, allow_unicode=True)

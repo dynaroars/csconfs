@@ -1,3 +1,19 @@
+- abstract_deadline: '2027-01-15'
+  acceptance_rate: null
+  date: 20–23 July 2027
+  deadline: '2027-01-22'
+  description: ACM/IEEE Symposium on Logic in Computer Science
+  estimated: true
+  general_chair: null
+  link: https://siglog.org/lics26/
+  name: LICS
+  notification_date: '2027-04-16'
+  num_submission: null
+  place: null
+  program_chair: null
+  rebuttal_date: null
+  series_link: https://siglog.org/lics26/
+  year: 2027
 - abstract_deadline: '2027-07-21'
   acceptance_rate: null
   date: February 16-23, 2028

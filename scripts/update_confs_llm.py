@@ -567,6 +567,12 @@ def main():
 
         year = int(conf['year'])
         series_link = conf.get('series_link')
+        if not series_link:
+            for item in confs:
+                if isinstance(item, dict) and item.get('name') == name and item.get('series_link'):
+                    series_link = item.get('series_link')
+                    conf['series_link'] = series_link
+                    break
         next_year = year + 1
 
         if (name, next_year) in confirmed_entries:

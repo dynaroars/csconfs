@@ -5,6 +5,7 @@ import { fetchFullData } from './components/FetchConferences';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import AddConferenceModal from './components/AddConferenceModal';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   const [filteredConferences, setFilteredConferences] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);
+  const [isAddModalOpen, setIsAddModalOpen] = useState(false);
 
   const [mode, setMode] = useState(localStorage.getItem('theme') || 'light');
 
@@ -264,7 +266,8 @@ function App() {
 
     return (
         <div>
-            <Header toggleTheme={toggleTheme} mode={mode} />
+            <Header toggleTheme={toggleTheme} mode={mode} onAddClick={() => setIsAddModalOpen(true)} />
+            <AddConferenceModal isOpen={isAddModalOpen} onClose={() => setIsAddModalOpen(false)} />
             <div className="App">
                 {loading ? (
                     <div style={{ textAlign: 'center', marginTop: '20px' }}>

@@ -1,3 +1,31 @@
+- abstract_deadline: '2026-12-01'
+  acceptance_rate: null
+  date: July 7–9, 2027
+  deadline: '2026-12-08'
+  description: USENIX Symposium on Operating Systems Design and Implementation
+  general_chair: null
+  link: https://www.usenix.org/conference/osdi27
+  name: OSDI
+  notification_date: '2027-03-16'
+  num_submission: null
+  place: Baltimore, MD, USA
+  program_chair: Philip Levis, Junfeng Yang
+  series_link: https://osdi.org/
+  year: 2027
+- abstract_deadline: '2026-09-10'
+  acceptance_rate: null
+  date: May 11–13, 2027
+  deadline: '2026-09-10'
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  general_chair: null
+  link: https://www.usenix.org/conference/nsdi27
+  name: NSDI
+  notification_date: null
+  num_submission: null
+  place: Providence, RI, USA
+  program_chair: Marcos K. Aguilera, Justine Sherry
+  series_link: null
+  year: 2027
 - abstract_deadline: '2027-07-21'
   acceptance_rate: null
   date: February 16-23, 2028

@@ -5,7 +5,7 @@ import React from 'react';
  * Matches CSPicks visual language: Outfit heading font, Inter body,
  * fixed circle theme toggle top-right, clean border-bottom.
  */
-export default function Header({ toggleTheme, mode }) {
+export default function Header({ toggleTheme, mode, onAddClick }) {
   const isDark = mode === 'dark';
 
   const handleToggle = (e) => {
@@ -77,16 +77,53 @@ export default function Header({ toggleTheme, mode }) {
           </p>
         </div>
 
-        {/* Theme toggle — aligned to the right edge of the 1400px container */}
-        <button
-          className="theme-toggle"
-          onClick={handleToggle}
-          aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-          title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-        >
-          <span className="sun-icon">☀️</span>
-          <span className="moon-icon">🌙</span>
-        </button>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <button
+            onClick={onAddClick}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              fontFamily: 'var(--font-body)',
+              fontSize: 'var(--text-sm)',
+              fontWeight: 600,
+              padding: '6px 14px',
+              borderRadius: '20px',
+              border: '1px solid var(--border-color)',
+              background: 'var(--bg-color)',
+              color: 'var(--text-primary)',
+              cursor: 'pointer',
+              transition: 'all 0.2s ease',
+              outline: 'none',
+              height: '38px',
+              whiteSpace: 'nowrap'
+            }}
+            onMouseOver={e => {
+              e.currentTarget.style.borderColor = 'var(--text-primary)';
+              e.currentTarget.style.background = 'var(--text-primary)';
+              e.currentTarget.style.color = 'var(--bg-color)';
+            }}
+            onMouseOut={e => {
+              e.currentTarget.style.borderColor = 'var(--border-color)';
+              e.currentTarget.style.background = 'var(--bg-color)';
+              e.currentTarget.style.color = 'var(--text-primary)';
+            }}
+          >
+            <span>➕</span> Add Conference
+          </button>
+
+          {/* Theme toggle — aligned to the right edge of the 1400px container */}
+          <button
+            className="theme-toggle"
+            onClick={handleToggle}
+            aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+            title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+            style={{ margin: 0 }}
+          >
+            <span className="sun-icon">☀️</span>
+            <span className="moon-icon">🌙</span>
+          </button>
+        </div>
       </div>
     </header>
   );

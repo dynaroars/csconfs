@@ -119,6 +119,7 @@ function ConferenceDisplay({ filteredConferences }) {
     const [sortFunction, setSortFunction] = useState(
         () => sortFunctions.submission_deadline
     );
+    const [showEstimated, setShowEstimated] = useState(true);
 
     const handleViewChange = (e) => {
         setViewMode(e.target.value);
@@ -126,15 +127,19 @@ function ConferenceDisplay({ filteredConferences }) {
     const ITEMS_PER_PAGE = 25;
     const [page, setPage] = useState(1);
 
-    // reset to page 1 whenever the filter/search changes so we never land on a blank page
-    useEffect(() => { setPage(1); }, [filteredConferences]);
+    const visibleConferences = showEstimated
+        ? filteredConferences
+        : filteredConferences.filter(conf => !conf.estimated);
+
+    // reset to page 1 whenever the filter/search or showEstimated state changes so we never land on a blank page
+    useEffect(() => { setPage(1); }, [filteredConferences, showEstimated]);
 
     const handleSortChange = (e) => {
         setSortMode(e.target.value);
         setSortFunction(() => sortFunctions[e.target.value]);
     };
 
-    const sorted = sortFunction(filteredConferences);
+    const sorted = sortFunction(visibleConferences);
     const totalPages = Math.max(1, Math.ceil(sorted.length / ITEMS_PER_PAGE));
     const paginated  = sorted.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE);
 
@@ -153,7 +158,7 @@ function ConferenceDisplay({ filteredConferences }) {
     return (
         <div style={{ width: '100%' }}>
             {/* Controls row */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px', flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px', flexWrap: 'wrap', width: '100%' }}>
                 <label style={{ fontFamily: 'var(--font-body)', fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', fontWeight: 600 }}>
                     View
                 </label>
@@ -177,21 +182,47 @@ function ConferenceDisplay({ filteredConferences }) {
                         </select>
                     </>
                 )}
+
+                <label style={{ 
+                    display: 'flex', 
+                    alignItems: 'center', 
+                    gap: '8px', 
+                    fontFamily: 'var(--font-body)', 
+                    fontSize: 'var(--text-sm)', 
+                    color: 'var(--text-secondary)', 
+                    fontWeight: 600, 
+                    cursor: 'pointer', 
+                    marginLeft: 'auto',
+                    userSelect: 'none'
+                }}>
+                    <input 
+                        type="checkbox" 
+                        checked={showEstimated} 
+                        onChange={(e) => setShowEstimated(e.target.checked)} 
+                        style={{ 
+                            cursor: 'pointer',
+                            accentColor: '#e65100',
+                            width: '16px',
+                            height: '16px'
+                        }}
+                    />
+                    Show Estimated
+                </label>
             </div>
 
             {viewMode === 'calendar' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Calendar conferences={filteredConferences} />
+                    <Calendar conferences={visibleConferences} />
                 </div>
             )}
             {viewMode === 'graph' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Graph conferences={filteredConferences} />
+                    <Graph conferences={visibleConferences} />
                 </div>
             )}
             {viewMode === 'stat' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Stat conferences={filteredConferences} />
+                    <Stat conferences={visibleConferences} />
                 </div>
             )}
 

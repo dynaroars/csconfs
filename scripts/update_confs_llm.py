@@ -144,18 +144,26 @@ def shift_yyyy_mm_dd(date_str, year_diff):
             
     return f"{target_year:04d}-{month:02d}-{day:02d}"
 
-def shift_date_string(date_str, source_year, target_year):
-    if not date_str:
+def shift_any_date_field(date_field, year_diff):
+    if not date_field:
         return None
-    date_str = str(date_str).strip()
-    if str(source_year) in date_str:
-        return date_str.replace(str(source_year), str(target_year))
-    if str(target_year) in date_str:
-        return date_str
-    years = re.findall(r'\d{4}', date_str)
+    date_field = str(date_field).strip()
+    
+    # Try ISO format shift first
+    match = re.match(r'^(\d{4})-(\d{2})-(\d{2})$', date_field)
+    if match:
+        return shift_yyyy_mm_dd(date_field, year_diff)
+        
+    # If not ISO format, try to shift any 4-digit year in the text
+    years = re.findall(r'\d{4}', date_field)
     if years:
-        return date_str.replace(years[0], str(target_year))
-    return f"{date_str}, {target_year}"
+        for y_str in years:
+            y_int = int(y_str)
+            shifted_y = y_int + year_diff
+            date_field = date_field.replace(y_str, str(shifted_y))
+        return date_field
+        
+    return date_field
 
 def clean_estimated_link(link, name, source_year):
     if not link:
@@ -206,6 +214,18 @@ def clean_estimated_link(link, name, source_year):
     except Exception:
         return link
 
+def find_best_source_for_estimation(confs, name):
+    best_entry = None
+    for item in confs:
+        if not isinstance(item, dict) or item.get('name') != name or item.get('estimated'):
+            continue
+        # We prefer an entry with a deadline
+        if item.get('deadline'):
+            return item
+        if not best_entry:
+            best_entry = item
+    return best_entry
+
 def generate_estimated_entry(conf, next_year):
     source_year = int(conf.get('year', next_year - 1))
     year_diff = next_year - source_year
@@ -214,13 +234,23 @@ def generate_estimated_entry(conf, next_year):
     if not link:
         link = clean_estimated_link(conf.get('link'), conf.get('name'), source_year)
     
-    deadline = shift_yyyy_mm_dd(conf.get('deadline'), year_diff)
-    abstract_deadline = shift_yyyy_mm_dd(conf.get('abstract_deadline'), year_diff)
-    notification_date = shift_yyyy_mm_dd(conf.get('notification_date'), year_diff)
-    rebuttal_date = shift_yyyy_mm_dd(conf.get('rebuttal_date'), year_diff)
-    date_str = shift_date_string(conf.get('date'), source_year, next_year)
+    deadline = shift_any_date_field(conf.get('deadline'), year_diff)
+    abstract_deadline = shift_any_date_field(conf.get('abstract_deadline'), year_diff)
+    notification_date = shift_any_date_field(conf.get('notification_date'), year_diff)
+    rebuttal_date = shift_any_date_field(conf.get('rebuttal_date'), year_diff)
+    date_str = shift_any_date_field(conf.get('date'), year_diff)
     
-    return {
+    rolling_deadline = conf.get('rolling_deadline')
+    if rolling_deadline and isinstance(rolling_deadline, dict):
+        shifted_rolling = rolling_deadline.copy()
+        if 'start' in shifted_rolling:
+            shifted_rolling['start'] = shift_any_date_field(shifted_rolling['start'], year_diff)
+        if 'end' in shifted_rolling:
+            shifted_rolling['end'] = shift_any_date_field(shifted_rolling['end'], year_diff)
+    else:
+        shifted_rolling = None
+    
+    entry = {
         'name': conf.get('name'),
         'description': conf.get('description', ''),
         'year': next_year,
@@ -238,6 +268,11 @@ def generate_estimated_entry(conf, next_year):
         'series_link': conf.get('series_link'),
         'estimated': True
     }
+    
+    if shifted_rolling:
+        entry['rolling_deadline'] = shifted_rolling
+        
+    return entry
 
 MICRO_EDITION_BASE = 2025 - 58 
 
@@ -570,13 +605,18 @@ def main():
             
             if (name, next_year) not in estimated_entries:
                 print(f"  💡 Generating estimated entry for {name} {next_year}...")
-                # Make sure series_link is set on conf if any other entry in the database has it
-                if not conf.get('series_link'):
+                # Find the best source entry historically that has a non-null deadline
+                best_source = find_best_source_for_estimation(confs, name)
+                if not best_source:
+                    best_source = conf
+                
+                # Make sure series_link is set on best_source if any other entry in the database has it
+                if not best_source.get('series_link'):
                     for item in confs:
                         if isinstance(item, dict) and item.get('name') == name and item.get('series_link'):
-                            conf['series_link'] = item.get('series_link')
+                            best_source['series_link'] = item.get('series_link')
                             break
-                est_entry = generate_estimated_entry(conf, next_year)
+                est_entry = generate_estimated_entry(best_source, next_year)
                 suggestions.append(est_entry)
             else:
                 print(f"  ℹ️ {name} {next_year} already has an estimated entry in database")

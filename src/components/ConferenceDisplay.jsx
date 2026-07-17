@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 
 import Graph from './Graph';
 import ConferenceCard from './ConferenceCard';
@@ -127,9 +127,12 @@ function ConferenceDisplay({ filteredConferences }) {
     const ITEMS_PER_PAGE = 25;
     const [page, setPage] = useState(1);
 
-    const visibleConferences = showEstimated
-        ? filteredConferences
-        : filteredConferences.filter(conf => !conf.estimated);
+    const visibleConferences = useMemo(
+        () => showEstimated
+            ? [...filteredConferences]
+            : filteredConferences.filter(conf => !conf.estimated),
+        [filteredConferences, showEstimated]
+    );
 
     // reset to page 1 whenever the filter/search or showEstimated state changes so we never land on a blank page
     useEffect(() => { setPage(1); }, [filteredConferences, showEstimated]);
@@ -139,7 +142,10 @@ function ConferenceDisplay({ filteredConferences }) {
         setSortFunction(() => sortFunctions[e.target.value]);
     };
 
-    const sorted = sortFunction(visibleConferences);
+    const sorted = useMemo(
+        () => sortFunction([...visibleConferences]),
+        [visibleConferences, sortFunction]
+    );
     const totalPages = Math.max(1, Math.ceil(sorted.length / ITEMS_PER_PAGE));
     const paginated  = sorted.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE);
 

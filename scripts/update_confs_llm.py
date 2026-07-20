@@ -154,16 +154,29 @@ def shift_any_date_field(date_field, year_diff):
     if match:
         return shift_yyyy_mm_dd(date_field, year_diff)
         
-    # If not ISO format, try to shift any 4-digit year in the text
-    years = re.findall(r'\d{4}', date_field)
-    if years:
-        for y_str in years:
-            y_int = int(y_str)
-            shifted_y = y_int + year_diff
-            date_field = date_field.replace(y_str, str(shifted_y))
-        return date_field
-        
-    return date_field
+    # For text dates, shift each year occurrence independently by position
+    def _shift_year_match(m):
+        return str(int(m.group(0)) + year_diff)
+    result = re.sub(r'\b((?:19|20)\d{2})\b', _shift_year_match, date_field)
+    return result
+
+def sanitize_date_field(value):
+    """Return the value if it looks like a real date, otherwise None."""
+    if not value or not isinstance(value, str):
+        return None
+    value = value.strip()
+    if value.lower() in ('null', 'n/a', 'tbd', 'none', ''):
+        return None
+    # If it looks like ISO but doesn't parse, discard
+    if re.match(r'^\d{4}-\d{2}-\d{2}$', value):
+        try:
+            parts = value.split('-')
+            m, d = int(parts[1]), int(parts[2])
+            if not (1 <= m <= 12 and 1 <= d <= 31):
+                return None
+        except (ValueError, IndexError):
+            return None
+    return value
 
 def clean_estimated_link(link, name, source_year):
     if not link:
@@ -216,13 +229,15 @@ def clean_estimated_link(link, name, source_year):
 
 def find_best_source_for_estimation(confs, name):
     best_entry = None
+    best_year = -1
     for item in confs:
         if not isinstance(item, dict) or item.get('name') != name or item.get('estimated'):
             continue
-        # We prefer an entry with a deadline
-        if item.get('deadline'):
-            return item
-        if not best_entry:
+        year = int(item.get('year', 0))
+        if item.get('deadline') and year > best_year:
+            best_entry = item
+            best_year = year
+        elif not best_entry:
             best_entry = item
     return best_entry
 
@@ -665,9 +680,9 @@ def main():
                     'description': description,
                     'year': next_year,
                     'link': next_url,
-                    'deadline': data.get('deadline'),
-                    'abstract_deadline': data.get('abstract_deadline'),
-                    'notification_date': data.get('notification_date'),
+                    'deadline': sanitize_date_field(data.get('deadline')),
+                    'abstract_deadline': sanitize_date_field(data.get('abstract_deadline')),
+                    'notification_date': sanitize_date_field(data.get('notification_date')),
                     'date': data.get('date'),
                     'place': data.get('place'),
                     'acceptance_rate': None,

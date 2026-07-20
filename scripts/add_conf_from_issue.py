@@ -68,6 +68,15 @@ def main():
         print(f"Error reading {CONFERENCES_FILE}: {e}")
         return 1
 
+    # Check for duplicates
+    new_name = new_entry['name'].strip().lower()
+    new_year = int(new_entry['year'])
+    for existing in current_confs:
+        if isinstance(existing, dict):
+            if existing.get('name', '').strip().lower() == new_name and int(existing.get('year', 0)) == new_year:
+                print(f"Error: '{new_entry['name']} {new_year}' already exists in the database.")
+                return 1
+
     current_confs.insert(0, new_entry)
 
     try:

@@ -146,8 +146,33 @@ function ConferenceDisplay({ filteredConferences }) {
         () => sortFunction([...visibleConferences]),
         [visibleConferences, sortFunction]
     );
-    const totalPages = Math.max(1, Math.ceil(sorted.length / ITEMS_PER_PAGE));
-    const paginated  = sorted.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE);
+
+    const groupedSorted = useMemo(() => {
+        const groups = [];
+        const map = new Map();
+        for (const conf of sorted) {
+            const key = `${conf.name}__${conf.year}`;
+            if (map.has(key)) {
+                groups[map.get(key)].push(conf);
+            } else {
+                map.set(key, groups.length);
+                groups.push([conf]);
+            }
+        }
+        for (const group of groups) {
+            if (group.length > 1) {
+                group.sort((a, b) => {
+                    if (!a.deadline) return 1;
+                    if (!b.deadline) return -1;
+                    return new Date(a.deadline) - new Date(b.deadline);
+                });
+            }
+        }
+        return groups;
+    }, [sorted]);
+
+    const totalPages = Math.max(1, Math.ceil(groupedSorted.length / ITEMS_PER_PAGE));
+    const paginated  = groupedSorted.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE);
 
     const selectStyle = {
         fontFamily: 'var(--font-body)',
@@ -234,12 +259,15 @@ function ConferenceDisplay({ filteredConferences }) {
 
             {viewMode === 'list' && (
                 <div style={{ width: '100%' }}>
-                    {paginated.map((conf) => (
-                        <ConferenceCard
-                            key={`${conf.name}-${conf.year}-${conf.note || ''}-${conf.link}`}
-                            conference={conf}
-                        />
-                    ))}
+                    {paginated.map((group) => {
+                        const mainConf = group[0];
+                        return (
+                            <ConferenceCard
+                                key={`${mainConf.name}-${mainConf.year}`}
+                                conference={group.length === 1 ? mainConf : group}
+                            />
+                        );
+                    })}
 
                     {/* Pagination */}
                     {totalPages > 1 && (

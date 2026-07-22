@@ -669,18 +669,32 @@
   year: 2028
 - abstract_deadline: '2026-06-03'
   acceptance_rate: null
-  date: '2027-05-31'
+  date: June 13-19, 2027
   deadline: '2026-06-10'
   description: ACM Symposium on Principles of Database Systems
-  estimated: true
   general_chair: null
-  link: https://pods.org/
+  link: https://2027.sigmod.org/
   name: PODS
+  note: Cycle 1/2
   notification_date: '2026-08-11'
   num_submission: null
-  place: null
+  place: Huntington Beach, California, United States
   program_chair: null
-  rebuttal_date: null
+  series_link: https://pods.org/
+  year: 2027
+- abstract_deadline: '2026-12-03'
+  acceptance_rate: null
+  date: June 13-19, 2027
+  deadline: '2026-12-10'
+  description: ACM Symposium on Principles of Database Systems
+  general_chair: null
+  link: https://2027.sigmod.org/
+  name: PODS
+  note: Cycle 2/2
+  notification_date: null
+  num_submission: null
+  place: Huntington Beach, California, United States
+  program_chair: null
   series_link: https://pods.org/
   year: 2027
 - abstract_deadline: null
@@ -984,6 +998,21 @@
   program_chair: Eddie Kohler, Amar Phanishayee
   series_link: https://osdi.org/
   year: 2026
+- abstract_deadline: '2026-08-18'
+  acceptance_rate: null
+  date: August 11–13, 2027
+  deadline: '2026-08-25'
+  description: USENIX Security Symposium
+  general_chair: null
+  link: https://www.usenix.org/conference/usenixsecurity27
+  name: USENIX Security
+  note: Cycle 1/2
+  notification_date: null
+  num_submission: null
+  place: Denver, CO, USA
+  program_chair: Adam Doupé, Andrei Sabelfeld
+  series_link: null
+  year: 2027
 - abstract_deadline: '2027-01-19'
   acceptance_rate: null
   date: August 11–13, 2027
@@ -992,6 +1021,7 @@
   general_chair: null
   link: https://www.usenix.org/conference/usenixsecurity27
   name: USENIX Security
+  note: Cycle 2/2
   notification_date: null
   num_submission: null
   place: Denver, CO, USA
@@ -1052,17 +1082,32 @@
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
-  date: May 18-20, 2026
-  deadline: null
+  date: May 17-20, 2027
+  deadline: '2026-06-12'
   description: IEEE Symposium on Security and Privacy
-  general_chair: Alina Oprea
-  link: https://sp2026.ieee-security.org/
+  general_chair: null
+  link: https://www.ieee-security.org/TC/SP2027/
   name: IEEE S&P
+  note: Cycle 1/2
   notification_date: null
   num_submission: null
   place: San Francisco, CA
-  program_chair: Cristina Nita-Rotaru, Nicolas Papernot
-  year: 2026
+  program_chair: null
+  year: 2027
+- abstract_deadline: '2026-11-10'
+  acceptance_rate: null
+  date: May 17-20, 2027
+  deadline: '2026-11-18'
+  description: IEEE Symposium on Security and Privacy
+  general_chair: null
+  link: https://www.ieee-security.org/TC/SP2027/
+  name: IEEE S&P
+  note: Cycle 2/2
+  notification_date: null
+  num_submission: null
+  place: San Francisco, CA
+  program_chair: null
+  year: 2027
 - abstract_deadline: '2025-01-16'
   acceptance_rate: null
   date: 23–26 June 2025
@@ -1092,11 +1137,26 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: 22 to 26 March 2027
-  deadline: null
+  deadline: '2026-05-07'
   description: Network and Distributed System Security Symposium
   general_chair: null
   link: https://www.ndss-symposium.org/ndss2027/
   name: NDSS
+  note: Cycle 1/2
+  notification_date: null
+  num_submission: null
+  place: Seoul, Republic of Korea
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: 22 to 26 March 2027
+  deadline: '2026-08-06'
+  description: Network and Distributed System Security Symposium
+  general_chair: null
+  link: https://www.ndss-symposium.org/ndss2027/
+  name: NDSS
+  note: Cycle 2/2
   notification_date: null
   num_submission: null
   place: Seoul, Republic of Korea
@@ -1167,14 +1227,29 @@
   place: Shenzhen, China
   program_chair: null
   year: 2027
-- abstract_deadline: null
+- abstract_deadline: '2026-05-08'
   acceptance_rate: null
-  date: April 19—23, 2027
-  deadline: null
+  date: April 19-23, 2027
+  deadline: '2026-05-15'
   description: European Conference on Computer Systems
   general_chair: null
   link: https://2027.eurosys.org/
   name: EuroSys
+  note: Cycle 1/2
+  notification_date: null
+  num_submission: null
+  place: Rabat, Morocco
+  program_chair: null
+  year: 2027
+- abstract_deadline: '2026-09-18'
+  acceptance_rate: null
+  date: April 19-23, 2027
+  deadline: '2026-09-25'
+  description: European Conference on Computer Systems
+  general_chair: null
+  link: https://2027.eurosys.org/
+  name: EuroSys
+  note: Cycle 2/2
   notification_date: null
   num_submission: null
   place: Rabat, Morocco
@@ -1222,11 +1297,26 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: April 11-15, 2027
-  deadline: null
+  deadline: '2026-04-15'
   description: Architectural Support for Programming Languages and Operating Systems
   general_chair: null
   link: https://www.asplos-conference.org/asplos2027/
   name: ASPLOS
+  note: Cycle 1/2
+  notification_date: '2026-07-27'
+  num_submission: null
+  place: Crete, Greece
+  program_chair: null
+  year: 2027
+- abstract_deadline: null
+  acceptance_rate: null
+  date: April 11-15, 2027
+  deadline: '2026-09-09'
+  description: Architectural Support for Programming Languages and Operating Systems
+  general_chair: null
+  link: https://www.asplos-conference.org/asplos2027/
+  name: ASPLOS
+  note: Cycle 2/2
   notification_date: null
   num_submission: null
   place: Crete, Greece
@@ -1312,15 +1402,58 @@
   place: San Diego, California, United States
   program_chair: null
   year: 2026
-- abstract_deadline: null
+- abstract_deadline: '2026-01-10'
   acceptance_rate: null
   date: June 13-19, 2027
-  deadline: null
+  deadline: '2026-01-17'
   description: ACM SIGMOD International Conference on Management of Data
   general_chair: null
   link: https://2027.sigmod.org/
   name: SIGMOD
-  notification_date: null
+  note: Cycle 1/4
+  notification_date: '2026-06-12'
+  num_submission: null
+  place: Huntington Beach, California, United States
+  program_chair: null
+  year: 2027
+- abstract_deadline: '2026-04-10'
+  acceptance_rate: null
+  date: June 13-19, 2027
+  deadline: '2026-04-17'
+  description: ACM SIGMOD International Conference on Management of Data
+  general_chair: null
+  link: https://2027.sigmod.org/
+  name: SIGMOD
+  note: Cycle 2/4
+  notification_date: '2026-09-12'
+  num_submission: null
+  place: Huntington Beach, California, United States
+  program_chair: null
+  year: 2027
+- abstract_deadline: '2026-07-10'
+  acceptance_rate: null
+  date: June 13-19, 2027
+  deadline: '2026-07-17'
+  description: ACM SIGMOD International Conference on Management of Data
+  general_chair: null
+  link: https://2027.sigmod.org/
+  name: SIGMOD
+  note: Cycle 3/4
+  notification_date: '2026-12-12'
+  num_submission: null
+  place: Huntington Beach, California, United States
+  program_chair: null
+  year: 2027
+- abstract_deadline: '2026-10-10'
+  acceptance_rate: null
+  date: June 13-19, 2027
+  deadline: '2026-10-17'
+  description: ACM SIGMOD International Conference on Management of Data
+  general_chair: null
+  link: https://2027.sigmod.org/
+  name: SIGMOD
+  note: Cycle 4/4
+  notification_date: '2027-03-12'
   num_submission: null
   place: Huntington Beach, California, United States
   program_chair: null
@@ -4951,7 +5084,7 @@
   general_chair: null
   link: https://www.usenix.org/conference/usenixsecurity26
   name: USENIX Security
-  note: Cycle 2
+  note: Cycle 2/2
   notification_date: '2026-05-14'
   num_submission: null
   place: Baltimore, MD

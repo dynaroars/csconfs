@@ -675,13 +675,44 @@ def main():
                     continue
                 
                 description = conf.get('description', '')
+                extracted_dl = sanitize_date_field(data.get('deadline'))
+                extracted_abs = sanitize_date_field(data.get('abstract_deadline'))
+
+                # --- CCFDDL Verification Hook ---
+                is_verified = False
+                try:
+                    from sync_ccfddl import CONF_MAP, fetch_yaml, normalize_date
+                    if name in CONF_MAP:
+                        conf_rel, _ = CONF_MAP[name]
+                        ccf_data = fetch_yaml(conf_rel)
+                        if ccf_data and isinstance(ccf_data, list):
+                            confs_list = ccf_data[0].get('confs', [])
+                            for c_year_item in confs_list:
+                                if c_year_item.get('year') == next_year:
+                                    timeline = c_year_item.get('timeline', [])
+                                    if timeline:
+                                        ccf_dl = normalize_date(timeline[0].get('deadline'))
+                                        ccf_abs = normalize_date(timeline[0].get('abstract_deadline'))
+                                        if ccf_dl:
+                                            if extracted_dl == ccf_dl:
+                                                print(f"  🟢 CCFDDL Verified: extracted date matches CCFDDL ({ccf_dl})")
+                                                is_verified = True
+                                            else:
+                                                print(f"  ⚠️ CCFDDL Verification Correction: LLM got {extracted_dl}, CCFDDL has {ccf_dl}. Using verified CCFDDL date.")
+                                                extracted_dl = ccf_dl
+                                                if ccf_abs:
+                                                    extracted_abs = ccf_abs
+                                                is_verified = True
+                except Exception as e:
+                    pass
+
                 suggestion = {
                     'name': name,
                     'description': description,
                     'year': next_year,
                     'link': next_url,
-                    'deadline': sanitize_date_field(data.get('deadline')),
-                    'abstract_deadline': sanitize_date_field(data.get('abstract_deadline')),
+                    'deadline': extracted_dl,
+                    'abstract_deadline': extracted_abs,
                     'notification_date': sanitize_date_field(data.get('notification_date')),
                     'date': data.get('date'),
                     'place': data.get('place'),
@@ -690,6 +721,7 @@ def main():
                     'general_chair': data.get('general_chair'),
                     'program_chair': data.get('program_chair'),
                     'series_link': conf.get('series_link'),
+                    'verified': is_verified,
                 }
                 suggestions.append(suggestion)
                 

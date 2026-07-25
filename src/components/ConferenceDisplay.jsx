@@ -134,8 +134,8 @@ function ConferenceDisplay({ filteredConferences }) {
         [filteredConferences, showEstimated]
     );
 
-    // reset to page 1 whenever the filter/search or showEstimated state changes so we never land on a blank page
-    useEffect(() => { setPage(1); }, [filteredConferences, showEstimated]);
+    // reset to page 1 when active search/topic filters change
+    useEffect(() => { setPage(1); }, [filteredConferences]);
 
     const handleSortChange = (e) => {
         setSortMode(e.target.value);
@@ -173,6 +173,13 @@ function ConferenceDisplay({ filteredConferences }) {
 
     const totalPages = Math.max(1, Math.ceil(groupedSorted.length / ITEMS_PER_PAGE));
     const paginated  = groupedSorted.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE);
+
+    // clamp page to valid range if totalPages shrinks (e.g., toggling showEstimated)
+    useEffect(() => {
+        if (page > totalPages) {
+            setPage(totalPages);
+        }
+    }, [totalPages, page]);
 
     const selectStyle = {
         fontFamily: 'var(--font-body)',

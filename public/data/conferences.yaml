@@ -11,11 +11,12 @@
   place: Baltimore, MD, USA
   program_chair: Philip Levis, Junfeng Yang
   series_link: https://osdi.org/
+  verified: true
   year: 2027
-- abstract_deadline: '2026-09-10'
+- abstract_deadline: '2026-04-16'
   acceptance_rate: null
   date: May 11–13, 2027
-  deadline: '2026-09-10'
+  deadline: '2026-04-23'
   description: USENIX Symposium on Networked Systems Design and Implementation
   general_chair: null
   link: https://www.usenix.org/conference/nsdi27
@@ -25,6 +26,7 @@
   place: Providence, RI, USA
   program_chair: Marcos K. Aguilera, Justine Sherry
   series_link: null
+  verified: true
   year: 2027
 - abstract_deadline: '2027-07-21'
   acceptance_rate: null
@@ -45,9 +47,8 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: '2027-07-27'
-  deadline: '2027-02-15'
+  deadline: TBD
   description: Annual Meeting of the Association for Computational Linguistics
-  estimated: true
   general_chair: null
   link: https://aclweb.org/
   name: ACL
@@ -57,6 +58,7 @@
   program_chair: null
   rebuttal_date: null
   series_link: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
@@ -125,9 +127,8 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: '2027-03-01'
-  deadline: '2026-09-12'
+  deadline: '2026-06-11'
   description: IEEE/ACM International Symposium on Code Generation and Optimization
-  estimated: true
   general_chair: null
   link: https://2026.cgo.org/
   name: CGO
@@ -137,6 +138,7 @@
   program_chair: null
   rebuttal_date: null
   series_link: https://2026.cgo.org/
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
@@ -249,6 +251,7 @@
   program_chair: null
   rebuttal_date: null
   series_link: null
+  verified: true
   year: 2026
 - abstract_deadline: '2027-05-08'
   acceptance_rate: null
@@ -285,25 +288,24 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: Mon 12 - Fri 16 July 2028
-  deadline: '2027-12-18'
+  deadline: '2027-10-02'
   description: Foundations of Software Engineering
   estimated: true
   general_chair: null
-  link: https://conf.researchr.org/home/fse-
+  link: https://conf.researchr.org/home/fse-2028
   name: FSE
-  notification_date: '2028-03-05'
+  notification_date: '2028-03-31'
   num_submission: null
   place: null
   program_chair: null
-  rebuttal_date: null
-  series_link: null
+  rebuttal_date: '2027-12-14'
+  series_link: https://conf.researchr.org/series/fse
   year: 2028
-- abstract_deadline: '2026-07-25'
+- abstract_deadline: '2026-07-24'
   acceptance_rate: null
   date: '2027-01-31'
-  deadline: '2026-08-01'
+  deadline: '2026-07-31'
   description: IEEE International Symposium on High-Performance Computer Architecture
-  estimated: true
   general_chair: null
   link: https://hpca.org/
   name: HPCA
@@ -313,13 +315,13 @@
   program_chair: null
   rebuttal_date: null
   series_link: https://hpca.org/
+  verified: true
   year: 2027
-- abstract_deadline: '2026-04-14'
+- abstract_deadline: '2026-04-07'
   acceptance_rate: null
   date: October 26-30, 2026
-  deadline: '2026-04-21'
+  deadline: '2026-04-14'
   description: IEEE/ACM International Conference on Computer-Aided Design
-  estimated: true
   general_chair: null
   link: https://2025.iccad.com/
   name: ICCAD
@@ -329,6 +331,7 @@
   program_chair: null
   rebuttal_date: null
   series_link: https://2025.iccad.com/
+  verified: true
   year: 2026
 - abstract_deadline: '2026-03-03'
   acceptance_rate: null
@@ -349,18 +352,18 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: '2027-05-04'
-  deadline: '2026-06-18'
+  deadline: '2026-06-11'
   description: IEEE International Conference on Data Engineering
-  estimated: true
   general_chair: null
   link: https://icde.github.io/
   name: ICDE
   notification_date: '2026-08-18'
   num_submission: null
-  place: null
+  place: Copenhagen, Denmark
   program_chair: null
   rebuttal_date: null
   series_link: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
@@ -413,9 +416,8 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: '2026-05-19'
-  deadline: '2025-09-16'
+  deadline: '2025-09-15'
   description: IEEE International Conference on Robotics and Automation
-  estimated: true
   general_chair: null
   link: https://icra.org/
   name: ICRA
@@ -425,6 +427,7 @@
   program_chair: null
   rebuttal_date: null
   series_link: https://icra.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2027-06-23'
   acceptance_rate: null
@@ -458,12 +461,11 @@
   rebuttal_date: '2027-04-07'
   series_link: https://www.ijcai.org/
   year: 2027
-- abstract_deadline: '2026-05-08'
+- abstract_deadline: '2025-11-13'
   acceptance_rate: null
   date: '2026-10-28'
-  deadline: '2026-05-15'
+  deadline: '2025-11-20'
   description: ACM Internet Measurement Conference
-  estimated: true
   general_chair: null
   link: https://imc.org/
   name: IMC
@@ -473,9 +475,10 @@
   program_chair: null
   rebuttal_date: null
   series_link: https://imc.org/
+  verified: true
   year: 2026
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 36.45
   date: '2026-10-19'
   deadline: '2026-03-02'
   description: IEEE/RSJ International Conference on Intelligent Robots and Systems
@@ -489,6 +492,7 @@
   program_chair: null
   rebuttal_date: null
   series_link: null
+  verified: true
   year: 2026
 - abstract_deadline: '2026-11-10'
   acceptance_rate: null
@@ -554,21 +558,21 @@
   rebuttal_date: null
   series_link: https://micro.org/
   year: 2027
-- abstract_deadline: '2026-08-27'
+- abstract_deadline: '2026-08-26'
   acceptance_rate: null
   date: '2027-11-26'
-  deadline: '2026-09-03'
+  deadline: '2026-09-02'
   description: ACM International Conference on Mobile Computing and Networking
-  estimated: true
   general_chair: null
   link: https://www.sigmobile.org/mobicom/2024/
   name: MobiCom
   notification_date: '2026-11-24'
   num_submission: null
-  place: null
+  place: TBD
   program_chair: null
   rebuttal_date: '2027-11-11'
   series_link: null
+  verified: true
   year: 2027
 - abstract_deadline: '2026-11-28'
   acceptance_rate: null
@@ -589,19 +593,19 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: '2027-04-29'
-  deadline: '2026-10-15'
+  deadline: '2026-10-12'
   description: Annual Conference of the North American Chapter of the Association
     for Computational Linguistics
-  estimated: true
   general_chair: null
   link: https://naacl.org/
   name: NAACL
   notification_date: null
   num_submission: null
-  place: null
+  place: San Francisco, California, USA
   program_chair: null
   rebuttal_date: null
   series_link: https://naacl.org/
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
@@ -654,7 +658,7 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: June 15, 2028
-  deadline: November 13, 2027
+  deadline: '2027-11-13'
   description: ACM SIGPLAN Conference on Programming Language Design and Implementation
   estimated: true
   general_chair: null
@@ -713,12 +717,11 @@
   rebuttal_date: null
   series_link: https://sigplan.org/Conferences/POPL/
   year: 2028
-- abstract_deadline: '2026-01-17'
+- abstract_deadline: '2026-01-23'
   acceptance_rate: null
   date: '2026-06-21'
-  deadline: '2026-01-24'
+  deadline: '2026-01-30'
   description: 'Robotics: Science and Systems Conference'
-  estimated: true
   general_chair: null
   link: https://roboticsconference.org/
   name: RSS
@@ -728,13 +731,13 @@
   program_chair: null
   rebuttal_date: null
   series_link: null
+  verified: true
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
   date: '2026-12-02'
-  deadline: '2026-05-22'
+  deadline: '2026-05-21'
   description: IEEE Real-Time Systems Symposium
-  estimated: true
   general_chair: null
   link: https://rtss.org/
   name: RTSS
@@ -744,6 +747,7 @@
   program_chair: null
   rebuttal_date: null
   series_link: null
+  verified: true
   year: 2026
 - abstract_deadline: '2027-01-24'
   acceptance_rate: null
@@ -780,7 +784,7 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: 19–23 July 2027
-  deadline: 15 January 2027
+  deadline: '2027-01-15'
   description: ACM Conference on Computer Graphics and Interactive Techniques
   estimated: true
   general_chair: null
@@ -827,12 +831,11 @@
   rebuttal_date: null
   series_link: https://sigir.org/
   year: 2027
-- abstract_deadline: '2026-07-31'
+- abstract_deadline: '2026-07-03'
   acceptance_rate: null
   date: '2027-06-09'
-  deadline: '2026-08-07'
+  deadline: '2026-07-10'
   description: ACM SIGMETRICS / IFIP Performance Conference
-  estimated: true
   general_chair: null
   link: https://sigmetrics.org/
   name: SIGMETRICS
@@ -842,6 +845,7 @@
   program_chair: null
   rebuttal_date: null
   series_link: https://sigmetrics.org/
+  verified: true
   year: 2027
 - abstract_deadline: '2027-01-10'
   acceptance_rate: null
@@ -875,10 +879,10 @@
   rebuttal_date: null
   series_link: https://sosp.org/
   year: 2028
-- abstract_deadline: March 24, 2027
+- abstract_deadline: '2027-03-24'
   acceptance_rate: null
   date: November 2–5, 2027
-  deadline: March 31, 2027
+  deadline: '2027-03-31'
   description: ACM Symposium on User Interface Software and Technology
   estimated: true
   general_chair: null
@@ -894,10 +898,9 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: '2026-10-14'
-  deadline: '2026-05-25'
+  deadline: '2026-02-01'
   description: ACM International Joint Conference on Pervasive and Ubiquitous Computing
     and International Symposium on Wearable Computers
-  estimated: true
   general_chair: null
   link: https://www.ubicomp.org/ubicomp-iswc-/
   name: UbiComp / ISWC
@@ -907,6 +910,7 @@
   program_chair: null
   rebuttal_date: null
   series_link: null
+  verified: true
   year: 2026
 - abstract_deadline: '2026-03-21'
   acceptance_rate: null
@@ -923,29 +927,29 @@
   program_chair: null
   rebuttal_date: null
   series_link: https://www.vis.org/
+  verified: true
   year: 2026
-- abstract_deadline: null
+- abstract_deadline: '2026-03-25'
   acceptance_rate: null
   date: '2027-08-26'
-  deadline: '2027-03-01'
+  deadline: '2026-04-01'
   description: International Conference on Very Large Data Bases
-  estimated: true
   general_chair: null
   link: https://vldb.org/
   name: VLDB
   notification_date: '2027-03-15'
   num_submission: null
-  place: null
+  place: Athens, Greece
   program_chair: null
   rebuttal_date: null
   series_link: null
+  verified: true
   year: 2027
-- abstract_deadline: '2026-09-30'
+- abstract_deadline: '2026-10-11'
   acceptance_rate: null
   date: '2027-04-13'
-  deadline: '2026-10-07'
+  deadline: '2026-10-18'
   description: The Web Conference (formerly International World Wide Web Conference)
-  estimated: true
   general_chair: null
   link: https://thewebconf.org/
   name: WWW
@@ -955,11 +959,12 @@
   program_chair: null
   rebuttal_date: '2026-11-24'
   series_link: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
   date: February 23–25, 2027
-  deadline: '2026-09-15'
+  deadline: '2026-03-17'
   description: USENIX Conference on File and Storage Technologies
   general_chair: null
   link: https://www.usenix.org/conference/fast27
@@ -969,11 +974,12 @@
   place: Renton, WA, USA
   program_chair: George Amvrosiadis, Peter Macko
   series_link: null
+  verified: true
   year: 2027
-- abstract_deadline: null
+- abstract_deadline: '2025-04-18'
   acceptance_rate: null
   date: May 4–6, 2026
-  deadline: null
+  deadline: '2025-04-25'
   description: USENIX Symposium on Networked Systems Design and Implementation
   general_chair: null
   link: https://www.usenix.org/conference/nsdi26
@@ -983,6 +989,7 @@
   place: Renton, WA, USA
   program_chair: Srikanth Kandula, Hakim Weatherspoon
   series_link: null
+  verified: true
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
@@ -1012,6 +1019,7 @@
   place: Denver, CO, USA
   program_chair: Adam Doupé, Andrei Sabelfeld
   series_link: null
+  verified: true
   year: 2027
 - abstract_deadline: '2027-01-19'
   acceptance_rate: null
@@ -1027,6 +1035,7 @@
   place: Denver, CO, USA
   program_chair: Adam Doupé, Andrei Sabelfeld
   series_link: null
+  verified: true
   year: 2027
 - abstract_deadline: '2026-01-15'
   acceptance_rate: null
@@ -1040,6 +1049,7 @@
   num_submission: null
   place: Lisbon, Portugal
   program_chair: Claudia Faggian, Joost-Pieter Katoen
+  verified: true
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
@@ -1080,10 +1090,10 @@
   place: Long Beach, CA
   program_chair: null
   year: 2026
-- abstract_deadline: null
+- abstract_deadline: '2026-06-04'
   acceptance_rate: null
   date: May 17-20, 2027
-  deadline: '2026-06-12'
+  deadline: '2026-06-11'
   description: IEEE Symposium on Security and Privacy
   general_chair: null
   link: https://www.ieee-security.org/TC/SP2027/
@@ -1093,11 +1103,12 @@
   num_submission: null
   place: San Francisco, CA
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: '2026-11-10'
   acceptance_rate: null
   date: May 17-20, 2027
-  deadline: '2026-11-18'
+  deadline: '2026-11-17'
   description: IEEE Symposium on Security and Privacy
   general_chair: null
   link: https://www.ieee-security.org/TC/SP2027/
@@ -1107,6 +1118,7 @@
   num_submission: null
   place: San Francisco, CA
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: '2025-01-16'
   acceptance_rate: null
@@ -1133,11 +1145,12 @@
   num_submission: null
   place: Montréal, Canada
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
   date: 22 to 26 March 2027
-  deadline: '2026-05-07'
+  deadline: '2026-05-06'
   description: Network and Distributed System Security Symposium
   general_chair: null
   link: https://www.ndss-symposium.org/ndss2027/
@@ -1147,11 +1160,12 @@
   num_submission: null
   place: Seoul, Republic of Korea
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
   date: 22 to 26 March 2027
-  deadline: '2026-08-06'
+  deadline: '2026-08-19'
   description: Network and Distributed System Security Symposium
   general_chair: null
   link: https://www.ndss-symposium.org/ndss2027/
@@ -1161,6 +1175,7 @@
   num_submission: null
   place: Seoul, Republic of Korea
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
@@ -1175,10 +1190,10 @@
   place: null
   program_chair: null
   year: 2027
-- abstract_deadline: null
+- abstract_deadline: '2026-01-30'
   acceptance_rate: null
   date: August 17 - 21, 2026
-  deadline: null
+  deadline: '2026-02-06'
   description: ACM Special Interest Group on Data Communication Conference
   general_chair: null
   link: https://conferences.sigcomm.org/sigcomm/2026/
@@ -1187,6 +1202,7 @@
   num_submission: null
   place: Denver, Colorado, USA
   program_chair: null
+  verified: true
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
@@ -1213,24 +1229,28 @@
   num_submission: null
   place: Athens, Greece
   program_chair: null
+  verified: true
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
   date: Mon 12 - Fri 16 July 2027
-  deadline: '2026-12-18'
+  deadline: '2026-10-02'
   description: Foundations of Software Engineering
   general_chair: null
   link: https://conf.researchr.org/home/fse-2027
   name: FSE
-  notification_date: '2027-03-05'
+  notification_date: '2027-03-31'
   num_submission: null
   place: Shenzhen, China
   program_chair: null
+  rebuttal_date: '2026-12-14'
+  series_link: https://conf.researchr.org/series/fse
+  verified: true
   year: 2027
-- abstract_deadline: '2026-05-08'
+- abstract_deadline: '2026-05-07'
   acceptance_rate: null
   date: April 19-23, 2027
-  deadline: '2026-05-15'
+  deadline: '2026-05-14'
   description: European Conference on Computer Systems
   general_chair: null
   link: https://2027.eurosys.org/
@@ -1240,11 +1260,12 @@
   num_submission: null
   place: Rabat, Morocco
   program_chair: null
+  verified: true
   year: 2027
-- abstract_deadline: '2026-09-18'
+- abstract_deadline: '2026-09-17'
   acceptance_rate: null
   date: April 19-23, 2027
-  deadline: '2026-09-25'
+  deadline: '2026-09-24'
   description: European Conference on Computer Systems
   general_chair: null
   link: https://2027.eurosys.org/
@@ -1254,6 +1275,7 @@
   num_submission: null
   place: Rabat, Morocco
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
@@ -1267,6 +1289,7 @@
   num_submission: null
   place: Budapest, Hungary
   program_chair: null
+  verified: true
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
@@ -1280,11 +1303,12 @@
   num_submission: null
   place: Pittsburgh, USA
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
   date: November 15-19, 2026
-  deadline: null
+  deadline: '2026-01-14'
   description: ACM Conference on Computer and Communications Security
   general_chair: null
   link: https://www.sigsac.org/ccs/CCS2026/
@@ -1293,6 +1317,7 @@
   num_submission: null
   place: The Hague, The Netherlands
   program_chair: null
+  verified: true
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
@@ -1307,6 +1332,7 @@
   num_submission: null
   place: Crete, Greece
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
@@ -1321,6 +1347,7 @@
   num_submission: null
   place: Crete, Greece
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
@@ -1361,11 +1388,12 @@
   num_submission: null
   place: Munich, Germany
   program_chair: Deming Chen
+  verified: true
   year: 2025
 - abstract_deadline: null
   acceptance_rate: null
   date: February 24-26, 2026
-  deadline: null
+  deadline: '2025-03-18'
   description: USENIX Conference on File and Storage Technologies
   general_chair: null
   link: https://fast.org/fast-legal-update-member-bulletin-january-2026/
@@ -1374,6 +1402,7 @@
   num_submission: null
   place: Santa Clara, CA, USA
   program_chair: null
+  verified: true
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
@@ -1387,6 +1416,7 @@
   num_submission: null
   place: Mexico City, Mexico
   program_chair: Sharon Shoham
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
@@ -1415,6 +1445,7 @@
   num_submission: null
   place: Huntington Beach, California, United States
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: '2026-04-10'
   acceptance_rate: null
@@ -1429,6 +1460,7 @@
   num_submission: null
   place: Huntington Beach, California, United States
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: '2026-07-10'
   acceptance_rate: null
@@ -1443,6 +1475,7 @@
   num_submission: null
   place: Huntington Beach, California, United States
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: '2026-10-10'
   acceptance_rate: null
@@ -1457,6 +1490,7 @@
   num_submission: null
   place: Huntington Beach, California, United States
   program_chair: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
@@ -1487,7 +1521,7 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: 19–23 July 2026
-  deadline: 15 January 2026
+  deadline: '2026-01-15'
   description: ACM Conference on Computer Graphics and Interactive Techniques
   general_chair: null
   link: https://s2026.siggraph.org/
@@ -1511,10 +1545,10 @@
   place: KLCC, Kuala Lumpur, Malaysia
   program_chair: null
   year: 2026
-- abstract_deadline: March 24, 2026
+- abstract_deadline: '2026-03-24'
   acceptance_rate: null
   date: November 2–5, 2026
-  deadline: March 31, 2026
+  deadline: '2026-03-31'
   description: ACM Symposium on User Interface Software and Technology
   general_chair: null
   link: https://uist.acm.org/2026/
@@ -1523,9 +1557,10 @@
   num_submission: null
   place: Detroit, MI
   program_chair: null
+  verified: true
   year: 2026
 - abstract_deadline: '2025-07-25'
-  acceptance_rate: null
+  acceptance_rate: 17.6
   date: '2026-01-20'
   deadline: '2025-08-01'
   description: AAAI Conference on Artificial Intelligence
@@ -1537,9 +1572,10 @@
   place: Singapore
   program_chair: Chad Jenkins, Matthew Taylor
   series_link: https://aaai.org/conference/aaai/
+  verified: true
   year: 2026
 - abstract_deadline: '2024-08-07'
-  acceptance_rate: null
+  acceptance_rate: 23.4
   date: '2025-02-27'
   deadline: '2024-08-15'
   description: AAAI Conference on Artificial Intelligence
@@ -1551,9 +1587,10 @@
   place: Philadelphia, PA
   program_chair: Julie Shah, Zico Kolter
   series_link: https://aaai.org/conference/aaai/
+  verified: true
   year: 2025
 - abstract_deadline: '2023-08-08'
-  acceptance_rate: null
+  acceptance_rate: 23.75
   date: '2024-02-20'
   deadline: '2023-08-15'
   description: AAAI Conference on Artificial Intelligence
@@ -1565,6 +1602,7 @@
   place: Vancouver, Canada
   program_chair: Jennifer Dy, Sriraam Natarajan
   series_link: https://aaai.org/conference/aaai/
+  verified: true
   year: 2024
 - abstract_deadline: '2022-08-08'
   acceptance_rate: null
@@ -1704,6 +1742,7 @@
   program_chair: Diego Calvanese
   rebuttal_date: '2026-04-07'
   series_link: https://www.ijcai.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2025-01-16'
   acceptance_rate: null
@@ -1718,9 +1757,10 @@
   place: Montreal, Canada
   program_chair: James Kwok
   series_link: https://www.ijcai.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-01-10'
-  acceptance_rate: null
+  acceptance_rate: 14.0
   date: '2024-08-03'
   deadline: '2024-01-17'
   description: International Joint Conference on Artificial Intelligence
@@ -1732,6 +1772,7 @@
   place: Jeju, South Korea
   program_chair: Kate Larson
   series_link: https://www.ijcai.org/
+  verified: true
   year: 2024
 - abstract_deadline: '2023-01-11'
   acceptance_rate: null
@@ -1748,7 +1789,7 @@
   series_link: https://www.ijcai.org/
   year: 2023
 - abstract_deadline: '2022-01-07'
-  acceptance_rate: null
+  acceptance_rate: 14.97
   date: '2022-07-23'
   deadline: '2022-01-14'
   description: International Joint Conference on Artificial Intelligence
@@ -1860,7 +1901,7 @@
   series_link: https://www.ijcai.org/
   year: 2015
 - abstract_deadline: '2025-11-06'
-  acceptance_rate: null
+  acceptance_rate: 25.42
   date: '2026-06-03'
   deadline: '2025-11-13'
   description: Conference on Computer Vision and Pattern Recognition
@@ -1873,6 +1914,7 @@
   program_chair: null
   rebuttal_date: '2026-01-22'
   series_link: https://cvpr.thecvf.com/
+  verified: true
   year: 2026
 - abstract_deadline: '2024-11-07'
   acceptance_rate: null
@@ -1888,9 +1930,10 @@
   program_chair: Phillip Isola, Hedvig Kjellström, Vincent Lepetit, Fuxin Li, Hao
     Su, Siyu Tang
   series_link: https://cvpr.thecvf.com/
+  verified: true
   year: 2025
 - abstract_deadline: '2023-11-03'
-  acceptance_rate: null
+  acceptance_rate: 23.58
   date: '2024-06-17'
   deadline: '2023-11-17'
   description: Conference on Computer Vision and Pattern Recognition
@@ -1904,9 +1947,10 @@
   program_chair: Zeynep Akata, David Crandall, Ali Farhadi, Robert Pless, Imari Sato,
     Jianxin Wu
   series_link: https://cvpr.thecvf.com/
+  verified: true
   year: 2024
 - abstract_deadline: '2022-11-04'
-  acceptance_rate: null
+  acceptance_rate: 25.78
   date: '2023-06-18'
   deadline: '2022-11-11'
   description: Conference on Computer Vision and Pattern Recognition
@@ -2047,9 +2091,10 @@
     Tombari
   rebuttal_date: '2026-05-11'
   series_link: https://eccv.ecva.net/
+  verified: true
   year: 2026
 - abstract_deadline: '2024-02-29'
-  acceptance_rate: null
+  acceptance_rate: 27.9
   date: '2024-09-29'
   deadline: '2024-03-07'
   description: European Conference on Computer Vision
@@ -2062,8 +2107,9 @@
   program_chair: Aleš Leonardis, Elisa Ricci, Stefan Roth, Olga Russakovsky, Torsten
     Sattler, Gül Varol
   series_link: https://eccv.ecva.net/
+  verified: true
   year: 2024
-- acceptance_rate: null
+- acceptance_rate: 28.34
   date: '2022-10-24'
   deadline: '2022-03-07'
   description: European Conference on Computer Vision
@@ -2197,7 +2243,7 @@
   series_link: https://iccv.thecvf.com/
   year: 2025
 - abstract_deadline: '2023-03-01'
-  acceptance_rate: null
+  acceptance_rate: 26.15
   date: '2023-10-02'
   deadline: '2023-03-08'
   description: International Conference on Computer Vision
@@ -2267,10 +2313,10 @@
   program_chair: Katsushi Ikeuchi, Christoph Schnörr, Josef Sivic, Rene Vidal
   series_link: https://iccv.thecvf.com/
   year: 2015
-- abstract_deadline: '2026-01-23'
+- abstract_deadline: '2026-01-24'
   acceptance_rate: null
   date: '2026-07-06'
-  deadline: '2026-01-28'
+  deadline: '2026-01-29'
   description: International Conference on Machine Learning
   general_chair: null
   link: http://icml.cc/Conferences/FutureMeetings
@@ -2281,6 +2327,7 @@
   program_chair: null
   rebuttal_date: null
   series_link: https://icml.cc/
+  verified: true
   year: 2026
 - abstract_deadline: '2025-01-23'
   acceptance_rate: null
@@ -2294,8 +2341,9 @@
   place: Vancouver, Canada
   program_chair: Maryam Fazel, Daniel Hsu, Simon Lacoste-Julien, Virginia Smith
   series_link: https://icml.cc/
+  verified: true
   year: 2025
-- acceptance_rate: null
+- acceptance_rate: 27.54
   date: '2024-07-21'
   deadline: '2024-02-01'
   description: International Conference on Machine Learning
@@ -2307,8 +2355,9 @@
   place: Vienna, Austria
   program_chair: Katherine Heller, Zico Kolter, Nuria Oliver, Adrian Weller
   series_link: https://icml.cc/
+  verified: true
   year: 2024
-- acceptance_rate: null
+- acceptance_rate: 27.94
   date: '2023-07-23'
   deadline: '2023-01-26'
   description: International Conference on Machine Learning
@@ -2429,7 +2478,7 @@
   series_link: https://icml.cc/
   year: 2015
 - abstract_deadline: '2025-09-19'
-  acceptance_rate: null
+  acceptance_rate: 26.97
   date: '2026-04-23'
   deadline: '2025-09-24'
   description: International Conference on Learning Representations
@@ -2442,9 +2491,10 @@
   program_chair: TBD
   rebuttal_date: '2025-11-11'
   series_link: https://iclr.cc/
+  verified: true
   year: 2026
 - abstract_deadline: '2024-09-24'
-  acceptance_rate: null
+  acceptance_rate: 31.73
   date: '2025-04-24'
   deadline: '2024-10-01'
   description: International Conference on Learning Representations
@@ -2456,9 +2506,10 @@
   place: Singapore
   program_chair: Animesh Garg, Nanyun (Violet) Peng, Fei Sha
   series_link: https://iclr.cc/
+  verified: true
   year: 2025
 - abstract_deadline: '2023-09-23'
-  acceptance_rate: null
+  acceptance_rate: 30.81
   date: '2024-05-07'
   deadline: '2023-09-28'
   description: International Conference on Learning Representations
@@ -2470,6 +2521,7 @@
   program_chair: Swarat Chaudhuri, Katerina Fragkiadaki, Mohammad Emtiyaz Khan, Yizhou
     Sun
   series_link: https://iclr.cc/
+  verified: true
   year: 2024
 - abstract_deadline: '2022-09-21'
   acceptance_rate: null
@@ -2768,10 +2820,10 @@
   program_chair: Thorsten Joachims, Geoff Webb
   series_link: https://kdd.org/
   year: 2015
-- abstract_deadline: '2026-05-04'
+- abstract_deadline: '2026-05-05'
   acceptance_rate: null
   date: '2026-12-06'
-  deadline: '2026-05-06'
+  deadline: '2026-05-07'
   description: Neural Information Processing Systems
   general_chair: null
   link: https://neurips.cc/Conferences/2026
@@ -2781,6 +2833,7 @@
   place: Multiple Cities
   program_chair: null
   series_link: https://neurips.cc/
+  verified: true
   year: 2026
 - abstract_deadline: '2025-05-11'
   acceptance_rate: null
@@ -2795,9 +2848,10 @@
   place: San Diego, CA
   program_chair: Nancy Chen, Marzyeh Ghassemi, Piotr Koniusz, Razvan Pascanu
   series_link: https://neurips.cc/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-05-15'
-  acceptance_rate: null
+  acceptance_rate: 25.76
   date: '2024-12-10'
   deadline: '2024-05-22'
   description: Neural Information Processing Systems
@@ -2809,9 +2863,10 @@
   place: Vancouver, Canada
   program_chair: Angela Fan, Ulrich Paquet, Jakub Tomczak, Cheng Zhang
   series_link: https://neurips.cc/
+  verified: true
   year: 2024
 - abstract_deadline: '2023-05-11'
-  acceptance_rate: null
+  acceptance_rate: 26.07
   date: '2023-12-10'
   deadline: '2023-05-17'
   description: Neural Information Processing Systems
@@ -2933,15 +2988,16 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: '2026-07-02'
-  deadline: null
+  deadline: '2026-01-05'
   description: Annual Meeting of the Association for Computational Linguistics
   general_chair: null
   link: https://2026.aclweb.org/
   name: ACL
   note: null
   num_submission: null
-  place: null
+  place: San Diego, California, United States
   program_chair: null
+  verified: true
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
@@ -2955,9 +3011,10 @@
   num_submission: null
   place: Vienna, Austria
   program_chair: Wanxiang Che, Joyce Nabende, Mohammad Taher Pilehvar, Ekaterina Shutova
+  verified: true
   year: 2025
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 21.4
   date: '2024-08-11'
   deadline: '2024-02-15'
   description: Annual Meeting of the Association for Computational Linguistics
@@ -2968,9 +3025,10 @@
   num_submission: null
   place: Bangkok, Thailand
   program_chair: Lun-Wei Ku, André Martins, Vivek Srikumar
+  verified: true
   year: 2024
 - abstract_deadline: '2023-01-13'
-  acceptance_rate: null
+  acceptance_rate: 23.5
   date: '2023-07-09'
   deadline: '2023-01-20'
   description: Annual Meeting of the Association for Computational Linguistics
@@ -3087,6 +3145,7 @@
   place: Suzhou, China
   program_chair: Christos Christodoulopoulos, Tanmoy Chakraborty, Carolyn Rose, Violet
     Peng
+  verified: true
   year: 2025
 - abstract_deadline: null
   acceptance_rate: null
@@ -3100,9 +3159,10 @@
   num_submission: null
   place: Miami, FL
   program_chair: Mohit Bansal, Yun-Nung (Vivian) Chen, Yaser Alonaizan
+  verified: true
   year: 2024
 - abstract_deadline: '2023-06-16'
-  acceptance_rate: null
+  acceptance_rate: 21.33
   date: '2023-12-06'
   deadline: '2023-06-23'
   description: Empirical Methods in Natural Language Processing
@@ -3115,7 +3175,7 @@
   program_chair: Houda Bouamor, Juan Pino, Kalika Bali
   year: 2023
 - abstract_deadline: '2022-06-10'
-  acceptance_rate: null
+  acceptance_rate: 22.05
   date: '2022-12-07'
   deadline: '2022-06-17'
   description: Empirical Methods in Natural Language Processing
@@ -3227,9 +3287,10 @@
   place: Albuquerque, NM
   program_chair: Lu Wang, Alan Ritter, Luis Chiruzzo
   series_link: https://naacl.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2023-12-08'
-  acceptance_rate: null
+  acceptance_rate: 23.21
   date: '2024-06-16'
   deadline: '2023-12-15'
   description: Annual Conference of the North American Chapter of the Association
@@ -3242,6 +3303,7 @@
   place: Mexico City, Mexico
   program_chair: Kevin Duh, Helena Gómez-Adorno, Steven Bethard
   series_link: https://naacl.org/
+  verified: true
   year: 2024
 - acceptance_rate: null
   date: '2022-07-10'
@@ -3344,9 +3406,10 @@
   place: Padua, Italy
   program_chair: Omar Alonso, Andrew Trotman, Suzan Verberne
   series_link: https://sigir.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-01-18'
-  acceptance_rate: null
+  acceptance_rate: 20.23
   date: '2024-07-14'
   deadline: '2024-01-25'
   description: International ACM SIGIR Conference on Research and Development in Information
@@ -3359,9 +3422,10 @@
   place: Washington, DC
   program_chair: Claudia Hauff, Guido Zuccon, Yi Zhang
   series_link: https://sigir.org/
+  verified: true
   year: 2024
 - abstract_deadline: '2023-01-24'
-  acceptance_rate: null
+  acceptance_rate: 20.07
   date: '2023-07-23'
   deadline: '2023-01-31'
   description: International ACM SIGIR Conference on Research and Development in Information
@@ -3494,6 +3558,7 @@
   place: Dubai, United Arab Emirates
   program_chair: null
   rebuttal_date: '2025-11-24'
+  verified: true
   year: 2026
 - abstract_deadline: '2024-10-07'
   acceptance_rate: null
@@ -3507,9 +3572,10 @@
   num_submission: null
   place: Singapore
   program_chair: null
+  verified: true
   year: 2025
 - abstract_deadline: '2023-10-05'
-  acceptance_rate: null
+  acceptance_rate: 20.17
   date: '2024-05-13'
   deadline: '2023-10-12'
   description: The Web Conference (formerly International World Wide Web Conference)
@@ -3520,9 +3586,10 @@
   num_submission: null
   place: Singapore
   program_chair: null
+  verified: true
   year: 2024
 - abstract_deadline: '2022-10-06'
-  acceptance_rate: null
+  acceptance_rate: 19.21
   date: '2023-04-30'
   deadline: '2022-10-13'
   description: The Web Conference (formerly International World Wide Web Conference)
@@ -3664,6 +3731,7 @@
   notification_date: '2024-06-10'
   num_submission: null
   place: Rotterdam, Netherlands
+  verified: true
   year: 2025
 - abstract_deadline: '2024-06-17'
   acceptance_rate: null
@@ -3676,6 +3744,7 @@
   notification_date: '2024-10-02'
   num_submission: null
   place: Rotterdam, Netherlands
+  verified: true
   year: 2025
 - acceptance_rate: null
   date: '2025-03-30'
@@ -3687,6 +3756,7 @@
   notification_date: '2025-01-27'
   num_submission: null
   place: Rotterdam, Netherlands
+  verified: true
   year: 2025
 - acceptance_rate: null
   date: '2024-04-27'
@@ -3720,7 +3790,7 @@
   place: San Diego, CA
   year: 2024
 - abstract_deadline: '2022-03-24'
-  acceptance_rate: null
+  acceptance_rate: 25.25
   date: '2023-03-25'
   deadline: '2022-03-31'
   description: Architectural Support for Programming Languages and Operating Systems
@@ -3839,7 +3909,7 @@
   series_link: https://www.isca.org/
   year: 2024
 - abstract_deadline: '2022-11-14'
-  acceptance_rate: null
+  acceptance_rate: 21.24
   date: '2023-06-17'
   deadline: '2022-11-21'
   description: International Symposium on Computer Architecture
@@ -3960,9 +4030,10 @@
   place: Seoul, South Korea
   program_chair: Minsoo Rhu, Radu Teodorescu
   series_link: https://micro.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-04-11'
-  acceptance_rate: null
+  acceptance_rate: 23.3
   date: '2024-11-02'
   deadline: '2024-04-18'
   description: IEEE/ACM International Symposium on Microarchitecture
@@ -3976,7 +4047,7 @@
   series_link: https://micro.org/
   year: 2024
 - abstract_deadline: '2023-04-21'
-  acceptance_rate: null
+  acceptance_rate: 23.27
   date: '2023-10-28'
   deadline: '2023-04-28'
   description: IEEE/ACM International Symposium on Microarchitecture
@@ -3990,7 +4061,7 @@
   series_link: https://micro.org/
   year: 2023
 - abstract_deadline: '2022-04-14'
-  acceptance_rate: null
+  acceptance_rate: 23.85
   date: '2022-10-01'
   deadline: '2022-04-21'
   description: IEEE/ACM International Symposium on Microarchitecture
@@ -4100,6 +4171,7 @@
   place: Sydney, NSW, Australia
   program_chair: null
   series_link: https://hpca.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2024-07-26'
   acceptance_rate: null
@@ -4130,7 +4202,7 @@
   series_link: https://hpca.org/
   year: 2024
 - abstract_deadline: '2022-07-25'
-  acceptance_rate: null
+  acceptance_rate: 25.28
   date: '2023-02-25'
   deadline: '2022-08-01'
   description: IEEE International Symposium on High-Performance Computer Architecture
@@ -4254,9 +4326,10 @@
   place: Coimbra, Portugal
   program_chair: null
   series_link: https://www.sigcomm.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-01-26'
-  acceptance_rate: null
+  acceptance_rate: 16.94
   date: '2024-08-04'
   deadline: '2024-02-02'
   description: ACM Special Interest Group on Data Communication Conference
@@ -4268,6 +4341,7 @@
   place: Sydney, Australia
   program_chair: null
   series_link: https://www.sigcomm.org/
+  verified: true
   year: 2024
 - abstract_deadline: '2023-02-08'
   acceptance_rate: null
@@ -4284,7 +4358,7 @@
   series_link: https://www.sigcomm.org/
   year: 2023
 - abstract_deadline: '2022-01-26'
-  acceptance_rate: null
+  acceptance_rate: 19.71
   date: '2022-08-22'
   deadline: '2022-02-02'
   description: ACM Special Interest Group on Data Communication Conference
@@ -4392,9 +4466,10 @@
   num_submission: null
   place: Philadelphia, PA
   program_chair: null
+  verified: true
   year: 2025
 - abstract_deadline: '2023-04-27'
-  acceptance_rate: null
+  acceptance_rate: 18.64
   date: '2024-04-16'
   deadline: '2023-05-04'
   description: USENIX Symposium on Networked Systems Design and Implementation
@@ -4405,6 +4480,7 @@
   num_submission: null
   place: Santa Clara, CA
   program_chair: null
+  verified: true
   year: 2024
 - abstract_deadline: '2022-09-13'
   acceptance_rate: null
@@ -4433,7 +4509,7 @@
   program_chair: null
   year: 2023
 - abstract_deadline: '2021-09-09'
-  acceptance_rate: null
+  acceptance_rate: 19.4
   date: '2022-04-04'
   deadline: '2021-09-15'
   description: USENIX Symposium on Networked Systems Design and Implementation
@@ -4446,7 +4522,7 @@
   program_chair: null
   year: 2022
 - abstract_deadline: '2021-03-04'
-  acceptance_rate: null
+  acceptance_rate: 19.4
   date: '2022-04-04'
   deadline: '2021-03-10'
   description: USENIX Symposium on Networked Systems Design and Implementation
@@ -4689,7 +4765,7 @@
   program_chair: null
   series_link: https://ccs.org/
   year: 2022
-- acceptance_rate: null
+- acceptance_rate: 22.27
   date: '2021-11-15'
   deadline: '2021-03-06'
   description: ACM Conference on Computer and Communications Security
@@ -4703,7 +4779,7 @@
   program_chair: null
   series_link: https://ccs.org/
   year: 2021
-- acceptance_rate: null
+- acceptance_rate: 22.27
   date: '2021-11-15'
   deadline: '2021-01-20'
   description: ACM Conference on Computer and Communications Security
@@ -4853,6 +4929,7 @@
   num_submission: null
   place: San Francisco, CA
   program_chair: null
+  verified: true
   year: 2024
 - acceptance_rate: null
   date: '2024-05-20'
@@ -4866,6 +4943,7 @@
   num_submission: null
   place: San Francisco, CA
   program_chair: null
+  verified: true
   year: 2024
 - acceptance_rate: null
   date: '2024-05-20'
@@ -4879,6 +4957,7 @@
   num_submission: null
   place: San Francisco, CA
   program_chair: null
+  verified: true
   year: 2024
 - acceptance_rate: null
   date: '2023-05-22'
@@ -5142,6 +5221,7 @@
   num_submission: null
   place: Philadelphia, PA
   program_chair: Davide Balzarotti, Wenyuan Xu
+  verified: true
   year: 2024
 - acceptance_rate: null
   date: '2024-08-14'
@@ -5195,7 +5275,7 @@
   place: Anaheim, CA
   program_chair: Joe Calandrino, Carmela Troncoso
   year: 2023
-- acceptance_rate: null
+- acceptance_rate: 18.1
   date: '2022-08-10'
   deadline: '2022-02-01'
   description: USENIX Security Symposium
@@ -5208,7 +5288,7 @@
   place: Boston, MA
   program_chair: Kevin Butler, Kurt Thomas
   year: 2022
-- acceptance_rate: null
+- acceptance_rate: 18.1
   date: '2022-08-10'
   deadline: '2021-10-12'
   description: USENIX Security Symposium
@@ -5221,7 +5301,7 @@
   place: Boston, MA
   program_chair: Kevin Butler, Kurt Thomas
   year: 2022
-- acceptance_rate: null
+- acceptance_rate: 18.1
   date: '2022-08-10'
   deadline: '2021-06-08'
   description: USENIX Security Symposium
@@ -5390,7 +5470,7 @@
   place: Austin, TX
   program_chair: Thorsten Holz, Stefan Savage
   year: 2016
-- abstract_deadline: null
+- abstract_deadline: '2025-07-30'
   acceptance_rate: null
   date: '2026-02-23'
   deadline: '2025-08-06'
@@ -5405,7 +5485,7 @@
   program_chair: Hamed Okhravi, Ivan Martinovic
   series_link: https://ndss.org/
   year: 2026
-- abstract_deadline: null
+- abstract_deadline: '2025-04-16'
   acceptance_rate: null
   date: '2026-02-23'
   deadline: '2025-04-23'
@@ -5476,7 +5556,7 @@
   program_chair: Wenyuan Xu, Mathias Payer
   series_link: https://ndss.org/
   year: 2023
-- acceptance_rate: null
+- acceptance_rate: 16.18
   date: '2022-02-21'
   deadline: '2021-07-23'
   description: Network and Distributed System Security Symposium
@@ -5490,7 +5570,7 @@
   program_chair: Farinaz Koushanfar, Wenyuan Xu
   series_link: https://ndss.org/
   year: 2022
-- acceptance_rate: null
+- acceptance_rate: 16.18
   date: '2022-02-21'
   deadline: '2021-05-21'
   description: Network and Distributed System Security Symposium
@@ -5629,6 +5709,7 @@
   place: Bengaluru, India
   program_chair: Carsten Binnig, Sudeepa Roy
   series_link: https://sigmod.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2025-04-10'
   date: '2026-05-31'
@@ -5642,6 +5723,7 @@
   place: Bengaluru, India
   program_chair: Carsten Binnig, Sudeepa Roy
   series_link: https://sigmod.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2025-07-10'
   date: '2026-05-31'
@@ -5655,6 +5737,7 @@
   place: Bengaluru, India
   program_chair: Carsten Binnig, Sudeepa Roy
   series_link: https://sigmod.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2025-10-10'
   date: '2026-05-21'
@@ -5668,6 +5751,7 @@
   place: Bengaluru, India
   program_chair: Carsten Binnig, Sudeepa Roy
   series_link: https://sigmod.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2024-01-10'
   date: '2025-06-22'
@@ -5679,6 +5763,7 @@
   notification_date: '2024-02-29'
   place: Berlin, Germany
   series_link: https://sigmod.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-04-10'
   date: '2025-06-22'
@@ -5701,8 +5786,10 @@
   notification_date: '2024-08-29'
   place: Berlin, Germany
   series_link: https://sigmod.org/
+  verified: true
   year: 2025
-- date: '2024-06-09'
+- acceptance_rate: 27.73
+  date: '2024-06-09'
   deadline: '2023-10-15'
   description: ACM SIGMOD International Conference on Management of Data
   link: https://2024.sigmod.org/
@@ -5712,7 +5799,8 @@
   place: Santiago, Chile
   series_link: https://sigmod.org/
   year: 2024
-- date: '2024-09-20'
+- acceptance_rate: 27.73
+  date: '2024-09-20'
   deadline: '2023-07-15'
   description: ACM SIGMOD International Conference on Management of Data
   link: https://2024.sigmod.org/
@@ -5722,7 +5810,8 @@
   place: Santiago, Chile
   series_link: https://sigmod.org/
   year: 2024
-- date: '2024-06-09'
+- acceptance_rate: 27.73
+  date: '2024-06-09'
   deadline: '2023-04-15'
   description: ACM SIGMOD International Conference on Management of Data
   link: https://2024.sigmod.org/
@@ -5732,7 +5821,8 @@
   place: Santiago, Chile
   series_link: https://sigmod.org/
   year: 2024
-- date: '2024-06-09'
+- acceptance_rate: 27.73
+  date: '2024-06-09'
   deadline: '2023-01-15'
   description: ACM SIGMOD International Conference on Management of Data
   link: https://2024.sigmod.org/
@@ -5742,7 +5832,8 @@
   place: Santiago, Chile
   series_link: https://sigmod.org/
   year: 2024
-- date: '2023-06-18'
+- acceptance_rate: 28.18
+  date: '2023-06-18'
   deadline: '2022-04-15'
   description: ACM SIGMOD International Conference on Management of Data
   link: https://2023.sigmod.org/
@@ -5752,7 +5843,8 @@
   place: Seattle, WA
   series_link: https://sigmod.org/
   year: 2023
-- date: '2023-06-18'
+- acceptance_rate: 28.18
+  date: '2023-06-18'
   deadline: '2022-07-15'
   description: ACM SIGMOD International Conference on Management of Data
   link: https://2023.sigmod.org/
@@ -5762,7 +5854,8 @@
   place: Seattle, WA
   series_link: https://sigmod.org/
   year: 2023
-- date: '2023-06-18'
+- acceptance_rate: 28.18
+  date: '2023-06-18'
   deadline: '2022-10-15'
   description: ACM SIGMOD International Conference on Management of Data
   link: https://2023.sigmod.org/
@@ -5932,6 +6025,7 @@
   year: 2015
 - acceptance_rate: null
   date: '2026-08-31'
+  deadline: '2025-04-01'
   description: International Conference on Very Large Data Bases
   link: https://vldb.org/2026/
   name: VLDB
@@ -5944,6 +6038,7 @@
     notification_month_offset: 1
     start: '2025-04-01'
     submission_day: 1
+  verified: true
   year: 2026
 - acceptance_rate: null
   date: '2025-09-01'
@@ -5960,7 +6055,7 @@
     submission_day: 1
   year: 2025
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 19.49
   date: '2024-08-26'
   deadline: '2024-03-01'
   description: International Conference on Very Large Data Bases
@@ -5972,7 +6067,7 @@
   place: Guangzhou, China
   year: 2024
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 24.77
   date: '2023-08-28'
   deadline: '2023-03-01'
   description: International Conference on Very Large Data Bases
@@ -6082,7 +6177,7 @@
 - abstract_deadline: null
   acceptance_rate: null
   date: '2026-05-04'
-  deadline: 2025-06-18
+  deadline: '2025-06-18'
   description: IEEE International Conference on Data Engineering
   general_chair: Fei Chiang, Essam Mansour
   link: https://icde2026.github.io
@@ -6092,11 +6187,12 @@
   num_submission: null
   place: Montreal, Canada
   program_chair: Khuzaima Daudjee, Qiong Luo, Alkis Simitsis
+  verified: true
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
   date: '2026-05-04'
-  deadline: 2025-10-27
+  deadline: '2025-10-27'
   description: IEEE International Conference on Data Engineering
   general_chair: Fei Chiang, Essam Mansour
   link: https://icde2026.github.io
@@ -6106,6 +6202,7 @@
   num_submission: null
   place: Montreal, Canada
   program_chair: Khuzaima Daudjee, Qiong Luo, Alkis Simitsis
+  verified: true
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
@@ -6120,6 +6217,7 @@
   num_submission: null
   place: Hong Kong SAR, China
   program_chair: Angela Bonifati, Wenjie Zhang, Hans-Arno Jacobsen
+  verified: true
   year: 2025
 - abstract_deadline: null
   acceptance_rate: null
@@ -6134,9 +6232,10 @@
   num_submission: null
   place: Hong Kong SAR, China
   program_chair: Angela Bonifati, Wenjie Zhang, Hans-Arno Jacobsen
+  verified: true
   year: 2025
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 25.39
   date: 2024-05-13
   deadline: '2023-07-28'
   description: IEEE International Conference on Data Engineering
@@ -6148,9 +6247,10 @@
   num_submission: null
   place: Utrecht, Netherlands
   program_chair: Gautam Das, Timos Sellis, BingSheng He
+  verified: true
   year: 2024
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 25.39
   date: 2024-05-13
   deadline: '2023-12-03'
   description: IEEE International Conference on Data Engineering
@@ -6162,9 +6262,10 @@
   num_submission: null
   place: Utrecht, Netherlands
   program_chair: Gautam Das, Timos Sellis, BingSheng He
+  verified: true
   year: 2024
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 30.61
   date: '2023-04-03'
   deadline: 2022-04-25
   description: IEEE International Conference on Data Engineering
@@ -6178,7 +6279,7 @@
   program_chair: Lei Chen, Stefan Manegold, Sharad Mehrotra
   year: 2023
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 30.61
   date: '2023-04-03'
   deadline: 2022-07-08
   description: IEEE International Conference on Data Engineering
@@ -6192,7 +6293,7 @@
   program_chair: Lei Chen, Stefan Manegold, Sharad Mehrotra
   year: 2023
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 30.61
   date: '2023-04-03'
   deadline: 2022-10-08
   description: IEEE International Conference on Data Engineering
@@ -6206,7 +6307,7 @@
   program_chair: Lei Chen, Stefan Manegold, Sharad Mehrotra
   year: 2023
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 27.05
   date: '2022-05-09'
   deadline: 2021-07-21
   description: IEEE International Conference on Data Engineering
@@ -6220,7 +6321,7 @@
   program_chair: Gao Cong, Stratos Idreos, Feifei Li
   year: 2022
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 27.05
   date: '2022-05-09'
   deadline: 2021-11-19
   description: IEEE International Conference on Data Engineering
@@ -6385,6 +6486,7 @@
   place: Berlin, Germany
   program_chair: null
   series_link: https://pods.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-12-02'
   acceptance_rate: null
@@ -6400,6 +6502,7 @@
   place: Berlin, Germany
   program_chair: null
   series_link: https://pods.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2023-06-06'
   acceptance_rate: null
@@ -6697,6 +6800,7 @@
   place: San Francisco, CA
   program_chair: null
   series_link: https://dac.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2023-11-13'
   acceptance_rate: null
@@ -6711,6 +6815,7 @@
   place: San Francisco, CA
   program_chair: null
   series_link: https://dac.org/
+  verified: true
   year: 2024
 - abstract_deadline: null
   acceptance_rate: null
@@ -6837,6 +6942,7 @@
   place: New York, NY
   program_chair: null
   series_link: https://2025.iccad.com/
+  verified: true
   year: 2024
 - abstract_deadline: '2023-05-15'
   acceptance_rate: null
@@ -6977,6 +7083,7 @@
   place: Taipei, Taiwan
   program_chair: Jeronimo Castrillon, Christophe Dubach, Prabhat Mishra, Paul Bogdan,
     Martina Maggio, Borzoo Bonakdarpour
+  verified: true
   year: 2025
 - abstract_deadline: '2023-03-16'
   acceptance_rate: null
@@ -7120,6 +7227,7 @@
   num_submission: null
   place: Hong Kong
   program_chair: Benny Akesson
+  verified: true
   year: 2024
 - abstract_deadline: null
   acceptance_rate: null
@@ -7135,7 +7243,7 @@
   program_chair: Iain Bate
   year: 2023
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 24.18
   date: '2022-05-04'
   deadline: '2021-10-29'
   description: IEEE Real-Time and Embedded Technology and Applications Symposium
@@ -7250,6 +7358,7 @@
   num_submission: null
   place: Boston, MA
   program_chair: Björn Brandenburg
+  verified: true
   year: 2025
 - abstract_deadline: null
   acceptance_rate: null
@@ -7278,7 +7387,7 @@
   program_chair: Insik Shin
   year: 2023
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 28.91
   date: '2022-12-05'
   deadline: '2022-05-26'
   description: IEEE Real-Time Systems Symposium
@@ -7535,9 +7644,10 @@
   place: Austin, Texas, USA
   program_chair: Mahesh Marina, Fan Bai
   rebuttal_date: '2026-11-11'
+  verified: true
   year: 2026
 - abstract_deadline: '2023-08-18'
-  acceptance_rate: null
+  acceptance_rate: 19.1
   date: '2024-11-18'
   deadline: '2023-08-25'
   description: ACM International Conference on Mobile Computing and Networking
@@ -7549,9 +7659,10 @@
   num_submission: null
   place: Washington, D.C., USA
   program_chair: null
+  verified: true
   year: 2024
 - abstract_deadline: '2024-03-08'
-  acceptance_rate: null
+  acceptance_rate: 19.1
   date: '2024-11-18'
   deadline: '2024-03-15'
   description: ACM International Conference on Mobile Computing and Networking
@@ -7662,7 +7773,7 @@
   program_chair: null
   year: 2020
 - abstract_deadline: '2019-03-15'
-  acceptance_rate: null
+  acceptance_rate: 18.97
   date: '2019-10-21'
   deadline: '2019-03-22'
   description: ACM International Conference on Mobile Computing and Networking
@@ -7740,9 +7851,10 @@
   place: Cambridge, UK
   program_chair: Fadel Adib, Youngki Lee
   rebuttal_date: '2026-02-09'
+  verified: true
   year: 2026
 - abstract_deadline: '2024-12-02'
-  acceptance_rate: null
+  acceptance_rate: 18.03
   date: '2025-06-23'
   deadline: '2024-12-09'
   description: ACM International Conference on Mobile Systems, Applications, and Services
@@ -7755,7 +7867,7 @@
   program_chair: Swarun Kumar, Przemysław Pawełczak
   year: 2025
 - abstract_deadline: '2023-11-23'
-  acceptance_rate: null
+  acceptance_rate: 16.35
   date: '2024-06-04'
   deadline: '2023-11-30'
   description: ACM International Conference on Mobile Systems, Applications, and Services
@@ -7885,7 +7997,7 @@
   program_chair: Marco Gruteser, Jason Hong
   year: 2015
 - abstract_deadline: '2024-07-31'
-  acceptance_rate: null
+  acceptance_rate: 17.28
   date: '2025-06-09'
   deadline: '2024-08-07'
   description: ACM SIGMETRICS / IFIP Performance Conference
@@ -7898,9 +8010,10 @@
   place: Stony Brook, NY, USA
   program_chair: Sewoong Oh, Ramesh Sitaraman, Benny Van Houdt
   series_link: https://sigmetrics.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-10-02'
-  acceptance_rate: null
+  acceptance_rate: 17.28
   date: '2025-06-09'
   deadline: '2024-10-09'
   description: ACM SIGMETRICS / IFIP Performance Conference
@@ -7913,9 +8026,10 @@
   place: Stony Brook, NY, USA
   program_chair: Sewoong Oh, Ramesh Sitaraman, Benny Van Houdt
   series_link: https://sigmetrics.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2025-01-15'
-  acceptance_rate: null
+  acceptance_rate: 17.28
   date: '2025-06-09'
   deadline: '2025-01-22'
   description: ACM SIGMETRICS / IFIP Performance Conference
@@ -7928,9 +8042,10 @@
   place: Stony Brook, NY, USA
   program_chair: Sewoong Oh, Ramesh Sitaraman, Benny Van Houdt
   series_link: https://sigmetrics.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2023-08-02'
-  acceptance_rate: null
+  acceptance_rate: 15.48
   date: '2024-06-10'
   deadline: '2023-08-09'
   description: ACM SIGMETRICS / IFIP Performance Conference
@@ -7945,7 +8060,7 @@
   series_link: https://sigmetrics.org/
   year: 2024
 - abstract_deadline: '2023-10-04'
-  acceptance_rate: null
+  acceptance_rate: 15.48
   date: '2024-06-10'
   deadline: '2023-10-11'
   description: ACM SIGMETRICS / IFIP Performance Conference
@@ -7960,7 +8075,7 @@
   series_link: https://sigmetrics.org/
   year: 2024
 - abstract_deadline: '2024-01-24'
-  acceptance_rate: null
+  acceptance_rate: 15.48
   date: '2024-06-10'
   deadline: '2024-01-31'
   description: ACM SIGMETRICS / IFIP Performance Conference
@@ -8315,6 +8430,7 @@
   place: Boston, MA, USA
   program_chair: Lidong Zhou, Yuanyuan Zhou
   series_link: https://osdi.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2023-11-30'
   acceptance_rate: null
@@ -8329,9 +8445,10 @@
   place: Santa Clara, CA, USA
   program_chair: Ada Gavrilovska, Douglas B. Terry
   series_link: https://osdi.org/
+  verified: true
   year: 2024
 - abstract_deadline: '2022-12-06'
-  acceptance_rate: null
+  acceptance_rate: 19.61
   date: '2023-07-10'
   deadline: '2022-12-13'
   description: USENIX Symposium on Operating Systems Design and Implementation
@@ -8427,9 +8544,10 @@
   place: Prague, Czech Republic
   program_chair: Angela Demke Brown, Shan Lu
   series_link: https://sosp.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2025-04-10'
-  acceptance_rate: null
+  acceptance_rate: 17.66
   date: '2025-10-13'
   deadline: '2025-04-17'
   description: ACM Symposium on Operating Systems Principles
@@ -8441,6 +8559,7 @@
   place: Seoul, Republic of Korea
   program_chair: Rebecca Isaacs, Ding Yuan
   series_link: https://sosp.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-04-12'
   acceptance_rate: null
@@ -8455,6 +8574,7 @@
   place: Austin, TX, USA
   program_chair: Andrea Arpaci-Dusseau, Kimberly Keeton
   series_link: https://sosp.org/
+  verified: true
   year: 2024
 - abstract_deadline: '2023-04-10'
   acceptance_rate: null
@@ -8471,7 +8591,7 @@
   series_link: https://sosp.org/
   year: 2023
 - abstract_deadline: '2021-04-30'
-  acceptance_rate: null
+  acceptance_rate: 15.52
   date: '2021-10-25'
   deadline: '2021-05-07'
   description: ACM Symposium on Operating Systems Principles
@@ -8540,6 +8660,7 @@
   place: Edinburgh, Scotland
   program_chair: Roxana Geambasu, Peter Pietzuch
   series_link: https://www.eurosys.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2025-09-18'
   acceptance_rate: null
@@ -8556,6 +8677,7 @@
   program_chair: Roxana Geambasu, Peter Pietzuch
   rebuttal_date: '2026-01-09'
   series_link: https://www.eurosys.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2024-05-14'
   acceptance_rate: null
@@ -8571,6 +8693,7 @@
   place: Rotterdam, Netherlands
   program_chair: Julia Lawall, Haibo Chen
   series_link: https://www.eurosys.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-10-15'
   acceptance_rate: null
@@ -8586,6 +8709,7 @@
   place: Rotterdam, Netherlands
   program_chair: Julia Lawall, Haibo Chen
   series_link: https://www.eurosys.org/
+  verified: true
   year: 2025
 - abstract_deadline: null
   acceptance_rate: null
@@ -8616,6 +8740,7 @@
   place: Athens, Greece
   program_chair: Bianca Schroeder, Mark Silberstein
   series_link: https://www.eurosys.org/
+  verified: true
   year: 2024
 - abstract_deadline: '2022-05-11'
   acceptance_rate: null
@@ -8648,7 +8773,7 @@
   series_link: https://www.eurosys.org/
   year: 2023
 - abstract_deadline: '2021-10-01'
-  acceptance_rate: null
+  acceptance_rate: 27.95
   date: '2022-04-05'
   deadline: '2021-10-09'
   description: European Conference on Computer Systems
@@ -8772,6 +8897,7 @@
   place: Santa Clara, CA, USA
   program_chair: Haryadi Gunawi, Vasily Tarasov
   series_link: https://fast.org/
+  verified: true
   year: 2025
 - abstract_deadline: null
   acceptance_rate: null
@@ -8786,6 +8912,7 @@
   place: Santa Clara, CA, USA
   program_chair: Xiaosong Ma, Youjip Won
   series_link: https://fast.org/
+  verified: true
   year: 2024
 - abstract_deadline: null
   acceptance_rate: null
@@ -8802,7 +8929,7 @@
   series_link: https://fast.org/
   year: 2023
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 21.54
   date: '2022-02-22'
   deadline: '2021-09-23'
   description: USENIX Conference on File and Storage Technologies
@@ -8883,6 +9010,7 @@
   num_submission: null
   place: Boston, MA, USA
   program_chair: Deniz Altınbüken, Ryan Stutsman
+  verified: true
   year: 2025
 - abstract_deadline: '2024-01-09'
   acceptance_rate: null
@@ -8896,6 +9024,7 @@
   num_submission: null
   place: Santa Clara, CA, USA
   program_chair: Saurabh Bagchi, Yiying Zhang
+  verified: true
   year: 2024
 - abstract_deadline: '2023-01-05'
   acceptance_rate: null
@@ -8924,7 +9053,7 @@
   program_chair: Jiri Schindler, Noa Zilberman
   year: 2022
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 18.77
   date: '2021-07-14'
   deadline: '2021-01-12'
   description: USENIX Annual Technical Conference
@@ -9026,6 +9155,7 @@
   num_submission: null
   place: Munich, Germany
   program_chair: Shiva Nejati, Justyna Petke
+  verified: true
   year: 2026
 - acceptance_rate: null
   date: '2025-11-16'
@@ -9039,6 +9169,7 @@
   num_submission: null
   place: Seoul, Korea
   program_chair: Marchel Bohme, Lingming Zhang
+  verified: true
   year: 2025
 - abstract_deadline: '2024-05-31'
   acceptance_rate: null
@@ -9053,6 +9184,7 @@
   num_submission: null
   place: Sacramento, CA
   program_chair: Baishakhi Ray, Minghui Zhou
+  verified: true
   year: 2024
 - abstract_deadline: '2023-04-28'
   acceptance_rate: null
@@ -9069,7 +9201,7 @@
   program_chair: :Christian Bird, Federica Sarro
   year: 2023
 - abstract_deadline: '2022-04-29'
-  acceptance_rate: null
+  acceptance_rate: 21.85
   date: '2022-10-10'
   deadline: '2022-05-06'
   description: Automated Software Engineering
@@ -9164,6 +9296,8 @@
   num_submission: null
   place: Montreal, Canada
   program_chair: Julia Lawall, Christoph Treude
+  series_link: https://conf.researchr.org/series/fse
+  verified: true
   year: 2026
 - acceptance_rate: null
   date: '2025-06-23'
@@ -9177,6 +9311,8 @@
   num_submission: null
   place: Trondheim, Norway
   program_chair: Denys Poshyvanyk, Dongmei Zhang
+  series_link: https://conf.researchr.org/series/fse
+  verified: true
   year: 2025
 - acceptance_rate: null
   date: '2024-07-15'
@@ -9190,6 +9326,8 @@
   num_submission: null
   place: Porto de Galinhas, Brazil
   program_chair: David Lo, Lin Tan
+  series_link: https://conf.researchr.org/series/fse
+  verified: true
   year: 2024
 - abstract_deadline: '2023-01-26'
   acceptance_rate: null
@@ -9204,6 +9342,7 @@
   num_submission: null
   place: San Francisco, CA
   program_chair: Kelly Blincoe, Paolo Tonella
+  series_link: https://conf.researchr.org/series/fse
   year: 2023
 - abstract_deadline: '2022-03-10'
   acceptance_rate: null
@@ -9218,6 +9357,7 @@
   num_submission: null
   place: Singapore
   program_chair: Cristian Cadar, Miryung Kim
+  series_link: https://conf.researchr.org/series/fse
   year: 2022
 - acceptance_rate: 24.5%
   date: '2021-08-19'
@@ -9231,6 +9371,7 @@
   num_submission: 407
   place: Virtual
   program_chair: Marsha Chechik, Massimiliano Di Penta
+  series_link: https://conf.researchr.org/series/fse
   year: 2021
 - acceptance_rate: null
   date: '2020-11-06'
@@ -9244,6 +9385,7 @@
   num_submission: null
   place: Virtual
   program_chair: Myra Cohen, Thomas Zimmermann
+  series_link: https://conf.researchr.org/series/fse
   year: 2020
 - acceptance_rate: null
   date: '2019-08-26'
@@ -9257,6 +9399,7 @@
   num_submission: null
   place: Tallinn, Estonia
   program_chair: Sven Apel, Alessandra Russo
+  series_link: https://conf.researchr.org/series/fse
   year: 2019
 - acceptance_rate: null
   date: '2018-11-04'
@@ -9270,6 +9413,7 @@
   num_submission: null
   place: Lake Buena Vista, FL
   program_chair: Corina S. Păsăreanu, Alessandro Garcia
+  series_link: https://conf.researchr.org/series/fse
   year: 2018
 - acceptance_rate: null
   date: '2017-09-04'
@@ -9283,6 +9427,7 @@
   num_submission: null
   place: Paderborn, Germany
   program_chair: Arie van Deursen, Andrea Zisman
+  series_link: https://conf.researchr.org/series/fse
   year: 2017
 - acceptance_rate: null
   date: '2016-11-13'
@@ -9293,6 +9438,7 @@
   note: null
   num_submission: null
   place: Seattle, WA
+  series_link: https://conf.researchr.org/series/fse
   year: 2016
 - abstract_deadline: '2026-06-23'
   acceptance_rate: null
@@ -9308,6 +9454,7 @@
   place: Dublin, Ireland
   program_chair: Dongmei Zhang, Andrea Zisman
   series_link: https://conf.researchr.org/series/icse
+  verified: true
   year: 2027
 - abstract_deadline: '2025-03-07'
   acceptance_rate: null
@@ -9323,6 +9470,7 @@
   place: Rio De Janeiro, Brazil
   program_chair: Mira Mezini, Thomas Zimmermann
   series_link: https://icse.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2025-07-11'
   date: '2026-04-12'
@@ -9336,6 +9484,7 @@
   place: Rio De Janeiro, Brazil
   program_chair: Mira Mezini, Thomas Zimmermann
   series_link: https://icse.org/
+  verified: true
   year: 2026
 - abstract_deadline: '2024-03-15'
   acceptance_rate: null
@@ -9351,6 +9500,7 @@
   place: Ontario, Canada
   program_chair: Thomas Zimmermann
   series_link: https://icse.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-07-26'
   acceptance_rate: null
@@ -9366,8 +9516,9 @@
   place: Ontario, Canada
   program_chair: Corina S. Păsăreanu, David Lo
   series_link: https://icse.org/
+  verified: true
   year: 2025
-- acceptance_rate: null
+- acceptance_rate: 22.26
   date: '2024-04-14'
   deadline: '2023-03-29'
   description: International Conference on Software Engineering
@@ -9380,8 +9531,9 @@
   place: Lisbon, Portugal
   program_chair: Margaret-Anne Storey, Abhik Roychoudhury
   series_link: https://icse.org/
+  verified: true
   year: 2024
-- acceptance_rate: null
+- acceptance_rate: 22.26
   date: '2024-04-14'
   deadline: '2023-08-01'
   description: International Conference on Software Engineering
@@ -9394,6 +9546,7 @@
   place: Lisbon, Portugal
   program_chair: Margaret-Anne Storey, Abhik Roychoudhury
   series_link: https://icse.org/
+  verified: true
   year: 2024
 - acceptance_rate: null
   date: '2023-05-14'
@@ -9522,6 +9675,7 @@
   program_chair: null
   rebuttal_date: '2026-03-24'
   series_link: https://www.issta.org/
+  verified: true
   year: 2026
 - acceptance_rate: null
   date: '2025-06-25'
@@ -9536,6 +9690,7 @@
   place: Oslo, Norway
   program_chair: Myra Cohen, Paolo Tonella
   series_link: https://www.issta.org/
+  verified: true
   year: 2025
 - acceptance_rate: null
   date: '2024-09-16'
@@ -9550,6 +9705,7 @@
   place: Vienna, Austria
   program_chair: Michael Pradel
   series_link: https://www.issta.org/
+  verified: true
   year: 2024
 - acceptance_rate: null
   date: '2024-09-16'
@@ -9564,6 +9720,7 @@
   place: Vienna, Austria
   program_chair: Michael Pradel
   series_link: https://www.issta.org/
+  verified: true
   year: 2024
 - acceptance_rate: null
   date: '2023-07-17'
@@ -9593,7 +9750,7 @@
   program_chair: Gordon Fraser
   series_link: https://www.issta.org/
   year: 2023
-- acceptance_rate: null
+- acceptance_rate: 24.4
   date: '2022-07-18'
   deadline: '2022-01-28'
   description: International Symposium on Software Testing and Analysis
@@ -9715,6 +9872,7 @@
   place: Indianapolis, IN
   program_chair: Manuel Serrano
   rebuttal_date: '2026-04-20'
+  verified: true
   year: 2026
 - acceptance_rate: null
   date: '2025-10-12'
@@ -9728,6 +9886,7 @@
   num_submission: null
   place: Singapore
   program_chair: Dominique Devriese
+  verified: true
   year: 2025
 - acceptance_rate: null
   date: '2024-09-02'
@@ -9742,7 +9901,7 @@
   place: Milan, Italy
   program_chair: Brigitte Pientka
   year: 2024
-- acceptance_rate: null
+- acceptance_rate: 36.67
   date: '2023-09-04'
   deadline: '2023-03-01'
   description: International Conference on Functional Programming
@@ -9874,6 +10033,7 @@
   place: Singapore
   program_chair: null
   series_link: https://oopsla.org/
+  verified: true
   year: 2025
 - acceptance_rate: null
   date: '2025-10-12'
@@ -9917,7 +10077,7 @@
   program_chair: null
   series_link: https://oopsla.org/
   year: 2024
-- acceptance_rate: null
+- acceptance_rate: 36.18
   date: '2023-10-22'
   deadline: '2022-10-28'
   description: Object-Oriented Programming, Systems, Languages, and Applications
@@ -9931,7 +10091,7 @@
   program_chair: Mira Mezini
   series_link: https://oopsla.org/
   year: 2023
-- acceptance_rate: null
+- acceptance_rate: 36.18
   date: '2023-10-22'
   deadline: '2023-04-14'
   description: Object-Oriented Programming, Systems, Languages, and Applications
@@ -10170,6 +10330,7 @@
   program_chair: Manu Sridharan
   rebuttal_date: '2026-02-17'
   series_link: https://sigplan.org/Conferences/PLDI/
+  verified: true
   year: 2026
 - acceptance_rate: null
   date: '2025-06-16'
@@ -10184,6 +10345,7 @@
   place: Seoul, South Korea
   program_chair: Zachary Tatlock
   series_link: https://sigplan.org/Conferences/PLDI/
+  verified: true
   year: 2025
 - acceptance_rate: null
   date: '2024-06-24'
@@ -10198,8 +10360,9 @@
   place: Copenhagen, Denmark
   program_chair: John Regehr
   series_link: https://sigplan.org/Conferences/PLDI/
+  verified: true
   year: 2024
-- acceptance_rate: null
+- acceptance_rate: 29.54
   date: '2023-06-17'
   deadline: '2022-11-10'
   description: Programming Language Design and Implementation
@@ -10338,6 +10501,7 @@
   place: Rennes, France
   program_chair: Suresh Jagannathan
   series_link: https://sigplan.org/Conferences/POPL/
+  verified: true
   year: 2026
 - acceptance_rate: null
   date: '2025-01-19'
@@ -10352,6 +10516,7 @@
   place: Denver, CO
   program_chair: Armando Solar-Lezama
   series_link: https://sigplan.org/Conferences/POPL/
+  verified: true
   year: 2025
 - acceptance_rate: null
   date: '2024-01-14'
@@ -10366,8 +10531,9 @@
   place: London, United Kingdom
   program_chair: Derek Dreyer
   series_link: https://sigplan.org/Conferences/POPL/
+  verified: true
   year: 2024
-- acceptance_rate: null
+- acceptance_rate: 26.91
   date: '2023-01-15'
   deadline: '2022-07-07'
   description: Principles of Programming Languages
@@ -10510,6 +10676,7 @@
   program_chair: Anthony W. Lin, Eva Darulova, Philipp Rümmer
   rebuttal_date: '2026-03-30'
   series_link: https://cav.org/
+  verified: true
   year: 2026
 - acceptance_rate: null
   date: '2025-07-21'
@@ -10524,6 +10691,7 @@
   place: Zagreb, Croatia
   program_chair: Ruzica Piskac, Zvonimir Rakamaric
   series_link: https://cav.org/
+  verified: true
   year: 2025
 - acceptance_rate: null
   date: '2024-07-22'
@@ -10553,7 +10721,7 @@
   program_chair: Constantin Enea, Akash Lal
   series_link: https://cav.org/
   year: 2023
-- acceptance_rate: null
+- acceptance_rate: 19.14
   date: '2022-08-07'
   deadline: '2022-01-21'
   description: Computer Aided Verification
@@ -10696,7 +10864,7 @@
   series_link: https://siglog.org/lics26/
   year: 2023
 - abstract_deadline: '2022-01-17'
-  acceptance_rate: null
+  acceptance_rate: 34.81
   date: '2022-08-02'
   deadline: '2022-01-21'
   description: ACM/IEEE Symposium on Logic in Computer Science
@@ -10751,7 +10919,7 @@
   program_chair: Patricia Bouyer,
   series_link: https://siglog.org/lics26/
   year: 2019
-- abstract_deadline: 2018-01-124
+- abstract_deadline: '2018-01-24'
   acceptance_rate: null
   date: '2018-07-09'
   deadline: '2018-01-31'
@@ -10838,7 +11006,7 @@
   series_link: https://imc.org/
   year: 2025
 - abstract_deadline: '2024-05-08'
-  acceptance_rate: null
+  acceptance_rate: 21.74
   date: '2024-11-04'
   deadline: '2024-05-15'
   description: ACM Internet Measurement Conference
@@ -10851,6 +11019,7 @@
   place: Madrid, Spain
   program_chair: Dave Levin, Cristel Pelsser
   series_link: https://imc.org/
+  verified: true
   year: 2024
 - abstract_deadline: '2023-05-20'
   acceptance_rate: null
@@ -10867,7 +11036,7 @@
   series_link: https://imc.org/
   year: 2023
 - abstract_deadline: '2022-05-11'
-  acceptance_rate: null
+  acceptance_rate: 26.57
   date: '2022-10-25'
   deadline: '2022-05-18'
   description: ACM Internet Measurement Conference
@@ -11005,6 +11174,7 @@
   place: Edinburgh, United Kingdom
   program_chair: Miichael Steuwer, Jingling Xue
   series_link: https://2026.cgo.org/
+  verified: true
   year: 2024
 - abstract_deadline: null
   acceptance_rate: null
@@ -11316,7 +11486,7 @@
   series_link: https://recomb.org/
   year: 2023
 - abstract_deadline: '2021-11-04'
-  acceptance_rate: null
+  acceptance_rate: 21.28
   date: '2022-05-22'
   deadline: '2021-11-04'
   description: Research in Computational Molecular Biology
@@ -11425,6 +11595,7 @@
   num_submission: null
   place: Aachen, Germany
   program_chair: Belen Masia, Justus Thies
+  verified: true
   year: 2026
 - abstract_deadline: '2025-01-16'
   acceptance_rate: null
@@ -12105,6 +12276,7 @@
   num_submission: null
   place: Barcelona, Spain
   program_chair: Alessandro Bozzon, Thomas Kosch, Vera Liao, Xiaojuan Ma
+  verified: true
   year: 2026
 - abstract_deadline: '2024-09-05'
   acceptance_rate: null
@@ -12118,6 +12290,7 @@
   num_submission: null
   place: Yokohama, Japan
   program_chair: Koji Yatani, Sharon Ding
+  verified: true
   year: 2025
 - abstract_deadline: '2023-09-07'
   acceptance_rate: null
@@ -12131,9 +12304,10 @@
   num_submission: null
   place: Honolulu, Hawaiʻi, USA
   program_chair: Julie R. Williamson, Corina Sas
+  verified: true
   year: 2024
 - abstract_deadline: '2022-09-08'
-  acceptance_rate: null
+  acceptance_rate: 27.64
   date: '2023-04-23'
   deadline: '2022-09-15'
   description: ACM Conference on Human Factors in Computing Systems
@@ -12146,7 +12320,7 @@
   program_chair: Tesh Goyal, Per Ola Kristensson, Anicia Peters
   year: 2023
 - abstract_deadline: '2021-09-02'
-  acceptance_rate: null
+  acceptance_rate: 24.7
   date: '2022-04-30'
   deadline: '2021-09-09'
   description: ACM Conference on Human Factors in Computing Systems
@@ -12547,7 +12721,7 @@
   program_chair: null
   year: 2017
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 25.96
   date: '2016-09-12'
   deadline: '2016-04-23'
   description: ACM International Joint Conference on Pervasive and Ubiquitous Computing
@@ -12575,7 +12749,7 @@
   series_link: https://uist.acm.org/2026/
   year: 2025
 - abstract_deadline: '2024-03-27'
-  acceptance_rate: null
+  acceptance_rate: 24.01
   date: '2024-10-13'
   deadline: '2024-04-03'
   description: ACM Symposium on User Interface Software and Technology
@@ -12589,7 +12763,7 @@
   series_link: https://uist.acm.org/2026/
   year: 2024
 - abstract_deadline: '2023-03-30'
-  acceptance_rate: null
+  acceptance_rate: 25.05
   date: '2023-10-29'
   deadline: '2023-04-05'
   description: ACM Symposium on User Interface Software and Technology
@@ -12603,7 +12777,7 @@
   series_link: https://uist.acm.org/2026/
   year: 2023
 - abstract_deadline: '2022-03-31'
-  acceptance_rate: null
+  acceptance_rate: 26.34
   date: '2022-10-29'
   deadline: '2022-04-07'
   description: ACM Symposium on User Interface Software and Technology
@@ -12727,6 +12901,7 @@
   place: Yokohama, Japan
   program_chair: Yasuhisa Hasegawa, Kanako Harada, Torsten Kroeger, Nancy Amato
   series_link: https://icra.org/
+  verified: true
   year: 2024
 - abstract_deadline: null
   acceptance_rate: null
@@ -12743,7 +12918,7 @@
   series_link: https://icra.org/
   year: 2023
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 43.1
   date: '2022-05-23'
   deadline: '2021-09-15'
   description: IEEE International Conference on Robotics and Automation
@@ -12869,6 +13044,7 @@
   place: Abu Dhabi, UAE
   program_chair: Arif Sultan Al Hammadi, Lakmal Serneviratne, Satoshi Tadokoro, Anthony
     A. Maciejewski, Kostas J. Kyriakopoulos
+  verified: true
   year: 2024
 - abstract_deadline: null
   acceptance_rate: null
@@ -12884,7 +13060,7 @@
   program_chair: Bobby Gregg
   year: 2023
 - abstract_deadline: null
-  acceptance_rate: null
+  acceptance_rate: 47.95
   date: '2022-10-23'
   deadline: '2022-03-01'
   description: IEEE/RSJ International Conference on Intelligent Robots and Systems
@@ -12986,6 +13162,7 @@
   num_submission: null
   place: Los Angeles, California, USA
   program_chair: Luca Carlone
+  verified: true
   year: 2025
 - abstract_deadline: null
   acceptance_rate: null
@@ -12999,6 +13176,7 @@
   num_submission: null
   place: Delft, Netherlands
   program_chair: Dana Kulic, Gentiane Venture
+  verified: true
   year: 2024
 - abstract_deadline: null
   acceptance_rate: null
@@ -13118,6 +13296,7 @@
   program_chair: Alfie Abdul-Rahman, Tushar Athawale, Gautam Chaudhary, Michelle Dowling,
     Michael Oppermann
   series_link: https://www.vis.org/
+  verified: true
   year: 2025
 - abstract_deadline: '2024-03-21'
   acceptance_rate: null
@@ -13258,6 +13437,7 @@
   place: Saint-Malo, France
   program_chair: Daisuke Iwai, Tabitha Peck, Voicu Popescu, Luciana Nedel
   series_link: https://ieeevr.org/
+  verified: true
   year: 2025
 - abstract_deadline: null
   acceptance_rate: null
@@ -13290,7 +13470,7 @@
 - abstract_deadline: '2021-11-01'
   acceptance_rate: null
   date: '2022-03-12'
-  deadline: 2021-11-5
+  deadline: '2021-11-05'
   description: IEEE Conference on Virtual Reality and 3D User Interfaces
   general_chair: Stephan Lukosch, Tobias Langlotz, Joaquim Jorge
   link: https://ieeevr.org/2022/
@@ -13401,3 +13581,353 @@
     Swan II
   series_link: https://ieeevr.org/
   year: 2015
+- abstract_deadline: null
+  date: November 15-18, 2026
+  deadline: '2026-06-11'
+  description: ACM SIGOPS Annual Technical Conference
+  link: https://sigops.org/s/conferences/atc/2026/index.html
+  name: USENIX ATC
+  note: null
+  place: Hyatt Hotel, Shatin, Hong Kong, China
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: FEBRUARY 24-26, 2026
+  deadline: '2025-09-16'
+  description: USENIX Conference on File and Storage Technologies
+  link: https://www.usenix.net/conference/fast26
+  name: FAST
+  note: Cycle 2/2
+  place: SANTA CLARA, CA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: FEBRUARY 23-25, 2027
+  deadline: '2026-09-15'
+  description: USENIX Conference on File and Storage Technologies
+  link: https://www.usenix.org/conference/fast27
+  name: FAST
+  note: Cycle 2/2
+  place: Renton, WA, USA
+  verified: true
+  year: 2027
+- abstract_deadline: '2025-09-11'
+  date: May 4-6, 2026
+  deadline: '2025-09-18'
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  link: https://www.usenix.org/conference/nsdi26
+  name: NSDI
+  note: Cycle 2/2
+  place: Renton, WA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: '2026-09-10'
+  date: May 11-13, 2027
+  deadline: '2026-09-17'
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  link: https://www.usenix.org/conference/nsdi27
+  name: NSDI
+  note: Cycle 2/2
+  place: Providence, RI, USA
+  verified: true
+  year: 2027
+- abstract_deadline: '2026-03-06'
+  date: November, 2026
+  deadline: '2026-03-13'
+  description: ACM Annual International Conference On Mobile Computing And Networking
+  link: https://sigmobile.org/mobicom/2026/
+  name: MobiCom
+  note: Cycle 2/2
+  place: Austin, Texas, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: MAY 18-21, 2026
+  deadline: '2025-06-05'
+  description: IEEE Symposium on Security and Privacy
+  link: https://www.ieee-security.org/TC/SP2026/
+  name: IEEE S&P
+  note: Cycle 1/2
+  place: SAN FRANCISCO, CA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: MAY 18-21, 2026
+  deadline: '2025-11-13'
+  description: IEEE Symposium on Security and Privacy
+  link: https://www.ieee-security.org/TC/SP2026/
+  name: IEEE S&P
+  note: Cycle 2/2
+  place: SAN FRANCISCO, CA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: November 15-19, 2026
+  deadline: '2026-04-29'
+  description: ACM Conference on Computer and Communications Security
+  link: https://www.sigsac.org/ccs/CCS2026/
+  name: CCS
+  note: Cycle 2/2
+  place: World Forum, Hague, Netherlands
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: August 17-20, 2026
+  deadline: '2026-02-12'
+  description: International Cryptology Conference
+  link: https://crypto.iacr.org/2026/
+  name: Crypto
+  note: null
+  place: Santa Barbara, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: May 10-14, 2026
+  deadline: '2025-10-02'
+  description: European Cryptology Conference
+  link: https://eurocrypt.iacr.org/2026/
+  name: Eurocrypt
+  note: null
+  place: Rome, Italy
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: April 11-15, 2027
+  deadline: '2026-09-17'
+  description: European Cryptology Conference
+  link: https://eurocrypt.iacr.org/2027/
+  name: Eurocrypt
+  note: null
+  place: Eindhoven, Netherlands
+  verified: true
+  year: 2027
+- abstract_deadline: null
+  date: August 31 - September 4, 2026
+  deadline: '2025-05-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2026/
+  name: VLDB
+  note: Cycle 2/12
+  place: Boston, MA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: August 31 - September 4, 2026
+  deadline: '2025-06-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2026/
+  name: VLDB
+  note: Cycle 3/12
+  place: Boston, MA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: August 31 - September 4, 2026
+  deadline: '2025-07-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2026/
+  name: VLDB
+  note: Cycle 4/12
+  place: Boston, MA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: August 31 - September 4, 2026
+  deadline: '2025-08-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2026/
+  name: VLDB
+  note: Cycle 5/12
+  place: Boston, MA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: August 31 - September 4, 2026
+  deadline: '2025-09-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2026/
+  name: VLDB
+  note: Cycle 6/12
+  place: Boston, MA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: August 31 - September 4, 2026
+  deadline: '2025-10-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2026/
+  name: VLDB
+  note: Cycle 7/12
+  place: Boston, MA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: August 31 - September 4, 2026
+  deadline: '2025-11-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2026/
+  name: VLDB
+  note: Cycle 8/12
+  place: Boston, MA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: August 31 - September 4, 2026
+  deadline: '2025-12-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2026/
+  name: VLDB
+  note: Cycle 9/12
+  place: Boston, MA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: August 31 - September 4, 2026
+  deadline: '2026-01-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2026/
+  name: VLDB
+  note: Cycle 10/12
+  place: Boston, MA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: August 31 - September 4, 2026
+  deadline: '2026-02-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2026/
+  name: VLDB
+  note: Cycle 11/12
+  place: Boston, MA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: null
+  date: August 31 - September 4, 2026
+  deadline: '2026-03-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2026/
+  name: VLDB
+  note: Cycle 12/12
+  place: Boston, MA, USA
+  verified: true
+  year: 2026
+- abstract_deadline: '2026-04-25'
+  date: August 23 - August 27, 2027
+  deadline: '2026-05-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  name: VLDB
+  note: Cycle 2/12
+  place: Athens, Greece
+  verified: true
+  year: 2027
+- abstract_deadline: '2026-05-25'
+  date: August 23 - August 27, 2027
+  deadline: '2026-06-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  name: VLDB
+  note: Cycle 3/12
+  place: Athens, Greece
+  verified: true
+  year: 2027
+- abstract_deadline: '2026-06-25'
+  date: August 23 - August 27, 2027
+  deadline: '2026-07-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  name: VLDB
+  note: Cycle 4/12
+  place: Athens, Greece
+  verified: true
+  year: 2027
+- abstract_deadline: '2026-07-25'
+  date: August 23 - August 27, 2027
+  deadline: '2026-08-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  name: VLDB
+  note: Cycle 5/12
+  place: Athens, Greece
+  verified: true
+  year: 2027
+- abstract_deadline: '2026-08-25'
+  date: August 23 - August 27, 2027
+  deadline: '2026-09-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  name: VLDB
+  note: Cycle 6/12
+  place: Athens, Greece
+  verified: true
+  year: 2027
+- abstract_deadline: '2026-09-25'
+  date: August 23 - August 27, 2027
+  deadline: '2026-10-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  name: VLDB
+  note: Cycle 7/12
+  place: Athens, Greece
+  verified: true
+  year: 2027
+- abstract_deadline: '2026-10-25'
+  date: August 23 - August 27, 2027
+  deadline: '2026-11-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  name: VLDB
+  note: Cycle 8/12
+  place: Athens, Greece
+  verified: true
+  year: 2027
+- abstract_deadline: '2026-11-25'
+  date: August 23 - August 27, 2027
+  deadline: '2026-12-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  name: VLDB
+  note: Cycle 9/12
+  place: Athens, Greece
+  verified: true
+  year: 2027
+- abstract_deadline: '2026-12-25'
+  date: August 23 - August 27, 2027
+  deadline: '2027-01-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  name: VLDB
+  note: Cycle 10/12
+  place: Athens, Greece
+  verified: true
+  year: 2027
+- abstract_deadline: '2027-01-25'
+  date: August 23 - August 27, 2027
+  deadline: '2027-02-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  name: VLDB
+  note: Cycle 11/12
+  place: Athens, Greece
+  verified: true
+  year: 2027
+- abstract_deadline: '2027-02-25'
+  date: August 23 - August 27, 2027
+  deadline: '2027-03-01'
+  description: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  name: VLDB
+  note: Cycle 12/12
+  place: Athens, Greece
+  verified: true
+  year: 2027
+- abstract_deadline: null
+  date: May 17-21, 2027
+  deadline: '2026-11-11'
+  description: IEEE International Conference on Data Engineering
+  link: https://icde2027.github.io/
+  name: ICDE
+  note: Cycle 2/2
+  place: Copenhagen, Denmark
+  verified: true
+  year: 2027

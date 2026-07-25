@@ -23,6 +23,52 @@ const EstimatedBadge = ({ children, title }) => (
   </span>
 );
 
+const VisualCycleStepper = ({ cycles }) => {
+  if (!cycles || cycles.length <= 1) return null;
+
+  return (
+    <div style={{ margin: '0.5rem 0 1rem 0', display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+      {cycles.map((c, i) => {
+        const diff = c.deadline ? calculateTimeLeft(c.deadline) : -1;
+        const isPassed = diff <= 0;
+        const label = c.note || `Cycle ${i+1}`;
+        return (
+          <React.Fragment key={i}>
+            <div
+              title={`${label}: ${formatDateAoE(c.deadline)}`}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '4px',
+                fontSize: '0.75rem',
+                fontFamily: 'var(--font-heading)',
+                fontWeight: 600,
+                color: isPassed ? 'var(--text-secondary)' : '#1976d2',
+                opacity: isPassed ? 0.6 : 1,
+              }}
+            >
+              <span
+                style={{
+                  width: '8px',
+                  height: '8px',
+                  borderRadius: '50%',
+                  backgroundColor: isPassed ? '#9e9e9e' : '#1976d2',
+                  boxShadow: isPassed ? 'none' : '0 0 0 3px rgba(25, 118, 210, 0.2)',
+                  display: 'inline-block',
+                }}
+              />
+              <span>{label}</span>
+            </div>
+            {i < cycles.length - 1 && (
+              <span style={{ color: 'var(--border-color)', fontSize: '0.75rem' }}>──</span>
+            )}
+          </React.Fragment>
+        );
+      })}
+    </div>
+  );
+};
+
 // ── Date helpers ──────────────────────────────────────────────
 const calculateTimeLeft = (deadline) => {
   const d = new Date(deadline);
@@ -139,6 +185,24 @@ const ConferenceCard = ({ conference }) => {
   const cycles  = isGroup ? conference : [conference];
   const mainConf = cycles[0];
 
+  const [expanded, setExpanded] = useState(false);
+
+  // Find active cycle index (first cycle where deadline > now)
+  const activeCycleIdx = React.useMemo(() => {
+    if (!isGroup) return 0;
+    const now = new Date();
+    const idx = cycles.findIndex(c => {
+      if (!c.deadline) return false;
+      const d = new Date(c.deadline);
+      d.setHours(23, 59, 59, 999);
+      return d >= now;
+    });
+    return idx >= 0 ? idx : 0;
+  }, [isGroup, cycles]);
+
+  const shouldCollapse = isGroup && cycles.length > 2;
+  const displayedCycles = (shouldCollapse && !expanded) ? [cycles[activeCycleIdx]] : cycles;
+
   const [singleCountdown, setSingleCountdown] = useState(calculateCountdown(mainConf.deadline));
 
   useEffect(() => {
@@ -194,6 +258,10 @@ const ConferenceCard = ({ conference }) => {
           </div>
         )}
 
+        {isGroup && cycles.length > 1 && (
+          <VisualCycleStepper cycles={cycles} />
+        )}
+
         {/* Highlighted Date & Location */}
         <div style={{
           fontFamily: 'var(--font-body)',
@@ -247,9 +315,36 @@ const ConferenceCard = ({ conference }) => {
       {/* Right Column: Status Panel */}
       <div className="split-card-right status-panel">
         {cycles.length > 1 ? (
-          cycles.map((c, idx) => (
-            <CycleStatusBlock key={idx} cycle={c} isLast={idx === cycles.length - 1} />
-          ))
+          <>
+            {displayedCycles.map((c, idx) => (
+              <CycleStatusBlock key={idx} cycle={c} isLast={idx === displayedCycles.length - 1} />
+            ))}
+
+            {shouldCollapse && (
+              <button
+                onClick={() => setExpanded(!expanded)}
+                style={{
+                  marginTop: '0.75rem',
+                  padding: '6px 12px',
+                  backgroundColor: 'transparent',
+                  border: '1px solid var(--border-color)',
+                  borderRadius: '4px',
+                  color: '#1976d2',
+                  fontFamily: 'var(--font-heading)',
+                  fontSize: '0.75rem',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                  width: '100%',
+                  textAlign: 'center',
+                  transition: 'background-color 0.15s ease',
+                }}
+                onMouseOver={e => e.target.style.backgroundColor = 'var(--hover-bg)'}
+                onMouseOut={e => e.target.style.backgroundColor = 'transparent'}
+              >
+                {expanded ? '▲ Collapse Cycles' : `▼ Show All (${cycles.length} Cycles)`}
+              </button>
+            )}
+          </>
         ) : (
           <>
             <div className="conference-card-countdown" style={{ color: countdownColor }}>

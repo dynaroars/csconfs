@@ -61,7 +61,18 @@ export default function Header({ toggleTheme, mode, onAddClick }) {
             lineHeight: 1.55,
             userSelect: 'text',
           }}>
-            Countdown to submission deadlines uses AoE (Anywhere on Earth) time zone.{' '}
+            Countdown to submission deadlines uses AoE (Anywhere on Earth) time zone. Data cross-verified with{' '}
+            <a
+              href="https://ccfddl.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="CCFDDL project"
+              style={{ color: 'var(--accent-color)', textDecoration: 'none' }}
+              onMouseOver={e => e.target.style.textDecoration = 'underline'}
+              onMouseOut={e => e.target.style.textDecoration = 'none'}
+            >
+              CCFDDL
+            </a>.{' '}
             Src, contributions, issues:{' '}
             <a
               href="https://code.roars.dev/csconfs"

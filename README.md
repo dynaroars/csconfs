@@ -107,35 +107,54 @@ Created by [Roars Lab](https://roars.dev)
 
 ---
 
-## 🤖 Automated Conference Crawler
+## 🤖 Automatic Data Updates
 
-We use an LLM-powered script to automatically find and extract the next year's conference details.
+Conference dates are kept current automatically, with no API key and no LLM in
+the loop.
 
-### Prerequisites
-1. **Python 3.10+**
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Get a Groq API Key**:
-   - Get a free key from [Groq](https://console.groq.com).
-   - Create a `.env` file in the root directory:
-     ```env
-     GROQ_API_KEY=your_api_key_here
-     ```
-   - The script talks to an OpenAI-compatible endpoint over plain HTTP, so you can
-     point it at a different provider by setting `LLM_BASE_URL` and `LLM_MODEL`.
+[`.github/workflows/sync_data.yml`](.github/workflows/sync_data.yml) runs every
+Monday (and on demand from the Actions tab). It syncs
+`public/data/conferences.yaml` against the community-maintained
+[CCFDDL](https://github.com/ccfddl/ccf-deadlines) database, which covers 72 of
+the 73 conferences we track. If anything changed it commits straight to `main`
+and redeploys — there is no pull request to review or merge.
 
-### How to Run
+`scripts/sync_ccfddl.py` only rewrites an entry when CCFDDL confirms it:
+
+- a date matching CCFDDL gains `verified: true`
+- an `estimated` entry whose date CCFDDL contradicts is corrected and promoted
+- anything CCFDDL does not cover keeps its `estimated` flag, so the site keeps
+  badging it as a guess behind the "Show Estimated" toggle
+
+To preview what it would change without writing anything:
+
 ```bash
-python3 scripts/update_confs_llm.py
+pip install -r requirements.txt
+python3 scripts/sync_ccfddl.py            # dry run
+python3 scripts/sync_ccfddl.py --apply    # write the changes
 ```
 
-### Output
-- The script looks for `series_link` in `public/data/conferences.yaml`.
-- It saves new suggestions to **`suggested_updates_llm.yaml`**.
-- **Manual Step**: Review the `suggested_updates_llm.yaml` file and manually copy-paste the correct entries into `public/data/conferences.yaml`. 
+---
+
+## 🕷️ LLM Crawler (manual, optional)
+
+For the rare conference CCFDDL does not cover, or an edition it has not listed
+yet, `scripts/update_confs_llm.py` crawls conference sites and extracts details
+with an LLM. It is **not** part of any workflow — run it by hand when you need it.
+
+```bash
+# .env needs GROQ_API_KEY (free key at https://console.groq.com).
+# Any OpenAI-compatible endpoint works via LLM_BASE_URL / LLM_MODEL.
+python3 scripts/update_confs_llm.py                  # writes suggested_updates_llm.yaml
+python3 scripts/update_confs_llm.py --confs ICSE,ASE # limit to some conferences
+python3 scripts/update_confs_llm.py --dry-run        # only check which URLs exist
+```
+
+Review `suggested_updates_llm.yaml` and copy the entries you trust into
+`public/data/conferences.yaml`. Where a conference is in CCFDDL, the crawler
+cross-checks its extraction against it and prefers the CCFDDL date.
 
 ### Limitations
-Not every conference is covered by this script. Some conferences use inconsistent URL patterns or complex hosting structures that are difficult to crawl automatically.
-- See **[`known_crawler_issues.md`](known_crawler_issues.md)** for a list of known exclusions and manual update requirements.
+Not every conference is covered. Some use inconsistent URL patterns or complex
+hosting that is difficult to crawl automatically.
+- See **[`known_crawler_issues.md`](known_crawler_issues.md)** for known exclusions and manual update requirements.

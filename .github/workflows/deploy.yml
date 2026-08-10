@@ -4,6 +4,9 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  # Called by sync_data.yml: a push made with GITHUB_TOKEN does not trigger
+  # workflows, so the data sync has to invoke the deploy explicitly.
+  workflow_call:
 
 permissions:
   contents: read

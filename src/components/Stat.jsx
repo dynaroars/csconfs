@@ -1,5 +1,4 @@
 import React, { useMemo } from 'react';
-import { Typography, Box } from '@mui/material';
 import {
   ResponsiveContainer,
   ComposedChart,
@@ -11,6 +10,7 @@ import {
   CartesianGrid,
   Legend,
 } from 'recharts';
+import './Stat.css';
 
 // Function to generate gradient colors based on actual values
 const getValueBasedColor = (value, maxValue, minValue) => {
@@ -39,6 +39,49 @@ const getValueBasedColor = (value, maxValue, minValue) => {
     border: borderColor,
     text: `hsl(${baseHue}, ${saturation + 15}%, ${Math.max(lightness - 15, 10)}%)`
   };
+};
+
+/**
+ * Horizontal bar list used for both the country and city breakdowns.
+ * @param {Array<{label: string, count: number, percentage: number|string}>} items
+ */
+const BarList = ({ items }) => {
+  const counts = items.map(d => d.count);
+  const maxCount = Math.max(...counts);
+  const minCount = Math.min(...counts);
+
+  return (
+    <div className="stat-panel">
+      {items.map(item => {
+        const barWidth = (item.count / maxCount) * 100;
+        const colors = getValueBasedColor(item.count, maxCount, minCount);
+
+        return (
+          <div className="stat-row" key={item.label}>
+            <div className="stat-row-label">{item.label}</div>
+
+            <div className="stat-bar-track">
+              <div
+                className="stat-bar-fill"
+                style={{
+                  width: `${barWidth}%`,
+                  background: colors.bg,
+                  border: `1px solid ${colors.border}`,
+                  borderLeft: 'none',
+                  boxShadow: `0 2px 4px ${colors.border}33`,
+                }}
+              />
+              <span className="stat-bar-count" style={{ left: `calc(${barWidth}% + 8px)` }}>
+                {item.count}
+              </span>
+            </div>
+
+            <div className="stat-row-pct">{item.percentage}%</div>
+          </div>
+        );
+      })}
+    </div>
+  );
 };
 
 // Function to extract country/region from place string
@@ -226,254 +269,58 @@ const extractCity = (place) => {
   
   if (!countryData || countryData.length === 0) {
     return (
-      <Box sx={{ width: '100%', padding: 2 }}>
-        <Typography variant="h5" sx={{ marginBottom: 3, fontWeight: 'bold' }}>
-          The Most Frequent Countries/Regions
-        </Typography>
-        <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-          No conference data available to display statistics.
-        </Typography>
-      </Box>
+      <div className="stat-empty">
+        <h2 className="stat-heading">The Most Frequent Countries/Regions</h2>
+        <p className="stat-muted">No conference data available to display statistics.</p>
+      </div>
     );
   }
 
   return (
-    <Box sx={{ width: '95%', padding: 0 }}>
-      {/* Countries Chart */}
-      <Typography variant="h5" sx={{ marginBottom: 3, fontWeight: 'bold' }}>
-        The Most Frequent Countries
-      </Typography>
-      <Box sx={{ 
-        width: '100%', 
-        padding: 2,
-        background: 'var(--bg-color)',
-        borderRadius: '12px',
-        border: '1px solid #dee2e6',
-        boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-        marginBottom: 4
-      }}>
-                 {countryData.map((item, index) => {
-           const maxCount = Math.max(...countryData.map(d => d.count));
-           const minCount = Math.min(...countryData.map(d => d.count));
-           const barWidth = (item.count / maxCount) * 100;
-           const colors = getValueBasedColor(item.count, maxCount, minCount);
-           
-           return (
-             <Box 
-               key={item.country}
-               sx={{ 
-                 display: 'flex', 
-                 alignItems: 'center', 
-                 marginBottom: 1,
-                 minHeight: 30
-               }}
-             >
-               {/* Country name */}
-               <Box sx={{ 
-                 width: 100, 
-                 textAlign: 'right', 
-                 paddingRight: 1,
-                 fontSize: '14px'
-               }}>
-                 {item.country}
-               </Box>
-               
-                 {/* Bar container */}
-                <Box sx={{ 
-                  flex: 1, 
-                  height: 25, 
-                  background: 'var(--bg-color)',
-                  borderRadius: '4px',
-                  border: '1px solid #dee2e6',
-                  position: 'relative',
-                  marginRight: 5,
-                }}>
-                  {/* Actual bar */}
-                  <Box sx={{
-                    width: `${barWidth}%`,
-                    height: '100%',
-                    background: colors.bg,
-                    borderRadius: '0 4px 4px 0',
-                    border: `1px solid ${colors.border}`,
-                    borderLeft: 'none',
-                    boxShadow: `0 2px 4px ${colors.border}33`,
-                    transition: 'all 0.3s ease',
-                    '&:hover': {
-                      transform: 'scaleY(1.1)',
-                      boxShadow: `0 4px 8px ${colors.border}66`,
-                    }
-                  }} />
-                  
-                  {/* Count text positioned to the right of bar */}
-                  <Typography 
-                    variant="caption" 
-                    sx={{ 
-                      position: 'absolute',
-                      top: '50%',
-                      transform: 'translateY(-50%)',
-                      left: `calc(${barWidth}% + 8px)`,
-                      color: 'var(--text-color)',
-                      fontWeight: 'bold',
-                      fontSize: '12px'
-                    }}
-                  >
-                    {item.count}
-                  </Typography>
-                </Box>
-              
-              {/* Percentage */}
-              <Box sx={{ 
-                width: 60, 
-                fontSize: '12px',
-                color: 'var(--text-color)'
-              }}>
-                {item.percentage}%
-              </Box>
-            </Box>
-          );
-        })}
-      </Box>
+    <div className="stat">
+      {/* Countries */}
+      <h2 className="stat-heading">The Most Frequent Countries</h2>
+      <BarList items={countryData.map(d => ({ ...d, label: d.country }))} />
 
-      {/* Cities Chart */}
-      <Typography variant="h5" sx={{ marginTop: 4, marginBottom: 3, fontWeight: 'bold' }}>
-        The Most Frequent Cities
-      </Typography>
+      {/* Cities */}
+      <h2 className="stat-heading">The Most Frequent Cities</h2>
+      <BarList items={cityData.map(d => ({ ...d, label: d.city }))} />
 
-      <Box sx={{ 
-        width: '100%', 
-        padding: 2,
-        background: 'var(--bg-color)',
-        borderRadius: '12px',
-        border: '1px solid #dee2e6',
-        boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
-      }}>
-                {cityData.map((item, index) => {
-          const maxCount = Math.max(...cityData.map(d => d.count));
-          const minCount = Math.min(...cityData.map(d => d.count));
-          const barWidth = (item.count / maxCount) * 100;
-          const colors = getValueBasedColor(item.count, maxCount, minCount);
-          
-          return (
-            <Box 
-              key={item.city}
-              sx={{ 
-                display: 'flex', 
-                alignItems: 'center', 
-                marginBottom: 1,
-                minHeight: 30
-              }}
-            >
-              {/* City name */}
-              <Box sx={{ 
-                width: 100, 
-                textAlign: 'right', 
-                paddingRight: 1,
-                fontSize: '14px'
-              }}>
-                {item.city}
-              </Box>
-              
-                             {/* Bar container */}
-               <Box sx={{ 
-                 flex: 1, 
-                 height: 25, 
-                 background: 'var(--bg-color)',
-                 borderRadius: '4px',
-                 border: '1px solid #dee2e6',
-                 position: 'relative',
-                 marginRight: 5,
-               }}>
-                {/* Actual bar */}
-                <Box sx={{
-                  width: `${barWidth}%`,
-                  height: '100%',
-                  background: colors.bg,
-                  borderRadius: '0 4px 4px 0',
-                  border: `1px solid ${colors.border}`,
-                  borderLeft: 'none',
-                  boxShadow: `0 2px 4px ${colors.border}33`,
-                  transition: 'all 0.3s ease',
-                  '&:hover': {
-                    transform: 'scaleY(1.1)',
-                    boxShadow: `0 4px 8px ${colors.border}66`,
-                  }
-                }} />
-                
-                {/* Count text positioned to the right of bar */}
-                <Typography 
-                  variant="caption" 
-                  sx={{ 
-                    position: 'absolute',
-                    top: '50%',
-                    transform: 'translateY(-50%)',
-                    left: `calc(${barWidth}% + 8px)`,
-                    color: 'var(--text-color)',
-                    fontWeight: 'bold',
-                    fontSize: '12px'
-                  }}
-                >
-                  {item.count}
-                </Typography>
-              </Box>
-              
-              {/* Percentage */}
-              <Box sx={{ 
-                width: 60, 
-                fontSize: '12px',
-                color: 'var(--text-color)'
-              }}>
-                {item.percentage}%
-              </Box>
-            </Box>
-          );
-        })}
-      </Box>
       {/* Paper Statistics Chart */}
       {paperData && paperData.length > 0 && (
         <>
-          <Typography variant="h5" sx={{ marginTop: 4, marginBottom: 3, fontWeight: 'bold' }}>
-            Paper Statistics Over Years
-          </Typography>
-          
-          <Box sx={{ 
-            width: '100%', 
-            height: 400, 
-            marginBottom: 4,
-            background: 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)',
-            borderRadius: '12px',
-            border: '1px solid #dee2e6',
-            boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-            padding: 2
-          }}>
+          <h2 className="stat-heading">Paper Statistics Over Years</h2>
+
+          <div className="stat-chart-panel">
             <ResponsiveContainer width="100%" height="100%">
               <ComposedChart data={paperData} margin={{ top: 20, right: 20, left: 20, bottom: 20 }}>
-                <CartesianGrid 
-                  strokeDasharray="3 3" 
+                <CartesianGrid
+                  strokeDasharray="3 3"
                   stroke="#d1d5db"
                   strokeOpacity={0.6}
                 />
-                <XAxis 
-                  dataKey="year" 
-                  tick={{ fontSize: 12, fill: '#374151', fontWeight: '500' }}
+                <XAxis
+                  dataKey="year"
+                  tick={{ fontSize: 12, fill: 'currentColor', fontWeight: '500' }}
                   axisLine={{ stroke: '#6b7280', strokeWidth: 1 }}
                   tickLine={{ stroke: '#6b7280' }}
                 />
-                <YAxis 
+                <YAxis
                   yAxisId="left"
-                  tick={{ fontSize: 12, fill: '#374151', fontWeight: '500' }}
-                  label={{ value: 'Number of Papers', angle: -90, position: 'insideLeft', style: { textAnchor: 'middle', fill: '#374151', fontWeight: '600' } }}
+                  tick={{ fontSize: 12, fill: 'currentColor', fontWeight: '500' }}
+                  label={{ value: 'Number of Papers', angle: -90, position: 'insideLeft', style: { textAnchor: 'middle', fill: 'currentColor', fontWeight: '600' } }}
                   axisLine={{ stroke: '#6b7280', strokeWidth: 1 }}
                   tickLine={{ stroke: '#6b7280' }}
                 />
-                <YAxis 
-                  yAxisId="right" 
+                <YAxis
+                  yAxisId="right"
                   orientation="right"
-                  tick={{ fontSize: 12, fill: '#374151', fontWeight: '500' }}
-                  label={{ value: 'Acceptance Rate (%)', angle: 90, position: 'insideRight', style: { textAnchor: 'middle', fill: '#374151', fontWeight: '600' } }}
+                  tick={{ fontSize: 12, fill: 'currentColor', fontWeight: '500' }}
+                  label={{ value: 'Acceptance Rate (%)', angle: 90, position: 'insideRight', style: { textAnchor: 'middle', fill: 'currentColor', fontWeight: '600' } }}
                   axisLine={{ stroke: '#6b7280', strokeWidth: 1 }}
                   tickLine={{ stroke: '#6b7280' }}
                 />
-                <Tooltip 
+                <Tooltip
                   formatter={(value, name) => {
                     if (name === 'Acceptance Rate') {
                       return [`${value}%`, name];
@@ -482,55 +329,56 @@ const extractCity = (place) => {
                   }}
                   labelFormatter={(year) => `Year: ${year}`}
                   contentStyle={{
-                    backgroundColor: '#ffffff',
-                    border: '1px solid #d1d5db',
+                    backgroundColor: 'var(--card-bg)',
+                    color: 'var(--text-primary)',
+                    border: '1px solid var(--border-color)',
                     borderRadius: '8px',
                     boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
                     fontWeight: '500'
                   }}
                 />
-                <Legend 
+                <Legend
                   wrapperStyle={{
                     paddingTop: '20px',
                     fontWeight: '500',
                     fontSize: '13px'
                   }}
                 />
-                <Bar 
+                <Bar
                   yAxisId="left"
-                  dataKey="accepted" 
+                  dataKey="accepted"
                   stackId="papers"
-                  fill="#ff8c00" 
+                  fill="#ff8c00"
                   name="Number of Accepted"
                   radius={[0, 0, 0, 0]}
                   stroke="#e67300"
                   strokeWidth={1}
                 />
-                <Bar 
+                <Bar
                   yAxisId="left"
-                  dataKey="rejected" 
+                  dataKey="rejected"
                   stackId="papers"
-                  fill="#1f77b4" 
+                  fill="#1f77b4"
                   name="Number of Rejected"
                   radius={[4, 4, 0, 0]}
                   stroke="#1565c0"
                   strokeWidth={1}
                 />
-                <Line 
+                <Line
                   yAxisId="right"
-                  type="monotone" 
-                  dataKey="acceptanceRate" 
-                  stroke="#ff7f0e" 
+                  type="monotone"
+                  dataKey="acceptanceRate"
+                  stroke="#ff7f0e"
                   strokeWidth={3}
                   dot={{ fill: '#ff7f0e', strokeWidth: 2, r: 4 }}
                   name="Acceptance Rate"
                 />
               </ComposedChart>
             </ResponsiveContainer>
-          </Box>
+          </div>
         </>
       )}
-    </Box>
+    </div>
   );
 };
 

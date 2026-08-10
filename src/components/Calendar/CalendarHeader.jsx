@@ -1,7 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box, Typography, IconButton } from '@mui/material';
-import { ChevronLeft, ChevronRight } from '@mui/icons-material';
 import { MONTH_NAMES } from './constants';
 
 /**
@@ -9,42 +7,31 @@ import { MONTH_NAMES } from './constants';
  */
 function CalendarHeader({ currentDate, onPreviousMonth, onNextMonth }) {
     return (
-        <Box
-            sx={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-                mb: 3,
-                p: 2,
-                backgroundColor: 'var(--hover-bg)',
-                borderRadius: 1,
-            }}
-        >
-            <IconButton
+        <div className="calendar-header">
+            <button
+                type="button"
+                className="calendar-nav"
                 onClick={onPreviousMonth}
                 aria-label="Previous month"
-                size="small"
-                sx={{ color: 'var(--text-primary)' }}
             >
-                <ChevronLeft />
-            </IconButton>
-            <Typography
-                variant="h5"
-                component="h2"
-                sx={{ fontWeight: 600, color: 'var(--text-primary)' }}
-                aria-live="polite"
-            >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                </svg>
+            </button>
+            <h2 className="calendar-title" aria-live="polite">
                 {MONTH_NAMES[currentDate.getMonth()]} {currentDate.getFullYear()}
-            </Typography>
-            <IconButton
+            </h2>
+            <button
+                type="button"
+                className="calendar-nav"
                 onClick={onNextMonth}
                 aria-label="Next month"
-                size="small"
-                sx={{ color: 'var(--text-primary)' }}
             >
-                <ChevronRight />
-            </IconButton>
-        </Box>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+                </svg>
+            </button>
+        </div>
     );
 }
 

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="/dino-ai.jpg" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="keywords" content="Roars, Top CS Conferences, CSConfs, CS Conferences, Deadlines" />
@@ -25,10 +25,21 @@
 
 <body>
   <script>
-    // Apply saved theme before React mounts to prevent flash
-    (function() {
-      var t = localStorage.getItem('theme') || 'light';
-      document.documentElement.setAttribute('data-theme', t);
+    // Resolve the theme before React mounts to prevent a flash.
+    // No stored preference means "auto": follow the OS, and keep following it live.
+    (function () {
+      var media = window.matchMedia('(prefers-color-scheme: dark)');
+      var apply = function () {
+        var pinned = localStorage.getItem('theme');
+        var theme = pinned || (media.matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+        return theme;
+      };
+      apply();
+      media.addEventListener('change', function () {
+        if (localStorage.getItem('theme')) return; // user pinned a choice; leave it alone
+        window.dispatchEvent(new CustomEvent('themeChanged', { detail: apply() }));
+      });
     })();
   </script>
   <noscript>You need to enable JavaScript to run this app.</noscript>

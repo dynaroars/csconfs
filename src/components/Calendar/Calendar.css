@@ -1,0 +1,226 @@
+/* Calendar styles.
+   Replaces the MUI `sx` props these components used to carry. Sizing that was
+   previously driven by an `isMobile` prop is now handled by media queries. */
+
+.calendar {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ── Header ─────────────────────────────────────────────── */
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding: 16px;
+  background-color: var(--hover-bg);
+  border-radius: 4px;
+}
+
+.calendar-nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.calendar-nav:hover {
+  background-color: rgba(127, 127, 127, 0.15);
+}
+
+.calendar-nav:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.calendar-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.334;
+  color: var(--text-primary);
+}
+
+/* ── Day-name row ───────────────────────────────────────── */
+.calendar-daynames {
+  display: grid;
+  /* minmax(0, 1fr) rather than 1fr: a bare 1fr floors at the column's max-content
+     width, so a long no-wrap event pill would widen its column and push the grid
+     past its container. */
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.calendar-dayname {
+  text-align: center;
+  font-weight: 600;
+  color: var(--text-color);
+  padding: 8px;
+  font-size: 0.875rem;
+}
+
+/* ── Grid ───────────────────────────────────────────────── */
+.calendar-grid {
+  display: grid;
+  /* minmax(0, 1fr) rather than 1fr: a bare 1fr floors at the column's max-content
+     width, so a long no-wrap event pill would widen its column and push the grid
+     past its container. */
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.calendar-day {
+  min-height: 100px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 8px;
+  background-color: var(--card-bg);
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.calendar-day:hover {
+  background-color: var(--hover-bg);
+}
+
+.calendar-day.is-outside-month {
+  background-color: var(--hover-bg);
+}
+
+.calendar-day.is-today {
+  border-color: var(--calendar-today);
+}
+
+.calendar-daynum {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-bottom: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--text-primary);
+}
+
+.is-outside-month .calendar-daynum {
+  color: var(--text-secondary);
+}
+
+.is-today .calendar-daynum {
+  background-color: var(--calendar-today);
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* ── Events ─────────────────────────────────────────────── */
+.calendar-events {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* A block (not inline-flex) so `text-overflow` actually renders an ellipsis when
+   a label is wider than its column; line-height centres the text vertically. */
+.calendar-event {
+  display: block;
+  color: #ffffff;
+  font-size: 0.65rem;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+  padding: 0 6px;
+  text-align: center;
+  cursor: default;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+a.calendar-event {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a.calendar-event:hover {
+  opacity: 0.8;
+}
+
+/* ── Legend ─────────────────────────────────────────────── */
+.calendar-legend {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: var(--hover-bg);
+  border-radius: 4px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.calendar-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+}
+
+.calendar-legend-swatch {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+}
+
+/* ── Mobile ─────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .calendar {
+    padding: 0 8px;
+  }
+
+  .calendar-daynames,
+  .calendar-grid {
+    gap: 4px;
+  }
+
+  .calendar-dayname {
+    font-size: 0.75rem;
+  }
+
+  .calendar-day {
+    min-height: 80px;
+  }
+
+  .calendar-daynum {
+    width: 22px;
+    height: 22px;
+    font-size: 0.75rem;
+  }
+
+  .calendar-event {
+    font-size: 0.6rem;
+    height: 18px;
+    line-height: 18px;
+  }
+
+  .calendar-legend {
+    gap: 12px;
+  }
+
+  .calendar-legend-item {
+    font-size: 0.75rem;
+  }
+}

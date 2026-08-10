@@ -5,17 +5,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
-    "@mui/icons-material": "^7.0.2",
-    "@mui/material": "^7.0.2",
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.8.4",
-    "js-yaml": "^4.1.0",
-    "papaparse": "^5.5.2",
+    "prop-types": "^15.8.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "recharts": "^2.15.3"
@@ -24,12 +14,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "sync:acceptance": "curl -sfL -o public/data/acceptance_rates.csv https://raw.githubusercontent.com/emeryberger/csconferences/refs/heads/main/csconferences.csv"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.1.2",
-    "gh-pages": "^6.3.0",
+    "js-yaml": "^4.1.0",
+    "papaparse": "^5.5.2",
     "vite": "^7.3.1"
   }
 }

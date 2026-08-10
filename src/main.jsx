@@ -3,11 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
 
-// Apply saved theme immediately to avoid flash-of-wrong-theme on load
-(function() {
-  const saved = localStorage.getItem('theme') || 'light';
-  document.documentElement.setAttribute('data-theme', saved);
-})();
+// The theme is resolved by the inline bootstrap script in index.html, which runs
+// before this module loads and before first paint.
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

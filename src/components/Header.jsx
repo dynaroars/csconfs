@@ -5,8 +5,14 @@ import React from 'react';
  * Matches CSPicks visual language: Outfit heading font, Inter body,
  * fixed circle theme toggle top-right, clean border-bottom.
  */
-export default function Header({ toggleTheme, mode, onAddClick }) {
-  const isDark = mode === 'dark';
+const THEME_LABELS = {
+  auto: { icon: '🌗', title: 'Theme: auto (following your system) — click for light' },
+  light: { icon: '☀️', title: 'Theme: light — click for dark' },
+  dark: { icon: '🌙', title: 'Theme: dark — click to follow your system' },
+};
+
+export default function Header({ toggleTheme, themePref, onAddClick }) {
+  const theme = THEME_LABELS[themePref] || THEME_LABELS.auto;
 
   const handleToggle = (e) => {
     // Pass click origin so App can run View Transition from that point
@@ -29,27 +35,60 @@ export default function Header({ toggleTheme, mode, onAddClick }) {
         gap: '1rem'
       }}>
         <div style={{ flex: 1 }}>
-          {/* Title */}
-          <a
-            href="https://roars.dev/csconfs"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="CSConfs project homepage"
-            style={{ textDecoration: 'none' }}
-          >
-            <h1 style={{
-              margin: 0,
-              fontFamily: 'var(--font-heading)',
-              fontSize: 'clamp(1.75rem, 6vw, var(--text-2xl))',
-              fontWeight: 800,
-              letterSpacing: '0.02em',
-              color: 'var(--text-primary)',
-              lineHeight: 1.15,
-              userSelect: 'none',
-            }}>
-              <span style={{ color: '#2ca02c' }}>CSConfs:</span> CS Conference Deadlines
-            </h1>
-          </a>
+          {/* Title + icon links */}
+          <div className="title-row">
+            <a
+              href="https://roars.dev/csconfs"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="CSConfs project homepage"
+              style={{ textDecoration: 'none' }}
+            >
+              <h1 style={{
+                margin: 0,
+                fontFamily: 'var(--font-heading)',
+                fontSize: 'clamp(1.75rem, 6vw, var(--text-2xl))',
+                fontWeight: 800,
+                letterSpacing: '0.02em',
+                color: 'var(--text-primary)',
+                lineHeight: 1.15,
+                userSelect: 'none',
+              }}>
+                <span style={{ color: '#2ca02c' }}>CSConfs:</span> CS Conference Deadlines
+              </h1>
+            </a>
+
+            <a
+              className="icon-link github-link"
+              href="https://github.com/dynaroars/csconfs"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View CSConfs source on GitHub"
+              title="View source on GitHub"
+            />
+            <a
+              className="icon-link"
+              href="https://github.com/dynaroars/csconfs#-contributions"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="FAQ: how to contribute and report corrections"
+              title="FAQ &amp; how to contribute"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M9.2 9.3a2.9 2.9 0 0 1 5.6 1c0 2-2.8 2.4-2.8 4.2" />
+                <circle cx="12" cy="17.6" r="1.1" fill="currentColor" stroke="none" />
+              </svg>
+            </a>
+            <a
+              className="icon-link roars-link"
+              href="https://roars.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="ROARS Lab"
+              title="ROARS Lab"
+            />
+          </div>
 
           {/* Subtitle */}
           <p style={{
@@ -123,16 +162,15 @@ export default function Header({ toggleTheme, mode, onAddClick }) {
             <span>➕</span> Add Conference
           </button>
 
-          {/* Theme toggle — aligned to the right edge of the 1400px container */}
+          {/* Theme toggle — cycles auto → light → dark */}
           <button
             className="theme-toggle"
             onClick={handleToggle}
-            aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-            title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+            aria-label={theme.title}
+            title={theme.title}
             style={{ margin: 0 }}
           >
-            <span className="sun-icon">☀️</span>
-            <span className="moon-icon">🌙</span>
+            <span aria-hidden="true">{theme.icon}</span>
           </button>
         </div>
       </div>

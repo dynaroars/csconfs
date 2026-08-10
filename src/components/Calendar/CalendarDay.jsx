@@ -1,116 +1,51 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box, Typography } from '@mui/material';
-import { MIN_CALENDAR_HEIGHT } from './constants';
 
 /**
  * Individual calendar day cell.
  */
-function CalendarDay({ day, events, isToday, isMobile }) {
+function CalendarDay({ day, events, isToday }) {
+    const classes = [
+        'calendar-day',
+        day.isCurrentMonth ? '' : 'is-outside-month',
+        isToday ? 'is-today' : ''
+    ].filter(Boolean).join(' ');
+
     return (
-        <Box
-            sx={{
-                minHeight: isMobile ? 80 : MIN_CALENDAR_HEIGHT,
-                border: 1,
-                borderColor: isToday ? 'primary.main' : 'var(--border-color)',
-                borderRadius: 1,
-                p: 1,
-                backgroundColor: day.isCurrentMonth ? 'var(--card-bg)' : 'var(--hover-bg)',
-                position: 'relative',
-                transition: 'background-color 0.2s',
-                '&:hover': {
-                    backgroundColor: 'var(--hover-bg)'
-                }
-            }}
+        <div
+            className={classes}
             role="gridcell"
             aria-label={`${day.fullDate.toLocaleDateString()}, ${events.length} events`}
         >
-            {/* Day Number */}
-            <Box
-                sx={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: isMobile ? 22 : 26,
-                    height: isMobile ? 22 : 26,
-                    borderRadius: '50%',
-                    mb: 0.5,
-                    backgroundColor: isToday ? 'primary.main' : 'transparent',
-                }}
-            >
-                <Typography
-                    sx={{
-                        fontSize: isMobile ? '0.75rem' : '0.875rem',
-                        fontWeight: isToday ? 700 : 500,
-                        color: isToday
-                            ? '#ffffff'
-                            : (day.isCurrentMonth ? 'var(--text-primary)' : 'var(--text-secondary)'),
-                        lineHeight: 1,
-                    }}
-                >
-                    {day.date}
-                </Typography>
-            </Box>
+            <div className="calendar-daynum">{day.date}</div>
 
-            {/* Events */}
-            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+            <div className="calendar-events">
                 {events.map((event, idx) => (
                     event.link ? (
-                        <Box
+                        <a
                             key={`${event.type}-${idx}`}
-                            component="a"
+                            className="calendar-event"
+                            style={{ backgroundColor: event.color }}
                             href={event.link}
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label={`${event.label} - Click to view conference website`}
-                            sx={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                backgroundColor: event.color,
-                                color: '#ffffff',
-                                fontSize: isMobile ? '0.6rem' : '0.65rem',
-                                height: isMobile ? 18 : 20,
-                                borderRadius: '10px',
-                                px: 0.5,
-                                cursor: 'pointer',
-                                textDecoration: 'none',
-                                overflow: 'hidden',
-                                textOverflow: 'ellipsis',
-                                whiteSpace: 'nowrap',
-                                '&:hover': {
-                                    opacity: 0.8
-                                }
-                            }}
                         >
                             {event.label}
-                        </Box>
+                        </a>
                     ) : (
-                        <Box
+                        <span
                             key={`${event.type}-${idx}`}
+                            className="calendar-event"
+                            style={{ backgroundColor: event.color }}
                             aria-label={event.label}
-                            sx={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                backgroundColor: event.color,
-                                color: 'white',
-                                fontSize: isMobile ? '0.6rem' : '0.65rem',
-                                height: isMobile ? 18 : 20,
-                                borderRadius: '10px',
-                                px: 0.5,
-                                cursor: 'default',
-                                overflow: 'hidden',
-                                textOverflow: 'ellipsis',
-                                whiteSpace: 'nowrap'
-                            }}
                         >
                             {event.label}
-                        </Box>
+                        </span>
                     )
                 ))}
-            </Box>
-        </Box>
+            </div>
+        </div>
     );
 }
 
@@ -127,8 +62,7 @@ CalendarDay.propTypes = {
         color: PropTypes.string.isRequired,
         link: PropTypes.string
     })).isRequired,
-    isToday: PropTypes.bool.isRequired,
-    isMobile: PropTypes.bool.isRequired
+    isToday: PropTypes.bool.isRequired
 };
 
 export default CalendarDay;

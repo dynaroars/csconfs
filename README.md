@@ -14,8 +14,8 @@ Visit here 👉 [https://roars.dev/csconfs/](https://roars.dev/csconfs/)
 ## 📂 Project Structure
 
 - **Open**: This project is open-source on [**GitHub**](https://code.roars.dev/csconfs).  
-- **Tech stuff**: This website is built using **Vite** and **React**. It is a **static site** that fetches data from a **YAML** file and is hosted through **Github Pages**.
-- **Data:** Main database is stored in the file [`public/data/conferences.yaml`](https://github.com/dynaroars/csconfs/blob/main/public/data/conferences.yaml).
+- **Tech stuff**: This website is built using **Vite** and **React**. It is a **static site** hosted through **Github Pages**.
+- **Data:** Main database is stored in the file [`public/data/conferences.yaml`](https://github.com/dynaroars/csconfs/blob/main/public/data/conferences.yaml). At build time `scripts/build-data.js` converts it — along with the ranking and acceptance-rate CSVs in the same directory — into the JSON the site actually loads. The generated `public/data/*.json` files are git-ignored, so **always edit the YAML/CSV sources**, never the JSON. A malformed edit fails the build rather than the live site.
 
 ---
 
@@ -63,7 +63,8 @@ npm run dev
 http://localhost:5173/
 ```
 
-- If there are any errors, check and fix your edits in the `public/data/conferences.yaml` file.
+- The dev server regenerates the JSON whenever you edit a file in `public/data/` and reloads the page.
+- If there are any errors, check and fix your edits in the `public/data/conferences.yaml` file — the terminal reports the parse error.
 
 4. **Stop the server**:
 
@@ -71,19 +72,33 @@ http://localhost:5173/
 # Press Ctrl + C in the terminal
 ```
 
-
-
 ---
 
 ## 🚀 Deploy to GitHub Pages
-> Deploy to `roars.dev/csconfs` (only for maintainers):
+
+Deployment is automatic: every push to `main` triggers
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), which builds the
+site and publishes it to GitHub Pages. There is nothing to run by hand.
+
+To check a production build locally first:
 
 ```bash
-# In the project root, e.g., ~/git/csconfs/ and in the `main``
 npm run build
+npm run preview
 ```
 
-  - The script handles deployment to the `gh-pages` branch. It will automatically build the project and push the changes to the `gh-pages` branch. So you don't need to push to the `gh-pages` branch manually.
+---
+
+## 🔄 Refreshing acceptance-rate data
+
+Acceptance rates come from
+[emeryberger/csconferences](https://github.com/emeryberger/csconferences) and are
+vendored at `public/data/acceptance_rates.csv` so the site never depends on a
+third-party host at page load. To pull the latest copy:
+
+```bash
+npm run sync:acceptance
+```
 
 ---
 
@@ -100,14 +115,16 @@ We use an LLM-powered script to automatically find and extract the next year's c
 1. **Python 3.10+**
 2. **Install dependencies**:
    ```bash
-   pip install requests beautifulsoup4 fake-useragent google-generativeai python-dotenv pyyaml
+   pip install -r requirements.txt
    ```
-3. **Get a Gemini API Key**:
-   - Get a free key from [Google AI Studio](https://aistudio.google.com/).
+3. **Get a Groq API Key**:
+   - Get a free key from [Groq](https://console.groq.com).
    - Create a `.env` file in the root directory:
      ```env
-     GEMINI_API_KEY=your_api_key_here
+     GROQ_API_KEY=your_api_key_here
      ```
+   - The script talks to an OpenAI-compatible endpoint over plain HTTP, so you can
+     point it at a different provider by setting `LLM_BASE_URL` and `LLM_MODEL`.
 
 ### How to Run
 ```bash

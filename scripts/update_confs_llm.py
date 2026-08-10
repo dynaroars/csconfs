@@ -4,46 +4,32 @@ import argparse
 import yaml
 import requests
 from bs4 import BeautifulSoup
-from fake_useragent import UserAgent
 from dotenv import load_dotenv
 import json
 import re
 import time
-import warnings
-
-warnings.filterwarnings("ignore", category=FutureWarning)
 
 # Load environment variables
 load_dotenv()
 
-# Support both Groq and Gemini — prefer Groq
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+# The API is OpenAI-compatible, so a plain HTTP request is all that is needed —
+# no vendor SDK. Point LLM_BASE_URL/LLM_MODEL at any compatible endpoint to switch.
+LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://api.groq.com/openai/v1/chat/completions")
+LLM_MODEL = os.getenv("LLM_MODEL", "llama-3.3-70b-versatile")
+LLM_API_KEY = os.getenv("GROQ_API_KEY")
 
-if GROQ_API_KEY:
-    LLM_PROVIDER = "groq"
-    LLM_MODEL = "llama-3.3-70b-versatile"
-    LLM_BASE_URL = "https://api.groq.com/openai/v1/chat/completions"
-    LLM_API_KEY = GROQ_API_KEY
-    print(f"Using Groq ({LLM_MODEL})")
-elif GEMINI_API_KEY:
-    LLM_PROVIDER = "gemini"
-    LLM_MODEL = "gemini-2.0-flash-lite"
-    LLM_API_KEY = GEMINI_API_KEY
-    try:
-        from google import genai
-        USE_NEW_SDK = True
-        client = genai.Client(api_key=GEMINI_API_KEY)
-    except ImportError:
-        import google.generativeai as genai
-        USE_NEW_SDK = False
-        genai.configure(api_key=GEMINI_API_KEY)
-        model = genai.GenerativeModel(LLM_MODEL)
-    print(f"Using Gemini ({LLM_MODEL})")
-else:
-    print("Error: Set GROQ_API_KEY or GEMINI_API_KEY in .env file.")
+if not LLM_API_KEY:
+    print("Error: Set GROQ_API_KEY in your .env file.")
     print("Get a free Groq key at https://console.groq.com")
     exit(1)
+
+print(f"Using {LLM_MODEL}")
+
+# A stable, ordinary browser UA. Some conference sites reject requests without one.
+USER_AGENT = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+)
 
 DATA_FILE = "public/data/conferences.yaml"
 OUTPUT_FILE = "suggested_updates_llm.yaml"
@@ -347,17 +333,7 @@ def load_conferences():
         return yaml.safe_load(f)
 
 def get_headers():
-    fallback_uas = [
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
-    ]
-    try:
-        ua = UserAgent()
-        return {'User-Agent': ua.random}
-    except Exception:
-        import random
-        return {'User-Agent': random.choice(fallback_uas)}
+    return {'User-Agent': USER_AGENT}
 
 def fetch_html(url):
     try:
@@ -425,43 +401,34 @@ def find_next_year_link(series_url, current_year):
     return None
 
 def call_llm(prompt, max_retries=3):
-    """Call LLM (Groq or Gemini) with retry logic for rate limits."""
+    """Call the LLM with retry logic for rate limits."""
     for attempt in range(max_retries):
         try:
-            if LLM_PROVIDER == "groq":
-                response = requests.post(
-                    LLM_BASE_URL,
-                    headers={
-                        "Authorization": f"Bearer {LLM_API_KEY}",
-                        "Content-Type": "application/json",
-                    },
-                    json={
-                        "model": LLM_MODEL,
-                        "messages": [{"role": "user", "content": prompt}],
-                        "temperature": 0.1,
-                        "max_tokens": 1024,
-                    },
-                    timeout=30,
-                )
-                if response.status_code == 200:
-                    return response.json()["choices"][0]["message"]["content"]
-                elif response.status_code == 429:
-                    retry_after = response.headers.get("retry-after", "10")
-                    wait_time = min(float(retry_after) + 2, 65)
-                    print(f"  ⏳ Rate limited. Waiting {wait_time:.0f}s (attempt {attempt+1}/{max_retries})...")
-                    time.sleep(wait_time)
-                    continue
-                else:
-                    print(f"  LLM error: HTTP {response.status_code} - {response.text[:200]}")
-                    return None
+            response = requests.post(
+                LLM_BASE_URL,
+                headers={
+                    "Authorization": f"Bearer {LLM_API_KEY}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "model": LLM_MODEL,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "temperature": 0.1,
+                    "max_tokens": 1024,
+                },
+                timeout=30,
+            )
+            if response.status_code == 200:
+                return response.json()["choices"][0]["message"]["content"]
+            elif response.status_code == 429:
+                retry_after = response.headers.get("retry-after", "10")
+                wait_time = min(float(retry_after) + 2, 65)
+                print(f"  ⏳ Rate limited. Waiting {wait_time:.0f}s (attempt {attempt+1}/{max_retries})...")
+                time.sleep(wait_time)
+                continue
             else:
-                # Gemini fallback
-                if USE_NEW_SDK:
-                    response = client.models.generate_content(model=LLM_MODEL, contents=prompt)
-                    return response.text
-                else:
-                    response = model.generate_content(prompt)
-                    return response.text
+                print(f"  LLM error: HTTP {response.status_code} - {response.text[:200]}")
+                return None
         except Exception as e:
             error_str = str(e)
             if '429' in error_str or 'quota' in error_str.lower() or 'rate' in error_str.lower():
@@ -477,7 +444,7 @@ def call_llm(prompt, max_retries=3):
     return None
 
 def extract_data_with_llm(html_content, conference_name, year):
-    print(f"  Asking {LLM_PROVIDER.capitalize()} to extract data for {conference_name} {year}...")
+    print(f"  Asking {LLM_MODEL} to extract data for {conference_name} {year}...")
     
     # Reduce HTML size by keeping only body and stripping scripts/styles
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -524,7 +491,7 @@ def extract_data_with_llm(html_content, conference_name, year):
         return None
 
 def main():
-    parser = argparse.ArgumentParser(description='Crawl for new conference editions and extract data with Gemini.')
+    parser = argparse.ArgumentParser(description='Crawl for new conference editions and extract data with an LLM.')
     parser.add_argument('--confs', type=str, default=None,
                         help='Comma-separated list of conference names to process (e.g., AAAI,IJCAI,PLDI). Default: all.')
     parser.add_argument('--dry-run', action='store_true',

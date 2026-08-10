@@ -1,9 +1,18 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, lazy, Suspense } from 'react';
 
-import Graph from './Graph';
 import ConferenceCard from './ConferenceCard';
-import Stat from './Stat';
 import Calendar from './Calendar/index';
+
+// Graph and Stat are the only recharts consumers, and neither is on the default
+// (list) view — load them on demand so recharts stays out of the initial bundle.
+const Graph = lazy(() => import('./Graph'));
+const Stat = lazy(() => import('./Stat'));
+
+const ChartFallback = () => (
+    <div style={{ textAlign: 'center', padding: '40px 0', color: 'var(--text-secondary)' }}>
+        Loading chart…
+    </div>
+);
 
 function getAoEAdjustedDeadline(deadline) {
     if (!deadline) return null;
@@ -255,12 +264,16 @@ function ConferenceDisplay({ filteredConferences }) {
             )}
             {viewMode === 'graph' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Graph conferences={visibleConferences} />
+                    <Suspense fallback={<ChartFallback />}>
+                        <Graph conferences={visibleConferences} />
+                    </Suspense>
                 </div>
             )}
             {viewMode === 'stat' && (
                 <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Stat conferences={visibleConferences} />
+                    <Suspense fallback={<ChartFallback />}>
+                        <Stat conferences={visibleConferences} />
+                    </Suspense>
                 </div>
             )}
 

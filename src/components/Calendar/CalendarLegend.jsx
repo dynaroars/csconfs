@@ -1,53 +1,24 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Box, Typography } from '@mui/material';
 import { EVENT_TYPES } from './constants';
 
 /**
  * Calendar legend showing event type colors.
  */
-function CalendarLegend({ isMobile }) {
+function CalendarLegend() {
     return (
-        <Box
-            sx={{
-                mt: 3,
-                p: 2,
-                backgroundColor: 'var(--hover-bg)',
-                borderRadius: 1,
-                display: 'flex',
-                gap: isMobile ? 1.5 : 2,
-                flexWrap: 'wrap',
-                justifyContent: 'center'
-            }}
-            role="list"
-            aria-label="Calendar legend"
-        >
+        <div className="calendar-legend" role="list" aria-label="Calendar legend">
             {Object.values(EVENT_TYPES).map(eventType => (
-                <Box
-                    key={eventType.type}
-                    sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
-                    role="listitem"
-                >
-                    <Box
-                        sx={{
-                            width: 16,
-                            height: 16,
-                            backgroundColor: eventType.color,
-                            borderRadius: 0.5
-                        }}
+                <div key={eventType.type} className="calendar-legend-item" role="listitem">
+                    <span
+                        className="calendar-legend-swatch"
+                        style={{ backgroundColor: eventType.color }}
                         aria-hidden="true"
                     />
-                    <Typography variant={isMobile ? "caption" : "body2"} sx={{ color: 'var(--text-primary)' }}>
-                        {eventType.legendLabel}
-                    </Typography>
-                </Box>
+                    {eventType.legendLabel}
+                </div>
             ))}
-        </Box>
+        </div>
     );
 }
-
-CalendarLegend.propTypes = {
-    isMobile: PropTypes.bool.isRequired
-};
 
 export default CalendarLegend;

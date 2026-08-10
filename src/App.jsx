@@ -4,7 +4,6 @@ import ConferenceDisplay from './components/ConferenceDisplay';
 import { fetchFullData } from './components/FetchConferences';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
-import Footer from './components/Footer';
 import AddConferenceModal from './components/AddConferenceModal';
 import './App.css';
 
@@ -13,30 +12,45 @@ function App() {
   const [filteredConferences, setFilteredConferences] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState(null);
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
 
-  const [mode, setMode] = useState(localStorage.getItem('theme') || 'light');
+  // Theme preference is 'auto' (follow the OS), 'light', or 'dark'.
+  // 'auto' is represented by the absence of the localStorage key, so the
+  // inline bootstrap script in index.html can resolve it before React mounts.
+  const [themePref, setThemePref] = useState(() => localStorage.getItem('theme') || 'auto');
+  // The resolved theme actually on the page.
+  const [mode, setMode] = useState(() => document.documentElement.getAttribute('data-theme') || 'light');
 
   useEffect(() => {
+    // Fired by the bootstrap script when the OS theme changes while in auto.
     const handleThemeChange = () => {
-      setMode(localStorage.getItem('theme') || 'light');
+      setMode(document.documentElement.getAttribute('data-theme') || 'light');
     };
     window.addEventListener('themeChanged', handleThemeChange);
     return () => window.removeEventListener('themeChanged', handleThemeChange);
   }, []);
 
+  // Cycles auto → light → dark → auto.
   const toggleTheme = (e) => {
-    const next = mode === 'light' ? 'dark' : 'light';
+    const nextPref = themePref === 'auto' ? 'light' : themePref === 'light' ? 'dark' : 'auto';
     // Store origin for circle-wipe transition
     if (e) {
       document.documentElement.style.setProperty('--vt-x', e.clientX + 'px');
       document.documentElement.style.setProperty('--vt-y', e.clientY + 'px');
     }
     const apply = () => {
-      const newMode = next;
-      setMode(newMode);
-      document.documentElement.setAttribute('data-theme', newMode);
-      localStorage.setItem('theme', newMode);
+      if (nextPref === 'auto') {
+        localStorage.removeItem('theme');
+      } else {
+        localStorage.setItem('theme', nextPref);
+      }
+      const resolved = nextPref === 'auto'
+        ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+        : nextPref;
+      document.documentElement.setAttribute('data-theme', resolved);
+      setThemePref(nextPref);
+      setMode(resolved);
     };
     if (document.startViewTransition) {
       document.startViewTransition(apply);
@@ -165,7 +179,11 @@ function App() {
       setConferences(loadedConferences);
       setLoading(false);
     };
-    loadData();
+    loadData().catch(err => {
+      console.error('Error loading conference data:', err);
+      setLoadError(err);
+      setLoading(false);
+    });
   }, []);
 
 
@@ -266,12 +284,18 @@ function App() {
 
     return (
         <div>
-            <Header toggleTheme={toggleTheme} mode={mode} onAddClick={() => setIsAddModalOpen(true)} />
+            <Header toggleTheme={toggleTheme} themePref={themePref} onAddClick={() => setIsAddModalOpen(true)} />
             <AddConferenceModal isOpen={isAddModalOpen} onClose={() => setIsAddModalOpen(false)} />
             <div className="App">
                 {loading ? (
                     <div style={{ textAlign: 'center', marginTop: '20px' }}>
                         <h2>Loading...</h2>
+                    </div>
+                ) : loadError ? (
+                    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+                        <h2>Could not load conference data</h2>
+                        <p>Please check your connection and reload the page.</p>
+                        <button onClick={() => window.location.reload()}>Reload</button>
                     </div>
                 ) : (
                     <>
@@ -347,7 +371,6 @@ function App() {
           </>
         )}
       </div>
-      <Footer />
     </div>
   );
 }

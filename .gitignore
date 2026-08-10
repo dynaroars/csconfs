@@ -25,3 +25,5 @@ yarn-error.log*
 .env
 dist/
 scratch/
+# Generated from public/data sources by scripts/build-data.js
+public/data/*.json

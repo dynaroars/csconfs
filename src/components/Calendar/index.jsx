@@ -1,12 +1,12 @@
 import React, { useState, useMemo, useCallback } from 'react';
 import PropTypes from 'prop-types';
-import { Box, useTheme, useMediaQuery } from '@mui/material';
 
 import CalendarHeader from './CalendarHeader';
 import DayNamesHeader from './DayNamesHeader';
 import CalendarDay from './CalendarDay';
 import CalendarLegend from './CalendarLegend';
 import { generateCalendarDays, getConferencesForDay, getTodayNormalized, isSameDay } from './utils';
+import './Calendar.css';
 
 /**
  * Calendar component for displaying conference deadlines and events.
@@ -20,8 +20,6 @@ import { generateCalendarDays, getConferencesForDay, getTodayNormalized, isSameD
  */
 function Calendar({ conferences }) {
     const [currentDate, setCurrentDate] = useState(new Date());
-    const theme = useTheme();
-    const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
     // Navigation handlers
     const handlePreviousMonth = useCallback(() => {
@@ -46,34 +44,17 @@ function Calendar({ conferences }) {
     const today = useMemo(() => getTodayNormalized(), []);
 
     return (
-        <Box
-            sx={{
-                width: '100%',
-                maxWidth: 1400,
-                margin: '0 auto',
-                px: isMobile ? 1 : 0
-            }}
-            role="region"
-            aria-label="Conference deadline calendar"
-        >
+        <div className="calendar" role="region" aria-label="Conference deadline calendar">
             <CalendarHeader
                 currentDate={currentDate}
                 onPreviousMonth={handlePreviousMonth}
                 onNextMonth={handleNextMonth}
             />
 
-            <DayNamesHeader isMobile={isMobile} />
+            <DayNamesHeader />
 
             {/* Calendar Grid */}
-            <Box
-                sx={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(7, 1fr)',
-                    gap: isMobile ? 0.5 : 1
-                }}
-                role="grid"
-                aria-label="Calendar days"
-            >
+            <div className="calendar-grid" role="grid" aria-label="Calendar days">
                 {calendarDays.map((day, index) => {
                     const events = getConferencesForDay(conferences, day.fullDate);
                     const isToday = isSameDay(day.fullDate, today);
@@ -84,14 +65,13 @@ function Calendar({ conferences }) {
                             day={day}
                             events={events}
                             isToday={isToday}
-                            isMobile={isMobile}
                         />
                     );
                 })}
-            </Box>
+            </div>
 
-            <CalendarLegend isMobile={isMobile} />
-        </Box>
+            <CalendarLegend />
+        </div>
     );
 }
 

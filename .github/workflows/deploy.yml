@@ -23,6 +23,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Build the current tip of the branch rather than the commit that
+          # started the run. sync_data.yml pushes a data commit and then calls
+          # this workflow, but the run's github.sha still points at the
+          # pre-sync commit -- checking that out would deploy stale data while
+          # reporting success.
+          ref: ${{ github.ref_name }}
       - name: Setup Node
         uses: actions/setup-node@v4
         with:

@@ -2101,7 +2101,7 @@
   general_chair: Andrew Fitzgibbon, Laura Leal-Taixe, Vittorio Murino
   link: https://eccv2024.ecva.net
   name: ECCV
-  notificate_date: '2024-07-01'
+  notification_date: '2024-07-01'
   num_submission: null
   place: Milan, Italy
   program_chair: Aleš Leonardis, Elisa Ricci, Stefan Roth, Olga Russakovsky, Torsten
@@ -2321,7 +2321,7 @@
   general_chair: null
   link: http://icml.cc/Conferences/FutureMeetings
   name: ICML
-  notificate_date: '2026-04-30'
+  notification_date: '2026-04-30'
   num_submission: null
   place: Seoul, South Korea
   program_chair: null
@@ -2649,7 +2649,7 @@
   general_chair: null
   link: https://kdd2026.kdd.org/
   name: KDD
-  notificate_date: '2025-11-23'
+  notification_date: '2025-11-23'
   num_submission: null
   place: Jeju, Korea
   program_chair: null

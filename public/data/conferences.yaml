@@ -269,12 +269,11 @@
   rebuttal_date: null
   series_link: https://www.eurosys.org/
   year: 2028
-- abstract_deadline: '2026-09-22'
+- abstract_deadline: '2026-09-25'
   acceptance_rate: null
   date: '2027-05-04'
-  deadline: '2026-09-26'
+  deadline: '2026-10-01'
   description: European Association for Computer Graphics
-  estimated: true
   general_chair: null
   link: https://eg.github.io/
   name: Eurographics
@@ -284,6 +283,7 @@
   program_chair: null
   rebuttal_date: null
   series_link: null
+  verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
@@ -381,12 +381,11 @@
   rebuttal_date: '2027-04-20'
   series_link: null
   year: 2027
-- abstract_deadline: '2026-09-19'
+- abstract_deadline: '2026-09-18'
   acceptance_rate: null
   date: '2027-04-23'
-  deadline: '2026-09-24'
+  deadline: '2026-09-25'
   description: International Conference on Learning Representations
-  estimated: true
   general_chair: null
   link: https://iclr.cc/
   name: ICLR
@@ -396,6 +395,7 @@
   program_chair: null
   rebuttal_date: '2026-11-11'
   series_link: https://iclr.cc/
+  verified: true
   year: 2027
 - abstract_deadline: '2027-01-23'
   acceptance_rate: null

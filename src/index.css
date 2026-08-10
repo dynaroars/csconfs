@@ -143,9 +143,6 @@ button, input, select, textarea { font: inherit; color: inherit; }
   color: var(--text-secondary);
 }
 
-/* Data-source credit — kept visually distinct from the other links. */
-.credit-link { font-weight: 600; }
-
 .header-actions {
   display: flex;
   align-items: center;

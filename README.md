@@ -20,6 +20,7 @@
 - [Deployment](#deployment)
 - [Repository layout](#repository-layout)
 - [Contributing](#contributing)
+- [FAQ & data sources](FAQ.md)
 
 ---
 
@@ -275,4 +276,4 @@ Questions or corrections you would rather not make yourself? Open a [GitHub issu
 
 ---
 
-Created by [Roars Lab](https://roars.dev). Data cross-verified with [CCFDDL](https://ccfddl.com/); acceptance rates from [emeryberger/csconferences](https://github.com/emeryberger/csconferences).
+Created by [Roars Lab](https://roars.dev). Data sources and credits are listed in the [FAQ](FAQ.md).

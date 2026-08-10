@@ -36,11 +36,11 @@ export default function Header({ toggleTheme, themePref, onAddClick }) {
             />
             <a
               className="icon-link"
-              href="https://github.com/dynaroars/csconfs#-contributing"
+              href="https://github.com/dynaroars/csconfs/blob/main/FAQ.md"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="FAQ: how to contribute and report corrections"
-              title="FAQ &amp; how to contribute"
+              aria-label="FAQ, data sources and how to report a correction"
+              title="FAQ &amp; data sources"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <circle cx="12" cy="12" r="9" />
@@ -59,17 +59,10 @@ export default function Header({ toggleTheme, themePref, onAddClick }) {
           </div>
 
           <p className="site-subtitle">
-            Countdown to submission deadlines uses AoE (Anywhere on Earth) time zone.
-            Deadlines are synced from and verified against{' '}
-            <a
-              className="credit-link"
-              href="https://github.com/ccfddl/ccf-deadlines"
-              target="_blank"
-              rel="noopener noreferrer"
-            >CCFDDL / ccf-deadlines</a>
-            {' '}&mdash; thanks to its maintainers.{' '}
+            Countdown to submission deadlines uses AoE (Anywhere on Earth) time zone.{' '}
             Src, contributions, issues:{' '}
-            <a href="https://code.roars.dev/csconfs" target="_blank" rel="noopener noreferrer">code.roars.dev/csconfs</a>.
+            <a href="https://code.roars.dev/csconfs" target="_blank" rel="noopener noreferrer">code.roars.dev/csconfs</a>.{' '}
+            <a href="https://github.com/dynaroars/csconfs/blob/main/FAQ.md" target="_blank" rel="noopener noreferrer">FAQ &amp; data sources</a>.
           </p>
         </div>
 

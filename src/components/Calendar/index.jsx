@@ -6,7 +6,6 @@ import DayNamesHeader from './DayNamesHeader';
 import CalendarDay from './CalendarDay';
 import CalendarLegend from './CalendarLegend';
 import { generateCalendarDays, getConferencesForDay, getTodayNormalized, isSameDay } from './utils';
-import './Calendar.css';
 
 /**
  * Calendar component for displaying conference deadlines and events.

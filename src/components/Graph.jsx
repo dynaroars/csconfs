@@ -29,7 +29,7 @@ const CustomTooltip = ({ active, payload }) => {
   const daysLeft = (d) => Math.max(0, Math.floor((new Date(d) - new Date()) / DAY_MS));
 
   return (
-    <div style={{ background: '#fff', border: '1px solid #ccc', padding: 10 }}>
+    <div className="chart-tooltip">
       <strong>{conf.name}</strong>
       <div>
         Deadline: {myDate(conf.deadline)} ({daysLeft(conf.deadline)} days)<br/>

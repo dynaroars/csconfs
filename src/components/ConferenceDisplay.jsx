@@ -8,11 +8,7 @@ import Calendar from './Calendar/index';
 const Graph = lazy(() => import('./Graph'));
 const Stat = lazy(() => import('./Stat'));
 
-const ChartFallback = () => (
-    <div style={{ textAlign: 'center', padding: '40px 0', color: 'var(--text-secondary)' }}>
-        Loading chart…
-    </div>
-);
+const ChartFallback = () => <p className="placeholder">Loading chart&hellip;</p>;
 
 function getAoEAdjustedDeadline(deadline) {
     if (!deadline) return null;
@@ -190,26 +186,12 @@ function ConferenceDisplay({ filteredConferences }) {
         }
     }, [totalPages, page]);
 
-    const selectStyle = {
-        fontFamily: 'var(--font-body)',
-        fontSize: 'var(--text-sm)',
-        padding: '6px 10px',
-        border: '1px solid var(--border-color)',
-        background: 'var(--bg-color)',
-        color: 'var(--text-primary)',
-        cursor: 'pointer',
-        outline: 'none',
-        borderRadius: '4px',
-    };
-
     return (
-        <div style={{ width: '100%' }}>
+        <div className="display">
             {/* Controls row */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px', flexWrap: 'wrap', width: '100%' }}>
-                <label style={{ fontFamily: 'var(--font-body)', fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', fontWeight: 600 }}>
-                    View
-                </label>
-                <select value={viewMode} onChange={handleViewChange} style={selectStyle}>
+            <div className="controls">
+                <label className="control-label" htmlFor="view-mode">View</label>
+                <select id="view-mode" className="control-select" value={viewMode} onChange={handleViewChange}>
                     <option value="list">List</option>
                     <option value="calendar">Calendar</option>
                     <option value="graph">Graph</option>
@@ -218,10 +200,8 @@ function ConferenceDisplay({ filteredConferences }) {
 
                 {viewMode === 'list' && (
                     <>
-                        <label style={{ fontFamily: 'var(--font-body)', fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', fontWeight: 600 }}>
-                            Sort
-                        </label>
-                        <select value={sortMode} onChange={handleSortChange} style={selectStyle}>
+                        <label className="control-label" htmlFor="sort-mode">Sort</label>
+                        <select id="sort-mode" className="control-select" value={sortMode} onChange={handleSortChange}>
                             <option value="submission_deadline">Submission Deadline</option>
                             <option value="notification_date">Notification Date</option>
                             <option value="confdate">Conf. Date</option>
@@ -230,55 +210,32 @@ function ConferenceDisplay({ filteredConferences }) {
                     </>
                 )}
 
-                <label style={{ 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    gap: '8px', 
-                    fontFamily: 'var(--font-body)', 
-                    fontSize: 'var(--text-sm)', 
-                    color: 'var(--text-secondary)', 
-                    fontWeight: 600, 
-                    cursor: 'pointer', 
-                    marginLeft: 'auto',
-                    userSelect: 'none'
-                }}>
-                    <input 
-                        type="checkbox" 
-                        checked={showEstimated} 
-                        onChange={(e) => setShowEstimated(e.target.checked)} 
-                        style={{ 
-                            cursor: 'pointer',
-                            accentColor: '#e65100',
-                            width: '16px',
-                            height: '16px'
-                        }}
+                <label className="control-label control-checkbox">
+                    <input
+                        type="checkbox"
+                        checked={showEstimated}
+                        onChange={(e) => setShowEstimated(e.target.checked)}
                     />
                     Show Estimated
                 </label>
             </div>
 
-            {viewMode === 'calendar' && (
-                <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Calendar conferences={visibleConferences} />
-                </div>
-            )}
+            {viewMode === 'calendar' && <Calendar conferences={visibleConferences} />}
+
             {viewMode === 'graph' && (
-                <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Suspense fallback={<ChartFallback />}>
-                        <Graph conferences={visibleConferences} />
-                    </Suspense>
-                </div>
+                <Suspense fallback={<ChartFallback />}>
+                    <Graph conferences={visibleConferences} />
+                </Suspense>
             )}
+
             {viewMode === 'stat' && (
-                <div style={{ width: '100%', marginBottom: 16 }}>
-                    <Suspense fallback={<ChartFallback />}>
-                        <Stat conferences={visibleConferences} />
-                    </Suspense>
-                </div>
+                <Suspense fallback={<ChartFallback />}>
+                    <Stat conferences={visibleConferences} />
+                </Suspense>
             )}
 
             {viewMode === 'list' && (
-                <div style={{ width: '100%' }}>
+                <div>
                     {paginated.map((group) => {
                         const mainConf = group[0];
                         return (
@@ -289,45 +246,41 @@ function ConferenceDisplay({ filteredConferences }) {
                         );
                     })}
 
-                    {/* Pagination */}
                     {totalPages > 1 && (
-                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '6px', marginTop: '24px', flexWrap: 'wrap' }}>
+                        <div className="pagination">
                             <button
+                                type="button"
+                                className="page-btn"
                                 onClick={() => setPage(p => Math.max(1, p - 1))}
                                 disabled={page === 1}
-                                style={{ ...selectStyle, padding: '6px 14px', opacity: page === 1 ? 0.4 : 1 }}
-                            >← Prev</button>
+                            >&larr; Prev</button>
 
                             {Array.from({ length: totalPages }, (_, i) => i + 1)
                                 .filter(p => p === 1 || p === totalPages || Math.abs(p - page) <= 2)
                                 .reduce((acc, p, i, arr) => {
-                                    if (i > 0 && p - arr[i-1] > 1) acc.push('…');
+                                    if (i > 0 && p - arr[i - 1] > 1) acc.push('\u2026');
                                     acc.push(p);
                                     return acc;
                                 }, [])
-                                .map((p, i) => p === '…' ? (
-                                    <span key={`ellipsis-${i}`} style={{ fontFamily: 'var(--font-body)', color: 'var(--text-secondary)', padding: '0 4px' }}>…</span>
+                                .map((p, i) => p === '\u2026' ? (
+                                    <span key={`ellipsis-${i}`} className="page-ellipsis">&hellip;</span>
                                 ) : (
                                     <button
                                         key={p}
+                                        type="button"
+                                        className={`page-btn${p === page ? ' is-current' : ''}`}
                                         onClick={() => setPage(p)}
-                                        style={{
-                                            ...selectStyle,
-                                            padding: '6px 12px',
-                                            fontWeight: p === page ? 700 : 400,
-                                            background: p === page ? 'var(--text-primary)' : 'var(--bg-color)',
-                                            color: p === page ? 'var(--bg-color)' : 'var(--text-primary)',
-                                            borderColor: p === page ? 'var(--text-primary)' : 'var(--border-color)',
-                                        }}
+                                        aria-current={p === page ? 'page' : undefined}
                                     >{p}</button>
                                 ))
                             }
 
                             <button
+                                type="button"
+                                className="page-btn"
                                 onClick={() => setPage(p => Math.min(totalPages, p + 1))}
                                 disabled={page === totalPages}
-                                style={{ ...selectStyle, padding: '6px 14px', opacity: page === totalPages ? 0.4 : 1 }}
-                            >Next →</button>
+                            >Next &rarr;</button>
                         </div>
                     )}
                 </div>

@@ -38,4 +38,3 @@ export const EVENT_TYPES = {
 };
 
 export const DAYS_IN_WEEK = 7;
-export const MIN_CALENDAR_HEIGHT = 100;

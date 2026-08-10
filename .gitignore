@@ -27,3 +27,10 @@ dist/
 scratch/
 # Generated from public/data sources by scripts/build-data.js
 public/data/*.json
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Crawler scratch output
+suggested_updates_llm.yaml

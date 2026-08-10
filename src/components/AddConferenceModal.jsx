@@ -98,270 +98,149 @@ ${yamlBlock}
     onClose();
   };
 
-  const overlayStyle = {
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    backgroundColor: 'rgba(0, 0, 0, 0.6)',
-    backdropFilter: 'blur(6px)',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    zIndex: 9999,
-    padding: '20px',
-  };
-
-  const modalStyle = {
-    background: 'var(--bg-color)',
-    border: '1px solid var(--border-color)',
-    borderRadius: '12px',
-    width: '100%',
-    maxWidth: '600px',
-    maxHeight: '90vh',
-    overflowY: 'auto',
-    boxShadow: '0 20px 40px rgba(0,0,0,0.3)',
-    color: 'var(--text-primary)',
-    fontFamily: 'var(--font-body)',
-  };
-
-  const headerStyle = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: '16px 24px',
-    borderBottom: '1px solid var(--border-color)',
-  };
-
-  const titleStyle = {
-    margin: 0,
-    fontFamily: 'var(--font-heading)',
-    fontSize: 'var(--text-lg)',
-    fontWeight: 700,
-  };
-
-  const closeButtonStyle = {
-    background: 'none',
-    border: 'none',
-    color: 'var(--text-secondary)',
-    fontSize: '24px',
-    cursor: 'pointer',
-    padding: 0,
-    lineHeight: 1,
-  };
-
-  const formStyle = {
-    padding: '24px',
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '16px',
-  };
-
-  const rowStyle = {
-    display: 'grid',
-    gridTemplateColumns: '1fr 1fr',
-    gap: '16px',
-  };
-
-  const formGroupStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '6px',
-  };
-
-  const labelStyle = {
-    fontSize: 'var(--text-sm)',
-    fontWeight: 600,
-    color: 'var(--text-secondary)',
-  };
-
-  const inputStyle = (hasError) => ({
-    padding: '8px 12px',
-    borderRadius: '6px',
-    border: `1px solid ${hasError ? '#d32f2f' : 'var(--border-color)'}`,
-    background: 'var(--bg-color)',
-    color: 'var(--text-primary)',
-    fontSize: 'var(--text-sm)',
-    outline: 'none',
-    fontFamily: 'var(--font-body)',
-  });
-
-  const errorStyle = {
-    color: '#d32f2f',
-    fontSize: '12px',
-    marginTop: '2px',
-  };
-
-  const submitButtonStyle = {
-    padding: '10px 16px',
-    borderRadius: '6px',
-    border: 'none',
-    background: '#2ca02c',
-    color: 'white',
-    fontSize: 'var(--text-sm)',
-    fontWeight: 600,
-    cursor: 'pointer',
-    transition: 'opacity 0.2s',
-    marginTop: '8px',
-  };
-
-  const cancelButtonStyle = {
-    padding: '10px 16px',
-    borderRadius: '6px',
-    border: '1px solid var(--border-color)',
-    background: 'transparent',
-    color: 'var(--text-secondary)',
-    fontSize: 'var(--text-sm)',
-    fontWeight: 600,
-    cursor: 'pointer',
-    transition: 'opacity 0.2s',
-    marginTop: '8px',
-  };
-
   return (
-    <div style={overlayStyle} onClick={onClose}>
-      <div style={modalStyle} onClick={e => e.stopPropagation()}>
-        <div style={headerStyle}>
-          <h2 style={titleStyle}>Add New Conference</h2>
-          <button style={closeButtonStyle} onClick={onClose} aria-label="Close modal">
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal" onClick={e => e.stopPropagation()}>
+        <div className="modal-header">
+          <h2 className="modal-title">Add New Conference</h2>
+          <button className="modal-close" onClick={onClose} aria-label="Close modal">
             &times;
           </button>
         </div>
 
-        <form style={formStyle} onSubmit={handleSubmit}>
-          <div style={rowStyle}>
-            <div style={formGroupStyle}>
-              <label style={labelStyle}>Conference Name *</label>
+        <form className="modal-form" onSubmit={handleSubmit}>
+          <div className="form-row">
+            <div className="form-group">
+              <label className="form-label">Conference Name *</label>
               <input
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="e.g. SIGMOD"
-                style={inputStyle(errors.name)}
+                className={`form-input${errors.name ? ' has-error' : ''}`}
               />
-              {errors.name && <div style={errorStyle}>{errors.name}</div>}
+              {errors.name && <div className="form-error">{errors.name}</div>}
             </div>
 
-            <div style={formGroupStyle}>
-              <label style={labelStyle}>Year *</label>
+            <div className="form-group">
+              <label className="form-label">Year *</label>
               <input
                 type="number"
                 name="year"
                 value={formData.year}
                 onChange={handleChange}
                 placeholder="e.g. 2028"
-                style={inputStyle(errors.year)}
+                className={`form-input${errors.year ? ' has-error' : ''}`}
               />
-              {errors.year && <div style={errorStyle}>{errors.year}</div>}
+              {errors.year && <div className="form-error">{errors.year}</div>}
             </div>
           </div>
 
-          <div style={formGroupStyle}>
-            <label style={labelStyle}>Full Description *</label>
+          <div className="form-group">
+            <label className="form-label">Full Description *</label>
             <input
               name="description"
               value={formData.description}
               onChange={handleChange}
               placeholder="e.g. ACM SIGMOD International Conference on Management of Data"
-              style={inputStyle(errors.description)}
+              className={`form-input${errors.description ? ' has-error' : ''}`}
             />
-            {errors.description && <div style={errorStyle}>{errors.description}</div>}
+            {errors.description && <div className="form-error">{errors.description}</div>}
           </div>
 
-          <div style={formGroupStyle}>
-            <label style={labelStyle}>Official Website Link *</label>
+          <div className="form-group">
+            <label className="form-label">Official Website Link *</label>
             <input
               name="link"
               value={formData.link}
               onChange={handleChange}
               placeholder="e.g. https://2028.sigmod.org/"
-              style={inputStyle(errors.link)}
+              className={`form-input${errors.link ? ' has-error' : ''}`}
             />
-            {errors.link && <div style={errorStyle}>{errors.link}</div>}
+            {errors.link && <div className="form-error">{errors.link}</div>}
           </div>
 
-          <div style={rowStyle}>
-            <div style={formGroupStyle}>
-              <label style={labelStyle}>Conference Dates *</label>
+          <div className="form-row">
+            <div className="form-group">
+              <label className="form-label">Conference Dates *</label>
               <input
                 name="date"
                 value={formData.date}
                 onChange={handleChange}
                 placeholder="e.g. June 11-16, 2028"
-                style={inputStyle(errors.date)}
+                className={`form-input${errors.date ? ' has-error' : ''}`}
               />
-              {errors.date && <div style={errorStyle}>{errors.date}</div>}
+              {errors.date && <div className="form-error">{errors.date}</div>}
             </div>
 
-            <div style={formGroupStyle}>
-              <label style={labelStyle}>Location / Place</label>
+            <div className="form-group">
+              <label className="form-label">Location / Place</label>
               <input
                 name="place"
                 value={formData.place}
                 onChange={handleChange}
                 placeholder="e.g. Seattle, WA, USA"
-                style={inputStyle(false)}
+                className="form-input"
               />
             </div>
           </div>
 
-          <div style={rowStyle}>
-            <div style={formGroupStyle}>
-              <label style={labelStyle}>Submission Deadline (YYYY-MM-DD)</label>
+          <div className="form-row">
+            <div className="form-group">
+              <label className="form-label">Submission Deadline (YYYY-MM-DD)</label>
               <input
                 name="deadline"
                 value={formData.deadline}
                 onChange={handleChange}
                 placeholder="e.g. 2027-11-15"
-                style={inputStyle(errors.deadline)}
+                className={`form-input${errors.deadline ? ' has-error' : ''}`}
               />
-              {errors.deadline && <div style={errorStyle}>{errors.deadline}</div>}
+              {errors.deadline && <div className="form-error">{errors.deadline}</div>}
             </div>
 
-            <div style={formGroupStyle}>
-              <label style={labelStyle}>Abstract Deadline (YYYY-MM-DD)</label>
+            <div className="form-group">
+              <label className="form-label">Abstract Deadline (YYYY-MM-DD)</label>
               <input
                 name="abstract_deadline"
                 value={formData.abstract_deadline}
                 onChange={handleChange}
                 placeholder="e.g. 2027-11-08"
-                style={inputStyle(errors.abstract_deadline)}
+                className={`form-input${errors.abstract_deadline ? ' has-error' : ''}`}
               />
-              {errors.abstract_deadline && <div style={errorStyle}>{errors.abstract_deadline}</div>}
+              {errors.abstract_deadline && <div className="form-error">{errors.abstract_deadline}</div>}
             </div>
           </div>
 
-          <div style={rowStyle}>
-            <div style={formGroupStyle}>
-              <label style={labelStyle}>Notification Date (YYYY-MM-DD)</label>
+          <div className="form-row">
+            <div className="form-group">
+              <label className="form-label">Notification Date (YYYY-MM-DD)</label>
               <input
                 name="notification_date"
                 value={formData.notification_date}
                 onChange={handleChange}
                 placeholder="e.g. 2028-02-15"
-                style={inputStyle(errors.notification_date)}
+                className={`form-input${errors.notification_date ? ' has-error' : ''}`}
               />
-              {errors.notification_date && <div style={errorStyle}>{errors.notification_date}</div>}
+              {errors.notification_date && <div className="form-error">{errors.notification_date}</div>}
             </div>
 
-            <div style={formGroupStyle}>
-              <label style={labelStyle}>Note / Submission Cycle</label>
+            <div className="form-group">
+              <label className="form-label">Note / Submission Cycle</label>
               <input
                 name="note"
                 value={formData.note}
                 onChange={handleChange}
                 placeholder="e.g. Cycle 1/2"
-                style={inputStyle(false)}
+                className="form-input"
               />
             </div>
           </div>
 
-          <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '12px', marginTop: '12px' }}>
-            <button type="button" style={cancelButtonStyle} onClick={onClose}>
+          <div className="modal-actions">
+            <button type="button" className="btn" onClick={onClose}>
               Cancel
             </button>
-            <button type="submit" style={submitButtonStyle}>
+            <button type="submit" className="btn btn--primary">
               Submit to GitHub
             </button>
           </div>

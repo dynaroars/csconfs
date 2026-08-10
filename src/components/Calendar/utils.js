@@ -1,35 +1,40 @@
 import { DAYS_IN_WEEK, EVENT_TYPES } from './constants';
 
 /**
- * Adjusts a deadline to Anywhere on Earth (AoE) timezone.
- * AoE is UTC-12, so we add 12 hours to account for the timezone difference.
+ * Formats a Date as YYYY-MM-DD from its *local* calendar date.
  *
- * @param {string | Date} deadline - The deadline date to adjust
- * @returns {Date | null} The AoE-adjusted date or null if invalid
+ * Not toISOString(): that converts to UTC first, so for a viewer at a positive
+ * UTC offset a cell built at local midnight reports the previous day and every
+ * event lands one square late.
+ *
+ * @param {Date} date
+ * @returns {string} YYYY-MM-DD
  */
-export function getAoEAdjustedDeadline(deadline) {
-    if (!deadline) return null;
-    try {
-        const dateObject = new Date(deadline);
-        if (isNaN(dateObject.getTime())) return null;
-
-        dateObject.setHours(23, 59, 59, 999);
-        dateObject.setUTCDate(dateObject.getUTCDate() + 1);
-        return dateObject;
-    } catch (error) {
-        console.error('Error parsing deadline:', error);
-        return null;
-    }
+function formatLocalDate(date) {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
 }
 
 /**
- * Formats a date to ISO date string (YYYY-MM-DD).
+ * Normalises a stored date to a YYYY-MM-DD key.
  *
- * @param {Date} date - The date to format
- * @returns {string} ISO date string
+ * Deadlines in the database are calendar dates, not instants, so they are
+ * compared as plain strings. Turning them into Date objects would reintroduce
+ * a timezone that the source data never had. (The AoE offset that matters for
+ * "time remaining" is applied by the countdown, not here.)
+ *
+ * @param {string | Date | null} value
+ * @returns {string | null} YYYY-MM-DD, or null if not a recognisable date
  */
-export function formatDateToISO(date) {
-    return date.toISOString().split('T')[0];
+function toDateKey(value) {
+    if (!value) return null;
+    if (value instanceof Date) {
+        return isNaN(value.getTime()) ? null : formatLocalDate(value);
+    }
+    const text = String(value);
+    return /^\d{4}-\d{2}-\d{2}/.test(text) ? text.slice(0, 10) : null;
 }
 
 /**
@@ -40,7 +45,7 @@ export function formatDateToISO(date) {
  * @returns {boolean} True if dates are the same day
  */
 export function isSameDay(date1, date2) {
-    return formatDateToISO(date1) === formatDateToISO(date2);
+    return formatLocalDate(date1) === formatLocalDate(date2);
 }
 
 /**
@@ -107,10 +112,10 @@ export function generateCalendarDays(currentDate) {
 }
 
 /**
- * Extracts conference events for a specific day.
+ * Extracts conference events falling on a specific day.
  *
  * @param {Array} conferences - Array of conference objects
- * @param {Date} dayDate - The date to check for events
+ * @param {Date} dayDate - The day to collect events for
  * @returns {Array<{name: string, type: string, label: string, color: string, link: string}>}
  */
 export function getConferencesForDay(conferences, dayDate) {
@@ -118,74 +123,35 @@ export function getConferencesForDay(conferences, dayDate) {
         return [];
     }
 
-    const dayStr = formatDateToISO(dayDate);
+    const dayKey = formatLocalDate(dayDate);
     const events = [];
+    const seen = new Set();
+
+    // Which conference field maps to which kind of marker.
+    const FIELDS = [
+        ['deadline', EVENT_TYPES.DEADLINE],
+        ['abstract_deadline', EVENT_TYPES.ABSTRACT],
+        ['notification_date', EVENT_TYPES.NOTIFICATION],
+        ['parsed_date', EVENT_TYPES.CONFERENCE],
+    ];
 
     conferences.forEach(conf => {
-        // Check submission deadline
-        if (conf.deadline) {
-            const deadline = getAoEAdjustedDeadline(conf.deadline);
-            if (deadline && formatDateToISO(deadline) === dayStr) {
-                events.push({
-                    name: conf.name,
-                    type: EVENT_TYPES.DEADLINE.type,
-                    label: `${conf.name} ${EVENT_TYPES.DEADLINE.label}`,
-                    color: EVENT_TYPES.DEADLINE.color,
-                    link: conf.link
-                });
-            }
-        }
+        for (const [field, eventType] of FIELDS) {
+            if (toDateKey(conf[field]) !== dayKey) continue;
 
-        // Check abstract deadline
-        if (conf.abstract_deadline) {
-            const abstractDeadline = getAoEAdjustedDeadline(conf.abstract_deadline);
-            if (abstractDeadline && formatDateToISO(abstractDeadline) === dayStr) {
-                events.push({
-                    name: conf.name,
-                    type: EVENT_TYPES.ABSTRACT.type,
-                    label: `${conf.name} ${EVENT_TYPES.ABSTRACT.label}`,
-                    color: EVENT_TYPES.ABSTRACT.color,
-                    link: conf.link
-                });
-            }
-        }
+            const key = `${conf.name}-${eventType.type}`;
+            if (seen.has(key)) continue;
+            seen.add(key);
 
-        // Check notification date
-        if (conf.notification_date) {
-            const notifDate = getAoEAdjustedDeadline(conf.notification_date);
-            if (notifDate && formatDateToISO(notifDate) === dayStr) {
-                events.push({
-                    name: conf.name,
-                    type: EVENT_TYPES.NOTIFICATION.type,
-                    label: `${conf.name} ${EVENT_TYPES.NOTIFICATION.label}`,
-                    color: EVENT_TYPES.NOTIFICATION.color,
-                    link: conf.link
-                });
-            }
-        }
-
-        // Check conference date using the mathematical parsed_date
-        if (conf.parsed_date) {
-            const confDate = conf.parsed_date;
-            if (!isNaN(confDate.getTime()) && formatDateToISO(confDate) === dayStr) {
-                events.push({
-                    name: conf.name,
-                    type: EVENT_TYPES.CONFERENCE.type,
-                    label: `${conf.name} ${EVENT_TYPES.CONFERENCE.label}`,
-                    color: EVENT_TYPES.CONFERENCE.color,
-                    link: conf.link
-                });
-            }
+            events.push({
+                name: conf.name,
+                type: eventType.type,
+                label: `${conf.name} ${eventType.label}`,
+                color: eventType.color,
+                link: conf.link,
+            });
         }
     });
 
-    // Remove duplicates
-    const uniqueEvents = events.filter(
-        (item, index, self) =>
-            index === self.findIndex(obj =>
-            JSON.stringify(obj) === JSON.stringify(item)
-        )
-    );
-
-    return uniqueEvents;
+    return events;
 }

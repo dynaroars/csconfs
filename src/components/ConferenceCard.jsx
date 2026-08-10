@@ -1,24 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const EstimatedBadge = ({ children, title }) => (
-  <span
-    title={title}
-    style={{
-      backgroundColor: '#fff3e0',
-      color: '#e65100',
-      border: '1px solid #ffe0b2',
-      borderRadius: '12px',
-      padding: '2px 8px',
-      fontSize: '0.75rem',
-      fontWeight: 'bold',
-      marginLeft: '8px',
-      display: 'inline-flex',
-      alignItems: 'center',
-      gap: '4px',
-      verticalAlign: 'middle',
-      textTransform: 'uppercase',
-    }}
-  >
+  <span className="badge-estimated" title={title}>
     {children}
   </span>
 );
@@ -27,7 +10,7 @@ const VisualCycleStepper = ({ cycles }) => {
   if (!cycles || cycles.length <= 1) return null;
 
   return (
-    <div style={{ margin: '0.5rem 0 1rem 0', display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+    <div className="cycle-stepper">
       {cycles.map((c, i) => {
         const diff = c.deadline ? calculateTimeLeft(c.deadline) : -1;
         const isPassed = diff <= 0;
@@ -35,33 +18,13 @@ const VisualCycleStepper = ({ cycles }) => {
         return (
           <React.Fragment key={i}>
             <div
+              className={`cycle-step${isPassed ? ' is-passed' : ''}`}
               title={`${label}: ${formatDateAoE(c.deadline)}`}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '4px',
-                fontSize: '0.75rem',
-                fontFamily: 'var(--font-heading)',
-                fontWeight: 600,
-                color: isPassed ? 'var(--text-secondary)' : '#1976d2',
-                opacity: isPassed ? 0.6 : 1,
-              }}
             >
-              <span
-                style={{
-                  width: '8px',
-                  height: '8px',
-                  borderRadius: '50%',
-                  backgroundColor: isPassed ? '#9e9e9e' : '#1976d2',
-                  boxShadow: isPassed ? 'none' : '0 0 0 3px rgba(25, 118, 210, 0.2)',
-                  display: 'inline-block',
-                }}
-              />
+              <span className="cycle-dot" />
               <span>{label}</span>
             </div>
-            {i < cycles.length - 1 && (
-              <span style={{ color: 'var(--border-color)', fontSize: '0.75rem' }}>──</span>
-            )}
+            {i < cycles.length - 1 && <span className="cycle-sep">&mdash;</span>}
           </React.Fragment>
         );
       })}
@@ -91,13 +54,23 @@ const calculateCountdown = (deadline) => {
   return `${String(days).padStart(2,'0')}d ${String(hours).padStart(2,'0')}h ${String(minutes).padStart(2,'0')}m ${String(seconds).padStart(2,'0')}s`;
 };
 
+// Dates in the database are calendar dates, not instants, so they are rendered
+// exactly as recorded. Building a Date and shifting it made the displayed day
+// depend on the viewer's timezone, and disagree with the calendar view.
+// The AoE offset only affects "time remaining", which the countdown handles.
 const formatDateAoE = (date) => {
   if (!date) return 'TBD';
-  const d = new Date(date);
-  if (isNaN(d.getTime())) return date;
-  d.setHours(23, 59, 59, 999);
-  d.setUTCDate(d.getUTCDate() + 1);
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit' });
+  // parsed_date arrives as a Date; read its local calendar date, not UTC.
+  if (date instanceof Date) {
+    if (isNaN(date.getTime())) return 'TBD';
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${month}/${day}/${date.getFullYear()}`;
+  }
+  const match = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(date));
+  if (!match) return date;
+  const [, year, month, day] = match;
+  return `${month}/${day}/${year}`;
 };
 
 // ── Countdown color ──────────────────────────
@@ -126,31 +99,12 @@ const CycleStatusBlock = ({ cycle, isLast }) => {
   const countdownColor          = getCountdownColor(cycle.deadline);
 
   return (
-    <div
-      className="cycle-status-block"
-      style={{
-        borderBottom: isLast ? 'none' : '1px solid var(--border-color)',
-        paddingBottom: isLast ? 0 : '1rem',
-        marginBottom: isLast ? 0 : '1rem',
-      }}
-    >
+    <div className={`cycle-status-block${isLast ? ' is-last' : ''}`}>
       {cycle.note && (
-        <div
-          style={{
-            fontFamily: 'var(--font-heading)',
-            fontSize: '0.75rem',
-            fontWeight: 700,
-            textTransform: 'uppercase',
-            color: 'var(--text-secondary)',
-            letterSpacing: '0.05em',
-            marginBottom: '0.25rem',
-          }}
-        >
-          {cycle.note}
-        </div>
+        <div className="cycle-note">{cycle.note}</div>
       )}
 
-      <div className="conference-card-countdown" style={{ color: countdownColor, fontSize: '1.25rem', marginBottom: '0.5rem' }}>
+      <div className="conference-card-countdown is-compact" style={{ color: countdownColor }}>
         {countdown || 'TBD'}
       </div>
 
@@ -235,14 +189,11 @@ const ConferenceCard = ({ conference }) => {
     <div className="conference-card-item split-card">
       {/* Left Column: Content */}
       <div className="split-card-left">
-        <div className="conference-card-title" style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap' }}>
+        <div className="conference-card-title">
           <a
             href={mainConf.link}
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: 'var(--text-primary)', textDecoration: 'none' }}
-            onMouseOver={e => e.target.style.textDecoration = 'underline'}
-            onMouseOut={e => e.target.style.textDecoration = 'none'}
           >
             {mainConf.name} {mainConf.year}
           </a>
@@ -253,7 +204,7 @@ const ConferenceCard = ({ conference }) => {
           )}
         </div>
         {mainConf.estimated && (
-          <div style={{ color: '#e65100', fontSize: '0.75rem', fontWeight: 'bold', fontStyle: 'italic', marginBottom: '0.5rem' }}>
+          <div className="estimated-note">
             * Dates are estimated based on last year's calendar.
           </div>
         )}
@@ -263,22 +214,12 @@ const ConferenceCard = ({ conference }) => {
         )}
 
         {/* Highlighted Date & Location */}
-        <div style={{
-          fontFamily: 'var(--font-body)',
-          fontSize: 'var(--text-base)',
-          fontWeight: 600,
-          color: 'var(--text-primary)',
-          marginBottom: '1rem',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '0.5rem',
-          flexWrap: 'wrap'
-        }}>
+        <div className="card-when-where">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
           <span>{dateDisplay}</span>
           {mainConf.place && (
             <>
-              <span style={{ color: 'var(--border-color)', margin: '0 0.25rem' }}>|</span>
+              <span className="card-sep">|</span>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
               <span>{mainConf.place}</span>
             </>
@@ -291,7 +232,7 @@ const ConferenceCard = ({ conference }) => {
           </div>
         )}
 
-        <div className="conference-card-meta-row" style={{ marginTop: 'auto' }}>
+        <div className="conference-card-meta-row">
           {mainConf.program_chair && (
             <div className="conference-card-meta-item">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
@@ -322,26 +263,11 @@ const ConferenceCard = ({ conference }) => {
 
             {shouldCollapse && (
               <button
+                type="button"
+                className="cycle-expand-btn"
                 onClick={() => setExpanded(!expanded)}
-                style={{
-                  marginTop: '0.75rem',
-                  padding: '6px 12px',
-                  backgroundColor: 'transparent',
-                  border: '1px solid var(--border-color)',
-                  borderRadius: '4px',
-                  color: '#1976d2',
-                  fontFamily: 'var(--font-heading)',
-                  fontSize: '0.75rem',
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  width: '100%',
-                  textAlign: 'center',
-                  transition: 'background-color 0.15s ease',
-                }}
-                onMouseOver={e => e.target.style.backgroundColor = 'var(--hover-bg)'}
-                onMouseOut={e => e.target.style.backgroundColor = 'transparent'}
               >
-                {expanded ? '▲ Collapse Cycles' : `▼ Show All (${cycles.length} Cycles)`}
+                {expanded ? 'Collapse cycles' : `Show all ${cycles.length} cycles`}
               </button>
             )}
           </>

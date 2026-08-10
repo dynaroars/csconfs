@@ -10,7 +10,6 @@ import {
   CartesianGrid,
   Legend,
 } from 'recharts';
-import './Stat.css';
 
 // Function to generate gradient colors based on actual values
 const getValueBasedColor = (value, maxValue, minValue) => {
@@ -63,13 +62,7 @@ const BarList = ({ items }) => {
             <div className="stat-bar-track">
               <div
                 className="stat-bar-fill"
-                style={{
-                  width: `${barWidth}%`,
-                  background: colors.bg,
-                  border: `1px solid ${colors.border}`,
-                  borderLeft: 'none',
-                  boxShadow: `0 2px 4px ${colors.border}33`,
-                }}
+                style={{ width: `${barWidth}%`, background: colors.bg }}
               />
               <span className="stat-bar-count" style={{ left: `calc(${barWidth}% + 8px)` }}>
                 {item.count}

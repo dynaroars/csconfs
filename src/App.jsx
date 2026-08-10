@@ -5,7 +5,6 @@ import { fetchFullData } from './components/FetchConferences';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import AddConferenceModal from './components/AddConferenceModal';
-import './App.css';
 
 function App() {
   const [conferences, setConferences] = useState([]);
@@ -288,14 +287,14 @@ function App() {
             <AddConferenceModal isOpen={isAddModalOpen} onClose={() => setIsAddModalOpen(false)} />
             <div className="App">
                 {loading ? (
-                    <div style={{ textAlign: 'center', marginTop: '20px' }}>
-                        <h2>Loading...</h2>
+                    <div className="app-message">
+                        <h2>Loading&hellip;</h2>
                     </div>
                 ) : loadError ? (
-                    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+                    <div className="app-message">
                         <h2>Could not load conference data</h2>
                         <p>Please check your connection and reload the page.</p>
-                        <button onClick={() => window.location.reload()}>Reload</button>
+                        <button type="button" className="btn" onClick={() => window.location.reload()}>Reload</button>
                     </div>
                 ) : (
                     <>
@@ -306,19 +305,18 @@ function App() {
                         <div className="sidebar">
                             <div className={`mobile-filters-details ${mobileFiltersOpen ? 'is-open' : ''}`}>
                                 <div className="mobile-filters-summary" onClick={() => setMobileFiltersOpen(!mobileFiltersOpen)}>
-                  <span style={{ fontFamily: 'var(--font-heading)', fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--text-primary)' }}>Filters</span>
+                  <span className="filters-title">Filters</span>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="details-chevron">
                     <polyline points="6 9 12 15 18 9"></polyline>
                   </svg>
                 </div>
                 
-                <div className="filters-content" style={{ marginTop: '16px' }}>
-                  <label style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px', cursor: 'pointer', fontFamily: 'var(--font-body)', fontSize: 'var(--text-sm)', color: 'var(--text-primary)' }}>
+                <div className="filters-content">
+                  <label className="filter-checkbox">
                     <input
                       type="checkbox"
                       checked={hidePastDeadlines}
                       onChange={e => setHidePastDeadlines(e.target.checked)}
-                      style={{ cursor: 'pointer', accentColor: 'var(--primary-color)' }}
                     />
                     Hide past conferences
                   </label>
@@ -328,21 +326,7 @@ function App() {
                     name="search"
                     value={searchQuery}
                     onChange={handleSearchChange}
-                    style={{
-                      marginBottom: '16px',
-                      width: '100%',
-                      fontFamily: 'var(--font-body)',
-                      fontSize: 'var(--text-sm)',
-                      padding: '8px 12px',
-                      border: '1px solid var(--border-color)',
-                      borderRadius: '6px',
-                      backgroundColor: 'var(--bg-color)',
-                      color: 'var(--text-primary)',
-                      boxSizing: 'border-box',
-                      outline: 'none',
-                    }}
-                    onFocus={e => e.target.style.borderColor = 'var(--primary-color)'}
-                    onBlur={e => e.target.style.borderColor = 'var(--border-color)'}
+                    className="search-input"
                   />
                   <Sidebar
                     datasets={{

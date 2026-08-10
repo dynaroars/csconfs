@@ -53,7 +53,7 @@ Three consequences worth knowing:
 
 [`.github/workflows/sync_data.yml`](.github/workflows/sync_data.yml) runs every **Monday at 07:00 UTC**, and on demand from the Actions tab. **No API key and no LLM are involved.**
 
-It syncs `conferences.yaml` against the community-maintained [CCFDDL](https://github.com/ccfddl/ccf-deadlines) database, which covers **72 of the 73** conferences tracked here. If anything changed it commits straight to `main` and redeploys — **there is no pull request to review or merge**.
+It syncs `conferences.yaml` against the community-maintained [CCFDDL](https://github.com/ccfddl/ccf-deadlines) database, which covers **66 of the 73** conferences tracked here. If anything changed it commits straight to `main` and redeploys — **there is no pull request to review or merge**.
 
 [`scripts/sync_ccfddl.py`](scripts/sync_ccfddl.py) is conservative: it only rewrites an entry that CCFDDL confirms.
 

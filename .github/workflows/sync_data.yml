@@ -1,7 +1,7 @@
 name: Sync Conference Data
 
 # Keeps public/data/conferences.yaml in step with the community-maintained
-# CCFDDL database (https://github.com/ccfddl/ccf-deadlines), which covers 72 of
+# CCFDDL database (https://github.com/ccfddl/ccf-deadlines), which covers 66 of
 # the 73 conferences we track. No LLM and no API key involved.
 #
 # sync_ccfddl.py only rewrites an entry when CCFDDL confirms it: a matching date

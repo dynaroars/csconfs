@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, lazy, Suspense } from 'react';
 
 import ConferenceCard from './ConferenceCard';
 import Calendar from './Calendar/index';
+import { aoeDeadline } from '../utils/deadline';
 
 // Graph and Stat are the only recharts consumers, and neither is on the default
 // (list) view — load them on demand so recharts stays out of the initial bundle.
@@ -9,14 +10,6 @@ const Graph = lazy(() => import('./Graph'));
 const Stat = lazy(() => import('./Stat'));
 
 const ChartFallback = () => <p className="placeholder">Loading chart&hellip;</p>;
-
-function getAoEAdjustedDeadline(deadline) {
-    if (!deadline) return null;
-    const dateObject = new Date(deadline);
-    dateObject.setHours(23, 59, 59, 999);
-    dateObject.setUTCDate(dateObject.getUTCDate() + 1);
-    return dateObject;
-}
 
 /*
     Priorities:
@@ -31,30 +24,24 @@ const PRIORITY = {
 }
 
 const sortFunctions = {
-    submission_deadline: (confs) =>
-        confs.sort((a, b) => {
-            const now = new Date();
-            const getNowAoe = () => {
-                const nowDate = new Date(now.getTime() + 12 * 60 * 60 * 1000);
-                return new Date(Date.UTC(nowDate.getUTCFullYear(), nowDate.getUTCMonth(), nowDate.getUTCDate()));
-            };
-            const nowAoe = getNowAoe();
-            const deadlineA = getAoEAdjustedDeadline(a.deadline);
-            const deadlineB = getAoEAdjustedDeadline(b.deadline);
-            
+    submission_deadline: (confs) => {
+        // Read the clock once: a comparator whose idea of "now" drifts mid-sort
+        // is not a consistent ordering.
+        const now = Date.now();
 
-            // Assign priority values
-            const getPriority = (conf) => {
-                if (!conf) return PRIORITY.TBD;
-                if (!conf.deadline) return PRIORITY.TBD;
-                const deadlineDate = getAoEAdjustedDeadline(conf.deadline);
-                if (!deadlineDate) return PRIORITY.TBD;
-                if (deadlineDate.getTime() >= nowAoe.getTime()) return PRIORITY.UPCOMING_DEADLINE;
-                return PRIORITY.PASSED_DEADLINE;
-            };
+        // A conference with no usable deadline sorts as TBD rather than as one
+        // whose deadline has passed.
+        const getPriority = (deadline) => {
+            if (deadline === null) return PRIORITY.TBD;
+            return deadline.getTime() >= now ? PRIORITY.UPCOMING_DEADLINE : PRIORITY.PASSED_DEADLINE;
+        };
 
-            const priorityA = getPriority(a);
-            const priorityB = getPriority(b);
+        return confs.sort((a, b) => {
+            const deadlineA = aoeDeadline(a.deadline);
+            const deadlineB = aoeDeadline(b.deadline);
+
+            const priorityA = getPriority(deadlineA);
+            const priorityB = getPriority(deadlineB);
 
             if (priorityA !== priorityB) return priorityA - priorityB;
 
@@ -72,30 +59,33 @@ const sortFunctions = {
 
             // When the deadlines passed, sorted by the closer deadline
             return deadlineB.getTime() - deadlineA.getTime();
-        }),
-    notification_date: (confs) =>
-        confs.sort((a, b) => {
-            const now = new Date();
-            const deadlineA = getAoEAdjustedDeadline(a.notification_date);
-            const deadlineB = getAoEAdjustedDeadline(b.notification_date);
+        });
+    },
+    notification_date: (confs) => {
+        const now = Date.now();
+
+        return confs.sort((a, b) => {
+            const dateA = aoeDeadline(a.notification_date);
+            const dateB = aoeDeadline(b.notification_date);
 
             // Defensive: if invalid dates, put them last
-            if (!deadlineA && !deadlineB) return 0;
-            if (!deadlineA) return 1;
-            if (!deadlineB) return -1;
+            if (!dateA && !dateB) return 0;
+            if (!dateA) return 1;
+            if (!dateB) return -1;
 
-            const isAUpcoming = deadlineA > now;
-            const isBUpcoming = deadlineB > now;
+            const isAUpcoming = dateA.getTime() > now;
+            const isBUpcoming = dateB.getTime() > now;
 
             if (isAUpcoming && isBUpcoming) {
-                return deadlineA - deadlineB;
+                return dateA.getTime() - dateB.getTime();
             }
             if (!isAUpcoming && !isBUpcoming) {
-                return deadlineB - deadlineA; // both passed
+                return dateB.getTime() - dateA.getTime(); // both passed
             }
             if (isAUpcoming) return -1;
             return 1;
-        }),
+        });
+    },
 
     confdate: (confs) =>
         confs.sort((a, b) => {

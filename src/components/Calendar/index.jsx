@@ -87,8 +87,4 @@ Calendar.propTypes = {
     ).isRequired
 };
 
-Calendar.defaultProps = {
-    conferences: []
-};
-
 export default Calendar;

@@ -73,9 +73,12 @@ function App() {
   const [hidePastDeadlines, setHidePastDeadlines] = useState(true);
 
 
-  // Utility to get all CSRankings and CORE conference names (flatten)
-  const allCsrConfNames = Object.values(csrConfsByArea).flat();
-  const allCoreConfNames = Object.values(coreConfsByArea).flat();
+  // All CSRankings and CORE conference names (flattened). Memoised because the
+  // URL-sync effect below depends on them: rebuilding the arrays every render
+  // gave them a fresh identity, so the effect re-ran and rewrote the address
+  // bar on every single render.
+  const allCsrConfNames = useMemo(() => Object.values(csrConfsByArea).flat(), [csrConfsByArea]);
+  const allCoreConfNames = useMemo(() => Object.values(coreConfsByArea).flat(), [coreConfsByArea]);
 
   // Toggle parent accepts datasetId to uniquely key openParents state
   const toggleParent = (datasetId, parentArea) => {

@@ -1,20 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
+import { aoeTimeLeft } from '../utils/deadline';
+
 // ── Date helpers ──────────────────────────────────────────────
 
-/** Milliseconds until the deadline expires, in AoE (UTC−12). */
-const timeLeft = (deadline) => {
-  const d = new Date(deadline);
-  d.setHours(23, 59, 59, 999);
-  const utc = new Date(d.getTime() + d.getTimezoneOffset() * 60000);
-  utc.setUTCDate(utc.getUTCDate() + 1);
-  utc.setUTCHours(11, 59, 59, 999);
-  return utc - new Date();
-};
-
 const countdownText = (deadline) => {
-  if (!deadline) return '';
-  const diff = timeLeft(deadline);
+  const diff = aoeTimeLeft(deadline);
+  if (diff === null) return '';
   if (diff <= 0) return 'Passed';
   const pad = (n) => String(n).padStart(2, '0');
   return `${pad(Math.floor(diff / 86400000))}d ${pad(Math.floor((diff / 3600000) % 24))}h `
@@ -38,22 +30,56 @@ const formatDate = (date) => {
 };
 
 const urgencyClass = (deadline) => {
-  if (!deadline) return '';
-  const days = timeLeft(deadline) / 86400000;
+  const diff = aoeTimeLeft(deadline);
+  if (diff === null) return '';
+  const days = diff / 86400000;
   if (days < 0) return ' is-passed';
   if (days <= 7) return ' is-urgent';
   if (days <= 30) return ' is-soon';
   return '';
 };
 
+// ── Countdown ticker ──────────────────────────────────────────
+
+// One timer drives every countdown on the page. A page of 25 cards, several of
+// them multi-cycle, used to hold ~50 independent one-second intervals, each
+// waking React on its own; now the whole page re-renders once a second.
+const tickListeners = new Set();
+let tickTimer = null;
+
+function subscribeToTick(listener) {
+  tickListeners.add(listener);
+  if (tickTimer === null) {
+    tickTimer = setInterval(() => {
+      // React batches these, so N listeners still cost one render pass.
+      tickListeners.forEach(fn => fn());
+    }, 1000);
+  }
+
+  return () => {
+    tickListeners.delete(listener);
+    if (tickListeners.size === 0) {
+      clearInterval(tickTimer);
+      tickTimer = null;
+    }
+  };
+}
+
 /** Live-ticking countdown string for one deadline. */
 function useCountdown(deadline) {
   const [text, setText] = useState(() => countdownText(deadline));
+
   useEffect(() => {
     setText(countdownText(deadline));
-    const id = setInterval(() => setText(countdownText(deadline)), 1000);
-    return () => clearInterval(id);
+
+    // A deadline that has already expired reads "Passed" forever; one that
+    // expires while the page is open is caught by the subscription below.
+    const remaining = aoeTimeLeft(deadline);
+    if (remaining === null || remaining <= 0) return undefined;
+
+    return subscribeToTick(() => setText(countdownText(deadline)));
   }, [deadline]);
+
   return text;
 }
 
@@ -98,7 +124,7 @@ const ConferenceCard = ({ conference }) => {
 
   // Default to the next cycle that has not closed yet.
   const activeIdx = React.useMemo(() => {
-    const idx = cycles.findIndex(c => c.deadline && timeLeft(c.deadline) > 0);
+    const idx = cycles.findIndex(c => aoeTimeLeft(c.deadline) > 0);
     return idx >= 0 ? idx : 0;
   }, [cycles]);
 

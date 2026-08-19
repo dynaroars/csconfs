@@ -1,6 +1,0 @@
-# Python dependencies for the scripts in scripts/
-#   pip install -r requirements.txt
-PyYAML>=6.0
-requests>=2.31
-beautifulsoup4>=4.12   # scripts/update_confs_llm.py — HTML parsing
-python-dotenv>=1.0     # scripts/update_confs_llm.py — reads GROQ_API_KEY from .env

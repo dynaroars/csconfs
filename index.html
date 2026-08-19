@@ -1,79 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="/favicon.ico" sizes="any" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="keywords" content="Roars, Top CS Conferences, CSConfs, CS Conferences, Deadlines" />
-  <meta name="description"
-    content="CS Conference Deadlines (csconfs) is a web application that helps CS researchers and students keep track of important deadlines of top CS conferences. " />
-
-  <link rel="apple-touch-icon" href="/logo192.png" />
-  <link rel="manifest" href="/manifest.json" />
-  <title>CSConf: CS Conference Deadlines</title>
-
-  <!-- OpenGraph stuff -->
-  <meta property="og:title" content="CSConf - Computer Science Conference Deadlines" />
-  <meta property="og:description"
-    content="Track submission deadlines for top computer science conferences. Never miss a deadline for AI, ML, Security, Systems, and more CS conferences." />
-  <meta property="og:type" content="website" />
-  <!-- The site is hosted on GitHub Pages but reached at roars.dev/csconfs, and
-       that is the address people share, so it is the one advertised here.
-       dynaroars.github.io/csconfs 301s to it. -->
-  <meta property="og:url" content="https://roars.dev/csconfs/" />
-  <!-- Absolute: crawlers fetch this with no page to resolve it against, so a
-       root-relative path yields no preview image at all. -->
-  <meta property="og:image" content="https://roars.dev/csconfs/dino-ai-OG-Size.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS Confs has moved</title>
+  <link rel="canonical" href="https://cspicks.roars.dev/csconfs.html">
+  <meta http-equiv="refresh" content="0; url=https://cspicks.roars.dev/csconfs.html">
+  <script>window.location.replace('https://cspicks.roars.dev/csconfs.html');</script>
 </head>
-
 <body>
-  <script>
-    // Resolve the theme before React mounts to prevent a flash.
-    // No stored preference means "auto": follow the OS, and keep following it live.
-    (function () {
-      var media = window.matchMedia('(prefers-color-scheme: dark)');
-      var apply = function () {
-        var pinned = localStorage.getItem('theme');
-        var theme = pinned || (media.matches ? 'dark' : 'light');
-        document.documentElement.setAttribute('data-theme', theme);
-        return theme;
-      };
-      apply();
-      media.addEventListener('change', function () {
-        if (localStorage.getItem('theme')) return; // user pinned a choice; leave it alone
-        window.dispatchEvent(new CustomEvent('themeChanged', { detail: apply() }));
-      });
-    })();
-  </script>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-  <div
-    style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">
-    <h1>CSConfs: CS Conference Deadlines</h1>
-    <p>
-      <strong>CSConf</strong> helps computer science researchers and
-      students keep track of important deadlines for top CS conferences
-      across various domains including SE, AI, ML, Security, Systems, and more.
-    </p>
-
-    <section id="deadlines">
-      <h2>Software Engineering (SE): ICSE, FSE, ASE, ISSTA</h2>
-      <h2>Programming Languages (PL): POPL, PLDI, OOPSLA, ICFP</h2>
-      <h2>Artificial Intelligence (AI): AAAI, IJCAI, ECAI</h2>
-      <h2>Machine Learning (ML): NeurIPS, ICML, ICLR, KDD</h2>
-      <h2>Computer Vision (CV): CVPR, ICCV, ECCV</h2>
-      <h2>Natural Language Processing (NLP): ACL, EMNLP, NAACL</h2>
-      <h2>Security & Privacy: IEEE S&P, USENIX Security, CCS, NDSS</h2>
-      <h2>Systems & Architecture: OSDI, SOSP, ISCA, ASPLOS, EuroSys</h2>
-      <h2>Theory & Algorithms: STOC, FOCS, SODA, ICALP</h2>
-      <h2>Human-Computer Interaction (HCI): CHI, UIST, CSCW, Ubicomp</h2>
-      <h2>Networking: SIGCOMM, NSDI, INFOCOM</h2>
-      <h2>Graphics & Interactive Techniques: SIGGRAPH, Eurographics</h2>
-    </section>
-  </div>
+  <p>CS Confs has moved to <a href="https://cspicks.roars.dev/csconfs.html">CS Picks</a>.</p>
 </body>
-
 </html>

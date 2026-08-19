@@ -3,6 +3,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import ConferenceDisplay from './components/ConferenceDisplay';
 import { fetchFullData } from './components/FetchConferences';
 import Sidebar from './components/Sidebar';
+import SearchBar from './components/SearchBar';
 import Header from './components/Header';
 import AddConferenceModal from './components/AddConferenceModal';
 
@@ -79,6 +80,55 @@ function App() {
   // bar on every single render.
   const allCsrConfNames = useMemo(() => Object.values(csrConfsByArea).flat(), [csrConfsByArea]);
   const allCoreConfNames = useMemo(() => Object.values(coreConfsByArea).flat(), [coreConfsByArea]);
+
+  // Search index built from both datasets: which subfield/category labels
+  // (e.g. "Computer vision", "AI") each conference belongs to, and the list of
+  // searchable subfield suggestions. Kept separate from `selectedConferences`
+  // so a subfield match still has to pass the sidebar's checkbox filter below.
+  const { confSearchLabels, subfieldOptions } = useMemo(() => {
+    const labelsByConf = new Map();
+    const labelDisplay = new Map();
+    const confsByLabel = new Map();
+
+    const ingest = (areasObj, confsByArea) => {
+      Object.entries(areasObj).forEach(([parentArea, areaDetails]) => {
+        const parentLower = parentArea.toLowerCase();
+        if (!labelDisplay.has(parentLower)) labelDisplay.set(parentLower, parentArea);
+
+        areaDetails.forEach(({ area_title }) => {
+          const areaLower = area_title.toLowerCase();
+          if (!labelDisplay.has(areaLower)) labelDisplay.set(areaLower, area_title);
+
+          (confsByArea[area_title] || []).forEach(name => {
+            const nameLower = name.toLowerCase();
+            if (!labelsByConf.has(nameLower)) labelsByConf.set(nameLower, new Set());
+            labelsByConf.get(nameLower).add(areaLower);
+            labelsByConf.get(nameLower).add(parentLower);
+
+            if (!confsByLabel.has(areaLower)) confsByLabel.set(areaLower, new Set());
+            confsByLabel.get(areaLower).add(nameLower);
+            if (!confsByLabel.has(parentLower)) confsByLabel.set(parentLower, new Set());
+            confsByLabel.get(parentLower).add(nameLower);
+          });
+        });
+      });
+    };
+
+    ingest(csrAreas, csrConfsByArea);
+    ingest(coreAreas, coreConfsByArea);
+
+    const subfields = [...labelDisplay.entries()]
+      .map(([lower, label]) => ({ label, count: confsByLabel.get(lower)?.size || 0 }))
+      .filter(s => s.count > 0)
+      .sort((a, b) => a.label.localeCompare(b.label));
+
+    return { confSearchLabels: labelsByConf, subfieldOptions: subfields };
+  }, [csrAreas, csrConfsByArea, coreAreas, coreConfsByArea]);
+
+  const conferenceOptions = useMemo(() => {
+    const names = new Set([...allCsrConfNames, ...allCoreConfNames]);
+    return [...names].sort((a, b) => a.localeCompare(b)).map(label => ({ label }));
+  }, [allCsrConfNames, allCoreConfNames]);
 
   // Toggle parent accepts datasetId to uniquely key openParents state
   const toggleParent = (datasetId, parentArea) => {
@@ -241,10 +291,18 @@ function App() {
   const filterConferences = () => {
     const selected = Array.from(selectedConferences).map(name => name.toLowerCase());
     const now = new Date();
+    const query = searchQuery.trim().toLowerCase();
 
     const updatedConferences = conferences.filter(conf => {
-      const matchesConference = selected.includes(conf.name.toLowerCase());
-      const matchesSearch = conf.name.toLowerCase().includes(searchQuery.toLowerCase());
+      const nameLower = conf.name.toLowerCase();
+      const matchesConference = selected.includes(nameLower);
+      // A query matches by conference name, or by any subfield/category
+      // (from either dataset) the conference belongs to — e.g. typing
+      // "computer vision" or "AI" pulls in every conference under it. It's
+      // still ANDed with matchesConference, so results always respect
+      // whatever is checked in the sidebar (CSRankings, CORE, or both).
+      const matchesSearch = !query || nameLower.includes(query) ||
+        [...(confSearchLabels.get(nameLower) || [])].some(label => label.includes(query));
 
       const deadlineDate = new Date(conf.deadline);
       const conferenceDate = conf.parsed_date;
@@ -266,7 +324,7 @@ function App() {
   useEffect(() => {
     filterConferences();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedConferences, searchQuery, conferences, hidePastDeadlines]);
+  }, [selectedConferences, searchQuery, conferences, hidePastDeadlines, confSearchLabels]);
 
   const handleCheckboxChange = conferenceName => {
     const updatedSelected = new Set(selectedConferences);
@@ -276,10 +334,6 @@ function App() {
       updatedSelected.add(conferenceName);
     }
     setSelectedConferences(updatedSelected);
-  };
-
-  const handleSearchChange = event => {
-    setSearchQuery(event.target.value);
   };
 
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
@@ -302,6 +356,13 @@ function App() {
                 ) : (
                     <>
                         <div className="conference-list">
+                            <SearchBar
+                                value={searchQuery}
+                                onChange={setSearchQuery}
+                                conferenceOptions={conferenceOptions}
+                                subfieldOptions={subfieldOptions}
+                                placeholder="Search conferences or subfields (e.g. &ldquo;ICML&rdquo; or &ldquo;Computer vision&rdquo;)"
+                            />
                             <ConferenceDisplay filteredConferences={filteredConferences} />
                         </div>
 
@@ -313,7 +374,7 @@ function App() {
                     <polyline points="6 9 12 15 18 9"></polyline>
                   </svg>
                 </div>
-                
+
                 <div className="filters-content">
                   <label className="filter-checkbox">
                     <input
@@ -323,14 +384,6 @@ function App() {
                     />
                     Hide past conferences
                   </label>
-                  <input
-                    type="text"
-                    placeholder="Search by conference name"
-                    name="search"
-                    value={searchQuery}
-                    onChange={handleSearchChange}
-                    className="search-input"
-                  />
                   <Sidebar
                     datasets={{
                       csrankings: { areas: csrAreas, conferencesByArea: csrConfsByArea },

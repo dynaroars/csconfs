@@ -49,13 +49,14 @@
   date: '2027-07-27'
   deadline: TBD
   description: Annual Meeting of the Association for Computational Linguistics
-  general_chair: null
+  general_chair: Yusuke Miyao
   link: https://aclweb.org/
   name: ACL
   notification_date: null
   num_submission: null
-  place: null
-  program_chair: null
+  place: Kyoto, Japan
+  program_chair: David Adelani, Arianna Bisazza, Jan Buys, Ximena Gutierrez-Vasques,
+    David Schlangen
   rebuttal_date: null
   series_link: null
   verified: true
@@ -129,13 +130,13 @@
   date: '2027-03-01'
   deadline: '2026-06-11'
   description: IEEE/ACM International Symposium on Code Generation and Optimization
-  general_chair: null
+  general_chair: John Regehr
   link: https://2026.cgo.org/
   name: CGO
   notification_date: '2026-11-04'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Salt Lake City, UT
+  program_chair: Zheng Wang
   rebuttal_date: null
   series_link: https://2026.cgo.org/
   verified: true
@@ -167,7 +168,7 @@
   name: CVPR
   notification_date: '2027-02-20'
   num_submission: null
-  place: null
+  place: Seattle, WA
   program_chair: null
   rebuttal_date: '2027-01-22'
   series_link: https://cvpr.thecvf.com/
@@ -183,7 +184,7 @@
   name: DAC
   notification_date: '2027-02-26'
   num_submission: null
-  place: null
+  place: San Jose, CA
   program_chair: null
   rebuttal_date: null
   series_link: https://dac.org/
@@ -194,13 +195,13 @@
   deadline: '2026-02-10'
   description: ACM Conference on Economics and Computation
   estimated: true
-  general_chair: null
+  general_chair: Stefano Leonardi
   link: https://ec.sigecom.org/
   name: EC
   notification_date: '2026-05-17'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Rome, Italy
+  program_chair: Alex Teytelboym, Matt Weinberg
   rebuttal_date: null
   series_link: null
   year: 2026
@@ -242,13 +243,13 @@
   deadline: '2026-03-30'
   description: International Conference on Embedded Software
   estimated: true
-  general_chair: null
+  general_chair: Andy Pimentel, Mohammad Al Faruque
   link: https://esweek.org/emsoft/
   name: EMSOFT
   notification_date: '2026-05-18'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Barcelona, Spain
+  program_chair: Borzoo Bonakdarpour, Li-Pin Chang
   rebuttal_date: null
   series_link: null
   verified: true
@@ -274,13 +275,13 @@
   date: '2027-05-04'
   deadline: '2026-10-01'
   description: European Association for Computer Graphics
-  general_chair: null
+  general_chair: Daniela Giorgi, Paolo Cignoni
   link: https://eg.github.io/
   name: Eurographics
   notification_date: '2026-12-15'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Lucca, Italy
+  program_chair: Elena Garces, Amir Vaxman
   rebuttal_date: null
   series_link: null
   verified: true
@@ -296,7 +297,7 @@
   name: FSE
   notification_date: '2028-03-31'
   num_submission: null
-  place: null
+  place: Milan, Italy
   program_chair: null
   rebuttal_date: '2027-12-14'
   series_link: https://conf.researchr.org/series/fse
@@ -306,13 +307,13 @@
   date: '2027-01-31'
   deadline: '2026-07-31'
   description: IEEE International Symposium on High-Performance Computer Architecture
-  general_chair: null
+  general_chair: Vijay Nagarajan
   link: https://hpca.org/
   name: HPCA
   notification_date: null
   num_submission: null
-  place: null
-  program_chair: null
+  place: Salt Lake City, UT
+  program_chair: Nael Abu-Ghazaleh, Paul V. Gratz
   rebuttal_date: null
   series_link: https://hpca.org/
   verified: true
@@ -322,13 +323,13 @@
   date: October 26-30, 2026
   deadline: '2026-04-14'
   description: IEEE/ACM International Conference on Computer-Aided Design
-  general_chair: null
+  general_chair: Deming Chen
   link: https://2025.iccad.com/
   name: ICCAD
   notification_date: '2026-06-30'
   num_submission: null
-  place: null
-  program_chair: null
+  place: San Jose, CA
+  program_chair: Ismail S. K. Bustany
   rebuttal_date: null
   series_link: https://2025.iccad.com/
   verified: true
@@ -354,13 +355,13 @@
   date: '2027-05-04'
   deadline: '2026-06-11'
   description: IEEE International Conference on Data Engineering
-  general_chair: null
+  general_chair: Yongluan Zhou
   link: https://icde.github.io/
   name: ICDE
   notification_date: '2026-08-18'
   num_submission: null
   place: Copenhagen, Denmark
-  program_chair: null
+  program_chair: Christian S. Jensen, Guoliang Li, Li Xiong
   rebuttal_date: null
   series_link: null
   verified: true
@@ -418,29 +419,29 @@
   date: '2026-05-19'
   deadline: '2025-09-15'
   description: IEEE International Conference on Robotics and Automation
-  general_chair: null
+  general_chair: Markus Vincze
   link: https://icra.org/
   name: ICRA
   notification_date: null
   num_submission: null
-  place: null
-  program_chair: null
+  place: Vienna, Austria
+  program_chair: Tamim Asfour, M. Ani Hsieh, Dana Kulic
   rebuttal_date: null
   series_link: https://icra.org/
   verified: true
   year: 2026
 - abstract_deadline: '2027-06-23'
   acceptance_rate: null
-  date: '2028-04-25'
+  date: '2028-04-30'
   deadline: '2027-06-30'
   description: International Conference on Software Engineering
   estimated: true
-  general_chair: null
+  general_chair: Rick Kazman
   link: https://conf.researchr.org/series/icse
   name: ICSE
   notification_date: '2027-10-20'
   num_submission: null
-  place: null
+  place: Waikoloa, Hawaii
   program_chair: null
   rebuttal_date: null
   series_link: https://conf.researchr.org/series/icse
@@ -451,13 +452,13 @@
   deadline: '2027-01-19'
   description: International Joint Conferences on Artificial Intelligence
   estimated: true
-  general_chair: null
+  general_chair: Sarit Kraus
   link: https://www.ijcai.org/
   name: IJCAI
   notification_date: '2027-04-29'
   num_submission: null
   place: null
-  program_chair: null
+  program_chair: Bo An
   rebuttal_date: '2027-04-07'
   series_link: https://www.ijcai.org/
   year: 2027
@@ -466,13 +467,13 @@
   date: '2026-10-28'
   deadline: '2025-11-20'
   description: ACM Internet Measurement Conference
-  general_chair: null
+  general_chair: Christian Wressnegger, Nurullah Demir
   link: https://imc.org/
   name: IMC
   notification_date: '2026-08-18'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Karlsruhe, Germany
+  program_chair: Alan Mislove, Italo Cunha
   rebuttal_date: null
   series_link: https://imc.org/
   verified: true
@@ -483,13 +484,13 @@
   deadline: '2026-03-02'
   description: IEEE/RSJ International Conference on Intelligent Robots and Systems
   estimated: true
-  general_chair: null
+  general_chair: Howie Choset
   link: https://www.iros.org/
   name: IROS
   notification_date: null
   num_submission: null
-  place: null
-  program_chair: null
+  place: Pittsburgh, PA
+  program_chair: Ross Hatton
   rebuttal_date: null
   series_link: null
   verified: true
@@ -516,13 +517,13 @@
   deadline: '2027-01-29'
   description: International Symposium on Software Testing and Analysis
   estimated: true
-  general_chair: null
+  general_chair: Jun Sun
   link: https://www.issta.org/
   name: ISSTA
   notification_date: '2027-04-16'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Singapore
+  program_chair: Dan Hao, Jacques Klein
   rebuttal_date: '2027-03-24'
   series_link: https://www.issta.org/
   year: 2027
@@ -537,8 +538,8 @@
   name: LICS
   notification_date: '2027-04-16'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Montreal, Canada
+  program_chair: Pablo Barceló, Alexandra Silva
   rebuttal_date: null
   series_link: https://siglog.org/lics26/
   year: 2027
@@ -563,13 +564,13 @@
   date: '2027-11-26'
   deadline: '2026-09-02'
   description: ACM International Conference on Mobile Computing and Networking
-  general_chair: null
+  general_chair: Dimitrios Koutsonikolas, Symeon Papavassiliou
   link: https://www.sigmobile.org/mobicom/2024/
   name: MobiCom
   notification_date: '2026-11-24'
   num_submission: null
   place: TBD
-  program_chair: null
+  program_chair: Joerg Widmer, Nirupam Roy
   rebuttal_date: '2027-11-11'
   series_link: null
   verified: true
@@ -596,13 +597,13 @@
   deadline: '2026-10-12'
   description: Annual Conference of the North American Chapter of the Association
     for Computational Linguistics
-  general_chair: null
+  general_chair: Kevin Duh
   link: https://naacl.org/
   name: NAACL
   notification_date: null
   num_submission: null
   place: San Francisco, California, USA
-  program_chair: null
+  program_chair: Arman Cohan, Parisa Kordjamshidi, Huan Sun
   rebuttal_date: null
   series_link: https://naacl.org/
   verified: true
@@ -641,7 +642,7 @@
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
-  date: '2027-10-03'
+  date: '2027-10-10'
   deadline: '2027-03-17'
   description: Object-Oriented Programming, Systems, Languages, and Applications
   estimated: true
@@ -650,8 +651,8 @@
   name: OOPSLA
   notification_date: '2027-06-10'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Prague, Czechia
+  program_chair: Nadia Polikarpova, Ilya Sergey
   rebuttal_date: '2027-05-18'
   series_link: https://oopsla.org/
   year: 2027
@@ -676,14 +677,14 @@
   date: June 13-19, 2027
   deadline: '2026-06-10'
   description: ACM Symposium on Principles of Database Systems
-  general_chair: null
+  general_chair: Yufei Tao
   link: https://2027.sigmod.org/
   name: PODS
   note: Cycle 1/2
   notification_date: '2026-08-11'
   num_submission: null
   place: Huntington Beach, California, United States
-  program_chair: null
+  program_chair: Dan Olteanu
   series_link: https://pods.org/
   year: 2027
 - abstract_deadline: '2026-12-03'
@@ -691,14 +692,14 @@
   date: June 13-19, 2027
   deadline: '2026-12-10'
   description: ACM Symposium on Principles of Database Systems
-  general_chair: null
+  general_chair: Yufei Tao
   link: https://2027.sigmod.org/
   name: PODS
   note: Cycle 2/2
   notification_date: null
   num_submission: null
   place: Huntington Beach, California, United States
-  program_chair: null
+  program_chair: Dan Olteanu
   series_link: https://pods.org/
   year: 2027
 - abstract_deadline: null
@@ -722,13 +723,13 @@
   date: '2026-06-21'
   deadline: '2026-01-30'
   description: 'Robotics: Science and Systems Conference'
-  general_chair: null
+  general_chair: Dana Kulic, Gentiane Venture
   link: https://roboticsconference.org/
   name: RSS
   notification_date: '2026-04-10'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Sydney, Australia
+  program_chair: Luca Carlone
   rebuttal_date: null
   series_link: null
   verified: true
@@ -738,13 +739,13 @@
   date: '2026-12-02'
   deadline: '2026-05-21'
   description: IEEE Real-Time Systems Symposium
-  general_chair: null
+  general_chair: Shinpei Kato
   link: https://rtss.org/
   name: RTSS
   notification_date: '2026-07-25'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Yokohama, Japan
+  program_chair: Martina Maggio
   rebuttal_date: null
   series_link: null
   verified: true
@@ -755,13 +756,13 @@
   deadline: '2027-01-31'
   description: ACM Special Interest Group on Data Communication Conference
   estimated: true
-  general_chair: null
+  general_chair: Kanchana Kanchanasut, Jim Kurose
   link: https://www.sigcomm.org/
   name: SIGCOMM
   notification_date: null
   num_submission: null
-  place: null
-  program_chair: null
+  place: Bangkok, Thailand
+  program_chair: Ranjita Bhagwan, Nate Foster, Aurojit Panda, Scott Shenker
   rebuttal_date: null
   series_link: https://www.sigcomm.org/
   year: 2027
@@ -771,13 +772,13 @@
   deadline: '2025-07-21'
   description: ACM Technical Symposium on Computer Science Education
   estimated: true
-  general_chair: null
+  general_chair: Timothy Yuen, Deepti Joshi
   link: https://sigcse.sigcse.org/
   name: SIGCSE TS
   notification_date: '2025-09-30'
   num_submission: null
-  place: null
-  program_chair: null
+  place: St. Louis, MO
+  program_chair: James Prather, Natalie Kiesler, Eric Fouh
   rebuttal_date: null
   series_link: null
   year: 2026
@@ -787,7 +788,7 @@
   deadline: '2027-01-15'
   description: ACM Conference on Computer Graphics and Interactive Techniques
   estimated: true
-  general_chair: null
+  general_chair: Kristy Pron
   link: https://www.siggraph.org/
   name: SIGGRAPH
   notification_date: null
@@ -804,12 +805,12 @@
   description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive
     Techniques in Asia
   estimated: true
-  general_chair: null
+  general_chair: Takahito Tejima
   link: https://asia.siggraph.org/2025/
   name: SIGGRAPH Asia
   notification_date: '2027-08-10'
   num_submission: null
-  place: null
+  place: Tokyo, Japan
   program_chair: null
   rebuttal_date: null
   series_link: https://asia.siggraph.org/2025/
@@ -836,13 +837,13 @@
   date: '2027-06-09'
   deadline: '2026-07-10'
   description: ACM SIGMETRICS / IFIP Performance Conference
-  general_chair: null
+  general_chair: Jun (Jim) Xu, Zhi-Li Zhang
   link: https://sigmetrics.org/
   name: SIGMETRICS
   notification_date: '2026-09-24'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Atlanta, GA
+  program_chair: Varun Gupta, Longbo Huang, Mahmut Taylan Kandemir
   rebuttal_date: null
   series_link: https://sigmetrics.org/
   verified: true
@@ -906,7 +907,7 @@
   name: UbiComp / ISWC
   notification_date: '2026-07-02'
   num_submission: null
-  place: null
+  place: Shanghai, China
   program_chair: null
   rebuttal_date: null
   series_link: null
@@ -918,13 +919,13 @@
   deadline: '2026-03-31'
   description: IEEE Visualization Conference
   estimated: true
-  general_chair: null
+  general_chair: Arvind Satyanarayan, Lace Padilla, Hendrik Strobelt, Lane Harrison
   link: https://www.vis.org/
   name: VIS
   notification_date: '2026-07-15'
   num_submission: null
-  place: null
-  program_chair: null
+  place: Boston, MA
+  program_chair: Alfie Abdul-Rahman, Tushar Athawale, John Thompson
   rebuttal_date: null
   series_link: https://www.vis.org/
   verified: true
@@ -934,13 +935,13 @@
   date: '2027-08-26'
   deadline: '2026-04-01'
   description: International Conference on Very Large Data Bases
-  general_chair: null
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://vldb.org/
   name: VLDB
   notification_date: '2027-03-15'
   num_submission: null
   place: Athens, Greece
-  program_chair: null
+  program_chair: Katja Hose, Matthias Boehm
   rebuttal_date: null
   series_link: null
   verified: true
@@ -1042,7 +1043,7 @@
   date: 20–23 July 2026
   deadline: '2026-01-22'
   description: ACM/IEEE Symposium on Logic in Computer Science
-  general_chair: null
+  general_chair: Bernardo Toninho
   link: https://lics.siglog.org/lics26/
   name: LICS
   notification_date: '2026-04-16'
@@ -1056,53 +1057,53 @@
   date: July 19-23
   deadline: '2027-01-20'
   description: International Conference on Computer Aided Verification
-  general_chair: null
+  general_chair: Marieke Huisman, Joost-Pieter Katoen
   link: https://conferences.i-cav.org/2027/
   name: CAV
   notification_date: '2027-04-23'
   num_submission: null
   place: Amsterdam, The Netherlands
-  program_chair: null
+  program_chair: Marieke Huisman, Joost-Pieter Katoen
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
   date: October 2027
   deadline: null
   description: ACM Conference on Computer and Communications Security
-  general_chair: null
+  general_chair: Meikang Qiu, Brendan Saltaformaggio, Saman Zonouz
   link: https://www.sigsac.org/ccs/CCS2027/
   name: CCS
   notification_date: null
   num_submission: null
   place: Atlanta, USA
-  program_chair: null
+  program_chair: Zhiqiang Lin, Lorenzo Cavallaro
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
   date: July 26-29, 2026
   deadline: null
   description: Design Automation Conference
-  general_chair: null
+  general_chair: Renu Mehra
   link: https://dac.com/2026
   name: DAC
   notification_date: null
   num_submission: null
   place: Long Beach, CA
-  program_chair: null
+  program_chair: Natarajan Viswanathan, Jiang Hu, Rajiv Joshi
   year: 2026
 - abstract_deadline: '2026-06-04'
   acceptance_rate: null
   date: May 17-20, 2027
   deadline: '2026-06-11'
   description: IEEE Symposium on Security and Privacy
-  general_chair: null
+  general_chair: Adam Aviv
   link: https://www.ieee-security.org/TC/SP2027/
   name: IEEE S&P
   note: Cycle 1/2
   notification_date: null
   num_submission: null
-  place: San Francisco, CA
-  program_chair: null
+  place: Montreal, Canada
+  program_chair: Michelle Mazurek, Nicolas Papernot
   verified: true
   year: 2027
 - abstract_deadline: '2026-11-10'
@@ -1110,14 +1111,14 @@
   date: May 17-20, 2027
   deadline: '2026-11-17'
   description: IEEE Symposium on Security and Privacy
-  general_chair: null
+  general_chair: Adam Aviv
   link: https://www.ieee-security.org/TC/SP2027/
   name: IEEE S&P
   note: Cycle 2/2
   notification_date: null
   num_submission: null
-  place: San Francisco, CA
-  program_chair: null
+  place: Montreal, Canada
+  program_chair: Michelle Mazurek, Nicolas Papernot
   verified: true
   year: 2027
 - abstract_deadline: '2025-01-16'
@@ -1138,13 +1139,13 @@
   date: February 16-23, 2027
   deadline: '2026-07-28'
   description: AAAI Conference on Artificial Intelligence
-  general_chair: null
+  general_chair: Edith Elkind
   link: https://aaai.org/conference/aaai/aaai-27/
   name: AAAI
   notification_date: '2026-11-30'
   num_submission: null
   place: Montréal, Canada
-  program_chair: null
+  program_chair: Yan Liu, Balaraman Ravindran
   verified: true
   year: 2027
 - abstract_deadline: null
@@ -1152,14 +1153,14 @@
   date: 22 to 26 March 2027
   deadline: '2026-05-06'
   description: Network and Distributed System Security Symposium
-  general_chair: null
+  general_chair: Mauro Conti, Roberto Perdisci
   link: https://www.ndss-symposium.org/ndss2027/
   name: NDSS
   note: Cycle 1/2
   notification_date: null
   num_submission: null
   place: Seoul, Republic of Korea
-  program_chair: null
+  program_chair: Ivan Martinovic, Martina Lindorfer
   verified: true
   year: 2027
 - abstract_deadline: null
@@ -1167,14 +1168,14 @@
   date: 22 to 26 March 2027
   deadline: '2026-08-19'
   description: Network and Distributed System Security Symposium
-  general_chair: null
+  general_chair: Mauro Conti, Roberto Perdisci
   link: https://www.ndss-symposium.org/ndss2027/
   name: NDSS
   note: Cycle 2/2
   notification_date: null
   num_submission: null
   place: Seoul, Republic of Korea
-  program_chair: null
+  program_chair: Ivan Martinovic, Martina Lindorfer
   verified: true
   year: 2027
 - abstract_deadline: null
@@ -1182,26 +1183,26 @@
   date: null
   deadline: null
   description: ACM SIGPLAN Conference on Programming Language Design and Implementation
-  general_chair: null
+  general_chair: Satish Chandra
   link: https://pldi27.sigplan.org/
   name: PLDI
   notification_date: null
   num_submission: null
-  place: null
-  program_chair: null
+  place: Atlanta, GA
+  program_chair: Zhendong Su
   year: 2027
 - abstract_deadline: '2026-01-30'
   acceptance_rate: null
   date: August 17 - 21, 2026
   deadline: '2026-02-06'
   description: ACM Special Interest Group on Data Communication Conference
-  general_chair: null
+  general_chair: Eric Keller, Sangtae Ha
   link: https://conferences.sigcomm.org/sigcomm/2026/
   name: SIGCOMM
   notification_date: null
   num_submission: null
   place: Denver, Colorado, USA
-  program_chair: null
+  program_chair: Laurent Vanbever, Theophilus Benson
   verified: true
   year: 2026
 - abstract_deadline: null
@@ -1214,7 +1215,7 @@
   name: SOSP
   notification_date: null
   num_submission: null
-  place: null
+  place: Vancouver, Canada
   program_chair: null
   year: 2027
 - abstract_deadline: '2026-03-31'
@@ -1222,13 +1223,13 @@
   date: October 31 – November 4, 2026
   deadline: '2026-04-07'
   description: IEEE/ACM International Symposium on Microarchitecture
-  general_chair: null
+  general_chair: Dimitris Gizopoulos
   link: https://microarch.org/micro59/
   name: MICRO
   notification_date: '2026-07-07'
   num_submission: null
   place: Athens, Greece
-  program_chair: null
+  program_chair: Tushar Krishna, Yakun Sophia Shao
   verified: true
   year: 2026
 - abstract_deadline: null
@@ -1236,13 +1237,13 @@
   date: Mon 12 - Fri 16 July 2027
   deadline: '2026-10-02'
   description: Foundations of Software Engineering
-  general_chair: null
+  general_chair: Zhi Jin, Xiaoxing Ma
   link: https://conf.researchr.org/home/fse-2027
   name: FSE
   notification_date: '2027-03-31'
   num_submission: null
   place: Shenzhen, China
-  program_chair: null
+  program_chair: Michael Pradel, Baishakhi Ray
   rebuttal_date: '2026-12-14'
   series_link: https://conf.researchr.org/series/fse
   verified: true
@@ -1252,14 +1253,14 @@
   date: April 19-23, 2027
   deadline: '2026-05-14'
   description: European Conference on Computer Systems
-  general_chair: null
+  general_chair: Rachid Guerraoui, Rafael Pires
   link: https://2027.eurosys.org/
   name: EuroSys
   note: Cycle 1/2
   notification_date: null
   num_submission: null
   place: Rabat, Morocco
-  program_chair: null
+  program_chair: Pramod Bhatotia, Lydia Chen, Andreas Haeberlen
   verified: true
   year: 2027
 - abstract_deadline: '2026-09-17'
@@ -1267,14 +1268,14 @@
   date: April 19-23, 2027
   deadline: '2026-09-24'
   description: European Conference on Computer Systems
-  general_chair: null
+  general_chair: Rachid Guerraoui, Rafael Pires
   link: https://2027.eurosys.org/
   name: EuroSys
   note: Cycle 2/2
   notification_date: null
   num_submission: null
   place: Rabat, Morocco
-  program_chair: null
+  program_chair: Pramod Bhatotia, Lydia Chen, Andreas Haeberlen
   verified: true
   year: 2027
 - abstract_deadline: null
@@ -1282,13 +1283,13 @@
   date: October 24 –29, 2026
   deadline: '2026-05-25'
   description: Empirical Methods in Natural Language Processing
-  general_chair: null
+  general_chair: André Martins
   link: https://2026.emnlp.org/
   name: EMNLP
   notification_date: '2026-08-20'
   num_submission: null
   place: Budapest, Hungary
-  program_chair: null
+  program_chair: Hung-Yi Lee, Sunipa Dev, Jessy Li, Desmond Elliott
   verified: true
   year: 2026
 - abstract_deadline: null
@@ -1302,7 +1303,7 @@
   notification_date: '2026-12-17'
   num_submission: null
   place: Pittsburgh, USA
-  program_chair: null
+  program_chair: Rosta Farzan, Sven Mayer
   verified: true
   year: 2027
 - abstract_deadline: null
@@ -1310,13 +1311,13 @@
   date: November 15-19, 2026
   deadline: '2026-01-14'
   description: ACM Conference on Computer and Communications Security
-  general_chair: null
+  general_chair: Georgios Smaragdakis, Kaitai Liang
   link: https://www.sigsac.org/ccs/CCS2026/
   name: CCS
   notification_date: null
   num_submission: null
   place: The Hague, The Netherlands
-  program_chair: null
+  program_chair: Véronique Cortier, Zhiqiang Lin
   verified: true
   year: 2026
 - abstract_deadline: null
@@ -1324,14 +1325,15 @@
   date: April 11-15, 2027
   deadline: '2026-04-15'
   description: Architectural Support for Programming Languages and Operating Systems
-  general_chair: null
+  general_chair: Vassilis Papaefstathiou, Angelos Bilas, Andreas Moshovos, Christos
+    Kozyrakis
   link: https://www.asplos-conference.org/asplos2027/
   name: ASPLOS
   note: Cycle 1/2
   notification_date: '2026-07-27'
   num_submission: null
   place: Crete, Greece
-  program_chair: null
+  program_chair: Abhishek Bhattacharjee, Ada Gavrilovska, Steve Blackburn
   verified: true
   year: 2027
 - abstract_deadline: null
@@ -1339,28 +1341,29 @@
   date: April 11-15, 2027
   deadline: '2026-09-09'
   description: Architectural Support for Programming Languages and Operating Systems
-  general_chair: null
+  general_chair: Vassilis Papaefstathiou, Angelos Bilas, Andreas Moshovos, Christos
+    Kozyrakis
   link: https://www.asplos-conference.org/asplos2027/
   name: ASPLOS
   note: Cycle 2/2
   notification_date: null
   num_submission: null
   place: Crete, Greece
-  program_chair: null
+  program_chair: Abhishek Bhattacharjee, Ada Gavrilovska, Steve Blackburn
   verified: true
   year: 2027
 - abstract_deadline: null
   acceptance_rate: null
-  date: null
+  date: '2026-07-20'
   deadline: null
   description: International ACM SIGIR Conference on Research and Development in Information
     Retrieval
-  general_chair: null
+  general_chair: Alistair Moffat, Falk Scholer
   link: https://sigir.org/announcing-acm-sigir-futures/
   name: SIGIR
   notification_date: null
   num_submission: null
-  place: null
+  place: Melbourne, Australia
   program_chair: null
   year: 2026
 - abstract_deadline: '2025-11-10'
@@ -1409,7 +1412,7 @@
   date: January 10-16, 2027
   deadline: '2026-07-09'
   description: Principles of Programming Languages
-  general_chair: null
+  general_chair: Armando Solar-Lezama
   link: https://popl27.sigplan.org/
   name: POPL
   notification_date: '2026-10-05'
@@ -1437,14 +1440,14 @@
   date: June 13-19, 2027
   deadline: '2026-01-17'
   description: ACM SIGMOD International Conference on Management of Data
-  general_chair: null
+  general_chair: Chen Li, Cyrus Shahabi
   link: https://2027.sigmod.org/
   name: SIGMOD
   note: Cycle 1/4
   notification_date: '2026-06-12'
   num_submission: null
   place: Huntington Beach, California, United States
-  program_chair: null
+  program_chair: Sourav S Bhowmick, Yuanyuan Tian
   verified: true
   year: 2027
 - abstract_deadline: '2026-04-10'
@@ -1452,14 +1455,14 @@
   date: June 13-19, 2027
   deadline: '2026-04-17'
   description: ACM SIGMOD International Conference on Management of Data
-  general_chair: null
+  general_chair: Chen Li, Cyrus Shahabi
   link: https://2027.sigmod.org/
   name: SIGMOD
   note: Cycle 2/4
   notification_date: '2026-09-12'
   num_submission: null
   place: Huntington Beach, California, United States
-  program_chair: null
+  program_chair: Sourav S Bhowmick, Yuanyuan Tian
   verified: true
   year: 2027
 - abstract_deadline: '2026-07-10'
@@ -1467,14 +1470,14 @@
   date: June 13-19, 2027
   deadline: '2026-07-17'
   description: ACM SIGMOD International Conference on Management of Data
-  general_chair: null
+  general_chair: Chen Li, Cyrus Shahabi
   link: https://2027.sigmod.org/
   name: SIGMOD
   note: Cycle 3/4
   notification_date: '2026-12-12'
   num_submission: null
   place: Huntington Beach, California, United States
-  program_chair: null
+  program_chair: Sourav S Bhowmick, Yuanyuan Tian
   verified: true
   year: 2027
 - abstract_deadline: '2026-10-10'
@@ -1482,14 +1485,14 @@
   date: June 13-19, 2027
   deadline: '2026-10-17'
   description: ACM SIGMOD International Conference on Management of Data
-  general_chair: null
+  general_chair: Chen Li, Cyrus Shahabi
   link: https://2027.sigmod.org/
   name: SIGMOD
   note: Cycle 4/4
   notification_date: '2027-03-12'
   num_submission: null
   place: Huntington Beach, California, United States
-  program_chair: null
+  program_chair: Sourav S Bhowmick, Yuanyuan Tian
   verified: true
   year: 2027
 - abstract_deadline: null
@@ -1497,33 +1500,33 @@
   date: June 8-12, 2026
   deadline: null
   description: ACM SIGMETRICS / IFIP Performance Conference
-  general_chair: null
+  general_chair: Vijay Subramanian, Atilla Eryilmaz
   link: http://www.sigmetrics.org/sigmetrics2026/
   name: SIGMETRICS
   notification_date: null
   num_submission: null
   place: Ann Arbor, Michigan, USA
-  program_chair: null
+  program_chair: Nicolas Gast, Stefan Schmid, Weina Wang
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
   date: Sat 31 January - Wed 4 February 2026
   deadline: null
   description: IEEE/ACM International Symposium on Code Generation and Optimization
-  general_chair: null
+  general_chair: Steve Blackburn
   link: https://2026.cgo.org
   name: CGO
   notification_date: null
   num_submission: null
   place: Sydney, Australia
-  program_chair: null
+  program_chair: Albert Cohen, Timothy M. Jones
   year: 2026
 - abstract_deadline: null
   acceptance_rate: null
   date: 19–23 July 2026
   deadline: '2026-01-15'
   description: ACM Conference on Computer Graphics and Interactive Techniques
-  general_chair: null
+  general_chair: Chris Redmann
   link: https://s2026.siggraph.org/
   name: SIGGRAPH
   notification_date: null
@@ -1537,7 +1540,7 @@
   deadline: null
   description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive
     Techniques in Asia
-  general_chair: null
+  general_chair: Frank Guan Yunqing
   link: https://asia.siggraph.org/2025/about-the-event/siggraph-asia-2026/
   name: SIGGRAPH Asia
   notification_date: null
@@ -1550,13 +1553,14 @@
   date: November 2–5, 2026
   deadline: '2026-03-31'
   description: ACM Symposium on User Interface Software and Technology
-  general_chair: null
+  general_chair: Michael Nebeling, Steve Oney
   link: https://uist.acm.org/2026/
   name: UIST
   notification_date: null
   num_submission: null
   place: Detroit, MI
-  program_chair: null
+  program_chair: Amy Pavel, Anhong Guo, Clemens Klokmose, Jean Song, Juho Kim, Valkyrie
+    Savage
   verified: true
   year: 2026
 - abstract_deadline: '2025-07-25'
@@ -1905,13 +1909,14 @@
   date: '2026-06-03'
   deadline: '2025-11-13'
   description: Conference on Computer Vision and Pattern Recognition
-  general_chair: null
+  general_chair: Chandra Kambhamettu, Dimitris Metaxas
   link: https://cvpr.thecvf.com/Conferences/2026
   name: CVPR
   notification_date: '2026-02-20'
   num_submission: null
   place: Denver, CO
-  program_chair: null
+  program_chair: Angela Dai, Adriana Kovashka, Chen Change Loy, Vladimir Pavlovic,
+    Alexander G. Schwing, Shaoting Zhang
   rebuttal_date: '2026-01-22'
   series_link: https://cvpr.thecvf.com/
   verified: true
@@ -2318,13 +2323,13 @@
   date: '2026-07-06'
   deadline: '2026-01-29'
   description: International Conference on Machine Learning
-  general_chair: null
+  general_chair: Tong Zhang
   link: http://icml.cc/Conferences/FutureMeetings
   name: ICML
   notification_date: '2026-04-30'
   num_submission: null
   place: Seoul, South Korea
-  program_chair: null
+  program_chair: Miroslav Dudík, Martin Jaggi, Alekh Agarwal, Sharon Li
   rebuttal_date: null
   series_link: https://icml.cc/
   verified: true
@@ -2646,13 +2651,14 @@
   date: '2026-08-09'
   deadline: '2025-07-31'
   description: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  general_chair: null
+  general_chair: Won Kim, Jae-Gil Lee, Kyuseok Shim
   link: https://kdd2026.kdd.org/
   name: KDD
   notification_date: '2025-11-23'
   num_submission: null
   place: Jeju, Korea
-  program_chair: null
+  program_chair: Xiangliang Zhang, Srinivasan Parthasarathy, James Caverlee, David
+    Gleich
   rebuttal_date: '2025-10-04'
   series_link: https://kdd.org/
   year: 2026
@@ -2825,13 +2831,13 @@
   date: '2026-12-06'
   deadline: '2026-05-07'
   description: Neural Information Processing Systems
-  general_chair: null
+  general_chair: Hsuan-Tien Lin, Razvan Pascanu
   link: https://neurips.cc/Conferences/2026
   name: NeurIPS
   notification_date: '2026-09-24'
   num_submission: null
-  place: Multiple Cities
-  program_chair: null
+  place: Sydney, Australia
+  program_chair: Jenna Wiens, David Rolnick, Nika Haghtalab, Marc Deisenroth
   series_link: https://neurips.cc/
   verified: true
   year: 2026
@@ -2990,13 +2996,13 @@
   date: '2026-07-02'
   deadline: '2026-01-05'
   description: Annual Meeting of the Association for Computational Linguistics
-  general_chair: null
+  general_chair: Philipp Koehn
   link: https://2026.aclweb.org/
   name: ACL
   note: null
   num_submission: null
   place: San Diego, California, United States
-  program_chair: null
+  program_chair: Maria Liakata, Viviane P. Moreira, Jiajun Zhang, David Jurgens
   verified: true
   year: 2026
 - abstract_deadline: null
@@ -3725,12 +3731,14 @@
   date: '2025-03-30'
   deadline: '2024-03-01'
   description: Architectural Support for Programming Languages and Operating Systems
+  general_chair: Lieven Eeckhout
   link: https://www.asplos-conference.org/asplos2025/
   name: ASPLOS
   note: Cycle 3/3
   notification_date: '2024-06-10'
   num_submission: null
   place: Rotterdam, Netherlands
+  program_chair: Martha Kim, Chris Rossbach, Adrian Sampson
   verified: true
   year: 2025
 - abstract_deadline: '2024-06-17'
@@ -3738,24 +3746,28 @@
   date: '2025-03-30'
   deadline: '2024-06-24'
   description: Architectural Support for Programming Languages and Operating Systems
+  general_chair: Lieven Eeckhout
   link: https://www.asplos-conference.org/asplos2025/
   name: ASPLOS
   note: Cycle 2/3
   notification_date: '2024-10-02'
   num_submission: null
   place: Rotterdam, Netherlands
+  program_chair: Martha Kim, Chris Rossbach, Adrian Sampson
   verified: true
   year: 2025
 - acceptance_rate: null
   date: '2025-03-30'
   deadline: '2024-10-18'
   description: Architectural Support for Programming Languages and Operating Systems
+  general_chair: Lieven Eeckhout
   link: https://www.asplos-conference.org/asplos2025/
   name: ASPLOS
   note: Cycle 1/3
   notification_date: '2025-01-27'
   num_submission: null
   place: Rotterdam, Netherlands
+  program_chair: Martha Kim, Chris Rossbach, Adrian Sampson
   verified: true
   year: 2025
 - acceptance_rate: null
@@ -4169,7 +4181,7 @@
   note: null
   num_submission: null
   place: Sydney, NSW, Australia
-  program_chair: null
+  program_chair: Mattan Erez, Aamer Jaleel
   series_link: https://hpca.org/
   verified: true
   year: 2026
@@ -4318,13 +4330,13 @@
   date: '2025-09-08'
   deadline: '2025-01-31'
   description: ACM Special Interest Group on Data Communication Conference
-  general_chair: null
+  general_chair: Marilia Curado, Christian Esteve Rothenberg
   link: https://conferences.sigcomm.org/sigcomm/2025/
   name: SIGCOMM
   note: null
   num_submission: null
   place: Coimbra, Portugal
-  program_chair: null
+  program_chair: George Porter, Srikanth Kandula
   series_link: https://www.sigcomm.org/
   verified: true
   year: 2025
@@ -4465,7 +4477,7 @@
   note: null
   num_submission: null
   place: Philadelphia, PA
-  program_chair: null
+  program_chair: Theophilus A. Benson, Radhika Niranjan Mysore
   verified: true
   year: 2025
 - abstract_deadline: '2023-04-27'
@@ -4663,7 +4675,7 @@
   notification_date: '2025-07-01'
   num_submission: null
   place: Taipei, Taiwan
-  program_chair: null
+  program_chair: David Lie, Véronique Cortier
   series_link: https://ccs.org/
   year: 2025
 - abstract_deadline: '2025-01-02'
@@ -4678,7 +4690,7 @@
   notification_date: '2025-03-28'
   num_submission: null
   place: Taipei, Taiwan
-  program_chair: null
+  program_chair: David Lie, Véronique Cortier
   series_link: https://ccs.org/
   year: 2025
 - acceptance_rate: null
@@ -4896,26 +4908,26 @@
   date: '2025-05-12'
   deadline: '2024-11-14'
   description: IEEE Symposium on Security and Privacy
-  general_chair: null
+  general_chair: Marina Blanton
   link: https://www.ieee-security.org/TC/SP2025/
   name: IEEE S&P
   note: Cycle 2/2
   num_submission: null
   place: San Francisco, CA
-  program_chair: null
+  program_chair: William Enck, Cristina Nita-Rotaru
   year: 2025
 - acceptance_rate: null
   date: '2025-05-12'
   deadline: '2024-06-06'
   description: IEEE Symposium on Security and Privacy
-  general_chair: null
+  general_chair: Marina Blanton
   link: https://www.ieee-security.org/TC/SP2025/
   name: IEEE S&P
   note: Cycle 1/2
   notification_date: '2024-09-09'
   num_submission: null
   place: San Francisco, CA
-  program_chair: null
+  program_chair: William Enck, Cristina Nita-Rotaru
   year: 2025
 - acceptance_rate: null
   date: '2024-05-20'
@@ -5167,7 +5179,7 @@
   notification_date: '2026-05-14'
   num_submission: null
   place: Baltimore, MD
-  program_chair: null
+  program_chair: Elissa Redmiles, Ben Stock
   rebuttal_date: '2026-04-16'
   year: 2026
 - acceptance_rate: null
@@ -5181,7 +5193,7 @@
   notification_date: '2025-04-30'
   num_submission: null
   place: Seattle, WA
-  program_chair: null
+  program_chair: Lujo Bauer, Giancarlo Pellegrino
   year: 2025
 - acceptance_rate: null
   date: '2025-08-13'
@@ -5194,7 +5206,7 @@
   notification_date: '2024-12-11'
   num_submission: null
   place: Seattle, WA
-  program_chair: null
+  program_chair: Lujo Bauer, Giancarlo Pellegrino
   year: 2025
 - acceptance_rate: null
   date: '2024-08-14'
@@ -5757,11 +5769,13 @@
   date: '2025-06-22'
   deadline: '2024-01-17'
   description: ACM SIGMOD International Conference on Management of Data
+  general_chair: Volker Markl
   link: https://2025.sigmod.org
   name: SIGMOD
   note: Cycle 1/4
   notification_date: '2024-02-29'
   place: Berlin, Germany
+  program_chair: Joe Hellerstein, Azza Abouzied
   series_link: https://sigmod.org/
   verified: true
   year: 2025
@@ -5769,22 +5783,26 @@
   date: '2025-06-22'
   deadline: '2024-10-17'
   description: ACM SIGMOD International Conference on Management of Data
+  general_chair: Volker Markl
   link: https://2025.sigmod.org
   name: SIGMOD
   note: Cycle 2/4
   notification_date: '2024-05-30'
   place: Berlin, Germany
+  program_chair: Joe Hellerstein, Azza Abouzied
   series_link: https://sigmod.org/
   year: 2025
 - abstract_deadline: '2024-07-10'
   date: '2025-06-22'
   deadline: '2024-07-17'
   description: ACM SIGMOD International Conference on Management of Data
+  general_chair: Volker Markl
   link: https://2025.sigmod.org
   name: SIGMOD
   note: Cycle 3/4
   notification_date: '2024-08-29'
   place: Berlin, Germany
+  program_chair: Joe Hellerstein, Azza Abouzied
   series_link: https://sigmod.org/
   verified: true
   year: 2025
@@ -6027,6 +6045,7 @@
   date: '2026-08-31'
   deadline: '2025-04-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://vldb.org/2026/
   name: VLDB
   num_submission: null
@@ -6043,10 +6062,12 @@
 - acceptance_rate: null
   date: '2025-09-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Peter Pietzuch, Peter Triantafillou
   link: https://vldb.org/2025/
   name: VLDB
   num_submission: null
   place: London, UK
+  program_chair: Themis Palpanas, Nesime Tatbul
   rolling_deadline:
     end: '2025-03-01'
     notification_day: 15
@@ -6447,7 +6468,7 @@
   date: '2026-05-31'
   deadline: '2025-06-10'
   description: ACM Symposium on Principles of Database Systems
-  general_chair: null
+  general_chair: Floris Geerts
   link: https://2024.sigmod.org/
   name: PODS
   note: Cycle 1/2
@@ -6462,7 +6483,7 @@
   date: '2026-05-31'
   deadline: '2025-12-10'
   description: ACM Symposium on Principles of Database Systems
-  general_chair: null
+  general_chair: Floris Geerts
   link: https://2024.sigmod.org/
   name: PODS
   note: Cycle 2/2
@@ -6477,14 +6498,14 @@
   date: '2025-06-22'
   deadline: '2024-06-07'
   description: ACM Symposium on Principles of Database Systems
-  general_chair: null
+  general_chair: Floris Geerts
   link: https://2024.sigmod.org/
   name: PODS
   note: Cycle 1/2
   notification_date: '2024-08-12'
   num_submission: null
   place: Berlin, Germany
-  program_chair: null
+  program_chair: Benny Kimelfeld
   series_link: https://pods.org/
   verified: true
   year: 2025
@@ -6493,14 +6514,14 @@
   date: '2025-06-22'
   deadline: '2024-12-09'
   description: ACM Symposium on Principles of Database Systems
-  general_chair: null
+  general_chair: Floris Geerts
   link: https://2024.sigmod.org/
   name: PODS
   note: Cycle 2/2
   notification_date: '2025-02-14'
   num_submission: null
   place: Berlin, Germany
-  program_chair: null
+  program_chair: Benny Kimelfeld
   series_link: https://pods.org/
   verified: true
   year: 2025
@@ -7496,13 +7517,13 @@
   deadline: '2024-01-25'
   description: ACM International Symposium on High-Performance Parallel and Distributed
     Computing
-  general_chair: null
+  general_chair: Patrizio Dazzi, Gabriele Mencagli
   link: http://hpdc.org/2024/
   name: HPDC
   notification_date: '2024-03-25'
   num_submission: null
   place: Pisa, Italy
-  program_chair: null
+  program_chair: Rosa M. Badia, David K. Lowenthal
   year: 2024
 - abstract_deadline: null
   acceptance_rate: null
@@ -9445,7 +9466,7 @@
   date: '2027-04-25'
   deadline: '2026-06-30'
   description: International Conference on Software Engineering
-  general_chair: null
+  general_chair: Brian Fitzgerald, Liliana Pasquale
   link: https://conf.researchr.org/track/icse-2027/icse-2027-research-track?
   name: ICSE
   note: null
@@ -10016,7 +10037,7 @@
   notification_date: '2026-06-10'
   num_submission: null
   place: Oakland, CA
-  program_chair: null
+  program_chair: Anders Møller, Işıl Dillig
   rebuttal_date: '2026-05-18'
   series_link: https://oopsla.org/
   year: 2026
@@ -10031,7 +10052,7 @@
   notification_date: '2024-12-18'
   num_submission: null
   place: Singapore
-  program_chair: null
+  program_chair: Shriram Krishnamurthi, Sukyoung Ryu
   series_link: https://oopsla.org/
   verified: true
   year: 2025
@@ -10046,7 +10067,7 @@
   notification_date: '2025-05-26'
   num_submission: null
   place: Singapore
-  program_chair: null
+  program_chair: Shriram Krishnamurthi, Sukyoung Ryu
   series_link: https://oopsla.org/
   year: 2025
 - acceptance_rate: null
@@ -10060,7 +10081,7 @@
   notification_date: '2023-12-22'
   num_submission: null
   place: Pasadena, CA
-  program_chair: null
+  program_chair: Alex Potanin, Bor-Yuh Evan Chang
   series_link: https://oopsla.org/
   year: 2024
 - acceptance_rate: null
@@ -10074,14 +10095,14 @@
   notification_date: '2024-06-21'
   num_submission: null
   place: Pasadena, CA
-  program_chair: null
+  program_chair: Alex Potanin, Bor-Yuh Evan Chang
   series_link: https://oopsla.org/
   year: 2024
 - acceptance_rate: 36.18
   date: '2023-10-22'
   deadline: '2022-10-28'
   description: Object-Oriented Programming, Systems, Languages, and Applications
-  general_chair: null
+  general_chair: Vasco T. Vasconcelos
   link: https://2023.splashcon.org/track/splash-2023-oopsla
   name: OOPSLA
   note: Cycle 1/2
@@ -10095,7 +10116,7 @@
   date: '2023-10-22'
   deadline: '2023-04-14'
   description: Object-Oriented Programming, Systems, Languages, and Applications
-  general_chair: null
+  general_chair: Vasco T. Vasconcelos
   link: https://2023.splashcon.org/track/splash-2023-oopsla
   name: OOPSLA
   note: Cycle 2/2
@@ -10116,7 +10137,7 @@
   notification_date: '2021-12-16'
   num_submission: null
   place: Auckland, New Zealand
-  program_chair: null
+  program_chair: Amal Ahmed, Jan Vitek
   series_link: https://oopsla.org/
   year: 2022
 - acceptance_rate: null
@@ -10130,35 +10151,35 @@
   notification_date: '2022-06-30'
   num_submission: null
   place: Auckland, New Zealand
-  program_chair: null
+  program_chair: Amal Ahmed, Jan Vitek
   series_link: https://oopsla.org/
   year: 2022
 - acceptance_rate: null
   date: '2021-10-17'
   deadline: '2021-04-16'
   description: Object-Oriented Programming, Systems, Languages, and Applications
-  general_chair: null
+  general_chair: Hridesh Rajan
   link: https://2021.splashcon.org/track/splash-2021-oopsla
   name: OOPSLA
   note: Cycle 1/2
   notification_date: '2021-07-02'
   num_submission: null
   place: Chicago, IL
-  program_chair: null
+  program_chair: Sophia Drossopoulou
   series_link: https://oopsla.org/
   year: 2021
 - acceptance_rate: null
   date: '2021-10-17'
   deadline: '2021-08-13'
   description: Object-Oriented Programming, Systems, Languages, and Applications
-  general_chair: null
+  general_chair: Hridesh Rajan
   link: https://2021.splashcon.org/track/splash-2021-oopsla
   name: OOPSLA
   note: Cycle 2/2
   notification_date: '2021-08-30'
   num_submission: null
   place: Chicago, IL
-  program_chair: null
+  program_chair: Sophia Drossopoulou
   series_link: https://oopsla.org/
   year: 2021
 - acceptance_rate: null
@@ -10172,7 +10193,7 @@
   notification_date: '2020-07-31'
   num_submission: null
   place: Online
-  program_chair: null
+  program_chair: David Grove
   series_link: https://oopsla.org/
   year: 2020
 - acceptance_rate: null
@@ -10186,7 +10207,7 @@
   notification_date: '2020-10-01'
   num_submission: null
   place: Online
-  program_chair: null
+  program_chair: David Grove
   series_link: https://oopsla.org/
   year: 2020
 - acceptance_rate: null
@@ -10200,7 +10221,7 @@
   notification_date: '2019-07-01'
   num_submission: null
   place: Athens, Greece
-  program_chair: null
+  program_chair: Eelco Visser
   series_link: https://oopsla.org/
   year: 2019
 - acceptance_rate: null
@@ -10214,35 +10235,35 @@
   notification_date: '2019-09-01'
   num_submission: null
   place: Athens, Greece
-  program_chair: null
+  program_chair: Eelco Visser
   series_link: https://oopsla.org/
   year: 2019
 - acceptance_rate: null
   date: '2018-11-04'
   deadline: '2018-04-16'
   description: Object-Oriented Programming, Systems, Languages, and Applications
-  general_chair: null
+  general_chair: Jan Vitek
   link: https://2018.splashcon.org/track/splash-2018-oopsla
   name: OOPSLA
   note: Cycle 1/2
   notification_date: '2018-06-25'
   num_submission: null
   place: Boston, MA
-  program_chair: null
+  program_chair: Manu Sridharan
   series_link: https://oopsla.org/
   year: 2018
 - acceptance_rate: null
   date: '2018-11-04'
   deadline: '2018-07-31'
   description: Object-Oriented Programming, Systems, Languages, and Applications
-  general_chair: null
+  general_chair: Jan Vitek
   link: https://2018.splashcon.org/track/splash-2018-oopsla
   name: OOPSLA
   note: Cycle 2/2
   notification_date: '2018-08-16'
   num_submission: null
   place: Boston, MA
-  program_chair: null
+  program_chair: Manu Sridharan
   series_link: https://oopsla.org/
   year: 2018
 - abstract_deadline: '2017-04-13'
@@ -10250,7 +10271,7 @@
   date: '2017-10-22'
   deadline: '2017-04-17'
   description: Object-Oriented Programming, Systems, Languages, and Applications
-  general_chair: null
+  general_chair: Gail Murphy
   link: https://2017.splashcon.org/track/splash-2017-OOPSLA
   name: OOPSLA
   note: Cycle 1/2
@@ -10265,7 +10286,7 @@
   date: '2017-10-22'
   deadline: '2017-07-27'
   description: Object-Oriented Programming, Systems, Languages, and Applications
-  general_chair: null
+  general_chair: Gail Murphy
   link: https://2017.splashcon.org/track/splash-2017-OOPSLA
   name: OOPSLA
   note: Cycle 2/2
@@ -10320,7 +10341,7 @@
   date: '2026-06-19'
   deadline: '2025-11-13'
   description: Programming Language Design and Implementation
-  general_chair: null
+  general_chair: Bor-Yuh Evan Chang
   link: https://pldi26.sigplan.org/
   name: PLDI
   note: null
@@ -10336,7 +10357,7 @@
   date: '2025-06-16'
   deadline: '2024-11-14'
   description: Programming Language Design and Implementation
-  general_chair: null
+  general_chair: Chung-Kil Hur
   link: https://pldi25.sigplan.org/
   name: PLDI
   note: null
@@ -10351,7 +10372,7 @@
   date: '2024-06-24'
   deadline: '2023-11-16'
   description: Programming Language Design and Implementation
-  general_chair: null
+  general_chair: Milind Kulkarni
   link: https://pldi24.sigplan.org/
   name: PLDI
   note: null
@@ -10666,7 +10687,7 @@
   date: '2026-07-26'
   deadline: '2026-01-28'
   description: International Conference on Computer Aided Verification
-  general_chair: null
+  general_chair: Philipp Rümmer
   link: https://conferences.i-cav.org/2026/
   name: CAV
   note: null
@@ -11462,7 +11483,7 @@
   date: '2024-04-29'
   deadline: '2023-11-03'
   description: Research in Computational Molecular Biology
-  general_chair: null
+  general_chair: Bonnie Berger, Lenore Cowen
   link: https://recomb.org/recomb2024/
   name: RECOMB
   notification_date: '2024-03-12'
@@ -11602,7 +11623,7 @@
   date: '2025-08-10'
   deadline: '2025-01-23'
   description: ACM Conference on Computer Graphics and Interactive Techniques
-  general_chair: null
+  general_chair: Ginger Alford
   link: https://s2025.siggraph.org/
   name: SIGGRAPH
   notification_date: null
@@ -11892,7 +11913,7 @@
   date: '2025-02-26'
   deadline: '2024-07-21'
   description: ACM Technical Symposium on Computer Science Education
-  general_chair: null
+  general_chair: Jeffrey A. Stone, Timothy Yuen
   link: https://sigcse2025.sigcse.org/
   name: SIGCSE TS
   notification_date: '2024-09-30'
@@ -12739,7 +12760,7 @@
   date: '2025-09-28'
   deadline: 2025-04-09
   description: ACM Symposium on User Interface Software and Technology
-  general_chair: null
+  general_chair: Ian Oakley, Jeeeun Kim
   link: https://uist.acm.org/2025/
   name: UIST
   notification_date: 2025-07-05
@@ -12753,7 +12774,7 @@
   date: '2024-10-13'
   deadline: '2024-04-03'
   description: ACM Symposium on User Interface Software and Technology
-  general_chair: null
+  general_chair: Lining Yao, Mayank Goel
   link: https://uist.acm.org/2024/
   name: UIST
   notification_date: '2024-06-29'
@@ -13586,10 +13607,12 @@
   date: November 15-18, 2026
   deadline: '2026-06-11'
   description: ACM SIGOPS Annual Technical Conference
+  general_chair: John C.S. Lui, Chuan Wu
   link: https://sigops.org/s/conferences/atc/2026/index.html
   name: USENIX ATC
   note: null
   place: Hyatt Hotel, Shatin, Hong Kong, China
+  program_chair: Marcos K. Aguilera, Gala Yadgar
   verified: true
   year: 2026
 - abstract_deadline: null
@@ -13620,6 +13643,7 @@
   name: NSDI
   note: Cycle 2/2
   place: Renton, WA, USA
+  program_chair: Srikanth Kandula, Hakim Weatherspoon
   verified: true
   year: 2026
 - abstract_deadline: '2026-09-10'
@@ -13630,6 +13654,7 @@
   name: NSDI
   note: Cycle 2/2
   place: Providence, RI, USA
+  program_chair: Marcos K. Aguilera, Justine Sherry
   verified: true
   year: 2027
 - abstract_deadline: '2026-03-06'
@@ -13640,72 +13665,86 @@
   name: MobiCom
   note: Cycle 2/2
   place: Austin, Texas, USA
+  program_chair: Mahesh Marina, Fan Bai
   verified: true
   year: 2026
 - abstract_deadline: null
   date: MAY 18-21, 2026
   deadline: '2025-06-05'
   description: IEEE Symposium on Security and Privacy
+  general_chair: Alina Oprea
   link: https://www.ieee-security.org/TC/SP2026/
   name: IEEE S&P
   note: Cycle 1/2
   place: SAN FRANCISCO, CA
+  program_chair: Cristina Nita-Rotaru, Nicolas Papernot
   verified: true
   year: 2026
 - abstract_deadline: null
   date: MAY 18-21, 2026
   deadline: '2025-11-13'
   description: IEEE Symposium on Security and Privacy
+  general_chair: Alina Oprea
   link: https://www.ieee-security.org/TC/SP2026/
   name: IEEE S&P
   note: Cycle 2/2
   place: SAN FRANCISCO, CA
+  program_chair: Cristina Nita-Rotaru, Nicolas Papernot
   verified: true
   year: 2026
 - abstract_deadline: null
   date: November 15-19, 2026
   deadline: '2026-04-29'
   description: ACM Conference on Computer and Communications Security
+  general_chair: Georgios Smaragdakis, Kaitai Liang
   link: https://www.sigsac.org/ccs/CCS2026/
   name: CCS
   note: Cycle 2/2
   place: World Forum, Hague, Netherlands
+  program_chair: Véronique Cortier, Zhiqiang Lin
   verified: true
   year: 2026
 - abstract_deadline: null
   date: August 17-20, 2026
   deadline: '2026-02-12'
   description: International Cryptology Conference
+  general_chair: Mayank Varia
   link: https://crypto.iacr.org/2026/
   name: Crypto
   note: null
   place: Santa Barbara, USA
+  program_chair: Nadia Heninger, Mike Rosulek
   verified: true
   year: 2026
 - abstract_deadline: null
   date: May 10-14, 2026
   deadline: '2025-10-02'
   description: European Cryptology Conference
+  general_chair: Daniele Venturi, Edoardo Persichetti
   link: https://eurocrypt.iacr.org/2026/
   name: Eurocrypt
   note: null
   place: Rome, Italy
+  program_chair: Emmanuel Thomé, Joan Daemen
   verified: true
   year: 2026
 - abstract_deadline: null
   date: April 11-15, 2027
   deadline: '2026-09-17'
   description: European Cryptology Conference
+  general_chair: Andreas Hülsing, Tanja Lange, Sven Schäge
   link: https://eurocrypt.iacr.org/2027/
   name: Eurocrypt
   note: null
   place: Eindhoven, Netherlands
+  program_chair: Lejla Batina, Giuseppe Persiano
   verified: true
   year: 2027
 - abstract_deadline: null
   date: August 31 - September 4, 2026
   deadline: '2025-05-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://www.vldb.org/2026/
   name: VLDB
   note: Cycle 2/12
@@ -13716,6 +13755,7 @@
   date: August 31 - September 4, 2026
   deadline: '2025-06-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://www.vldb.org/2026/
   name: VLDB
   note: Cycle 3/12
@@ -13726,6 +13766,7 @@
   date: August 31 - September 4, 2026
   deadline: '2025-07-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://www.vldb.org/2026/
   name: VLDB
   note: Cycle 4/12
@@ -13736,6 +13777,7 @@
   date: August 31 - September 4, 2026
   deadline: '2025-08-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://www.vldb.org/2026/
   name: VLDB
   note: Cycle 5/12
@@ -13746,6 +13788,7 @@
   date: August 31 - September 4, 2026
   deadline: '2025-09-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://www.vldb.org/2026/
   name: VLDB
   note: Cycle 6/12
@@ -13756,6 +13799,7 @@
   date: August 31 - September 4, 2026
   deadline: '2025-10-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://www.vldb.org/2026/
   name: VLDB
   note: Cycle 7/12
@@ -13766,6 +13810,7 @@
   date: August 31 - September 4, 2026
   deadline: '2025-11-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://www.vldb.org/2026/
   name: VLDB
   note: Cycle 8/12
@@ -13776,6 +13821,7 @@
   date: August 31 - September 4, 2026
   deadline: '2025-12-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://www.vldb.org/2026/
   name: VLDB
   note: Cycle 9/12
@@ -13786,6 +13832,7 @@
   date: August 31 - September 4, 2026
   deadline: '2026-01-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://www.vldb.org/2026/
   name: VLDB
   note: Cycle 10/12
@@ -13796,6 +13843,7 @@
   date: August 31 - September 4, 2026
   deadline: '2026-02-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://www.vldb.org/2026/
   name: VLDB
   note: Cycle 11/12
@@ -13806,6 +13854,7 @@
   date: August 31 - September 4, 2026
   deadline: '2026-03-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Angela Bonifati, Mirek Riedewald
   link: https://www.vldb.org/2026/
   name: VLDB
   note: Cycle 12/12
@@ -13816,119 +13865,143 @@
   date: August 23 - August 27, 2027
   deadline: '2026-05-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://www.vldb.org/2027/
   name: VLDB
   note: Cycle 2/12
   place: Athens, Greece
+  program_chair: Katja Hose, Matthias Boehm
   verified: true
   year: 2027
 - abstract_deadline: '2026-05-25'
   date: August 23 - August 27, 2027
   deadline: '2026-06-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://www.vldb.org/2027/
   name: VLDB
   note: Cycle 3/12
   place: Athens, Greece
+  program_chair: Katja Hose, Matthias Boehm
   verified: true
   year: 2027
 - abstract_deadline: '2026-06-25'
   date: August 23 - August 27, 2027
   deadline: '2026-07-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://www.vldb.org/2027/
   name: VLDB
   note: Cycle 4/12
   place: Athens, Greece
+  program_chair: Katja Hose, Matthias Boehm
   verified: true
   year: 2027
 - abstract_deadline: '2026-07-25'
   date: August 23 - August 27, 2027
   deadline: '2026-08-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://www.vldb.org/2027/
   name: VLDB
   note: Cycle 5/12
   place: Athens, Greece
+  program_chair: Katja Hose, Matthias Boehm
   verified: true
   year: 2027
 - abstract_deadline: '2026-08-25'
   date: August 23 - August 27, 2027
   deadline: '2026-09-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://www.vldb.org/2027/
   name: VLDB
   note: Cycle 6/12
   place: Athens, Greece
+  program_chair: Katja Hose, Matthias Boehm
   verified: true
   year: 2027
 - abstract_deadline: '2026-09-25'
   date: August 23 - August 27, 2027
   deadline: '2026-10-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://www.vldb.org/2027/
   name: VLDB
   note: Cycle 7/12
   place: Athens, Greece
+  program_chair: Katja Hose, Matthias Boehm
   verified: true
   year: 2027
 - abstract_deadline: '2026-10-25'
   date: August 23 - August 27, 2027
   deadline: '2026-11-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://www.vldb.org/2027/
   name: VLDB
   note: Cycle 8/12
   place: Athens, Greece
+  program_chair: Katja Hose, Matthias Boehm
   verified: true
   year: 2027
 - abstract_deadline: '2026-11-25'
   date: August 23 - August 27, 2027
   deadline: '2026-12-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://www.vldb.org/2027/
   name: VLDB
   note: Cycle 9/12
   place: Athens, Greece
+  program_chair: Katja Hose, Matthias Boehm
   verified: true
   year: 2027
 - abstract_deadline: '2026-12-25'
   date: August 23 - August 27, 2027
   deadline: '2027-01-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://www.vldb.org/2027/
   name: VLDB
   note: Cycle 10/12
   place: Athens, Greece
+  program_chair: Katja Hose, Matthias Boehm
   verified: true
   year: 2027
 - abstract_deadline: '2027-01-25'
   date: August 23 - August 27, 2027
   deadline: '2027-02-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://www.vldb.org/2027/
   name: VLDB
   note: Cycle 11/12
   place: Athens, Greece
+  program_chair: Katja Hose, Matthias Boehm
   verified: true
   year: 2027
 - abstract_deadline: '2027-02-25'
   date: August 23 - August 27, 2027
   deadline: '2027-03-01'
   description: International Conference on Very Large Data Bases
+  general_chair: Georgia Koutrika, Alkis Simitsis
   link: https://www.vldb.org/2027/
   name: VLDB
   note: Cycle 12/12
   place: Athens, Greece
+  program_chair: Katja Hose, Matthias Boehm
   verified: true
   year: 2027
 - abstract_deadline: null
   date: May 17-21, 2027
   deadline: '2026-11-11'
   description: IEEE International Conference on Data Engineering
+  general_chair: Yongluan Zhou
   link: https://icde2027.github.io/
   name: ICDE
   note: Cycle 2/2
   place: Copenhagen, Denmark
+  program_chair: Christian S. Jensen, Guoliang Li, Li Xiong
   verified: true
   year: 2027

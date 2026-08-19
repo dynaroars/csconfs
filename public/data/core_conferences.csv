@@ -59,3 +59,20 @@ rtss,RTSS,A*,A*,CORE2023,False
 ndss,NDSS,A*,A*,CORE2023,False
 usenix security,USENIX Security,A*,A*,CORE2023,False
 osdi,OSDI,A*,A*,CORE2023,False
+siggraph asia,SIGGRAPH Asia,A*,A*,CORE2023,False
+imc,IMC,A,A,CORE2023,False
+fast,FAST,A,A,CORE2023,False
+iccad,ICCAD,A,A,CORE2023,False
+icfp,ICFP,A,A,CORE2023,False
+usenix atc,USENIX ATC,A,A,CORE2023,False
+iros,IROS,A,A,CORE2023,False
+rtas,RTAS,A,A,CORE2023,False
+naacl,NAACL,A,A,CORE2023,False
+oopsla,OOPSLA,A,A,CORE2023,False
+issta,ISSTA,A,A,CORE2023,False
+hpdc,HPDC,A,A,CORE2023,False
+sigcse ts,SIGCSE TS,A,A,CORE2023,False
+ismb,ISMB,A,A,CORE2023,False
+ismb/eccb,ISMB/ECCB,A,A,CORE2023,False
+eurosys,Eurosys,A,A,CORE2023,False
+cgo,CGO,A,A,CORE2023,False

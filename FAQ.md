@@ -27,36 +27,9 @@ the sources credited below.
 ### Credits
 
 **[CCFDDL / ccf-deadlines](https://github.com/ccfddl/ccf-deadlines)** — a
-community-maintained conference deadline database. CSConfs syncs against it
-weekly to verify and correct submission and abstract deadlines. It covers 66 of
-the 73 conferences tracked here, and where it and our records disagree about a
-deadline, CCFDDL wins. Thanks to its maintainers for keeping it current.
-
-> CCFDDL is MIT licensed:
->
-> ```
-> MIT License
->
-> Copyright (c) 2021 CCFDDL
->
-> Permission is hereby granted, free of charge, to any person obtaining a copy
-> of this software and associated documentation files (the "Software"), to deal
-> in the Software without restriction, including without limitation the rights
-> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-> copies of the Software, and to permit persons to whom the Software is
-> furnished to do so, subject to the following conditions:
->
-> The above copyright notice and this permission notice shall be included in all
-> copies or substantial portions of the Software.
->
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-> SOFTWARE.
-> ```
+community-maintained conference deadline database we occasionally cross-check
+submission and abstract deadlines against. Thanks to its maintainers for
+keeping it current.
 
 **[CSRankings](https://csrankings.org/)** — defines the conference set and the
 research-area tree used by the sidebar filters.

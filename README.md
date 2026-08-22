@@ -1,1 +1,1 @@
-moved to:  cspicks.roars.dev/csconfs.html
+moved to:  https://cspicks.roars.dev/csconfs.html
